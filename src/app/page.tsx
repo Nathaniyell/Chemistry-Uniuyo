@@ -63,6 +63,7 @@ export default function Home() {
             title="head of the department"
             routeLink="/about"
             animateDirection="left"
+            description={"Professor Edu Inam, Head of the Department of Chemistry, welcomes you to the Department of Chemistry, University of Uyo." + "\n" + "Chemistry is a fascinating subject that we are all incredibly passionate about here at University of Uyo. Often referred to as the “central science”, chemistry provides us with a unique perspective of the universe, emerging from the fundamental properties and interactions of atoms and molecules. Learning to control chemical processes enables us to shape the world around us. As the scientific study of the matter that makes up everything around us, chemistry allows us to continually push boundaries of understanding, and to carry out research that advances knowledge and improves lives."}
           />
         </div>
         <aside className="w-full md:w-5/12 lg:w-[32%]">
@@ -70,9 +71,9 @@ export default function Home() {
         spaceBetween={30}
         effect={'fade'}
         autoplay={{
-          delay: 2000,
+          delay: 3000,
         }}
-        modules={[EffectFade]}
+        modules={[EffectFade, Autoplay]}
         className="mySwiper"
       >
         {headOfDepartment.map(item=>(
