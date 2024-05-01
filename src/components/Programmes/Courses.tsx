@@ -178,14 +178,25 @@ const CourseByLevel = ({
             second semester
           </h1>
           {/* smaller screen use div */}
-          <section>
+          <section className="space-y-4 divide-y md:hidden">
             {secondSemesterArray.map((a, i) => (
-              <div key={i}>
+              <div key={i} className="pt-4">
                 <div className="flex gap-1 items-center justify-between">
-                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950">
+                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
                     {a.title}
                   </h1>
-                  <span className="text-sm">{a.code}</span>
+                  <span className="text-sm font-semibold">{a.code}</span>
+                </div>
+
+                <div>
+                  <p>{a.desc}</p>
+                  <p>{a.prerequisite}</p>
+                  <div className="flex justify-between gap-1 items-center">
+                    <span>
+                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                    </span>
+                    <span>{a.semester} semester</span>
+                  </div>
                 </div>
               </div>
             ))}
