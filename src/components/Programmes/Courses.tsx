@@ -147,6 +147,34 @@ const CourseByLevel = ({
           <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl mb-4">
             first semester
           </h1>
+          {/* smaller screen use div */}
+          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
+            {firstSemesterArray.map((a, i) => (
+              <div key={i} className="pt-4 space-y-1">
+                <div className="flex gap-1 items-center justify-between">
+                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
+                    {a.title}
+                  </h1>
+                  <span className="text-sm font-semibold uppercase">
+                    {a.code}
+                  </span>
+                </div>
+
+                <div className="space-y-1">
+                  <p>{a.desc}</p>
+                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
+                  <div className="flex justify-between gap-1 items-center">
+                    <span>
+                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                    </span>
+                    <span>{a.semester} semester</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </section>
+
+          {/* larger screens use table */}
           <table className="w-full overflow-x-auto hidden md:table">
             <thead>
               <tr className="text-left capitalize w-full">
@@ -178,19 +206,21 @@ const CourseByLevel = ({
             second semester
           </h1>
           {/* smaller screen use div */}
-          <section className="space-y-4 divide-y md:hidden">
+          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
             {secondSemesterArray.map((a, i) => (
-              <div key={i} className="pt-4">
+              <div key={i} className="pt-4 space-y-1">
                 <div className="flex gap-1 items-center justify-between">
                   <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
                     {a.title}
                   </h1>
-                  <span className="text-sm font-semibold">{a.code}</span>
+                  <span className="text-sm font-semibold uppercase">
+                    {a.code}
+                  </span>
                 </div>
 
-                <div>
+                <div className="space-y-1">
                   <p>{a.desc}</p>
-                  <p>{a.prerequisite}</p>
+                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
                   <div className="flex justify-between gap-1 items-center">
                     <span>
                       {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
