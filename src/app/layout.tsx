@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       name: "Clever Akanimoh",
     },
   ],
-  metadataBase: new URL("https://chemuniuyo-amber.vercel.sh"),
+  metadataBase: new URL("https://chemuniuyo-amber.vercel.app"),
 };
 
 export default function RootLayout({
