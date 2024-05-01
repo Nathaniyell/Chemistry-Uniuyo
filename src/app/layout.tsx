@@ -8,9 +8,11 @@ export const metadata: Metadata = {
   title: "Welcome to the Department of Chemistry, University of Uyo",
   description: "Browse through our amazing variety of courses",
   authors: [
-    { name: "Nathaniel Essien" },
+    { name: "Nathaniel Essien", url: "" },
+
     {
       name: "Clever Akanimoh",
+      url: "",
     },
   ],
   metadataBase: new URL("https://chemuniuyo-amber.vercel.app"),

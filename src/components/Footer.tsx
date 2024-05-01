@@ -35,8 +35,6 @@ export default function Footer() {
 
   React.useEffect(() => {
     window.onscroll = scrolling;
-
-    return window.removeEventListener("scroll", scrolling);
   }, []);
 
   return (
