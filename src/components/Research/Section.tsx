@@ -1,13 +1,13 @@
-"use client";
-
 import React from "react";
 import { Card, FilterButton, Pagination, Search } from "@/components";
-import { useSearchParams } from "next/navigation";
 
 type SectionProps = {
   type: string;
   filterButtonArray?: string[];
   isPaginated?: boolean;
+  filterby: string;
+  search: string;
+  currentPage: number;
   cardsArray: {
     title: string;
     unit?: string;
@@ -21,30 +21,27 @@ type SectionProps = {
 export default function Section({
   type,
   filterButtonArray,
+  filterby,
+  search,
+  currentPage,
   isPaginated = true,
   cardsArray,
 }: SectionProps) {
-  const searchParams = useSearchParams();
-
-  const filterValue = searchParams.get("filterby");
-  const searchValue = searchParams.get("search");
-
-  const currentPage = Number(searchParams.get("currentPage")) || 1;
   const postsPerPage = 10;
 
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
 
-  const filterArray = searchValue
+  const filterArray = search
     ? cardsArray.filter(
         (c) =>
-          c.title.toLowerCase().includes(searchValue.toLowerCase()) ||
-          c.desc.toLowerCase().includes(searchValue.toLowerCase()) ||
-          c.author.toLowerCase().includes(searchValue.toLowerCase()) ||
-          c.published_at.toLowerCase().includes(searchValue.toLowerCase())
+          c.title.toLowerCase().includes(search.toLowerCase()) ||
+          c.desc.toLowerCase().includes(search.toLowerCase()) ||
+          c.author.toLowerCase().includes(search.toLowerCase()) ||
+          c.published_at.toLowerCase().includes(search.toLowerCase())
       )
-    : filterValue
-    ? cardsArray.filter((c) => c.unit === filterValue)
+    : filterby
+    ? cardsArray.filter((c) => c.unit === filterby)
     : cardsArray;
 
   const displayFilteredCards = filterArray
@@ -80,15 +77,13 @@ export default function Section({
       </div>
 
       <aside className="flex flex-col gap-4 items-center">
-        {searchValue || filterValue ? (
+        {search || filterby ? (
           <p className="text-sm text-center mb-3">
             showing {filterArray.length} search{" "}
             {filterArray.length < 2 ? "result" : "results"} out of{" "}
             {cardsArray.length} {type}s
           </p>
-        ) : (
-          ""
-        )}
+        ) : null}
 
         <aside className="grid gap-6 gap-y-8 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           {displayFilteredCards}

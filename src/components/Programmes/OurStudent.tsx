@@ -27,21 +27,21 @@ type MeetProps = {
 export default function Meet({ array, Icon, heading, duration }: MeetProps) {
   return (
     <Div className="self-start group h-full bg-blue-50 flex-col overflow-hidden">
-      <Div className="bg-white w-full items-center group-hover:shadow">
+      <Div className="bg-white w-full items-center hover:ring-1">
         <Icon className="h-6 text-xl bg-secondary rounded-full p-1 text-white" />
         <h3 className="capitalize font-bold">{heading}</h3>
       </Div>
-      <Div className="h-68 bg-white group-hover:shadow overflow-hidden">
+      <Div className="h-68 bg-white hover:ring-1 overflow-hidden">
         {array ? (
           <Swiper
-            // centeredSlides
+            centeredSlides
             loop
             autoplay={{
-              delay: 5000,
+              delay: 4000,
               pauseOnMouseEnter: true,
               disableOnInteraction: true,
             }}
-            speed={2500}
+            speed={1500}
             spaceBetween={10}
             modules={[Autoplay, Pagination, EffectCreative, EffectCards]}
             className="w-full h-full"

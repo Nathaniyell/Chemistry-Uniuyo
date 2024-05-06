@@ -7,6 +7,15 @@ import "../styles/globals.css";
 export const metadata: Metadata = {
   title: "Welcome to the Department of Chemistry, University of Uyo",
   description: "Browse through our amazing variety of courses",
+  authors: [
+    { name: "Nathaniel Essien", url: "" },
+
+    {
+      name: "Clever Akanimoh",
+      url: "",
+    },
+  ],
+  metadataBase: new URL("https://chemuniuyo-amber.vercel.app"),
 };
 
 export default function RootLayout({
@@ -15,10 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${lusitana.variable} font-serif`}
-    >
+    <html lang="en" className={`${lusitana.variable} font-serif`}>
       <Providers>
         <body className="scroll-smooth w-full overflow-x-hidden">
           <NavBar />
