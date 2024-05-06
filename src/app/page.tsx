@@ -93,7 +93,31 @@ export default function Home() {
           </div>
         </aside>
       </section>
-
+      <section className="bg-white px-4 pt-12">
+        <h5 className="text-center text-primary md:w-1/3 lg:w-[25%] mx-auto border-l-secondary border-l-4 capitalize font-bold text-2xl">
+          Why study Chemistry?
+        </h5>
+        <div className="my-6 md:w-5/6 mx-auto">
+          <p className="text-blue-900">
+            <span className="text-lg text-secondary">Chemistry</span> is the
+            study of matter; its composition, property and uses. Essentially{" "}
+            <span className="text-lg text-secondary">Chemistry</span> is a
+            central science course and father of all sciences; it has many
+            industrial and societal applications - From concocting life-saving
+            medicines to formulating sustainable materials,{" "}
+            <span className="text-lg text-secondary">
+              <span className="text-lg text-secondary">Chemistry</span>
+            </span>{" "}
+            is the unsung hero behind numerous industrial marvels. Want to
+            understand climate change or figure out how to make cleaner energy
+            sources? <span className="text-lg text-secondary">Chemistry</span>{" "}
+            has the answers.
+          </p>
+        </div>
+      </section>
+      <section className="">
+        {/* <Image src={} alt="" /> */}
+      </section>
       <section className="bg-sky-100 w-11/12 mx-auto p-6 mt-5">
         <h5 className="text-center text-primary md:w-1/3 lg:w-[22%] mx-auto border-l-secondary border-l-4 uppercase font-bold text-2xl">
           Meet our Staff
@@ -118,29 +142,7 @@ export default function Home() {
           <Link href="/staff/teach-staff" className="text-xl">More about our staff</Link>
         </Button>
       </section>
-      <section className="bg-white px-4 pt-12">
-        <h5 className="text-center text-primary md:w-1/3 lg:w-[25%] mx-auto border-l-secondary border-l-4 capitalize font-bold text-2xl">
-          Why study Chemistry?
-        </h5>
-        <div className="my-6 md:w-5/6 mx-auto">
-          <p className="text-blue-900">
-            <span className="text-lg text-secondary">Chemistry</span> is the
-            study of matter; its composition, property and uses. Essentially{" "}
-            <span className="text-lg text-secondary">Chemistry</span> is a
-            central science course and father of all sciences; it has many
-            industrial and societal applications - From concocting life-saving
-            medicines to formulating sustainable materials,{" "}
-            <span className="text-lg text-secondary">
-              <span className="text-lg text-secondary">Chemistry</span>
-            </span>{" "}
-            is the unsung hero behind numerous industrial marvels. Want to
-            understand climate change or figure out how to make cleaner energy
-            sources? <span className="text-lg text-secondary">Chemistry</span>{" "}
-            has the answers.
-          </p>
-        </div>
-      </section>
-
+    
       {/* <section className="bg-sky-100 container w-11/12 mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row mt-5">
         <Swiper
           effect={"cards"}
