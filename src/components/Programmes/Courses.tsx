@@ -108,7 +108,7 @@ const CourseByLevel = ({
       courses: e.target.value,
     });
 
-    // const totalFirstCh = firstSemesterArray.reduce((prev, curr) => {})
+  // const totalFirstCh = firstSemesterArray.reduce((prev, curr) => {})
 
   return (
     <Div className="bg-white flex-col justify-center gap-y-0 overflow-hidden">
@@ -147,7 +147,35 @@ const CourseByLevel = ({
           <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl mb-4">
             first semester
           </h1>
-          <table className="w-full overflow-x-auto">
+          {/* smaller screen use div */}
+          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
+            {firstSemesterArray.map((a, i) => (
+              <div key={i} className="pt-4 space-y-1">
+                <div className="flex gap-1 items-center justify-between">
+                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
+                    {a.title}
+                  </h1>
+                  <span className="text-sm font-semibold uppercase">
+                    {a.code}
+                  </span>
+                </div>
+
+                <div className="space-y-1">
+                  <p>{a.desc}</p>
+                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
+                  <div className="flex justify-between gap-1 items-center">
+                    <span>
+                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                    </span>
+                    <span>{a.semester} semester</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </section>
+
+          {/* larger screens use table */}
+          <table className="w-full overflow-x-auto hidden md:table">
             <thead>
               <tr className="text-left capitalize w-full">
                 <th className="text-center">S/N</th>
@@ -177,7 +205,35 @@ const CourseByLevel = ({
           <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl my-4">
             second semester
           </h1>
-          <table className="w-full">
+          {/* smaller screen use div */}
+          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
+            {secondSemesterArray.map((a, i) => (
+              <div key={i} className="pt-4 space-y-1">
+                <div className="flex gap-1 items-center justify-between">
+                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
+                    {a.title}
+                  </h1>
+                  <span className="text-sm font-semibold uppercase">
+                    {a.code}
+                  </span>
+                </div>
+
+                <div className="space-y-1">
+                  <p>{a.desc}</p>
+                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
+                  <div className="flex justify-between gap-1 items-center">
+                    <span>
+                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                    </span>
+                    <span>{a.semester} semester</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </section>
+
+          {/* larger screens use table */}
+          <table className="w-full hidden md:table">
             <thead>
               <tr className="text-left capitalize">
                 <th className="text-center">S/N</th>

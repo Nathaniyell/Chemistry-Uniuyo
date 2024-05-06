@@ -36,7 +36,7 @@ const Pagination = ({
 
   const totalPages = Math.ceil(totalPosts / postPerPage);
 
-  const pages = generatePagination(currentPage, totalPages);
+  const pages = generatePagination(currentPage ?? 1, totalPages);
 
   const renderPaginationButtons = pages.map((page, index) => {
     let position: "first" | "last" | "single" | "middle" | undefined;
@@ -75,12 +75,12 @@ const Pagination = ({
         handlePaginate(1);
       }
     },
-    800
+    300
   );
 
   return (
     <>
-      <div className="inline-flex">
+      <div className="inline-flex items-center justify-center w-full">
         <PaginationArrow
           direction="left"
           href={handlePaginate(currentPage - 1)}
@@ -90,15 +90,16 @@ const Pagination = ({
         {true ? (
           <div className="flex -space-x-px">{renderPaginationButtons}</div>
         ) : (
-          <div>
+          <div className="flex gap-1">
             <input
               type="text"
               title="highlight text before input"
               defaultValue={currentPage}
               onChange={handleInputChange}
               className="w-10 h-auto text-center rounded-lg bg-transparent border border-red-50 hover:border-current focus:border-orange-500 focus:outline-0 transition-all duration-300"
-            />{" "}
-            / <span title="total pages">{totalPages}</span>
+            />
+            <span>/</span>
+            <span title="total pages">{totalPages}</span>
           </div>
         )}
 
@@ -126,15 +127,14 @@ function PaginationNumber({
   isActive: boolean;
 }) {
   const className = clsx(
-    "flex h-10 w-10 items-center justify-center text-sm border",
+    "flex size-10 sm:size-8 items-center justify-center text-sm border transition-colors duration-300",
     {
-      "rounded-l-md": position === "first" || position === "single",
-      "rounded-r-md": position === "last" || position === "single",
-      "z-10 bg-orange-500 border-orange-500 text-white": isActive,
-      "hover:bg-orange-200 dark:hover:bg-gray-800 border-orange-200 dark:border-gray-800":
+      "rounded-l-full": position === "first" || position === "single",
+      "rounded-r-full": position === "last" || position === "single",
+      "z-10 bg-orange-600 border-orange-600 text-white": isActive,
+      "hover:bg-orange-200 border-orange-100":
         !isActive && position !== "middle",
-      "text-black dark:text-gray-300 opacity-40 border-orange-200 dark:border-gray-800":
-        position === "middle",
+      "text-black opacity-40 border-orange-200": position === "middle",
     }
   );
 
@@ -157,10 +157,9 @@ function PaginationArrow({
   isDisabled?: boolean;
 }) {
   const className = clsx(
-    "flex h-10 w-10 items-center justify-center rounded-md border dark:hover:bg-gray-800 dark:hover:bg-gray-800 border-orange-200 dark:border-gray-800",
+    "flex size-8 items-center justify-center rounded-full border border-orange-200 transition-colors duration-300",
     {
-      "pointer-events-none text-gray-300 opacity-60 dark:opacity-30":
-        isDisabled,
+      "pointer-events-none text-gray-300 opacity-60": isDisabled,
       "hover:bg-orange-50 opacity-100": !isDisabled,
       "mr-2 md:mr-4": direction === "left",
       "ml-2 md:ml-4": direction === "right",
@@ -169,9 +168,9 @@ function PaginationArrow({
 
   const icon =
     direction === "left" ? (
-      <ArrowLeftIcon className="w-4" />
+      <ArrowLeftIcon className="w-3.5" />
     ) : (
-      <ArrowRightIcon className="w-4" />
+      <ArrowRightIcon className="w-3.5" />
     );
 
   return isDisabled ? (

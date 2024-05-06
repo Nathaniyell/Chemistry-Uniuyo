@@ -1,9 +1,0 @@
-/                                    30.9 kB         171 kB
-├ ○ /_not-found                          0 B                0 B
-├ ○ /about                               156 B          80.6 kB
-├ ○ /programmes/postgraduate             156 B          80.6 kB
-├ ○ /programmes/undergraduate            156 B          80.6 kB
-├ ○ /research                            667 B           141 kB
-├ ○ /resources                           156 B          80.6 kB
-├ ○ /staff/teach-staff                   156 B          80.6 kB
-└ ○ /staff/tech-staff
