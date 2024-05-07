@@ -13,7 +13,7 @@ import student6 from "../../public/images/CHMs6.webp";
 import staff1 from "../../public/images/staff3.webp";
 import staff2 from "../../public/images/staff2.webp";
 import staff4 from "../../public/images/staff1.webp";
-import staff5 from "../../public/images/Dr.IniUmoren.jpg";
+import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
 import staff6 from "../../public/images/staff11.webp";
 import staff7 from "../../public/images/staff12.webp";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
@@ -55,29 +55,33 @@ export const studentsData = [
 export const homeStaffData = [
   {
     image: emmanuelEssien,
-    name: "Dr. Emmanuel Essien",
+    title: "Dr.", 
+    name: "Emmanuel Essien",
     desc: "Organic Chemistry",
   },
   {
     image: helenEtuk,
-    name: "Dr. Helen Etuk",
+    title: "Dr.", 
+    name: "Helen Etuk",
     desc: "Inorganic Chemistry",
   },
 
   {
     image: staff2,
-    name: "Dr. Shaibu Solomon",
+    title: "Dr.", 
+    name: "Shaibu Solomon",
     desc: "Environmental Chemistry",
   },
 
   //     {
   //         image: staff4,
-  //        name:"Dr. Ekerette Jackson",
+  //     name:"Dr. Ekerette Jackson",
   //         desc:"Physical Chemistry",
   // },
   {
     image: staff5,
-    name: "Dr. Iniobong Umoren",
+    title: "Dr.", 
+    name: "Iniobong Umoren",
     desc: "Analytical Chemistry",
   },
 ];

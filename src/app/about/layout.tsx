@@ -38,6 +38,27 @@ export default function AboutLayout({
   ];
   return (
     <main className="min-h-screen">
+      <div className="flex flex-col md:flex-row justify-between md:w-[95%] w-11/12 mx-auto mb-8">
+        <nav className="w-full flex items-center justify-between md:w-1/6 p-2 md:block">
+          {aboutNavLinks.map((link, index) => {
+            const isActive = pathName === link.link;
+
+            return (
+              <Link
+                key={index}
+                href={link.link}
+                className={`text-blue-700 cursor-pointer my-3 p-2 transition-colors ease-in-out block ${
+                  isActive ? "border-2 border-blue-700" : "border-2"
+                }`}
+              >
+                {link.title}
+              </Link>
+            );
+          })}
+        </nav>
+
+        {children}
+      </div>
       <div className="flex flex-col md:flex-row justify-between items-center p-4 bg-slate-50 relative">
         <div className="w-full md:w-1/2 bg-inherit mb-4 md:mb-0">
           <h1 className="text-3xl text-center font-extrabold text-primary my-2">
@@ -166,27 +187,7 @@ export default function AboutLayout({
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between md:w-[95%] w-11/12 mx-auto mb-8">
-        <nav className="w-full flex items-center justify-between md:w-1/6 p-2 md:block">
-          {aboutNavLinks.map((link, index) => {
-            const isActive = pathName === link.link;
-
-            return (
-              <Link
-                key={index}
-                href={link.link}
-                className={`text-blue-700 cursor-pointer my-3 p-2 transition-colors ease-in-out block ${
-                  isActive ? "border-2 border-blue-700" : "border-2"
-                }`}
-              >
-                {link.title}
-              </Link>
-            );
-          })}
-        </nav>
-
-        {children}
-      </div>
+      
     </main>
   );
 }

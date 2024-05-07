@@ -15,21 +15,14 @@ export default function Page({ params }: { params: { slug: string } }) {
   const handleGoBack = () => {
     router.push("/staff/teach-staff", { scroll: false }); //scroll: false returns to the top of the new page you are visiting
   };
-  // Use the id directly as an index
   const lecturerFullName = params.slug;
+  console.log(lecturerFullName)
+  const filteredLecturerData = staffData.filter((staff) => staff?.fullName === lecturerFullName.replaceAll("-", " "))[0]
 
-  // Find the index of the lecturer with the matching fullName
-  const lecturerIndex = staffData.findIndex(
-    (lecturer) => lecturer.fullName === lecturerFullName
-  );
-
-  // Check if the lecturer is not found
-  if (lecturerIndex === -1) {
-    return <div>Lecturer not found</div>;
-  }
   if (
-    !staffData[lecturerIndex].email ||
-    staffData[lecturerIndex].email.length === 0
+     filteredLecturerData?.email?.length === 0 || filteredLecturerData.fullName === " "
+
+    // ||   staffData.email.length === 0
   ) {
     return (
       <div className="min-h-screen flex flex-col gap-8 items-center justify-center text-red-600 text-xl">
@@ -45,9 +38,8 @@ export default function Page({ params }: { params: { slug: string } }) {
       </div>
     );
   }
-
-  // Access the array using the index
-  const singleLecturer = staffData[lecturerIndex];
+console.log(filteredLecturerData)
+ 
   const {
     title,
     fullName,
@@ -66,35 +58,35 @@ export default function Page({ params }: { params: { slug: string } }) {
     orcid,
     scopus,
     linkedIn,
-  } = singleLecturer;
-  const formattedName = fullName.split("-").join(" ");
+  } = filteredLecturerData;
+  
   return (
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-16">
         <nav className="py-8 text-zinc-700 flex items-center gap-2">
           <Link
-            className="underline text-blue-700 cursor-pointer"
+            className="underline text-blue-700z cursor-pointer"
             href="/staff/teach-staff"
             style={{ display: "block" }}
           >
             Back
           </Link>
           <span className="text-lg">&gt;</span>
-          <p className="capitalize">{formattedName}</p>
+          <p className="capitalize">{fullName}</p>
         </nav>
         <section className="">
           <div className="flex flex-col md:flex-row w-full gap-6 lg:gap-12 bg-white rounded-lg shadow-md md:p-4">
             <div className="w-full md:self-startmd:w-3/5 mx-auto lg:w-[50%]">
-              {/* {image.type === <Image src={image} alt={formattedName} />} */}
+              {/* {image.type === <Image src={image} alt={fullName} />} */}
               {Array.isArray(image) ? (
-                <Image src={image[1]} alt={formattedName} />
+                <Image src={image[1]} alt={fullName} />
               ) : (
-                <Image src={image} alt={formattedName} />
+                <Image src={image} alt={fullName} />
               )}
             </div>
             <div className="text-zinc-700 font-normal text-base w-full flex flex-col gap-10 md:p-0 p-4 lg:w-[50%]">
               <h1 className="capitalize font-bold text-3xl text-blue-800">
-                {title + " " + formattedName}
+                {title + " " + fullName}
               </h1>
               <div className="flex flex-col lg:flex-row items-start justify-between lg:w-11/12 gap-8">
                 <div className="lg:w-4/5">
@@ -111,8 +103,8 @@ export default function Page({ params }: { params: { slug: string } }) {
                 {website.length !== 0 && (
                   <a
                     href={website}
-                    target="_black"
-                    className="flex items-center justify-between bg-gray-700 hover:bg-gray-800 transition-all duration-150 px-4 py-2 text-center text-white rounded-md shadow gap-2 lg:mx-auto mb-2 md:mb-0"
+                    target="_blank"
+                    className="flex items-center justify-between bg-white border border-gray-400 hover:bg-gray-800 transition-all duration-150 px-4 py-2 text-center text-slate-800 hover:text-white rounded-md shadow gap-2 lg:mx-auto mb-2 md:mb-0 ease-linear"
                   >
                     Website <MdArrowOutward className="text-xl self-start" />
                   </a>
@@ -158,7 +150,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 >
                   <span className="flex items-center capitalize font-bold text-primary">
                     <FaLinkedin className="inline text-xl mr-1" />
-                    {formattedName}
+                    {fullName}
                   </span>
                 </a>
               </div>
@@ -226,6 +218,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 Experience
               </h4>
               <table className="text-zinc-700">
+                <tbody>
                 <tr className="text-left text-[17px]">
                   <th className="p-1 md:p-2">Year</th>
                   <th className="p-1 md:p-2">Title</th>
@@ -240,6 +233,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                     </tr>
                   );
                 })}
+                </tbody>
               </table>
             </div>
 
@@ -249,6 +243,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                   Selected Awards
                 </h4>
                 <table className="text-zinc-700">
+                  <tbody>
                   <tr className="text-left text-[17px]">
                     <th className="p-1 md:p-2">Year</th>
                     {/* <th className="p-2" colSpan={1}>
@@ -274,6 +269,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                       </td>
                     </tr>
                   )}
+                  </tbody>
                 </table>
               </div>
             </section>
@@ -282,6 +278,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 Research Collaborators
               </h4>
               <table className="text-zinc-700">
+              <tbody>
                 <tr className="text-left text-[17px]">
                   <th className="p-1 md:p-2">Title</th>
                   <th className="p-1 md:p-2">Collaborator</th>
@@ -307,6 +304,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                     </td>
                   </tr>
                 )}
+                </tbody>
               </table>
             </aside>
             <div className="text-zinc-700">

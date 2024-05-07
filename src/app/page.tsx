@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import Image from "next/image";
-import eduInam from "../../public/images/eduinam4.jpg";
+import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/profInam2.jpg";
 import homeData, { studentsData, homeStaffData } from "../lib/data";
 import { HomepageSlider } from "@/components";
@@ -139,7 +139,9 @@ export default function Home() {
                 <Lecturers
                   name={staff.name}
                   image={staff.image}
+                  title={staff.title}
                   desc={staff.desc}
+                  href={staff.name}
                 />
               </div>
             );

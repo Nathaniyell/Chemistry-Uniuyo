@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import eduInam from "../../../public/images/eduinam4.jpg";
+import eduInam from "../../../public/images/teachingstaff/eduinam4.jpg";
 
 export default function Home() {
   return (

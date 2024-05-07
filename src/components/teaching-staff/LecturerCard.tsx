@@ -7,14 +7,14 @@ import Link from "next/link";
 export type LecturerCardProps = {
   title: string;
   portfolio: string;
-  id: number;
+  id: string;
 };
 
 const LecturerCard = ({ title, portfolio, id }: LecturerCardProps) => {
 
 
   return (
-    <Link href={`/staff/teach-staff/${id}`} passHref>
+    <Link href={`/staff/teach-staff/${id.replaceAll(" ", "-")}`} passHref>
     <div className="border-b-2 pb-2 border-blue-200 md:border-b-0">
       <div className="flex items-start gap-3 md:border-r-2 pr-3 border-blue-200">
         <Image src={placeH} alt={title} className="w-2/5" />

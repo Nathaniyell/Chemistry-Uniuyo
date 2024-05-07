@@ -1,16 +1,16 @@
-import eduInam from "../../public/images/eduinam4.jpg";
-import profInam from "../../public/images/prof-inam.jpg";
-import shaibu from "../../public/images/shaibuSE.jpg";
+import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
+import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
+import shaibu from "../../public/images/teachingstaff/shaibuSE.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg"
-import iniUmoren from "../../public/images/Dr.IniUmoren.jpg";
-import iniUmoren2 from "../../public/images/iniUmoren1.jpg";
+import iniUmoren from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
+import iniUmoren2 from "../../public/images/teachingstaff/iniUmoren1.jpg";
 import boEkom from "../../public/images/staff1.webp";
-import imaobong from "../../public/images/Dr.Imaobong.jpg"
-import imaobong2 from "../../public/images/imaobong2.jpg"
-import imaobong3 from "../../public/images/imaobong3.jpg"
-import itoroUdoh from "../../public/images/Dr.itoro.jpg"
-import itoroUdoh2 from "../../public/images/itoro1.jpg"
+import imaobong from "../../public/images/teachingstaff/Dr.Imaobong.jpg"
+import imaobong2 from "../../public/images/teachingstaff/imaobong2.jpg"
+import imaobong3 from "../../public/images/teachingstaff/imaobong3.jpg"
+import itoroUdoh from "../../public/images/teachingstaff/Dr.itoro.jpg"
+import itoroUdoh2 from "../../public/images/teachingstaff/itoro1.jpg"
 import { StaticImageData } from "next/image";
 export interface Experience {
   title: string;
@@ -56,7 +56,7 @@ const staffData: Lecturer[] = [
   {
     image: [profInam, eduInam],
     title: "Professor",
-    fullName: "edu-inam",
+    fullName: "edu inam",
     email: ["eduinam@uniuyo.edu.ng", "iceesr@uniuyo.edu.ng"],
     googleScholar:
       "https://scholar.google.com/citations?user=6FeL-4YAAAAJ&hl=en",
@@ -244,7 +244,7 @@ const staffData: Lecturer[] = [
   {
     image: shaibu,
     title: "Dr.",
-    fullName: "solomon-shaibu",
+    fullName: "solomon shaibu",
     email: "shaibusolomon@uniuyo.edu.ng",
     googleScholar:
       "https://scholar.google.com/citations?user=EvhkVpYAAAAJ&hl=en&oi=ao",
@@ -352,7 +352,7 @@ const staffData: Lecturer[] = [
   {
     image: helenEtuk,
     title: "Dr.",
-    fullName: "helen-etuk",
+    fullName: "helen etuk",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -392,7 +392,7 @@ const staffData: Lecturer[] = [
   {
     image: emmanuelEssien,
     title: "Dr.",
-    fullName: "emmanuel-essien",
+    fullName: "emmanuel essien",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -432,7 +432,7 @@ const staffData: Lecturer[] = [
   {
     image: [imaobong, imaobong2, imaobong3],
     title: "Dr.",
-    fullName: "imaobong-daniel",
+    fullName: "imaobong daniel",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -472,7 +472,7 @@ const staffData: Lecturer[] = [
   {
     image: boEkom,
     title: "Dr.",
-    fullName: "ekerette-jackson",
+    fullName: "ekerette jackson",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -512,7 +512,7 @@ const staffData: Lecturer[] = [
   {
     image: [iniUmoren, iniUmoren2],
     title: "Dr.",
-    fullName: "iniobong-umoren",
+    fullName: "iniobong umoren",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -552,7 +552,7 @@ const staffData: Lecturer[] = [
     {
     image: [itoroUdoh, itoroUdoh2],
     title: "Dr.",
-    fullName: "itoro-udoh",
+    fullName: "itoro udoh",
     email: [],
     googleScholar: "",
     scopus: "",

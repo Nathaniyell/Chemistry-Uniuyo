@@ -8,7 +8,7 @@ export default function TeachingStaffPage() {
   const router = useRouter();
 
   const handleStaffClick = (fullName: string) => {
-    router.push(`/staff/teach-staff/${fullName}`);
+    router.push(`/staff/teach-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`);
   };
 
   return (
@@ -27,7 +27,7 @@ export default function TeachingStaffPage() {
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
             ({ fullName, title, image, unit, experience }, index) => {
-              const formattedName = fullName.split("-").join(" ");
+              ;
               return (
                 <div
                   onClick={() => handleStaffClick(fullName)}
@@ -51,7 +51,7 @@ export default function TeachingStaffPage() {
                   </div>
                   <div className="p-2 mt-2 grid grid-cols-1 gap-2 ">
                     <h2 className="text-xl text-blue-800 font-bold mb-1 capitalize">
-                      {title + " " + formattedName}
+                      {title + " " + fullName}
                     </h2>
                     <p className="text-zinc-700 text-[17px]">
                       {experience[0].title}
