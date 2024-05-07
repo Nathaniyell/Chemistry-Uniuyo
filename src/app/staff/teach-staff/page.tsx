@@ -27,7 +27,35 @@ export default function TeachingStaffPage() {
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
             ({ fullName, title, image, unit, experience }, index) => {
-              ;
+              let bgColor
+              switch (unit) {
+                case "Organic":
+                  bgColor = "bg-amber-300";
+                  break;
+                case "Inorganic":
+                  bgColor = "bg-slate-300";
+                  break;
+                case "Environmental":
+                  bgColor = "bg-green-300";
+                  break;
+                case "Analytical":
+                  bgColor = "bg-orange-300";
+                  break;
+                case "Analytical":
+                  bgColor = "bg-fuchsia-300";
+                  break;
+                case "Environmental / Analytical":
+                  bgColor = "bg-emerald-300";
+                  break;
+                case "Physical":
+                  bgColor = "bg-stone-300";
+                  break;
+                case "Physical":
+                  bgColor = "bg-neutral-300";
+                  break;
+                default:
+                  bgColor = "bg-sky-300";
+              }
               return (
                 <div
                   onClick={() => handleStaffClick(fullName)}
@@ -57,7 +85,7 @@ export default function TeachingStaffPage() {
                       {experience[0].title}
                     </p>
 
-                    <p className="text-gray-700">{unit}</p>
+                    <p className={`text-gray-700 text-sm shadow rounded p-2 text-center my-2 w-fit ${bgColor}`}>{unit} {" "}Chemistry</p>
                   </div>
                 </div>
               );

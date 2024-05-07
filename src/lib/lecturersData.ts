@@ -69,7 +69,7 @@ const staffData: Lecturer[] = [
     orcid: "https://orcid.org/0000-0002-2799-6560",
     website: "http://www.iceesr.org.ng/",
     linkedIn: "https://www.linkedin.com/in/edu-inam-bb15b68b/",
-    unit: "Environmental / Analytical Chemistry",
+    unit: "Environmental / Analytical",
     officeNo: "Room 152",
     profile:
       "Edu Inam is an experienced and ambitious academic of the rank of a professor in analytical and environmental chemistry, with over 20 years in the university system across Africa, Europe and Asia. Edu Inam is very passionate about STEM education and the advancement of research and innovation in her country. She has championed and participated in several key research and innovation projects focused on environmental sustainability issues including water resources management, waste valorisation, and renewable energy. Edu Inam has extensive experience in environmental monitoring and analysis, pollution, ecological and human health risk, environmental projects design, data interpretation and compliance-related issues. She has clarity in communications, strong leadership qualities honed by experiences gathered from the various leadership roles undertaken during her academic career. Edu Inam is also passionate about developing young talents – She has over the years consistently inspired her students to reach their potentials",
@@ -257,7 +257,7 @@ const staffData: Lecturer[] = [
     orcid: "https://orcid.org/0000-0002-5845-4238",
     website: "",
     linkedIn: "https://www.linkedin.com/in/solomon-s-3971b290/",
-    unit: "Environmental / Analytical Chemistry",
+    unit: "Environmental / Analytical",
     officeNo: "Room 30",
 
     profile: "",
@@ -364,7 +364,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Analytical Chemistry",
+    unit: "Analytical",
     officeNo: "",
 
     profile: "",
@@ -404,14 +404,14 @@ const staffData: Lecturer[] = [
     orcid: "https://orcid.org/0000-0003-3227-7656",
     website: "",
     linkedIn: "",
-    unit: "Analytical Chemistry (Head of Unit)",
+    unit: "Analytical",
     officeNo: "Room 004",
 
     profile: "Imaobong Udousoro (PhD), an Associate Professor of analytical and environmental chemistry, specialises in investigating elemental composition within diverse ecological matrices, including air, soil, sediment, water, foods, plants, and herbal medicinal plants, addressing associated health and environmental risks. Her work also involves using biological indicators of pollution to monitor air and soil quality. Her most recent research on Space Technology combined with conventional analytical techniques in environmental pollution and degradation of the coastal area is ongoing.",
     experience: [
       {
-        title: "",
-        year: "",
+        title: "Associate Professor of Chemistry",
+        year: "2015 - Date",
       },
     ],
     awards: [
@@ -505,7 +505,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Inorganic Chemistry",
+    unit: "Inorganic",
     officeNo: "",
 
     profile: "",
@@ -545,7 +545,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Organic Chemistry",
+    unit: "Organic",
     officeNo: "",
 
     profile: "",
@@ -585,7 +585,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Organic Chemistry",
+    unit: "Organic",
     officeNo: "",
 
     profile: "",
@@ -625,7 +625,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Physical Chemistry",
+    unit: "Physical",
     officeNo: "",
 
     profile: "",
@@ -666,7 +666,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Analytical Chemistry",
+    unit: "Analytical",
     officeNo: "",
 
     profile: "",
@@ -706,7 +706,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Industrial Chemistry",
+    unit: "Industrial",
     officeNo: "",
 
     profile: "",
@@ -746,7 +746,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Inorganic Chemistry",
+    unit: "Inorganic",
     officeNo: "",
 
     profile: "",
@@ -786,7 +786,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Inorganic Chemistry",
+    unit: "Inorganic",
     officeNo: "",
 
     profile: "",
@@ -826,7 +826,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Inorganic Chemistry",
+    unit: "Inorganic",
     officeNo: "",
 
     profile: "",
