@@ -11,6 +11,11 @@ import imaobong2 from "../../public/images/teachingstaff/imaobong2.jpg"
 import imaobong3 from "../../public/images/teachingstaff/imaobong3.jpg"
 import itoroUdoh from "../../public/images/teachingstaff/Dr.itoro.jpg"
 import itoroUdoh2 from "../../public/images/teachingstaff/itoro1.jpg"
+import nSimon from "../../public/images/teachingstaff/Dr. Simon.jpg"
+import atimJohnson from "../../public/images/teachingstaff/Dr. Johnson.jpg"
+import godwinEbong from "../../public/images/teachingstaff/Dr. Ebong.jpg"
+import profEnoMoses from "../../public/images/teachingstaff/prof_eno-moses.jpg"
+import imaUdousoro from "../../public/images/teachingstaff/Dr. ImaobongUdousoro.jpg"
 import { StaticImageData } from "next/image";
 export interface Experience {
   title: string;
@@ -350,6 +355,147 @@ const staffData: Lecturer[] = [
     ],
   },
   {
+    image: [profEnoMoses],
+    title: "Professor",
+    fullName: "Eno Moses",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Analytical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [imaUdousoro],
+    title: "Dr.",
+    fullName: "Imaobong Udousoro",
+    email: ["imaobongudousoro@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=u_jYZ4sAAAAJ",
+    scopus: "",
+    orcid: "https://orcid.org/0000-0003-3227-7656",
+    website: "",
+    linkedIn: "",
+    unit: "Analytical Chemistry (Head of Unit)",
+    officeNo: "Room 004",
+
+    profile: "Imaobong Udousoro (PhD), an Associate Professor of analytical and environmental chemistry, specialises in investigating elemental composition within diverse ecological matrices, including air, soil, sediment, water, foods, plants, and herbal medicinal plants, addressing associated health and environmental risks. Her work also involves using biological indicators of pollution to monitor air and soil quality. Her most recent research on Space Technology combined with conventional analytical techniques in environmental pollution and degradation of the coastal area is ongoing.",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "TETFUND IBR Grant",
+        awarder: "Tertiary Education Fund (TETFUND)",
+        year: "2024",
+      },
+      {
+        type: "Meritorious Award of Honour for outstanding contribution to the success of the student union. ",
+        awarder: "The Student Union Governments, University of Uyo, Uyo (Wisdom Emmanuel led Exco).",
+        year: "November 22, 2022",
+      },
+      {
+        type: "Award of Excellence for outstanding contributions to the Students' Chemical Society of Nigeria (National) at the 10th Annual National/International Conference, Uyo.",
+        awarder: "Students' Chemical Society of Nigeria (National) - Adewumi Samuel S. led Exco.",
+        year: "April 03, 2009",
+      },
+      {
+        type: "TETFUND Conference Grant",
+        awarder: "Tertiary Education Fund (TETFUND)",
+        year: "2016",
+      },
+      {
+        type: "TETFUND Conference Grant",
+        awarder: "Tertiary Education Fund (TETFUND)",
+        year: "2015",
+      },
+      {
+        type: "Research grant",
+        awarder: "International Foundation for Science (IFS)",
+        year: "1996",
+      },
+    ],
+    researchAreas: ["E-waste characterisation and impact on the environment", "Assessment and monitoring of contaminants in the aquatic environment, soils and plants, health/ecological risk assessment and pollution indicators. ","Assessing the health risks of toxic elements in foods."],
+    researchCollaborators: [
+      {
+        title: "Collaborative studies with Butler University - 2018 - Date",
+        collaborator: "The Department of Chemistry, Butler University, Indianapolis, Indiana, USA",
+      },
+      {
+        title: "Collaborative studies on Herbal supplements - natural and processed - 2016 - Date",
+        collaborator: "The Department of Chemistry, Butler University, Indianapolis, Indiana, USA",
+      },
+      {
+        title: "Collaborative studies on Contaminants in grains food - 2019 - Date",
+        collaborator: "The Department of Agriculture and Environmental Sciences, Lincoln University in Missouri, Jefferson City, USA",
+      },
+     
+    ],
+    publications: [
+      {
+        title: "Ikem, A., Odumosu, P. & Udousoro, I. (2023). Elemental composition of cereal grains and the contribution to the dietary intake in the Nigerian population. Journal of Food Composition and Analysis, 118: 105207. https://doi.org/10.1016/j.jfca.2023.105207 (USA)",
+      },
+      {
+        title: "Udousoro, I. I., Otong, E. J. & Ebiekpi, I. E. (2019). Health risks associated with consumption of antinutrients and elevated heavy metals level in leafy vegetables marketed in Uyo, Akwa Ibom State. World Journal of Applied Science and Technology, 1(1): 8-16. (Nigeria)",
+      },
+      {
+        title: "Udoh, A. P., Udousoro, I. I. & Sunday, I. U. (2019). Some aspects of the nutritional properties of the seed and raw seed oil of Hura crepitans. Nigerian Journal of Chemical Research, 24(2): 15-25. (African Journal online - Nigeria)",
+      },
+      {
+        title: "Udousoro, I. I., Udo, E. S., Udoh, A. P. & Udoanya, E. E. (2018). Proximate and antinutrients compositions and health risk assessment of toxic metals in some edible vegetables. Nigerian Journal of Chemical Research, 23(2): 51-62. (African Journal online - Nigeria)",
+      },
+      {
+        title: "Udousoro, I. I., Offiong, N.O. & Abraham, E. M. (2018). Bioaccumulation and health risk of trace elements in shellfish and their leachates from two coastal areas of Nigeria. International Journal of Development and Sustainability, 7(4): 1474-1494. (Japan) ",
+      },
+      {
+        title: "Wilson, I. S., Udoh, A. P. & Udousoro, I. I. (2018). Nutritionally and medicinally important compounds in the flower of Xanthosoma sagittifolium (L) SCHOTT (yellow flesh cultivar). Annals. Food Science and Technology (afst), 19(1): 92-102. (Romania)",
+      },
+      {
+        title: "Udousoro, I. I. & Essien, E. E. (2017). Amino acids, vitamins and other 	nutritional and anti-nutritional components of Cola lepidota (monkey kola). The American Association for Science and Technology (AASCIT) Communications, 4(3): 12-18. (USA)",
+      },
+      {
+        title: "Essien, E. E. & Udousoro, I. I. (2017). Cola parchycarpa K. Schum: Chemical evaluation of amino acids, vitamins and other nutritional factors in seed, fruit mesocarp and epicarp. UK Journal of Pharmaceutical and Biosciences, 5(4): 23-29. https://doi.org/10.20510/ukjpb/5/i4/155964 (India)",
+      },
+      {
+        title: "Udousoro I. I. (2016). Carbohydrate polymers as environmentally friendly inhibitors of metals and alloy corrosion In Chemical environmental pollution: A selection of reviews and studied, Chapter 17, pp 247-291 [P.C. Onianwa and G. U. Adia, editors]. Ibadan, Nigeria: Depet Publishers.",
+      },
+      {
+        title: "Udousoro I. I. (2013). Potentials of ketogenic diet. In Contemporary issues in sustainable tropical agriculture, Chapter 20, pp 193-201 [L. Etim, J. P. Udo, N. Etim and A. Ekwu, editors]. University of Uyo, Nigeria: Faculty of Agriculture",
+      },
+    ],
+  },
+  {
     image: helenEtuk,
     title: "Dr.",
     fullName: "helen etuk",
@@ -509,6 +655,7 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+
   {
     image: [iniUmoren, iniUmoren2],
     title: "Dr.",
@@ -560,6 +707,126 @@ const staffData: Lecturer[] = [
     website: "",
     linkedIn: "",
     unit: "Industrial Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [nSimon],
+    title: "Dr.",
+    fullName: "Nzikhayel Simon",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [atimJohnson],
+    title: "Dr.",
+    fullName: "Atim Johnson",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [godwinEbong],
+    title: "Dr.",
+    fullName: "Godwin Ebong",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
     officeNo: "",
 
     profile: "",

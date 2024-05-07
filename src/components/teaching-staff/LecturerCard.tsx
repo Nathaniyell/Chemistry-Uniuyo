@@ -19,7 +19,7 @@ const LecturerCard = ({ title, portfolio, id }: LecturerCardProps) => {
       <div className="flex items-start gap-3 md:border-r-2 pr-3 border-blue-200">
         <Image src={placeH} alt={title} className="w-2/5" />
         <aside className="ml-2 md:ml-4">
-          <h2 className="hover:text-orange-600 cursor-pointer transition-colors ease-in-out text-lg titlecase font-bold leading-[2] border-b-2 border-blue-200">
+          <h2 className="cursor-pointer transition-colors ease-in-out text-lg titlecase font-bold leading-[2] border-b-2 border-blue-200">
             {title}
           </h2>
           <p className="leading-[2]">{portfolio}</p>

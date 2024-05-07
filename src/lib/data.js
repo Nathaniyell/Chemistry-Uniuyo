@@ -1,6 +1,6 @@
 import lab1 from "../../public/images/Homepage/HeroImg2.JPG";
 import lab2 from "../../public/images/Homepage/HeroImg3.JPG";
-import lab3 from "../../public/images/Homepage/HeroImg4.JPG";
+import lab3 from "../../public/images/staffLab.jpg";
 import lab4 from "../../public/images/Homepage/HeroImg1.JPG";
 
 import student1 from "../../public/images/CHMs1.webp";

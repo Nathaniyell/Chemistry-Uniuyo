@@ -34,18 +34,18 @@ export default function TeachingStaffPage() {
                   key={index}
                   className="bg-white w-11/12 mx-auto md:w-full lg:w-[82%] rounded shadow hover:shadow-lg hover:bg-sky-200 cursor-pointer transition-all duration-200"
                 >
-                  <div className="">
+                  <div className="aspect-w-3 aspect-h-4">
                     {Array.isArray(image) ? (
                       <Image
                         src={image[0]}
                         alt={fullName}
-                        className="object-cover aspect-square"
+                        className="object-cover"
                       />
                     ) : (
                       <Image
                         src={image}
                         alt={fullName}
-                        className="object-cover aspect-square"
+                        className="object-cover"
                       />
                     )}
                   </div>
@@ -57,7 +57,7 @@ export default function TeachingStaffPage() {
                       {experience[0].title}
                     </p>
 
-                    <p className="text-secondary">{unit}</p>
+                    <p className="text-gray-700">{unit}</p>
                   </div>
                 </div>
               );
