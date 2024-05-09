@@ -7,6 +7,7 @@ import "../styles/globals.css";
 export const metadata: Metadata = {
   title: "Welcome to the Department of Chemistry, University of Uyo",
   description: "Browse through our amazing variety of courses",
+  keywords:[],
   authors: [
     { name: "Nathaniel Essien", url: "" },
 

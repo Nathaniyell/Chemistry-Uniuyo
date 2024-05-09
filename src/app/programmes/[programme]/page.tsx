@@ -16,11 +16,7 @@ export default function ProgrammesPage({
   params: { programme: "undergraduate" | "postgraduate" };
 }) {
   const isProgramme =
-    programme === "postgraduate"
-      ? true
-      : programme === "undergraduate"
-      ? true
-      : false;
+    programme === "postgraduate" || programme === "undergraduate";
 
   if (!isProgramme) notFound();
 

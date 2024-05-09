@@ -108,8 +108,6 @@ const CourseByLevel = ({
       courses: e.target.value,
     });
 
-  // const totalFirstCh = firstSemesterArray.reduce((prev, curr) => {})
-
   return (
     <Div className="bg-white flex-col justify-center gap-y-0 overflow-hidden">
       <label
@@ -161,11 +159,13 @@ const CourseByLevel = ({
                 </div>
 
                 <div className="space-y-1">
-                  <p>{a.desc}</p>
-                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
+                  {/* <p>{a.desc}</p> */}
+                  {a.prerequisite && (
+                    <p>Prerequisite: {a.prerequisite.toUpperCase()}</p>
+                  )}
                   <div className="flex justify-between gap-1 items-center">
                     <span>
-                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                      {a.credit_hrs} Credit Hour{a.credit_hrs > 1 && "s"}
                     </span>
                     <span>{a.semester} semester</span>
                   </div>
@@ -178,23 +178,25 @@ const CourseByLevel = ({
           <table className="w-full overflow-x-auto hidden md:table">
             <thead>
               <tr className="text-left capitalize w-full">
-                <th className="text-center">S/N</th>
+                <th className="text-center py-8">S/N</th>
                 <th className="min-w-[100px]">course code</th>
                 <th className="min-w-[100px]">course title</th>
                 <th className="min-w-[100px]">credit hours</th>
                 <th className="min-w-[100px]">pre-requisite</th>
-                <th className="min-w-[100px]">course description</th>
+                {/* <th className="min-w-[100px]">course description</th> */}
               </tr>
             </thead>
             <tbody>
               {firstSemesterArray.map((a, i) => (
-                <tr key={a.code} className="odd:bg-grayLine rounded-xl">
-                  <td className="text-center">{i + 1}</td>
+                <tr key={i} className="odd:bg-blue-50">
+                  <td className="text-center py-4">{i + 1}</td>
                   <td className="uppercase">{a.code}</td>
                   <td>{a.title}</td>
                   <td>{a.credit_hrs}</td>
-                  <td>{a.prerequisite ? a.prerequisite : "-"}</td>
-                  <td>{a.desc}</td>
+                  <td>
+                    {a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}
+                  </td>
+                  {/* <td>{a.desc}</td> */}
                 </tr>
               ))}
             </tbody>
@@ -219,13 +221,15 @@ const CourseByLevel = ({
                 </div>
 
                 <div className="space-y-1">
-                  <p>{a.desc}</p>
-                  {a.prerequisite && <p>Prerequisite: {a.prerequisite}</p>}
+                  {/* <p>{a.desc}</p> */}
+                  {a.prerequisite && (
+                    <p>Prerequisite: {a.prerequisite.toUpperCase()}</p>
+                  )}
                   <div className="flex justify-between gap-1 items-center">
                     <span>
-                      {a.credit_hrs} credit hour{a.credit_hrs > 1 && "s"}
+                      {a.credit_hrs} Credit Hour{a.credit_hrs > 1 && "s"}
                     </span>
-                    <span>{a.semester} semester</span>
+                    <span className="capitalize">{a.semester} semester</span>
                   </div>
                 </div>
               </div>
@@ -236,23 +240,25 @@ const CourseByLevel = ({
           <table className="w-full hidden md:table">
             <thead>
               <tr className="text-left capitalize">
-                <th className="text-center">S/N</th>
+                <th className="text-center py-8">S/N</th>
                 <th className="min-w-[100px]">course code</th>
                 <th className="min-w-[100px]">course title</th>
                 <th className="min-w-[100px]">credit hours</th>
                 <th className="min-w-[100px]">pre-requisite</th>
-                <th className="min-w-[100px]">course description</th>
+                {/* <th className="min-w-[100px]">course description</th> */}
               </tr>
             </thead>
             <tbody>
               {secondSemesterArray.map((a, i) => (
-                <tr key={a.code} className="odd:bg-grayLine">
-                  <td className="text-center">{i + 1}</td>
+                <tr key={i} className="odd:bg-blue-50 text-lg">
+                  <td className="text-center p-4">{i + 1}</td>
                   <td className="uppercase">{a.code}</td>
                   <td>{a.title}</td>
                   <td>{a.credit_hrs}</td>
-                  <td>{a.prerequisite ? a.prerequisite : "-"}</td>
-                  <td>{a.desc}</td>
+                  <td>
+                    {a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}
+                  </td>
+                  {/* <td>{a.desc}</td> */}
                 </tr>
               ))}
             </tbody>

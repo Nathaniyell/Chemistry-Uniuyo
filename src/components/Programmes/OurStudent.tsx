@@ -28,21 +28,21 @@ export default function Meet({ array, Icon, heading, duration }: MeetProps) {
   return (
     <Div className="self-start group h-full bg-blue-50 flex-col overflow-hidden">
       <Div className="bg-white w-full items-center hover:ring-1">
-        <Icon className="h-6 text-xl bg-secondary rounded-full p-1 text-white" />
-        <h3 className="capitalize font-bold">{heading}</h3>
+        <Icon className="size-8 text-xl bg-secondary rounded-full p-1 text-white" />
+        <h3 className="capitalize text-lg md:text-xl font-bold">{heading}</h3>
       </Div>
-      <Div className="h-68 bg-white hover:ring-1 overflow-hidden">
+      <Div className="min-h-68 bg-white hover:ring-1 overflow-hidden">
         {array ? (
           <Swiper
             centeredSlides
             loop
             autoplay={{
-              delay: 4000,
+              delay: 3000,
               pauseOnMouseEnter: true,
               disableOnInteraction: true,
             }}
-            speed={1500}
-            spaceBetween={10}
+            speed={1000}
+            spaceBetween={5}
             modules={[Autoplay, Pagination, EffectCreative, EffectCards]}
             className="w-full h-full"
           >
@@ -51,13 +51,13 @@ export default function Meet({ array, Icon, heading, duration }: MeetProps) {
                 <Image
                   src={a.image}
                   alt={`${a.image}`}
-                  className="rounded-md h-full object-contain"
+                  className="rounded-md size-full"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
         ) : (
-          <p>{duration}</p>
+          <p className="h-full">{duration}</p>
         )}
       </Div>
     </Div>
