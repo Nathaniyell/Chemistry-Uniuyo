@@ -289,7 +289,7 @@ const staffData: Lecturer[] = [
 
       {
         title:
-          "B.Sc. (Hons) Chemistry, Second Class Upper Division, University of Illorin, Nigeria",
+          "B.Sc. (Hons) Chemistry, University of Illorin, Nigeria",
         year: "2010",
       },
     ],
@@ -395,9 +395,9 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [imaUdousoro],
+    image: imaUdousoro,
     title: "Dr.",
-    fullName: "Imaobong Udousoro",
+    fullName: "imaobong udousoro",
     email: ["imaobongudousoro@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?hl=en&user=u_jYZ4sAAAAJ",
     scopus: "",
@@ -412,6 +412,59 @@ const staffData: Lecturer[] = [
       {
         title: "Associate Professor of Chemistry",
         year: "2015 - Date",
+      },
+      {
+        title: "Head Analytical Unit, Department of Chemistry",
+        year: "2020 - Date",
+      },
+      {
+        title: "Vice Dean Faculty of Science",
+        year: "2021 - 2022",
+      },
+      {
+        title: "Ag. HOD Department of Chemistry",
+        year: "2020 - 2022",
+      },
+     
+      {
+        title: "Faculty of Science Research Committee (Secretary)",
+        year: "2016 - Date",
+      },
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "2012 - present",
+      },
+      {
+        title: "Lecturer I, Department of Chemistry, University of Uyo",
+        year: "2009 - 2012",
+      },
+      {
+        title: "Lecturer II, Department of Chemistry, University of Uyo",
+        year: "2002 - 2009",
+      },
+      {
+        title: "Examination Officer, Department of Chemistry, University of Uyo",
+        year: "2004 - 2014",
+      },
+      {
+        title:
+          "PhD. Chemistry (Analytical Chemistry), University of Ibadan, Ibadan, Oyo State",
+        year: "1990 - 1998",
+      },
+      {
+        title:
+          "M.Sc. Chemistry (Analytical Chemistry with Research in Environmental Analysis- Pesticides residues in aquatic environment) , University of Ibadan, Ibadan, Oyo State",
+        year: "1987 - 1989",
+      },
+      {
+        title:
+          "M.Ed. (Teacher Education), University of Ibadan, Ibadan, Oyo State",
+        year: "1986 - 1987",
+      },
+      {
+        title:
+          "B.Ed.  (Hons) Chemistry/Botany , University of Ibadan, Ibadan, Oyo State",
+        year: "1982 - 1985",
       },
     ],
     awards: [

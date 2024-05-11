@@ -56,20 +56,20 @@ export const homeStaffData = [
   {
     image: emmanuelEssien,
     title: "Dr.", 
-    name: "Emmanuel Essien",
+    name: "emmanuel essien",
     desc: "Organic Chemistry",
   },
   {
     image: helenEtuk,
     title: "Dr.", 
-    name: "Helen Etuk",
+    name: "helen etuk",
     desc: "Inorganic Chemistry",
   },
 
   {
     image: staff2,
     title: "Dr.", 
-    name: "Shaibu Solomon",
+    name: "shaibu solomon",
     desc: "Environmental Chemistry",
   },
 
@@ -81,7 +81,7 @@ export const homeStaffData = [
   {
     image: staff5,
     title: "Dr.", 
-    name: "Iniobong Umoren",
+    name: "iniobong umoren",
     desc: "Analytical Chemistry",
   },
 ];

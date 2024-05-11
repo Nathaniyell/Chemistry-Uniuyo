@@ -12,11 +12,8 @@ import Link from "next/link";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const router = useRouter();
-  const handleGoBack = () => {
-    router.push("/staff/teach-staff", { scroll: false }); //scroll: false returns to the top of the new page you are visiting
-  };
   const lecturerFullName = params.slug;
-  console.log(lecturerFullName)
+  // console.log(lecturerFullName)
   const filteredLecturerData = staffData.filter((staff) => staff?.fullName === lecturerFullName.replaceAll("-", " "))[0]
 
   if (
@@ -63,20 +60,20 @@ console.log(filteredLecturerData)
   return (
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-16">
-        <nav className="py-8 text-zinc-700 flex items-center gap-2">
-          <Link
-            className="underline text-blue-700z cursor-pointer"
-            href="/staff/teach-staff"
+        <nav className="py-8 text-zinc-700 flex items-center gap-2 text-sm">
+          <button
+            className="underline text-blue-700 p-2 cursor-pointer"
+            onClick={()=>router.back()}
             style={{ display: "block" }}
           >
             Back
-          </Link>
+          </button>
           <span className="text-lg">&gt;</span>
-          <p className="capitalize">{fullName}</p>
+          <p className="capitalize text-black">{fullName}</p>
         </nav>
         <section className="">
           <div className="flex flex-col md:flex-row w-full gap-6 lg:gap-12 bg-white rounded-lg shadow-md md:p-4">
-            <div className="w-full md:self-startmd:w-3/5 mx-auto lg:w-[50%]">
+            <div className="w-full md:self-start md:w-3/5 mx-auto lg:w-[40%]">
               {/* {image.type === <Image src={image} alt={fullName} />} */}
               {Array.isArray(image) ? (
                 <Image src={image[1]} alt={fullName} />
@@ -84,7 +81,7 @@ console.log(filteredLecturerData)
                 <Image src={image} alt={fullName} />
               )}
             </div>
-            <div className="text-zinc-700 font-normal text-base w-full flex flex-col gap-10 md:p-0 p-4 lg:w-[50%]">
+            <div className="text-zinc-700 font-normal text-base w-full flex flex-col gap-6 md:p-0 p-4 lg:w-[50%]">
               <h1 className="capitalize font-bold text-3xl text-blue-800">
                 {title + " " + fullName}
               </h1>
@@ -143,6 +140,9 @@ console.log(filteredLecturerData)
                   </span>
                   <span>+{phoneNo}</span>
                 </a> */}
+                {
+                  linkedIn.length > 1 &&(
+
                 <a
                   target="_blank"
                   href={linkedIn}
@@ -153,6 +153,8 @@ console.log(filteredLecturerData)
                     {fullName}
                   </span>
                 </a>
+                  )
+                }
               </div>
               <p className="flex gap-2 lg:items-center">
                 <span className="flex lg:items-center font-bold">
@@ -163,27 +165,27 @@ console.log(filteredLecturerData)
               </p>
 
               <div className="flex text-center justify-between w-5/6 lg:w-2/5 items-center">
-                <a
+              {scopus&&  <a
                   target="_blank"
                   className="text-xl text-secondary"
                   href={scopus}
                 >
                   Scopus
-                </a>
-                <a
+                </a>}
+             {googleScholar &&   <a
                   target="_blank"
                   className="text-4xl text-primary"
                   href={googleScholar}
                 >
                   <SiGooglescholar />
-                </a>
-                <a
+                </a>}
+              {orcid &&  <a
                   target="_blank"
                   className="text-4xl text-green-600"
                   href={orcid}
                 >
                   <FaOrcid />
-                </a>
+                </a>}
               </div>
               <div>
                 <h5 className="mb-2 font-semibold text-[17px]">

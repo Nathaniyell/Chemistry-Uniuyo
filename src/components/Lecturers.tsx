@@ -24,10 +24,10 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
         <Image className="rounded-t-lg object-cover" src={image} alt={name} />
       </div>
       <div className="p-3 bg-white">
-        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">
+        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 capitalize">
         {title} {" "} {name}
         </h5>
-        <p className="mb-3 font-normal text-blue-700 italic">{desc}</p>
+        <p className="mb-3 font-normal text-gray-700 text-sm">{desc}</p>
         {other && (
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
             {other}
