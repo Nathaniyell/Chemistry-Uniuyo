@@ -39,9 +39,6 @@ export default function TeachingStaffPage() {
                   bgColor = "bg-green-300";
                   break;
                 case "Analytical":
-                  bgColor = "bg-orange-300";
-                  break;
-                case "Analytical":
                   bgColor = "bg-fuchsia-300";
                   break;
                 case "Environmental / Analytical":
@@ -50,10 +47,7 @@ export default function TeachingStaffPage() {
                 case "Physical":
                   bgColor = "bg-stone-300";
                   break;
-                case "Physical":
-                  bgColor = "bg-neutral-300";
-                  break;
-                default:
+                    default:
                   bgColor = "bg-sky-300";
               }
               return (

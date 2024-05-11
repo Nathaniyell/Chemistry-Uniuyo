@@ -57,32 +57,32 @@ export const homeStaffData = [
     image: emmanuelEssien,
     title: "Dr.", 
     name: "emmanuel essien",
-    desc: "Organic Chemistry",
+    desc: "Organic",
   },
   {
     image: helenEtuk,
     title: "Dr.", 
     name: "helen etuk",
-    desc: "Inorganic Chemistry",
+    desc: "Inorganic",
   },
 
   {
     image: staff2,
     title: "Dr.", 
-    name: "shaibu solomon",
-    desc: "Environmental Chemistry",
+    name: "solomon shaibu",
+    desc: "Environmental",
   },
 
   //     {
   //         image: staff4,
   //     name:"Dr. Ekerette Jackson",
-  //         desc:"Physical Chemistry",
+  //         desc:"Physical",
   // },
   {
     image: staff5,
     title: "Dr.", 
     name: "iniobong umoren",
-    desc: "Analytical Chemistry",
+    desc: "Analytical",
   },
 ];
 
