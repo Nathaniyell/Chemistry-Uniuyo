@@ -47,14 +47,15 @@ export default function Home() {
         className="w-full h-full"
       >
         {homeData.map((item) => {
-          const { title, desc, image, greeting, button } = item;
+          const { title, description, image, greeting, btnLink } = item;
           return (
             <SwiperSlide key={title}>
               <HomepageSlider
                 bgImage={image}
                 title={title}
                 greeting={greeting}
-                buttonVal={button}
+                btnLink={btnLink}
+                description={description}
               />
             </SwiperSlide>
           );

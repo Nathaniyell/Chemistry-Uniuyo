@@ -3,6 +3,32 @@ import lab2 from "../../public/images/Homepage/HeroImg3.JPG";
 import lab3 from "../../public/images/staffLab.jpg";
 import lab4 from "../../public/images/Homepage/HeroImg1.JPG";
 
+import sendforth1 from "../../public/images/Chem Sendforth/257.JPG";
+import sendforth from "../../public/images/Chem Sendforth/245.JPG";
+import sendforth2 from "../../public/images/Chem Sendforth/253.JPG";
+import sendforth3 from "../../public/images/Chem Sendforth/254.JPG";
+import sendforth4 from "../../public/images/Chem Sendforth/250.JPG";
+import profJames from "../../public/images/Chem Sendforth/47.JPG";
+import profJames2 from "../../public/images/Chem Sendforth/53.JPG";
+import profAP from "../../public/images/Chem Sendforth/14.JPG";
+import profAP2 from "../../public/images/Chem Sendforth/28.JPG";
+import profUdosen from "../../public/images/Chem Sendforth/5.JPG";
+import sendforth11 from "../../public/images/Chem Sendforth/261.JPG";
+import sendForth15 from "../../public/images/Chem Sendforth/245.JPG";
+import sendForth from "../../public/images/Chem Sendforth/44.JPG";
+import sendForth3 from "../../public/images/Chem Sendforth/46.JPG";
+import sendForth4 from "../../public/images/Chem Sendforth/94.JPG";
+import sendForth5 from "../../public/images/Chem Sendforth/103.JPG";
+import sendForth6 from "../../public/images/Chem Sendforth/115.JPG";
+import sendForth7 from "../../public/images/Chem Sendforth/161.JPG";
+import sendForth8 from "../../public/images/Chem Sendforth/203.JPG";
+import sendForth9 from "../../public/images/Chem Sendforth/204.JPG";
+import sendForth10 from "../../public/images/Chem Sendforth/207.JPG";
+import sendForth11 from "../../public/images/Chem Sendforth/206.JPG";
+import sendForth12 from "../../public/images/Chem Sendforth/211.JPG";
+import sendForth13 from "../../public/images/Chem Sendforth/218.JPG";
+import sendForth14 from "../../public/images/Chem Sendforth/227.JPG";
+
 import student1 from "../../public/images/CHMs1.webp";
 import student2 from "../../public/images/CHMs2.webp";
 import student3 from "../../public/images/CHMs3.webp";
@@ -23,23 +49,35 @@ const homeData = [
   {
     image: lab1,
     title: "Department of chemistry",
-    desc: "",
+    description:
+      "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration. Explore our diverse range of programs, gain insights into our pioneering research initiatives, and discover how we are shaping the future of science and technology. We invite you to embark on an enriching journey with us as we continue to push the boundaries of what is possible in the field of chemistry.",
     greeting: "welcome to the",
-    button: true,
+    btnLink: "/about",
   },
   {
-    image: lab2,
-    title: "mission",
-    desc: " ",
-    greeting: "our",
-    button: false,
+    title:
+      "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
+    description:
+      "In a bittersweet ceremony, the Department of Chemistry recently honored the distinguished careers of three esteemed professors - Professor Anthony Udoh, Professor James Asuquo, and Professor Ukana Akpabio. After serving the institution with unwavering commitment for over 35 years, these intellectual giants are embarking on a new chapter of their lives.",
+
+    image: sendforth1,
+    btnLink: "/",
   },
   {
-    image: lab4,
-    title: "vision",
-    desc: " ",
-    greeting: "our",
-    button: false,
+    title: "",
+    description: "",
+
+    image: profAP,
+  },
+  {
+    title: "",
+    description: "",
+    image: profJames,
+  },
+  {
+    title: "",
+    description: "",
+    image: profUdosen,
   },
 ];
 
@@ -55,20 +93,20 @@ export const studentsData = [
 export const homeStaffData = [
   {
     image: emmanuelEssien,
-    title: "Dr.", 
+    title: "Dr.",
     name: "emmanuel essien",
     desc: "Organic",
   },
   {
     image: helenEtuk,
-    title: "Dr.", 
+    title: "Dr.",
     name: "helen etuk",
     desc: "Inorganic",
   },
 
   {
     image: staff2,
-    title: "Dr.", 
+    title: "Dr.",
     name: "solomon shaibu",
     desc: "Environmental",
   },
@@ -80,7 +118,7 @@ export const homeStaffData = [
   // },
   {
     image: staff5,
-    title: "Dr.", 
+    title: "Dr.",
     name: "iniobong umoren",
     desc: "Analytical",
   },

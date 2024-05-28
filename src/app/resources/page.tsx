@@ -16,7 +16,7 @@ export default function ResourcePage() {
           </p>
         </section>
 
-        <section className="grid xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        <section className="grid xs:grid-cols-2 md:grid-cols-3 gap-2">
           {resourceImages.map((image, index) => (
             <ResourceImage key={index} src={image.src} />
           ))}
