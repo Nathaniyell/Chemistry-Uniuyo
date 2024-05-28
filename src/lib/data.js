@@ -63,22 +63,6 @@ const homeData = [
     image: sendforth1,
     btnLink: "/",
   },
-  {
-    title: "",
-    description: "",
-
-    image: profAP,
-  },
-  {
-    title: "",
-    description: "",
-    image: profJames,
-  },
-  {
-    title: "",
-    description: "",
-    image: profUdosen,
-  },
 ];
 
 export const studentsData = [
