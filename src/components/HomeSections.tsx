@@ -26,7 +26,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
   return (
     <div className="overflow-x-hidden">
       <motion.div
-      className="flex flex-col justify-center gap-4"
+      className="flex flex-col justify-center gap-2"
         initial={{
           x:
             animateDirection === "left"
@@ -54,7 +54,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
         <p className="text-blue-900">{description? description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}</p>
         
        <Link
-        className="text-black text-lg underline hover:text-xl transition-all ease-in-out"
+        className="text-black text-lg hover:text-xl transition-all ease-in-out"
           href={`${routeLink}`}
         >
           More about our {title==="head of the department"? "department": title}
