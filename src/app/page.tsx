@@ -36,7 +36,7 @@ export default function Home() {
         centeredSlides
         loop
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           pauseOnMouseEnter: true,
           disableOnInteraction: true,
         }}
