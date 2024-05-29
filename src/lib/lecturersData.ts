@@ -15,7 +15,7 @@ import nSimon from "../../public/images/teachingstaff/Dr. Simon.jpg"
 import atimJohnson from "../../public/images/teachingstaff/Dr. Johnson.jpg"
 import godwinEbong from "../../public/images/teachingstaff/Dr. Ebong.jpg"
 import profEnoMoses from "../../public/images/teachingstaff/prof_eno-moses.jpg"
-import imaUdousoro from "../../public/images/teachingstaff/Dr. ImaobongUdousoro.jpg"
+import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
 import { StaticImageData } from "next/image";
 export interface Experience {
   title: string;
