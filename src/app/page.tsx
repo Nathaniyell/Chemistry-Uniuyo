@@ -104,7 +104,7 @@ export default function Home() {
           </div>
         </aside>
       </section>
-      <section className="bg-white px-4 pt-12">
+      <section className="bg-white px-4 py-14">
         <h5 className="text-center text-primary md:w-1/3 lg:w-[25%] mx-auto border-l-secondary border-l-4 capitalize font-bold text-2xl">
           Why study Chemistry?
         </h5>
@@ -126,10 +126,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="">
-        {/* <Image src={} alt="" /> */}
-      </section>
-      <section className="bg-sky-100 w-11/12 mx-auto p-6 mt-5">
+      <section className="w-11/12 mx-auto p-6 ">
         <h5 className="text-center text-primary md:w-1/3 lg:w-[22%] mx-auto border-l-secondary border-l-4 uppercase font-bold text-2xl">
           Meet our Staff
         </h5>
@@ -149,8 +146,9 @@ export default function Home() {
           })}
         </div>
         <Button
-          variant="secondary"
-          className="text-white w-full md:w-1/2 lg:w-2/5 rounded-lg mx-auto hover:bg-orange-500"
+        arrow
+          variant="transparent"
+          className="text-black border-black w-full md:w-1/2 lg:w-1/3 rounded-lg mx-auto"
         >
           <Link href="/staff/teach-staff" className="text-xl">
             More about our staff

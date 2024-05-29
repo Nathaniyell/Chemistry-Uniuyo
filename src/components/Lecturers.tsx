@@ -44,12 +44,12 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
               }
 
   return (
-    <Link href={`/staff/teach-staff/${href.replaceAll(" ", "-")}` } className="w-full block h-full rounded-lg shadow-lg" passHref>
+    <Link href={`/staff/teach-staff/${href.replaceAll(" ", "-")}` } className="w-full block h-full rounded-lg" passHref>
       <div className="aspect-w-3 aspect-h-4">
         <Image className="rounded-t-lg object-cover" src={image} alt={name} />
       </div>
       <div className="p-3 bg-white">
-        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 capitalize">
+        <h5 className="mb-4 text-xl font-bold tracking-tight text-gray-900 capitalize">
         {title} {" "} {name}
         </h5>
         <p className={`text-gray-700 text-sm shadow rounded p-2 mb3 text-center my-2 w-fit ${bgColor}`}>{desc} {" "}Chemistry</p>

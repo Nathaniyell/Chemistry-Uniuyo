@@ -4,7 +4,7 @@ import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Button from "./Button";
+import { Button } from "@/components";
 import { RiArrowRightSLine } from "react-icons/ri";
 
 type HomeSectionsProps = {
@@ -26,41 +26,42 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
   return (
     <div className="overflow-x-hidden">
       <motion.div
-      className="flex flex-col justify-center gap-2"
+        className="flex flex-col justify-center gap-2"
         initial={{
           x:
             animateDirection === "left"
               ? -300
               : animateDirection === "right"
-                ? 300
-                : 0,
+              ? 300
+              : 0,
           opacity: 0,
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
         viewport={{ once: false }}
       >
-        <span
-          className="uppercase text-xl font-bold text-stone-800" 
-        >
+        <span className="uppercase text-xl font-bold text-stone-800">
           {greeting} <br />
-        <h1
-          className="uppercase font-bold text-2xl text-blue-700"
-        
-        >
-          {title}
-        </h1>
+          <h1 className="uppercase font-bold text-2xl text-blue-700">
+            {title}
+          </h1>
         </span>
-        <p className="text-blue-900">{description? description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}</p>
-        
-       <Link
-        className="text-black text-lg hover:text-xl transition-all ease-in-out"
-          href={`${routeLink}`}
+        <p className="text-blue-900">
+          {description
+            ? description
+            : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}
+        </p>
+
+        <Button
+          variant="transparent"
+          arrow
+          className="text-black !text-base border-0 w-full !text-left !mx-0 !px-0 underline !justify-start"
         >
-          More about our {title==="head of the department"? "department": title}
-          <span> <RiArrowRightSLine className="text-2xl inline text-black text-center" /></span>
-        </Link>
-        
+          <Link href={`${routeLink}`}>
+            More about our{" "}
+            {title === "head of the department" ? "department" : title}
+          </Link>
+        </Button>
       </motion.div>
     </div>
   );
