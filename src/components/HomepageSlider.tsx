@@ -22,13 +22,8 @@ const HomepageSlider = ({
 }: sliderProps) => {
   return (
     <div className={`relative aspect-h-5 aspect-w-3 md:aspect-h-2`}>
-      {Array.isArray(bgImage) ? (
-        bgImage.map((image, index) => (
-          <Image key={index} src={image} alt={title} className="object-cover" />
-        ))
-      ) : (
-        <Image src={bgImage} alt={title} className="object-fit" />
-      )}
+     
+        <Image src={bgImage} alt={title} className="object-cover" />
 
       {title && (
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit bg-black opacity-65 mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
