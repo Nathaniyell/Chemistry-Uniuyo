@@ -1,4 +1,4 @@
-import { resourceImages } from "./resources";
+export { allResources } from "./resources";
 export {
   default as homeData,
   homeStaffData,
@@ -23,5 +23,3 @@ export { programmesArray, staffArray } from "./hoverButtonData";
 export { journalInfo, articleInfo, publications } from "./research";
 
 export { animateDiv as d } from "./framerAnimation";
-
-export { resourceImages } from "./resources";
