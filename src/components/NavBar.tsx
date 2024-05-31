@@ -16,24 +16,13 @@ import { useGlobalContext } from "@/context";
 import HoverButton from "./NavBar/HoverButton";
 import { programmesArray, staffArray } from "@/lib";
 import NavLink from "./NavBar/NavLink";
-import { BsHouseFill } from "react-icons/bs";
 
 export default function NavBar() {
-  const { isMenuClicked, isScrolled, setIsMenuClicked } = useGlobalContext();
+  const { isMenuClicked, setIsMenuClicked } = useGlobalContext();
 
   const toggleMenu = () => {
     setIsMenuClicked((prev) => !prev);
   };
-
-  // const scrolling = () => window.scrollY > 70 ? setIsScrolled(true) : setIsScrolled(false);
-
-  // React.useEffect(() => {
-  // 	window.onscroll = scrolling;
-
-  // 	return () => {
-  // 		window.removeEventListener('scroll', scrolling);
-  // 	};
-  // }, [])
 
   return (
     <nav
