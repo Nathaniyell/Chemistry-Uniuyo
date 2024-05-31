@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { useGlobalContext } from "@/context";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { MdClose } from "react-icons/md";
@@ -18,8 +17,6 @@ export default function Search({
   isGlobal = false,
   className,
 }: SearchProps) {
-  const { globalSearchValue, setGlobalSearchValue } = useGlobalContext();
-
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -56,23 +53,17 @@ export default function Search({
         aria-label={placeholder}
         className="peer w-full py-[10px] pl-11 pr-4 bg-transparent text-sm hover:shadow placeholder:text-gray-400 border rounded-xl border-blue-200"
         placeholder={placeholder}
-        defaultValue={
-          isGlobal ? globalSearchValue : searchParams.get("search")?.toString()
-        }
+        defaultValue={searchParams.get("search")?.toString()}
         accessKey="k"
         onChange={(e) => {
-          isGlobal
-            ? setGlobalSearchValue(e.target.value)
-            : handleSearch(e.target.value);
+          handleSearch(e.target.value);
         }}
       />
 
       <button
-        onClick={() =>
-          isGlobal ? setGlobalSearchValue("") : handleDeleteAllText()
-        }
+        onClick={() => handleDeleteAllText()}
         className={`${
-          searchValue || globalSearchValue ? "scale-100" : "scale-0"
+          searchValue ? "scale-100" : "scale-0"
         } absolute right-4 top-1/2 h-[18px] w-[18px] -translate-y-1/2 cursor-pointer transition-all duration-300`}
       >
         <MdClose />
