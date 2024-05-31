@@ -2,47 +2,10 @@
 
 import Image from "next/image";
 import eduInam from "../../../public/images/teachingstaff/eduinam4.jpg";
-import labStaff from "../../../public/images/staffLab.jpg";
-import GCMS from "../../../public/images/chemistry_lab/IMG_7527.JPG";
-import Store from "../../../public/images/chemistry_lab/IMG_7518.JPG";
 
 export default function Home() {
   return (
-    <>
-      <section className="bg-blue-800">
-        <div className="p-10 text-center">
-          <h1 className="text-5xl font-bold text-white">About Us</h1>
-        </div>
-      </section>
-
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 m-6 items-center justify-center">
-        <div className="lg:col-span-1">
-          <Image
-            className="object-cover "
-            src={labStaff}
-            alt="Chemistry-Lab-Staff"
-          />
-        </div>
-        <div className="flex flex-col gap-10">
-          <Image
-            className="object-cover"
-            src={GCMS}
-            alt="Chemistry-Lab-Staff"
-            width={350}
-            height={300}
-          />
-          <Image
-            className="object-cover"
-            src={Store}
-            alt="Chemistry-Lab-Staff"
-            width={350}
-            height={300}
-          />
-        </div>
-      </div>
-
-      {/* <section className="w-11/12 md:w-4/5 mx-auto">
-      
+    <section className="w-11/12 md:w-4/5 mx-auto">
       <h1 className="font-bold text-xl md:text-2xl my-4 text-primary">
         HOD&apos;s Welcome Message
       </h1>
@@ -87,7 +50,6 @@ export default function Home() {
           />
         </div>
       </section>
-    </section> */}
-    </>
+    </section>
   );
 }
