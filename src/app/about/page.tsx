@@ -4,7 +4,7 @@ import Image from "next/image";
 import eduInam from "../../../public/images/teachingstaff/eduinam4.jpg";
 import labStaff from "../../../public/images/staffLab.jpg"
 import GCMS from "../../../public/images/chemistry_lab/IMG_7527.JPG"
-import store from "../../../public/images/chemistry_lab/IMG_7518.JPG"
+import Store from "../../../public/images/chemistry_lab/IMG_7518.JPG"
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           />
             <Image
             className="object-cover"
-            src={store}
+            src={Store}
             alt="Chemistry-Lab-Staff"
             width={350}
             height={300}
