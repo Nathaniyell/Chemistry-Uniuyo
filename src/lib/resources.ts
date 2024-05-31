@@ -1,5 +1,4 @@
 export const allResources = [
-  // lab scene
   {
     heading: "Lab scenery",
     description: "",
