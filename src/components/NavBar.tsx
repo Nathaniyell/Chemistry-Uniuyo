@@ -1,6 +1,5 @@
 "use client";
 
-// import React from 'react';
 import { VscMenu, VscClose } from "react-icons/vsc";
 import { IoLibrary } from "react-icons/io5";
 import { GiArchiveResearch } from "react-icons/gi";
@@ -10,7 +9,7 @@ import { PiGraduationCapFill, PiInfoFill } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo.jpg";
+import Logo from "../../public/images/logo.jpg";
 
 import { useGlobalContext } from "@/context";
 import HoverButton from "./NavBar/HoverButton";
@@ -35,7 +34,7 @@ export default function NavBar() {
           <div className="flex flex-shrink-0 gap-2 sm:gap-3 items-center md:gap-1 lg:gap-4">
             <Link onClick={() => setIsMenuClicked(false)} href="/" title="home">
               <Image
-                src={logo}
+                src={Logo}
                 alt="logo"
                 className="h-12 w-12 sm:h-14 sm:w-14 rounded-full"
                 priority
