@@ -38,7 +38,7 @@ export default function AboutLayout({
   ];
   return (
     <main className="min-h-screen">
-        {children}
+      {children}
       <div className="flex flex-col justify-between md:w-[95%] w-11/12 mx-auto mb-8">
         <nav className="w-full flex items-center justify-between md:w-1/6 p-2 md:block">
           {aboutNavLinks.map((link, index) => {
