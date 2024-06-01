@@ -3,21 +3,29 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styles from "./teachingstaff.module.css";
 import staffData from "@/lib/lecturersData";
+import { HomepageSlider } from "@/src/components";
+import LabStaff from "../../../../public/images/staffLab.jpg";
+import GroupStaff from "../../../../public/images/chemistry_lab/group-staff.jpg";
 
 export default function TeachingStaffPage() {
   const router = useRouter();
 
+  const staffImgArray = [GroupStaff, LabStaff];
+
   const handleStaffClick = (fullName: string) => {
-    router.push(`/staff/teach-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`);
+    router.push(
+      `/staff/teach-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`
+    );
   };
 
   return (
     <main className="h-full">
-      <section className={styles.hero__section}>
+      <HomepageSlider title="Teaching Staff" bgImage={staffImgArray} />
+      {/* <section className={styles.hero__section}>
         <div className="w-5/6 text-center h-1/2 flex items-center justify-center">
           <h1 className="text-5xl font-bold text-white">Teaching Staff</h1>
         </div>
-      </section>
+      </section> */}
       <section className="bg-slate-100 pb-16">
         <div className="text-center text-primary text-xl h-[80px] grid place-items-center">
           <p>
@@ -27,7 +35,7 @@ export default function TeachingStaffPage() {
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
             ({ fullName, title, image, unit, experience }, index) => {
-              let bgColor
+              let bgColor;
               switch (unit) {
                 case "Organic":
                   bgColor = "bg-amber-300";
@@ -47,7 +55,7 @@ export default function TeachingStaffPage() {
                 case "Physical":
                   bgColor = "bg-stone-300";
                   break;
-                    default:
+                default:
                   bgColor = "bg-sky-300";
               }
               return (
@@ -79,7 +87,11 @@ export default function TeachingStaffPage() {
                       {experience[0].title}
                     </p>
 
-                    <p className={`text-gray-700 text-sm shadow rounded p-2 text-center my-2 w-fit ${bgColor}`}>{unit} {" "}Chemistry</p>
+                    <p
+                      className={`text-gray-700 text-sm shadow rounded p-2 text-center my-2 w-fit ${bgColor}`}
+                    >
+                      {unit} Chemistry
+                    </p>
                   </div>
                 </div>
               );
