@@ -3,8 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import { RiArrowRightSLine } from "react-icons/ri";
-import { Button } from "@/src/components";
+import { Button } from "@/components";
+import {
+  Autoplay,
+  Pagination,
+  // Navigation,
+  // EffectCreative,
+  // EffectCards,
+  EffectFade,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-flip";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
 
 type sliderProps = {
   bgImage?: any;
@@ -24,14 +38,30 @@ const HomepageSlider = ({
   return (
     <div className={`relative border-4 size-full`}>
       {Array.isArray(bgImage) ? (
-        bgImage.map((image, index) => (
-          <Image
-            key={index}
-            src={image}
-            alt={title}
-            className="size-full md:h-[32rem]"
-          />
-        ))
+        <Swiper
+          centeredSlides
+          loop
+          autoplay={{
+            delay: 5000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: true,
+          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
+          modules={[Autoplay]}
+          className="w-full h-full"
+        >
+          {bgImage.map((image, index) => (
+            <SwiperSlide key={index}>
+              <Image
+                src={image}
+                alt={title}
+                className="md:h-[28rem] object-cover"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       ) : (
         <Image src={bgImage} alt={title} className="size-full md:h-[32rem]" />
       )}
