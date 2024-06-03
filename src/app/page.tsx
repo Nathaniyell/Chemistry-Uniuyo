@@ -24,6 +24,7 @@ import HomeSections from "@/components/HomeSections";
 import Lecturers from "@/components/Lecturers";
 import Link from "next/link";
 import { Button } from "@/components";
+import News from "@/components/News/News";
 
 export default function Home() {
   const headOfDepartment = [
@@ -193,8 +194,9 @@ export default function Home() {
       </section> */}
 
       <section className="flex flex-col p-4 md:flex-row justify-between w-11/12 items-center mx-auto">
-        <div>
-          <h1 className="font-bold">Recent News</h1>
+        <div className="grid place-items-center grid-cols-1 gap-10">
+          <h1 className="font-bold text-center">Recent News</h1>
+          <News />
         </div>
         <div>
           <h1 className="font-bold">Upcoming Events</h1>

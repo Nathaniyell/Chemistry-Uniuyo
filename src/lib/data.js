@@ -1,33 +1,10 @@
-import lab1 from "../../public/images/Homepage/HeroImg2.JPG";
-import lab2 from "../../public/images/Homepage/HeroImg3.JPG";
-import lab3 from "../../public/images/staffLab.jpg";
-import lab4 from "../../public/images/Homepage/HeroImg1.JPG";
+import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
+// import lab2 from "../../public/images/Homepage/HeroImg3.JPG";
+// import lab3 from "../../public/images/staffLab.jpg";
+// import lab4 from "../../public/images/Homepage/HeroImg1.JPG";
 
-import sendforth1 from "../../public/images/Chem Sendforth/257.JPG";
-import sendforth from "../../public/images/Chem Sendforth/245.JPG";
-import sendforth2 from "../../public/images/Chem Sendforth/253.JPG";
-import sendforth3 from "../../public/images/Chem Sendforth/254.JPG";
-import sendforth4 from "../../public/images/Chem Sendforth/250.JPG";
-import profJames from "../../public/images/Chem Sendforth/47.JPG";
-import profJames2 from "../../public/images/Chem Sendforth/53.JPG";
-import profAP from "../../public/images/Chem Sendforth/14.JPG";
-import profAP2 from "../../public/images/Chem Sendforth/28.JPG";
-import profUdosen from "../../public/images/Chem Sendforth/5.JPG";
-import sendforth11 from "../../public/images/Chem Sendforth/261.JPG";
-import sendForth15 from "../../public/images/Chem Sendforth/245.JPG";
-import sendForth from "../../public/images/Chem Sendforth/44.JPG";
-import sendForth3 from "../../public/images/Chem Sendforth/46.JPG";
-import sendForth4 from "../../public/images/Chem Sendforth/94.JPG";
-import sendForth5 from "../../public/images/Chem Sendforth/103.JPG";
-import sendForth6 from "../../public/images/Chem Sendforth/115.JPG";
-import sendForth7 from "../../public/images/Chem Sendforth/161.JPG";
-import sendForth8 from "../../public/images/Chem Sendforth/203.JPG";
-import sendForth9 from "../../public/images/Chem Sendforth/204.JPG";
-import sendForth10 from "../../public/images/Chem Sendforth/207.JPG";
-import sendForth11 from "../../public/images/Chem Sendforth/206.JPG";
-import sendForth12 from "../../public/images/Chem Sendforth/211.JPG";
-import sendForth13 from "../../public/images/Chem Sendforth/218.JPG";
-import sendForth14 from "../../public/images/Chem Sendforth/227.JPG";
+import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
+import classO18 from "../../public/images/Graduation/class018.jpg"
 
 import student1 from "../../public/images/CHMs1.webp";
 import student2 from "../../public/images/CHMs2.webp";
@@ -54,7 +31,7 @@ const homeData = [
     greeting: "welcome to the",
     btnLink: "/about",
   },
-  {
+ {
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
     description:
@@ -63,6 +40,16 @@ const homeData = [
     image: sendforth1,
     btnLink: "/",
   },
+  {
+    title:
+      "Department of Chemistry Graduates Record Number of Students",
+    description:
+      "The Department of Chemistry at University of Uyo has achieved a remarkable milestone by graduating a record-breaking number of students. The department has proudly announced the graduation of 45 students who gained admission in 2018, setting a new high for the department. This achievement is particularly significant as it marks the first time in the history of the department that it has cleared such a large number of students.",
+
+    image: classO18,
+    btnLink: "/",
+  },
+
 ];
 
 export const studentsData = [
