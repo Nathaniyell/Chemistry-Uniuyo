@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Footer, NavBar } from "@/components";
 import { Providers, lusitana } from "@/context";
 
 import "../styles/globals.css";
+import { Footer, NavBar } from "@/components";
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
       url: "",
     },
   ],
-  metadataBase: new URL("https://chemuniuyo.vercel.app"),
 };
 
 export default function RootLayout({
