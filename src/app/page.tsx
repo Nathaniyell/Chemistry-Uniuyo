@@ -134,7 +134,7 @@ export default function Home() {
         <div className="my-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6">
           {homeStaffData.map((staff) => {
             return (
-              <div className="h-full" key={staff.name}>
+              <div className="h-full !capitalize" key={staff.name}>
                 <Lecturers
                   name={staff.name}
                   image={staff.image}

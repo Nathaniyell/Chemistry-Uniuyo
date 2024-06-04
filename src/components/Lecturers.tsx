@@ -37,12 +37,12 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
 
   return (
     <Link href={`/staff/teach-staff/${name.replaceAll(" ", "-")}` || href} className={clsx("block size-full")} passHref>
-      <div className="h-[18rem] filter hover:brightness-50 transition-all ease-linear duration-200">
+      <div className="h-[18rem] filter hover:brightness-75 transition-all ease-linear duration-200">
         <Image className="size-full" src={image} alt={name} />
       </div>
       <div className={clsx("p-3 bg-white", cardStyle)}>
         {date && <p className="mb-2 text-neutral-600 text-sm flex items-center gap-2"><CiCalendar className="text-lg" />{date}</p>}
-        <h5 className="text-xl font-bold tracking-tight text-gray-900 capitalize">
+        <h5 className="text-xl font-bold tracking-tight text-gray-900">
           {title} {" "} {name}
         </h5>
       {desc &&  <p className={clsx("text-gray-700 rounded p-2 mb3 my-2 w-fit h-full", bgColor)}>{desc} {" "}Chemistry</p>}
