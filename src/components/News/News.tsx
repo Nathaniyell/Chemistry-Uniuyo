@@ -5,15 +5,16 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 
 const News = () => {
+  
   return (
     <>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 place-items-center">
         {RecentNews.map((news, index) => (
           <div className="" key={index}>
-            <Lecturers
+                <Lecturers
               name={news.title}
               image={news.pictures[0]}
-              href={news.title.split(" ").slice(0, 4).join("-")}
+              href={news.title.slice(0, 4).split(" ").join("-")}
               date={news.date}
               cardStyle="!bg-sky-200 h-[12rem] shadow-md p-4"
             />

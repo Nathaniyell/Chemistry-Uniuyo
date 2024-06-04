@@ -42,7 +42,7 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
       </div>
       <div className={clsx("p-3 bg-white", cardStyle)}>
         {date && <p className="mb-2 text-neutral-600 text-sm flex items-center gap-2"><CiCalendar className="text-lg" />{date}</p>}
-        <h5 className="text-xl font-bold tracking-tight text-gray-900">
+        <h5 className="text-xl font-bold tracking-tight text-gray-900 hover:text-secondary transition-all ease-linear duration-200">
           {title} {" "} {name}
         </h5>
       {desc &&  <p className={clsx("text-gray-700 rounded p-2 mb3 my-2 w-fit h-full", bgColor)}>{desc} {" "}Chemistry</p>}

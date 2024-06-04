@@ -106,7 +106,7 @@ export default function Home() {
         </aside>
       </section>
       <section className="bg-white px-4 py-14">
-        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mx-auto border-l-secondary border-l-4 capitalize font-black text-3xl">
+        <h5 className="text-center text-primary md:w-1/2 lg:w-[32%] mx-auto border-l-secondary border-l-4 font-black text-[24px] md:text-[30px] uppercase">
           Why study Chemistry?
         </h5>
         <div className="my-6 md:w-5/6 mx-auto">
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </section>
       <section className="w-11/12 mx-auto p-6 ">
-        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto border-l-secondary border-l-4 uppercase font-black text-3xl">
+        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
           Meet our Staff
         </h5>
         <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6 mt-10">
@@ -196,7 +196,7 @@ export default function Home() {
 
       <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
         <div className="grid place-items-center grid-cols-1 gap-10">
-          <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-3xl">Recent News</h1>
+          <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-[24px] md:text-[30px]">Recent News</h1>
           <News />
         </div>
       </section>
@@ -215,7 +215,11 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
         <div className="grid place-items-center grid-cols-1 gap-10">
-          <h1 className="text-center text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-3xl">Recent Research Expeditions</h1>
+          <h1 className="text-center text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
+
+          <div>
+
+          </div>
           
         </div>
       </section>
