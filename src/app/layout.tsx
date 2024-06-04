@@ -19,6 +19,7 @@ export const metadata: Metadata = {
       url: "",
     },
   ],
+  metadataBase: new URL("https://chemuniuyo.vercel.app"),
 };
 
 export default function RootLayout({
