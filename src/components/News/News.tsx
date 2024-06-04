@@ -11,7 +11,7 @@ const News = () => {
             image={news.pictures[0]}
             href={news.title.split(" ").slice(0, 4).join("-")}
             date={news.date}
-            cardStyle="bg-sky-200 h-[9rem]"
+            cardStyle="!bg-sky-200 h-[9rem]"
           />
         </div>
       ))}
