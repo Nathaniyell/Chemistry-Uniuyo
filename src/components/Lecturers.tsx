@@ -1,13 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import clsx from "clsx";
+import { CiCalendar } from "react-icons/ci";
+
 type LecturerSectionProps = {
   image: any;
   name: string;
-  desc: string;
+  desc?: string;
   other?: string;
   href: string;
-  title: string
+  title?: string
+  cardStyle?: string
+  date?: string
 };
 
 const Lecturers: React.FC<LecturerSectionProps> = ({
@@ -16,45 +21,33 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
   desc,
   other,
   href,
-  title
+  title,
+  cardStyle,
+  date
 }) => {
 
-  let bgColor
-              switch (desc) {
-                case "Organic":
-                  bgColor = "bg-amber-300";
-                  break;
-                case "Inorganic":
-                  bgColor = "bg-slate-300";
-                  break;
-                case "Environmental":
-                  bgColor = "bg-green-300";
-                  break;
-                case "Analytical":
-                  bgColor = "bg-fuchsia-300";
-                  break;
-                case "Environmental / Analytical":
-                  bgColor = "bg-emerald-300";
-                  break;
-                case "Physical":
-                  bgColor = "bg-stone-300";
-                  break;
-                default:
-                  bgColor = "bg-sky-300";
-              }
+  const bgColor = {
+    "bg-amber-300": desc === "Organic",
+    "bg-slate-300": desc === "Inorganic",
+    "bg-green-300": desc === "Environmental",
+    "bg-red-300": desc === "Analytical",
+    "bg-emerald-300": desc === "Environmental / Analytical",
+    "bg-stone-300": desc === "Physical",
+  }
 
   return (
-    <Link href={`/staff/teach-staff/${href.replaceAll(" ", "-")}` } className="w-full block h-full rounded-lg" passHref>
-      <div className="aspect-w-3 aspect-h-4">
-        <Image className="rounded-t-lg object-cover" src={image} alt={name} />
+    <Link href={`/staff/teach-staff/${name.replaceAll(" ", "-")}` || href} className={clsx("block size-full")} passHref>
+      <div className="h-[18rem] filter hover:brightness-50 transition-all ease-linear duration-200">
+        <Image className="size-full" src={image} alt={name} />
       </div>
-      <div className="p-3 bg-white">
-        <h5 className="mb-4 text-xl font-bold tracking-tight text-gray-900 capitalize">
-        {title} {" "} {name}
+      <div className={clsx("p-3 bg-white", cardStyle)}>
+        {date && <p className="mb-2 text-neutral-600 text-sm flex items-center gap-2"><CiCalendar className="text-lg" />{date}</p>}
+        <h5 className="text-xl font-bold tracking-tight text-gray-900 capitalize">
+          {title} {" "} {name}
         </h5>
-        <p className={`text-gray-700 text-sm shadow rounded p-2 mb3 text-center my-2 w-fit ${bgColor}`}>{desc} {" "}Chemistry</p>
+      {desc &&  <p className={clsx("text-gray-700 rounded p-2 mb3 my-2 w-fit h-full", bgColor)}>{desc} {" "}Chemistry</p>}
         {other && (
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-700">
+          <p className="font-normal text-gray-700 dark:text-gray-700">
             {other}
           </p>
         )}

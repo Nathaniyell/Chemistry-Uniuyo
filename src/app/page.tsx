@@ -131,7 +131,7 @@ export default function Home() {
         <h5 className="text-center text-primary md:w-1/3 lg:w-[22%] mx-auto border-l-secondary border-l-4 uppercase font-bold text-2xl">
           Meet our Staff
         </h5>
-        <div className="my-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6">
+        <div className="my-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6">
           {homeStaffData.map((staff) => {
             return (
               <div className="h-full" key={staff.name}>
@@ -192,16 +192,18 @@ export default function Home() {
           animateDirection="right"
         />
       </section> */}
+<div className="bg-white mt-10">
 
-      <section className="flex flex-col p-4 md:flex-row justify-between w-11/12 items-center mx-auto">
+      <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
         <div className="grid place-items-center grid-cols-1 gap-10">
-          <h1 className="font-bold text-center">Recent News</h1>
+          <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-bold text-2xl">Recent News</h1>
           <News />
         </div>
         <div>
           <h1 className="font-bold">Upcoming Events</h1>
         </div>
       </section>
+</div>
     </main>
   );
 }

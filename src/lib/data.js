@@ -35,7 +35,7 @@ const homeData = [
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
     description:
-      "In a bittersweet ceremony, the Department of Chemistry recently honored the distinguished careers of three esteemed professors - Professor Anthony Udoh, Professor James Asuquo, and Professor Ukana Akpabio. After serving the institution with unwavering commitment for over 35 years, these intellectual giants are embarking on a new chapter of their lives.",
+      "",
 
     image: sendforth1,
     btnLink: "/",
@@ -44,7 +44,7 @@ const homeData = [
     title:
       "Department of Chemistry Graduates Record Number of Students",
     description:
-      "The Department of Chemistry at University of Uyo has achieved a remarkable milestone by graduating a record-breaking number of students. The department has proudly announced the graduation of 45 students who gained admission in 2018, setting a new high for the department. This achievement is particularly significant as it marks the first time in the history of the department that it has cleared such a large number of students.",
+      "",
 
     image: classO18,
     btnLink: "/",

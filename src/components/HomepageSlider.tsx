@@ -57,17 +57,17 @@ const HomepageSlider = ({
               <Image
                 src={image}
                 alt={title}
-                className="md:h-[28rem] object-cover"
+                className="md:h-[28rem] size-full opacity-75"
               />
             </SwiperSlide>
           ))}
         </Swiper>
       ) : (
-        <Image src={bgImage} alt={title} className="size-full md:h-[32rem]" />
+        <Image src={bgImage} alt={title} className="size-full md:h-[32rem] filter brightness-50" />
       )}
 
       {title && (
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit bg-black opacity-65 mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
           <motion.h1
             animate={{ x: 0, opacity: 1 }}
             initial={{ opacity: 0, x: -100 }}

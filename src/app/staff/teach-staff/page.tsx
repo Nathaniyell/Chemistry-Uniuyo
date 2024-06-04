@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styles from "./teachingstaff.module.css";
 import staffData from "@/lib/lecturersData";
-import { HomepageSlider } from "@/src/components";
+import  HomepageSlider  from "../../../components/HomepageSlider";
 import LabStaff from "../../../../public/images/staffLab.jpg";
 import GroupStaff from "../../../../public/images/chemistry_lab/group-staff.jpg";
 

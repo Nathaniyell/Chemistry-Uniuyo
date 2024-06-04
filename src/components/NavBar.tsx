@@ -5,12 +5,9 @@ import { IoLibrary } from "react-icons/io5";
 import { GiArchiveResearch } from "react-icons/gi";
 import { MdOutlineGroups3 } from "react-icons/md";
 import { PiGraduationCapFill, PiInfoFill } from "react-icons/pi";
-
 import Image from "next/image";
 import Link from "next/link";
-
 import Logo from "../../public/images/logo.jpg";
-
 import { useGlobalContext } from "@/context";
 import HoverButton from "./NavBar/HoverButton";
 import { programmesArray, staffArray } from "@/lib";
