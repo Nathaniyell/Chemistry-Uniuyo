@@ -1,6 +1,4 @@
-import graduation from "../../../public/images/Graduation/class018.jpg"
-import sendforth from "../../../public/images/Sendforth/sendforth_profs.jpg"
-import RecentNews from "../../lib/RecentNews"
+import { RecentNews } from "@/lib"
 import Lecturers from "../Lecturers"
 
 const News = () => {

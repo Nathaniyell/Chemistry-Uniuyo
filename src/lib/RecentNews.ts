@@ -49,7 +49,7 @@ export interface RecentNewsTypes {
   date: string
 }
 
-const RecentNews: RecentNewsTypes[] = [
+export const RecentNews: RecentNewsTypes[] = [
   { date: "Februaury, 2024",
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
@@ -95,4 +95,3 @@ const RecentNews: RecentNewsTypes[] = [
   },
 
 ]
-export default RecentNews
