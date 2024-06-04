@@ -1,15 +1,14 @@
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg"
-import sendforth from "../../public/images/Sendforth/245.jpg";
-import sendforth2 from "../../public/images/Sendforth/253.jpg";
-import sendforth3 from "../../public/images/Sendforth/254.jpg";
-import sendforth4 from "../../public/images/Sendforth/250.jpg";
-import profJames from "../../public/images/Sendforth/47.jpg";
+import sendforth from "../../public/images/Sendforth/sendforth1.jpg";
+import sendforth2 from "../../public/images/Sendforth/sendforth2.jpg";
+import sendforth3 from "../../public/images/Sendforth/sendforth3.jpg";
+import sendforth4 from "../../public/images/Sendforth/sendforth4.jpg";
+import profJames from "../../public/images/Sendforth/profJames.jpg";
 import profJames2 from "../../public/images/Sendforth/53.jpg";
 import profAP from "../../public/images/Sendforth/14.jpg";
 import profAP2 from "../../public/images/Sendforth/28.jpg";
 import profUdosen from "../../public/images/Sendforth/5.jpg";
 import sendforth11 from "../../public/images/Sendforth/261.jpg";
-import sendForth15 from "../../public/images/Sendforth/245.jpg";
 import sendForth from "../../public/images/Sendforth/44.jpg";
 import sendForth3 from "../../public/images/Sendforth/46.jpg";
 import sendForth4 from "../../public/images/Sendforth/94.jpg";
@@ -62,7 +61,7 @@ export const RecentNews: RecentNewsTypes[] = [
       "'Professor Udoh, Professor Asuquo, and Professor Akpabio's passion for chemistry and their genuine care for their students have left an indelible mark on our lives,' expressed Dayemi Archibong, a student in the Department of Chemistry and the President of the Students Union Government.",
       "As Professor Udoh, Professor Asuquo, and Professor Akpabio bid farewell to the university, they leave behind a remarkable legacy of excellence, innovation, and a deep commitment to the advancement of chemistry. The department of Chemistry extends its heartfelt gratitude for their decades of dedicated service and wishes them a well-deserved retirement filled with new adventures and continued intellectual pursuits.",
     ],
-    pictures: [sendforth1, profAP, profJames, profUdosen, sendforth, sendForth15, sendforth1, sendForth3, sendforth2, sendforth11, sendforth3, sendforth4, sendForth, sendForth4, sendForth6, sendForth5, sendForth7, sendForth8, sendForth9, sendForth10, sendForth11, sendForth12, sendForth13, sendForth14, sendForth3],
+    pictures: [sendforth1, profAP, profJames, profUdosen, sendforth, sendforth1, sendForth3, sendforth2, sendforth11, sendforth3, sendforth4, sendForth, sendForth4, sendForth6, sendForth5, sendForth7, sendForth8, sendForth9, sendForth10, sendForth11, sendForth12, sendForth13, sendForth14, sendForth3],
   },
   { date: "Februaury, 2024",
     title:
