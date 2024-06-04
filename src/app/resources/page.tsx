@@ -1,5 +1,5 @@
 import ResourceImage from "@/components/resources/ResourceImage";
-import { allResources } from "@/lib";
+import { allResources } from "../../lib";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
