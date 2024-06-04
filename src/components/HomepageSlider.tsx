@@ -36,7 +36,7 @@ const HomepageSlider = ({
   btnLink,
 }: sliderProps) => {
   return (
-    <div className={`relative border-4 size-full`}>
+    <div className={`relative border-4 h-[50vh] md:size-full`}>
       {Array.isArray(bgImage) ? (
         <Swiper
           centeredSlides
@@ -77,7 +77,7 @@ const HomepageSlider = ({
               delay: 0.3,
               duration: 0.7,
             }}
-            className="uppercase font-bold text-2xl md:text-4xl"
+            className="uppercase font-bold text-xl md:text-3xl"
           >
             <span className="uppercase font-normal text-lg md:text-lg">
               {greeting} <br />
@@ -85,6 +85,7 @@ const HomepageSlider = ({
             {title}
           </motion.h1>
           <motion.p
+          className="text-sm md:text-base"
             animate={{ x: 0, opacity: 1 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{

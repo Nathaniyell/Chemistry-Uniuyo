@@ -27,7 +27,7 @@ const homeData = [
     image: lab1,
     title: "Department of chemistry",
     description:
-      "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration. Explore our diverse range of programs, gain insights into our pioneering research initiatives, and discover how we are shaping the future of science and technology. We invite you to embark on an enriching journey with us as we continue to push the boundaries of what is possible in the field of chemistry.",
+      "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "welcome to the",
     btnLink: "/about",
   },

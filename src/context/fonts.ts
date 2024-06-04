@@ -1,11 +1,11 @@
-import { Lusitana } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const lusitana = Lusitana({
+const raleway = Raleway({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-lusitana",
+  variable: "--font-raleway",
   fallback: ["Impact", "Georgia", "serif"],
 });
 
-export { lusitana };
+export { raleway };

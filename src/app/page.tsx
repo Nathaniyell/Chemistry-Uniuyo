@@ -106,7 +106,7 @@ export default function Home() {
         </aside>
       </section>
       <section className="bg-white px-4 py-14">
-        <h5 className="text-center text-primary md:w-1/3 lg:w-[25%] mx-auto border-l-secondary border-l-4 capitalize font-bold text-2xl">
+        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mx-auto border-l-secondary border-l-4 capitalize font-black text-3xl">
           Why study Chemistry?
         </h5>
         <div className="my-6 md:w-5/6 mx-auto">
@@ -128,10 +128,10 @@ export default function Home() {
         </div>
       </section>
       <section className="w-11/12 mx-auto p-6 ">
-        <h5 className="text-center text-primary md:w-1/3 lg:w-[22%] mx-auto border-l-secondary border-l-4 uppercase font-bold text-2xl">
+        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto border-l-secondary border-l-4 uppercase font-black text-3xl">
           Meet our Staff
         </h5>
-        <div className="my-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6">
+        <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6 mt-10">
           {homeStaffData.map((staff) => {
             return (
               <div className="h-full !capitalize" key={staff.name}>
@@ -148,8 +148,8 @@ export default function Home() {
         </div>
         <Button
         arrow
-          variant="transparent"
-          className="text-black border-black w-full md:w-1/2 lg:w-1/3 rounded-lg mx-auto"
+          variant="primary"
+          className="text-white w-full md:w-1/2 lg:w-[25%] mx-auto"
         >
           <Link href="/staff/teach-staff" className="text-xl">
             More about our staff
@@ -196,11 +196,27 @@ export default function Home() {
 
       <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
         <div className="grid place-items-center grid-cols-1 gap-10">
-          <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-bold text-2xl">Recent News</h1>
+          <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-3xl">Recent News</h1>
           <News />
         </div>
-        <div>
-          <h1 className="font-bold">Upcoming Events</h1>
+      </section>
+        <div className="bg-orange-100 my-10 p-20 flex flex-col gap-10 md:flex-row justify-between items-center">
+          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 text-2xl">Explore the Impressive Resources and Facilities of the Department of Chemistry, University of Uyo</h1>
+
+        <Button
+        variant="transparent"
+        className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
+        arrow
+        >
+          <Link href="/resources">
+              Take tour
+          </Link>
+        </Button>
+        </div>
+        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
+        <div className="grid place-items-center grid-cols-1 gap-10">
+          <h1 className="text-center text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-3xl">Recent Research Expeditions</h1>
+          
         </div>
       </section>
 </div>

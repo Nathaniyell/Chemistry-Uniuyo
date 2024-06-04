@@ -24,7 +24,7 @@ const config: Config = {
         rgbaBackground: "rgba(0, 0, 0, 0.4)",
       },
       fontFamily: {
-        serif: ["var(--font-lusitana)"],
+        serif: ["var(--font-raleway)"],
       },
       screens: {
         xs: "480px",

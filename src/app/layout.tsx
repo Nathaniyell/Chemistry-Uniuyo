@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Footer, NavBar } from "@/components";
-import { Providers, lusitana } from "@/context";
+import { Providers, raleway } from "@/context";
 
 import "../styles/globals.css";
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${lusitana.variable} font-serif`}>
+    <html lang="en" className={`${raleway.variable} font-serif`}>
       <body className="scroll-smooth w-[100svw] overflow-x-hidden">
         <Providers>
           <NavBar />
