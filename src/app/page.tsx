@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 import Image from "next/image";
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/profInam2.jpg";
-import homeData, { studentsData, homeStaffData } from "../lib/data";
+import homeData, { studentsData, homeStaffData } from "@/lib/data";
 import { HomepageSlider } from "@/components";
 import HomeSections from "@/components/HomeSections";
 import Lecturers from "@/components/Lecturers";

@@ -1,8 +1,4 @@
 import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
-// import lab2 from "../../public/images/Homepage/HeroImg3.JPG";
-// import lab3 from "../../public/images/staffLab.jpg";
-// import lab4 from "../../public/images/Homepage/HeroImg1.JPG";
-
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
 import classO18 from "../../public/images/Graduation/class018.jpg"
 
@@ -21,8 +17,17 @@ import staff6 from "../../public/images/staff11.webp";
 import staff7 from "../../public/images/staff12.webp";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
+import { StaticImageData } from 'next/image';
 
-const homeData = [
+interface HomeDataItem {
+  image: StaticImageData;
+  title: string;
+  description: string;
+  greeting?: string;
+  btnLink: string;
+}
+
+const homeData: HomeDataItem[] = [
   {
     image: lab1,
     title: "Department of chemistry",
@@ -31,7 +36,7 @@ const homeData = [
     greeting: "welcome to the",
     btnLink: "/about",
   },
- {
+  {
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
     description:
@@ -52,7 +57,12 @@ const homeData = [
 
 ];
 
-export const studentsData = [
+export interface StudentsDataItem {
+  image: StaticImageData;
+  id: string;
+}
+
+export const studentsData: StudentsDataItem[] = [
   { image: student6, id: "st1" },
   { image: student1, id: "st2" },
   { image: student2, id: "st3" },
@@ -60,8 +70,14 @@ export const studentsData = [
   { image: student4, id: "st5" },
   { image: student5, id: "st6" },
 ];
+interface HomeStaffDataItem {
+  image: StaticImageData;
+  title: string;
+  name: string;
+  desc: string;
+}
 
-export const homeStaffData = [
+export const homeStaffData: HomeStaffDataItem[] = [
   {
     image: emmanuelEssien,
     title: "Dr.",
@@ -97,7 +113,16 @@ export const homeStaffData = [
 
 export default homeData;
 
-const level100courses = [
+interface CourseItem {
+  code: string;
+  title: string;
+  credit_hrs: number;
+  prerequisite: string;
+  semester: string;
+  desc: string;
+}
+
+const level100courses: CourseItem[] = [
   {
     code: "GST111",
     title: "Use of English I",
@@ -172,7 +197,7 @@ const level100courses = [
   },
 ];
 
-const level100coursesSecond = [
+const level100coursesSecond: CourseItem[] = [
   {
     code: "GST121",
     title: "Use of English II",
@@ -255,7 +280,7 @@ const level100coursesSecond = [
   },
 ];
 
-const level200courses = [
+const level200courses: CourseItem[] = [
   {
     code: "gst211",
     title: "Entrepreneurial Studies I",
@@ -346,7 +371,7 @@ const level200courses = [
   },
 ];
 
-const level200coursesSecond = [
+const level200coursesSecond: CourseItem[] = [
   {
     code: "gst221",
     title: "Entrepreneurial Studies II",
@@ -413,7 +438,7 @@ const level200coursesSecond = [
   },
 ];
 
-const level300courses = [
+const level300courses: CourseItem[] = [
   {
     code: "chm311",
     title: "Inorganic Chemistry III",
@@ -496,7 +521,7 @@ const level300courses = [
   },
 ];
 
-const level300coursesSecond = [
+const level300coursesSecond: CourseItem[] = [
   {
     code: "chm321",
     title: "Students' Industral Work Experience Scheme (S.I.W.E.S)",
@@ -507,7 +532,7 @@ const level300coursesSecond = [
   },
 ];
 
-const level400courses = [
+const level400courses: CourseItem[] = [
   {
     code: "chm410",
     title: "Carbohydrates and Natural Products Chemistry I",
@@ -615,7 +640,7 @@ const level400courses = [
   },
 ];
 
-const level400coursesSecond = [
+const level400coursesSecond: CourseItem[] = [
   {
     code: "chm420",
     title: "Research Project",
