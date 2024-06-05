@@ -251,7 +251,7 @@ export default function Home() {
             </aside>
             <Button
               variant="transparent"
-              className="mx-auto place-self-center !text-xl border-slate-500"
+              className="mx-auto place-self-center text-white !text-xl border-none !bg-primary"
             >
               More about Research
               <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
