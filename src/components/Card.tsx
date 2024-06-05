@@ -16,7 +16,8 @@ import {
 import clsx from "clsx";
 
 type CardProps = {
-  type: string;
+  type?: string;
+  isResearchPage?: boolean;
   title: string;
   unit: string;
   author: string;
@@ -27,6 +28,7 @@ type CardProps = {
 
 export default function Card({
   type,
+  isResearchPage = true,
   title,
   unit,
   author,
@@ -65,19 +67,17 @@ export default function Card({
   const handleButtonClick = (a: string, d: string, p: string, t: string) => {
     searchParams.has("filterby")
       ? router.push(
-          `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
-            .split(" ")[2]
-            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
-            p.split("-")[2]
-          }&title=${t}&currentPage=${currentPage}`
-        )
+        `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
+          .split(" ")[2]
+          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
+        }&title=${t}&currentPage=${currentPage}`
+      )
       : router.push(
-          `?isOpen=true&author=${a.split(" ")[1]} ${a
-            .split(" ")[2]
-            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
-            p.split("-")[2]
-          }&title=${t}&currentPage=${currentPage}`
-        );
+        `?isOpen=true&author=${a.split(" ")[1]} ${a
+          .split(" ")[2]
+          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
+        }&title=${t}&currentPage=${currentPage}`
+      );
   };
 
   return (
@@ -98,7 +98,7 @@ export default function Card({
         <aside className="flex flex-col gap-3 p-2 xs:p-4 py-4 xs:py-6">
           <div className="flex gap-3 justify-between items-center">
             <h1
-              className={clsx("text-lg xs:text-xl capitalize", {
+              className={clsx("text-lg xs:text-xl capitalize truncate", {
                 "text-primary": unit === "environmental",
                 "text-red-600": unit === "physical",
                 "text-green-600": unit === "organic",
@@ -107,10 +107,7 @@ export default function Card({
               })}
               title={title.length > 35 ? title : ""}
             >
-              {title
-                .substring(0, 35)
-                .trim()
-                .concat(title.length > 35 ? "..." : "")}
+              {title}
             </h1>
 
             {unit && (
@@ -144,14 +141,14 @@ export default function Card({
           </p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
-            <Button
+            {isResearchPage && <Button
               onClick={() =>
                 handleButtonClick(author, desc, published_at, title)
               }
               className="border-primary text-primary hover:bg-blue-50"
             >
               Cite this {type}
-            </Button>
+            </Button>}
 
             <Button
               onClick={() => router.replace(href ? href : "")}
@@ -165,14 +162,12 @@ export default function Card({
       </m.div>
 
       <div
-        className={`${
-          isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
-        } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
+        className={`${isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
+          } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
       >
         <div
-          className={`${
-            isOpen ? "scale-100" : "scale-0"
-          } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
+          className={`${isOpen ? "scale-100" : "scale-0"
+            } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
         >
           <button
             onClick={() => router.push(`?`, { scroll: false })}

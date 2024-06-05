@@ -8,6 +8,7 @@ type SectionProps = {
   filterby: string;
   search: string;
   currentPage: number;
+  isMainPage?: boolean;
   cardsArray: {
     title: string;
     unit?: string;
@@ -24,6 +25,7 @@ export default function Section({
   filterby,
   search,
   currentPage,
+  isMainPage = true,
   isPaginated = true,
   cardsArray,
 }: SectionProps) {
@@ -34,15 +36,15 @@ export default function Section({
 
   const filterArray = search
     ? cardsArray.filter(
-        (c) =>
-          c.title.toLowerCase().includes(search.toLowerCase()) ||
-          c.desc.toLowerCase().includes(search.toLowerCase()) ||
-          c.author.toLowerCase().includes(search.toLowerCase()) ||
-          c.published_at.toLowerCase().includes(search.toLowerCase())
-      )
+      (c) =>
+        c.title.toLowerCase().includes(search.toLowerCase()) ||
+        c.desc.toLowerCase().includes(search.toLowerCase()) ||
+        c.author.toLowerCase().includes(search.toLowerCase()) ||
+        c.published_at.toLowerCase().includes(search.toLowerCase())
+    )
     : filterby
-    ? cardsArray.filter((c) => c.unit === filterby)
-    : cardsArray;
+      ? cardsArray.filter((c) => c.unit === filterby)
+      : cardsArray;
 
   const displayFilteredCards = filterArray
     .slice(firstPostIndex, lastPostIndex)
@@ -64,7 +66,7 @@ export default function Section({
       id={type}
       className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50"
     >
-      <div className="w-full flex flex-col gap-3 md:gap-5 border-b border-blue-50 p-2 my-4">
+      {isMainPage && <div className="w-full flex flex-col gap-3 md:gap-5 border-b border-blue-50 p-2 my-4">
         <h1 className="text-4xl text-blue-950 capitalize font-bold">
           {type + "s"}
         </h1>
@@ -74,7 +76,7 @@ export default function Section({
 
           <Search placeholder="search" />
         </div>
-      </div>
+      </div>}
 
       <aside className="flex flex-col gap-4 items-center">
         {search || filterby ? (
