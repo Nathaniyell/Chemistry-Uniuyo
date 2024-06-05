@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "Browse through our amazing variety of courses",
   keywords: [],
   authors: [
-    { name: "Nathaniel Essien", url: "" },
+    { name: "Nathaniel Essien", url: "https://nathanielessien.vercel.app" },
 
     {
       name: "Clever Akanimoh",
