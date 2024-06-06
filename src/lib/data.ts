@@ -1,4 +1,3 @@
-// import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
 import cecilia1 from "@/public/images/chemistry_lab/cecilia1.jpg"
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
 import classO18 from "../../public/images/Graduation/class018.jpg";
@@ -39,14 +38,14 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: sendforth1,
-    btnLink: "/",
+    btnLink: "/recent-news",
   },
   {
     title: "Department of Chemistry Graduates Record Number of Students",
     description: "",
 
     image: classO18,
-    btnLink: "/",
+    btnLink: "/recent-news",
   },
 ];
 
