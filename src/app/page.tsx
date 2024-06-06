@@ -245,9 +245,9 @@ export default function Home() {
                       /></SwiperSlide>
                   ))}
 
-                <div className="flex gap-2 justify-center items-center mt-4">
-                  <button type="button" className="w-[1rem] h-[1rem] rounded-full p-2" onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="w-4" /></button>
-                  <button type="button" className="w-[1rem] h-[1rem] rounded-full p-2" onClick={() => swiper.slideNext()}><ArrowRightIcon className="w-4" /></button>
+                <div className="flex gap-2 justify-center items-center mt-4 text-white">
+                  <button type="button" className="w-[2rem] h-[2rem] rounded-full p-2" onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="w-4" /></button>
+                  <button type="button" className="w-[2rem] h-[2rem] rounded-full p-2" onClick={() => swiper.slideNext()}><ArrowRightIcon className="w-4" /></button>
                 </div>
               </Swiper>
             </aside>
