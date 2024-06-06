@@ -91,12 +91,12 @@ export default function Card({
         whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
         viewport={{ once: true }}
-        className={clsx("border border-gray-100 rounded-xl hover:shadow", {
-          "bg-gradient-to-b from-5% from-blue-50": unit === "environmental",
-          "bg-gradient-to-b from-5% from-red-50": unit === "physical",
-          "bg-gradient-to-b from-5% from-green-50": unit === "organic",
-          "bg-gradient-to-b from-5% from-orange-50": unit === "inorganic",
-          "bg-gradient-to-b from-5% from-gray-50": unit === "analytical",
+        className={clsx("border border-gray-100 rounded hover:shadow from-2%", {
+          "bg-gradient-to-b from-blue-50": unit === "environmental",
+          "bg-gradient-to-b from-red-50": unit === "physical",
+          "bg-gradient-to-b from-green-50": unit === "organic",
+          "bg-gradient-to-b from-orange-50": unit === "inorganic",
+          "bg-gradient-to-b from-gray-50": unit === "analytical",
         })}
       >
         <aside className="flex flex-col gap-3 p-2 xs:p-4 py-4 xs:py-6">

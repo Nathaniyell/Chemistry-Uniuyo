@@ -53,7 +53,7 @@ export default function HomeResearchSlider() {
             </SwiperSlide>
           ))}
 
-        <aside className="flex gap-6 xs:gap-8 items-center justify-center mt-8">
+        <aside className="flex gap-6 xs:gap-8 items-center justify-center my-8">
           <div className="space-x-3">
             <SlideButton position="left" Icon={ArrowLeftIcon} />
             <SlideButton Icon={ArrowRightIcon} />
