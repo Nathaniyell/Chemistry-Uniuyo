@@ -146,7 +146,7 @@ export default function Home() {
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
-                  href={staff.name}
+                  href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
                   cardTitleStyle="hover:text-secondary"
                 />
               </div>

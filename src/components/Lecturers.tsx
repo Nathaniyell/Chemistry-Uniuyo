@@ -10,8 +10,7 @@ type LecturerSectionProps = {
   name: string;
   desc?: string;
   other?: string;
-  href?: string;
-  cardLink?: string
+  href: string;
   title?: string
   cardBodyStyle?: string
   date?: string
@@ -29,7 +28,6 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
   other,
   href,
   title,
-  cardLink,
   cardBodyStyle,
   date,
   readMore,
@@ -48,10 +46,10 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
     "bg-stone-300": desc === "Physical",
   }
 
-  const linkHref = `/staff/teach-staff/${name?.replaceAll(" ", "-")}` || cardLink || "/";
+
 
   return (
-    <Link href={linkHref} className={clsx("flex flex-col size-full", cardContainerStyle)} passHref>
+    <Link href={href} className={clsx("flex flex-col size-full", cardContainerStyle)} passHref>
       <div className={clsx("h-[18rem] filter hover:brightness-75 transition-all ease-linear duration-200 overflow-clip", cardImgContainerStyle)}>
         <Image className="size-full" src={image} alt={name} />
       </div>
