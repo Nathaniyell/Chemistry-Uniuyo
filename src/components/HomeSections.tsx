@@ -55,7 +55,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
         <Button
           variant="primary"
           arrow
-          className="text-white !text-base border-0 !w-full md:!w-4/5 lg:!w-1/2 !text-center px-3 underline !justify-start"
+          className="text-white !text-base border-0 !w-full md:!w-4/5 lg:!w-1/2 !text-center px-3 !justify-start"
         >
           <Link href={`${routeLink}`}>
             More about our{" "}
