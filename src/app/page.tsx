@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { Autoplay, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -9,35 +9,20 @@ import Image from "next/image";
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/profInam2.jpg";
 import homeData, { homeStaffData } from "@/lib/data";
-import { Card, HomepageSlider } from "@/components";
+import { HomepageSlider } from "@/components";
 import HomeSections from "@/components/HomeSections";
 import Lecturers from "@/components/Lecturers";
 import Link from "next/link";
 import { Button } from "@/components";
 import News from "@/components/News/News";
-import { publications } from "@/lib";
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-
-import { useMediaQuery } from "react-responsive";
+import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
   const headOfDepartment = [
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
   ];
-
-  const btnClasses = "rounded-full bg-primary hover:border-primary text-white";
-  const swiper = useSwiper();
-  const isBigMobile = useMediaQuery({ query: "(min-width: 640px)" });
-
-  const isTablet = useMediaQuery({
-    query: "(min-width: 768px)",
-  });
-
-  const isLaptop = useMediaQuery({
-    query: "(min-width: 1024px)",
-  });
 
   return (
     <main className="w-full min-h-screen relative bg-slate-100">
@@ -165,41 +150,6 @@ export default function Home() {
         </Button>
       </section>
 
-      {/* <section className="bg-sky-100 container w-11/12 mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row mt-5">
-        <Swiper
-          effect={"cards"}
-          centeredSlides={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Autoplay, EffectCards, Pagination]}
-          className="w-full h-full"
-        >
-          {studentsData.map((student) => {
-            return (
-              <SwiperSlide className="bg-center bg-cover" key={student.id}>
-                <Image
-                  className="block w-full"
-                  src={student.image}
-                  alt="Students"
-                />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-
-        <HomeSections
-          greeting="Meet Our"
-          title="Students"
-          routeLink="/programmes/undergraduate"
-          description=""
-          animateDirection="right"
-        />
-      </section> */}
       <div className="bg-white mt-10">
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="grid place-items-center grid-cols-1 gap-10">
@@ -229,37 +179,9 @@ export default function Home() {
               Recent Research Expeditions
             </h1>
 
-            {/* break into a component later */}
-            <aside>
-              <Swiper className="w-[98%] p-2">
-                {publications
-                  .slice(0, 4)
-                  .map(
-                    (
-                      { title, unit, author, published_at, desc, href },
-                      index
-                    ) => (
-                      <SwiperSlide key={index}>
-                        <Card
-                          isResearchPage={false}
-                          title={title}
-                          type="publication"
-                          unit={unit ?? ""}
-                          author={author}
-                          published_at={published_at}
-                          desc={desc}
-                          href={href}
-                        />
-                      </SwiperSlide>
-                    )
-                  )}
+            {/* ResearchSlider */}
+            <HomeResearchSlider />
 
-                <div className="flex gap-2 justify-center mt-4">
-                  <SlideButton Icon={ArrowLeftIcon} />
-                  <SlideButton Icon={ArrowRightIcon} />
-                </div>
-              </Swiper>
-            </aside>
             <Button
               variant="transparent"
               className="mx-auto place-self-center text-white !text-xl border-none !bg-primary"
@@ -271,24 +193,5 @@ export default function Home() {
         </section>
       </div>
     </main>
-  );
-}
-
-function SlideButton({
-  position = "right",
-  Icon,
-}: {
-  position?: "right" | "left";
-  Icon: React.ElementType;
-}) {
-  const { slideNext, slidePrev } = useSwiper();
-
-  return (
-    <button
-      onClick={() => (position === "right" ? slideNext() : slidePrev())}
-      className="bg-transparent p-2 rounded-full text-primary hover:bg-primary border hover:text-white border-primary active:scale-105 transition-all duration-300"
-    >
-      <Icon className="size-7 xs:size-4 " />
-    </button>
   );
 }
