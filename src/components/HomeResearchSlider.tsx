@@ -22,7 +22,7 @@ export default function HomeResearchSlider() {
   return (
     <aside>
       <Swiper
-        spaceBetween={10}
+        spaceBetween={15}
         modules={[Autoplay]}
         slidesPerView={isLaptop ? 3 : isTablet ? 2 : 1}
         loop

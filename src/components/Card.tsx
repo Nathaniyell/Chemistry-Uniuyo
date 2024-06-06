@@ -67,25 +67,27 @@ export default function Card({
   const handleButtonClick = (a: string, d: string, p: string, t: string) => {
     searchParams.has("filterby")
       ? router.push(
-        `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
-          .split(" ")[2]
-          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
-        }&title=${t}&currentPage=${currentPage}`
-      )
+          `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
+            p.split("-")[2]
+          }&title=${t}&currentPage=${currentPage}`
+        )
       : router.push(
-        `?isOpen=true&author=${a.split(" ")[1]} ${a
-          .split(" ")[2]
-          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
-        }&title=${t}&currentPage=${currentPage}`
-      );
+          `?isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
+            p.split("-")[2]
+          }&title=${t}&currentPage=${currentPage}`
+        );
   };
 
   return (
     <div className="overflow-hidden w-full">
       <m.div
-        initial={d.initial}
-        whileInView={d.whileInView}
-        transition={d.transition}
+        initial={isResearchPage ? d.initial : undefined}
+        whileInView={isResearchPage ? d.whileInView : undefined}
+        transition={isResearchPage ? d.transition : undefined}
         viewport={{ once: true }}
         className={clsx("border border-gray-100 rounded-xl hover:shadow", {
           "bg-gradient-to-b from-5% from-blue-50": unit === "environmental",
@@ -133,7 +135,10 @@ export default function Card({
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
 
-          <p className="text-justify text-base" title={desc}>
+          <p
+            className="text-justify text-base xs:text-sm line-clamp-4"
+            title={desc}
+          >
             {desc
               .substring(0, 200)
               .trim()
@@ -141,14 +146,16 @@ export default function Card({
           </p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
-            {isResearchPage && <Button
-              onClick={() =>
-                handleButtonClick(author, desc, published_at, title)
-              }
-              className="border-primary text-primary hover:bg-blue-50"
-            >
-              Cite this {type}
-            </Button>}
+            {isResearchPage && (
+              <Button
+                onClick={() =>
+                  handleButtonClick(author, desc, published_at, title)
+                }
+                className="border-primary text-primary hover:bg-blue-50"
+              >
+                Cite this {type}
+              </Button>
+            )}
 
             <Button
               onClick={() => router.replace(href ? href : "")}
@@ -162,12 +169,14 @@ export default function Card({
       </m.div>
 
       <div
-        className={`${isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
-          } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
+        className={`${
+          isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
+        } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
       >
         <div
-          className={`${isOpen ? "scale-100" : "scale-0"
-            } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
+          className={`${
+            isOpen ? "scale-100" : "scale-0"
+          } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
         >
           <button
             onClick={() => router.push(`?`, { scroll: false })}
