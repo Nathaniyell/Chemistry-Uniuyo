@@ -1,6 +1,6 @@
-import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
+// import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
-import classO18 from "../../public/images/Graduation/class018.jpg"
+import classO18 from "../../public/images/Graduation/class018.jpg";
 
 import student1 from "../../public/images/CHMs1.webp";
 import student2 from "../../public/images/CHMs2.webp";
@@ -9,15 +9,11 @@ import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
 import student6 from "../../public/images/CHMs6.webp";
 
-import staff1 from "../../public/images/staff3.webp";
 import staff2 from "../../public/images/staff2.webp";
-import staff4 from "../../public/images/staff1.webp";
 import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
-import staff6 from "../../public/images/staff11.webp";
-import staff7 from "../../public/images/staff12.webp";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
-import { StaticImageData } from 'next/image';
+import { StaticImageData } from "next/image";
 
 interface HomeDataItem {
   image: StaticImageData;
@@ -28,33 +24,29 @@ interface HomeDataItem {
 }
 
 const homeData: HomeDataItem[] = [
-  {
-    image: lab1,
-    title: "Department of chemistry",
-    description:
-      "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
-    greeting: "welcome to the",
-    btnLink: "/about",
-  },
+  // {
+  //   image: lab1,
+  //   title: "Department of chemistry",
+  //   description:
+  //     "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
+  //   greeting: "welcome to the",
+  //   btnLink: "/about",
+  // },
   {
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
-    description:
-      "",
+    description: "",
 
     image: sendforth1,
     btnLink: "/",
   },
   {
-    title:
-      "Department of Chemistry Graduates Record Number of Students",
-    description:
-      "",
+    title: "Department of Chemistry Graduates Record Number of Students",
+    description: "",
 
     image: classO18,
     btnLink: "/",
   },
-
 ];
 
 export interface StudentsDataItem {
