@@ -82,7 +82,7 @@ export const publications = [
     author: "Clever Solomon Akanimoh",
     published_at: "13-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Antimicrobial activity of cinnamomun tamala",
@@ -90,7 +90,7 @@ export const publications = [
     author: "Akpan, Iniobong Samuel",
     published_at: "13-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title:
@@ -99,7 +99,7 @@ export const publications = [
     author: "Evelyn Akpan Joe",
     published_at: "30-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Toxins in diets prepared using goat dehaired with scrap tyre fire",
@@ -107,7 +107,7 @@ export const publications = [
     author: "akai tommy eze",
     published_at: "05-01-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Toxins in diets prepared using goat dehaired with scrap tyre fire",
@@ -115,7 +115,7 @@ export const publications = [
     author: "Moses Mark Monday",
     published_at: "05-01-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title:
@@ -124,7 +124,7 @@ export const publications = [
     author: "Clever Solomon Akanimoh",
     published_at: "13-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Toxins in diets prepared using goat dehaired with scrap tyre fire",
@@ -132,7 +132,7 @@ export const publications = [
     author: "Moses Mark Monday",
     published_at: "05-01-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title:
@@ -141,7 +141,7 @@ export const publications = [
     author: "Clever Solomon Akanimoh",
     published_at: "13-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Toxins in diets prepared using goat dehaired with scrap tyre fire",
@@ -149,7 +149,7 @@ export const publications = [
     author: "Moses Mark Monday",
     published_at: "05-01-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Toxins in diets prepared using goat dehaired with scrap tyre fire",
@@ -157,7 +157,7 @@ export const publications = [
     author: "Moses Mark Monday",
     published_at: "05-01-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
   {
     title: "Antimicrobial activity of cinnamomun tamala",
@@ -165,6 +165,6 @@ export const publications = [
     author: "Sampson Michael Ekpo",
     published_at: "13-11-2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
-    href: "https://",
+    href: undefined,
   },
 ];

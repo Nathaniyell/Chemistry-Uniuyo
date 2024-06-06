@@ -14,6 +14,7 @@ import {
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import clsx from "clsx";
+import Link from "next/link";
 
 type CardProps = {
   type?: string;
@@ -23,7 +24,7 @@ type CardProps = {
   author: string;
   published_at: string;
   desc: string;
-  href: string;
+  href?: string;
 };
 
 export default function Card({
@@ -85,9 +86,10 @@ export default function Card({
   return (
     <div className="overflow-hidden w-full">
       <m.div
-        initial={isResearchPage ? d.initial : undefined}
+        initial={d.initial}
+        animate={!isResearchPage && d.whileInView}
         whileInView={isResearchPage ? d.whileInView : undefined}
-        transition={isResearchPage ? d.transition : undefined}
+        transition={d.transition}
         viewport={{ once: true }}
         className={clsx("border border-gray-100 rounded-xl hover:shadow", {
           "bg-gradient-to-b from-5% from-blue-50": unit === "environmental",
@@ -115,7 +117,7 @@ export default function Card({
             {unit && (
               <span
                 className={clsx(
-                  "text-sm border rounded-2xl px-[12px] p-[6px] capitalize",
+                  "text-xs border rounded-2xl px-[12px] p-[6px] capitalize",
                   {
                     "border-blue-200 text-primary": unit === "environmental",
                     "border-red-300 text-red-600": unit === "physical",
@@ -130,20 +132,12 @@ export default function Card({
             )}
           </div>
 
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 my-1 xs:my-2">
+          <div className="flex gap-4 my-2">
             <PubInfo text={author} Icon={UserCircleIcon} />
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
 
-          <p
-            className="text-justify text-base xs:text-sm line-clamp-4"
-            title={desc}
-          >
-            {desc
-              .substring(0, 200)
-              .trim()
-              .concat(desc.length > 200 ? "..." : "")}
-          </p>
+          <p className="text-base line-clamp-3">{desc}</p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
             {isResearchPage && (
@@ -157,13 +151,12 @@ export default function Card({
               </Button>
             )}
 
-            <Button
-              onClick={() => router.replace(href ? href : "")}
-              variant="secondary"
-              className="hover:bg-orange-600 border-transparent text-white"
+            <Link
+              href={href ?? ""}
+              className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-4 text-sm active:scale-105 transition-all duration-300"
             >
-              Open this {type}
-            </Button>
+              View this {type}
+            </Link>
           </div>
         </aside>
       </m.div>
@@ -213,8 +206,8 @@ export default function Card({
 }
 
 const PubInfo = ({ text, Icon }: { text: string; Icon: React.ElementType }) => (
-  <p className="text-sm flex items-center justify-center gap-2">
-    <Icon className="h-4" />
-    <span className="capitalize">{text}</span>
-  </p>
+  <div className="text-xs flex items-center gap-1">
+    <Icon className="h-4 text-slate-400" />
+    <span className="capitalize text-black">{text}</span>
+  </div>
 );

@@ -175,20 +175,12 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
+            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[20px] md:text-[25px]">
               Recent Research Expeditions
             </h1>
 
             {/* ResearchSlider */}
             <HomeResearchSlider />
-
-            <Button
-              variant="transparent"
-              className="mx-auto place-self-center text-white !text-xl border-none !bg-primary"
-            >
-              More about Research
-              <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
-            </Button>
           </div>
         </section>
       </div>
