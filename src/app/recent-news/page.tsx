@@ -19,12 +19,12 @@ const page = () => {
                             <Lecturers
                             name = ""
                                 image={pictures[0]}
-                                href={`/${news.title.slice(0, 4).split(" ").join("-")}`}
+                                href={`/recent-news/${news.title.split(' ').slice(0,4).join("-")}`}
                                 date={date}
                                 other={`${description[0]} \n\n ${description[1]}`}
                                 cardBodyStyle="shadow p-6 "
                                 readMore
-                                readMoreLink="/news"
+                                readMoreLink={`/recent-news/${news.title.split(' ').slice(0,4).join("-")}`}
                                 cardContainerStyle="h-full"
                                 cardImgContainerStyle="h-[40%] filter-none"
                                 cardTitleStyle="text-2xl md:text-3xl"
