@@ -9,12 +9,8 @@ import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
 import student6 from "../../public/images/CHMs6.webp";
 
-import staff1 from "../../public/images/staff3.webp";
 import staff2 from "../../public/images/staff2.webp";
-import staff4 from "../../public/images/staff1.webp";
 import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
-import staff6 from "../../public/images/staff11.webp";
-import staff7 from "../../public/images/staff12.webp";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from 'next/image';
