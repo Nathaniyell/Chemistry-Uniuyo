@@ -1,3 +1,4 @@
+"use client"
 import { RecentNews } from "@/lib"
 import Lecturers from "../Lecturers"
 import { Button } from "../HTMLTags"

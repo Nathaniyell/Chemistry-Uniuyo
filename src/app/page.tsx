@@ -30,13 +30,14 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 export default function Home() {
+  const swiper = useSwiper();
+
   const headOfDepartment = [
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
   ];
 
   const btnClasses = "rounded-full bg-primary hover:border-primary text-white"
-  const swiper = useSwiper();
   return (
     <main className="w-full min-h-screen relative bg-slate-100">
       <Swiper
@@ -151,7 +152,7 @@ export default function Home() {
                 />
               </div>
             );
-          })}
+          })} 
         </div>
         <Button
           arrow
@@ -222,11 +223,11 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
+            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary inline border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
 
             {/* break into a component later */}
             <aside>
-              <Swiper className="w-[98%] p-2">
+              <Swiper slidesPerGroup={2} className="w-[90%] p-2">
 
                 {publications
                   .slice(0, 4)
@@ -244,9 +245,9 @@ export default function Home() {
                       /></SwiperSlide>
                   ))}
 
-                <div className="flex gap-2 justify-center mt-4">
-                  <Button className={btnClasses} onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="w-4" /></Button>
-                  <Button className={btnClasses} onClick={() => swiper.slideNext()}><ArrowRightIcon className="w-4" /></Button>
+                <div className="flex gap-2 justify-center items-center mt-4">
+                  <button type="button" className="w-[1rem] h-[1rem] rounded-full p-2" onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="w-4" /></button>
+                  <button type="button" className="w-[1rem] h-[1rem] rounded-full p-2" onClick={() => swiper.slideNext()}><ArrowRightIcon className="w-4" /></button>
                 </div>
               </Swiper>
             </aside>

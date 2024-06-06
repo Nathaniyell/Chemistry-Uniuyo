@@ -30,7 +30,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             router.back();
           }}
         >
-          Return to staff page
+          Go back
         </button>
       </div>
     );
