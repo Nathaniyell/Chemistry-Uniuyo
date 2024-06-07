@@ -17,7 +17,7 @@ const News = () => {
             <Lecturers
               name={news.title}
               image={news.pictures[0]}
-              href={`/recent-news/${news.title}`}
+              href={`/recent-news/${news.title.replaceAll(" ", "-")}`}
               date={news.date}
               cardBodyStyle="!bg-sky-200 place-items-stretch shadow-md p-4"
               cardTitleStyle="hover:text-secondary"

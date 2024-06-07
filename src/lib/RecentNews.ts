@@ -51,7 +51,7 @@ export interface RecentNewsTypes {
 export const RecentNews: RecentNewsTypes[] = [
   { date: "Februaury, 2024",
     title:
-      "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
+      "The Department of Chemistry Bids Farewell to her Renowned Professors",
     description: [
       "In a bittersweet ceremony, the Department of Chemistry recently honored the distinguished careers of three esteemed professors - Professor Anthony Udoh, Professor James Asuquo, and Professor Ukana Akpabio. After serving the institution with unwavering commitment for over 35 years, these intellectual giants are embarking on a new chapter of their lives.",
       "Professor Udoh, Professor Asuquo, and Professor Ukana Akpabio have been pillars of the department chemistry, rising through the ranks with their exceptional teaching, groundbreaking research, and steadfast mentorship. The three scholars joined the university as young, ambitious lecturers, driven by a deep passion for the field of chemistry and a fervent desire to shape the next generation of scientists.",

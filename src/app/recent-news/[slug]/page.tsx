@@ -5,17 +5,12 @@ import { RecentNews } from '@/lib';
 import { Button } from '@/components';
 
 
-const normalizeString = (str: string) => {
-  return str.toLowerCase().trim();
-};
-
 const Page = ({ params }: { params: { slug: string } }) => {
   const router = useRouter();
-  const newsTitleFormatted = normalizeString(params.slug);
-  const filteredNews = RecentNews.filter(news => normalizeString(news.title) === newsTitleFormatted.replaceAll("-", " "))[0];
+  const newsTitleFormatted = params.slug;
+  const filteredNews = RecentNews.filter(news => news.title.toLocaleLowerCase() === newsTitleFormatted.replaceAll("-", " ").toLocaleLowerCase())[0];
 
-  console.log(filteredNews)
-
+  console.log(filteredNews);
   if (!filteredNews) {
     return (
       <div className="min-h-screen flex flex-col gap-8 items-center justify-center text-red-600 text-xl">
