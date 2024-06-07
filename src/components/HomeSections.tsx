@@ -1,11 +1,7 @@
 "use client";
-
-import React from "react";
-import { GoArrowRight } from "react-icons/go";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { Button } from "@/components";
-import { RiArrowRightSLine } from "react-icons/ri";
+import { RouteLinkBtn } from "@/components";
+
 
 type HomeSectionsProps = {
   greeting: string;
@@ -52,16 +48,17 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
             : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}
         </p>
 
-        <Button
+        <RouteLinkBtn
           variant="primary"
+          href={routeLink}
           arrow
-          className="text-white !text-base border-0 !w-full md:!w-4/5 lg:!w-1/2 !text-center px-3"
+          className="text-white border-0 !w-full md:!w-4/5 lg:!w-1/2 !text-center px-3"
         >
-          <Link href={`${routeLink}`}>
+         
             More about our{" "}
             {title === "head of the department" ? "department" : title}
-          </Link>
-        </Button>
+
+        </RouteLinkBtn>
       </motion.div>
     </div>
   );

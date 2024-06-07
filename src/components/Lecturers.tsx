@@ -64,7 +64,7 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
             {other}
           </p>
         )}
-        {readMore && <Link href={readMoreLink} className="flex items-center text-lg mt-2 hover:text-secondary transition-all ease-linear duration-200">Read more <MdOutlineKeyboardDoubleArrowRight className="ml-1 lg:mt-1 text-secondary animate-pulse text-lg" /></Link>}
+        {readMore && <Link href={readMoreLink} className="flex items-center text-lg mt-2 hover:text-secondary transition-all ease-linear duration-200">Read more <MdOutlineKeyboardDoubleArrowRight className="ml-1 text-secondary animate-pulse text-lg" /></Link>}
       </div>
     </Link>
   );

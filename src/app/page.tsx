@@ -9,11 +9,10 @@ import Image from "next/image";
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/profInam2.jpg";
 import homeData, { homeStaffData } from "@/lib/data";
-import { HomepageSlider } from "@/components";
+import { HomepageSlider, RouteLinkBtn } from "@/components";
 import HomeSections from "@/components/HomeSections";
 import Lecturers from "@/components/Lecturers";
 import Link from "next/link";
-import { Button } from "@/components";
 import News from "@/components/News/News";
 import HomeResearchSlider from "@/components/HomeResearchSlider";
 
@@ -139,15 +138,15 @@ export default function Home() {
             );
           })}
         </div>
-        <Button
+        <RouteLinkBtn
+        href="/staff/teach-staff"
           arrow
           variant="primary"
           className="text-white w-full md:w-1/2 lg:w-[25%] mx-auto"
         >
-          <Link href="/staff/teach-staff" className="text-xl">
-            More about our staff
-          </Link>
-        </Button>
+                   More about our staff
+          
+        </RouteLinkBtn>
       </section>
 
       <div className="bg-white mt-10">
@@ -165,13 +164,14 @@ export default function Home() {
             Chemistry, University of Uyo
           </h1>
 
-          <Button
+          <RouteLinkBtn
+          href="/resources"
             variant="transparent"
             className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
             arrow
           >
-            <Link href="/resources">Take tour</Link>
-          </Button>
+            Take tour
+          </RouteLinkBtn>
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">

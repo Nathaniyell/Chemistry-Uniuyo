@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { type Swiper as SwiperType } from "swiper/types";
 import { Thumbs, Autoplay } from "swiper/modules";
+import { StaticImageData } from "next/image";
 
 import "swiper/css";
 import clsx from "clsx";

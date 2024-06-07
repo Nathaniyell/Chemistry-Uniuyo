@@ -8,7 +8,7 @@ const page = () => {
     return (
         <div className="bg-slate-200 p-6 md:p-0">
             <h1 className="text-4xl font-extrabold text-center py-10 uppercase">Recent News and Events</h1>
-            <div className="md:w-4/5 lg:w-3/4 mx-auto pb-16">
+            <div className="md:w-4/5 lg:w-3/4 mx-auto pb-10">
                 {RecentNews.map((news, index) => {
                     const { title, pictures, date, description } = news
 
@@ -19,12 +19,12 @@ const page = () => {
                             <Lecturers
                             name = ""
                                 image={pictures[0]}
-                                href={`/recent-news/${news.title.split(' ').slice(0,4).join("-")}`}
+                                href={`/recent-news/${news.title.replaceAll(" ", "-")}`}
                                 date={date}
                                 other={`${description[0]} \n\n ${description[1]}`}
                                 cardBodyStyle="shadow p-6 "
                                 readMore
-                                readMoreLink={`/recent-news/${news.title.split(' ').slice(0,4).join("-")}`}
+                                readMoreLink={`/recent-news/${news.title.replaceAll(" ", "-")}`}
                                 cardContainerStyle="h-full"
                                 cardImgContainerStyle="h-[40%] filter-none"
                                 cardTitleStyle="text-2xl md:text-3xl"
