@@ -20,12 +20,12 @@ export default function TeachingStaffPage() {
 
   return (
     <main className="h-full">
-      <HomepageSlider title="Teaching Staff" bgImage={staffImgArray} />
-      {/* <section className={styles.hero__section}>
+      {/* <HomepageSlider title="Teaching Staff" bgImage={staffImgArray[1]} /> */}
+      <section className={styles.hero__section}>
         <div className="w-5/6 text-center h-1/2 flex items-center justify-center">
           <h1 className="text-5xl font-bold text-white">Teaching Staff</h1>
         </div>
-      </section> */}
+      </section>
       <section className="bg-slate-100 pb-16">
         <div className="text-center text-primary text-xl h-[80px] grid place-items-center">
           <p>
@@ -37,26 +37,32 @@ export default function TeachingStaffPage() {
             ({ fullName, title, image, unit, experience }, index) => {
               let bgColor;
               switch (unit) {
-                case "Organic":
-                  bgColor = "bg-amber-300";
+                case "Organic Chemistry":
+                  bgColor = "bg-red-600";
                   break;
-                case "Inorganic":
-                  bgColor = "bg-slate-300";
+                case "Inorganic Chemistry":
+                  bgColor = "bg-yellow-600";
                   break;
-                case "Environmental":
-                  bgColor = "bg-green-300";
+                case "Environmental Chemistry":
+                  bgColor = "bg-green-600";
                   break;
-                case "Analytical":
-                  bgColor = "bg-fuchsia-300";
+                case "Analytical Chemistry":
+                  bgColor = "bg-violet-600";
                   break;
-                case "Environmental / Analytical":
-                  bgColor = "bg-emerald-300";
+                case "Environmental / Analytical Chemistry":
+                  bgColor = "bg-green-600";
                   break;
-                case "Physical":
-                  bgColor = "bg-stone-300";
+                case "Environmental / Nanochemistry":
+                  bgColor = "bg-slate-600";
+                  break;
+                case "Physical Chemistry":
+                  bgColor = "bg-stone-600";
+                  break;
+                case "Industrial Chemistry":
+                  bgColor = "bg-cyan-600";
                   break;
                 default:
-                  bgColor = "bg-sky-300";
+                  bgColor = "bg-sky-600";
               }
               return (
                 <div
@@ -88,9 +94,9 @@ export default function TeachingStaffPage() {
                     </p>
 
                     <p
-                      className={`text-gray-700 text-sm shadow rounded p-2 text-center my-2 w-fit ${bgColor}`}
+                      className={`text-white text-sm shadow rounded p-2 text-center my-2 w-fit ${bgColor}`}
                     >
-                      {unit} Chemistry
+                      {unit}
                     </p>
                   </div>
                 </div>

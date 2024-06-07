@@ -57,7 +57,7 @@ const HomepageSlider = ({
               <Image
                 src={image}
                 alt={title}
-                className="md:h-[28rem] size-full opacity-75"
+                className="md:h-[28rem] size-full filter brightness-75"
               />
             </SwiperSlide>
           ))}
@@ -108,7 +108,7 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <RouteLinkBtn className="md:text-xl w-[35%] md:w-[30%]" href={btnLink} arrow >
+              <RouteLinkBtn className="md:text-xl w-[40%] md:w-[30%]" href={btnLink} arrow >
                 Read more
               </RouteLinkBtn>
             </motion.div>
