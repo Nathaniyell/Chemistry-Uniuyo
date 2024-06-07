@@ -58,14 +58,14 @@ export default function HomeResearchSlider() {
             <SlideButton position="left" Icon={ArrowLeftIcon} />
             <SlideButton Icon={ArrowRightIcon} />
           </div>
+        </aside>
           <Link
             href="/research"
-            className="flex items-center justify-center p-2 px-4 text-white xs:text-lg bg-primary hover:bg-blue-600 transition-colors duration-300"
+            className="flex items-center md:w-2/5 lg:w-1/4 mx-auto justify-center p-2 px-4 text-white bg-primary hover:bg-blue-600 transition-colors duration-300"
           >
             More about Research
             <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
           </Link>
-        </aside>
       </Swiper>
     </aside>
   );

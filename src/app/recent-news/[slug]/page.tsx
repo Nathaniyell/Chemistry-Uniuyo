@@ -6,14 +6,13 @@ import { Button } from '@/components';
 
 
 const normalizeString = (str: string) => {
-  return str.replace(/-/g, " ").toLowerCase().trim();
+  return str.toLowerCase().trim();
 };
 
 const Page = ({ params }: { params: { slug: string } }) => {
-  const router = useRouter()
+  const router = useRouter();
   const newsTitleFormatted = normalizeString(params.slug);
-  const filteredNews = RecentNews.find(news => news.title.toLocaleLowerCase().includes(newsTitleFormatted));
-
+  const filteredNews = RecentNews.filter(news => normalizeString(news.title) === newsTitleFormatted.replaceAll("-", " "))[0];
 
   console.log(filteredNews)
 

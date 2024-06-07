@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components";
+import { RouteLinkBtn } from "@/components";
 import {
   Autoplay,
   Pagination,
@@ -108,9 +108,9 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <Button arrow >
-                <Link className="!text-xl" href={btnLink}>Read more</Link>
-              </Button>
+              <RouteLinkBtn className="md:text-xl w-[35%] md:w-[30%]" href={btnLink} arrow >
+                Read more
+              </RouteLinkBtn>
             </motion.div>
           )}
         </div>

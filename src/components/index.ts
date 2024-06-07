@@ -19,4 +19,4 @@ export { default as FilterButton } from "./FilterButton";
 export { default as Pagination } from "./Pagination";
 export { default as Breadcrumbs } from "./breadcrumbs";
 
-export { Main, Section, Div, Button } from "./HTMLTags";
+export { Main, Section, Div, Button, RouteLinkBtn } from "./HTMLTags";

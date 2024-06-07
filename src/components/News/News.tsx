@@ -1,7 +1,7 @@
 "use client"
 import { RecentNews } from "@/lib"
 import Lecturers from "../Lecturers"
-import { Button } from "../HTMLTags"
+import { RouteLinkBtn } from "@/components"
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { useRouter } from "next/navigation";
 
@@ -17,27 +17,28 @@ const News = () => {
             <Lecturers
               name={news.title}
               image={news.pictures[0]}
-              href={`/recent-news/${news.title.split(' ').slice(0,4).join("-")}`}
+              href={`/recent-news/${news.title}`}
               date={news.date}
               cardBodyStyle="!bg-sky-200 place-items-stretch shadow-md p-4"
               cardTitleStyle="hover:text-secondary"
               readMore
-              readMoreLink="/news"
+              readMoreLink={`/recent-news/${news.title.replaceAll(" ", "-")}`}
             />
           </div>
         ))}
       </div>
-      <Button
+      <RouteLinkBtn
+      href="/recent-news"
         variant="primary"
-        className="mx-auto place-self-center text-white !text-xl"
-        onClick={() => router.push("/recent-news")}
+        className="mx-auto place-self-center text-white"
+       
       >
 
         See all news
         <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg lg:mt-1 text-secondary" />
 
 
-      </Button>
+      </RouteLinkBtn>
     </>
   )
 }
