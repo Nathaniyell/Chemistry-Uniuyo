@@ -36,7 +36,7 @@ export const Div = ({
   className?: string;
   children?: React.ReactNode;
 }) => (
-  <section className={clsx("w-full flex gap-5 p-2 py-3 rounded-md", className)}>
+  <section className={clsx("w-full flex gap-3 p-2 py-3 rounded-md", className)}>
     {children}
   </section>
 );
