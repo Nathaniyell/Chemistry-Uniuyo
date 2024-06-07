@@ -12,9 +12,17 @@ import { useGlobalContext } from "@/context";
 import HoverButton from "./NavBar/HoverButton";
 import { programmesArray, staffArray } from "@/lib";
 import NavLink from "./NavBar/NavLink";
+import { deptArray } from "@/lib/hoverButtonData";
+import { useMediaQuery } from "react-responsive";
 
 export default function NavBar() {
   const { isMenuClicked, setIsMenuClicked } = useGlobalContext();
+
+  const isTablet = useMediaQuery({
+    query: "(min-width: 768px)",
+  });
+
+  if (isTablet) setIsMenuClicked(false);
 
   const toggleMenu = () => {
     setIsMenuClicked((prev) => !prev);
@@ -58,9 +66,11 @@ export default function NavBar() {
               : "left-0 md:top-0 opacity-100"
           } bg-white md:bg-transparent fixed md:relative top-[70px] md:top-0 flex flex-col md:items-center md:flex-row p-4 sm:p-6 gap-2 md:gap-6 lg:gap-8 w-full md:w-fit md:h-full md:text-[.9rem] lg:text-[.96rem] capitalize transition-all duration-500 md:transition-none`}
         >
-          <NavLink href="/about">
-            <PiInfoFill /> <span>about</span>
-          </NavLink>
+          <HoverButton
+            heading="department"
+            icon1={<PiInfoFill />}
+            linksArray={deptArray}
+          />
 
           <HoverButton
             heading="programmes"
