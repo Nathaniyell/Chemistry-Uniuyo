@@ -14,7 +14,13 @@ import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
-
+export const chemistryUnits = [
+  "organic",
+  "inorganic",
+  "physical",
+  "analytical",
+  "environmental",
+];
 interface HomeDataItem {
   image: StaticImageData;
   title: string;

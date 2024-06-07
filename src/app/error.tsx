@@ -2,6 +2,7 @@
 
 import { Button, Main } from "@/components";
 import { useEffect } from "react";
+import { GiBrokenWall } from "react-icons/gi";
 
 export default function Error({
   error,
@@ -10,15 +11,11 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
-  useEffect(() => {
-    // Log the error to an error reporting service
-    console.error(error);
-  }, [error]);
-
   return (
     <Main>
       <div className="max-w-[500px] my-auto w-[97%] text-blue-950 flex flex-col items-center justify-center gap-5 p-4 rounded-md">
-        <h1 className="font-bold text-3xl md:text-4xl">Unknown Error</h1>
+        <GiBrokenWall className="size-20 text-slate-500" />
+        <h1 className="font-bold text-3xl md:text-4xl">An Error Occurred</h1>
 
         <p className="md:text-lg text-center">Something went wrong</p>
 

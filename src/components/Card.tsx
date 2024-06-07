@@ -14,6 +14,7 @@ import {
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import clsx from "clsx";
+import Link from "next/link";
 
 type CardProps = {
   type?: string;
@@ -23,7 +24,7 @@ type CardProps = {
   author: string;
   published_at: string;
   desc: string;
-  href: string;
+  href?: string;
 };
 
 export default function Card({
@@ -67,32 +68,35 @@ export default function Card({
   const handleButtonClick = (a: string, d: string, p: string, t: string) => {
     searchParams.has("filterby")
       ? router.push(
-        `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
-          .split(" ")[2]
-          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
-        }&title=${t}&currentPage=${currentPage}`
-      )
+          `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
+            p.split("-")[2]
+          }&title=${t}&currentPage=${currentPage}`
+        )
       : router.push(
-        `?isOpen=true&author=${a.split(" ")[1]} ${a
-          .split(" ")[2]
-          .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${p.split("-")[2]
-        }&title=${t}&currentPage=${currentPage}`
-      );
+          `?isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
+            p.split("-")[2]
+          }&title=${t}&currentPage=${currentPage}`
+        );
   };
 
   return (
     <div className="overflow-hidden w-full">
       <m.div
         initial={d.initial}
-        whileInView={d.whileInView}
+        animate={!isResearchPage && d.whileInView}
+        whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
         viewport={{ once: true }}
-        className={clsx("border border-gray-100 rounded-xl hover:shadow", {
-          "bg-gradient-to-b from-5% from-blue-50": unit === "environmental",
-          "bg-gradient-to-b from-5% from-red-50": unit === "physical",
-          "bg-gradient-to-b from-5% from-green-50": unit === "organic",
-          "bg-gradient-to-b from-5% from-orange-50": unit === "inorganic",
-          "bg-gradient-to-b from-5% from-gray-50": unit === "analytical",
+        className={clsx("border border-gray-100 rounded hover:shadow from-2%", {
+          "bg-gradient-to-b from-blue-50": unit === "environmental",
+          "bg-gradient-to-b from-red-50": unit === "physical",
+          "bg-gradient-to-b from-green-50": unit === "organic",
+          "bg-gradient-to-b from-orange-50": unit === "inorganic",
+          "bg-gradient-to-b from-gray-50": unit === "analytical",
         })}
       >
         <aside className="flex flex-col gap-3 p-2 xs:p-4 py-4 xs:py-6">
@@ -113,7 +117,7 @@ export default function Card({
             {unit && (
               <span
                 className={clsx(
-                  "text-sm border rounded-2xl px-[12px] p-[6px] capitalize",
+                  "text-xs border rounded-2xl px-[12px] p-[6px] capitalize",
                   {
                     "border-blue-200 text-primary": unit === "environmental",
                     "border-red-300 text-red-600": unit === "physical",
@@ -128,46 +132,44 @@ export default function Card({
             )}
           </div>
 
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 my-1 xs:my-2">
+          <div className="flex gap-4 my-2">
             <PubInfo text={author} Icon={UserCircleIcon} />
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
 
-          <p className="text-justify text-base" title={desc}>
-            {desc
-              .substring(0, 200)
-              .trim()
-              .concat(desc.length > 200 ? "..." : "")}
-          </p>
+          <p className="text-base line-clamp-3">{desc}</p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
-            {isResearchPage && <Button
-              onClick={() =>
-                handleButtonClick(author, desc, published_at, title)
-              }
-              className="border-primary text-primary hover:bg-blue-50"
-            >
-              Cite this {type}
-            </Button>}
+            {isResearchPage && (
+              <Button
+                onClick={() =>
+                  handleButtonClick(author, desc, published_at, title)
+                }
+                className="border-primary text-primary hover:bg-blue-50"
+              >
+                Cite this {type}
+              </Button>
+            )}
 
-            <Button
-              onClick={() => router.replace(href ? href : "")}
-              variant="secondary"
-              className="hover:bg-orange-600 border-transparent text-white"
+            <Link
+              href={href ?? ""}
+              className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-4 text-sm active:scale-105 transition-all duration-300"
             >
-              Open this {type}
-            </Button>
+              View this {type}
+            </Link>
           </div>
         </aside>
       </m.div>
 
       <div
-        className={`${isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
-          } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
+        className={`${
+          isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
+        } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
       >
         <div
-          className={`${isOpen ? "scale-100" : "scale-0"
-            } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
+          className={`${
+            isOpen ? "scale-100" : "scale-0"
+          } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
         >
           <button
             onClick={() => router.push(`?`, { scroll: false })}
@@ -204,8 +206,8 @@ export default function Card({
 }
 
 const PubInfo = ({ text, Icon }: { text: string; Icon: React.ElementType }) => (
-  <p className="text-sm flex items-center justify-center gap-2">
-    <Icon className="h-4" />
-    <span className="capitalize">{text}</span>
-  </p>
+  <div className="text-xs flex items-center gap-1">
+    <Icon className="h-4 text-slate-400" />
+    <span className="capitalize text-black">{text}</span>
+  </div>
 );

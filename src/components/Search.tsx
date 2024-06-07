@@ -12,11 +12,7 @@ type SearchProps = {
   isGlobal?: boolean;
 };
 
-export default function Search({
-  placeholder,
-  isGlobal = false,
-  className,
-}: SearchProps) {
+export default function Search({ placeholder, className }: SearchProps) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -45,16 +41,14 @@ export default function Search({
         Search
       </label>
 
-      <MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[17px] w-[17px] -translate-y-1/2 cursor-pointer text-gray-500" />
+      <MagnifyingGlassIcon className="absolute left-3 bottom-1/2 translate-y-1/2 w-5 cursor-pointer text-slate-400 peer-focus:text-primary" />
 
       <input
-        type="search"
         id="search"
         aria-label={placeholder}
-        className="peer w-full py-[10px] pl-11 pr-4 bg-transparent text-sm hover:shadow placeholder:text-gray-400 border rounded-xl border-blue-200"
+        className="peer w-full py-[10px] pl-11 pr-4 bg-transparent text-sm hover:shadow placeholder:text-gray-400 border rounded-md border-primary/90 ring-offset-primary ring-"
         placeholder={placeholder}
         defaultValue={searchParams.get("search")?.toString()}
-        accessKey="k"
         onChange={(e) => {
           handleSearch(e.target.value);
         }}
