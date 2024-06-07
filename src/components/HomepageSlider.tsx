@@ -36,7 +36,7 @@ const HomepageSlider = ({
   btnLink,
 }: sliderProps) => {
   return (
-    <div className={`relative border-4 h-[50vh] md:size-full`}>
+    <div className={`relative h-[50vh] md:size-full`}>
       {Array.isArray(bgImage) ? (
         <Swiper
           centeredSlides

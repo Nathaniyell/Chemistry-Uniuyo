@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ResourcePage() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col bg-slate-100">
       <section>
         <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
 

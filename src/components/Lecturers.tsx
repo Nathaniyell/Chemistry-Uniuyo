@@ -19,6 +19,7 @@ type LecturerSectionProps = {
   cardTitleStyle?: string,
   cardImgContainerStyle?: string
   cardContainerStyle?: string
+  cardImgStyle?:string
 };
 
 const Lecturers: React.FC<LecturerSectionProps> = ({
@@ -34,7 +35,8 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
   readMoreLink = "/",
   cardTitleStyle,
   cardImgContainerStyle,
-  cardContainerStyle
+  cardContainerStyle,
+  cardImgStyle
 }) => {
 
   const bgColor = {
@@ -51,7 +53,7 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
   return (
     <Link href={href} className={clsx("flex flex-col size-full", cardContainerStyle)} passHref>
       <div className={clsx("h-[18rem] filter hover:brightness-75 transition-all ease-linear duration-200 overflow-clip", cardImgContainerStyle)}>
-        <Image className="size-full" src={image} alt={name} />
+        <Image className={clsx("", cardImgStyle)} src={image} alt={name} />
       </div>
       <div className={clsx("p-3 bg-white grid place-items-stretch", cardBodyStyle)}>
         {date && <p className="mb-2 text-neutral-600 text-sm flex items-center gap-2"><CiCalendar className="text-lg" />{date}</p>}

@@ -26,12 +26,9 @@ export default function ResourceDiv({
       <div className="text-center space-y-1 max-w-sm">
         <h1 className="text-xl xs:text-2xl font-semibold">{heading}</h1>
 
-        <p className="xs:text-sm text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          molestiae culpa nam doloremque non temporibus? In placeat, labore
-          earum aspernatur, molestias rerum odit, iure esse ad velit vitae animi
-          perferendis.
-        </p>
+        {description && <p className="xs:text-sm text-gray-500">
+          {description}
+        </p>}
       </div>
 
       <aside className="w-full space-y-3">

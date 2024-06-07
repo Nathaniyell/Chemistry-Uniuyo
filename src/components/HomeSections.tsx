@@ -35,7 +35,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
-        viewport={{ once: false }}
+       
       >
         <span className="uppercase text-xl font-bold text-stone-800">
           {greeting} <br />

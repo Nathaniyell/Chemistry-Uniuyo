@@ -15,7 +15,7 @@ type HeaderProps = {
 
 export default function Header({ headerBg, heading, tagline }: HeaderProps) {
   return (
-    <header className="relative w-full">
+    <header className={clsx(`relative w-full `)}>
       {headerBg && (
         <Image
           src={headerBg}
@@ -30,7 +30,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
           {
             "bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh]":
               headerBg !== undefined,
-            "pt-16 md:pt-20": headerBg === undefined,
+            "pt-16 shadow bg-blue-100": headerBg === undefined,
           }
         )}
       >
@@ -38,17 +38,17 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={d.transition}
-          className="capitalize text-center text-2xl xs:text-3xl md:text-5xl max-w-sm md:max-w-xl font-bold"
+          className="capitalize text-center text-2xl xs:text-3xl md:text-4xl max-w-sm md:max-w-2xl font-bold text-secondary"
         >
           {heading}
         </motion.h1>
-
+{!tagline &&       <hr />}
         {tagline && (
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.75, duration: 0.5, ease: "linear" }}
-            className="text-center max-w-xl"
+            className="max-w-xl"
           >
             {tagline}
           </motion.p>

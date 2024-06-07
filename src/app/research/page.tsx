@@ -22,7 +22,7 @@ export default async function Research({
     <Main>
       <section className="w-full">
         <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
-        <Header headerBg={headerBg} heading="Departmental research" />
+        <Header heading="Research" />
       </section>
 
       <Suspense

@@ -10,8 +10,7 @@ import about1 from "../../../public/images/about_chm1.webp";
 import about2 from "../../../public/images/about_chm2.webp";
 import about3 from "../../../public/images/about_chm3.webp";
 import { usePathname } from "next/navigation";
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { FaEye } from "react-icons/fa";
+import { Header } from "@/components";
 
 export default function AboutLayout({
   children,
@@ -41,8 +40,9 @@ export default function AboutLayout({
     },
   ];
   return (
-    <main className="min-h-screen bg-slate-100 pb-10">
-      <h1 className="uppercase text-4xl font-extrabold text-center p-8">About the department of chemistry</h1>
+    <main className="min-h-screen pb-10">
+      <Header heading="About the department of chemistry" />
+
       <div className="">
         <nav className="flex items-center justify-center gap-2">
           {aboutNavLinks.map((link, index) => {

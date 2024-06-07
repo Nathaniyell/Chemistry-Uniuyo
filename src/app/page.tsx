@@ -134,6 +134,8 @@ export default function Home() {
                   desc={staff.desc}
                   href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
                   cardTitleStyle="hover:text-secondary"
+                  cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
+                  cardImgStyle="object-cover"
                 />
               </div>
             );
@@ -176,7 +178,7 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[20px] md:text-[25px]">
+            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">                            
               Recent Research Expeditions
             </h1>
 
