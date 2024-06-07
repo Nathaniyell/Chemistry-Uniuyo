@@ -7,7 +7,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { motion as m } from "framer-motion";
 
 export const Main = ({ children }: { children?: React.ReactNode }) => (
-  <main className="flex min-h-[80vh] flex-col items-center gap-5">
+  <main className="flex min-h-[80vh] flex-col items-center gap-5 w-full">
     {children}
   </main>
 );
