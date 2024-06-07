@@ -18,7 +18,7 @@ export default function Breadcrumbs({ array }: BreadcrumbsProps) {
           >
             {a.title}
           </NavLink>
-          <span className="last:hidden">/</span>
+          <span className="last:hidden text-gray-500">/</span>
         </>
       ))}
     </Div>

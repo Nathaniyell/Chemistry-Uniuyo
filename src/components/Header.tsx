@@ -9,15 +9,15 @@ type HeaderProps = {
 
 export default function Header({ headerBg, heading, tagline }: HeaderProps) {
   return (
-    <header className="relative min-h-[62vh] md:min-h-[65vh] w-screen flex flex-col items-center justify-center px-3 p-1 sm:px-0">
+    <header className="relative min-h-[50vh] w-screen">
       <Image
         src={headerBg}
         alt={"header background"}
-        className="absolute top-0 left-0 -z-10 h-full w-full opacity-90"
+        className="absolute top-0 left-0 -z-10 size-full opacity-90"
       />
 
-      <div className="container flex flex-col items-center justify-center gap-3 bg-blue-950 text-white bg-opacity-20 backdrop-blur w-[97%] max-w-[500px] rounded-md p-4 z-10">
-        <h1 className="capitalize text-center text-[1.7rem] sm:text-2xl lg:text-3xl font-bold">
+      <div className="flex flex-col items-center justify-center gap-3 bg-black/50 text-white min-h-[62vh] md:min-h-[68vh] p-4 z-10">
+        <h1 className="capitalize text-center text-3xl md:text-5xl max-w-sm md:max-w-xl font-bold">
           {heading}
         </h1>
 

@@ -34,16 +34,18 @@ export default function ProgrammesPage({
           ]}
         />
 
-        <h1 className="w-full capitalize font-bold text-xl xs:text-2xl lg:text-3xl px-2">
-          {programme}
+        <h1 className="w-full capitalize font-medium text-lg xs:text-xl lg:text-2xl px-1">
+          {programme} Programme
         </h1>
 
         <div className="w-full h-full grid lg:grid-cols-2 gap-4 gap-y-8">
-          <OurStudent
-            Icon={UserGroupIcon}
-            heading="meet our students"
-            array={programme === "undergraduate" ? studentsData : homeStaffData}
-          />
+          {programme === "undergraduate" && (
+            <OurStudent
+              Icon={UserGroupIcon}
+              heading="meet our students"
+              array={studentsData}
+            />
+          )}
 
           <OurStudent
             Icon={ClockIcon}
@@ -67,11 +69,13 @@ export default function ProgrammesPage({
           )}
         </div>
 
-        <Courses
-          Icon={AcademicCapIcon}
-          heading={`${programme} courses`}
-          type={programme}
-        />
+        {programme === "undergraduate" && (
+          <Courses
+            Icon={AcademicCapIcon}
+            heading={`${programme} courses`}
+            type={programme}
+          />
+        )}
       </Section>
     </Main>
   );

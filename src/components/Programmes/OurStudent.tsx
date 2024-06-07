@@ -1,12 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Autoplay,
-  Pagination,
-  EffectCreative,
-  EffectCards,
-} from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Div } from "..";
 import Image, { StaticImageData } from "next/image";
 import "swiper/swiper-bundle.css";
@@ -27,24 +22,23 @@ type MeetProps = {
 export default function Meet({ array, Icon, heading, duration }: MeetProps) {
   return (
     <Div className="self-start group h-full bg-blue-50 flex-col overflow-hidden">
-      <Div className="bg-white w-full items-center hover:ring-1">
+      <Div className="bg-white w-full items-center">
         <Icon className="size-8 text-xl bg-secondary rounded-full p-1 text-white" />
         <h3 className="capitalize text-lg md:text-xl font-bold">{heading}</h3>
       </Div>
-      <Div className="min-h-68 bg-white hover:ring-1 overflow-hidden">
+      <Div className="min-h-68 bg-white hover:shadow-md overflow-hidden">
         {array ? (
           <Swiper
-            centeredSlides
             loop
             autoplay={{
-              delay: 3000,
+              delay: 4000,
               pauseOnMouseEnter: true,
               disableOnInteraction: true,
             }}
-            speed={1000}
+            speed={500}
             spaceBetween={5}
-            modules={[Autoplay, Pagination, EffectCreative, EffectCards]}
-            className="w-full h-full"
+            modules={[Autoplay]}
+            className="size-full"
           >
             {array.map((a, i) => (
               <SwiperSlide key={i}>
