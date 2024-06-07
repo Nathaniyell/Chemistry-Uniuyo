@@ -108,7 +108,7 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <RouteLinkBtn className="md:text-xl w-[40%] md:w-[30%]" href={btnLink} arrow >
+              <RouteLinkBtn className="md:text-xl w-[50%] md:w-[30%]" href={btnLink} arrow >
                 Read more
               </RouteLinkBtn>
             </motion.div>
