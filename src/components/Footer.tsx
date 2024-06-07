@@ -90,16 +90,18 @@ export default function Footer() {
             </div>
           </div>
 
-          <QuickLinkComp heading="resources" linksArray={resourceQuickLinks} />
-          <QuickLinkComp heading="research" linksArray={researchQuickLinks} />
-          <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
+          <div className="flex gap-4 md:gap-6">
+            <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
+
+            <QuickLinkComp heading="study" linksArray={researchQuickLinks} />
+          </div>
         </aside>
 
         {/* footer bottom */}
 
-        <div className="my-4">
-          <p className="capitalize text-sm sm:text-[0.90rem] font-semibold">
-            copyright reserved {year} <samp>{siteName}.</samp>
+        <div className="mt-2 mb-10">
+          <p className="capitalize text-sm sm:text-sm text-center font-medium text-slate-400">
+            copyright reserved {year} - <span>{siteName}</span>
           </p>
         </div>
       </section>

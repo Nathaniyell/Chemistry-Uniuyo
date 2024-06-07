@@ -87,22 +87,13 @@ export default function Card({
     <div className="overflow-hidden w-full">
       <m.div
         initial={d.initial}
-        animate={!isResearchPage && d.whileInView}
+        animate={!isResearchPage ? d.whileInView : undefined}
         whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
         viewport={{ once: false }}
-        className={clsx(
-          "border border-gray-100 rounded hover:shadow from-2%"
-          //    {
-          //   "bg-gradient-to-b from-blue-50": unit === "environmental",
-          //   "bg-gradient-to-b from-red-50": unit === "physical",
-          //   "bg-gradient-to-b from-green-50": unit === "organic",
-          //   "bg-gradient-to-b from-orange-50": unit === "inorganic",
-          //   "bg-gradient-to-b from-gray-50": unit === "analytical",
-          // }
-        )}
+        className={clsx("border border-gray-100 rounded hover:shadow from-2%")}
       >
-        <aside className="flex flex-col gap-3 p-2 xs:p-4 py-4 xs:py-6">
+        <aside className="flex flex-col min-h-[400px] justify-around gap-3 p-2 xs:p-4 py-4 xs:py-6">
           <div className="flex gap-3 justify-between">
             <h1
               className={clsx("text-lg capitalize", {

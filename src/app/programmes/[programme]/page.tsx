@@ -1,8 +1,6 @@
 import { Breadcrumbs, Header, Main } from "@/components";
 import { notFound } from "next/navigation";
 
-import HeaderImage from "@/public/images/Graduation/class018.jpg";
-import PostHeaderImage from "@/public/images/chemistry_lab/group-staff.jpg";
 import ProgrammesSection from "@/components/Programmes/ProgrammesSection";
 import { Metadata } from "next";
 
@@ -26,20 +24,14 @@ export default function ProgrammesPage({
 
   return (
     <Main>
-      <section className="w-full">
-        <Breadcrumbs
-          array={[
-            { title: "Undergraduate", href: "/programmes/undergraduate" },
-            { title: "Postgraduate", href: `/programmes/postgraduate` },
-          ]}
-        />
-        <Header
-          headerBg={
-            programme === "postgraduate" ? PostHeaderImage : HeaderImage
-          }
-          heading={`${programme} Programme`}
-        />
-      </section>
+      <Breadcrumbs
+        array={[
+          { title: "Undergraduate", href: "/programmes/undergraduate" },
+          { title: "Postgraduate", href: `/programmes/postgraduate` },
+        ]}
+      />
+
+      <Header heading={`${programme} Programme`} />
 
       <ProgrammesSection programme={programme} />
     </Main>
