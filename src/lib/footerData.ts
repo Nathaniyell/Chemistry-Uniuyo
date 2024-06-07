@@ -6,15 +6,15 @@ export const resourceQuickLinks = [
 ];
 
 export const researchQuickLinks = [
-  { href: "research#articles", title: "articles" },
-  // { href: "research#journals", title: "journals" },
-  { href: "research#publications", title: "publications" },
+  { href: "/programmes/undergraduate", title: "undergraduate" },
+  { href: "/programmes/postgraduate", title: "postgraduate" },
+  { href: "/research", title: "research" },
+  { href: "/resources", title: "resources" },
 ];
 
 export const deptQuickLinks = [
-  { href: "staff/tech-staff#laboratories", title: "laboratories" },
-  { href: "staff/tech-staff#library", title: "library" },
-  { href: "staff/teach-staff", title: "staff" },
-  // { href: "staff/teach-staff#staff-hierachy", title: "staff hierachy" },
-  // { href: "programmes/undergraduate#student-government", title: "student government" },
+  { href: "/about", title: "about" },
+  { href: "/recent-news", title: "news" },
+  { href: "/staff/teach-staff", title: "teaching staff" },
+  { href: "/staff/tech-staff", title: "technical staff" },
 ];

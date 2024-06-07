@@ -5,23 +5,35 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import { d } from "@/lib";
+import clsx from "clsx";
 
 type HeaderProps = {
-  headerBg: StaticImageData | string;
+  headerBg?: StaticImageData | string;
   heading: string;
   tagline?: string;
 };
 
 export default function Header({ headerBg, heading, tagline }: HeaderProps) {
   return (
-    <header className="relative min-h-[20vh] w-full">
-      <Image
-        src={headerBg}
-        alt={"header background"}
-        className="absolute top-0 left-0 -z-10 size-full opacity-90"
-      />
+    <header className="relative w-full">
+      {headerBg && (
+        <Image
+          src={headerBg}
+          alt={"header background"}
+          className="absolute top-0 left-0 -z-10 size-full opacity-90"
+        />
+      )}
 
-      <div className="flex flex-col items-center justify-center gap-3 bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh] p-4 z-10">
+      <div
+        className={clsx(
+          "flex flex-col items-center justify-center gap-3 p-4 z-10",
+          {
+            "bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh]":
+              headerBg !== undefined,
+            "pt-16": headerBg === undefined,
+          }
+        )}
+      >
         <motion.h1
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}

@@ -17,10 +17,6 @@ export default function ProgrammesSection({
 }) {
   return (
     <Section>
-      <h1 className="w-full capitalize font-medium text-lg xs:text-xl lg:text-2xl px-1">
-        {programme} Programme
-      </h1>
-
       <div className="w-full h-full grid lg:grid-cols-2 gap-4 gap-y-8">
         {programme === "undergraduate" && (
           <OurStudent

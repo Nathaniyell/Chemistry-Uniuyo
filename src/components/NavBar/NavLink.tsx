@@ -24,9 +24,7 @@ export default function NavLink({
   const pathname = usePathname();
 
   const activeClass =
-    pathname === href
-      ? "font-semibold pointer-events-none " + activeClassName
-      : "";
+    pathname === href ? "font-semibold " + activeClassName : "";
 
   return (
     <div
@@ -45,9 +43,9 @@ export default function NavLink({
       </Link>
       <div
         className={clsx(
-          "group-hover/navLink:w-3/5 absolute bottom-0.5 md:bottom-0 right-0 group-hover/navLink:h-0.5 bg-primary transition-all duration-500",
+          "group-hover/navLink:w-2/5 absolute bottom-0.5 md:bottom-0 left-1/2 -translate-x-1/2 group-hover/navLink:h-0.5 bg-primary transition-all duration-500 rounded-full",
           {
-            "w-3/5 h-0.5": pathname === href,
+            "w-2/5 h-0.5": pathname === href,
             "w-0": pathname !== href,
           }
         )}
