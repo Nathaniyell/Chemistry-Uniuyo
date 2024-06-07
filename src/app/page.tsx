@@ -59,6 +59,7 @@ export default function Home() {
             greeting="Welcome note from"
             title="head of the department"
             routeLink="/about"
+            readMore={true}
             animateDirection="left"
             description={
               "Professor Edu Inam, Head of the Department of Chemistry, welcomes you to the Department of Chemistry, University of Uyo." +

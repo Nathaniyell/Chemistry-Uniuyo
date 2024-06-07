@@ -9,6 +9,7 @@ type HomeSectionsProps = {
   description?: string;
   routeLink: string;
   animateDirection: "left" | "right";
+  readMore?: boolean
 };
 
 const HomeSections: React.FC<HomeSectionsProps> = ({
@@ -16,7 +17,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
   title,
   description,
   routeLink,
-
+  readMore,
   animateDirection,
 }) => {
   return (
@@ -48,7 +49,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
             : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}
         </p>
 
-        <RouteLinkBtn
+        {readMore && <RouteLinkBtn
           variant="primary"
           href={routeLink}
           arrow
@@ -58,7 +59,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
             More about our{" "}
             {title === "head of the department" ? "department" : title}
 
-        </RouteLinkBtn>
+        </RouteLinkBtn>}
       </motion.div>
     </div>
   );
