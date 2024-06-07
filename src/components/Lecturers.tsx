@@ -38,12 +38,12 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
 }) => {
 
   const bgColor = {
-    "text-amber-700": desc === "Organic",
-    "text-slate-700": desc === "Inorganic",
-    "text-green-700": desc === "Environmental",
-    "text-red-700": desc === "Analytical",
-    "text-emerald-700": desc === "Environmental / Analytical",
-    "text-stone-700": desc === "Physical",
+    "text-red-600": desc === "Organic Chemistry",
+    "text-yellow-600": desc === "Inorganic Chemistry",
+    "text-green-700": desc === "Environmental Chemistry",
+    "text-violet-600": desc === "Analytical Chemistry",
+    "text-emerald-700": desc === "Nanochemistry",
+    "text-stone-700": desc === "Physical Chemistry",
   }
 
 
@@ -58,7 +58,7 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
         {name !== "" && <h5 className={clsx("text-xl font-bold text-gray-900 transition-all ease-linear duration-200", cardTitleStyle)}>
           {title} {" "} {name}
         </h5>}
-        {desc && <p className={clsx("p-2 my-2 font-semibold w-fit h-full", bgColor)}>{desc} {" "}Chemistry</p>}
+        {desc && <p className={clsx("p-2 my-2 font-semibold w-fit h-full text-base", bgColor)}>{desc}</p>}
         {other && (
           <p className="text-base text-gray-700 dark:text-gray-700 mt-2">
             {other}

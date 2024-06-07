@@ -80,20 +80,20 @@ export const homeStaffData: HomeStaffDataItem[] = [
     image: emmanuelEssien,
     title: "Dr.",
     name: "emmanuel essien",
-    desc: "Organic",
+    desc: "Organic Chemistry",
   },
   {
     image: helenEtuk,
     title: "Dr.",
     name: "helen etuk",
-    desc: "Inorganic",
+    desc: "Inorganic Chemistry",
   },
 
   {
     image: staff2,
     title: "Dr.",
     name: "solomon shaibu",
-    desc: "Environmental",
+    desc: "Nanochemistry",
   },
 
   //     {
@@ -105,7 +105,7 @@ export const homeStaffData: HomeStaffDataItem[] = [
     image: staff5,
     title: "Dr.",
     name: "iniobong umoren",
-    desc: "Analytical",
+    desc: "Analytical Chemistry",
   },
 ];
 
