@@ -8,7 +8,7 @@ type BreadcrumbsProps = { root?: Crumbs; array: Crumbs[] };
 
 export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
   return (
-    <Div className="items-center gap-x-1 px-4 overflow-x-auto container mx-auto">
+    <Div className="items-center gap-x-0.5 px-4 overflow-x-auto container mx-auto">
       <NavLink className="text-primary px-0.5" href={root ? root.href : "/"}>
         {root ? root.title : "Home"}
       </NavLink>

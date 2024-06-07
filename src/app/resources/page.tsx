@@ -30,7 +30,7 @@ export default function ResourcePage() {
         />
       </section>
 
-      <section className="max-w-[1650px] mx-auto py-16">
+      <section className="xl:max-w-screen-2xl w-full mx-auto py-16">
         <section className="grid place-items-center md:grid-cols-2 2xl:grid-cols-3 gap-14 w-full p-2">
           {allResources.map(({ heading, description, images }, index) => (
             <ResourceImage

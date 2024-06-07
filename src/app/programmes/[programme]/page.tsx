@@ -26,7 +26,7 @@ export default function ProgrammesPage({
 
   return (
     <Main>
-      <section>
+      <section className="w-full">
         <Breadcrumbs
           array={[
             { title: "Undergraduate", href: "/programmes/undergraduate" },
