@@ -1,4 +1,4 @@
-import { Header, Main, ReSection } from "@/components";
+import { Breadcrumbs, Header, Main, ReSection } from "@/components";
 import { publications } from "@/lib";
 import type { Metadata } from "next/types";
 
@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     "Embark on a journey of discovery with the Chemistry Department's dynamic research initiatives at the University of Uyo. Browse through an array of research work carried out by our dedicated tutors, uncovering innovative solutions and pushing the boundaries of scientific knowledge. Our commitment to excellence fuels a culture of exploration, fostering advancements that shape the future of chemistry and beyond. Join us in the pursuit of cutting-edge insights and transformative breakthroughs within the realm of chemical sciences.",
 };
 
-
 export default async function Research({
   searchParams: { filterby, search, currentPage },
 }: {
@@ -21,7 +20,10 @@ export default async function Research({
 }) {
   return (
     <Main>
-      <Header headerBg={headerBg} heading={"publications & research reports"} />
+      <section className="w-full">
+        <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
+        <Header headerBg={headerBg} heading="Departmental research" />
+      </section>
 
       <Suspense
         key={filterby + search + currentPage}
