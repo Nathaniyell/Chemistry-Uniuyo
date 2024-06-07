@@ -31,7 +31,7 @@ export default function NavLink({
   return (
     <div
       className={clsx(
-        "group/navLink w-fit h-fit my-[2px] p-2 py-1 md:text-sm md:p-0 md:m-0",
+        "group/navLink shrink-0 w-fit h-fit my-0.5 p-2 py-1 md:text-sm md:p-0 md:m-0",
         activeClass,
         className
       )}
