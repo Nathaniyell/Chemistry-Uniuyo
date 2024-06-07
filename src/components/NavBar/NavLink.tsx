@@ -45,9 +45,9 @@ export default function NavLink({
       </Link>
       <div
         className={clsx(
-          "group-hover/navLink:w-3/4 absolute bottom-0.5 md:bottom-0 right-0 group-hover/navLink:h-0.5 bg-primary transition-all duration-500",
+          "group-hover/navLink:w-3/5 absolute bottom-0.5 md:bottom-0 right-0 group-hover/navLink:h-0.5 bg-primary transition-all duration-500",
           {
-            "w-3/4 h-0.5": pathname === href,
+            "w-3/5 h-0.5": pathname === href,
             "w-0": pathname !== href,
           }
         )}
