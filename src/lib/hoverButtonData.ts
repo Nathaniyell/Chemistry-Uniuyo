@@ -9,6 +9,6 @@ export const staffArray = [
 ];
 
 export const deptArray = [
-  { href: "/about", title: "about the department" },
+  { href: "/about", title: "about us" },
   { href: "/recent-news", title: "Recent News" },
 ];
