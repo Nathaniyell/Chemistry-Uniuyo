@@ -4,6 +4,7 @@ import type { Metadata } from "next/types";
 
 import headerBg from "../../../public/images/researchbg.jpg";
 import { Suspense } from "react";
+import { chemistryUnits } from "@/lib/data";
 
 export const metadata: Metadata = {
   title:
@@ -12,13 +13,6 @@ export const metadata: Metadata = {
     "Embark on a journey of discovery with the Chemistry Department's dynamic research initiatives at the University of Uyo. Browse through an array of research work carried out by our dedicated tutors, uncovering innovative solutions and pushing the boundaries of scientific knowledge. Our commitment to excellence fuels a culture of exploration, fostering advancements that shape the future of chemistry and beyond. Join us in the pursuit of cutting-edge insights and transformative breakthroughs within the realm of chemical sciences.",
 };
 
-export const chemistryUnits = [
-  "organic",
-  "inorganic",
-  "physical",
-  "analytical",
-  "environmental",
-];
 
 export default async function Research({
   searchParams: { filterby, search, currentPage },
