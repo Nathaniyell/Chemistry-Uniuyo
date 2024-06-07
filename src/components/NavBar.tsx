@@ -71,7 +71,7 @@ export default function NavBar() {
         >
           <div
             className={clsx(
-              "bg-white md:bg-transparent flex flex-col md:items-center md:flex-row p-4 sm:p-6 gap-2 md:gap-6 lg:gap-8 md:h-full md:text-[.9rem] lg:text-[.96rem] capitalize md:transition-none",
+              "bg-white md:bg-transparent flex flex-col md:items-center md:flex-row p-4 sm:p-6 gap-3 md:gap-6 lg:gap-8 md:h-full md:text-[.9rem] lg:text-[.96rem] capitalize md:transition-none",
               {
                 "transition-all duration-500": isMenuClicked,
                 "translate-x-full md:translate-x-0": !isMenuClicked,
