@@ -9,7 +9,7 @@ type BreadcrumbsProps = { root?: Crumbs; array: Crumbs[] };
 
 export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
   return (
-    <div className="w-fit flex items-center gap-x-0.5 px-4 overflow-x-auto container mx-auto fixed top-[74px] md:top-[85px] lg:top-[120px] left-2 rounded bg-white z-20 border border-blue-50 shadow">
+    <div className="w-fit flex items-center gap-x-0.5 px-4 overflow-x-auto container mx-auto fixed top-[74px] md:top-[85px] lg:top-[96px] left-2 rounded bg-white z-20 border border-blue-50 shadow">
       <Link className="text-primary px-0.5" href={root ? root.href : "/"}>
         {root ? root.title : "Home"}
       </Link>

@@ -30,7 +30,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
           {
             "bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh]":
               headerBg !== undefined,
-            "pt-16": headerBg === undefined,
+            "pt-16 md:pt-20": headerBg === undefined,
           }
         )}
       >
