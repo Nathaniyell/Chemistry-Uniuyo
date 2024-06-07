@@ -8,7 +8,7 @@ type BreadcrumbsProps = {
 
 export default function Breadcrumbs({ array }: BreadcrumbsProps) {
   return (
-    <Div className="items-center gap-x-1 px-2 py-1 overflow-x-auto">
+    <Div className="items-center gap-x-1 px-2 py-1 overflow-x-auto container">
       {array.map((a, i) => (
         <>
           <NavLink

@@ -1,14 +1,17 @@
 "use client";
 
-import { Breadcrumbs, Main, Section } from "@/components";
+import { Breadcrumbs, Header, Main, Section } from "@/components";
 import { Courses, OurStudent } from "@/components/Programmes";
-import { homeStaffData, studentsData } from "@/lib";
+import { studentsData } from "@/lib";
 import {
   UserGroupIcon,
   AcademicCapIcon,
   ClockIcon,
 } from "@heroicons/react/16/solid";
 import { notFound } from "next/navigation";
+
+import HeaderImage from "@/public/images/Graduation/class018.jpg";
+import PostHeaderImage from "@/public/images/chemistry_lab/group-staff.jpg";
 
 export default function ProgrammesPage({
   params: { programme },
@@ -26,14 +29,21 @@ export default function ProgrammesPage({
 
   return (
     <Main>
-      <Section>
+      <section>
         <Breadcrumbs
           array={[
-            { title: "programmes", href: "/programmes" },
-            { title: programme, href: `/programmes/${programme}` },
+            { title: "Undergraduate", href: "/programmes/undergraduate" },
+            { title: "Postgraduate", href: `/programmes/postgraduate` },
           ]}
         />
-
+        <Header
+          headerBg={
+            programme === "postgraduate" ? PostHeaderImage : HeaderImage
+          }
+          heading={`${programme} Programme`}
+        />
+      </section>
+      <Section>
         <h1 className="w-full capitalize font-medium text-lg xs:text-xl lg:text-2xl px-1">
           {programme} Programme
         </h1>
