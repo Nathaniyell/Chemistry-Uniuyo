@@ -1,4 +1,4 @@
-// import lab1 from "../../public/images/Homepage/HeroImg2.jpg";
+import cecilia1 from "@/public/images/chemistry_lab/cecilia1.jpg"
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
 import classO18 from "../../public/images/Graduation/class018.jpg";
 
@@ -24,28 +24,28 @@ interface HomeDataItem {
 }
 
 const homeData: HomeDataItem[] = [
-  // {
-  //   image: lab1,
-  //   title: "Department of chemistry",
-  //   description:
-  //     "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
-  //   greeting: "welcome to the",
-  //   btnLink: "/about",
-  // },
+  {
+    image: cecilia1,
+    title: "Department of chemistry",
+    description:
+      "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
+    greeting: "welcome to the",
+    btnLink: "/about",
+  },
   {
     title:
       "Celebrating Decades of Dedication: The Department of Chemistry Bids Farewell to her Renowned Professors",
     description: "",
 
     image: sendforth1,
-    btnLink: "/",
+    btnLink: "/recent-news",
   },
   {
     title: "Department of Chemistry Graduates Record Number of Students",
     description: "",
 
     image: classO18,
-    btnLink: "/",
+    btnLink: "/recent-news",
   },
 ];
 

@@ -63,7 +63,7 @@ const HomepageSlider = ({
           ))}
         </Swiper>
       ) : (
-        <Image src={bgImage} alt={title} className="size-full md:h-[32rem] filter brightness-50" />
+        <Image src={bgImage} alt={title} className="size-full md:h-[32rem] filter brightness-50 object-fill" />
       )}
 
       {title && (
@@ -77,9 +77,9 @@ const HomepageSlider = ({
               delay: 0.3,
               duration: 0.7,
             }}
-            className="uppercase font-bold text-xl md:text-3xl"
+            className="uppercase font-bold text-2xl md:text-3xl lg:text-4xl"
           >
-            <span className="uppercase font-normal text-lg md:text-lg">
+            <span className="uppercase font-normal text-lg md:text-xl">
               {greeting} <br />
             </span>
             {title}
@@ -108,8 +108,8 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <Button arrow className="">
-                <Link href={btnLink}>Read more</Link>
+              <Button arrow >
+                <Link className="!text-xl" href={btnLink}>Read more</Link>
               </Button>
             </motion.div>
           )}

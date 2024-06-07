@@ -15,7 +15,6 @@ import Lecturers from "@/components/Lecturers";
 import Link from "next/link";
 import { Button } from "@/components";
 import News from "@/components/News/News";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
@@ -133,7 +132,8 @@ export default function Home() {
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
-                  href={staff.name}
+                  href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
+                  cardTitleStyle="hover:text-secondary"
                 />
               </div>
             );
@@ -159,8 +159,8 @@ export default function Home() {
             <News />
           </div>
         </section>
-        <div className="bg-orange-100 my-10 p-20 flex flex-col gap-10 md:flex-row justify-between items-center">
-          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 text-2xl">
+        <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
+          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
             Explore the Impressive Resources and Facilities of the Department of
             Chemistry, University of Uyo
           </h1>
