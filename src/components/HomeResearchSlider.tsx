@@ -54,13 +54,13 @@ export default function HomeResearchSlider() {
           ))}
 
         <aside className="flex gap-6 xs:gap-8 items-center justify-center my-8">
-          <div className="space-x-3">
+          <div className="space-x-3 shrink-0">
             <SlideButton position="left" Icon={ArrowLeftIcon} />
             <SlideButton Icon={ArrowRightIcon} />
           </div>
           <Link
             href="/research"
-            className="flex items-center justify-center p-2 px-4 text-white text-lg bg-primary hover:bg-blue-600 transition-colors duration-300"
+            className="flex items-center justify-center p-2 px-4 text-white xs:text-lg bg-primary hover:bg-blue-600 transition-colors duration-300"
           >
             More about Research
             <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
