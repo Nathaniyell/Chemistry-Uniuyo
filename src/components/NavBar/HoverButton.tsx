@@ -24,7 +24,7 @@ export default function HoverButton({
       <button
         className={`${
           pathname.includes(heading) && "font-bold pointer-events-none"
-        } capitalize flex items-center gap-2 group-hover:font-bold p-1 md:p-0`}
+        } capitalize flex items-center gap-2 group-hover:font-bold p-1 md:p-0 transition-colors duration-500`}
       >
         {icon1}
         <span>{heading}</span>
