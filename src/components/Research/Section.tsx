@@ -12,7 +12,7 @@ export default function Section({
   isPaginated = true,
   cardsArray,
 }: SectionProps) {
-  const postsPerPage = 10;
+  const postsPerPage = 12;
 
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;

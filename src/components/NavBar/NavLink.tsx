@@ -31,7 +31,7 @@ export default function NavLink({
   return (
     <div
       className={clsx(
-        "group/navLink shrink-0 w-fit h-fit my-0.5 p-2 py-1 md:text-sm md:p-0 md:m-0",
+        "group/navLink relative shrink-0 w-fit h-fit my-0.5 max-md:ml-2 py-1 md:text-sm",
         activeClass,
         className
       )}
@@ -45,7 +45,7 @@ export default function NavLink({
       </Link>
       <div
         className={clsx(
-          "group-hover/navLink:w-3/4 group-hover/navLink:h-0.5 bg-primary transition-all duration-500",
+          "group-hover/navLink:w-3/4 absolute bottom-0.5 md:bottom-0 right-0 group-hover/navLink:h-0.5 bg-primary transition-all duration-500",
           {
             "w-3/4 h-0.5": pathname === href,
             "w-0": pathname !== href,
