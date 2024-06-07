@@ -223,7 +223,7 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary inline border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
+            <h1 className="!text-center w-full text-primary px-4 mx-auto border-l-secondary inline border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
 
             {/* break into a component later */}
             <aside>
