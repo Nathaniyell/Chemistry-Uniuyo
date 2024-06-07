@@ -31,5 +31,5 @@
 }
 
 img {
-  background: url("../../public/loading.gif") 50% 0 no-repeat;
+  background: url("../../public/loading.gif") no-repeat center;
 }

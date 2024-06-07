@@ -1,43 +1,28 @@
 "use client";
 import React from "react";
-import {
-  Autoplay,
-  Pagination,
-  // Navigation,
-  // EffectCreative,
-  // EffectCards,
-  EffectFade,
-} from "swiper/modules";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-flip";
-import "swiper/css/effect-fade";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
+
 import Image from "next/image";
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/profInam2.jpg";
-import homeData, { studentsData, homeStaffData } from "@/lib/data";
-import { Card, HomepageSlider } from "@/components";
+import homeData, { homeStaffData } from "@/lib/data";
+import { HomepageSlider } from "@/components";
 import HomeSections from "@/components/HomeSections";
 import Lecturers from "@/components/Lecturers";
 import Link from "next/link";
 import { Button } from "@/components";
 import News from "@/components/News/News";
-import { publications } from "@/lib";
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
-  const swiper = useSwiper();
-
   const headOfDepartment = [
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
   ];
 
-  const btnClasses = "rounded-full bg-primary hover:border-primary text-white"
   return (
     <main className="w-full min-h-screen relative bg-slate-100">
       <Swiper
@@ -152,7 +137,7 @@ export default function Home() {
                 />
               </div>
             );
-          })} 
+          })}
         </div>
         <Button
           arrow
@@ -165,99 +150,37 @@ export default function Home() {
         </Button>
       </section>
 
-      {/* <section className="bg-sky-100 container w-11/12 mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row mt-5">
-        <Swiper
-          effect={"cards"}
-          centeredSlides={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Autoplay, EffectCards, Pagination]}
-          className="w-full h-full"
-        >
-          {studentsData.map((student) => {
-            return (
-              <SwiperSlide className="bg-center bg-cover" key={student.id}>
-                <Image
-                  className="block w-full"
-                  src={student.image}
-                  alt="Students"
-                />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-
-        <HomeSections
-          greeting="Meet Our"
-          title="Students"
-          routeLink="/programmes/undergraduate"
-          description=""
-          animateDirection="right"
-        />
-      </section> */}
       <div className="bg-white mt-10">
-
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="grid place-items-center grid-cols-1 gap-10">
-            <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-[24px] md:text-[30px]">Recent News</h1>
+            <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-[24px] md:text-[30px]">
+              Recent News
+            </h1>
             <News />
           </div>
         </section>
         <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
-          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">Explore the Impressive Resources and Facilities of the Department of Chemistry, University of Uyo</h1>
+          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
+            Explore the Impressive Resources and Facilities of the Department of
+            Chemistry, University of Uyo
+          </h1>
 
           <Button
             variant="transparent"
             className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
             arrow
           >
-            <Link href="/resources">
-              Take tour
-            </Link>
+            <Link href="/resources">Take tour</Link>
           </Button>
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary inline border-l-4 uppercase font-black text-[24px] md:text-[30px]">Recent Research Expeditions</h1>
+            <h1 className="text-center w-full text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[20px] md:text-[25px]">
+              Recent Research Expeditions
+            </h1>
 
-            {/* break into a component later */}
-            <aside>
-              <Swiper slidesPerGroup={2} className="w-[90%] p-2">
-
-                {publications
-                  .slice(0, 4)
-                  .map(({ title, unit, author, published_at, desc, href }, index) => (
-                    <SwiperSlide key={index}>
-                      <Card
-                        isResearchPage={false}
-                        title={title}
-                        type="publication"
-                        unit={unit ?? ""}
-                        author={author}
-                        published_at={published_at}
-                        desc={desc}
-                        href={href}
-                      /></SwiperSlide>
-                  ))}
-
-                <div className="flex gap-2 justify-center items-center mt-4 text-white">
-                  <button type="button" className="w-[2rem] h-[2rem] rounded-full p-2" onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="w-4" /></button>
-                  <button type="button" className="w-[2rem] h-[2rem] rounded-full p-2" onClick={() => swiper.slideNext()}><ArrowRightIcon className="w-4" /></button>
-                </div>
-              </Swiper>
-            </aside>
-            <Button
-              variant="transparent"
-              className="mx-auto place-self-center text-white !text-xl border-none !bg-primary"
-            >
-              More about Research
-              <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
-            </Button>
+            {/* ResearchSlider */}
+            <HomeResearchSlider />
           </div>
         </section>
       </div>

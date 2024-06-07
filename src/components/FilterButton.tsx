@@ -14,16 +14,6 @@ export default function FilterButton({ array }: FilterProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const { replace } = useRouter();
-  // const divRef = React.useRef<HTMLDivElement>(null);
-  // const [divWidth, setDivWidth] = React.useState(0);
-
-  // React.useEffect(() => {
-  //   const filterContainer = divRef.current;
-  //   if (filterContainer !== null) {
-  //     const containerWidth = filterContainer.scrollWidth;
-  //     console.log(containerWidth);
-  //   }
-  // }, []);
 
   const filterValue = searchParams.get("filterby");
 
@@ -38,19 +28,13 @@ export default function FilterButton({ array }: FilterProps) {
   };
 
   return (
-    <div
-      // ref={divRef}
-      className="relative flex items-center gap-3 filter-div overflow-x-auto overflow-hidden"
-    >
-      {/* <FilterArrow direction="left" func={()=>{}}/>
-      <FilterArrow direction="right" func={()=>{}}/> */}
-
-      <div className="flex items-center w-full mb-2">
+    <div className="relative flex items-center gap-3 filter-div overflow-x-auto overflow-hidden">
+      <div className="flex items-center gap-1 w-full mb-2">
         {array.map((p, i) => (
           <Button
             key={i}
             className={clsx(
-              "first:rounded-l-xl rounded-none last:rounded-r-xl sm:pt-[10px] sm:pb-[10px] flex-shrink-0 capitalize",
+              "first:rounded-l-md rounded-none last:rounded-r-md sm:pt-[10px] sm:pb-[10px] flex-shrink-0 capitalize",
               {
                 "bg-blue-50 border-blue-300 text-primary pointer-events-none":
                   filterValue === p && p === "environmental",
@@ -77,7 +61,6 @@ export default function FilterButton({ array }: FilterProps) {
             clear filter
           </Button>
         )}
-        
       </div>
     </div>
   );

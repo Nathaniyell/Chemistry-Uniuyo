@@ -16,11 +16,12 @@ import {
   level400courses,
   level400coursesSecond,
 } from "@/lib";
+import { CourseByLevelProps, SemesterType } from "@/types";
 
 type CoursesProps = {
   Icon: ElementType;
   heading: string;
-  type: string;
+  type?: string;
 };
 
 export default function Courses({ Icon, heading, type }: CoursesProps) {
@@ -30,8 +31,8 @@ export default function Courses({ Icon, heading, type }: CoursesProps) {
   return (
     <Div className="self-start bg-blue-50 flex-col my-12 overflow-hidden">
       <Div className="bg-white w-full items-center">
-        <Icon className="h-6 text-xl bg-secondary rounded-full p-1 text-white" />
-        <h3 className="capitalize font-bold">{heading}</h3>
+        <Icon className="w-8 text-xl bg-secondary rounded-full p-1 text-white" />
+        <h3 className="capitalize text-xl font-medium">{heading}</h3>
       </Div>
 
       <CourseByLevel
@@ -68,34 +69,6 @@ export default function Courses({ Icon, heading, type }: CoursesProps) {
   );
 }
 
-type CourseByLevelProps = {
-  currentCourseByLevel: {
-    courses: string;
-  };
-  setCurrentCourseByLevel: React.Dispatch<
-    React.SetStateAction<{
-      courses: string;
-    }>
-  >;
-  level: string;
-  firstSemesterArray: {
-    code: string;
-    title: string;
-    prerequisite: string;
-    semester: string;
-    credit_hrs: number;
-    desc: string;
-  }[];
-  secondSemesterArray: {
-    code: string;
-    title: string;
-    prerequisite: string;
-    semester: string;
-    credit_hrs: number;
-    desc: string;
-  }[];
-};
-
 const CourseByLevel = ({
   currentCourseByLevel,
   setCurrentCourseByLevel,
@@ -113,21 +86,24 @@ const CourseByLevel = ({
       <label
         htmlFor={level.replaceAll(" ", "_")}
         className={clsx(
-          "w-full h-full flex items-center gap-2 font-semibold cursor-pointer",
+          "w-full h-full flex items-center gap-2 font-semibold cursor-pointer px-1 py-2 transition-all duration-300",
           {
-            "border-b pb-2 mb-4 text-secondary pointer-events-none":
+            "border-b border-primary/10  mb-4 text-secondary pointer-events-none":
               currentCourseByLevel.courses ===
+              level.trim().replaceAll(" ", "_"),
+            "text-slate-400 hover:text-black":
+              currentCourseByLevel.courses !==
               level.trim().replaceAll(" ", "_"),
           }
         )}
       >
         {currentCourseByLevel.courses === level.trim().replaceAll(" ", "_") ? (
-          <MinusCircleIcon className="h-4 text-gray-400" />
+          <MinusCircleIcon className="h-4" />
         ) : (
-          <PlusCircleIcon className="h-4 text-gray-400" />
+          <PlusCircleIcon className="h-4" />
         )}
 
-        <span>{level}</span>
+        <span className="text-lg">{level}</span>
       </label>
 
       <input
@@ -140,131 +116,83 @@ const CourseByLevel = ({
         defaultChecked={level.includes("100")}
       />
 
-      <div className="peer-checked:h-full h-0 p-0 flex flex-col gap-8 overflow-hidden transition-all duration-300">
-        <div>
-          <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl mb-4">
-            first semester
-          </h1>
-          {/* smaller screen use div */}
-          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
-            {firstSemesterArray.map((a, i) => (
-              <div key={i} className="pt-4 space-y-1">
-                <div className="flex gap-1 items-center justify-between">
-                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
-                    {a.title}
-                  </h1>
-                  <span className="text-sm font-semibold uppercase">
-                    {a.code}
-                  </span>
-                </div>
-
-                <div className="space-y-1">
-                  {/* <p>{a.desc}</p> */}
-                  {a.prerequisite && (
-                    <p>Prerequisite: {a.prerequisite.toUpperCase()}</p>
-                  )}
-                  <div className="flex justify-between gap-1 items-center">
-                    <span>
-                      {a.credit_hrs} Credit Hour{a.credit_hrs > 1 && "s"}
-                    </span>
-                    <span>{a.semester} semester</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </section>
-
-          {/* larger screens use table */}
-          <table className="w-full overflow-x-auto hidden md:table">
-            <thead>
-              <tr className="text-left capitalize w-full">
-                <th className="text-center py-8">S/N</th>
-                <th className="min-w-[100px]">course code</th>
-                <th className="min-w-[100px]">course title</th>
-                <th className="min-w-[100px]">credit hours</th>
-                <th className="min-w-[100px]">pre-requisite</th>
-                {/* <th className="min-w-[100px]">course description</th> */}
-              </tr>
-            </thead>
-            <tbody>
-              {firstSemesterArray.map((a, i) => (
-                <tr key={i} className="odd:bg-blue-50">
-                  <td className="text-center py-4">{i + 1}</td>
-                  <td className="uppercase">{a.code}</td>
-                  <td>{a.title}</td>
-                  <td>{a.credit_hrs}</td>
-                  <td>
-                    {a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}
-                  </td>
-                  {/* <td>{a.desc}</td> */}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <div>
-          <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl my-4">
-            second semester
-          </h1>
-          {/* smaller screen use div */}
-          <section className="space-y-4 divide-y divide-blue-100 md:hidden">
-            {secondSemesterArray.map((a, i) => (
-              <div key={i} className="pt-4 space-y-1">
-                <div className="flex gap-1 items-center justify-between">
-                  <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
-                    {a.title}
-                  </h1>
-                  <span className="text-sm font-semibold uppercase">
-                    {a.code}
-                  </span>
-                </div>
-
-                <div className="space-y-1">
-                  {/* <p>{a.desc}</p> */}
-                  {a.prerequisite && (
-                    <p>Prerequisite: {a.prerequisite.toUpperCase()}</p>
-                  )}
-                  <div className="flex justify-between gap-1 items-center">
-                    <span>
-                      {a.credit_hrs} Credit Hour{a.credit_hrs > 1 && "s"}
-                    </span>
-                    <span className="capitalize">{a.semester} semester</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </section>
-
-          {/* larger screens use table */}
-          <table className="w-full hidden md:table">
-            <thead>
-              <tr className="text-left capitalize">
-                <th className="text-center py-8">S/N</th>
-                <th className="min-w-[100px]">course code</th>
-                <th className="min-w-[100px]">course title</th>
-                <th className="min-w-[100px]">credit hours</th>
-                <th className="min-w-[100px]">pre-requisite</th>
-                {/* <th className="min-w-[100px]">course description</th> */}
-              </tr>
-            </thead>
-            <tbody>
-              {secondSemesterArray.map((a, i) => (
-                <tr key={i} className="odd:bg-blue-50 text-lg">
-                  <td className="text-center p-4">{i + 1}</td>
-                  <td className="uppercase">{a.code}</td>
-                  <td>{a.title}</td>
-                  <td>{a.credit_hrs}</td>
-                  <td>
-                    {a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}
-                  </td>
-                  {/* <td>{a.desc}</td> */}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      <section className="peer-checked:h-full h-0 p-0 flex flex-col gap-8 overflow-hidden transition-all duration-300">
+        <SemesterCourseComponent
+          semester="first"
+          semesterCourseArray={firstSemesterArray}
+        />
+        <SemesterCourseComponent
+          semester="second"
+          semesterCourseArray={secondSemesterArray}
+        />
+      </section>
     </Div>
   );
 };
+
+function SemesterCourseComponent({
+  semester,
+  semesterCourseArray,
+}: SemesterType) {
+  return (
+    <article className="xs:px-2 px-1">
+      <h1 className="capitalize font-semibold text-lg xs:text-xl md:text-2xl mb-4">
+        {semester} semester
+      </h1>
+      {/* smaller screen use div */}
+      <section className="space-y-4 divide-y divide-blue-100 md:hidden">
+        {semesterCourseArray.map((a, index) => (
+          <div key={index} className="pt-4 space-y-1">
+            <div className="flex gap-1 items-center justify-between">
+              <h1 className="max-w-[84%] text-lg font-medium text-blue-950 text-wrap">
+                {a.title}
+              </h1>
+              <span className="text-sm font-semibold uppercase">{a.code}</span>
+            </div>
+
+            <div className="space-y-1">
+              {/* <p>{a.desc}</p> */}
+              {a.prerequisite && (
+                <p>Prerequisite: {a.prerequisite.toUpperCase()}</p>
+              )}
+              <div className="flex justify-between gap-1 items-center">
+                <span>
+                  {a.credit_hrs} Credit Hour{a.credit_hrs > 1 && "s"}
+                </span>
+                <span className="text-slate-400 capitalize text-sm">
+                  {a.semester} semester
+                </span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
+
+      {/* larger screens use table */}
+      <table className="w-full overflow-x-auto hidden md:table">
+        <thead>
+          <tr className="text-left capitalize w-full">
+            <th className="text-center py-8">S/N</th>
+            <th className="min-w-[100px]">course code</th>
+            <th className="min-w-[100px]">course title</th>
+            <th className="min-w-[100px]">credit hours</th>
+            <th className="min-w-[100px]">pre-requisite</th>
+            {/* <th className="min-w-[100px]">course description</th> */}
+          </tr>
+        </thead>
+        <tbody>
+          {semesterCourseArray.map((a, index) => (
+            <tr key={index} className="odd:bg-blue-50">
+              <td className="text-center py-4">{index + 1}</td>
+              <td className="uppercase">{a.code}</td>
+              <td>{a.title}</td>
+              <td>{a.credit_hrs}</td>
+              <td>{a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}</td>
+              {/* <td>{a.desc}</td> */}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </article>
+  );
+}
