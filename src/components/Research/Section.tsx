@@ -72,7 +72,7 @@ export default function Section({
           </p>
         ) : null}
 
-        <aside className="grid gap-6 gap-y-8 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        <aside className="grid gap-6 gap-y-8 md:grid-cols-2 2xl:grid-cols-3">
           {displayFilteredCards}
         </aside>
       </aside>
