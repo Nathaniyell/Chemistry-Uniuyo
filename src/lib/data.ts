@@ -7,7 +7,7 @@ import student2 from "../../public/images/CHMs2.webp";
 import student3 from "../../public/images/CHMs3.webp";
 import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
-import student6 from "../../public/images/CHMs6.webp";
+import student6 from "../../public/images/staff-student.jpg";
 
 import staff2 from "../../public/images/sshaibu.jpg";
 import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";

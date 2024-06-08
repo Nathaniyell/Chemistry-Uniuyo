@@ -27,9 +27,9 @@ import graduation0 from "../../public/images/Graduation/graduation0.jpg"
 import graduation1 from "../../public/images/Graduation/graduation1.jpg"
 import graduation2 from "../../public/images/Graduation/graduation2.jpg"
 import graduation3 from "../../public/images/Graduation/graduation3.jpg"
-import graduation4 from "../../public/images/Graduation/graduation4.jpg"
+import graduation4 from "../../public/images/Graduation/bzene.jpg"
 import graduation5 from "../../public/images/Graduation/graduation5.jpg"
-import graduation6 from "../../public/images/Graduation/graduation6.jpg"
+import graduation6 from "../../public/images/Graduation/gradpics1.jpg"
 import graduation7 from "../../public/images/Graduation/graduation7.jpg"
 import graduation8 from "../../public/images/Graduation/graduation8.jpg"
 import graduation9 from "../../public/images/Graduation/graduation9.jpg"
@@ -74,11 +74,13 @@ export const RecentNews: RecentNewsTypes[] = [
       ],
     pictures: [
       classO18,
+      graduation6,
       graduation1,
       graduation2,
       graduation3,
       graduation5,
       graduation8,
+      graduation4,
       graduation9,
       graduation11,
       graduation12,

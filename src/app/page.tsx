@@ -119,7 +119,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="w-11/12 mx-auto p-6 ">
+      <section className="w-11/12 mx-auto p-4 md:p-6 ">
         <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
           Meet our Staff
         </h5>

@@ -5,7 +5,11 @@ export const allResources = [
     images: [
       "/images/chemistry_lab/IMG_7437.JPG",
       "/images/chemistry_lab/IMG_7440.JPG",
-      "/images/chemistry_lab/IMG_7441.JPG",
+      "/images/chemistry_lab/IMG_7471.JPG",
+      "/images/chemistry_lab/IMG_7475.JPG",
+      "/images/chemistry_lab/IMG_7477.JPG",
+      "/images/chemistry_lab/IMG_7480.JPG",
+      "/images/chemistry_lab/IMG_7485.JPG",
     ],
   },
   {
@@ -18,30 +22,25 @@ export const allResources = [
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7454.JPG",
-      "/images/chemistry_lab/IMG_7455.JPG",
       "/images/chemistry_lab/IMG_7458.JPG",
     ],
   },
-  {
-    heading: "Lab stool",
-    description: "",
-    images: [
-      "/images/chemistry_lab/IMG_7463.JPG",
-      "/images/chemistry_lab/IMG_7465.JPG",
-    ],
-  },
-  {
-    heading: "Lab counter",
-    description: "",
-    images: [
-      "/images/chemistry_lab/IMG_7468.JPG",
-      "/images/chemistry_lab/IMG_7471.JPG",
-      "/images/chemistry_lab/IMG_7475.JPG",
-      "/images/chemistry_lab/IMG_7477.JPG",
-      "/images/chemistry_lab/IMG_7480.JPG",
-      "/images/chemistry_lab/IMG_7485.JPG",
-    ],
-  },
+  // {
+  //   heading: "Lab stool",
+  //   description: "",
+  //   images: [
+  //     "/images/chemistry_lab/IMG_7463.JPG",
+  //     "/images/chemistry_lab/IMG_7465.JPG",
+  //   ],
+  // },
+  // {
+  //   heading: "Lab counter",
+  //   description: "",
+  //   images: [
+
+
+  //   ],
+  // },
   {
     heading: "Lady at sink",
     description: "",
@@ -52,13 +51,13 @@ export const allResources = [
     ],
   },
   {
-    heading: "Equipment in store/Helium cylinder",
+    heading: "Equipment Room",
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7518.JPG",
-      "/images/chemistry_lab/IMG_7570.JPG",
+      // "/images/chemistry_lab/IMG_7570.JPG",
       "/images/chemistry_lab/IMG_7572.JPG",
-      "/images/chemistry_lab/IMG_7577.JPG",
+      // "/images/chemistry_lab/IMG_7577.JPG",
     ],
   },
   {
@@ -66,9 +65,10 @@ export const allResources = [
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7526.JPG",
-      "/images/chemistry_lab/IMG_7527.JPG",
+
       "/images/chemistry_lab/IMG_7530.JPG",
-      "/images/chemistry_lab/IMG_7531.JPG",
+      "/images/chemistry_lab/IMG_7533.JPG",
+
       "/images/chemistry_lab/IMG_7532.JPG",
       "/images/chemistry_lab/IMG_7535.JPG",
     ],
@@ -82,19 +82,17 @@ export const allResources = [
       "/images/chemistry_lab/IMG_7536.JPG",
       "/images/chemistry_lab/IMG_7537.JPG",
       "/images/chemistry_lab/IMG_7538.JPG",
+      "/images/chemistry_lab/IMG_7553.JPG",
     ],
   },
   {
-    heading: "Equipment 3",
-    description: "",
-    images: ["/images/chemistry_lab/IMG_7533.JPG"],
-  },
-  {
-    heading: "Equipment 5",
+    heading: "Equipment 2 Part",
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7539.JPG",
       "/images/chemistry_lab/IMG_7540.JPG",
+      "/images/chemistry_lab/IMG_7527.JPG",
+      "/images/chemistry_lab/IMG_7531.JPG",
     ],
   },
   {
@@ -103,7 +101,7 @@ export const allResources = [
     images: [
       "/images/chemistry_lab/IMG_7543.JPG",
       "/images/chemistry_lab/IMG_7544.JPG",
-      "/images/chemistry_lab/IMG_7546.JPG",
+      // "/images/chemistry_lab/IMG_7546.JPG",
       "/images/chemistry_lab/IMG_7547.JPG",
     ],
   },
@@ -112,7 +110,7 @@ export const allResources = [
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7548.JPG",
-      "/images/chemistry_lab/IMG_7553.JPG",
+
     ],
   },
   {
@@ -127,9 +125,9 @@ export const allResources = [
     heading: "Equipment 8",
     description: "",
     images: [
-      "/images/chemistry_lab/IMG_7560.JPG",
+      // "/images/chemistry_lab/IMG_7560.JPG",
       "/images/chemistry_lab/IMG_7562.JPG",
-      "/images/chemistry_lab/IMG_7567.JPG",
+      // "/images/chemistry_lab/IMG_7567.JPG",
     ],
   },
 ];
