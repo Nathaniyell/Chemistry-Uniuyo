@@ -12,21 +12,19 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import Link from "next/link";
 
 export default function HomeResearchSlider() {
-  const isBigMobile = useMediaQuery({ query: "(min-width: 640px)" });
-
-  const isTablet = useMediaQuery({
-    query: "(min-width: 768px)",
-  });
-
   const isLaptop = useMediaQuery({
     query: "(min-width: 1024px)",
   });
+  const isDesktop = useMediaQuery({
+    query: "(min-width: 1600px)",
+  });
+
   return (
     <aside>
       <Swiper
         spaceBetween={15}
         modules={[Autoplay]}
-        slidesPerView={isLaptop ? 3 : isTablet ? 2 : 1}
+        slidesPerView={isDesktop ? 3 : isLaptop ? 2 : 1}
         loop
         // centeredSlides
         autoplay={{
@@ -59,13 +57,13 @@ export default function HomeResearchSlider() {
             <SlideButton Icon={ArrowRightIcon} />
           </div>
         </aside>
-          <Link
-            href="/research"
-            className="flex items-center md:w-2/5 lg:w-1/4 mx-auto justify-center p-2 px-4 text-white bg-primary hover:bg-blue-600 transition-colors duration-300"
-          >
-            More about Research
-            <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
-          </Link>
+        <Link
+          href="/research"
+          className="flex items-center md:w-2/5 lg:w-1/4 mx-auto justify-center p-2 px-4 text-white bg-primary hover:bg-blue-600 transition-colors duration-300"
+        >
+          More about Research
+          <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg" />
+        </Link>
       </Swiper>
     </aside>
   );

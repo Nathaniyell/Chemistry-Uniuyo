@@ -36,7 +36,7 @@ export default function NavLink({
     >
       <Link
         href={href}
-        className={`flex items-center gap-2  hover:font-semibold transition-all duration-500`}
+        className={`flex items-center gap-2 transition-all duration-500`}
         onClick={() => setIsMenuClicked(false)}
       >
         {children}
