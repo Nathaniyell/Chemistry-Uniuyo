@@ -62,7 +62,7 @@ export default function NavBar() {
 
         <aside
           className={clsx(
-            "w-full md:w-fit md:h-full fixed md:relative left-0 top-[70px] md:top-0 flex flex-col bg-black/30 md:bg-transparent",
+            "w-full md:w-fit md:h-fit fixed md:relative left-0 top-[70px] md:top-0 max-md:flex flex-col bg-black/30 md:bg-transparent",
             {
               "opacity-100 transition-all duration-500 h-screen": isMenuClicked,
               "-z-10 opacity-10 md:opacity-100 md:z-50 h-0": !isMenuClicked,
