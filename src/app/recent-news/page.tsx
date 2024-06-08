@@ -9,7 +9,7 @@ const page = () => {
         {RecentNews.map(({ title, pictures, date, description }, index) => {
           return (
             <div key={index} className="mb-14 md:mb-10">
-              <h4 className="my-4 text-2xl md:text-3xl font-semibold text-primary">
+              <h4 className="my-4 text-2xl font-semibold text-blue-950">
                 {title}
               </h4>
               <Lecturers

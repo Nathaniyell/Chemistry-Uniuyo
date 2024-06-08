@@ -47,16 +47,14 @@ export default function ThumbsSlider({
                   alt={heading ?? "Chemistry department university of uyo"}
                   width={300}
                   height={200}
-                  className={"w-full h-52 xs:h-60 md:h-72 rounded-md"}
+                  className={"w-full h-auto rounded-md"}
                 />
               </a>
             ) : (
               <Image
                 src={src}
                 alt={heading ?? "Chemistry department university of uyo"}
-                width={300}
-                height={200}
-                className={"w-full h-96 md:h-screen rounded"}
+                          className={"w-full h-auto"}
               />
             )}
           </SwiperSlide>
@@ -74,15 +72,13 @@ export default function ThumbsSlider({
         {images.map((src, index) => (
           <SwiperSlide
             key={index}
-            className="bg-white border border-blue-100 rounded-md max-w-fit"
+            className="bg-white border max-w-fit"
           >
             <Image
               src={src}
               alt={heading ?? "Chemistry department"}
-              width={56}
-              height={56}
-              className={clsx("size-12 scale-90 rounded-md", {
-                "ring ring-primary p-0.5": isActiveIndex === index,
+                        className={clsx(" size-32 h-auto md:size-12 scale-90", {
+                "ring ring-primary p-[1px]": isActiveIndex === index,
                 "cursor-pointer": isActiveIndex !== index,
               })}
             />

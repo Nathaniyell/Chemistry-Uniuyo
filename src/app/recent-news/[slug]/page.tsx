@@ -30,21 +30,22 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   const { title, pictures, date, description } = filteredNews;
   return (
-    <div className="bg-slate-100 p-10">
+    <div className="bg-slate-100 p-4 md:p-10">
       <section className="w-full space-y-3">
-        <h1 className="text-xl xs:text-2xl font-semibold text-center mb-2">
+        <h1 className="text-xl xs:text-2xl font-semibold text-center text-blue-950 mb-2">
           {title}
         </h1>
-        <ThumbsSlider images={pictures} />
-      </section>
-      <div className="mt-2">
-        <p className="text-base text-gray-700">{description}</p>
         {date && (
-          <p className="mt-2 text-black italic text-base flex items-center gap-2">
+          <p className="mt-2 text-primary text-center text-base flex items-center gap-2">
             <CiCalendar className="text-lg" />
             {date}
           </p>
         )}
+        <ThumbsSlider images={pictures} />
+      </section>
+      <div className="mt-2">
+        <p className="text-base text-gray-700">{description}</p>
+     
       </div>
     </div>
   );

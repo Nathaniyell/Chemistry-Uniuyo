@@ -36,35 +36,8 @@ const HomepageSlider = ({
   btnLink,
 }: sliderProps) => {
   return (
-    <div className={`relative h-[50vh] md:size-full`}>
-      {Array.isArray(bgImage) ? (
-        <Swiper
-          centeredSlides
-          loop
-          autoplay={{
-            delay: 5000,
-            pauseOnMouseEnter: true,
-            disableOnInteraction: true,
-          }}
-          // pagination={{
-          //   clickable: true,
-          // }}
-          modules={[Autoplay]}
-          className="w-full h-full"
-        >
-          {bgImage.map((image, index) => (
-            <SwiperSlide key={index}>
-              <Image
-                src={image}
-                alt={title}
-                className="md:h-[28rem] size-full filter brightness-75"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      ) : (
-        <Image src={bgImage} alt={title} className="size-full md:h-[32rem] filter brightness-50 object-fill" />
-      )}
+    <div className={`relative w-full h-[55vh] lg:h-[95vh]`}>
+      <Image priority={true} src={bgImage} alt={title} className="size-full filter brightness-50" />
 
       {title && (
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
@@ -85,7 +58,7 @@ const HomepageSlider = ({
             {title}
           </motion.h1>
           <motion.p
-          className="text-sm md:text-base"
+            className="text-sm md:text-base"
             animate={{ x: 0, opacity: 1 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{
@@ -108,7 +81,7 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <RouteLinkBtn className="md:text-xl w-[50%] md:w-[30%]" href={btnLink} arrow >
+              <RouteLinkBtn className="md:text-xl w-[50%] lg:w-[30%]" href={btnLink} arrow >
                 Read more
               </RouteLinkBtn>
             </motion.div>

@@ -22,7 +22,7 @@ const News = () => {
               cardBodyStyle="!bg-sky-200 place-items-stretch shadow-md p-4"
               cardTitleStyle="hover:text-secondary"
               readMore
-              cardImgContainerStyle="size-full"
+              cardImgContainerStyle="grid place-items-stretch"
               readMoreLink={`/recent-news/${news.title.replaceAll(" ", "-")}`}
             />
           </div>
