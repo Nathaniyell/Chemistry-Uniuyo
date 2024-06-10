@@ -18,7 +18,7 @@ const page = () => {
                 href={`/recent-news/${title.replaceAll(" ", "-")}`}
                 date={date}
                 other={`${description[0]} \n\n ${description[1]}`}
-                cardBodyStyle="shadow p-6 bg-slate-100"
+                cardBodyStyle="shadow p-4 bg-slate-100"
                 readMore
                 readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}
                 cardContainerStyle="h-full"
