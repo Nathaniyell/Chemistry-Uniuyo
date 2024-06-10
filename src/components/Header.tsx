@@ -48,7 +48,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.75, duration: 0.5, ease: "linear" }}
-            className="max-w-xl"
+            className="max-w-xl text-center"
           >
             {tagline}
           </motion.p>
