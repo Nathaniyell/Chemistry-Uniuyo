@@ -1,6 +1,4 @@
 "use client";
-import { useRouter } from "next/navigation";
-
 import { RecentNews } from "@/lib";
 
 import { notFound } from "next/navigation";
