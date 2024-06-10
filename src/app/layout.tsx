@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${raleway.variable} font-serif`}>
-      <body className="scroll-smooth overflow-x-hidden">
+      <body className="scroll-smooth !overflow-x-hidden">
         <Providers>
           <NavBar />
           {children}
