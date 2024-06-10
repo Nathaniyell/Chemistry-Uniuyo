@@ -15,7 +15,7 @@ type HeaderProps = {
 
 export default function Header({ headerBg, heading, tagline }: HeaderProps) {
   return (
-    <header className={clsx(`relative w-full `)}>
+    <header className={clsx(`relative w-full overflow-x-hidden `)}>
       {headerBg && (
         <Image
           src={headerBg}
