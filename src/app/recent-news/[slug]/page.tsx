@@ -32,7 +32,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
        <Breadcrumbs
           root={{ title: "News", href: `/recent-news` }}
           array={[
-                { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
+                { title: `${newsTitleFormatted.split("-").slice(0,5).join(" ")}...`, href: `/recent-news/${newsTitleFormatted}` },
           ]}
         />
 
