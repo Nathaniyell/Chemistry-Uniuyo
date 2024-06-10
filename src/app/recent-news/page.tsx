@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="p-6 md:p-0">
        <Header heading="Recent News and Events"/>
-          <div className="md:w-4/5 lg:w-3/4 mx-auto pb-10">
+          <div className="md:w-4/5 lg:w-3/5 mx-auto pb-10">
         {RecentNews.map(({ title, pictures, date, description }, index) => {
           return (
             <div key={index} className="mb-14 md:mb-10">
