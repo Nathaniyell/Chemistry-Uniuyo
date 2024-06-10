@@ -27,8 +27,16 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   const { title, pictures, date, description } = filteredNews;
   return (
-    <div className="bg-slate-100 px-5 pt-5 pb-10 md:p-10">
-      <section className="w-full space-y-3">
+    <div className="bg-slate-100 px-4 pt-4 pb-10 md:p-10">
+       
+       <Breadcrumbs
+          root={{ title: "News", href: `/recent-news` }}
+          array={[
+                { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
+          ]}
+        />
+
+      <section className="w-full space-y-6 mt-4">
         <h1 className="text-xl xs:text-2xl font-semibold text-center text-blue-950 mb-2">
           {title}
         </h1>
@@ -44,12 +52,12 @@ const Page = ({ params }: { params: { slug: string } }) => {
         <p className="text-base text-gray-700">{description}</p>
      
       </div>
-      <Breadcrumbs
-        array={[
-                { title: "News", href: `/recent-news` },
-          { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
-        ]}
-      />
+      {/* <Breadcrumbs
+          root={{ title: "News", href: `/recent-news` }}
+          array={[
+                { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
+          ]}
+        /> */}
     </div>
   );
 };
