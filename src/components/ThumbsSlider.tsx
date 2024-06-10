@@ -77,7 +77,7 @@ export default function ThumbsSlider({
             <Image
               src={src}
               alt={heading ?? "Chemistry department"}
-                        className={clsx(" size-32 h-auto md:size-12 scale-90", {
+                        className={clsx(" size-32 h-auto md:size-12 md:scale-90", {
                 "ring ring-primary p-[1px]": isActiveIndex === index,
                 "cursor-pointer": isActiveIndex !== index,
               })}
