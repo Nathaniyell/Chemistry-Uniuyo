@@ -39,6 +39,14 @@ import graduation12 from "../../public/images/Graduation/graduation12.jpg"
 import graduation13 from "../../public/images/Graduation/graduation13.jpg"
 import graduation14 from "../../public/images/Graduation/graduation14.jpg"
 import graduation15 from "../../public/images/Graduation/graduation15.jpg"
+import sug0 from "@/public/images/SUG/sug5.jpg"
+import sug1 from "@/public/images/SUG/SUG1.jpg"
+import sug2 from "@/public/images/SUG/SUG2.jpg"
+import sug3 from "@/public/images/SUG/SUG3.jpg"
+import sug4 from "@/public/images/SUG/SUG4.jpg"
+import sug5 from "@/public/images/Sendforth/prof-ap-sug.jpg"
+import acs1 from "@/public/images/acs/acs1.jpg"
+import acs2 from "@/public/images/acs/acs2.jpg"
 import { StaticImageData } from "next/image";
 
 export interface RecentNewsTypes {
@@ -86,6 +94,48 @@ export const RecentNews: RecentNewsTypes[] = [
       graduation12,
       graduation13,
       graduation14,
+    ],
+  },
+  { date: "Februaury, 2023",
+    title:
+      "Chemistry student elected as first Students' Union President from Faculty of Science",
+    description:
+      ["In a historic victory, Dayemi Archibong, a student from the Department of Chemistry, has been elected as the new President of the Student's Union at University of Uyo. This marks the first time that a student from the Faculty of Science, specifically the Department of Chemistry, has secured this prestigious leadership position.",
+      "Dayemi, a highly motivated and accomplished student, campaigned on a platform of inclusivity, academic excellence, and enhancing the overall student experience. His win has been celebrated across the university, as it signifies the growing recognition and representation of science students in the Student's Union.",
+        "'I am honored and humbled to have been elected as the Student's Union President,' said Dayemi. 'My goal is to be a strong advocate for all students, ensuring that their voices are heard and their needs are met. I am particularly excited to work towards improving resources and support for students in the sciences, as we play a crucial role in shaping the future of our University.'",
+        "Professor Edu Inam, the head of the Department of Chemistry, and Professor Joseph Essien, the Dean of the Faculty of Science, congratulated Dayemi on his victory. They expressed their pride in having the top student in the university community in their department and faculty.",
+        "The election results have been widely praised by students, staff of the department of chemistry, who believe that Dayemi's leadership will bring a fresh perspective and a renewed focus on the needs of science students. The university community looks forward to the positive changes and initiatives that Dayemi will spearhead during their term as the Student's Union President."
+
+      ],
+    pictures: [
+      sug1,
+      sug0,
+      sug5,
+      sug2,
+      sug3,
+      sug4
+    ],
+  },
+  { date: "May, 2024",
+    title:
+      "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
+    description:
+      ["Miss Blessing, a student in the Department of Chemistry at the University, has been awarded the prestigious ACS Nigeria Volunteer of the Year award.", 
+
+      "The award, presented by the Nigerian chapter of the American Chemical Society (ACS), recognizes outstanding volunteer service and contributions to the chemical sciences community.",
+      
+      "Miss Blessing, known for her dedication and tireless efforts, has been an active member of the ACS student chapter on campus. She has organized numerous outreach programs, science workshops for underprivileged children, and fundraising drives to support research and education initiatives.",
+      
+      "'We are immensely proud of Miss Blessing's achievement,' said Professor Edu Inam, the Head of the Department of Chemistry. 'Her passion for service and commitment to promoting chemistry in the community is truly inspiring. This award is a well-deserved recognition of her exceptional contributions.'",
+      
+      "The ACS Nigeria Volunteer of the Year award is highly competitive, with nominees from universities and research institutions across the country. Miss Blessing's selection underscores the University's reputation for producing talented and socially conscious graduates.",
+      
+      "'I am honored and humbled to receive this award,' said Miss Blessing. 'This is a testament to the support and guidance I have received from my professors and the entire University community. I will continue to use my skills and knowledge to make a positive impact on society.'",
+      
+
+      ],
+    pictures: [
+      acs1, acs2
     ],
   },
 
