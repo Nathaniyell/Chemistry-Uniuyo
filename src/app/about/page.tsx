@@ -67,7 +67,7 @@ const page = () => {
         </aside>
         <hr />
       </section>
-        <div id="#philosophy" className="p-4 md:p-6">
+        <div id="philosophy" className="p-4 md:p-6">
           <div className="flex items-center gap-2 md:text-xl">
             <p className="bg-primary text-white p-2 inline-block rounded-full">
               <FaEye />
@@ -105,7 +105,7 @@ const page = () => {
               </li>
             </ul>
         </div>
-        <section id="#history" className="p-4 md:p-6">
+        <section id="history" className="p-4 md:p-6">
           <div className="flex items-center gap-2 md:text-xl">
             <p className="bg-primary text-white p-2 inline-block rounded-full">
               <MdHistory />

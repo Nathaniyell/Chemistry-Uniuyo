@@ -25,7 +25,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   const { title, pictures, date, description } = filteredNews;
   return (
-    <div className="bg-slate-100 px-4 pt-4 pb-10 md:p-10">
+    <div className="bg-slate-100  px-4 pt-4 pb-10 md:p-10">
        
        <Breadcrumbs
           root={{ title: "News", href: `/recent-news` }}
@@ -34,7 +34,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
           ]}
         />
 
-      <section className="w-full space-y-6 mt-4">
+      <section className="w-full md:w-10/12 mx-auto space-y-6 mt-4">
         <h1 className="text-xl xs:text-2xl font-semibold text-center text-blue-950 mb-2">
           {title}
         </h1>
@@ -46,7 +46,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
         )}
         <ThumbsSlider images={pictures} />
       </section>
-      <div className="mt-2">
+      <div className="mt-2 md:w-10/12 mx-auto">
         <p className="text-base text-gray-700">{description}</p>
      
       </div>
