@@ -26,7 +26,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
 
       <div
         className={clsx(
-          "flex flex-col items-center justify-center gap-3 p-4 z-10",
+          "flex flex-col items-center justify-center gap-4 p-4 z-10",
           {
             "bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh]":
               headerBg !== undefined,

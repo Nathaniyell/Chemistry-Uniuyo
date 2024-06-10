@@ -2,23 +2,20 @@
 import { useRouter } from "next/navigation";
 
 import { RecentNews } from "@/lib";
-import { useState } from "react";
+
 import { notFound } from "next/navigation";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { type Swiper as SwiperType } from "swiper/types";
-import { Thumbs, Autoplay } from "swiper/modules";
+
+
 import "swiper/css";
-import clsx from "clsx";
+
 import { CiCalendar } from "react-icons/ci";
 import ThumbsSlider from "@/components/ThumbsSlider";
+import { Breadcrumbs } from "@/components";
 
 const newsTitles = RecentNews.map((news) => news.title);
 const Page = ({ params }: { params: { slug: string } }) => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
-  const [isActiveIndex, setIsActiveIndex] = useState(0);
 
-  const router = useRouter();
+ 
   const newsTitleFormatted = params.slug;
   const filteredNews = RecentNews.filter(
     (news) =>
@@ -47,6 +44,12 @@ const Page = ({ params }: { params: { slug: string } }) => {
         <p className="text-base text-gray-700">{description}</p>
      
       </div>
+      <Breadcrumbs
+        array={[
+                { title: "News", href: `/recent-news` },
+          { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
+        ]}
+      />
     </div>
   );
 };

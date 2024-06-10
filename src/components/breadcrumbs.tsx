@@ -16,7 +16,7 @@ export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
       >
         {root ? root.title : "Home"}
       </Link>
-      <span className="text-gray-400 mx-2">{">"}</span>
+      <span className="text-gray-400 mx-2">&gt;</span>
       {array.map((a, i) => (
         <NavLink
           key={i}

@@ -1,10 +1,15 @@
-import { Header, Lecturers } from "@/components";
+import { Breadcrumbs, Header, Lecturers } from "@/components";
 import { RecentNews } from "@/lib";
 
 const page = () => {
   return (
     <div className="p-6 md:p-0">
        <Header heading="Recent News and Events"/>
+       <Breadcrumbs
+        array={[
+             { title: "News", href: `/recent-news` },
+        ]}
+      />
           <div className="md:w-4/5 lg:w-3/5 mx-auto pb-10">
         {RecentNews.map(({ title, pictures, date, description }, index) => {
           return (

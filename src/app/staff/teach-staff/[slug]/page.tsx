@@ -9,6 +9,8 @@ import { SiGooglescholar } from "react-icons/si";
 import { BsFillHouseDoorFill } from "react-icons/bs";
 import { FaOrcid } from "react-icons/fa6";
 import Link from "next/link";
+import { Breadcrumbs, Button } from "@/components";
+import NavLink from "@/components/NavBar/NavLink";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const router = useRouter();
@@ -17,26 +19,26 @@ export default function Page({ params }: { params: { slug: string } }) {
   const filteredLecturerData = staffData.filter((staff) => staff?.fullName === lecturerFullName.replaceAll("-", " "))[0]
 
   if (
-     filteredLecturerData?.email?.length === 0 || filteredLecturerData?.fullName === " "
+    filteredLecturerData?.email?.length === 0 || filteredLecturerData?.fullName === " "
 
     // ||   staffData.email.length === 0
   ) {
     return (
       <div className="min-h-screen flex flex-col gap-8 items-center justify-center text-red-600 text-xl">
         <h1>Incomplete details for the selected Profile</h1>
-        <button
-          className="bg-primary text-white px-5 py-4 rounded-lg hover:animate-pulse transition-all duration-200"
-          onClick={() => {
+        <Button
+          className="bg-primary text-white p-4 rounded-md"
+                    onClick={() => {
             router.back();
           }}
         >
           Go back
-        </button>
+        </Button>
       </div>
     );
   }
-console.log(filteredLecturerData)
- 
+  console.log(filteredLecturerData)
+
   const {
     title,
     fullName,
@@ -56,11 +58,12 @@ console.log(filteredLecturerData)
     scopus,
     linkedIn,
   } = filteredLecturerData;
-  
+
   return (
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-16">
-        <nav className="py-8 text-zinc-700 flex items-center gap-2 text-sm">
+
+          {/* <nav className="py-8 text-zinc-700 flex items-center gap-2 text-sm">
           <button
             className="underline text-blue-700 p-2 cursor-pointer"
             onClick={()=>router.back()}
@@ -70,7 +73,7 @@ console.log(filteredLecturerData)
           </button>
           <span className="text-lg">&gt;</span>
           <p className="capitalize text-black">{fullName}</p>
-        </nav>
+        </nav> */}
         <section className="">
           <div className="flex flex-col md:flex-row w-full gap-6 lg:gap-12 bg-white rounded-lg shadow-md md:p-4">
             <div className="w-full md:self-start md:w-3/5 mx-auto lg:w-[40%]">
@@ -141,18 +144,18 @@ console.log(filteredLecturerData)
                   <span>+{phoneNo}</span>
                 </a> */}
                 {
-                  linkedIn.length > 1 &&(
+                  linkedIn.length > 1 && (
 
-                <a
-                  target="_blank"
-                  href={linkedIn}
-                  className="flex items-center gap-1"
-                >
-                  <span className="flex items-center capitalize font-bold text-primary">
-                    <FaLinkedin className="inline text-xl mr-1" />
-                    {fullName}
-                  </span>
-                </a>
+                    <a
+                      target="_blank"
+                      href={linkedIn}
+                      className="flex items-center gap-1"
+                    >
+                      <span className="flex items-center capitalize font-bold text-primary">
+                        <FaLinkedin className="inline text-xl mr-1" />
+                        {fullName}
+                      </span>
+                    </a>
                   )
                 }
               </div>
@@ -165,21 +168,21 @@ console.log(filteredLecturerData)
               </p>
 
               <div className="flex text-center justify-between w-5/6 lg:w-2/5 items-center">
-              {scopus&&  <a
+                {scopus && <a
                   target="_blank"
                   className="text-xl text-secondary"
                   href={scopus}
                 >
                   Scopus
                 </a>}
-             {googleScholar &&   <a
+                {googleScholar && <a
                   target="_blank"
                   className="text-4xl text-primary"
                   href={googleScholar}
                 >
                   <SiGooglescholar />
                 </a>}
-              {orcid &&  <a
+                {orcid && <a
                   target="_blank"
                   className="text-4xl text-green-600"
                   href={orcid}
@@ -221,20 +224,20 @@ console.log(filteredLecturerData)
               </h4>
               <table className="text-zinc-700">
                 <tbody>
-                <tr className="text-left text-[17px]">
-                  <th className="p-1 md:p-2">Year</th>
-                  <th className="p-1 md:p-2">Title</th>
-                </tr>
-                {experience.map((experience, index) => {
-                  return (
-                    <tr className="text-[17px]" key={index}>
-                      <td className="p-1 md:p-2">{experience.year}</td>
-                      <td className="lg:w-5/6 p-1 md:p-2">
-                        {experience.title}
-                      </td>
-                    </tr>
-                  );
-                })}
+                  <tr className="text-left text-[17px]">
+                    <th className="p-1 md:p-2">Year</th>
+                    <th className="p-1 md:p-2">Title</th>
+                  </tr>
+                  {experience.map((experience, index) => {
+                    return (
+                      <tr className="text-[17px]" key={index}>
+                        <td className="p-1 md:p-2">{experience.year}</td>
+                        <td className="lg:w-5/6 p-1 md:p-2">
+                          {experience.title}
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
@@ -246,31 +249,31 @@ console.log(filteredLecturerData)
                 </h4>
                 <table className="text-zinc-700">
                   <tbody>
-                  <tr className="text-left text-[17px]">
-                    <th className="p-1 md:p-2">Year</th>
-                    {/* <th className="p-2" colSpan={1}>
+                    <tr className="text-left text-[17px]">
+                      <th className="p-1 md:p-2">Year</th>
+                      {/* <th className="p-2" colSpan={1}>
                   Type
                 </th> */}
-                    <th className="p-1 md:p-2">Award</th>
-                  </tr>
-                  {awards.length > 1 ? (
-                    awards.map(({ year, type, awarder }, index) => (
-                      <tr className="text-[17px]" key={index}>
-                        <td className="p-1 md:p-2">{year}</td>
-                        <td className="p-2">
-                          {type} - {awarder}
-                        </td>
-                        {/* <td className="p-1 md:p-2 lg:w-4/5">{award.awarder}</td> */}
-                      </tr>
-                    ))
-                  ) : (
-                    <tr className="text-[17px]">
-                      <td className="p-1 md:p-2">{awards[0].year}</td>
-                      <td colSpan={2} className="p-2">
-                        {awards[0].type} - {awards[0].awarder}
-                      </td>
+                      <th className="p-1 md:p-2">Award</th>
                     </tr>
-                  )}
+                    {awards.length > 1 ? (
+                      awards.map(({ year, type, awarder }, index) => (
+                        <tr className="text-[17px]" key={index}>
+                          <td className="p-1 md:p-2">{year}</td>
+                          <td className="p-2">
+                            {type} - {awarder}
+                          </td>
+                          {/* <td className="p-1 md:p-2 lg:w-4/5">{award.awarder}</td> */}
+                        </tr>
+                      ))
+                    ) : (
+                      <tr className="text-[17px]">
+                        <td className="p-1 md:p-2">{awards[0].year}</td>
+                        <td colSpan={2} className="p-2">
+                          {awards[0].type} - {awards[0].awarder}
+                        </td>
+                      </tr>
+                    )}
                   </tbody>
                 </table>
               </div>
@@ -280,32 +283,32 @@ console.log(filteredLecturerData)
                 Research Collaborators
               </h4>
               <table className="text-zinc-700">
-              <tbody>
-                <tr className="text-left text-[17px]">
-                  <th className="p-1 md:p-2">Title</th>
-                  <th className="p-1 md:p-2">Collaborator</th>
-                </tr>
-                {researchCollaborators.length > 1 ? (
-                  researchCollaborators.map(
-                    ({ collaborator, title }, index) => (
-                      <tr className="text-[17px]" key={index}>
-                        <td className="p-1 md:p-4">{title}</td>
-                        <td className="p-1 md:p-4 lg:w-[57%]">
-                          {collaborator}
-                        </td>
-                      </tr>
-                    )
-                  )
-                ) : (
-                  <tr className="text-[17px]">
-                    <td className="p-1 md:p-4">
-                      {researchCollaborators[0].title}
-                    </td>
-                    <td colSpan={2} className="p-1 md:p-4 lg:w-[57%]">
-                      {researchCollaborators[0].collaborator}
-                    </td>
+                <tbody>
+                  <tr className="text-left text-[17px]">
+                    <th className="p-1 md:p-2">Title</th>
+                    <th className="p-1 md:p-2">Collaborator</th>
                   </tr>
-                )}
+                  {researchCollaborators.length > 1 ? (
+                    researchCollaborators.map(
+                      ({ collaborator, title }, index) => (
+                        <tr className="text-[17px]" key={index}>
+                          <td className="p-1 md:p-4">{title}</td>
+                          <td className="p-1 md:p-4 lg:w-[57%]">
+                            {collaborator}
+                          </td>
+                        </tr>
+                      )
+                    )
+                  ) : (
+                    <tr className="text-[17px]">
+                      <td className="p-1 md:p-4">
+                        {researchCollaborators[0].title}
+                      </td>
+                      <td colSpan={2} className="p-1 md:p-4 lg:w-[57%]">
+                        {researchCollaborators[0].collaborator}
+                      </td>
+                    </tr>
+                  )}
                 </tbody>
               </table>
             </aside>
@@ -324,6 +327,25 @@ console.log(filteredLecturerData)
           </section>
         </section>
       </div>
+
+        <div className="!flex items-center place-items-center w-10/11 mx-auto md:w-[40%] lg:w-[35%]">
+        
+        <NavLink
+            className="cursor-pointer text-gray-400 "
+            href="/"
+           
+          >
+            Home
+          </NavLink>
+                  <span className="mx-2 text-gray-400">&gt;</span>
+      <Breadcrumbs
+          root={{ title: "Teaching staff", href: "/staff/teach-staff/" }}
+          array={[
+                      { title: fullName, href: `/staff/teach-staff/${lecturerFullName.replaceAll("-", " ")}` },
+          ]}
+        />
+
+        </div>
     </div>
   );
 }

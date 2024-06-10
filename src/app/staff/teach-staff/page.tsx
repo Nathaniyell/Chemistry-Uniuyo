@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styles from "./teachingstaff.module.css";
 import staffData from "@/lib/lecturersData";
-import  HomepageSlider  from "../../../components/HomepageSlider";
+import HomepageSlider from "../../../components/HomepageSlider";
 import LabStaff from "../../../../public/images/staffLab.jpg";
 import GroupStaff from "../../../../public/images/chemistry_lab/group-staff.jpg";
-import { Header } from "@/components";
+import { Breadcrumbs, Header } from "@/components";
 
 export default function TeachingStaffPage() {
   const router = useRouter();
@@ -21,9 +21,15 @@ export default function TeachingStaffPage() {
 
   return (
     <main className="h-full">
-         <Header tagline="Select a profile below to view detailed information about our staff" heading="Teaching Staff" />
+      <Header tagline="Select a profile below to view detailed information about our staff" heading="Teaching Staff" />
+      <Breadcrumbs
+        array={[
+          { title: "Teaching-staff", href: `/staff/teach-staff/` },
+        ]}
+
+      />
       <section className="pb-16">
-       
+
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
             ({ fullName, title, image, unit, experience }, index) => {
@@ -97,6 +103,12 @@ export default function TeachingStaffPage() {
           )}
         </div>
       </section>
+      <Breadcrumbs
+        array={[
+          { title: "Teaching-staff", href: `/staff/teach-staff/` },
+        ]}
+
+      />
     </main>
   );
 }

@@ -11,6 +11,7 @@ import about2 from "../../../public/images/about_chm2.webp";
 import about3 from "../../../public/images/about_chm3.webp";
 import { usePathname } from "next/navigation";
 import { Header } from "@/components";
+import NavLink from "@/components/NavBar/NavLink";
 
 export default function AboutLayout({
   children,
@@ -49,14 +50,14 @@ export default function AboutLayout({
             const isActive = pathName === link.link;
 
             return (
-              <Link
+              <NavLink
                 key={index}
                 href={link.link}
-                className={`text-primary cursor-pointer my-3 p-2 transition-colors ease-in-out block ${isActive && "border-b-2 border-b-primary"
+                className={`text-primary cursor-pointer my-3 p-2 block"
                   }`}
               >
                 {link.title}
-              </Link>
+              </NavLink>
             );
           })}
         </nav>
