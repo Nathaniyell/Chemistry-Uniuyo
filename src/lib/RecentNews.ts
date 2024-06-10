@@ -135,7 +135,7 @@ export const RecentNews: RecentNewsTypes[] = [
 
       ],
     pictures: [
-      acs1, acs2
+      acs1
     ],
   },
 
