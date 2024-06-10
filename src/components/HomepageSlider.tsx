@@ -36,7 +36,7 @@ const HomepageSlider = ({
   btnLink,
 }: sliderProps) => {
   return (
-    <div className={`relative w-full h-[55vh] lg:h-[95vh]`}>
+    <div className={`relative w-full h-[50vh] lg:h-[90vh]`}>
       <Image priority={true} src={bgImage} alt={title} className="size-full filter brightness-50" />
 
       {title && (
