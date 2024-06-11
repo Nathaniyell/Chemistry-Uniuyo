@@ -54,7 +54,7 @@ export default function ThumbsSlider({
               <Image
                 src={src}
                 alt={heading ?? "Chemistry department university of uyo"}
-                          className={"w-full h-auto"}
+                className={"w-full h-auto"}
               />
             )}
           </SwiperSlide>
@@ -70,14 +70,11 @@ export default function ThumbsSlider({
         onSwiper={setThumbsSwiper}
       >
         {images.map((src, index) => (
-          <SwiperSlide
-            key={index}
-            className="bg-white border max-w-fit"
-          >
+          <SwiperSlide key={index} className="bg-white border max-w-fit">
             <Image
               src={src}
               alt={heading ?? "Chemistry department"}
-                        className={clsx(" size-32 h-auto md:size-12 scale-90", {
+              className={clsx(" size-32 h-auto md:size-12 scale-90", {
                 "ring ring-primary p-[1px]": isActiveIndex === index,
                 "cursor-pointer": isActiveIndex !== index,
               })}
