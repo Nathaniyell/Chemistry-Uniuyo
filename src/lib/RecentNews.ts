@@ -71,7 +71,7 @@ export const RecentNews: RecentNewsTypes[] = [
     ],
     pictures: [sendforth1, profAP, profJames, profUdosen, sendforth, sendForth3, sendforth2, sendforth11, sendforth3, sendforth4, sendForth, sendForth4, sendForth6, sendForth5, sendForth7, sendForth8, sendForth9, sendForth10, sendForth11, sendForth12, sendForth13, sendForth3],
   },
-  { date: "Februaury, 2024",
+  { date: "September, 2023",
     title:
       "Department of Chemistry Graduates Record Number of Students",
     description:
