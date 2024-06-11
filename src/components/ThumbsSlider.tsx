@@ -70,7 +70,6 @@ export default function ThumbsSlider({
         modules={[Thumbs]}
         watchSlidesProgress
         onSwiper={setThumbsSwiper}
-        className="overflow-x-auto"
       >
         {images.map((src, index) => (
           <SwiperSlide
