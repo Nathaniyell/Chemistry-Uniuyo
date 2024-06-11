@@ -15,7 +15,7 @@ type HeaderProps = {
 
 export default function Header({ headerBg, heading, tagline }: HeaderProps) {
   return (
-    <header className={clsx(`relative w-full `)}>
+    <header className={clsx(`relative w-full overflow-x-hidden `)}>
       {headerBg && (
         <Image
           src={headerBg}
@@ -26,7 +26,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
 
       <div
         className={clsx(
-          "flex flex-col items-center justify-center gap-3 p-4 z-10",
+          "flex flex-col items-center justify-center gap-4 p-4 z-10",
           {
             "bg-black/65 text-white min-h-[40vh] xs:min-h-[50vh] md:min-h-[70vh]":
               headerBg !== undefined,
@@ -48,7 +48,7 @@ export default function Header({ headerBg, heading, tagline }: HeaderProps) {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.75, duration: 0.5, ease: "linear" }}
-            className="max-w-xl"
+            className="max-w-xl text-center"
           >
             {tagline}
           </motion.p>

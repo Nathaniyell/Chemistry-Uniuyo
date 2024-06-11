@@ -8,12 +8,19 @@ import student3 from "../../public/images/CHMs3.webp";
 import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
 import student6 from "../../public/images/staff-student.jpg";
+import sug1 from "@/public/images/SUG/SUG1.jpg"
+import acs1 from "@/public/images/acs/acs1.jpg"
 
 import staff2 from "../../public/images/sshaibu.jpg";
 import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
+
+
+
+
+
 export const chemistryUnits = [
   "organic",
   "inorganic",
@@ -51,6 +58,20 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: classO18,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "Chemistry student elected as first Students' Union President from Faculty of Science",
+    description: "",
+
+    image: sug1,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
+    description: "",
+
+    image: acs1,
     btnLink: "/recent-news",
   },
 ];

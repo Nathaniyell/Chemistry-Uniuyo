@@ -11,7 +11,7 @@ const News = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 place-items-center">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         {RecentNews.map((news, index) => (
           <div className="" key={index}>
             <Lecturers

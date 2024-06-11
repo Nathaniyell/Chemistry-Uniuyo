@@ -1,3 +1,4 @@
+
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
 import shaibu from "../../public/images/teachingstaff/shaibuSE.jpg";
@@ -16,6 +17,18 @@ import atimJohnson from "../../public/images/teachingstaff/Dr. Johnson.jpg"
 import godwinEbong from "../../public/images/teachingstaff/Dr. Ebong.jpg"
 import profEnoMoses from "../../public/images/teachingstaff/prof_eno-moses.jpg"
 import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
+import mkpenie from "@/public/images/teachingstaff/mkpenie2.jpg"
+import abakedi from "@/public/images/teachingstaff/abakedi.jpg"
+import enin from "@/public/images/teachingstaff/enin.jpg"
+import anweting from "@/public/images/teachingstaff/anweting.jpg"
+import basilIta from "@/public/images/teachingstaff/nse-ita.jpg"
+import emmadan from "@/public/images/teachingstaff/emmadan.jpg"
+import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
+import uwah from "@/public/images/teachingstaff/uwah.jpg"
+import emptyImg from "@/public/empty-user.jpg"
+
+
+
 import { StaticImageData } from "next/image";
 export interface Experience {
   title: string;
@@ -909,6 +922,408 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+    {
+    image: [uwah],
+    title: "Dr.",
+    fullName: "Emmmanuel Uwah",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Analytical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [anweting],
+    title: "Dr.",
+    fullName: "Idongesit Anweting",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [enin],
+    title: "Dr.",
+    fullName: "Godwin Enin",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [inemesitakpan],
+    title: "Dr.",
+    fullName: "Inemesit Akpan",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [basilIta],
+    title: "Dr.",
+    fullName: "Basil Ita",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [mkpenie],
+    title: "Dr.",
+    fullName: "Victor Mkpenie",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [abakedi],
+    title: "Dr.",
+    fullName: "Okon Abakedi",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [emmadan],
+    title: "Dr.",
+    fullName: "Emmanuel Dan",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Environmental Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+    {
+    image: [emptyImg],
+    title: "Dr.",
+    fullName: "Ekemini Ituen",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+
+    {
+    image: [emptyImg],
+    title: "Dr.",
+    fullName: "Enobong David",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  
   // ... other lecturers
 ];
 
