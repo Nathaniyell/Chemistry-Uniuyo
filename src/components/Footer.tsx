@@ -54,7 +54,7 @@ export default function Footer() {
               <BsTelephoneForward /> <span>+1 (2) 345 6789</span>
             </p>
             <p className="flex items-center gap-2 lowercase">
-              <MdMail />{" "}
+              <MdMail />
               <a
                 href="mailto:hodchemistry@uniuyo.edu.ng"
                 className="hover:underline active:underline visited:text-orange-600"
