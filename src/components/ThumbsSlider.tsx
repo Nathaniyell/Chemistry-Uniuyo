@@ -67,7 +67,7 @@ export default function ThumbsSlider({
       {/* Thumbnail(s) */}
       <Swiper
         spaceBetween={5}
-        slidesPerView={6}
+        // slidesPerView={6}
 
         autoHeight={true}
         slidesPerView={images.length}

@@ -9,7 +9,7 @@ import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
 import student6 from "../../public/images/staff-student.jpg";
 import sug1 from "@/public/images/SUG/SUG1.jpg"
-import acs1 from "@/public/images/acs/acs1.jpg"
+import acs1 from "@/public/images/acs/acs4.jpg"
 
 import staff2 from "../../public/images/sshaibu.jpg";
 import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";

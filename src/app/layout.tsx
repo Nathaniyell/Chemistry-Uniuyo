@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "Welcome to the Department of Chemistry, University of Uyo",
   },
   description: "Browse through our amazing variety of courses",
-  keywords: [],
+  keywords: ["Chemistry", "Reaction", "Research", "Science", "Laboratory", "Professor of Chemistry", "Innovation", "Organic Chemistry", "Inorganic Chemistry", "Analytical Chemistry", "Environmental Chemistry", "Physical Chemistry"],
   authors: [
     { name: "Nathaniel Essien", url: "https://nathanielessien.vercel.app" },
 

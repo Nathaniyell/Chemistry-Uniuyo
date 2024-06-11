@@ -46,7 +46,11 @@ import sug3 from "@/public/images/SUG/SUG3.jpg"
 import sug4 from "@/public/images/SUG/SUG4.jpg"
 import sug5 from "@/public/images/Sendforth/prof-ap-sug.jpg"
 import acs1 from "@/public/images/acs/acs1.jpg"
-import acs2 from "@/public/images/acs/acs2.jpg"
+import acs2 from "@/public/images/acs/acs3.jpg"
+import acs3 from "@/public/images/acs/acs4.jpg"
+import acs4 from "@/public/images/acs/acs5.jpg"
+import acs5 from "@/public/images/acs/acs6.jpg"
+
 import { StaticImageData } from "next/image";
 
 export interface RecentNewsTypes {
@@ -135,7 +139,13 @@ export const RecentNews: RecentNewsTypes[] = [
 
       ],
     pictures: [
-      acs1
+      acs3,
+      acs2,
+      acs3,
+      acs4,
+      acs5,
+      acs1,
+      
     ],
   },
 
