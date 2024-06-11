@@ -72,12 +72,12 @@ export default function ThumbsSlider({
         {images.map((src, index) => (
           <SwiperSlide
             key={index}
-            className="bg-white border max-w-fit flex items-center flex-nowrap overflow-x-scroll"
+            className="bg-white border max-w-fit flex items-center flex-nowrap overflow-x-auto active:scale-90"
           >
             <Image
               src={src}
               alt={heading ?? "Chemistry department"}
-              className={clsx(" size-32 h-auto md:size-12 md:scale-90", {
+              className={clsx("w-32 h-auto md:size-12 md:scale-90", {
                 "ring ring-primary p-[1px]": isActiveIndex === index,
                 "cursor-pointer": isActiveIndex !== index,
               })}
