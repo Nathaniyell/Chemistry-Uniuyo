@@ -22,6 +22,7 @@ export default function ThumbsSlider({
       {/* main swiper */}
       <Swiper
         // loop
+        autoHeight={true}
         autoplay={{
           delay: 20000,
           pauseOnMouseEnter: true,
@@ -64,6 +65,7 @@ export default function ThumbsSlider({
       {/* Thumbnail(s) */}
       <Swiper
         spaceBetween={5}
+        autoHeight={true}
         slidesPerView={images.length}
         modules={[Thumbs]}
         watchSlidesProgress
