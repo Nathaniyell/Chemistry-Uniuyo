@@ -56,6 +56,8 @@ export default function ThumbsSlider({
                 src={src}
                 alt={heading ?? "Chemistry department university of uyo"}
                 className={"w-full h-auto"}
+                width={300}
+                height={200}
               />
             )}
           </SwiperSlide>
@@ -65,8 +67,11 @@ export default function ThumbsSlider({
       {/* Thumbnail(s) */}
       <Swiper
         spaceBetween={5}
+        slidesPerView={6}
+
         autoHeight={true}
         slidesPerView={images.length}
+
         modules={[Thumbs]}
         watchSlidesProgress
         onSwiper={setThumbsSwiper}
@@ -74,15 +79,21 @@ export default function ThumbsSlider({
         {images.map((src, index) => (
           <SwiperSlide
             key={index}
-            className="bg-white border max-w-fit flex items-center flex-nowrap overflow-x-auto active:scale-90"
+            className="bg-white border max-w-fit rounded-md"
           >
             <Image
               src={src}
               alt={heading ?? "Chemistry department"}
-              className={clsx("w-32 h-auto md:size-12 md:scale-90", {
-                "ring ring-primary p-[1px]": isActiveIndex === index,
-                "cursor-pointer": isActiveIndex !== index,
-              })}
+              className={clsx(
+                "size-14 md:size-12 scale-90 rounded-md hover:brightness-[.8]",
+                {
+                  "ring ring-primary p-[1px] pointer-events-none":
+                    isActiveIndex === index,
+                  "cursor-pointer": isActiveIndex !== index,
+                }
+              )}
+              width={30}
+              height={30}
             />
           </SwiperSlide>
         ))}

@@ -23,7 +23,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="w-full min-h-screen relative bg-slate-100">
+    <main className="w-full min-h-screen relative bg-slate-100 overflow-x-hidden">
       <Swiper
         centeredSlides
         loop
@@ -142,13 +142,12 @@ export default function Home() {
           })}
         </div>
         <RouteLinkBtn
-        href="/staff/teach-staff"
+          href="/staff/teach-staff"
           arrow
           variant="primary"
           className="text-white w-full md:w-1/2 lg:w-[25%] mx-auto"
         >
-                   More about our staff
-          
+          More about our staff
         </RouteLinkBtn>
       </section>
 
@@ -168,7 +167,7 @@ export default function Home() {
           </h1>
 
           <RouteLinkBtn
-          href="/resources"
+            href="/resources"
             variant="transparent"
             className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
             arrow
@@ -178,7 +177,7 @@ export default function Home() {
         </div>
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">                            
+            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
               Recent Research Expeditions
             </h1>
 

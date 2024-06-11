@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${raleway.variable} font-serif`}>
-      <body className="scroll-smooth !overflow-x-hidden">
+    <html lang="en" className={`${raleway.variable} font-raleway antialiased`}>
+      <body className="scroll-smooth">
         <Providers>
           <NavBar />
           {children}

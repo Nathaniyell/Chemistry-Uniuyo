@@ -54,7 +54,7 @@ export default function Footer() {
               <BsTelephoneForward /> <span>+1 (2) 345 6789</span>
             </p>
             <p className="flex items-center gap-2 lowercase">
-              <MdMail />{" "}
+              <MdMail />
               <a
                 href="mailto:hodchemistry@uniuyo.edu.ng"
                 className="hover:underline active:underline visited:text-orange-600"
@@ -90,11 +90,15 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex gap-4 md:gap-6">
+          {/* <div className="flex gap-4 md:gap-6">
             <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
 
             <QuickLinkComp heading="study" linksArray={researchQuickLinks} />
-          </div>
+          </div> */}
+
+          <QuickLinkComp heading="resources" linksArray={resourceQuickLinks} />
+          <QuickLinkComp heading="research" linksArray={researchQuickLinks} />
+          <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
         </aside>
 
         {/* footer bottom */}
