@@ -90,11 +90,15 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex gap-4 md:gap-6">
+          {/* <div className="flex gap-4 md:gap-6">
             <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
 
             <QuickLinkComp heading="study" linksArray={researchQuickLinks} />
-          </div>
+          </div> */}
+
+          <QuickLinkComp heading="resources" linksArray={resourceQuickLinks} />
+          <QuickLinkComp heading="research" linksArray={researchQuickLinks} />
+          <QuickLinkComp heading="department" linksArray={deptQuickLinks} />
         </aside>
 
         {/* footer bottom */}
