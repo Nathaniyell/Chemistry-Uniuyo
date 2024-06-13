@@ -1210,7 +1210,7 @@ const staffData: Lecturer[] = [
   {
     image: [itoroUdoh, itoroUdoh2],
     title: "Dr.",
-    fullName: "itoro udoh",
+    fullName: "itoro udo",
     email: ["itoroudo@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?hl=en&user=3aThfCgAAAAJ",
     scopus: "https://www.scopus.com/authid/detail.uri?authorId=59119960000",

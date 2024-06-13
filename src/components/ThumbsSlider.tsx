@@ -46,8 +46,6 @@ export default function ThumbsSlider({
                 <Image
                   src={src}
                   alt={heading ?? "Chemistry department university of uyo"}
-                  width={300}
-                  height={200}
                   className={"w-full h-auto rounded-md"}
                 />
               </a>
@@ -56,9 +54,7 @@ export default function ThumbsSlider({
                 src={src}
                 alt={heading ?? "Chemistry department university of uyo"}
                 className={"w-full h-auto"}
-                width={300}
-                height={200}
-              />
+               />
             )}
           </SwiperSlide>
         ))}
@@ -92,8 +88,6 @@ export default function ThumbsSlider({
                   "cursor-pointer": isActiveIndex !== index,
                 }
               )}
-              width={30}
-              height={30}
             />
           </SwiperSlide>
         ))}
