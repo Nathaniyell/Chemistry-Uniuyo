@@ -1217,7 +1217,7 @@ const staffData: Lecturer[] = [
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Industrial Chemistry (",
+    unit: "Industrial Chemistry",
     officeNo: "Room 30",
 
     profile: "",
