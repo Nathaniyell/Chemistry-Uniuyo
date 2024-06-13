@@ -488,7 +488,7 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [godwinEbong],
+    image: godwinEbong,
     title: "Dr.",
     fullName: "godwin ebong",
     email: ["godwinebong@uniuyo.edu.ng"],
@@ -656,7 +656,7 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [uwah],
+    image: uwah,
     title: "Dr.",
     fullName: "emmmanuel uwah",
     email: [],
