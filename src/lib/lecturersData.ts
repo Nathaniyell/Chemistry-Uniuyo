@@ -260,114 +260,6 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: shaibu,
-    title: "Dr.",
-    fullName: "solomon shaibu",
-    email: "shaibusolomon@uniuyo.edu.ng",
-    googleScholar:
-      "https://scholar.google.com/citations?user=EvhkVpYAAAAJ&hl=en&oi=ao",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=56208782400",
-    orcid: "https://orcid.org/0000-0002-5845-4238",
-    website: "",
-    linkedIn: "https://www.linkedin.com/in/solomon-s-3971b290/",
-    unit: "Environmental / Nanochemistry",
-    officeNo: "Room 30",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "2022 - present",
-      },
-
-      {
-        title: "Lecturer 1, Department of Chemistry, University of Uyo",
-        year: "2020 - 2022",
-      },
-
-      {
-        title: "Assistant Lecturer, Department of Chemistry, University of Uyo",
-        year: "2014 - 2020",
-      },
-      {
-        title:
-          "PhD. Chemistry (specializing in Environmental Chemistry), University of Uyo, Nigeria",
-        year: "2016 - 2021",
-      },
-
-      {
-        title: "M.Sc. Chemistry, Univeristy of Illorin, Nigeria",
-        year: "2014",
-      },
-
-      {
-        title:
-          "B.Sc. (Hons) Chemistry, University of Illorin, Nigeria",
-        year: "2010",
-      },
-    ],
-    awards: [
-      {
-        type: "Research grant",
-        awarder: "Tertiary Education Fund (TETFUND)",
-        year: "2023",
-      },
-    ],
-    researchAreas: [
-      "Nanomaterials",
-      "Nanotechnology",
-      "Nanochemistry",
-      "Material Science",
-    ],
-    researchCollaborators: [
-      {
-        title: "Africa Research and Innovation Partnership (“ARIP”) - 2023",
-        collaborator:
-          "Prof Kirk Semple Lancaster Environment Centre, Lancaster University, United Kingdom",
-      },
-    ],
-    publications: [
-      {
-        title:
-          "Offiong, N. A. O., Edet, J. B., Shaibu, S. E., Akan, N. E., Atakpa, E. O., Sanganyado, E., Okop, I. J., Benson, I. U. and Okoh, A. (2023). Metagenomics: an emerging tool for the chemistry of environmental remediation. Frontiers in Environmental Chemistry, 4 (74):1052697",
-      },
-      {
-        title:
-          "Shaibu, S., Inam, E., Moses, E., Ofon, U., Fatunla, O., Obadimu, C., Ibuotenang, N., Offiong, N.A., Ekpo, V., Adeoye, T. and Udokang, E. (2023). Prospects of nanosorption and photocatalysis in remediation of oil spills. Journal of the Nigerian Society of Physical Sciences, 5(1): 1043",
-      },
-
-      {
-        title:
-          "Moses, E. A., Akpan, D. J., and Shaibu, S. E. (2022). Risk assessment of pesticide residues in water samples from Nwaniba river, Akwa Ibom state, Nigeria. Journal of Chemical Society of Nigeria, 47(6): 1321 – 1334.",
-      },
-      {
-        title:
-          "Shaibu, S. E., Inam, E. J., Moses, E. A. (2022). Biogenic Silver Kaolinite Nanocomposite for the Sequestration of Lead and Cadmium in Simulated Produced Water. Journal of Material and Environmental Sustainability Research, 1(2): 13 – 25.",
-      },
-      {
-        title:
-          "Divine-Anthony, O., Asamudo, N. U. and Shaibu, S. E. (2022). Phytochemical and antifungal properties of Gongronema latifolium and Heinsia crinita leaf extracts against fungal pathogens associated with post-harvest rot of selected fruits. World Journal of Applied Science and Technology, 14 (2): 53-59.",
-      },
-
-      {
-        title:
-          "Moses, E. A., Akpan, D., Shaibu, S. E., & Ekpo, V. F. (2022). Risk assessment of pesticide residues in fish samples from Nwaniba River, Akwa Ibom state, Nigeria. World Journal of Applied Science and Technology, 14(2): 35-41.",
-      },
-      {
-        title:
-          "Ofon, U. A., Ndubuisi-Nnaji, U. U., Shaibu, S. E., Fatunla, O. K. and Offiong, N. A. O. (2021). Recycling anaerobic digestate enhances the co-digestion potential of agroindustrial residues: influence of different digestates as sources of microbial inoculum. Environmental Technology, 1-12.",
-      },
-      {
-        title:
-          "Fatunla, O. K, Essien, E. J., Ofon, U. O., Shaibu, S. E. and Dan, E. U. (2021). Microbial diversity of Nigerian sludge and its potential for use as biofertilizer. Biotechnology Journal International, 25(1): 14-22.",
-      },
-      {
-        title:
-          "Shaibu, S. E., Inam, E. J., Moses, E. A., Fatunla, O. K., Enin, G. A., Ofon, U. A., Effiong, N. E. and Ibuotenang, N. D. (2021). Synthesis and Structural Elucidation of Nanoscale Manganese-Bamboo Composites. World Journal of Applied Science and Technology, 13 (1): 49-55.",
-      },
-    ],
-  },
-  {
     image: [profEnoMoses],
     title: "Professor",
     fullName: "eno moses",
@@ -378,6 +270,46 @@ const staffData: Lecturer[] = [
     website: "",
     linkedIn: "",
     unit: "Analytical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [basilIta],
+    title: "Professor",
+    fullName: "basil ita",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
     officeNo: "",
 
     profile: "",
@@ -558,488 +490,6 @@ const staffData: Lecturer[] = [
       },
       {
         title: "Udousoro I. I. (2013). Potentials of ketogenic diet. In Contemporary issues in sustainable tropical agriculture, Chapter 20, pp 193-201 [L. Etim, J. P. Udo, N. Etim and A. Ekwu, editors]. University of Uyo, Nigeria: Faculty of Agriculture",
-      },
-    ],
-  },
-  {
-    image: helenEtuk,
-    title: "Dr.",
-    fullName: "helen etuk",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: emmanuelEssien,
-    title: "Dr.",
-    fullName: "emmanuel essien",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Organic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [imaobong, imaobong2, imaobong3],
-    title: "Dr.",
-    fullName: "imaobong daniel",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Organic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: boEkom,
-    title: "Dr.",
-    fullName: "ekerete jackson",
-    email: ["ekereteboekom@uniuyo.edu.ng"],
-    googleScholar: "https://scholar.google.com/citations?hl=en&user=GJ6_8fwAAAAJ",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=8701608700",
-    orcid: "https://orcid.org/0000-0002-2401-6379",
-    website: "",
-    linkedIn: "",
-    unit: "Physical Chemistry",
-    officeNo: "154",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "October 2019 - present",
-      },
-      {
-        title:
-          "Lecturer I, Department of Chemistry, University of Uyo",
-        year: "October 2016 - October 2019",
-      },
-      {
-        title:
-          "Lecturer II, Department of Chemistry, University of Uyo",
-        year: "October 2008 - October 2016",
-      },
-      {
-        title:
-          "Assistant Lecturer, Department of Chemistry, University of Uyo",
-        year: "October 2005 - October 2008",
-      },
-      {
-        title:
-          "Graduate Assistant, Department of Chemistry, University of Uyo",
-        year: "January 1994 - May 2005",
-      },
-      {
-        title:
-          "Ph.D Physical Chemistry, University of Calabar, Nigeria",
-        year: "2008 - 2019",
-      },
-      {
-        title:
-          "M.Sc. Physical Chemistry, University of Calabar, Nigeria",
-        year: "1995 - 2005",
-      },
-      {
-        title:
-          "B.Sc. Pure Chemistry, University of Uyo, Nigeria",
-        year: "1988 - 1992",
-      },
-      {
-        title: "Examination Officer, Department of Chemistry, University of Uyo",
-        year: "2002 - 2008, 2014 - 2020",
-      },
-      {
-        title: "Secretary of the Department of Chemistry, Department of Chemistry, University of Uyo",
-        year: "2002 - 2008, 2014 - 2020",
-      },
-    ],
-    awards: [
-      {
-        type: "University of Uyo Honour Roll",
-        awarder: "University of Uyo",
-        year: "1990, 1991, 1992",
-      },
-      {
-        type: "Research Grant",
-        awarder: "Education Trust Fund Research Grant",
-        year: "2008",
-      },
-    ],
-    researchAreas: ["Physical Chemistry", "Corrosion Inhibitors"],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "Chimezie, P. O., BoEKOM, E. J. and Akpan, I. A. (2023) Synthesis, Characterization and Electrochemical Studies on the Corrosion Inhibition Properties of Schiff Bases foe Mild Steel in 1 M HCl Solution, Chemical Science International Journal, 32 (2): 30 - 50 (America)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2020). Kinetics, Molecular Dynamics and Adsorption behaviour of Pyridine on mild steel in 0.1 M HCl solutions, Elixir Applied Chemistry, 142: 54382-54387. (India)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. (2019). Experimental and Theoretical Approach of L-Methionine Sulphone (LMS) as corrosion inhibitor for mild steel in HCl solutions, Elixir Computational Chemistry 129: 52983-52988. (India)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2019). Effects of thiophene on acid corrosion of mild steel. World Journal of Applied Science and Technology, 11(2): 176-182. (Nigeria)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. (2018). Thermodynamics and Sorption studies of 5-phenylisoxazole on mild steel in 2 M HCl solutions. World Journal of Applied Science and Technology (special edition), 10(2): 113-117. (Nigeria)",
-      },
-      {
-        title: "BoEKOM, E. J., Essien, K. E., Akpan, I. A. and Abakedi, O. U. (2018). Electrochemical Investigation and Quantum Chemical Evaluation of 5-phenylisoxazole for mild steel in HCl. World Journal of Applied Science and Technology (special edition), 10(1): 33-37. (Nigeria)",
-      },
-      {
-        title: "Ebenso, E. E., Ekpe, U. U., Umoren, S. A Jackson, E. U., Oforka, N. C. and Abiola, O. K. (2006). Synergistic effect of halide ions on the corrosion of aluminium in acidic medium be some Polymers, Journal of Applied Polymer Science, 100 (4): 2889–2894. (USA)"
-      },
-      {
-        title: "Obot, A. S., BoEKOM, E. J., Ita, B. N. and Utam, E. C. (2022). Kinetics consideration of ethanol leave extract of Costus lucanusianus as green corrosion inhibitor for mild steel and aluminium in 1 M HCl solution, International Journal of Research - GRANTHAALAYAH, 10(1): 106 -118. (India)"
-      },
-      {
-        title: "Obot, A. S., BoEKOM, E. J., Ugi, B. U., Essien, K. E. and Jonah, N. B. (2021). Thermodynamic investigation and quantum chemical evaluation of n-hexane extracts of Costus lucanusianus as corrosion inhibitors for mild steel and aluminium in 1 M HCl solution, Journal of Applied Physical Science International, 13(3): 6-27. (USA)"
-      },
-      {
-        title: "Ituen, E., Dim C. and BoEKOM, E. J. (2021). Orange peel extract mediated silver nanofluid as corrosion inhibitor for X80 steel in simulated oilfield scale dissolver. Journal of Metallic Research, 4(1):41-45. (Singapore, China)"
-      },
-    ],
-  },
-
-  {
-    image: [iniUmoren, iniUmoren2],
-    title: "Dr.",
-    fullName: "iniobong umoren",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Analytical Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [itoroUdoh, itoroUdoh2],
-    title: "Dr.",
-    fullName: "itoro udoh",
-    email: ["itoroudo@uniuyo.edu.ng"],
-    googleScholar: "https://scholar.google.com/citations?hl=en&user=3aThfCgAAAAJ",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=59119960000",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Industrial Chemistry (",
-    officeNo: "Room 30",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "2014 - Date",
-      },
-      {
-        title: "Head Industrial Chemistry Unit, Department of Chemistry",
-        year: "2020 - Date",
-      },
-      {
-        title: "Departmental Coordinator, Intellectual Property and Technology Transfer Office (IPTTO)",
-        year: "2017 - Date",
-      },
-      {
-        title: "Ph.D Chemistry (Industrial Chemistry with Thesis in Hydrolysis and saponification products of Dacryodes edulis \(African Pear)\ stem exudates as sizing and binding agents in paper industry) , University of Port Harcourt, Nigeria",
-        year: "2012 - 2017",
-      },
-      {
-        title:
-          "M.Sc. Chemistry (Analytical Chemistry with Research in physicolchemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates) , University of Calabar, Nigeria",
-        year: "2006 - 2009",
-      },
-      {
-        title: "Coordinator: Chemistry Practical for Pre-degree and Basic Studies Programmes (University of Uyo)",
-        year: "2016 - 2022",
-      },
-      {
-        title: "HND (Science laboratory Technology, Chemistry/Biochemistry, Upper Credit)",
-        year: "2007",
-      },
-
-      {
-        title: "B.Sc (Chemistry)",
-        year: "2002",
-      },
-      {
-        title: "Assistant Lecturer, Department of Applied Chemistry (Veritas University Abuja)",
-        year: "2013 -2014",
-      },
-      {
-        title: "Technologist II, Department of Applied Chemistry (Veritas University Abuja)",
-        year: "2013 - 2014",
-      },
-      {
-        title: "Vice Principal Academics and Chemistry Teacher (Rowth Christian Academy, Uyo)",
-        year: "2003 - 2009",
-      },
-      {
-        title: "Chemistry Teacher - National Youth Service Corps (Senior Science College, Faskari, Katsina State)",
-        year: "January 2002 - December 2002",
-      },
-      {
-        title:
-          "Quality Control Analyst - SIWES (Central Research laboratory, University of Uyo)",
-        year: "2000 - 2001",
-      },
-    ],
-    awards: [
-      {
-        type: "Certificate of National Service",
-        awarder: "National Youth Service Corp (NYSC)",
-        year: "2002",
-      },
-
-      {
-        type: "Best Student in Science and Mathematics",
-        awarder: "Community Secondary School Idoro",
-        year: "1994",
-      },
-    ],
-    researchAreas: ["Production of pulp from non-woody materials of agriculturalwaste", " Production of biodegradable hydrophobic paper environmentally friendly food packing material to replace the plastics coating on the surface of paper", "Determination of properties of Epoxy composites filled with coconut husk"],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "Udo, I. E., Akpbio, U. D., and Akpakpan, A. E. (2012). Physicochemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates, Archives of Applied Science Research, 4(4): 1741 – 1747. ",
-      },
-      {
-        title: "Umoren, G. P., Udo, A. O., and Udo, I. E. (2023). Suitability of Lagenaria breviflora Rind filled plaster of Paris ceilings for building design, Research Journal of Science and Technology (REJOST), 3(2): 1-14.",
-      },
-      {
-        title: "Okon, I. E., Anweting, I. B., Udo, I. E. (2023). Investigation into some Physicochemical Parameters and Heavy Metal Status in Bread from Bakeries in Zaria, Journal of Material and Environmental Science, 14(6): 711 – 719.",
-      },
-      {
-        title: "Akpakpan, A. E, Inam, E. J., and Udo, I. E. (2023). Preparation, Chracterization and Application of Soda Lignin and its Ester Derivatives as Adsorbent in the Adsorption of Pb2+ and Cd2+ from wastewater, Journal of Material and Environmental Science, 14(1): 82-96.",
-      },
-      {
-        title: "Akpabio,U. D. Umoh, E. D., and Udo, I. E.  (2013). Acute Toxicity and Anti – Diabetic Studies of the Aqueous and Alcoholic Extracts of Phyllanthus amarus in Albino Rats, Elixir organic chemistry, 65: 20116 – 20121.",
-      },
-
-      {
-        title: "Akpabio,U. D., Akpakpan, A. E., Udo, I. E. and G. C. Nwokocha (2012). Comparative Studies on the Physicochemical Properties of Two Varieties of cassava Peels Manihot utilissima Pohl, International Journal of Environment and Bioenergy, USA, 2(1): 19 – 32.",
-      },
-
-      {
-        title: "Udoidong, A. A., Etuk, B. A. and Udo, I. E. (2014). Phytochemical and Chromatographic extract of Macedonia latifelia.  Advances in Applied Science Research, 5(1): 53 – 58",
-      },
-      {
-        title: "Udo I. E., Obuzor, G. U. and Horsfall, M. Jnr. (2016). Proximate and Phytochemical Studies of Exudate of Dacryodes edulis, Research Journal of Chemical Sciences, 6(3): 1 –9.",
-      },
-      {
-        title: "Udo, I. E., Obuzor, G U. And Horsfall, M. Jnr. (2016). Physicochemical characteristic of Exudate of Dacryodes edulis, Journal of Applied Science and Environmental Management, 20(1): 209 – 213.",
-      },
-      {
-        title: "Ita, B. N. and Udo, I. E. (2018). Total Phenolics, Flavonoids and Antioxidant activity of Icacina trichnatha tuber extracts, World Journal of Applied Science and Technology, 10 (1): 27 – 32.",
-      },
-    ],
-  },
-  {
-    image: [nSimon],
-    title: "Dr.",
-    fullName: "Nzikhayel Simon",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [atimJohnson],
-    title: "Dr.",
-    fullName: "Atim Johnson",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
       },
     ],
   },
@@ -1264,7 +714,7 @@ const staffData: Lecturer[] = [
           "B.Sc. (Hons) Chemistry, University of Maiduguri, Nigeria",
         year: "2006",
       },
-           {
+      {
         title: "Principal Technologist,Department of Chemistry, University of Maiduguri",
         year: "October 2007 - May 2010",
       },
@@ -1313,17 +763,17 @@ const staffData: Lecturer[] = [
         awarder: "National Association of Akwa Ibom State  Students (NAAKISS), University of Maiduguri Chapter",
         year: "2012",
       },
-            {
+      {
         type: "Award of Honour",
         awarder: "National Association of Akwa Ibom State  Students (NAAKISS), University of Maiduguri Chapter",
         year: "2013",
       },
-            {
+      {
         type: "Federal Government Scholarship for studies in Nigerian Tertiary Institutions (Undergraduate)",
         awarder: "The Federal Government of Nigeria",
         year: "2001",
       },
-            {
+      {
         type: "",
         awarder: "Best Student award in Intermediate Diploma Course (IDC II)",
         year: "1990",
@@ -1370,9 +820,89 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [anweting],
+    image: emmanuelEssien,
     title: "Dr.",
-    fullName: "idongesit anweting",
+    fullName: "emmanuel essien",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [iniUmoren, iniUmoren2],
+    title: "Dr.",
+    fullName: "iniobong umoren",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Analytical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [atimJohnson],
+    title: "Dr.",
+    fullName: "Atim Johnson",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -1410,16 +940,16 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [enin],
+    image: [nSimon],
     title: "Dr.",
-    fullName: "godwin enin",
+    fullName: "Nzikhayel Simon",
     email: [],
     googleScholar: "",
     scopus: "",
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Organic Chemistry",
+    unit: "Inorganic Chemistry",
     officeNo: "",
 
     profile: "",
@@ -1490,9 +1020,478 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [basilIta],
+    image: shaibu,
     title: "Dr.",
-    fullName: "basil ita",
+    fullName: "solomon shaibu",
+    email: "shaibusolomon@uniuyo.edu.ng",
+    googleScholar:
+      "https://scholar.google.com/citations?user=EvhkVpYAAAAJ&hl=en&oi=ao",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=56208782400",
+    orcid: "https://orcid.org/0000-0002-5845-4238",
+    website: "",
+    linkedIn: "https://www.linkedin.com/in/solomon-s-3971b290/",
+    unit: "Environmental / Nanochemistry",
+    officeNo: "Room 30",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "2022 - present",
+      },
+
+      {
+        title: "Lecturer 1, Department of Chemistry, University of Uyo",
+        year: "2020 - 2022",
+      },
+
+      {
+        title: "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "2014 - 2020",
+      },
+      {
+        title:
+          "PhD. Chemistry (specializing in Environmental Chemistry), University of Uyo, Nigeria",
+        year: "2016 - 2021",
+      },
+
+      {
+        title: "M.Sc. Chemistry, Univeristy of Illorin, Nigeria",
+        year: "2014",
+      },
+
+      {
+        title:
+          "B.Sc. (Hons) Chemistry, University of Illorin, Nigeria",
+        year: "2010",
+      },
+    ],
+    awards: [
+      {
+        type: "Research grant",
+        awarder: "Tertiary Education Fund (TETFUND)",
+        year: "2023",
+      },
+    ],
+    researchAreas: [
+      "Nanomaterials",
+      "Nanotechnology",
+      "Nanochemistry",
+      "Material Science",
+    ],
+    researchCollaborators: [
+      {
+        title: "Africa Research and Innovation Partnership (“ARIP”) - 2023",
+        collaborator:
+          "Prof Kirk Semple Lancaster Environment Centre, Lancaster University, United Kingdom",
+      },
+    ],
+    publications: [
+      {
+        title:
+          "Offiong, N. A. O., Edet, J. B., Shaibu, S. E., Akan, N. E., Atakpa, E. O., Sanganyado, E., Okop, I. J., Benson, I. U. and Okoh, A. (2023). Metagenomics: an emerging tool for the chemistry of environmental remediation. Frontiers in Environmental Chemistry, 4 (74):1052697",
+      },
+      {
+        title:
+          "Shaibu, S., Inam, E., Moses, E., Ofon, U., Fatunla, O., Obadimu, C., Ibuotenang, N., Offiong, N.A., Ekpo, V., Adeoye, T. and Udokang, E. (2023). Prospects of nanosorption and photocatalysis in remediation of oil spills. Journal of the Nigerian Society of Physical Sciences, 5(1): 1043",
+      },
+
+      {
+        title:
+          "Moses, E. A., Akpan, D. J., and Shaibu, S. E. (2022). Risk assessment of pesticide residues in water samples from Nwaniba river, Akwa Ibom state, Nigeria. Journal of Chemical Society of Nigeria, 47(6): 1321 – 1334.",
+      },
+      {
+        title:
+          "Shaibu, S. E., Inam, E. J., Moses, E. A. (2022). Biogenic Silver Kaolinite Nanocomposite for the Sequestration of Lead and Cadmium in Simulated Produced Water. Journal of Material and Environmental Sustainability Research, 1(2): 13 – 25.",
+      },
+      {
+        title:
+          "Divine-Anthony, O., Asamudo, N. U. and Shaibu, S. E. (2022). Phytochemical and antifungal properties of Gongronema latifolium and Heinsia crinita leaf extracts against fungal pathogens associated with post-harvest rot of selected fruits. World Journal of Applied Science and Technology, 14 (2): 53-59.",
+      },
+
+      {
+        title:
+          "Moses, E. A., Akpan, D., Shaibu, S. E., & Ekpo, V. F. (2022). Risk assessment of pesticide residues in fish samples from Nwaniba River, Akwa Ibom state, Nigeria. World Journal of Applied Science and Technology, 14(2): 35-41.",
+      },
+      {
+        title:
+          "Ofon, U. A., Ndubuisi-Nnaji, U. U., Shaibu, S. E., Fatunla, O. K. and Offiong, N. A. O. (2021). Recycling anaerobic digestate enhances the co-digestion potential of agroindustrial residues: influence of different digestates as sources of microbial inoculum. Environmental Technology, 1-12.",
+      },
+      {
+        title:
+          "Fatunla, O. K, Essien, E. J., Ofon, U. O., Shaibu, S. E. and Dan, E. U. (2021). Microbial diversity of Nigerian sludge and its potential for use as biofertilizer. Biotechnology Journal International, 25(1): 14-22.",
+      },
+      {
+        title:
+          "Shaibu, S. E., Inam, E. J., Moses, E. A., Fatunla, O. K., Enin, G. A., Ofon, U. A., Effiong, N. E. and Ibuotenang, N. D. (2021). Synthesis and Structural Elucidation of Nanoscale Manganese-Bamboo Composites. World Journal of Applied Science and Technology, 13 (1): 49-55.",
+      },
+    ],
+  },
+  {
+    image: helenEtuk,
+    title: "Dr.",
+    fullName: "helen etuk",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [imaobong, imaobong2, imaobong3],
+    title: "Dr.",
+    fullName: "imaobong daniel",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: boEkom,
+    title: "Dr.",
+    fullName: "ekerete jackson",
+    email: ["ekereteboekom@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=GJ6_8fwAAAAJ",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=8701608700",
+    orcid: "https://orcid.org/0000-0002-2401-6379",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "154",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2019 - present",
+      },
+      {
+        title:
+          "Lecturer I, Department of Chemistry, University of Uyo",
+        year: "October 2016 - October 2019",
+      },
+      {
+        title:
+          "Lecturer II, Department of Chemistry, University of Uyo",
+        year: "October 2008 - October 2016",
+      },
+      {
+        title:
+          "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2005 - October 2008",
+      },
+      {
+        title:
+          "Graduate Assistant, Department of Chemistry, University of Uyo",
+        year: "January 1994 - May 2005",
+      },
+      {
+        title:
+          "Ph.D Physical Chemistry, University of Calabar, Nigeria",
+        year: "2008 - 2019",
+      },
+      {
+        title:
+          "M.Sc. Physical Chemistry, University of Calabar, Nigeria",
+        year: "1995 - 2005",
+      },
+      {
+        title:
+          "B.Sc. Pure Chemistry, University of Uyo, Nigeria",
+        year: "1988 - 1992",
+      },
+      {
+        title: "Examination Officer, Department of Chemistry, University of Uyo",
+        year: "2002 - 2008, 2014 - 2020",
+      },
+      {
+        title: "Secretary of the Department of Chemistry, Department of Chemistry, University of Uyo",
+        year: "2002 - 2008, 2014 - 2020",
+      },
+    ],
+    awards: [
+      {
+        type: "University of Uyo Honour Roll",
+        awarder: "University of Uyo",
+        year: "1990, 1991, 1992",
+      },
+      {
+        type: "Research Grant",
+        awarder: "Education Trust Fund Research Grant",
+        year: "2008",
+      },
+    ],
+    researchAreas: ["Physical Chemistry", "Corrosion Inhibitors"],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "Chimezie, P. O., BoEKOM, E. J. and Akpan, I. A. (2023) Synthesis, Characterization and Electrochemical Studies on the Corrosion Inhibition Properties of Schiff Bases foe Mild Steel in 1 M HCl Solution, Chemical Science International Journal, 32 (2): 30 - 50 (America)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2020). Kinetics, Molecular Dynamics and Adsorption behaviour of Pyridine on mild steel in 0.1 M HCl solutions, Elixir Applied Chemistry, 142: 54382-54387. (India)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. (2019). Experimental and Theoretical Approach of L-Methionine Sulphone (LMS) as corrosion inhibitor for mild steel in HCl solutions, Elixir Computational Chemistry 129: 52983-52988. (India)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2019). Effects of thiophene on acid corrosion of mild steel. World Journal of Applied Science and Technology, 11(2): 176-182. (Nigeria)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. (2018). Thermodynamics and Sorption studies of 5-phenylisoxazole on mild steel in 2 M HCl solutions. World Journal of Applied Science and Technology (special edition), 10(2): 113-117. (Nigeria)",
+      },
+      {
+        title: "BoEKOM, E. J., Essien, K. E., Akpan, I. A. and Abakedi, O. U. (2018). Electrochemical Investigation and Quantum Chemical Evaluation of 5-phenylisoxazole for mild steel in HCl. World Journal of Applied Science and Technology (special edition), 10(1): 33-37. (Nigeria)",
+      },
+      {
+        title: "Ebenso, E. E., Ekpe, U. U., Umoren, S. A Jackson, E. U., Oforka, N. C. and Abiola, O. K. (2006). Synergistic effect of halide ions on the corrosion of aluminium in acidic medium be some Polymers, Journal of Applied Polymer Science, 100 (4): 2889–2894. (USA)"
+      },
+      {
+        title: "Obot, A. S., BoEKOM, E. J., Ita, B. N. and Utam, E. C. (2022). Kinetics consideration of ethanol leave extract of Costus lucanusianus as green corrosion inhibitor for mild steel and aluminium in 1 M HCl solution, International Journal of Research - GRANTHAALAYAH, 10(1): 106 -118. (India)"
+      },
+      {
+        title: "Obot, A. S., BoEKOM, E. J., Ugi, B. U., Essien, K. E. and Jonah, N. B. (2021). Thermodynamic investigation and quantum chemical evaluation of n-hexane extracts of Costus lucanusianus as corrosion inhibitors for mild steel and aluminium in 1 M HCl solution, Journal of Applied Physical Science International, 13(3): 6-27. (USA)"
+      },
+      {
+        title: "Ituen, E., Dim C. and BoEKOM, E. J. (2021). Orange peel extract mediated silver nanofluid as corrosion inhibitor for X80 steel in simulated oilfield scale dissolver. Journal of Metallic Research, 4(1):41-45. (Singapore, China)"
+      },
+    ],
+  },
+  {
+    image: [itoroUdoh, itoroUdoh2],
+    title: "Dr.",
+    fullName: "itoro udoh",
+    email: ["itoroudo@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=3aThfCgAAAAJ",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=59119960000",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Industrial Chemistry (",
+    officeNo: "Room 30",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "2014 - Date",
+      },
+      {
+        title: "Head Industrial Chemistry Unit, Department of Chemistry",
+        year: "2020 - Date",
+      },
+      {
+        title: "Departmental Coordinator, Intellectual Property and Technology Transfer Office (IPTTO)",
+        year: "2017 - Date",
+      },
+      {
+        title: "Ph.D Chemistry (Industrial Chemistry with Thesis in Hydrolysis and saponification products of Dacryodes edulis \(African Pear)\ stem exudates as sizing and binding agents in paper industry) , University of Port Harcourt, Nigeria",
+        year: "2012 - 2017",
+      },
+      {
+        title:
+          "M.Sc. Chemistry (Analytical Chemistry with Research in physicolchemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates) , University of Calabar, Nigeria",
+        year: "2006 - 2009",
+      },
+      {
+        title: "Coordinator: Chemistry Practical for Pre-degree and Basic Studies Programmes (University of Uyo)",
+        year: "2016 - 2022",
+      },
+      {
+        title: "HND (Science laboratory Technology, Chemistry/Biochemistry, Upper Credit)",
+        year: "2007",
+      },
+
+      {
+        title: "B.Sc (Chemistry)",
+        year: "2002",
+      },
+      {
+        title: "Assistant Lecturer, Department of Applied Chemistry (Veritas University Abuja)",
+        year: "2013 -2014",
+      },
+      {
+        title: "Technologist II, Department of Applied Chemistry (Veritas University Abuja)",
+        year: "2013 - 2014",
+      },
+      {
+        title: "Vice Principal Academics and Chemistry Teacher (Rowth Christian Academy, Uyo)",
+        year: "2003 - 2009",
+      },
+      {
+        title: "Chemistry Teacher - National Youth Service Corps (Senior Science College, Faskari, Katsina State)",
+        year: "January 2002 - December 2002",
+      },
+      {
+        title:
+          "Quality Control Analyst - SIWES (Central Research laboratory, University of Uyo)",
+        year: "2000 - 2001",
+      },
+    ],
+    awards: [
+      {
+        type: "Certificate of National Service",
+        awarder: "National Youth Service Corp (NYSC)",
+        year: "2002",
+      },
+
+      {
+        type: "Best Student in Science and Mathematics",
+        awarder: "Community Secondary School Idoro",
+        year: "1994",
+      },
+    ],
+    researchAreas: ["Production of pulp from non-woody materials of agriculturalwaste", " Production of biodegradable hydrophobic paper environmentally friendly food packing material to replace the plastics coating on the surface of paper", "Determination of properties of Epoxy composites filled with coconut husk"],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "Udo, I. E., Akpbio, U. D., and Akpakpan, A. E. (2012). Physicochemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates, Archives of Applied Science Research, 4(4): 1741 – 1747. ",
+      },
+      {
+        title: "Umoren, G. P., Udo, A. O., and Udo, I. E. (2023). Suitability of Lagenaria breviflora Rind filled plaster of Paris ceilings for building design, Research Journal of Science and Technology (REJOST), 3(2): 1-14.",
+      },
+      {
+        title: "Okon, I. E., Anweting, I. B., Udo, I. E. (2023). Investigation into some Physicochemical Parameters and Heavy Metal Status in Bread from Bakeries in Zaria, Journal of Material and Environmental Science, 14(6): 711 – 719.",
+      },
+      {
+        title: "Akpakpan, A. E, Inam, E. J., and Udo, I. E. (2023). Preparation, Chracterization and Application of Soda Lignin and its Ester Derivatives as Adsorbent in the Adsorption of Pb2+ and Cd2+ from wastewater, Journal of Material and Environmental Science, 14(1): 82-96.",
+      },
+      {
+        title: "Akpabio,U. D. Umoh, E. D., and Udo, I. E.  (2013). Acute Toxicity and Anti – Diabetic Studies of the Aqueous and Alcoholic Extracts of Phyllanthus amarus in Albino Rats, Elixir organic chemistry, 65: 20116 – 20121.",
+      },
+
+      {
+        title: "Akpabio,U. D., Akpakpan, A. E., Udo, I. E. and G. C. Nwokocha (2012). Comparative Studies on the Physicochemical Properties of Two Varieties of cassava Peels Manihot utilissima Pohl, International Journal of Environment and Bioenergy, USA, 2(1): 19 – 32.",
+      },
+
+      {
+        title: "Udoidong, A. A., Etuk, B. A. and Udo, I. E. (2014). Phytochemical and Chromatographic extract of Macedonia latifelia.  Advances in Applied Science Research, 5(1): 53 – 58",
+      },
+      {
+        title: "Udo I. E., Obuzor, G. U. and Horsfall, M. Jnr. (2016). Proximate and Phytochemical Studies of Exudate of Dacryodes edulis, Research Journal of Chemical Sciences, 6(3): 1 –9.",
+      },
+      {
+        title: "Udo, I. E., Obuzor, G U. And Horsfall, M. Jnr. (2016). Physicochemical characteristic of Exudate of Dacryodes edulis, Journal of Applied Science and Environmental Management, 20(1): 209 – 213.",
+      },
+      {
+        title: "Ita, B. N. and Udo, I. E. (2018). Total Phenolics, Flavonoids and Antioxidant activity of Icacina trichnatha tuber extracts, World Journal of Applied Science and Technology, 10 (1): 27 – 32.",
+      },
+    ],
+  },
+  {
+    image: [anweting],
+    title: "Dr.",
+    fullName: "idongesit anweting",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [enin],
+    title: "Dr.",
+    fullName: "godwin enin",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -1689,7 +1688,6 @@ const staffData: Lecturer[] = [
       },
     ],
   },
-
   {
     image: [emptyImg],
     title: "Dr.",
