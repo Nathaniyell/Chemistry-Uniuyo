@@ -19,7 +19,7 @@ export default function Page({ params }: { params: { slug: string } }) {
   const filteredLecturerData = staffData.filter((staff) => staff?.fullName === lecturerFullName.replaceAll("-", " "))[0]
 
   if (
-    filteredLecturerData?.email?.length === 0 || filteredLecturerData?.fullName === " "
+    filteredLecturerData?.experience?.length === 0 || filteredLecturerData?.fullName === " "
 
     // ||   staffData.email.length === 0
   ) {
