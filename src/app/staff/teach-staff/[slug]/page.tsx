@@ -278,7 +278,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 </table>
               </div>
             </section>
-            <aside className="">
+           {researchCollaborators.length > 0 && <aside className="">
               <h4 className="capitalize font-bold text-xl text-primary ">
                 Research Collaborators
               </h4>
@@ -311,7 +311,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                   )}
                 </tbody>
               </table>
-            </aside>
+            </aside>}
             <div className="text-zinc-700">
               <h4 className="capitalize font-bold text-xl text-primary mt-6 mb-2">
                 Selected Research Papers

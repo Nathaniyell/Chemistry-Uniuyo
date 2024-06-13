@@ -1128,86 +1128,6 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: helenEtuk,
-    title: "Dr.",
-    fullName: "helen etuk",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [imaobong, imaobong2, imaobong3],
-    title: "Dr.",
-    fullName: "imaobong daniel",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Organic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
     image: boEkom,
     title: "Dr.",
     fullName: "ekerete jackson",
@@ -1448,6 +1368,87 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+  {
+    image: helenEtuk,
+    title: "Dr.",
+    fullName: "helen etuk",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [imaobong, imaobong2, imaobong3],
+    title: "Dr.",
+    fullName: "imaobong daniel",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+      {
+        title: "",
+        collaborator: "",
+      },
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+ 
   {
     image: [anweting],
     title: "Dr.",
