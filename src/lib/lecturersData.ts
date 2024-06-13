@@ -288,10 +288,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+
     ],
     publications: [
       {
@@ -328,10 +325,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
@@ -626,10 +620,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Trace Metals"],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+ 
     ],
     publications: [
       {
@@ -781,10 +772,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Human Health Risk Assessment of Heavy Metals", "Analytical Chemistry"],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+
     ],
     publications: [
       {
@@ -848,10 +836,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+     
     ],
     publications: [
       {
@@ -888,10 +873,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+  
     ],
     publications: [
       {
@@ -928,10 +910,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+     
     ],
     publications: [
       {
@@ -968,10 +947,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
@@ -1008,10 +984,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+      
     ],
     publications: [
       {
@@ -1041,7 +1014,7 @@ const staffData: Lecturer[] = [
       },
 
       {
-        title: "Lecturer 1, Department of Chemistry, University of Uyo",
+        title: "Lecturer I, Department of Chemistry, University of Uyo",
         year: "2020 - 2022",
       },
 
@@ -1080,11 +1053,6 @@ const staffData: Lecturer[] = [
       "Material Science",
     ],
     researchCollaborators: [
-      {
-        title: "Africa Research and Innovation Partnership (“ARIP”) - 2023",
-        collaborator:
-          "Prof Kirk Semple Lancaster Environment Centre, Lancaster University, United Kingdom",
-      },
     ],
     publications: [
       {
@@ -1204,10 +1172,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Physical Chemistry", "Corrosion Inhibitors"],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
@@ -1328,10 +1293,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Production of pulp from non-woody materials of agriculturalwaste", " Production of biodegradable hydrophobic paper environmentally friendly food packing material to replace the plastics coating on the surface of paper", "Determination of properties of Epoxy composites filled with coconut husk"],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
@@ -1397,10 +1359,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+     
     ],
     publications: [
       {
@@ -1437,10 +1396,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+   
     ],
     publications: [
       {
@@ -1478,10 +1434,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+   
     ],
     publications: [
       {
@@ -1518,10 +1471,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+   
     ],
     publications: [
       {
@@ -1558,10 +1508,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+  
     ],
     publications: [
       {
@@ -1598,10 +1545,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+      
     ],
     publications: [
       {
@@ -1638,10 +1582,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+   
     ],
     publications: [
       {
@@ -1678,10 +1619,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
@@ -1718,10 +1656,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-      {
-        title: "",
-        collaborator: "",
-      },
+    
     ],
     publications: [
       {
