@@ -278,7 +278,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 </table>
               </div>
             </section>
-           {researchCollaborators.length > 0 && <aside className="">
+           {researchCollaborators.length !== 0  && <aside className="">
               <h4 className="capitalize font-bold text-xl text-primary ">
                 Research Collaborators
               </h4>
