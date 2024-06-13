@@ -507,7 +507,7 @@ const staffData: Lecturer[] = [
         year: "October 2017 - present",
       },
       {
-        title: "Staff Adviser for Students̓ Chemical Society, Department of Chemistry, University of Uyo",
+        title: "Staff Adviser for Students̓ Chemical Society of Nigeria, Department of Chemistry, University of Uyo",
         year: "2015 - present",
       },
       {
