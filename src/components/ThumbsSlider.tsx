@@ -75,7 +75,7 @@ export default function ThumbsSlider({
         {images.map((src, index) => (
           <SwiperSlide
             key={index}
-            className="bg-white border max-w-fit rounded-md"
+            className="bg-white border max-w-fit rounded h-auto"
           >
             <Image
               src={src}
