@@ -21,7 +21,7 @@ import mkpenie from "@/public/images/teachingstaff/mkpenie2.jpg"
 import abakedi from "@/public/images/teachingstaff/abakedi.jpg"
 import enin from "@/public/images/teachingstaff/enin.jpg"
 import anweting from "@/public/images/teachingstaff/anweting.jpg"
-import basilIta from "@/public/images/teachingstaff/nse-ita.jpg"
+import basilIta from "@/public/images/teachingstaff/itaBasil.jpg"
 import emmadan from "@/public/images/teachingstaff/emmadan.jpg"
 import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
 import uwah from "@/public/images/teachingstaff/uwah.jpg"
@@ -68,6 +68,7 @@ export interface Lecturer {
   researchAreas: string[];
   researchCollaborators: ResearchCollaborator[];
   publications: Publication[];
+  researchProjects?: string[]
 }
 
 const staffData: Lecturer[] = [
@@ -809,16 +810,16 @@ const staffData: Lecturer[] = [
   },
   {
     image: emmanuelEssien,
-    title: "Dr.",
+    title: "Professor",
     fullName: "emmanuel essien",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
+    email: ["emmanuelessien@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?user=hnUzw5oAAAAJ&hl=en&oi=ao",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=15061102300",
+    orcid: "https://orcid.org/0000-0002-2663-6969",
     website: "",
-    linkedIn: "",
+    linkedIn: "linkedin.com/in/dr-emmanuel-essien-17389572",
     unit: "Organic Chemistry",
-    officeNo: "",
+    officeNo: "Room 154",
 
     profile: "",
     experience: [
@@ -834,9 +835,16 @@ const staffData: Lecturer[] = [
         year: "",
       },
     ],
-    researchAreas: [],
+    researchAreas: ["Structure Elucidation and Biological Activities (in vivo / in vitro) of volatile and non volatile secondary metabolites of aromatic and medicinal plants", "Synthesis and Molecular docking studies with emphasis on antidiabetic, anticancer, anti-inflammatory, antinoceiceptive antimicrobial and anti-ulcer", "Nutraceutic Potentials of Medicinal Plants in the Formulation of Beverages and Capsules"],
     researchCollaborators: [
-     
+      {
+        title: "Africa Research and Innovation Partnership (“ARIP”) - 2023",
+        collaborator:
+          "Prof Kirk Semple Lancaster Environment Centre, Lancaster University, United Kingdom",
+      },
+    ],
+    researchProjects: [
+      "Isolation and Characterization of bioactive compounds from Leaves extracts of Laisenthera africana, Heinsa crinata, Pterocarpus mildbreadii and Eremomastx polysperma", "Formulation of functional herbal beverages from Justicia secunda leaves and seeds of Telfairia occiedentals", "Volatile constituents of some under-utilized aromatic plants grown in Nigeria"
     ],
     publications: [
       {
@@ -847,8 +855,8 @@ const staffData: Lecturer[] = [
   {
     image: [iniUmoren, iniUmoren2],
     title: "Dr.",
-    fullName: "iniobong umoren",
-    email: [],
+    fullName: "ini umoren",
+    email: ["iniumoren@uniuyo.edu.ng"],
     googleScholar: "",
     scopus: "",
     orcid: "",
@@ -860,24 +868,120 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "",
-        year: "",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "January 2021 - present",
+      },
+      {
+        title:
+          "Lecturer I, Department of Chemistry, University of Uyo",
+        year: "October 2008 - December 2020",
+      },
+      {
+        title:
+          "Lecturer II, Department of Chemistry, University of Uyo",
+        year: "October 2005 - September 2008",
+      },
+      {
+        title:
+          "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "March 2002 - September 2005",
+      },
+      {
+        title:
+          "Ph.D Analytical Chemistry (Dissertation - Sorption Studies of Nitrate, Sulphate and Phosphate Ions on Selected Agricultural Soils in Akwa Ibom State, Nigeria), Michael Okpara University of Agriculture, Umudike, Nigeria",
+        year: "2016 - 2020",
+      },
+      {
+        title:
+          "M.Phil Analytical / Environmental Chemistry (Dissertation - Physicochemical Studies and Chemical Speciation in Surface Water of Two Rivers in Akwa Ibom State, Nigeria), University of Ibadan, Nigeria",
+        year: "2007 - 2014",
+      },
+      {
+        title:
+          "M.Sc. Analytical Chemistry (with Research on Metal Soil and Plant Pollution Index for Ibadan city), University of Ibadan, Nigeria ",
+        year: "2000 - 2002",
+      },
+      {
+        title:
+          "B.Sc. (Hons) Applied Chemistry, University of Uyo, Nigeria",
+        year: "1990 -1995",
+      },
+      {
+        title:
+          "Graduate Assistant, Department of Chemistry, University of Uyo",
+        year: "October 1999 - March 2002",
+      },
+      {
+        title:
+          "Graduate Assistant, Department of Chemistry, Ladoke Akintola University of Technology, Ogbomoso, Oyo State",
+        year: "December 1995 - October 1996",
+      },
+      {
+        title:
+          "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2005 - October 2008",
+      },
+      {
+        title:
+          "Graduate Assistant, Department of Chemistry, University of Uyo",
+        year: "January 1994 - May 2005",
       },
     ],
     awards: [
       {
-        type: "",
-        awarder: "",
-        year: "",
+        type: "Staff Development Award",
+        awarder: "University of Uyo ",
+        year: "2016 - 2020",
+      },
+      {
+        type: "Staff Development Award",
+        awarder: "University of Uyo ",
+        year: "2007 - 2010",
+      },
+      {
+        type: "Staff Development Award",
+        awarder: "University of Uyo ",
+        year: "2000 - 2002",
+      },
+      {
+        type: "Award of Excellence",
+        awarder: "Students’ Chemical Society of Nigeria, Uniuyo Chapter",
+        year: "2005",
+      },
+      {
+        type: "Award of Excellence for Good Leadership",
+        awarder: "Students’ Chemical Society of Nigeria, Uniuyo Chapter",
+        year: "1994",
       },
     ],
-    researchAreas: [],
+    researchAreas: ["Sorption Studies of Heavy Metal Cations", "Environmental Sustainability", "Physicochemical Studies"],
     researchCollaborators: [
   
     ],
     publications: [
       {
-        title: "",
+        title: "Umoren, I. U., Odoemelam, S. A. and Ogbuagu, M. N. (2023). Sorption studies of tetraoxophosphate (V) ions on some agricultural soils in Akwa Ibom State, Eastern Niger Delta,Nigeria. World Journal of Applied Science and Technology, 15(1): 1 – 14. https://dx.doi.org/10.4314/WOJAST.v15i1.1"
+      },
+      {
+        title: " Ebong, G. A., Etuk, H. S., Umoren, I. U. and Umanah, K. I. (2022). Effects of NPK fertilizers on trace metals loads in soil and vegetables, Bioavailability in vegetables and the related health risk using simulation techniques. World Journal of Applied Science and Technology, 14(2): 42 – 52. https://dx.doi.org/10.4314/WOJAST.v14i2.42"
+      },
+      {
+        title: "Odoemelam, S. A., Umoren, I. U. and Ogbuagu, M. N. (2020). Investigation of adsorption of tetraoxosulphate (VI) ions by some agricultural soils in Akwa Ibom State, South-South Nigeria. Communication in Physical Sciences, 5(2): 73-82"
+      },
+      {
+        title: "Udoh, A. P., Umoren, I. U. and Michael, E. P. (2020). Physicochemical properties and storage stability of the raw seed oil of Hura crepitans at room temperature. Journal of Material Environmental Science, 11(1): 157-165"
+      },
+      {
+        title: "Joseph, J. O., Umoren, I. U. and Offiong, N. O. (2016). Chemical Speciation of Some Metal Ions in Surface Water Samples of Itu River, Akwa Ibom State, Nigeria. Equatorial Journal of Chemical Sciences, 1(1): 75- 83"
+      },
+      {
+        title: "Udousoro, I. I., Umoren, I. U., Izuagie, J. M., Ikpo, C. U., Ngeri, S. F. and Shaibu, E. S. (2015). Soil. Invertebrates as Bio-monitors of Toxic Metal Pollution in Impacted Soils. Current World Environment, 10 (2): 367–385"
+      },
+      {
+        title: "Udousoro, I. I. and Umoren, I. U. (2014). Assessment of Surface and Ground water quality in Uruan in Akwa Ibom State of Nigeria. Journal of Natural Sciences Research, 4(1): 11 - 27"
+      },
+      {
+        title: "Umoren, S. A., Umoren, I. U. and Johnson, A. S. (2013). Metal soaps of Hura crepitans seed oil: Potential stabilizer for unplasticised polyvinyl chloride against thermal degradation. Journal of Chemica Acta, 2: 92-94"
       },
     ],
   },
