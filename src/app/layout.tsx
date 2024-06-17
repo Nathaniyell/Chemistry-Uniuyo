@@ -31,7 +31,10 @@ export default function RootLayout({
       <body className="scroll-smooth">
         <Providers>
           <NavBar />
+          <div className="mt-[2rem] lg:mt-[5rem]">
+
           {children}
+          </div>
           <Footer />
         </Providers>
       </body>
