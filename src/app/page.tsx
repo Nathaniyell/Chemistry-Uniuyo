@@ -53,7 +53,7 @@ export default function Home() {
           );
         })}
       </Swiper>
-      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row mt-2">
+      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-10 md:flex-row mt-2">
         <div className="md:w-1/2">
           <HomeSections
             greeting="Welcome note from"
@@ -98,8 +98,8 @@ export default function Home() {
         </aside>
       </section>
       <section className="bg-white px-4 py-14">
-        <h5 className="text-center text-primary md:w-1/2 lg:w-[32%] mx-auto border-l-secondary border-l-4 font-black text-[24px] md:text-[30px] uppercase">
-          Why study Chemistry?
+        <h5 className="text-center text-primary md:w-[55%] lg:w-[60%] mx-auto border-l-secondary border-l-4 font-black text-[24px] md:text-[30px] uppercase">
+          Why study Chemistry @ UNIUYO?
         </h5>
         <div className="my-6 md:w-5/6 mx-auto">
           <p className="text-blue-900">

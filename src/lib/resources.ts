@@ -1,6 +1,6 @@
 export const allResources = [
   {
-    heading: "Lab scenery",
+    heading: "Laboratory",
     description: "",
     images: [
       "/images/chemistry_lab/IMG_7437.JPG",
