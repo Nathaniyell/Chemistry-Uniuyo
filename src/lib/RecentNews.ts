@@ -51,23 +51,23 @@ import acs3 from "@/public/images/acs/acs4.jpg"
 import acs4 from "@/public/images/acs/acs5.jpg"
 import acs5 from "@/public/images/acs/acs6.jpg"
 import scsnTradefair from "@/public/images/scsn-tradefair/scsn00.jpg"
-import scsnTradefair2 from "@/public/images/scsn-tradefair/scsn2.jpg"
-import scsnTradefair3 from "@/public/images/scsn-tradefair/scsn3.jpg"
-import scsnTradefair4 from "@/public/images/scsn-tradefair/scsn4.jpg"
-import scsnTradefair5 from "@/public/images/scsn-tradefair/scsn5.jpg"
+import scsnTradefair2 from "@/public/images/scsn-tradefair/scsn23.jpg"
+import scsnTradefair3 from "@/public/images/scsn-tradefair/scsn18.jpg"
+import scsnTradefair4 from "@/public/images/scsn-tradefair/scsn12.jpg"
+import scsnTradefair5 from "@/public/images/scsn-tradefair/scsn8.jpg"
 import scsnTradefair6 from "@/public/images/scsn-tradefair/scsn6.jpg"
+import scsnTradefair11 from "@/public/images/scsn-tradefair/scsn11.jpg"
 import scsnTradefair7 from "@/public/images/scsn-tradefair/scsn7.jpg"
-import scsnTradefair8 from "@/public/images/scsn-tradefair/scsn8.jpg"
+import scsnTradefair8 from "@/public/images/scsn-tradefair/scsn21.jpg"
 import scsnTradefair9 from "@/public/images/scsn-tradefair/scsn9.jpg"
 import scsnTradefair10 from "@/public/images/scsn-tradefair/scsn10.jpg"
-import scsnTradefair11 from "@/public/images/scsn-tradefair/scsn11.jpg"
-import scsnTradefair12 from "@/public/images/scsn-tradefair/scsn12.jpg"
+import scsnTradefair12 from "@/public/images/scsn-tradefair/scsn3.jpg"
 import scsnTradefair13 from "@/public/images/scsn-tradefair/scsn13.jpg"
 import scsnTradefair14 from "@/public/images/scsn-tradefair/scsn14.jpg"
 import scsnTradefair15 from "@/public/images/scsn-tradefair/scsn15.jpg"
 import scsnTradefair16 from "@/public/images/scsn-tradefair/scsn16.jpg"
 import scsnTradefair17 from "@/public/images/scsn-tradefair/scsn17.jpg"
-import scsnTradefair18 from "@/public/images/scsn-tradefair/scsn18.jpg"
+import scsnTradefair18 from "@/public/images/scsn-tradefair/scsn4.jpg"
 import scsnTradefair19 from "@/public/images/scsn-tradefair/scsn19.jpg"
 import scsnTradefair20 from "@/public/images/scsn-tradefair/scsn20.jpg"
 
@@ -83,7 +83,7 @@ export interface RecentNewsTypes {
 export const RecentNews: RecentNewsTypes[] = [
   { date: "June, 2024",
     title:
-      "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair to encourage budding talents and entrepreneurs within the Department of Chemistry, Univeristy of Uyo",
+      "Students Chemical Society of Nigeria Organizes Tradefair to encourage budding talents and entrepreneurs within the Department",
     description: ["The Students' Chemical Society of Nigeria (Uniuyo Chapter) recently organized a tradefair event to support and encourage budding talents and entrepreneurs within the Department of Chemistry at the University of Uyo. The event provided a platform for students to showcase their innovative products, services, and business ideas, fostering an entrepreneurial spirit among the chemistry community.",
 
 "The tradefair featured a wide range of chemistry-related products and services, including student-led startups, research projects, and educational resources. Attendees had the opportunity to network, exchange ideas, and explore potential collaborations and business opportunities.",

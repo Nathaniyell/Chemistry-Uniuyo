@@ -24,7 +24,7 @@ export default function NotFound() {
           className="bg-blue-900 text-slate-200 hover:bg-opacity-20 hover:text-blue-900 rounded-md p-3 transition-all duration-300"
           onClick={() => router.push("/")}
         >
-          go back home
+          Go back home
         </button>
       </div>
     </main>

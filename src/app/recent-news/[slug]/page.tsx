@@ -43,7 +43,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
         )}
         <SwiperWithNavigation pictures={pictures} />
       </section>
-      <div className="mt-2 md:w-10/12 mx-auto">
+      <div className="mt-4 md:w-10/12 mx-auto">
         <p className="text-base text-gray-700 leading-loose"> {description.map((item, index) => (
         <React.Fragment key={index}>
           {item.split(/(".*?")/).map((part, partIndex) => (
