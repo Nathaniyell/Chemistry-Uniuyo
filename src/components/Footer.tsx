@@ -38,7 +38,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-blue-950 w-full py-6 md:py-8relative flex flex-col items-center gap-10 justify-center text-slate-300 text-lg capitalize px-1">
+    <footer className="bg-blue-950 w-full py-6 md:py-8 relative flex flex-col items-center gap-10 justify-center text-slate-300 text-lg capitalize px-1">
       <section className="container w-[97%] flex flex-col items-center justify-center gap-12">
         {/* aside links */}
 

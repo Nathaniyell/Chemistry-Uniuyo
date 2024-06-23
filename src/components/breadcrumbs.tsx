@@ -9,7 +9,7 @@ type BreadcrumbsProps = { root?: Crumbs; array: Crumbs[] };
 
 export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
   return (
-    <div className="w-full flex items-center gap-x-[1px] px-4 my-2 overflow-x-auto container mx-auto">
+    <div className="w-full flex items-center gap-x-[1px] px-4 my-2 overflow-x-hidden container mx-auto">
       <Link
         className="text-primary px-[1px] cursor-pointer"
         href={root ? root.href : "/"}
@@ -20,7 +20,7 @@ export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
       {array.map((a, i) => (
         <NavLink
           key={i}
-          className="text-primary px-0 flex gap-1 cursor-pointer"
+          className="text-primary px-0 flex gap-1 cursor-pointer text-ellipsis"
           href={a.href}
         >
           {a.title}

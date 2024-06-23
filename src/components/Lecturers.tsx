@@ -20,6 +20,7 @@ type LecturerSectionProps = {
   cardImgContainerStyle?: string
   cardContainerStyle?: string
   cardImgStyle?:string
+  dateStyle?:string
 };
 
 const Lecturers: React.FC<LecturerSectionProps> = ({
@@ -36,7 +37,8 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
   cardTitleStyle,
   cardImgContainerStyle,
   cardContainerStyle,
-  cardImgStyle
+  cardImgStyle,
+  dateStyle
 }) => {
 
   const bgColor = {
@@ -56,7 +58,7 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
         <Image className={clsx("size-full", cardImgStyle)} src={image} alt={name} />
       </div>
       <div className={clsx("p-3 bg-white grid place-items-stretch", cardBodyStyle)}>
-        {date && <p className="mb-2 text-neutral-600 text-sm flex items-center gap-2"><CiCalendar className="text-lg" />{date}</p>}
+        {date && <p className={clsx("mb-2 text-neutral-600 text-sm flex items-center gap-2", dateStyle)}><CiCalendar className="text-lg" />{date}</p>}
         {name !== "" && <h5 className={clsx("text-xl font-bold text-gray-900 transition-all ease-linear duration-200", cardTitleStyle)}>
           {title} {" "} {name}
         </h5>}

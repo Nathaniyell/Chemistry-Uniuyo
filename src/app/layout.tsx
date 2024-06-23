@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Footer, NavBar } from "@/components";
 import { Providers, raleway } from "@/context";
+import React from "react"
 
 import "../styles/globals.css";
 
@@ -30,12 +31,14 @@ export default function RootLayout({
     <html lang="en" className={`${raleway.variable} font-raleway antialiased`}>
       <body className="scroll-smooth">
         <Providers>
+          <React.Suspense>
           <NavBar />
-          <div className="mt-[2rem] lg:mt-[5rem]">
+          <div className="mt-[3rem] lg:mt-[5rem]">
 
           {children}
           </div>
           <Footer />
+          </React.Suspense>
         </Providers>
       </body>
     </html>

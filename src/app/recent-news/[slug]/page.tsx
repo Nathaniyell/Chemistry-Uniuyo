@@ -1,14 +1,11 @@
 "use client";
+import React from "react"
 import { RecentNews } from "@/lib";
-
 import { notFound } from "next/navigation";
-
-
 import "swiper/css";
-
 import { CiCalendar } from "react-icons/ci";
-import ThumbsSlider from "@/components/ThumbsSlider";
 import { Breadcrumbs } from "@/components";
+import SwiperWithNavigation from "@/components/SwiperWithNavigation";
 
 const newsTitles = RecentNews.map((news) => news.title);
 const Page = ({ params }: { params: { slug: string } }) => {
@@ -44,18 +41,27 @@ const Page = ({ params }: { params: { slug: string } }) => {
             {date}
           </p>
         )}
-        <ThumbsSlider images={pictures} />
+        <SwiperWithNavigation pictures={pictures} />
       </section>
       <div className="mt-2 md:w-10/12 mx-auto">
-        <p className="text-base text-gray-700">{description}</p>
+        <p className="text-base text-gray-700 leading-loose"> {description.map((item, index) => (
+        <React.Fragment key={index}>
+          {item.split(/(".*?")/).map((part, partIndex) => (
+            partIndex % 2 === 1 ? <span className="font-semibold" key={partIndex}>{part.slice(1, -1)}</span> : part
+          ))}
+          {/* <br /> */}
+         <span className="block h-[1rem]"></span>
+        </React.Fragment>
+      ))}</p>
      
       </div>
-      {/* <Breadcrumbs
+        
+      <Breadcrumbs
           root={{ title: "News", href: `/recent-news` }}
           array={[
-                { title: newsTitleFormatted.replaceAll("-", " "), href: `/recent-news/${newsTitleFormatted}` },
+                { title: `${newsTitleFormatted.split("-").slice(0,4).join(" ")}...`, href: `/recent-news/${newsTitleFormatted}` },
           ]}
-        /> */}
+        />
     </div>
   );
 };

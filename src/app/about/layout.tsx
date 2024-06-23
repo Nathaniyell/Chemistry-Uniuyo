@@ -39,6 +39,10 @@ export default function AboutLayout({
       title: "Philosophy",
       link: "/about/#philosophy",
     },
+    {
+      title: "Previous HOD's",
+      link: "/about/#previousleaders",
+    },
   ];
   return (
     <main className="min-h-screen pb-10">
@@ -53,7 +57,7 @@ export default function AboutLayout({
               <NavLink
                 key={index}
                 href={link.link}
-                className={`text-primary cursor-pointer my-3 p-2 block"
+                className={`text-primary cursor-pointer mt-3 p-2 block"
                   }`}
               >
                 {link.title}

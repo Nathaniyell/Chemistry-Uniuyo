@@ -50,17 +50,75 @@ import acs2 from "@/public/images/acs/acs31.jpg"
 import acs3 from "@/public/images/acs/acs4.jpg"
 import acs4 from "@/public/images/acs/acs5.jpg"
 import acs5 from "@/public/images/acs/acs6.jpg"
+import scsnTradefair from "@/public/images/scsn-tradefair/scsn00.jpg"
+import scsnTradefair2 from "@/public/images/scsn-tradefair/scsn2.jpg"
+import scsnTradefair3 from "@/public/images/scsn-tradefair/scsn3.jpg"
+import scsnTradefair4 from "@/public/images/scsn-tradefair/scsn4.jpg"
+import scsnTradefair5 from "@/public/images/scsn-tradefair/scsn5.jpg"
+import scsnTradefair6 from "@/public/images/scsn-tradefair/scsn6.jpg"
+import scsnTradefair7 from "@/public/images/scsn-tradefair/scsn7.jpg"
+import scsnTradefair8 from "@/public/images/scsn-tradefair/scsn8.jpg"
+import scsnTradefair9 from "@/public/images/scsn-tradefair/scsn9.jpg"
+import scsnTradefair10 from "@/public/images/scsn-tradefair/scsn10.jpg"
+import scsnTradefair11 from "@/public/images/scsn-tradefair/scsn11.jpg"
+import scsnTradefair12 from "@/public/images/scsn-tradefair/scsn12.jpg"
+import scsnTradefair13 from "@/public/images/scsn-tradefair/scsn13.jpg"
+import scsnTradefair14 from "@/public/images/scsn-tradefair/scsn14.jpg"
+import scsnTradefair15 from "@/public/images/scsn-tradefair/scsn15.jpg"
+import scsnTradefair16 from "@/public/images/scsn-tradefair/scsn16.jpg"
+import scsnTradefair17 from "@/public/images/scsn-tradefair/scsn17.jpg"
+import scsnTradefair18 from "@/public/images/scsn-tradefair/scsn18.jpg"
+import scsnTradefair19 from "@/public/images/scsn-tradefair/scsn19.jpg"
+import scsnTradefair20 from "@/public/images/scsn-tradefair/scsn20.jpg"
 
 import { StaticImageData } from "next/image";
 
 export interface RecentNewsTypes {
   title: string;
-  description: string[] | string;
+  description: string[];
   pictures: StaticImageData[];
   date: string
 }
 
 export const RecentNews: RecentNewsTypes[] = [
+  { date: "June, 2024",
+    title:
+      "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair to encourage budding talents and entrepreneurs within the Department of Chemistry, Univeristy of Uyo",
+    description: ["The Students' Chemical Society of Nigeria (Uniuyo Chapter) recently organized a tradefair event to support and encourage budding talents and entrepreneurs within the Department of Chemistry at the University of Uyo. The event provided a platform for students to showcase their innovative products, services, and business ideas, fostering an entrepreneurial spirit among the chemistry community.",
+
+"The tradefair featured a wide range of chemistry-related products and services, including student-led startups, research projects, and educational resources. Attendees had the opportunity to network, exchange ideas, and explore potential collaborations and business opportunities.",
+
+"The event aimed to inspire and empower chemistry students to transform their knowledge and skills into viable entrepreneurial ventures, ultimately contributing to the growth and development of the local business ecosystem. The tradefair showcased the creativity, problem-solving abilities, and entrepreneurial mindset of the chemistry students at the University of Uyo."    ],
+    pictures: [scsnTradefair, scsnTradefair3, scsnTradefair2, scsnTradefair4, scsnTradefair5, scsnTradefair6, scsnTradefair7,scsnTradefair8,scsnTradefair9,scsnTradefair10, scsnTradefair12, scsnTradefair11, scsnTradefair13, scsnTradefair14, scsnTradefair15, scsnTradefair16, scsnTradefair17, scsnTradefair18, scsnTradefair19, scsnTradefair20],
+  },
+  { date: "May, 2024",
+    title:
+      "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
+    description:
+      ["Miss Blessing, a student in the Department of Chemistry at the University, has been awarded the prestigious ACS Nigeria Volunteer of the Year award.", 
+
+      "The award, presented by the Nigerian chapter of the American Chemical Society (ACS), recognizes outstanding volunteer service and contributions to the chemical sciences community.",
+      
+      "Miss Blessing, known for her dedication and tireless efforts, has been an active member of the ACS student chapter on campus. She has organized numerous outreach programs, science workshops for underprivileged children, and fundraising drives to support research and education initiatives.",
+      
+      '"We are immensely proud of Miss Blessing`s achievement, her passion for service and commitment to promoting chemistry in the community is truly inspiring. This award is a well-deserved recognition of her exceptional contributions", said Professor Edu Inam, the Head of the Department of Chemistry. ',
+      
+      "The ACS Nigeria Volunteer of the Year award is highly competitive, with nominees from universities and research institutions across the country. Miss Blessing's selection underscores the University's reputation for producing talented and socially conscious graduates.",
+      
+      '"I am honored and humbled to receive this award, this is a testament to the support and guidance I have received from my professors and the entire University community. I will continue to use my skills and knowledge to make a positive impact on society", said Miss Blessing.',
+      
+
+      ],
+    pictures: [
+      acs3,
+      acs2,
+      acs3,
+      acs4,
+      acs5,
+      acs1,
+      
+    ],
+  },
   { date: "Februaury, 2024",
     title:
       "The Department of Chemistry Bids Farewell to her Renowned Professors",
@@ -69,8 +127,8 @@ export const RecentNews: RecentNewsTypes[] = [
       "Professor Udoh, Professor Asuquo, and Professor Ukana Akpabio have been pillars of the department chemistry, rising through the ranks with their exceptional teaching, groundbreaking research, and steadfast mentorship. The three scholars joined the university as young, ambitious lecturers, driven by a deep passion for the field of chemistry and a fervent desire to shape the next generation of scientists.",
       "Throughout their illustrious careers, Professor Udoh, Professor Asuquo, and Professor Ukana Akpabio have left an indelible mark on the department and the wider academic community. Their contributions to research have expanded the frontiers of knowledge, with numerous publications in prestigious journals and collaborations with esteemed institutions around the world.",
       "But it is their unwavering commitment to student development that has truly set them apart. Countless students have benefited from their guidance, mentorship, and unwavering support, many of whom have gone on to become successful researchers and professionals in their own right. The professors' dedication to nurturing young minds and fostering a love for chemistry is a testament to their profound impact on the field.",
-      "'Professor Udoh, Professor Asuquo, and Professor Akpabio have been more than just educators to us; they have been role models, inspirations, and close confidants,' expressed Dr. Idongesit Anweting, a former student and now a staff member in the department.",
-      "'Professor Udoh, Professor Asuquo, and Professor Akpabio's passion for chemistry and their genuine care for their students have left an indelible mark on our lives,' expressed Dayemi Archibong, a student in the Department of Chemistry and the President of the Students Union Government.",
+      '"Professor Udoh, Professor Asuquo, and Professor Akpabio have been more than just educators to us; they have been role models, inspirations, and close confidants", expressed Dr. Idongesit Anweting, a former student and now a staff member in the department.',
+      '"Professor Udoh, Professor Asuquo, and Professor Akpabio`s passion for chemistry and their genuine care for their students have left an indelible mark on our lives," expressed Dayemi Archibong, a student in the Department of Chemistry and the President of the Students Union Government.',
       "As Professor Udoh, Professor Asuquo, and Professor Akpabio bid farewell to the university, they leave behind a remarkable legacy of excellence, innovation, and a deep commitment to the advancement of chemistry. The department of Chemistry extends its heartfelt gratitude for their decades of dedicated service and wishes them a well-deserved retirement filled with new adventures and continued intellectual pursuits.",
     ],
     pictures: [sendforth1, profAP, profJames, profUdosen, sendforth, sendForth3, sendforth2, sendforth11, sendforth3, sendforth4, sendForth, sendForth4, sendForth6, sendForth5, sendForth7, sendForth8, sendForth9, sendForth10, sendForth11, sendForth12, sendForth13, sendForth3],
@@ -105,7 +163,7 @@ export const RecentNews: RecentNewsTypes[] = [
     description:
       ["In a historic victory, Dayemi Archibong, a student from the Department of Chemistry, has been elected as the new President of the Student's Union at University of Uyo. This marks the first time that a student from the Faculty of Science, specifically the Department of Chemistry, has secured this prestigious leadership position.",
       "Dayemi, a highly motivated and accomplished student, campaigned on a platform of inclusivity, academic excellence, and enhancing the overall student experience. His win has been celebrated across the university, as it signifies the growing recognition and representation of science students in the Student's Union.",
-        "'I am honored and humbled to have been elected as the Student's Union President,' said Dayemi. 'My goal is to be a strong advocate for all students, ensuring that their voices are heard and their needs are met. I am particularly excited to work towards improving resources and support for students in the sciences, as we play a crucial role in shaping the future of our University.'",
+       ' "I am honored and humbled to have been elected as the Student`s Union President, My goal is to be a strong advocate for all students, ensuring that their voices are heard and their needs are met. I am particularly excited to work towards improving resources and support for students in the sciences, as we play a crucial role in shaping the future of our University", expressed Dayemi',
         "Professor Edu Inam, the head of the Department of Chemistry, and Professor Joseph Essien, the Dean of the Faculty of Science, congratulated Dayemi on his victory. They expressed their pride in having the top student in the university community in their department and faculty.",
         "The election results have been widely praised by students, staff of the department of chemistry, who believe that Dayemi's leadership will bring a fresh perspective and a renewed focus on the needs of science students. The university community looks forward to the positive changes and initiatives that Dayemi will spearhead during their term as the Student's Union President."
 
@@ -119,33 +177,4 @@ export const RecentNews: RecentNewsTypes[] = [
       sug4
     ],
   },
-  { date: "May, 2024",
-    title:
-      "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
-    description:
-      ["Miss Blessing, a student in the Department of Chemistry at the University, has been awarded the prestigious ACS Nigeria Volunteer of the Year award.", 
-
-      "The award, presented by the Nigerian chapter of the American Chemical Society (ACS), recognizes outstanding volunteer service and contributions to the chemical sciences community.",
-      
-      "Miss Blessing, known for her dedication and tireless efforts, has been an active member of the ACS student chapter on campus. She has organized numerous outreach programs, science workshops for underprivileged children, and fundraising drives to support research and education initiatives.",
-      
-      "'We are immensely proud of Miss Blessing's achievement,' said Professor Edu Inam, the Head of the Department of Chemistry. 'Her passion for service and commitment to promoting chemistry in the community is truly inspiring. This award is a well-deserved recognition of her exceptional contributions.'",
-      
-      "The ACS Nigeria Volunteer of the Year award is highly competitive, with nominees from universities and research institutions across the country. Miss Blessing's selection underscores the University's reputation for producing talented and socially conscious graduates.",
-      
-      "'I am honored and humbled to receive this award,' said Miss Blessing. 'This is a testament to the support and guidance I have received from my professors and the entire University community. I will continue to use my skills and knowledge to make a positive impact on society.'",
-      
-
-      ],
-    pictures: [
-      acs3,
-      acs2,
-      acs3,
-      acs4,
-      acs5,
-      acs1,
-      
-    ],
-  },
-
 ]

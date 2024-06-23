@@ -1,6 +1,7 @@
 import cecilia1 from "@/public/images/chemistry_lab/cecilia1.jpg"
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
 import classO18 from "../../public/images/Graduation/class018.jpg";
+import scsnTradefair from "@/public/images/scsn-tradefair/scsn00.jpg"
 
 import student1 from "../../public/images/CHMs1.webp";
 import student2 from "../../public/images/CHMs2.webp";
@@ -51,6 +52,13 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: sendforth1,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair to encourage budding talents and entrepreneurs within the Department of Chemistry, Univeristy of Uyo",
+    description: "",
+
+    image: scsnTradefair,
     btnLink: "/recent-news",
   },
   {

@@ -10,10 +10,10 @@ const page = () => {
              { title: "News", href: `/recent-news` },
         ]}
       />
-          <div className="md:w-4/5 lg:w-[90%] gap-20 mx-auto pb-10 grid lg:grid-cols-3 items-stretch">
+          <div className="md:w-4/5 lg:w-[90%] mx-auto pb-10 grid lg:grid-cols-3 gap-4 md:gap-x-20 items-stretch">
         {RecentNews.map(({ title, pictures, date, description }, index) => {
           return (
-            <div key={index} className="mb-14 md:mb-10 h-full">
+            <div key={index} className="md:mb-10 h-full">
               {/* <h4 className="my-4 text-2xl font-semibold text-blue-950">
                 {title}
               </h4> */}
@@ -22,7 +22,7 @@ const page = () => {
                 image={pictures[0]}
                 href={`/recent-news/${title.replaceAll(" ", "-")}`}
                 date={date}
-                other={`${description[0]}`}
+                dateStyle="text-primary"
                 cardBodyStyle="shadow p-4 bg-slate-100"
                 readMore
                 readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Autoplay, Pagination, EffectFade } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -28,14 +28,15 @@ export default function Home() {
         centeredSlides
         loop
         autoplay={{
-          delay: 5000,
+          delay: 3000,
           pauseOnMouseEnter: true,
           disableOnInteraction: true,
         }}
+        navigation={true}
         // pagination={{
         //   clickable: true,
         // }}
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="w-full h-full"
       >
         {homeData.map((item) => {
