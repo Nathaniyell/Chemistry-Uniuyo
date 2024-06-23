@@ -37,7 +37,7 @@ const HomepageSlider = ({
 }: sliderProps) => {
   return (
     <div className={`relative h-[70vh] w-full md:h-full`}>
-      <Image priority={true} src={bgImage} alt={title} className="object-center filter brightness-50" />
+      <Image priority={true} src={bgImage} alt={title} className="object-cover md:object-center filter brightness-50" />
 
       {title && (
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
