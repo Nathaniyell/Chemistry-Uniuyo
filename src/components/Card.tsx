@@ -14,7 +14,6 @@ import {
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import clsx from "clsx";
-import Link from "next/link";
 
 type CardProps = {
   type?: string;

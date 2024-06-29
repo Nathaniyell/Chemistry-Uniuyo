@@ -1,10 +1,10 @@
 export const publications = [
   {
     title:
-      "Effect of consumption of goat dehaired with scrap tyre fire on some hematological indices of albino wistar rats",
+      "CHEMICAL COMPOSITION AND BIOLOGICAL ACTIVITIES OF Uvaria chamae SEED OIL",
     unit: "physical",
-    author: "Clever Solomon Akanimoh",
-    published_at: "13-11-2023",
+    author: "Oduduatta Essien EKANEM",
+    published_at: "JUNE 2023",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab necessitatibus officiis et labore sapiente voluptatum deserunt! Magni atque minima quis itaque maxime quos soluta earum, quae optio quas ad.",
     href: undefined,
   },
