@@ -51,9 +51,9 @@ export default function Section({
     >
       {isMainPage && (
         <div className="w-full flex flex-col gap-3 md:gap-5 border-b border-blue-50 p-2 my-4">
-          <h1 className="text-4xl text-blue-950 capitalize font-bold">
+          {/* <h1 className="text-4xl text-blue-950 capitalize font-bold">
             {type + "s"}
-          </h1>
+          </h1> */}
 
           <div className="w-full flex flex-col-reverse md:flex-row justify-between gap-4 my-4">
             {filterButtonArray && <FilterButton array={filterButtonArray} />}
