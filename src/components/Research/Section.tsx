@@ -68,7 +68,7 @@ export default function Section({
           <p className="text-sm text-center mb-3">
             showing {filterArray.length} search{" "}
             {filterArray.length < 2 ? "result" : "results"} out of{" "}
-            {cardsArray.length} {type}s
+            {cardsArray.length} research work
           </p>
         ) : null}
 
@@ -77,13 +77,13 @@ export default function Section({
         </aside>
       </aside>
 
-      {isPaginated && (
+      {isPaginated && filterArray.length > 0 ? (
         <Pagination
           totalPosts={filterArray.length}
           postPerPage={postsPerPage}
           currentPage={currentPage}
         />
-      )}
+      ) : null}
     </section>
   );
 }
