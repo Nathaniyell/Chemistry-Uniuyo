@@ -145,6 +145,7 @@ export default function Card({
 
             <a
               href={href ?? ""}
+              target="__blank"
               download
               className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-6 text-sm active:scale-105 transition-all duration-300"
             >
