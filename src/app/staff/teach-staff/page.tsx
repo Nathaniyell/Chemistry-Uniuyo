@@ -7,6 +7,7 @@ import HomepageSlider from "../../../components/HomepageSlider";
 import LabStaff from "../../../../public/images/staffLab.jpg";
 import GroupStaff from "../../../../public/images/chemistry_lab/group-staff.jpg";
 import { Breadcrumbs, Header } from "@/components";
+import FramerAnimation from "@/utils/framer-animation";
 
 export default function TeachingStaffPage() {
   const router = useRouter();
@@ -63,7 +64,7 @@ export default function TeachingStaffPage() {
                   bgColor = "bg-sky-600";
               }
               return (
-                <div
+                <FramerAnimation
                   onClick={() => handleStaffClick(fullName)}
                   key={index}
                   className="bg-white w-11/12 mx-auto md:w-full lg:w-[82%] rounded shadow hover:shadow-lg hover:bg-sky-200 cursor-pointer transition-all duration-200"
@@ -97,7 +98,7 @@ export default function TeachingStaffPage() {
                       {unit}
                     </p>
                   </div>
-                </div>
+                </FramerAnimation>
               );
             }
           )}
