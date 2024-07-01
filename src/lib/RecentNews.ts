@@ -70,6 +70,11 @@ import scsnTradefair17 from "@/public/images/scsn-tradefair/scsn17.jpg"
 import scsnTradefair18 from "@/public/images/scsn-tradefair/scsn4.jpg"
 import scsnTradefair19 from "@/public/images/scsn-tradefair/scsn19.jpg"
 import scsnTradefair20 from "@/public/images/scsn-tradefair/scsn20.jpg"
+import phd from "@/public/images/phd_student.jpg"
+import phd1 from "@/public/images/phd1.jpg"
+import phd2 from "@/public/images/phd2.jpg"
+import phd3 from "@/public/images/phd3.jpg"
+import phd4 from "@/public/images/phd4.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -81,6 +86,12 @@ export interface RecentNewsTypes {
 }
 
 export const RecentNews: RecentNewsTypes[] = [
+  {
+    date: "June, 2024",
+    title: "Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
+    description: ["Patricia Aniekan Ekpo, a PhD candidate in Inorganic Chemistry, faced her oral examination today. The examination, which took place at the PG School Conference Room, marks a crucial step in her journey towards earning her doctoral degree", "Ekpo, whose academic journey has been marked by rigorous research and dedication, presented her findings and defended her thesis before a panel of esteemed academics. Her work, supervised by Dr. Atim Johnson and Dr. Ekemini Ituen, is expected to make notable contributions to the field of Inorganic Chemistry.",],
+    pictures: [phd, phd1, phd2, phd3, phd4]
+  },
   { date: "June, 2024",
     title:
       "Students Chemical Society of Nigeria Organizes Tradefair to encourage budding talents and entrepreneurs within the Department",

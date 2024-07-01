@@ -3,7 +3,6 @@ import ResourceImage from "@/components/resources/ResourceImage";
 import { allResources } from "@/lib";
 import { Metadata } from "next";
 
-import HeaderImage from "@/public/images/chemistry_lab/cecilia0.jpg";
 
 export const metadata: Metadata = {
   title: "Departmental Resources",
@@ -12,12 +11,12 @@ export const metadata: Metadata = {
 
 export default function ResourcePage() {
   return (
-    <main className="flex min-h-screen flex-col bg-slate-100">
+    <main className="flex min-h-screen flex-col bg-slate-100 mt-5">
       <section>
-        <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
+
 
         <Header
-          headerBg={HeaderImage}
+
           heading="Departmental Resources"
           tagline="The Department of Chemistry is committed to providing a wealth of
             resources to support the academic and professional growth of our
@@ -28,6 +27,7 @@ export default function ResourcePage() {
             cutting-edge research, innovative teaching, and collaborative
             projects."
         />
+        <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
       </section>
 
       <section className="xl:max-w-screen-2xl w-full mx-auto py-16">
