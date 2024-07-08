@@ -57,7 +57,7 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair to encourage budding talents and entrepreneurs within the Department of Chemistry, Univeristy of Uyo",
+    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair",
     description: "",
 
     image: scsnTradefair,
