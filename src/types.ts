@@ -19,7 +19,7 @@ export type CardsArrayType = {
 };
 
 export type SemesterType = {
-  semester: "first" | "second";
+  semester: "first" | "second" | "third";
   semesterCourseArray: SemesterCourseArrayType[];
 };
 
@@ -51,6 +51,14 @@ export type CourseByLevelProps = {
     desc: string;
   }[];
   secondSemesterArray: {
+    code: string;
+    title: string;
+    prerequisite: string;
+    semester: string;
+    credit_hrs: number;
+    desc: string;
+  }[];
+  thirdSemesterArray?: {
     code: string;
     title: string;
     prerequisite: string;

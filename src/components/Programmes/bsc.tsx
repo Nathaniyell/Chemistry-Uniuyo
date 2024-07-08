@@ -1,10 +1,6 @@
 import React from "react";
-import { Courses, OurStudent } from ".";
-import {
-  AcademicCapIcon,
-  ClockIcon,
-  UserGroupIcon,
-} from "@heroicons/react/16/solid";
+import { OurStudent } from ".";
+import { ClockIcon, UserGroupIcon } from "@heroicons/react/16/solid";
 import { studentsData } from "@/lib";
 
 export default function UndergraduateBsc() {

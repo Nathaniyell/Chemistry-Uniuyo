@@ -1,8 +1,13 @@
 import React from "react";
 import { OurStudent } from ".";
-import { DocumentIcon, ListBulletIcon } from "@heroicons/react/16/solid";
+import {
+  ClockIcon,
+  DocumentIcon,
+  ListBulletIcon,
+} from "@heroicons/react/16/solid";
 import { SiMinds } from "react-icons/si";
 import { PiGraduationCapBold } from "react-icons/pi";
+import { GiPaper } from "react-icons/gi";
 
 export default function PostgraduatePhd() {
   return (
@@ -32,10 +37,20 @@ export default function PostgraduatePhd() {
       />
 
       <OurStudent
-        Icon={PiGraduationCapBold}
+        Icon={GiPaper}
         heading="THESIS"
-        duration="The student shall undertake a - 12 credit hours project, and the thesis resulting from the project shall be examined by a panel of internal and external examiners. Each student shall be free to choose his/her area
-of specialization in consultation with his/her supervisor(s) and departmental graduate committee."
+        duration="The student shall undertake a - 12 credit hours project, and the thesis resulting from the project shall be examined by a panel of internal and external examiners. Each student shall be free to choose his/her area of specialization in consultation with his/her supervisor(s) and departmental graduate committee."
+      />
+
+      <OurStudent
+        Icon={ClockIcon}
+        heading="DURATION OF PROGRAMME (Ph.D)"
+        duration="The Ph.D. programme shall last for a minimum of six (6) semesters and a maximum of 8 semesters on full time."
+      />
+      <OurStudent
+        Icon={ClockIcon}
+        heading="AREAS OF SPECIALIZATION (Ph.D)"
+        duration="The following areas of specialization are available: Analytical Chemistry, Environmental Chemistry, Industrial Chemistry, Inorganic Chemistry, Organic Chemistry, Physical Chemistry and Polymer Chemistry"
       />
     </>
   );

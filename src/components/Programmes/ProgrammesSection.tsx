@@ -2,18 +2,9 @@
 
 import React, { useState } from "react";
 import { Button, Section } from "..";
-import { Courses, OurStudent } from ".";
-import {
-  AcademicCapIcon,
-  ClockIcon,
-  DocumentIcon,
-  UserGroupIcon,
-} from "@heroicons/react/16/solid";
-import { studentsData } from "@/lib";
-import { ListBulletIcon } from "@heroicons/react/24/outline";
-import { SiMinds } from "react-icons/si";
+import { Courses } from ".";
+import { AcademicCapIcon } from "@heroicons/react/16/solid";
 import clsx from "clsx";
-import { MdAdminPanelSettings } from "react-icons/md";
 import PostgraduatePhd from "./phd";
 import PostgraduateMsc from "./msc";
 import UndergraduateBsc from "./bsc";
@@ -64,6 +55,15 @@ export default function ProgrammesSection({
           Icon={AcademicCapIcon}
           heading={`${programme} courses`}
           type={programme}
+        />
+      )}
+      {programme === "postgraduate" && (
+        <Courses
+          Icon={AcademicCapIcon}
+          heading={`${
+            programmeType === "phd" ? "Ph.D" : "M.Sc"
+          } ${programme} courses`}
+          type={programmeType}
         />
       )}
     </Section>
