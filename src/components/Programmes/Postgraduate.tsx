@@ -7,11 +7,12 @@ import clsx from "clsx";
 import { Button } from "../HTMLTags";
 import { postgraduateDetails } from "@/lib/postgraduate";
 import { OurStudent } from ".";
+import { motion } from "framer-motion";
 
 export default function Postgraduate() {
   const [programmeType, setProgrammeType] = useState("msc");
   return (
-    <>
+    <motion.section className="w-full h-full flex flex-col gap-4 gap-y-8">
       <header className="w-full flex items-center gap-2">
         <Button
           className={clsx({
@@ -55,6 +56,6 @@ export default function Postgraduate() {
         } Postgraduate Courses`}
         type={programmeType}
       />
-    </>
+    </motion.section>
   );
 }

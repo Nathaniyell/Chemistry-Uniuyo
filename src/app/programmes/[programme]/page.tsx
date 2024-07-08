@@ -25,20 +25,17 @@ export default function ProgrammesPage({
 
   return (
     <Main>
-      <Header heading={`${programme} Programme`} />
       <Breadcrumbs
         array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
       />
 
-      
+      <Header heading={`${programme} Programme`} />
 
-      <Section>
-        <div className="w-full h-full flex flex-col gap-4 gap-y-8 mx-auto max-w-screen-lg">
-          {programme === "undergraduate" && <Undergraduate />}
+      <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg">
+        {programme === "undergraduate" && <Undergraduate />}
 
-          {programme === "postgraduate" && <Postgraduate />}
-        </div>
-      </Section>
+        {programme === "postgraduate" && <Postgraduate />}
+      </section>
     </Main>
   );
 }
