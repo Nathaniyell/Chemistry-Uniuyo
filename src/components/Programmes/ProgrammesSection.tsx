@@ -27,20 +27,26 @@ export default function ProgrammesSection({
 
   return (
     <Section>
-      <div className="w-full flex items-center gap-2">
-        <Button
-          className={clsx({ "bg-primary text-white": programmeType === "msc" })}
-          onClick={() => setProgrammeType("msc")}
-        >
-          M.Sc
-        </Button>
-        <Button
-          className={clsx({ "bg-primary text-white": programmeType === "phd" })}
-          onClick={() => setProgrammeType("phd")}
-        >
-          Ph.D
-        </Button>
-      </div>
+      {programme === "postgraduate" && (
+        <div className="w-full flex items-center gap-2">
+          <Button
+            className={clsx({
+              "bg-primary text-white": programmeType === "msc",
+            })}
+            onClick={() => setProgrammeType("msc")}
+          >
+            M.Sc
+          </Button>
+          <Button
+            className={clsx({
+              "bg-primary text-white": programmeType === "phd",
+            })}
+            onClick={() => setProgrammeType("phd")}
+          >
+            Ph.D
+          </Button>
+        </div>
+      )}
       <div className="w-full h-full grid lg:grid-cols-2 gap-4 gap-y-8">
         {programme === "undergraduate" && <UndergraduateBsc />}
 
@@ -52,6 +58,14 @@ export default function ProgrammesSection({
           <PostgraduateMsc />
         )}
       </div>
+
+      {programme === "undergraduate" && (
+        <Courses
+          Icon={AcademicCapIcon}
+          heading={`${programme} courses`}
+          type={programme}
+        />
+      )}
     </Section>
   );
 }
