@@ -27,7 +27,7 @@ export default function PostgraduatePhd() {
 
       <OurStudent
         Icon={PiGraduationCapBold}
-        heading="GRADUATION REQUIREMENTS"
+        heading="GRADUATION REQUIREMENTS (Ph.D)"
         duration="The Ph.D students shall register for and pass at B level all the courses including 12 credit hours of thesis. In addition to course work, each student shall be required to present two seminars, one of which shall be based on the research project and shall submit a thesis which shall be examined by a panel of internal and external examiners. To qualify to register for thesis, a student shall sit for a comprehensive examination comprising three papers, one of which will be a general paper and the other two in the area of specialization."
       />
 
