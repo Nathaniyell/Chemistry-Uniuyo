@@ -297,6 +297,44 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+ 
+  {
+    image: [emptyImg],
+    title: "Professor",
+    fullName: "bassey antia",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+    
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
   {
     image: [basilIta],
     title: "Professor",
