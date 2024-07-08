@@ -98,7 +98,7 @@ export default function Home() {
         <h5 className="text-center text-primary md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
           Why Study Chemistry at the University of Uyo?
         </h5>
-        <div className="my-6 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-4">
+        <div className="my-6 w-11/12 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-4">
           <details>
             <summary className="text-lg font-[500]">Experienced Staff</summary>
             <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
@@ -144,7 +144,7 @@ export default function Home() {
       <hr />
       <section className="w-11/12 mx-auto p-4 md:p-6 pb-14 ">
         <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto uppercase font-black text-[24px] md:text-[30px]">
-          Meet our Staff
+          Our Staff
         </h5>
         <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6 mt-10">
           {homeStaffData.map((staff) => {
