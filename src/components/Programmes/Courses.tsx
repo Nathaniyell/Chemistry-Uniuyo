@@ -35,9 +35,13 @@ import {
 } from "@/lib/phd";
 import {
   analyticalMscCourseOne,
+  analyticalMscCourseTwo,
   environmentalMscCourseOne,
+  environmentalMscCourseTwo,
   industrialMscCourseOne,
+  industrialMscCourseTwo,
   inorganicMscCourseTwo,
+  mscCourseThreeToSix,
   organicMscCourseOne,
   organicMscCourseTwo,
   physicalMscCourseOne,
@@ -77,9 +81,19 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
             : level100courses
         }
         secondSemesterArray={
-          type === "phd" ? analyticalPhdCourseTwo : level100coursesSecond
+          type === "phd"
+            ? analyticalPhdCourseTwo
+            : type === "msc"
+            ? analyticalMscCourseTwo
+            : level100coursesSecond
         }
-        thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
@@ -98,9 +112,19 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
             : level200courses
         }
         secondSemesterArray={
-          type === "phd" ? environmentalPhdCourseTwo : level200coursesSecond
+          type === "phd"
+            ? environmentalPhdCourseTwo
+            : type === "msc"
+            ? environmentalMscCourseTwo
+            : level200coursesSecond
         }
-        thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
@@ -119,14 +143,23 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
             : level300courses
         }
         secondSemesterArray={
-          type === "phd" ? industrialPhdCourseTwo : level300coursesSecond
+          type === "phd"
+            ? industrialPhdCourseTwo
+            : type === "msc"
+            ? industrialMscCourseTwo
+            : level300coursesSecond
         }
         thirdSemesterArray={
-          type === "phd" || type === "msc" ? phdCourseThreeToSix : undefined
+          type === "phd" || type === "msc"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
         }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
+
       <CourseByLevel
         level={
           type === "phd" || type === "msc" ? "Inorganic Chemistry" : "400 level"
@@ -139,12 +172,23 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
             : level400courses
         }
         secondSemesterArray={
-          type === "phd" ? inorganicPhdCourseTwo : level400coursesSecond
+          type === "phd"
+            ? inorganicPhdCourseTwo
+            : type === "msc"
+            ? inorganicMscCourseTwo
+            : level400coursesSecond
         }
-        thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
+
       {(type === "phd" || type === "msc") && (
         <CourseByLevel
           level={"Organic Chemistry"}
@@ -156,9 +200,15 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
               ? organicPhdCourseTwo
               : type === "msc"
               ? organicMscCourseTwo
-              : level400coursesSecond
+              : []
           }
-          thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
           currentCourseByLevel={currentCourseByLevel}
           setCurrentCourseByLevel={setCurrentCourseByLevel}
         />
@@ -175,9 +225,15 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
               ? physicalPhdCourseTwo
               : type === "msc"
               ? physicalMscCourseTwo
-              : level400coursesSecond
+              : []
           }
-          thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
           currentCourseByLevel={currentCourseByLevel}
           setCurrentCourseByLevel={setCurrentCourseByLevel}
         />
@@ -194,9 +250,15 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
               ? polymerPhdCourseTwo
               : type === "msc"
               ? polymerMscCourseTwo
-              : level400coursesSecond
+              : []
           }
-          thirdSemesterArray={type === "phd" ? phdCourseThreeToSix : undefined}
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
           currentCourseByLevel={currentCourseByLevel}
           setCurrentCourseByLevel={setCurrentCourseByLevel}
         />

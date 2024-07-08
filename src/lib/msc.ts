@@ -4,7 +4,7 @@ export const mscCourseThreeToSix = [
     title: "Seminar",
     credit_hrs: 3,
     prerequisite: "",
-    semester: "three",
+    semester: "third",
     desc: "",
   },
   {
@@ -12,7 +12,7 @@ export const mscCourseThreeToSix = [
     title: "Dissertation",
     credit_hrs: 6,
     prerequisite: "",
-    semester: "three",
+    semester: "third",
     desc: "",
   },
 ];
