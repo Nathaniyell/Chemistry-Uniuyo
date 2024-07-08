@@ -2,8 +2,10 @@ import {
   ListBulletIcon,
   DocumentIcon,
   ClockIcon,
+  BookOpenIcon,
 } from "@heroicons/react/16/solid";
 import { GiPaper } from "react-icons/gi";
+import { MdScience } from "react-icons/md";
 import { PiGraduationCapBold } from "react-icons/pi";
 import { SiMinds } from "react-icons/si";
 
@@ -33,7 +35,7 @@ export const postgraduateDetails = [
       "The Ph.D students shall register for and pass at B level all the courses including 12 credit hours of thesis. In addition to course work, each student shall be required to present two seminars, one of which shall be based on the research project and shall submit a thesis which shall be examined by a panel of internal and external examiners. To qualify to register for thesis, a student shall sit for a comprehensive examination comprising three papers, one of which will be a general paper and the other two in the area of specialization.",
   },
   {
-    icon: GiPaper,
+    icon: BookOpenIcon,
     heading: "THESIS",
     description:
       "The student shall undertake a - 12 credit hours project, and the thesis resulting from the project shall be examined by a panel of internal and external examiners. Each student shall be free to choose his/her area of specialization in consultation with his/her supervisor(s) and departmental graduate committee.",
@@ -45,7 +47,7 @@ export const postgraduateDetails = [
       "The Ph.D. programme shall last for a minimum of six (6) semesters and a maximum of 8 semesters on full time.",
   },
   {
-    icon: ClockIcon,
+    icon: MdScience,
     heading: "AREAS OF SPECIALIZATION",
     description:
       "The following areas of specialization are available: Analytical Chemistry, Environmental Chemistry, Industrial Chemistry, Inorganic Chemistry, Organic Chemistry, Physical Chemistry and Polymer Chemistry",

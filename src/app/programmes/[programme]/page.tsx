@@ -31,7 +31,7 @@ export default function ProgrammesPage({
 
       <Header heading={`${programme} Programme`} />
 
-      <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg">
+      <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg mb-14">
         {programme === "undergraduate" && <Undergraduate />}
 
         {programme === "postgraduate" && <Postgraduate />}

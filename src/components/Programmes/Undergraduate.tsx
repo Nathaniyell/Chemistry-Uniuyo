@@ -11,13 +11,7 @@ import { studentsData } from "@/lib";
 
 export default function Undergraduate() {
   return (
-    <section className="w-full space-y-8">
-      <OurStudent
-        Icon={UserGroupIcon}
-        heading="meet our students"
-        array={studentsData}
-      />
-
+    <section className="w-full space-y-8 mt-8">
       <OurStudent
         Icon={ClockIcon}
         heading={`duration of degree (B.Sc)`}
@@ -30,6 +24,14 @@ export default function Undergraduate() {
         heading={`Undergraduate courses`}
         type="undergraduate"
       />
+
+      <section className="max-w-screen-xs">
+        <OurStudent
+          Icon={UserGroupIcon}
+          heading="meet our students"
+          array={studentsData}
+        />
+      </section>
     </section>
   );
 }
