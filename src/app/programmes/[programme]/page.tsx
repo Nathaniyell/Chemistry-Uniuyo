@@ -24,6 +24,7 @@ export default function ProgrammesPage({
 
   return (
     <Main>
+      <Header heading={`${programme} Programme`} />
       <Breadcrumbs
         array={[
           { title: "Undergraduate", href: "/programmes/undergraduate" },
@@ -31,7 +32,7 @@ export default function ProgrammesPage({
         ]}
       />
 
-      <Header heading={`${programme} Programme`} />
+      
 
       <ProgrammesSection programme={programme} />
     </Main>

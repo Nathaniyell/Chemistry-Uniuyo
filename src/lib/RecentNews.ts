@@ -75,6 +75,14 @@ import phd1 from "@/public/images/phd1.jpg"
 import phd2 from "@/public/images/phd2.jpg"
 import phd3 from "@/public/images/phd3.jpg"
 import phd4 from "@/public/images/phd4.jpg"
+import safety from "@/public/images/safety/saftey1.jpg"
+import safety1 from "@/public/images/safety/safety2.jpg"
+import safety2 from "@/public/images/safety/safety3.jpg"
+import safety3 from "@/public/images/safety/safety4.jpg"
+import safety4 from "@/public/images/safety/safety5.jpg"
+import safety5 from "@/public/images/safety/safety6.jpg"
+import safety6 from "@/public/images/safety/safety7.jpg"
+
 
 import { StaticImageData } from "next/image";
 
@@ -141,8 +149,18 @@ export const RecentNews: RecentNewsTypes[] = [
       '"Professor Udoh, Professor Asuquo, and Professor Akpabio have been more than just educators to us; they have been role models, inspirations, and close confidants", expressed Dr. Idongesit Anweting, a former student and now a staff member in the department.',
       '"Professor Udoh, Professor Asuquo, and Professor Akpabio`s passion for chemistry and their genuine care for their students have left an indelible mark on our lives," expressed Dayemi Archibong, a student in the Department of Chemistry and the President of the Students Union Government.',
       "As Professor Udoh, Professor Asuquo, and Professor Akpabio bid farewell to the university, they leave behind a remarkable legacy of excellence, innovation, and a deep commitment to the advancement of chemistry. The department of Chemistry extends its heartfelt gratitude for their decades of dedicated service and wishes them a well-deserved retirement filled with new adventures and continued intellectual pursuits.",
+      
     ],
     pictures: [sendforth1, profAP, profJames, profUdosen, sendforth, sendForth3, sendforth2, sendforth11, sendforth3, sendforth4, sendForth, sendForth4, sendForth6, sendForth5, sendForth7, sendForth8, sendForth9, sendForth10, sendForth11, sendForth12, sendForth13, sendForth3],
+  },
+  { date: "January, 2024",
+    title:
+      "The Department of Chemistry organizes Fire and Safety Training for Staff and Technologists",
+    description: [
+     "The Department of Chemistry recently held a comprehensive fire and safety training session for its staff and technologists. The training aimed to enhance awareness and preparedness for potential fire hazards and other safety concerns within the laboratory and department premises. Participants received hands-on training in using fire extinguishers, understanding safety protocols, and responding effectively to emergencies.",
+      " This initiative underscores the department's commitment to maintaining a safe and secure working environment, ensuring the well-being of all personnel while fostering a culture of safety and responsibility",
+    ],
+    pictures: [safety, safety1, safety2, safety3, safety4, safety5, safety6],
   },
   { date: "September, 2023",
     title:

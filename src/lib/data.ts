@@ -18,7 +18,7 @@ import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
 import phd from "@/public/images/phd_student.jpg"
-
+import safety from "@/public/images/safety/saftey1.jpg"
 
 
 
@@ -89,6 +89,13 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: phd,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "The Department of Chemistry organizes Fire and Safety Training for Staff and Technologists",
+    description: "",
+
+    image: safety,
     btnLink: "/recent-news",
   },
 ];
