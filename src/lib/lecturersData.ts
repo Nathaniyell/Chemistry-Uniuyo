@@ -4,8 +4,8 @@ import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
 import shaibu from "../../public/images/teachingstaff/shaibuSE.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg"
-import iniUmoren from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
-import iniUmoren2 from "../../public/images/teachingstaff/iniUmoren1.jpg";
+import iniUmoren from "@/public/images/teachingstaff/iniu.jpg";
+import iniUmoren2 from "@/public/images/teachingstaff/iniu.jpg";;
 import boEkom from "../../public/images/staff1.webp";
 import imaobong from "../../public/images/teachingstaff/Dr.Imaobong.jpg"
 import imaobong2 from "../../public/images/teachingstaff/imaobong2.jpg"
@@ -660,7 +660,7 @@ const staffData: Lecturer[] = [
     image: uwah,
     title: "Dr.",
     fullName: "emmmanuel uwah",
-    email: [],
+    email: ["emmanueliuwah@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?user=W2Iccb4AAAAJ&hl=en&oi=ao",
     scopus: "https://www.scopus.com/authid/detail.uri?authorId=16743659700",
     orcid: "https://orcid.org/0000-0003-4555-3090",
@@ -810,7 +810,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: emmanuelEssien,
-    title: "Professor",
+    title: "Dr.",
     fullName: "emmanuel essien",
     email: ["emmanuelessien@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?user=hnUzw5oAAAAJ&hl=en&oi=ao",
@@ -863,7 +863,7 @@ const staffData: Lecturer[] = [
     website: "",
     linkedIn: "",
     unit: "Analytical Chemistry",
-    officeNo: "",
+    officeNo: "Room 151",
 
     profile: "",
     experience: [
@@ -1210,7 +1210,7 @@ const staffData: Lecturer[] = [
     website: "",
     linkedIn: "",
     unit: "Physical Chemistry",
-    officeNo: "154",
+    officeNo: "Room 151",
 
     profile: "",
     experience: [

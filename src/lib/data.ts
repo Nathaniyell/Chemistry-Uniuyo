@@ -13,12 +13,12 @@ import sug1 from "@/public/images/SUG/SUG1.jpg"
 import acs1 from "@/public/images/acs/acs1.jpg"
 
 import staff2 from "../../public/images/sshaibu.jpg";
-import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
+import staff5 from "@/public/images/teachingstaff/iniu.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
 import phd from "@/public/images/phd_student.jpg"
-
+import safety from "@/public/images/safety/saftey1.jpg"
 
 
 
@@ -57,7 +57,7 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair to encourage budding talents and entrepreneurs within the Department of Chemistry, Univeristy of Uyo",
+    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair",
     description: "",
 
     image: scsnTradefair,
@@ -89,6 +89,13 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: phd,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "The Department of Chemistry organizes Fire and Safety Training for Staff and Technologists",
+    description: "",
+
+    image: safety,
     btnLink: "/recent-news",
   },
 ];

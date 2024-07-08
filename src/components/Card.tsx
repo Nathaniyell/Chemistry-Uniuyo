@@ -128,8 +128,10 @@ export default function Card({
             <PubInfo text={author} Icon={UserCircleIcon} />
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
-
-          <p className="text-base line-clamp-5">{desc}</p>
+            <p className="font-semibold text-center">
+        Abstract
+            </p>
+          <p className="text-base line-clamp-5"> {desc}</p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
             {isResearchPage && (

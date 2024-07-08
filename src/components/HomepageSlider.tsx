@@ -50,7 +50,7 @@ const HomepageSlider = ({
               delay: 0.3,
               duration: 0.7,
             }}
-            className="uppercase font-bold text-2xl md:text-3xl lg:text-4xl"
+            className="uppercase font-bold text-xl md:text-3xl lg:text-4xl"
           >
             <span className="uppercase font-normal text-lg md:text-xl">
               {greeting} <br />
@@ -58,7 +58,7 @@ const HomepageSlider = ({
             {title}
           </motion.h1>
           <motion.p
-            className="text-sm md:text-base"
+            className="hidden md:block text-sm md:text-lg leading-loose font-[500]"
             animate={{ x: 0, opacity: 1 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{
@@ -81,7 +81,7 @@ const HomepageSlider = ({
                 duration: 0.8,
               }}
             >
-              <RouteLinkBtn className="md:text-xl w-[50%] lg:w-[30%]" href={btnLink} arrow >
+              <RouteLinkBtn className="md:text-xl !w-[60%] lg:!w-[30%]" href={btnLink} arrow >
                 Read more
               </RouteLinkBtn>
             </motion.div>

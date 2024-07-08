@@ -54,7 +54,7 @@ export default function Section({
           <div className="w-full flex flex-col-reverse lg:flex-row justify-between gap-4 my-4">
             {filterButtonArray && <FilterButton array={filterButtonArray} />}
 
-            <Search placeholder="search" />
+            <Search placeholder="Search" />
           </div>
         </div>
       )}
