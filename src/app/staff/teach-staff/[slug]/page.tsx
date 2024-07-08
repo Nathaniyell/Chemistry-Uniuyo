@@ -11,6 +11,7 @@ import { FaOrcid } from "react-icons/fa6";
 import Link from "next/link";
 import { Breadcrumbs, Button } from "@/components";
 import NavLink from "@/components/NavBar/NavLink";
+import { HomeIcon } from "@heroicons/react/16/solid";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const router = useRouter();
@@ -28,7 +29,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <h1>Incomplete details for the selected Profile</h1>
         <Button
           className="bg-primary text-white p-4 rounded-md"
-                    onClick={() => {
+          onClick={() => {
             router.back();
           }}
         >
@@ -61,21 +62,31 @@ export default function Page({ params }: { params: { slug: string } }) {
 
   return (
     <div className="bg-sky-50">
-      <div className="w-11/12 mx-auto pb-16">
+      <div className="w-11/12 mx-auto pb-6">
 
-          {/* <nav className="py-8 text-zinc-700 flex items-center gap-2 text-sm">
-          <button
-            className="underline text-blue-700 p-2 cursor-pointer"
-            onClick={()=>router.back()}
-            style={{ display: "block" }}
+        <div className="!flex items-center w-10/11 md:w-[40%] lg:w-[35%] p-6 text-primary">
+
+          <NavLink
+            className="cursor-pointer hover:text-secondary transition-colors duration-300"
+            href="/"
+
           >
-            Back
-          </button>
-          <span className="text-lg">&gt;</span>
-          <p className="capitalize text-black">{fullName}</p>
-        </nav> */}
+            <HomeIcon className="size-5" />
+          </NavLink>
+          <span className="mx-2 text-gray-400">{"/"}</span>
+          <div className="!-ml-5">
+
+            <Breadcrumbs
+              root={{ title: "Teaching staff", href: "/staff/teach-staff/" }}
+              array={[
+                { title: fullName.toUpperCase(), href: `/staff/teach-staff/${lecturerFullName.replaceAll("-", " ")}` },
+              ]}
+            />
+          </div>
+
+        </div>
         <section className="">
-          <div className="flex flex-col md:flex-row w-full gap-6 lg:gap-12 bg-white rounded-lg shadow-md md:p-4">
+          <div className="flex flex-col-reverse md:flex-row-reverse w-full gap-6 lg:gap-12 bg-white rounded-lg shadow-md md:p-4">
             <div className="w-full md:self-start md:w-3/5 mx-auto lg:w-[40%]">
               {/* {image.type === <Image src={image} alt={fullName} />} */}
               {Array.isArray(image) ? (
@@ -89,15 +100,28 @@ export default function Page({ params }: { params: { slug: string } }) {
                 {title + " " + fullName}
               </h1>
               <div className="flex flex-col lg:flex-row items-start justify-between lg:w-11/12 gap-8">
-                <div className="lg:w-4/5">
-                  {experience.slice(0, 2).map((experience) => (
+               
+                <div className="flex items-center gap-1 w-full">
+                  <p className="font-bold">Rank:</p>
+                  {fullName === "edu inam" ? (
+                  experience.slice(0, 2).map((experience) => (
                     <p
-                      className="mb-2 text-[17px] font-[500]"
+                      className="mb-2"
                       key={experience.year}
                     >
                       {experience.title}
                     </p>
-                  ))}
+                  ))
+                ) : (
+                  <p
+                      className=""
+                      key={experience[0].year}
+                    >
+                      {experience[0].title}
+                    </p>
+                ) }
+                
+                  
                 </div>
 
                 {website.length !== 0 && (
@@ -208,7 +232,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             </div>
           </div>
           <br />
-          <section className="md:w-10/12 lg:w-3/4 mx-auto grid grid-cols-1 gap-10 mt-10">
+          <section className="md:w-10/12 lg:w-5/6 mx-auto grid grid-cols-1 gap-10 mt-10">
             {profile.length !== 0 && (
               <div className="">
                 <h4 className="capitalize font-bold text-xl text-primary ">
@@ -278,7 +302,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                 </table>
               </div>
             </section>
-           {researchCollaborators.length !== 0  && <aside className="">
+            {researchCollaborators.length !== 0 && <aside className="">
               <h4 className="capitalize font-bold text-xl text-primary ">
                 Research Collaborators
               </h4>
@@ -328,24 +352,27 @@ export default function Page({ params }: { params: { slug: string } }) {
         </section>
       </div>
 
-        <div className="!flex items-center place-items-center w-10/11 mx-auto md:w-[40%] lg:w-[35%]">
-        
-        <NavLink
-            className="cursor-pointer text-gray-400 "
-            href="/"
-           
-          >
-            Home
-          </NavLink>
-                  <span className="mx-2 text-gray-400">&gt;</span>
-      <Breadcrumbs
-          root={{ title: "Teaching staff", href: "/staff/teach-staff/" }}
-          array={[
-                      { title: fullName, href: `/staff/teach-staff/${lecturerFullName.replaceAll("-", " ")}` },
-          ]}
-        />
+      <div className="!flex items-center w-10/11 md:w-[40%] lg:w-[35%] p-6 text-primary">
 
+        <NavLink
+          className="cursor-pointer hover:text-secondary transition-colors duration-300"
+          href="/"
+
+        >
+          <HomeIcon className="size-5" />
+        </NavLink>
+        <span className="mx-2 text-gray-400">{"/"}</span>
+        <div className="!-ml-5">
+
+          <Breadcrumbs
+            root={{ title: "Teaching staff", href: "/staff/teach-staff/" }}
+            array={[
+              { title: fullName.toUpperCase(), href: `/staff/teach-staff/${lecturerFullName.replaceAll("-", " ")}` },
+            ]}
+          />
         </div>
+
+      </div>
     </div>
   );
 }
