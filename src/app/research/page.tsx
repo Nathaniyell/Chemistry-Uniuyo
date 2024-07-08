@@ -21,8 +21,8 @@ export default async function Research({
   return (
     <Main>
       <section className="w-full">
-        <Header heading="Research" />
         <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
+        <Header heading="Research" />
       </section>
 
       <Suspense

@@ -47,7 +47,7 @@ export default function Section({
   return (
     <section
       id={type}
-      className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50"
+      className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50 mb-14"
     >
       {isMainPage && (
         <div className="w-full flex flex-col gap-3 lg:gap-5 border-b border-blue-50 p-2 my-4">

@@ -6,7 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 import { publications } from "@/lib";
-import { Button, Card } from ".";
+import { Card } from ".";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import Link from "next/link";
