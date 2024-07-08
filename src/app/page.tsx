@@ -54,7 +54,7 @@ export default function Home() {
           );
         })}
       </Swiper>
-      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-10 md:flex-row mt-2">
+      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-14 md:gap-10 md:flex-row mt-2">
         <div className="md:w-1/2">
           <HomeSections
             greeting="Welcome note from"
