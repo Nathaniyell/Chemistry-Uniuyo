@@ -22,8 +22,8 @@
 export const resourceQuickLinks = [
   { href: "resources#handbook", title: "handbook" },
   { href: "resources#constitution", title: "constitution" },
-  { href: "resources#magazines", title: "magazines" },
-  { href: "resources#faqs", title: "faqs" },
+  // { href: "resources#magazines", title: "magazines" },
+  // { href: "resources#faqs", title: "faqs" },
 ];
 
 export const researchQuickLinks = [
@@ -32,7 +32,6 @@ export const researchQuickLinks = [
 ];
 
 export const deptQuickLinks = [
-  { href: "staff/tech-staff#laboratories", title: "laboratories" },
-  { href: "staff/tech-staff#library", title: "library" },
+  { href: "/resources", title: "laboratories" },
   { href: "staff/teach-staff", title: "staff" },
 ];

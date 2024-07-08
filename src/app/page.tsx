@@ -54,7 +54,7 @@ export default function Home() {
           );
         })}
       </Swiper>
-      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-10 md:flex-row mt-2">
+      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-14 md:gap-10 md:flex-row mt-2">
         <div className="md:w-1/2">
           <HomeSections
             greeting="Welcome note from"
@@ -62,11 +62,7 @@ export default function Home() {
             routeLink="/about"
             readMore={true}
             animateDirection="left"
-            description={
-              "Professor Edu Inam, Head of the Department of Chemistry, welcomes you to the Department of Chemistry, University of Uyo." +
-              "\n" +
-              "Chemistry is a fascinating subject that we are all incredibly passionate about here at University of Uyo. Often referred to as the “central science”, chemistry provides us with a unique perspective of the universe, emerging from the fundamental properties and interactions of atoms and molecules. Learning to control chemical processes enables us to shape the world around us. As the scientific study of the matter that makes up everything around us, chemistry allows us to continually push boundaries of understanding, and to carry out research that advances knowledge and improves lives."
-            }
+            description={`On behalf of all staff members, I warmly welcome you to the Department of Chemistry at the University of Uyo. \n  Chemistry as the “central science” subject is a fascinating field that we are immensely passionate about at our institution. This discipline offers a unique perspective of the universe, rooted in the fundamental properties and interactions of atoms and molecules. By learning to control chemical processes, we gain the ability to shape the world around us. \n  As a department that drives research and development, studying chemistry with us help to continually push the boundaries of conducting ground-breaking research, and make advancements that improve lives.`}
           />
         </div>
         <aside className="w-full md:w-5/12 lg:w-[32%]">
@@ -99,30 +95,56 @@ export default function Home() {
         </aside>
       </section>
       <section className="bg-white px-4 py-14">
-        <h5 className="text-center text-primary md:w-[55%] lg:w-[60%] mx-auto border-l-secondary border-l-4 font-black text-[24px] md:text-[30px] uppercase">
-          Why study Chemistry @ UNIUYO?
+        <h5 className="text-center text-primary md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
+          Why Study Chemistry at the University of Uyo?
         </h5>
-        <div className="my-6 md:w-5/6 mx-auto">
-          <p className="text-blue-900">
-            <span className="text-lg text-secondary">Chemistry</span> is the
-            study of matter; its composition, property and uses. Essentially{" "}
-            <span className="text-lg text-secondary">Chemistry</span> is a
-            central science course and father of all sciences; it has many
-            industrial and societal applications - From concocting life-saving
-            medicines to formulating sustainable materials,{" "}
-            <span className="text-lg text-secondary">
-              <span className="text-lg text-secondary">Chemistry</span>
-            </span>{" "}
-            is the unsung hero behind numerous industrial marvels. Want to
-            understand climate change or figure out how to make cleaner energy
-            sources? <span className="text-lg text-secondary">Chemistry</span>{" "}
-            has the answers.
-          </p>
+        <div className="my-6 w-11/12 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-4">
+          <details>
+            <summary className="text-lg font-[500]">Experienced Staff</summary>
+            <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Peaceful and Serene Environment</summary>
+            <p>Our campus provides a tranquil and safe setting conducive to learning and research.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Dedicated and Friendly Staff Members</summary>
+            <p>Our staff is committed to supporting and guiding students through their academic journey.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Well-Equipped Research Facilities</summary>
+            <p>We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work (visit: www.iceesr.org.ng).</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Modern E-Resources</summary>
+            <p>We provide access to the latest e-resources in the university library to enhance study and research capabilities.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">International Collaborations</summary>
+            <p>We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Active Student Associations</summary>
+            <p>We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.</p>
+          </details>
         </div>
       </section>
-      <section className="w-11/12 mx-auto p-4 md:p-6 ">
-        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
-          Meet our Staff
+      <section className="w-11/12 mx-auto p-4 md:p-6 grid gap-4 grid-cols-1 my-16 bg-white leading-loose">
+        <h5 className="text-center text-primary md:w-[60%] lg:w-[80%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
+          Undergraduate and Postgraduate Programmes
+        </h5>
+        <div>
+          <p>The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.</p>
+          <Link href="/programmes/undergraduate" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
+            Find out more
+          </Link>
+        </div>
+
+      </section>
+      <hr />
+      <section className="w-11/12 mx-auto p-4 md:p-6 pb-14 ">
+        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto uppercase font-black text-[24px] md:text-[30px]">
+          Our Staff
         </h5>
         <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6 mt-10">
           {homeStaffData.map((staff) => {
@@ -152,10 +174,10 @@ export default function Home() {
         </RouteLinkBtn>
       </section>
 
-      <div className="bg-white mt-10">
+      <div className="bg-white pt-10">
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="grid place-items-center grid-cols-1 gap-10">
-            <h1 className="text-center text-primary px-4 mx-auto border-r-secondary border-r-4 uppercase font-black text-[24px] md:text-[30px]">
+            <h1 className="text-center text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
               Recent News
             </h1>
             <News />
@@ -176,9 +198,9 @@ export default function Home() {
             Take tour
           </RouteLinkBtn>
         </div>
-        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
+        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto pb-14">
           <div className="space-y-10 w-full">
-            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto border-l-secondary border-l-4 uppercase font-black text-[24px] md:text-[30px]">
+            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
               Recent Research Expeditions
             </h1>
 

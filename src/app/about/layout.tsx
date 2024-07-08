@@ -10,7 +10,7 @@ import about1 from "../../../public/images/about_chm1.webp";
 import about2 from "../../../public/images/about_chm2.webp";
 import about3 from "../../../public/images/about_chm3.webp";
 import { usePathname } from "next/navigation";
-import { Header } from "@/components";
+import { Breadcrumbs, Header } from "@/components";
 import NavLink from "@/components/NavBar/NavLink";
 
 export default function AboutLayout({
@@ -28,10 +28,6 @@ export default function AboutLayout({
 
   const aboutNavLinks: AboutNavLink[] = [
     {
-      title: "Welcome Message",
-      link: "/about",
-    },
-    {
       title: "History",
       link: "/about/#history",
     },
@@ -47,6 +43,11 @@ export default function AboutLayout({
   return (
     <main className="min-h-screen pb-10">
       <Header heading="About the department of chemistry" />
+      <Breadcrumbs
+        array={[
+             { title: "About", href: `/about` },
+        ]}
+      />
 
       <div className="">
         <nav className="flex items-center justify-center gap-2">
@@ -55,13 +56,14 @@ export default function AboutLayout({
 
             return (
               <NavLink
-                key={index}
-                href={link.link}
-                className={`text-primary cursor-pointer mt-3 p-2 block"
-                  }`}
-              >
-                {link.title}
-              </NavLink>
+              key={index}
+              href={link.link}
+              className={`text-primary !text-lg md:!text-xl cursor-pointer mt-3 p-2 block ${
+                isActive ? "border-b border-b-primary underline" : ""
+              }`}
+            >
+              {link.title}
+            </NavLink>
             );
           })}
         </nav>

@@ -17,7 +17,7 @@ const News = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-14">
-        {RecentNews.map((news, index) => (
+        {RecentNews.slice(0, 6).map((news, index) => (
           <div className="" key={index}>
             <Lecturers
               name={truncateWords(news.title, 10)}

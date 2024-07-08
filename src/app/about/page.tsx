@@ -12,6 +12,7 @@ import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { pastHODs } from "@/lib/pastHOD";
 
 const page = () => {
   const aboutImagesArray = [groupStaff, labStaff]
@@ -21,8 +22,8 @@ const page = () => {
   ];
   return (
     <>
-      <div className="text-zinc-900 my-10 w-11/12 mx-auto">
-      {/* <section className="mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row-reverse mt-2">
+      <div className="text-zinc-900 my-10 w-11/12 mx-auto leading-loose">
+        {/* <section className="mx-auto p-4 flex flex-col justify-between items-center gap-10 md:flex-row-reverse mt-2">
         <div className="md:w-[65%]">
           <HomeSections
             greeting="Welcome note from"
@@ -68,13 +69,13 @@ const page = () => {
         <hr />
       </section> */}
 
-<section id="history" className="p-4 md:p-6">
-          <div className="flex items-center gap-2 md:text-xl">
-            <p className="bg-primary text-white p-2 inline-block rounded-full">
+        <section id="history" className="md:p-2 md:w-10/12 mx-auto">
+          <div className="flex items-center gap-2 md:text-xl mb-2">
+            <span className="bg-primary text-white p-2 inline-block rounded-full">
               <MdHistory />
-            </p>
+            </span>
 
-            <h1 className="font-bold text-2xl my-4 text-blue-950">History</h1>
+            <h1 className="font-bold text-2xl text-blue-950">History</h1>
           </div>
           <p className="text-zinc-700">
             The Department of Chemistry started as the Department of Pure and
@@ -103,12 +104,12 @@ const page = () => {
             employment and entrepreneurship.
           </p>
         </section>
-        <div id="philosophy" className="p-4 md:p-6">
-          <div className="flex items-center gap-2 md:text-xl">
+        <div id="philosophy" className="mt-6 md:mt-4 md:p-2 md:w-10/12 mx-auto">
+          <div className="flex items-center gap-2 md:text-xl mb-2">
             <p className="bg-primary text-white p-2 inline-block rounded-full">
               <FaEye />
             </p>
-            <h4 className="font-bold text-2xl my-4 text-blue-950">Philosophy and Objectives</h4>
+            <h4 className="font-bold text-2xl text-blue-950">Philosophy and Objectives</h4>
           </div>
           <p>
             Chemistry is central to all other science disciplines and
@@ -117,31 +118,50 @@ const page = () => {
             human well-being, as well as its linkage to and interactions with
             other science disciplines. This program is therefore aimed at:
           </p>
-            <ul className="list-decimal mt-4 ml-4 grid grid-cols-1 gap-2">
-              <li>
-                Stimulating in the students sustained interest and enthusiasm in
-                chemistry and it&apos;s applications
-              </li>
-              <li>Building in students a culture of continous enquiry</li>
-              <li>
-                Providing students with a broad and balanced base of chemical
-                knowledge and practical skills
-              </li>
-              <li>
-                Developing in students a range of skills applied in chemical and
-                non-chemical areas, that can provide confidence for employment
-              </li>
-              <li>
-                Providing students with a solud base of chemical knowledge and
-                skills that are required for postgraduate studies and research
-              </li>
-              <li>
-                Inculcating in students an appreciation of chemistry in all
-                human endeavours
-              </li>
-            </ul>
+          <ul className="list-decimal mt-4 ml-4 grid grid-cols-1 gap-2">
+            <li>
+              Stimulating in the students sustained interest and enthusiasm in
+              chemistry and it&apos;s applications
+            </li>
+            <li>Building in students a culture of continous enquiry</li>
+            <li>
+              Providing students with a broad and balanced base of chemical
+              knowledge and practical skills
+            </li>
+            <li>
+              Developing in students a range of skills applied in chemical and
+              non-chemical areas, that can provide confidence for employment
+            </li>
+            <li>
+              Providing students with a solud base of chemical knowledge and
+              skills that are required for postgraduate studies and research
+            </li>
+            <li>
+              Inculcating in students an appreciation of chemistry in all
+              human endeavours
+            </li>
+          </ul>
         </div>
-      
+        <div id="previousleaders" className="mt-6 md:mt-4 md:p-2 md:w-10/12 mx-auto">
+          <h4 className="font-bold text-2xl text-blue-950 mb-2">Past and Present Heads of Department</h4>
+          <p>This section highlights the distinguished individuals who have previously led the Department of Chemistry. Through their leadership, these former heads of the department have shaped the direction and growth of the department, fostering a culture of excellence in teaching, research, and community service.</p>
+          <table className="mt-4 w-full border-collapse border border-gray-300">
+        <thead>
+          <tr>
+            <th className="border border-gray-300 p-2  text-left">Name</th>
+            <th className="border border-gray-300 p-2  text-left">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pastHODs.map(hod => (
+            <tr key={hod.year}>
+              <td className="border border-gray-300 p-2 font-semibold">{hod.name}</td>
+              <td className="border border-gray-300 p-2">{hod.year}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+        </div>
         <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
           <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
             Explore the Impressive Resources and Facilities of the Department of
@@ -149,7 +169,7 @@ const page = () => {
           </h1>
 
           <RouteLinkBtn
-          href="/resources"
+            href="/resources"
             variant="transparent"
             className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
             arrow
