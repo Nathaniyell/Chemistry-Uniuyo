@@ -1,8 +1,9 @@
-import { Breadcrumbs, Header, Main } from "@/components";
+import { Breadcrumbs, Header, Main, Section } from "@/components";
 import { notFound } from "next/navigation";
 
-import ProgrammesSection from "@/components/Programmes/ProgrammesSection";
 import { Metadata } from "next";
+import Undergraduate from "@/components/Programmes/Undergraduate";
+import Postgraduate from "@/components/Programmes/Postgraduate";
 
 export const metadata: Metadata = {
   title: "Chemistry Programmes",
@@ -24,17 +25,17 @@ export default function ProgrammesPage({
 
   return (
     <Main>
-      <Header heading={`${programme} Programme`} />
       <Breadcrumbs
-        array={[
-          { title: "Undergraduate", href: "/programmes/undergraduate" },
-          { title: "Postgraduate", href: `/programmes/postgraduate` },
-        ]}
+        array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
       />
 
-      
+      <Header heading={`${programme} Programme`} />
 
-      <ProgrammesSection programme={programme} />
+      <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg mb-14">
+        {programme === "undergraduate" && <Undergraduate />}
+
+        {programme === "postgraduate" && <Postgraduate />}
+      </section>
     </Main>
   );
 }

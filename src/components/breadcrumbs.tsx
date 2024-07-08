@@ -16,11 +16,11 @@ export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
       >
         {root ? root.title : <HomeIcon className="size-5" />}
       </Link>
-      <span className="text-gray-400 mx-1">{"/"}</span>
+      <span className="text-gray-400 ml-1 lg:mr-1">{"/"}</span>
       {array.map((a, i) => (
         <NavLink
           key={i}
-          className="text-primary px-0 flex gap-1 cursor-pointer text-ellipsis"
+          className="text-primary px-0 capitalize flex gap-1 cursor-pointer text-ellipsis"
           href={a.href}
         >
           {a.title}

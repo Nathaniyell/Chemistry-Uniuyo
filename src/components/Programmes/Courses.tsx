@@ -17,6 +17,38 @@ import {
   level400coursesSecond,
 } from "@/lib";
 import { CourseByLevelProps, SemesterType } from "@/types";
+import {
+  analyticalPhdCourseOne,
+  analyticalPhdCourseTwo,
+  environmentalPhdCourseOne,
+  environmentalPhdCourseTwo,
+  industrialPhdCourseOne,
+  industrialPhdCourseTwo,
+  inorganicPhdCourseTwo,
+  organicPhdCourseOne,
+  organicPhdCourseTwo,
+  phdCourseThreeToSix,
+  physicalPhdCourseOne,
+  physicalPhdCourseTwo,
+  polymerPhdCourseOne,
+  polymerPhdCourseTwo,
+} from "@/lib/phd";
+import {
+  analyticalMscCourseOne,
+  analyticalMscCourseTwo,
+  environmentalMscCourseOne,
+  environmentalMscCourseTwo,
+  industrialMscCourseOne,
+  industrialMscCourseTwo,
+  inorganicMscCourseTwo,
+  mscCourseThreeToSix,
+  organicMscCourseOne,
+  organicMscCourseTwo,
+  physicalMscCourseOne,
+  physicalMscCourseTwo,
+  polymerMscCourseOne,
+  polymerMscCourseTwo,
+} from "@/lib/msc";
 
 type CoursesProps = {
   Icon: ElementType;
@@ -24,7 +56,7 @@ type CoursesProps = {
   type?: string;
 };
 
-export default function Courses({ Icon, heading, type }: CoursesProps) {
+export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
   const [currentCourseByLevel, setCurrentCourseByLevel] = React.useState({
     courses: "100_level",
   });
@@ -36,35 +68,201 @@ export default function Courses({ Icon, heading, type }: CoursesProps) {
       </Div>
 
       <CourseByLevel
-        level={"100 level"}
-        firstSemesterArray={level100courses}
-        secondSemesterArray={level100coursesSecond}
+        level={
+          type === "phd" || type === "msc"
+            ? "Analytical Chemistry"
+            : "100 level"
+        }
+        firstSemesterArray={
+          type === "phd"
+            ? analyticalPhdCourseOne
+            : type === "msc"
+            ? analyticalMscCourseOne
+            : level100courses
+        }
+        secondSemesterArray={
+          type === "phd"
+            ? analyticalPhdCourseTwo
+            : type === "msc"
+            ? analyticalMscCourseTwo
+            : level100coursesSecond
+        }
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
 
       <CourseByLevel
-        level={"200 level"}
-        firstSemesterArray={level200courses}
-        secondSemesterArray={level200coursesSecond}
+        level={
+          type === "phd" || type === "msc"
+            ? "Environmental Chemistry"
+            : "200 level"
+        }
+        firstSemesterArray={
+          type === "phd"
+            ? environmentalPhdCourseOne
+            : type === "msc"
+            ? environmentalMscCourseOne
+            : level200courses
+        }
+        secondSemesterArray={
+          type === "phd"
+            ? environmentalPhdCourseTwo
+            : type === "msc"
+            ? environmentalMscCourseTwo
+            : level200coursesSecond
+        }
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
 
       <CourseByLevel
-        level={"300 level"}
-        firstSemesterArray={level300courses}
-        secondSemesterArray={level300coursesSecond}
+        level={
+          type === "phd" || type === "msc"
+            ? "Industrial Chemistry"
+            : "300 level"
+        }
+        firstSemesterArray={
+          type === "phd"
+            ? industrialPhdCourseOne
+            : type === "msc"
+            ? industrialMscCourseOne
+            : level300courses
+        }
+        secondSemesterArray={
+          type === "phd"
+            ? industrialPhdCourseTwo
+            : type === "msc"
+            ? industrialMscCourseTwo
+            : level300coursesSecond
+        }
+        thirdSemesterArray={
+          type === "phd" || type === "msc"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
+
       <CourseByLevel
-        level={"400 level"}
-        firstSemesterArray={level400courses}
-        secondSemesterArray={level400coursesSecond}
+        level={
+          type === "phd" || type === "msc" ? "Inorganic Chemistry" : "400 level"
+        }
+        firstSemesterArray={
+          type === "phd"
+            ? inorganicPhdCourseTwo
+            : type === "msc"
+            ? inorganicMscCourseTwo
+            : level400courses
+        }
+        secondSemesterArray={
+          type === "phd"
+            ? inorganicPhdCourseTwo
+            : type === "msc"
+            ? inorganicMscCourseTwo
+            : level400coursesSecond
+        }
+        thirdSemesterArray={
+          type === "phd"
+            ? phdCourseThreeToSix
+            : type === "msc"
+            ? mscCourseThreeToSix
+            : undefined
+        }
         currentCourseByLevel={currentCourseByLevel}
         setCurrentCourseByLevel={setCurrentCourseByLevel}
       />
+
+      {(type === "phd" || type === "msc") && (
+        <CourseByLevel
+          level={"Organic Chemistry"}
+          firstSemesterArray={
+            type == "phd" ? organicPhdCourseOne : organicMscCourseOne
+          }
+          secondSemesterArray={
+            type === "phd"
+              ? organicPhdCourseTwo
+              : type === "msc"
+              ? organicMscCourseTwo
+              : []
+          }
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
+          currentCourseByLevel={currentCourseByLevel}
+          setCurrentCourseByLevel={setCurrentCourseByLevel}
+        />
+      )}
+
+      {(type === "phd" || type === "msc") && (
+        <CourseByLevel
+          level={"Physical Chemistry"}
+          firstSemesterArray={
+            type == "phd" ? physicalPhdCourseOne : physicalMscCourseOne
+          }
+          secondSemesterArray={
+            type === "phd"
+              ? physicalPhdCourseTwo
+              : type === "msc"
+              ? physicalMscCourseTwo
+              : []
+          }
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
+          currentCourseByLevel={currentCourseByLevel}
+          setCurrentCourseByLevel={setCurrentCourseByLevel}
+        />
+      )}
+
+      {(type === "phd" || type === "msc") && (
+        <CourseByLevel
+          level={"Polymer Chemistry"}
+          firstSemesterArray={
+            type == "phd" ? polymerPhdCourseOne : polymerMscCourseOne
+          }
+          secondSemesterArray={
+            type === "phd"
+              ? polymerPhdCourseTwo
+              : type === "msc"
+              ? polymerMscCourseTwo
+              : []
+          }
+          thirdSemesterArray={
+            type === "phd"
+              ? phdCourseThreeToSix
+              : type === "msc"
+              ? mscCourseThreeToSix
+              : undefined
+          }
+          currentCourseByLevel={currentCourseByLevel}
+          setCurrentCourseByLevel={setCurrentCourseByLevel}
+        />
+      )}
     </Div>
   );
 }
@@ -75,6 +273,7 @@ const CourseByLevel = ({
   level,
   firstSemesterArray,
   secondSemesterArray,
+  thirdSemesterArray,
 }: CourseByLevelProps) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setCurrentCourseByLevel({
@@ -125,6 +324,12 @@ const CourseByLevel = ({
           semester="second"
           semesterCourseArray={secondSemesterArray}
         />
+        {thirdSemesterArray && (
+          <SemesterCourseComponent
+            semester="third"
+            semesterCourseArray={thirdSemesterArray}
+          />
+        )}
       </section>
     </Div>
   );
@@ -187,7 +392,7 @@ function SemesterCourseComponent({
               <td className="uppercase">{a.code}</td>
               <td>{a.title}</td>
               <td>{a.credit_hrs}</td>
-              <td>{a.prerequisite ? a.prerequisite.toUpperCase() : "NIL"}</td>
+              <td>{a.prerequisite ? a.prerequisite.toUpperCase() : ""}</td>
               {/* <td>{a.desc}</td> */}
             </tr>
           ))}

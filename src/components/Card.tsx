@@ -76,8 +76,8 @@ export default function Card({
       : router.push(
           `?isOpen=true&author=${a.split(" ")[1]} ${a
             .split(" ")[2]
-            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
-            p.split("-")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 80).trim()}&published=${
+            p.split(" ")[1]
           }&title=${t}&currentPage=${currentPage}`
         );
   };
@@ -128,9 +128,7 @@ export default function Card({
             <PubInfo text={author} Icon={UserCircleIcon} />
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
-            <p className="font-semibold text-center">
-        Abstract
-            </p>
+          <p className="font-semibold text-center">Abstract</p>
           <p className="text-base line-clamp-5"> {desc}</p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
@@ -180,8 +178,11 @@ export default function Card({
               {type} apa citation
             </h1>
             <p>
-              <span className="capitalize">{q_author}</span>. ({q_published}).{" "}
-              <span>{q_title}.</span>&nbsp;
+              <span>{q_author}</span>. ({q_published}).{" "}
+              <span className="capitalize">
+                {q_title?.toLocaleLowerCase()}.
+              </span>
+              &nbsp;
               <span className="italic capitalize">{q_desc}.</span>&nbsp;
               <span className="text-xs">
                 (check page No. when you open this {type})
