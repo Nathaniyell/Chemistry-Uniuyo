@@ -13,7 +13,7 @@ import sug1 from "@/public/images/SUG/SUG1.jpg"
 import acs1 from "@/public/images/acs/acs1.jpg"
 
 import staff2 from "../../public/images/sshaibu.jpg";
-import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
+import staff5 from "@/public/images/teachingstaff/iniu.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";

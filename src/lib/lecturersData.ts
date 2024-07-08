@@ -4,8 +4,8 @@ import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
 import shaibu from "../../public/images/teachingstaff/shaibuSE.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg"
-import iniUmoren from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
-import iniUmoren2 from "../../public/images/teachingstaff/iniUmoren1.jpg";
+import iniUmoren from "@/public/images/teachingstaff/iniu.jpg";
+import iniUmoren2 from "@/public/images/teachingstaff/iniu.jpg";;
 import boEkom from "../../public/images/staff1.webp";
 import imaobong from "../../public/images/teachingstaff/Dr.Imaobong.jpg"
 import imaobong2 from "../../public/images/teachingstaff/imaobong2.jpg"
