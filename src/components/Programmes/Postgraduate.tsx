@@ -8,11 +8,12 @@ import { Button } from "../HTMLTags";
 import { postgraduateDetails } from "@/lib/postgraduate";
 import { OurStudent } from ".";
 import { motion } from "framer-motion";
+import { animateDiv } from "@/lib/framerAnimation";
 
 export default function Postgraduate() {
   const [programmeType, setProgrammeType] = useState("msc");
   return (
-    <motion.section className="w-full h-full flex flex-col gap-4 gap-y-8">
+    <section className="w-full space-y-8">
       <header className="w-full flex items-center gap-2">
         <Button
           className={clsx({
@@ -31,7 +32,12 @@ export default function Postgraduate() {
           Ph.D
         </Button>
       </header>
-      <div className="space-y-8">
+      <motion.div
+        initial={animateDiv.initial}
+        animate={animateDiv.whileInView}
+        transition={animateDiv.transition}
+        className="space-y-8"
+      >
         {postgraduateDetails.map(({ heading, description, icon }, index) => (
           <OurStudent
             key={index}
@@ -48,7 +54,7 @@ export default function Postgraduate() {
             Icon={icon}
           />
         ))}
-      </div>
+      </motion.div>
       <Courses
         Icon={AcademicCapIcon}
         heading={`${
@@ -56,6 +62,6 @@ export default function Postgraduate() {
         } Postgraduate Courses`}
         type={programmeType}
       />
-    </motion.section>
+    </section>
   );
 }

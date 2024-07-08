@@ -11,7 +11,7 @@ import { studentsData } from "@/lib";
 
 export default function Undergraduate() {
   return (
-    <section>
+    <section className="w-full space-y-8">
       <OurStudent
         Icon={UserGroupIcon}
         heading="meet our students"
