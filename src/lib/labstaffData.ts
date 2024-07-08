@@ -11,6 +11,7 @@ import uduakUbit from "@/public/images/lab-staff/uduakUbit.jpg"
 import secretary from "@/public/images/lab-staff/secretary.jpg"
 import oluwatoyin from "@/public/images/lab-staff/oluwatoyin.jpg"
 import oluwatoyin2 from "@/public/images/lab-staff/oluwatoyin2.jpg"
+import mrs from "@/public/images/lab-staff/mrs.jpg"
 
 export const labStaffData = [
     {
@@ -60,6 +61,12 @@ export const labStaffData = [
         role: "Technologist",
         qualifications: "OND, B.Sc (Chemistry)",
         image: []
+    },
+    {
+        name: "Mrs.",
+        role: "Technologist",
+        qualifications: "",
+        image: [mrs]
     },
     {
         name: "Mrs. Glory James",

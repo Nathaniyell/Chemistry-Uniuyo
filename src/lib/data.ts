@@ -17,6 +17,8 @@ import staff5 from "../../public/images/teachingstaff/Dr.IniUmoren.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
+import phd from "@/public/images/phd_student.jpg"
+
 
 
 
@@ -76,10 +78,17 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
+    title: "Miss Blessing Umoh Wins ACS Nigeria Volunteer of the Year Award",
     description: "",
 
     image: acs1,
+    btnLink: "/recent-news",
+  },
+  {
+    title: "Breaking News: Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
+    description: "",
+
+    image: phd,
     btnLink: "/recent-news",
   },
 ];
