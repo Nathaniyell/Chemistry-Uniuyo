@@ -297,24 +297,8 @@ export const industrialMscCourseOne = [
 ];
 export const industrialMscCourseTwo = [
   {
-    code: "CHM621",
-    title: "Thermal and Photochemical Methods of Analysis",
-    credit_hrs: 3,
-    prerequisite: "",
-    semester: "second",
-    desc: "",
-  },
-  {
-    code: "CHM622",
-    title: "Petroleum Geochemistry and Analysis of Petroleum Products",
-    credit_hrs: 2,
-    prerequisite: "",
-    semester: "second",
-    desc: "",
-  },
-  {
-    code: "CHM624",
-    title: "Advances in Industrial Chemistry",
+    code: "CHM668",
+    title: "Polymer Synthesis/Laboratory",
     credit_hrs: 3,
     prerequisite: "",
     semester: "second",
@@ -322,7 +306,23 @@ export const industrialMscCourseTwo = [
   },
   {
     code: "CHM629",
-    title: "Advances in Pollution Chemistry",
+    title: "Formulation Chemistry",
+    credit_hrs: 2,
+    prerequisite: "",
+    semester: "second",
+    desc: "",
+  },
+  {
+    code: "CHM641",
+    title: "Wood/Paper Chemistry and Technology",
+    credit_hrs: 3,
+    prerequisite: "",
+    semester: "second",
+    desc: "",
+  },
+  {
+    code: "CHM642",
+    title: "Petroleum Chemistry",
     credit_hrs: 3,
     prerequisite: "",
     semester: "second",
