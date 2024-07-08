@@ -58,7 +58,7 @@ const HomepageSlider = ({
             {title}
           </motion.h1>
           <motion.p
-            className="text-sm md:text-base"
+            className="text-sm md:text-lg leading-loose font-[500]"
             animate={{ x: 0, opacity: 1 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{
