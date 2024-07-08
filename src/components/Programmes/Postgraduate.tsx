@@ -41,15 +41,19 @@ export default function Postgraduate() {
         {postgraduateDetails.map(({ heading, description, icon }, index) => (
           <OurStudent
             key={index}
-            heading={`${heading} (${
-              programmeType === "phd" ? "Ph.D" : "M.Sc"
-            })`}
+            heading={`${
+              programmeType === "phd"
+                ? heading.toLowerCase()
+                : heading.toLowerCase().replace("thesis", "dissertation")
+            } (${programmeType === "phd" ? "Ph.D" : "M.Sc"})`}
             duration={
               programmeType === "phd"
                 ? description
                 : description
                     .replaceAll("M.Sc", "B.Sc")
                     .replaceAll("Ph.D", "M.Sc")
+                    .replace("12", "6")
+                    .replace("thesis", "dissertation")
             }
             Icon={icon}
           />
