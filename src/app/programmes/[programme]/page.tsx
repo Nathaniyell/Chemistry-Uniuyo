@@ -25,10 +25,7 @@ export default function ProgrammesPage({
   return (
     <Main>
       <Breadcrumbs
-        array={[
-          { title: "Undergraduate", href: "/programmes/undergraduate" },
-          { title: "Postgraduate", href: `/programmes/postgraduate` },
-        ]}
+        array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
       />
 
       <Header heading={`${programme} Programme`} />

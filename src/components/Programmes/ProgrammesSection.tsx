@@ -28,7 +28,7 @@ export default function ProgrammesSection({
   return (
     <Section>
       {programme === "postgraduate" && (
-        <div className="w-full flex items-center gap-2">
+        <header className="w-full flex items-center gap-2">
           <Button
             className={clsx({
               "bg-primary text-white": programmeType === "msc",
@@ -45,9 +45,9 @@ export default function ProgrammesSection({
           >
             Ph.D
           </Button>
-        </div>
+        </header>
       )}
-      <div className="w-full h-full grid lg:grid-cols-2 gap-4 gap-y-8">
+      <div className="w-full h-full flex flex-col gap-4 gap-y-8">
         {programme === "undergraduate" && <UndergraduateBsc />}
 
         {programme === "postgraduate" && programmeType === "phd" && (
