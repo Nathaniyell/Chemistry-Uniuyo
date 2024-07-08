@@ -1,6 +1,6 @@
 export const mscCourseThreeToSix = [
   {
-    code: "CHM755",
+    code: "CHM655",
     title: "Seminar",
     credit_hrs: 3,
     prerequisite: "",
@@ -8,7 +8,7 @@ export const mscCourseThreeToSix = [
     desc: "",
   },
   {
-    code: "CHM756",
+    code: "CHM656",
     title: "Thesis",
     credit_hrs: 12,
     prerequisite: "",
@@ -20,7 +20,7 @@ export const mscCourseThreeToSix = [
 // Analytical Chemistry
 export const analyticalMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -28,7 +28,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -36,7 +36,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM713",
+    code: "CHM613",
     title: "Advances in Analytical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -44,7 +44,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM714",
+    code: "CHM614",
     title: "Air, and Soil Analyses",
     credit_hrs: 3,
     prerequisite: "",
@@ -52,7 +52,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM715",
+    code: "CHM615",
     title: "Food and Water Analysis Elective",
     credit_hrs: 3,
     prerequisite: "",
@@ -60,7 +60,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -68,7 +68,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -76,7 +76,7 @@ export const analyticalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -87,7 +87,7 @@ export const analyticalMscCourseOne = [
 
 export const analyticalMscCourseTwo = [
   {
-    code: "CHM721",
+    code: "CHM621",
     title: "Quality Assurance of Chemical Products/Products Export Criteria",
     credit_hrs: 3,
     prerequisite: "",
@@ -95,7 +95,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM722",
+    code: "CHM622",
     title: " Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -103,7 +103,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM723",
+    code: "CHM623",
     title: "Forensic Chemistry and Toxicology",
     credit_hrs: 3,
     prerequisite: "",
@@ -111,7 +111,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM724",
+    code: "CHM624",
     title: "Process Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -119,7 +119,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725",
+    code: "CHM625",
     title: "Advanced Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -127,7 +127,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -135,7 +135,7 @@ export const analyticalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -147,7 +147,7 @@ export const analyticalMscCourseTwo = [
 // Environmental Chemistry
 export const environmentalMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -155,7 +155,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -164,7 +164,7 @@ export const environmentalMscCourseOne = [
   },
 
   {
-    code: "CHM714",
+    code: "CHM614",
     title: "Air, and Soil Analyses",
     credit_hrs: 3,
     prerequisite: "",
@@ -172,7 +172,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM715",
+    code: "CHM615",
     title: "Food and Water Analysis Elective",
     credit_hrs: 3,
     prerequisite: "",
@@ -180,7 +180,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM719",
+    code: "CHM619",
     title: "Organic Photochemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -188,7 +188,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -196,7 +196,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -204,7 +204,7 @@ export const environmentalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -214,7 +214,7 @@ export const environmentalMscCourseOne = [
 ];
 export const environmentalMscCourseTwo = [
   {
-    code: "CHM721",
+    code: "CHM621",
     title: "Quality Assurance of Chemical Products/Products Export Criteria",
     credit_hrs: 3,
     prerequisite: "",
@@ -222,7 +222,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -230,7 +230,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM728",
+    code: "CHM628",
     title: "Advances in Energy Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -238,7 +238,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM729",
+    code: "CHM629",
     title: "Advances in Pollution Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -246,7 +246,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advances in Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -254,7 +254,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -262,7 +262,7 @@ export const environmentalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -274,7 +274,7 @@ export const environmentalMscCourseTwo = [
 //  Industrial Chemistry
 export const industrialMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -282,7 +282,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -291,7 +291,7 @@ export const industrialMscCourseOne = [
   },
 
   {
-    code: "CHM731",
+    code: "CHM631",
     title: "Food Chemistry and Technology",
     credit_hrs: 3,
     prerequisite: "",
@@ -299,7 +299,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM732",
+    code: "CHM632",
     title: "Process Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -307,7 +307,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM719",
+    code: "CHM619",
     title: "Organic Photochemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -315,7 +315,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -323,7 +323,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -331,7 +331,7 @@ export const industrialMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM733*",
+    code: "CHM633*",
     title: "Advanced Paper Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -341,7 +341,7 @@ export const industrialMscCourseOne = [
 ];
 export const industrialMscCourseTwo = [
   {
-    code: "CHM721",
+    code: "CHM621",
     title: "Quality Assurance of Chemical Products/Products Export Criteria",
     credit_hrs: 3,
     prerequisite: "",
@@ -349,7 +349,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -357,7 +357,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM724",
+    code: "CHM624",
     title: "Advances in Industrial Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -365,7 +365,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM729",
+    code: "CHM629",
     title: "Advances in Pollution Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -373,7 +373,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advances in Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -381,7 +381,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -389,7 +389,7 @@ export const industrialMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -401,7 +401,7 @@ export const industrialMscCourseTwo = [
 //  Inorganic Chemistry
 export const inorganicMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -409,7 +409,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -418,7 +418,7 @@ export const inorganicMscCourseOne = [
   },
 
   {
-    code: "CHM734",
+    code: "CHM634",
     title: "Molecular Polyhedral Compounds",
     credit_hrs: 3,
     prerequisite: "",
@@ -426,7 +426,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM735",
+    code: "CHM635",
     title: "Advancement in Coordination Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -434,7 +434,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM736",
+    code: "CHM636",
     title: "Medicinal Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -442,7 +442,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -450,7 +450,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -458,7 +458,7 @@ export const inorganicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -468,7 +468,7 @@ export const inorganicMscCourseOne = [
 ];
 export const inorganicMscCourseTwo = [
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -476,7 +476,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM741",
+    code: "CHM641",
     title: "Advanced Chemistry of Inner Transition Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -484,7 +484,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM742",
+    code: "CHM642",
     title: "Special Topics in Inorganic Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -492,7 +492,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM743",
+    code: "CHM643",
     title: "Homogeneous and Heterogeneous Catalysis",
     credit_hrs: 3,
     prerequisite: "",
@@ -500,7 +500,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advances in Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -508,7 +508,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -516,7 +516,7 @@ export const inorganicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -528,7 +528,7 @@ export const inorganicMscCourseTwo = [
 //  Organic Chemistry
 export const organicMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -536,7 +536,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -545,7 +545,7 @@ export const organicMscCourseOne = [
   },
 
   {
-    code: "CHM736",
+    code: "CHM636",
     title: "Medicinal Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -553,7 +553,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM737",
+    code: "CHM636",
     title: "Advanced Organic Spectroscopy",
     credit_hrs: 3,
     prerequisite: "",
@@ -561,7 +561,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM719",
+    code: "CHM619",
     title: "Organic Photochemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -569,7 +569,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -577,7 +577,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -585,7 +585,7 @@ export const organicMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -596,7 +596,7 @@ export const organicMscCourseOne = [
 
 export const organicMscCourseTwo = [
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -604,7 +604,7 @@ export const organicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM744",
+    code: "CHM644",
     title: "Bioorganic Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -612,7 +612,7 @@ export const organicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM745",
+    code: "CHM645",
     title: "Industrial Organic Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -621,7 +621,7 @@ export const organicMscCourseTwo = [
   },
 
   {
-    code: "CHM746",
+    code: "CHM646",
     title: "Drug Discovery and Development",
     credit_hrs: 3,
     prerequisite: "",
@@ -629,7 +629,7 @@ export const organicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advances in Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -637,7 +637,7 @@ export const organicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -645,7 +645,7 @@ export const organicMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -657,7 +657,7 @@ export const organicMscCourseTwo = [
 //  Physical Chemistry
 export const physicalMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -665,7 +665,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -674,7 +674,7 @@ export const physicalMscCourseOne = [
   },
 
   {
-    code: "CHM738",
+    code: "CHM638",
     title:
       "Advances in Electro-Catalysis/Semi Conducting Oxides and Nano-Materials",
     credit_hrs: 3,
@@ -683,7 +683,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM739",
+    code: "CHM639",
     title: "Advances in Chemical Thermodynamics",
     credit_hrs: 3,
     prerequisite: "",
@@ -691,7 +691,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM751",
+    code: "CHM651",
     title: "Biophysical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -699,7 +699,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -707,7 +707,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -715,7 +715,7 @@ export const physicalMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -726,7 +726,7 @@ export const physicalMscCourseOne = [
 
 export const physicalMscCourseTwo = [
   {
-    code: "CHM721",
+    code: "CHM621",
     title: "Quality Assurance of Chemical Products/Products Export Criteria",
     credit_hrs: 3,
     prerequisite: "",
@@ -734,7 +734,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -742,7 +742,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM747",
+    code: "CHM646",
     title: "Advances in Electrochemistry and Electrochemical Technology",
     credit_hrs: 3,
     prerequisite: "",
@@ -750,7 +750,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM748",
+    code: "CHM648",
     title:
       "Advances in Stress Corrosion/Hydrogen Embrittlement in Petroleum Industry etc",
     credit_hrs: 3,
@@ -759,7 +759,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advanced Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -767,7 +767,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -775,7 +775,7 @@ export const physicalMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM727*",
+    code: "CHM626*",
     title: "Advanced Wood Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -787,7 +787,7 @@ export const physicalMscCourseTwo = [
 //  Polymer Chemistry
 export const polymerMscCourseOne = [
   {
-    code: "CHM711",
+    code: "CHM611",
     title: "Advanced Research Methodology",
     credit_hrs: 3,
     prerequisite: "",
@@ -795,7 +795,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM712",
+    code: "CHM612",
     title: "Chemistry of Life Processes",
     credit_hrs: 3,
     prerequisite: "",
@@ -804,7 +804,7 @@ export const polymerMscCourseOne = [
   },
 
   {
-    code: "CHM752",
+    code: "CHM652",
     title: "Advanced Polymer Synthesis",
     credit_hrs: 3,
     prerequisite: "",
@@ -812,7 +812,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM753",
+    code: "CHM653",
     title: "Plastic Equipment and Plant Design",
     credit_hrs: 3,
     prerequisite: "",
@@ -820,7 +820,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM754",
+    code: "CHM654",
     title: "Advanced Polymer Processing Technology",
     credit_hrs: 3,
     prerequisite: "",
@@ -828,7 +828,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM716*",
+    code: "CHM616*",
     title: "Environmental Economics",
     credit_hrs: 3,
     prerequisite: "",
@@ -836,7 +836,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM717*",
+    code: "CHM616*",
     title: "Application of Geochemical Technology in Petroleum Exploration",
     credit_hrs: 3,
     prerequisite: "",
@@ -844,7 +844,7 @@ export const polymerMscCourseOne = [
     desc: "",
   },
   {
-    code: "CHM718*",
+    code: "CHM618*",
     title: "Advanced Mineral Processing and Metallurgy",
     credit_hrs: 3,
     prerequisite: "",
@@ -855,7 +855,7 @@ export const polymerMscCourseOne = [
 
 export const polymerMscCourseTwo = [
   {
-    code: "CHM722",
+    code: "CHM622",
     title: "Electronics and Instrumentation",
     credit_hrs: 3,
     prerequisite: "",
@@ -863,7 +863,7 @@ export const polymerMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM749",
+    code: "CHM649",
     title: "Polymer Reactor Engineering",
     credit_hrs: 3,
     prerequisite: "",
@@ -871,7 +871,7 @@ export const polymerMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM761",
+    code: "CHM661",
     title: "Solid State Properties of Polymer",
     credit_hrs: 3,
     prerequisite: "",
@@ -880,7 +880,7 @@ export const polymerMscCourseTwo = [
   },
 
   {
-    code: "CHM762",
+    code: "CHM662",
     title: "Polymer Rheology",
     credit_hrs: 3,
     prerequisite: "",
@@ -888,7 +888,7 @@ export const polymerMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM725*",
+    code: "CHM625*",
     title: "Advanced Theoretical Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -896,7 +896,7 @@ export const polymerMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM726*",
+    code: "CHM626*",
     title: "Textile and Colour Chemistry",
     credit_hrs: 3,
     prerequisite: "",
@@ -904,7 +904,7 @@ export const polymerMscCourseTwo = [
     desc: "",
   },
   {
-    code: "CHM733*",
+    code: "CHM633*",
     title: "Advanced Paper Chemistry",
     credit_hrs: 3,
     prerequisite: "",
