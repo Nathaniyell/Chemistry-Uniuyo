@@ -45,7 +45,7 @@ export default function ResourcePage() {
 
 <div className="flex flex-col gap-2">
         <h4 className="font-semibold text-xl mt-5">Student Handbook</h4>
-        <p>To help you navigate your journey in te department of chemistry, we have created a comprehensive Student Departmental Handbook. This essential resource contains all the information you need about:</p>
+        <p>To help you navigate your journey in the department of chemistry, we have created a comprehensive Student Departmental Handbook. This essential resource contains all the information you need about:</p>
         <ul className="list-disc flex flex-col gap-2 ml-4">
           <li>Department policies and procedures</li>
           <li>Academic programs and course descriptions</li>
