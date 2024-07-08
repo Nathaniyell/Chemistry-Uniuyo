@@ -89,7 +89,7 @@ export const RecentNews: RecentNewsTypes[] = [
   {
     date: "June, 2024",
     title: "Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
-    description: ["Patricia Aniekan Ekpo, a PhD candidate in Inorganic Chemistry, faced her oral examination today. The examination, which took place at the PG School Conference Room, marks a crucial step in her journey towards earning her doctoral degree", "Ekpo, whose academic journey has been marked by rigorous research and dedication, presented her findings and defended her thesis before a panel of esteemed academics. Her work, supervised by Dr. Atim Johnson and Dr. Ekemini Ituen, is expected to make notable contributions to the field of Inorganic Chemistry.",],
+    description: ["Patricia Aniekan Ekpo, a PhD candidate specializing in Inorganic Chemistry, has recently successfully completed her oral examination in the Department of Chemistry. The examination, which took place at the Post-Graduate School Conference Room, marks a crucial step in her journey towards earning her doctoral degree", "Ekpo, whose academic journey has been marked by rigorous research and dedication, presented her findings and defended her thesis before a panel of esteemed academics. Her work, supervised by Dr. Atim Johnson and Dr. Ekemini Ituen, is expected to make notable contributions to the field of Inorganic Chemistry.",],
     pictures: [phd, phd1, phd2, phd3, phd4]
   },
   { date: "June, 2024",

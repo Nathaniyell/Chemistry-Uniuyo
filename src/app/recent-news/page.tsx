@@ -4,7 +4,7 @@ import { RecentNews } from "@/lib";
 const page = () => {
   return (
     <div className="p-6 md:p-0">
-       <Header heading="Recent News and Events"/>
+       <Header heading="News and Events"/>
        <Breadcrumbs
         array={[
              { title: "News", href: `/recent-news` },

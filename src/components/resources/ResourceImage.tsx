@@ -5,6 +5,8 @@ import { type Swiper as SwiperType } from "swiper/types";
 import ThumbsSlider from "../ThumbsSlider";
 import SwiperWithNavigation from "../SwiperWithNavigation";
 import { StaticImageData } from "next/image";
+import FramerAnimation from "@/utils/framer-animation";
+
 
 export default function ResourceDiv({
   heading,
@@ -16,8 +18,8 @@ export default function ResourceDiv({
   images: string[] | StaticImageData[];
 }) {
   return (
-    <div className="flex flex-col items-center justify-center max-w-sm sm:max-w-md gap-6 shrink-0">
-      <div className="text-center space-y-1 max-w-sm">
+    <FramerAnimation className="flex flex-col items-center justify-center max-w-xl sm:max-w-md gap-6 shrink-0">
+      <div className="text-center space-y-1">
         <h1 className="text-xl xs:text-2xl font-semibold">{heading}</h1>
 
         {description && (
@@ -26,6 +28,6 @@ export default function ResourceDiv({
       </div>
 
       <SwiperWithNavigation pictures={images}  />
-    </div>
+    </FramerAnimation>
   );
 }
