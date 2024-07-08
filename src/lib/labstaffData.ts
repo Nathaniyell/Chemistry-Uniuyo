@@ -63,7 +63,7 @@ export const labStaffData = [
         image: []
     },
     {
-        name: "Mrs.",
+        name: "Mrs. Uduak Udoma",
         role: "Technologist",
         qualifications: "",
         image: [mrs]
