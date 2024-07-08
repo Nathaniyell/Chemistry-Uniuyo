@@ -253,7 +253,6 @@ export const industrialMscCourseOne = [
     semester: "first",
     desc: "",
   },
-
   {
     code: "CHM618",
     title: "Advanced Industrial Chemistry",
@@ -282,14 +281,6 @@ export const industrialMscCourseOne = [
     code: "SCI612",
     title: "ICT and Research Methodology",
     credit_hrs: 2,
-    prerequisite: "",
-    semester: "first",
-    desc: "",
-  },
-  {
-    code: "CHM633*",
-    title: "Advanced Paper Chemistry",
-    credit_hrs: 3,
     prerequisite: "",
     semester: "first",
     desc: "",
