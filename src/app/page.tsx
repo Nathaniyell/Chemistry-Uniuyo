@@ -96,52 +96,53 @@ export default function Home() {
       </section>
       <section className="bg-white px-4 py-14">
         <h5 className="text-center text-primary md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
-        Why Study Chemistry at the University of Uyo?
+          Why Study Chemistry at the University of Uyo?
         </h5>
         <div className="my-6 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-4">
-        <details>
-        <summary className="text-lg font-[500]">Experienced Staff</summary>
-        <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">Peaceful and Serene Environment</summary>
-        <p>Our campus provides a tranquil and safe setting conducive to learning and research.</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">Dedicated and Friendly Staff Members</summary>
-        <p>Our staff is committed to supporting and guiding students through their academic journey.</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">Well-Equipped Research Facilities</summary>
-        <p>We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work (visit: www.iceesr.org.ng).</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">Modern E-Resources</summary>
-        <p>We provide access to the latest e-resources in the university library to enhance study and research capabilities.</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">International Collaborations</summary>
-        <p>We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.</p>
-      </details>
-      <details>
-        <summary className="text-lg font-[500]">Active Student Associations</summary>
-        <p>We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.</p>
-      </details>
+          <details>
+            <summary className="text-lg font-[500]">Experienced Staff</summary>
+            <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Peaceful and Serene Environment</summary>
+            <p>Our campus provides a tranquil and safe setting conducive to learning and research.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Dedicated and Friendly Staff Members</summary>
+            <p>Our staff is committed to supporting and guiding students through their academic journey.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Well-Equipped Research Facilities</summary>
+            <p>We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work (visit: www.iceesr.org.ng).</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Modern E-Resources</summary>
+            <p>We provide access to the latest e-resources in the university library to enhance study and research capabilities.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">International Collaborations</summary>
+            <p>We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.</p>
+          </details>
+          <details>
+            <summary className="text-lg font-[500]">Active Student Associations</summary>
+            <p>We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.</p>
+          </details>
         </div>
       </section>
-      <section className="w-11/12 mx-auto p-4 md:p-6 grid gap-4 grid-cols-1">
-      <h5 className="text-center text-primary  md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
-      Undergraduate and Postgraduate Programmes
+      <section className="w-11/12 mx-auto p-4 md:p-6 grid gap-4 grid-cols-1 my-16 bg-white leading-loose">
+        <h5 className="text-center text-primary md:w-[60%] lg:w-[80%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
+          Undergraduate and Postgraduate Programmes
         </h5>
         <div>
-        <p>The Department of Chemistry offers a Bachelor of Science (BSc) degree in Chemistry at the undergraduate level and Master of Science (MSc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.</p>
-        <Link href="/programmes/undergraduate"  className="border-0 w-1/6 !text-left !px-0 text-primary underline">
+          <p>The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.</p>
+          <Link href="/programmes/undergraduate" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
             Find out more
-        </Link>
+          </Link>
         </div>
 
       </section>
-      <section className="w-11/12 mx-auto p-4 md:p-6 ">
+      <hr />
+      <section className="w-11/12 mx-auto p-4 md:p-6 pb-14 ">
         <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto uppercase font-black text-[24px] md:text-[30px]">
           Meet our Staff
         </h5>
@@ -173,7 +174,7 @@ export default function Home() {
         </RouteLinkBtn>
       </section>
 
-      <div className="bg-white mt-10">
+      <div className="bg-white pt-10">
         <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
           <div className="grid place-items-center grid-cols-1 gap-10">
             <h1 className="text-center text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
@@ -197,7 +198,7 @@ export default function Home() {
             Take tour
           </RouteLinkBtn>
         </div>
-        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
+        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto pb-14">
           <div className="space-y-10 w-full">
             <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
               Recent Research Expeditions
