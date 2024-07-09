@@ -65,7 +65,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-6">
 
-        <div className="!flex items-center w-10/11 md:w-[60%] lg:w-[35%] p-6 text-primary">
+        <div className="!flex items-center w-10/12 md:w-[60%] lg:w-[35%] p-6 text-primary">
 
           <NavLink
             className="cursor-pointer hover:text-secondary transition-colors duration-300"
@@ -355,7 +355,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         </section>
       </div>
 
-      <div className="!flex items-center w-10/11 md:w-[50%] lg:w-[35%] p-6 text-primary">
+      <div className="!flex items-center w-10/12 md:w-[50%] lg:w-[35%] p-6 text-primary">
 
         <NavLink
           className="cursor-pointer hover:text-secondary transition-colors duration-300"
