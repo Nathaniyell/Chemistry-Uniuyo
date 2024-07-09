@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${raleway.variable} font-raleway antialiased`}>
-      <body className="scroll-smooth">
+      <body className="scroll-smooth !leading-loose">
         <Providers>
           <React.Suspense>
           <NavBar />
