@@ -60,13 +60,13 @@ export default function Section({
       )}
 
       <aside className="flex flex-col gap-4 items-center">
-        {search || filterby ? (
+        {(search || filterby) && (
           <p className="text-sm text-center mb-3">
             showing {filterArray.length} search{" "}
             {filterArray.length < 2 ? "result" : "results"} out of{" "}
             {cardsArray.length} research work
           </p>
-        ) : null}
+        )}
 
         <aside className="grid gap-6 gap-y-8 md:grid-cols-2 2xl:grid-cols-3">
           {displayFilteredCards}

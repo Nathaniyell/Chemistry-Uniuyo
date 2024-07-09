@@ -61,7 +61,7 @@ export default function Card({
       setCopied("not copied");
     }
 
-    setTimeout(() => setCopied("copy"), 5000);
+    setTimeout(() => setCopied("copy"), 4000);
   };
 
   const handleButtonClick = (a: string, d: string, p: string, t: string) => {
@@ -83,14 +83,14 @@ export default function Card({
   };
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden size-full">
       <m.div
         initial={d.initial}
         animate={!isResearchPage ? d.whileInView : undefined}
         whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
-        viewport={{ once: false }}
-        className={clsx("border border-gray-100 rounded hover:shadow from-2%")}
+        viewport={{ once: true }}
+        className="border border-gray-100 rounded hover:shadow from-2%"
       >
         <aside className="flex flex-col min-h-[400px] justify-around gap-3 p-2 xs:p-4 py-4 xs:py-6">
           <div className="flex gap-3 justify-between">
