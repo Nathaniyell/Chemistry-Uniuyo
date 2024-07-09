@@ -37,11 +37,11 @@ export const publications = [
   },
   {
     title:
-      "CHEMICAL",
+      "CHEMICAL CONSTITUENTS AND PHARMACOLOGICAL ACTIVITIES OF Lasianthera africana LEAVES",
     unit: "organic",
-    author: "Nsima Amos AKPAN",
+    author: "Desire ThankGod CHRISTOPHER",
     published_at: "JUNE 2023",
-    desc: ``,
+    desc: `Lasianthera africana is an edible vegetable frequently utilised in major cuisines of Southern Nigeria. The leaves of L. africana (dark glossy leaf variety) have traditional uses for the treatment of various diseases. The leaves of L. africana were evaluated for chemical composition, acute toxicity, anti-inflammatory, antinociceptive, and antioxidant activities using standard procedures. The crude extract was obtained with the use of methanol as extraction solvent; other extracts were successively extracted with solvents of different polarities (dichloromethane, ethyl acetate and methanol). The ethyl acetate extract of L. africana leaves was further purified with vacuum liquid chromatography (VLC) and open column chromatography (CC). Phytochemical screening of the crude methanol extract revealed the presence of saponins and tannins in high concentration; alkaloids, flavonoids, anthraquinones, and cardiac glycosides in moderate amount. The most abundant constituents in the gas chromatography-mass spectrometry of the dichloromethane extract (24 constituents), fixed oils obtained by VLC (46constituents) and CCsub-fractions of the ethyl acetate fraction (17 constituents), were 9-(z) octadecenamide (18.8 %), 1-nonadecene (13.2 %) and hexadecanoic acid, methyl ester (31.5 %), respectively. A median lethal dose (4740 mg/kg) was obtained for the crude methanol extract by oral route using albino mice. In the egg albumin-induced oedema assay, the crude methanol extract demonstrated 64 % oedema inhibition at low dose (474 mg/kg) and 66 % oedema inhibition at high dose (1422 mg/kg). In the acetic acid induced writhing model, the crude methanol extract exhibited 58 % pain inhibition at low dose (474 mg/kg) and 76 % pain inhibition at high dose (1422 mg/kg). The crude methanol extract (100 μg/mL) produced antioxidant activity (absorbance, 1.782) in ferric reducing power assay and also scavenged 90% of diphenyl-1-picrylhyrazyl free radicals. These results indicate that the leaves of L. africana (dark glossy leaf variety) are endowed with good anti-inflammatory, analgesic, and antioxidant constituents that deserve further purification to isolate the bioactive compounds.`,
     href: "https://drive.google.com/file/d/1y1KnXc3wuPe1d4kNdzm-FW_wO98Cciow/view",
   },
 ];
