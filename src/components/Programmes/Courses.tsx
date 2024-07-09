@@ -398,7 +398,7 @@ function SemesterCourseComponent({
               <td className="uppercase">{a.code}</td>
               <td>{a.title}</td>
               <td>{a.credit_hrs}</td>
-              {a.prerequisite && <td>a.prerequisite.toUpperCase()</td>}
+              <td>{a.prerequisite.toUpperCase() || "NIL"}</td>
               {/* <td>{a.desc}</td> */}
             </tr>
           ))}
