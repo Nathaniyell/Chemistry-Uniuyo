@@ -24,7 +24,7 @@ import basilIta from "@/public/images/teachingstaff/itaBasil.jpg"
 import emmadan from "@/public/images/teachingstaff/emmadan.jpg"
 import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
 import uwah from "@/public/images/teachingstaff/uwah.jpg"
-import ekeminituen from "@/public/images/teachingstaff/ekeminituen.png"
+import ekeminituen from "@/public/images/teachingstaff/ekeminituen.jpg"
 import emptyImg from "@/public/empty-user.jpg"
 
 
