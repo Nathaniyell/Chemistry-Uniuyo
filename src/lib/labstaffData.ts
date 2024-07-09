@@ -70,7 +70,7 @@ export const labStaffData = [
         image: [oluwatoyin, oluwatoyin2]
     },
     {
-        name: "Miss. Uduak Inoyo",
+        name: "Miss. Uyai Inoyo",
         role: "Laboratory Technician",
         qualifications: "HND (Microbiology), Heritage Polytechnic, Eket",
         image: [uyai, uyai3]
