@@ -16,58 +16,79 @@ import mrs from "@/public/images/lab-staff/mrs.jpg"
 export const labStaffData = [
     {
         name: "Mrs. Ubon Effiong",
-        role: "Chief Technologist",
+        role: "Principal Technologist",
         qualifications: "OND, HND (Chemistry), Akwa Ibom State Polytechnic, Ikot Osurua",
         image: []
     },
     {
-        name: "Mrs. Philomena Uffiah",
-        role: "Technologist",
-        qualifications: "OND, HND, NISLT (Chemistry / Biochemistry)",
-        image: [ufiah, ufiah2, ufiah3]
-    },
-    {
-        name: "Mrs. Ekaete Archibong",
-        role: "Technologist",
-        qualifications: "HND, NISLT (Microbiology)",
-        image: [ekaete, ekaete2]
-    },
-    {
         name: "Mrs. Uduak Ubit",
-        role: "Technologist",
+        role: "Senior Technologist",
         qualifications: "OND, HND (Chemistry)",
         image: [uduakUbit]
     },
     {
-        name: "Mrs. Oluwatoyin Akpabio",
+        name: "Mrs. Philomena Ufiah",
+        role: "Technologist I",
+        qualifications: "OND, HND, NISLT (Chemistry / Biochemistry)",
+        image: [ufiah, ufiah2, ufiah3]
+    },
+    {
+        name: "Mrs. Uduak Udoma",
         role: "Technologist",
+        qualifications: "Technologist I",
+        image: [mrs]
+    },
+    {
+        name: "Mrs. Ekaete Okpukpan",
+        role: "Technologist I",
+        qualifications: "HND, NISLT (Microbiology)",
+        image: [ekaete, ekaete2]
+    },
+    
+    {
+        name: "Uwem Bassey",
+        role: "Technologist II",
+        qualifications: "",
+        image: []
+    },
+    {
+        name: "Otobong Asuquo",
+        role: "Technologist II",
+        qualifications: "",
+        image: []
+    },
+    {
+        name: "Mr. Kokoette Okokon",
+        role: "Lab Supervisor",
+        qualifications: "OND, B.Sc (Chemistry)",
+        image: []
+    },
+    {
+        name: "Mrs. Oluwatoyin Akpabio",
+        role: "Lab Supervisor",
         qualifications: "",
         image: [oluwatoyin, oluwatoyin2]
     },
     {
         name: "Miss. Uduak Inoyo",
-        role: "Technologist",
+        role: "Laboratory Technician",
         qualifications: "HND (Microbiology), Heritage Polytechnic, Eket",
         image: [uyai, uyai3]
     },
     {
         name: "Mrs. Iniobong Archibong",
-        role: "Technologist",
+        role: "Laboratory Technician",
         qualifications: "HND (Biochemistry),Akwa Ibom State Polytechnic, Ikot Osurua",
         image: [iniobong]
     },
     {
-        name: "Mr. Kokoette Okokon",
-        role: "Technologist",
-        qualifications: "OND, B.Sc (Chemistry)",
+        name: "Dr. Itohowo Asuquo",
+        role: "Post Doctoral Fellow",
+        qualifications: "",
         image: []
     },
-    {
-        name: "Mrs. Uduak Udoma",
-        role: "Technologist",
-        qualifications: "",
-        image: [mrs]
-    },
+   
+
     {
         name: "Mrs. Glory James",
         role: "HOD's Secretary",
