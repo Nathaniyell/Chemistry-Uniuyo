@@ -131,11 +131,10 @@ export default function Card({
           <p className="font-semibold text-center">Abstract</p>
           <p
             className={clsx("text-base", {
-              "": isResearchPage,
+              "line-clamp-6": isResearchPage,
               "line-clamp-5": !isResearchPage,
             })}
           >
-            {" "}
             {desc}
           </p>
 
