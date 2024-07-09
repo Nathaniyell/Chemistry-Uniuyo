@@ -18,7 +18,7 @@ export default function ResourceDiv({
   images: string[] | StaticImageData[];
 }) {
   return (
-    <FramerAnimation className="flex flex-col items-center justify-center max-w-xl sm:max-w-md gap-6 shrink-0">
+    <FramerAnimation className="flex flex-col items-center justify-center w-11/12 mx-auto gap-6 shrink-0">
       <div className="text-center space-y-1">
         <h1 className="text-xl xs:text-2xl font-semibold">{heading}</h1>
 

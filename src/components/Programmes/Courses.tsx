@@ -64,7 +64,7 @@ export default function Courses({ Icon, heading, type = "bsc" }: CoursesProps) {
     <Div className="self-start bg-blue-50 flex-col my-12 overflow-hidden">
       <Div className="bg-white w-full items-center">
         <Icon className="w-8 text-xl bg-secondary rounded-full p-1 text-white" />
-        <h3 className="capitalize text-xl font-medium">{heading}</h3>
+        <h3 className="capitalize text-xl !font-bold">{heading}</h3>
       </Div>
 
       <CourseByLevel

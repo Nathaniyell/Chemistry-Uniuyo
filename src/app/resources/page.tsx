@@ -11,10 +11,9 @@ export const metadata: Metadata = {
 
 export default function ResourcePage() {
   return (
-    <main className="flex min-h-screen flex-col bg-slate-100 mt-5">
+    <main className="flex min-h-screen flex-col bg-slate-100 mt-5 !overflow-hidden">
       <section>
         <Header
-
           heading="Departmental Resources"
           tagline="The Department of Chemistry is committed to providing a wealth of
             resources to support the academic and professional growth of our
@@ -28,8 +27,8 @@ export default function ResourcePage() {
         <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
       </section>
 
-      <section className="xl:max-w-screen-2xl w-full mx-auto py-16">
-        <section className="grid place-items-center md:grid-cols-2 2xl:grid-cols-3 gap-14 w-full p-2">
+      <section className="w-11/12 mx-auto !py-10">
+        <section className="grid place-items-center grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-14 md:p-2">
           {allResources.map(({ heading, description, images }, index) => (
             <ResourceImage
               key={index}
@@ -40,7 +39,7 @@ export default function ResourcePage() {
           ))}
         </section>
       </section>
-      <FramerAnimation className="mb-5 w-[90%] mx-auto">
+      <FramerAnimation className="my-8 w-[90%] mx-auto pb-10">
         <h1 className="text-center text-primary md:w-[55%] lg:w-[60%] mx-auto font-bold text-[24px] md:text-[30px]">Other Resources</h1>
 
 <div className="flex flex-col gap-2">
@@ -55,7 +54,7 @@ export default function ResourcePage() {
           <li>Guidelines and Rules for students in the department of Chemistry</li>
          
         </ul>
-        <a href="#" download className="underline text-lg text-primary">Download here</a>
+        <a href="" download className="underline text-lg text-primary">Download here</a>
         </div>
       </FramerAnimation>
   
