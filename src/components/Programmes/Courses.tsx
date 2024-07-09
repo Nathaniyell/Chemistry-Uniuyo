@@ -317,15 +317,18 @@ const CourseByLevel = ({
 
       <section className="peer-checked:h-full h-0 p-0 flex flex-col gap-8 overflow-hidden transition-all duration-300">
         <SemesterCourseComponent
+          type={level}
           semester="first"
           semesterCourseArray={firstSemesterArray}
         />
         <SemesterCourseComponent
+          type={level}
           semester="second"
           semesterCourseArray={secondSemesterArray}
         />
         {thirdSemesterArray && (
           <SemesterCourseComponent
+            type={"postgraduate"}
             semester="third"
             semesterCourseArray={thirdSemesterArray}
           />
@@ -338,6 +341,7 @@ const CourseByLevel = ({
 function SemesterCourseComponent({
   semester,
   semesterCourseArray,
+  type,
 }: SemesterType) {
   return (
     <article className="xs:px-2 px-1">
@@ -381,7 +385,9 @@ function SemesterCourseComponent({
             <th className="min-w-[100px]">course code</th>
             <th className="min-w-[100px]">course title</th>
             <th className="min-w-[100px]">credit hours</th>
-            <th className="min-w-[100px]">pre-requisite</th>
+            {type?.includes("level") && (
+              <th className="min-w-[100px]">pre-requisite</th>
+            )}
             {/* <th className="min-w-[100px]">course description</th> */}
           </tr>
         </thead>
@@ -392,7 +398,7 @@ function SemesterCourseComponent({
               <td className="uppercase">{a.code}</td>
               <td>{a.title}</td>
               <td>{a.credit_hrs}</td>
-              <td>{a.prerequisite ? a.prerequisite.toUpperCase() : ""}</td>
+              {a.prerequisite && <td>a.prerequisite.toUpperCase()</td>}
               {/* <td>{a.desc}</td> */}
             </tr>
           ))}

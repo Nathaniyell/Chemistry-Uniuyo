@@ -20,6 +20,7 @@ export type CardsArrayType = {
 
 export type SemesterType = {
   semester: "first" | "second" | "third";
+  type?: string;
   semesterCourseArray: SemesterCourseArrayType[];
 };
 
