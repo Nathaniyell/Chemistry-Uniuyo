@@ -44,7 +44,7 @@ const HomeSections: React.FC<HomeSectionsProps> = ({
             {title}
           </h1>
         </span>
-        <p className="text-blue-900 leading-loose font-[500]" style={{ whiteSpace: 'pre-wrap' }}>
+        <p className="text-blue-900 leading-loose font-[500]" style={{ whiteSpace: 'pre-line' }}>
           {description
             ? description
             : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam porro assumenda, officia adipisci ea architecto suscipit quisquam, fugiat, enim recusandae quidem et quasi vitae maiores error doloribus itaque! Ipsum aperiam soluta velit impedit, mollitia temporibus voluptatibus earum sequi tenetur ullam. Impedit voluptate temporibus earum, dicta quae ad amet odio sequi iusto deleniti, reiciendis iure atque quia nobis incidunt commodi perspiciatis. Ex provident, obcaecati neque expedita adipisci quidem dolore dignissimos officiis earum atque omnis odio officia quasi possimus impedit ipsam!"}

@@ -1,4 +1,3 @@
-
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
 import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
 import shaibu from "../../public/images/teachingstaff/shaibuSE.jpg";
@@ -25,7 +24,9 @@ import basilIta from "@/public/images/teachingstaff/itaBasil.jpg"
 import emmadan from "@/public/images/teachingstaff/emmadan.jpg"
 import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
 import uwah from "@/public/images/teachingstaff/uwah.jpg"
+import ekeminituen from "@/public/images/teachingstaff/ekeminituen.png"
 import emptyImg from "@/public/empty-user.jpg"
+
 
 
 
@@ -86,7 +87,7 @@ const staffData: Lecturer[] = [
     unit: "Environmental / Analytical Chemistry",
     officeNo: "Room 152",
     profile:
-      "Edu Inam is an experienced and ambitious academic of the rank of a professor in analytical and environmental chemistry, with over 20 years in the university system across Africa, Europe and Asia. Edu Inam is very passionate about STEM education and the advancement of research and innovation in her country. She has championed and participated in several key research and innovation projects focused on environmental sustainability issues including water resources management, waste valorisation, and renewable energy. Edu Inam has extensive experience in environmental monitoring and analysis, pollution, ecological and human health risk, environmental projects design, data interpretation and compliance-related issues. She has clarity in communications, strong leadership qualities honed by experiences gathered from the various leadership roles undertaken during her academic career. Edu Inam is also passionate about developing young talents – She has over the years consistently inspired her students to reach their potentials",
+      "Edu Inam is an experienced and ambitious academic of the rank of a professor in analytical and environmental chemistry, with over 20 years in the university system across Africa, Europe and Asia. \n Edu Inam is very passionate about STEM education and the advancement of research and innovation in her country. She has championed and participated in several key research and innovation projects focused on environmental sustainability issues including water resources management, waste valorisation, and renewable energy. \n Edu Inam has extensive experience in environmental monitoring and analysis, pollution, ecological and human health risk, environmental projects design, data interpretation and compliance-related issues. She has clarity in communications, strong leadership qualities honed by experiences gathered from the various leadership roles undertaken during her academic career. \n Edu Inam is also passionate about developing young talents – She has over the years consistently inspired her students to reach their potentials",
     experience: [
       {
         title: "Head, Department of Chemistry, University of Uyo",
@@ -385,7 +386,7 @@ const staffData: Lecturer[] = [
     unit: "Analytical Chemistry",
     officeNo: "Room 004",
 
-    profile: "Imaobong Udousoro (PhD), an Associate Professor of analytical and environmental chemistry, specialises in investigating elemental composition within diverse ecological matrices, including air, soil, sediment, water, foods, plants, and herbal medicinal plants, addressing associated health and environmental risks. Her work also involves using biological indicators of pollution to monitor air and soil quality. Her most recent research on Space Technology combined with conventional analytical techniques in environmental pollution and degradation of the coastal area is ongoing.",
+    profile: "Imaobong Udousoro (PhD), an Associate Professor of analytical and environmental chemistry, specialises in investigating elemental composition within diverse ecological matrices, including air, soil, sediment, water, foods, plants, and herbal medicinal plants, addressing associated health and environmental risks. \n Her work also involves using biological indicators of pollution to monitor air and soil quality. Her most recent research on Space Technology combined with conventional analytical techniques in environmental pollution and degradation of the coastal area is ongoing.",
     experience: [
       {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
@@ -859,35 +860,84 @@ const staffData: Lecturer[] = [
     unit: "Organic Chemistry",
     officeNo: "Room 154",
 
-    profile: "",
+    profile: "Emmanuel Essien is a distinguished researcher specializing in the structure elucidation and biological activities of volatile and non-volatile secondary metabolites from aromatic and medicinal plants. His work spans both in vivo and in vitro studies, focusing on the synthesis and molecular docking of compounds with significant antidiabetic, anticancer, anti-inflammatory, antinociceptive, antimicrobial, and anti-ulcer properties \n Essien has made substantial contributions to the nutraceutical field, exploring the potential of medicinal plants in the formulation of beverages and capsules. His current research includes the isolation and characterization of bioactive compounds from the leaves of <i>Laisenthera africana</i>, <i>Heinsa crinata</i>, <i>Pterocarpus mildbreadii</i>, and <i>Eremomastx polysperma</i>. Additionally, he has developed functional herbal beverages from the leaves of <i>Justicia secunda</i> and the seeds of <i>Telfairia occidentalis</i>. \n Furthermore, Essien has investigated the volatile constituents of several under-utilized aromatic plants grown in Nigeria, highlighting their potential applications in various health-related formulations. His work not only advances scientific knowledge but also contributes to the development of new therapeutic agents and health-promoting products.",
     experience: [
       {
-        title: "",
-        year: "",
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "October 2017 – Date",
+      },
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2013 – September 2016",
+      },
+      {
+        title: "Lecturer I, Department of Chemistry, University of Uyo",
+        year: "October 2010 – September 2013",
+      },
+      {
+        title: "Lecturer II, Department of Chemistry, University of Uyo",
+        year: "September 2007 – September 2010",
+      },
+      {
+        title: "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "March 1, 2007 – September 28, 2007",
       },
     ],
     awards: [
       {
-        type: "",
-        awarder: "",
-        year: "",
+        type: "Institutional Based Research Grant",
+        awarder: "Tertiary Education Trust Fund (Tetfund)",
+        year: "2023",
+      },
+      {
+        type: "Institutional Based Research Grant",
+        awarder: "Tertiary Education Trust Fund (Tetfund)",
+        year: "2016",
+      },
+      {
+        type: "TWAS–ICCBS Postdoctoral Research Fellowship tenable at the International Centre for Chemical and Biological Sciences, University of Karachi, Karachi, Pakistan, ",
+        awarder: "TWAS–ICCBS",
+        year: "2015-2016",
       },
     ],
     researchAreas: ["Structure Elucidation and Biological Activities (in vivo / in vitro) of volatile and non volatile secondary metabolites of aromatic and medicinal plants", "Synthesis and Molecular docking studies with emphasis on antidiabetic, anticancer, anti-inflammatory, antinoceiceptive antimicrobial and anti-ulcer", "Nutraceutic Potentials of Medicinal Plants in the Formulation of Beverages and Capsules"],
     researchCollaborators: [
       {
-        title: "Africa Research and Innovation Partnership (“ARIP”) - 2023",
-        collaborator:
-          "Prof Kirk Semple Lancaster Environment Centre, Lancaster University, United Kingdom",
+        title: "Research Collaboration on the Characterization of Essential Oils from Nigerian Grown Aromatic Plants. (2014-Date)",
+        collaborator: "Prof. Emeritus William N. Setzer, Department of Chemistry, University of Alabama in Huntsville, USA",
       },
+      {
+        title: "Research Collaboration on the Characterization of Volatile and Non-volatile Secondary Metabolites Isolated from Medicinal Plants. (2017-Date)",
+        collaborator: "Prof. Guido Flamini and Prof. Marinella De Leo, Dipartmento di Farmacia, University of Pisa, Pisa, Italy",
+      }
     ],
     researchProjects: [
-      "Isolation and Characterization of bioactive compounds from Leaves extracts of Laisenthera africana, Heinsa crinata, Pterocarpus mildbreadii and Eremomastx polysperma", "Formulation of functional herbal beverages from Justicia secunda leaves and seeds of Telfairia occiedentals", "Volatile constituents of some under-utilized aromatic plants grown in Nigeria"
+      "Isolation and Characterization of bioactive compounds from Leaves extracts of <i>Laisenthera africana</i>, <i>Heinsa crinata</i>, <i>Pterocarpus mildbreadii</i> and <i>Eremomastx polysperma</i>",
+      "Formulation of functional herbal beverages from <i>Justicia secunda</i> leaves and seeds of <i>Telfairia occiedentals</i>",
+      "Volatile constituents of some under-utilized aromatic plants grown in Nigeria"
     ],
     publications: [
       {
-        title: "",
+        title: "Thomas, P. S., Essien, E. E. (2020). Antiglycation, antioxidant, and cytotoxic activities of Uvaria chamae root and essential oil composition. Natural Product Research, 34(6): 880-883."
       },
+      {
+        title: "Thomas, P. S., Essien, E. E., Udoh, A., Archibong, B., Akpan, O., Etukudo, E., De Leo, M., Eseyin, O., Flamini, G., Ajibesin, K. (2021). Isolation and characterization of anti-inflammatory and analgesic compounds from Uapaca staudtii Pax (Phyllanthaceae) stem bark. Journal of Ethnopharmacology, 269, 113737."
+      },
+      {
+        title: "Josiah, E., Essien, E. E., Thomas, P. S., Flamini, G. (2021). Chemical composition of the Dillenia indica L. fruit and Adonidia merrillii Becc. floral volatile metabolites. Chemistry of Natural Compounds, 57(1): 177-179."
+      },
+      {
+        title: "Umoh, U. F., Thomas, P. S., Essien, E. E., Okokon, J. E., de Leo, M., Ajibesin, K. K., Eseyin, O. A., Flamini, G. (2021). Isolation and characterisation of bioactive xanthones from Hippocratea africana (Wild) Loes. Ex Engl. (Celastraceae). Journal of Ethnopharmacology. 280, 114031."
+      },
+      {
+        title: "Oriakhi, K., Ibeji, C. U., Essien, E. E. Nkeiruka, E., Orumwemsodia, K., Uadia, P., Choudhary, M.I. (2021). The antiglycation activity of compounds isolated from antidiabetic Tetracera alnifolia stem bark: experimental and computational study. Journal of Biomolecular Structure and Dynamics. DOI: 10.1080/07391102.2021.1934542."
+      },
+      {
+        title: "Essien, E. E., Thomas, P. S., Ekanem, I. R., Choudhary, M. I. (2021). Isolation of 5-hydroxymethylfurfural, antiglycation, antihyperglycaemic, antioxidant, and cytotoxic effects of Garcinia kola Heckel root extracts and fractions. South African Journal of Botany, 140: 62-67."
+      },
+      {
+        title: "Essien, E. E., Antia, B. S., Etuk, E. I., David, E. M. (2021). Chemical composition of Livistonia chinensis and Areca catechu palm nuts. Chemistry of Natural Compounds, 57(6): 1184-1186."
+      }
     ],
   },
   {
@@ -1240,7 +1290,7 @@ const staffData: Lecturer[] = [
   {
     image: boEkom,
     title: "Dr.",
-    fullName: "ekerete jackson",
+    fullName: "ekerete boekom",
     email: ["ekereteboekom@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?hl=en&user=GJ6_8fwAAAAJ",
     scopus: "https://www.scopus.com/authid/detail.uri?authorId=8701608700",
@@ -1312,7 +1362,7 @@ const staffData: Lecturer[] = [
         year: "2008",
       },
     ],
-    researchAreas: ["Physical Chemistry", "Corrosion Inhibitors"],
+    researchAreas: ["Thermochemistry", "Electrochemistry", "Chemical Kinetics", "Surface Chemistry", "Computational Chemistry"],
     researchCollaborators: [
     
     ],
@@ -1733,40 +1783,151 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [emptyImg],
+    image: [ekeminituen],
     title: "Dr.",
     fullName: "ekemini ituen",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
+    email: ["ekeminiituen@uniuyo.edu.ng "],
+    googleScholar: "https://scholar.google.com/citations?user=coxyq5kAAAAJ&hl=en&oi=ao",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=57126213700",
+    orcid: "https://orcid.org/0000-0002-6029-523X",
     website: "",
     linkedIn: "",
     unit: "Physical Chemistry",
-    officeNo: "",
+    officeNo: "Room 227",
 
     profile: "",
     experience: [
       {
-        title: "",
-        year: "",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2021 - Date",
+      },
+      {
+        title: "Leader, Emerging Materials and Energy Research Group, University of Uyo.",
+        year: "2022 - Date",
+      },
+      {
+        title: "Lecturer I, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2018 - 2021",
+      },
+      {
+        title: "Visiting Researcher, School of Materials Science and Engineering, Southwest Petroleum University, Chengdu, China",
+        year: "2018 - 2019",
+      },
+      {
+        title: "Lecturer II, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2015 - 2018",
+      },
+      {
+        title: "PhD Exchange Student, China University of Petroleum, Qingdao, China",
+        year: "2015 - 2016",
+      },
+      {
+        title:
+          "Ph.D in Physical Chemistry, University of Port Harcourt, Nigeria",
+        year: "2017",
+      },
+   
+      {
+        title: "Assistant Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2012 - 2015",
+      },
+      {
+        title:
+          "M.Sc in Physical Chemistry, University of Ibadan, Nigeria",
+        year: "2011",
+      },
+      {
+        title:
+          "B.Sc in Applied Chemistry, University of Uyo, Nigeria",
+        year: "2006",
       },
     ],
     awards: [
       {
-        type: "",
-        awarder: "",
-        year: "",
+        type: "Research Grant",
+        awarder: "TETFUND",
+        year: "2023",
+      },
+      {
+        type: "Robert S. McNamara PhD Fellowship taken at China University of Petroleum, Qingdao, Shandong Province, China",
+        awarder: "World Bank",
+        year: "2015",
+      },
+      {
+        type: "Best Graduating Student in Physical Chemistry, Class of 2010",
+        awarder: "University of Ibadan, Nigeria",
+        year: "2011",
+      },
+      {
+        type: "University Honours Roll as Best Graduating Student in Faculty of Science, Class of 2001",
+        awarder: "University of Uyo, Nigeria",
+        year: "2008",
       },
     ],
-    researchAreas: [],
+    researchAreas: ["New materials for industrial, agricultural and energy applications", "Corrosion, electrochemistry and surface science", "Food and chemical toxicology", "Computational materials science"],
     researchCollaborators: [
-    
+      {
+        title: "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+        collaborator: "Southwest Petroleum University, Chengdu, China",
+      },
+      {
+        title: "African Centre of Excellence for Oilfield Chemicals Research",
+        collaborator: "University of Port Harcourt, Nigeria",
+      },
+      {
+        title: "School of Materials Chemistry and Physics",
+        collaborator: "China University of Petroleum, Qingdao, China.",
+      },
+      {
+        title: "State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences",
+        collaborator: "Chinese Academy of Sciences, Beijing, China",
+      },
+      {
+        title: "Center for Materials Science",
+        collaborator: "College of Science, Engineering and Technology, University of South Africa, South Africa.",
+      },
+      {
+        title: "Corrosion and Electrochemistry Group",
+        collaborator: "Department of Chemistry, Nagaland University, Lumami, India",
+      },
     ],
     publications: [
       {
-        title: "",
+        title: "Wu, Ziqi, Junjie Fan, Jianwen Hu, Wenqing Xie, Shuangqing Sun, Songqing Hu, Chunling Li, Zhikun Wang, Ekemini Ituen. Temperature-responsive salt-resistant poly (sulfobetaine methacrylate)-based emulsifiers for heavy oils. International Journal of Biological Macromolecules. 2024, 268, 131977.",
       },
+      {
+        title: "Ekemini Ituen, Lin Yuanhua, Chandrabhan Verma, Akram Alfantazi, Onyewuchi Akaranta, Eno Ebenso. Synthesis and Characterization of Walnut Husk Extract-Silver Nanocomposites for Removal of Heavy Metals from Petroleum Wastewater and Its Consequences on Pipework Steel Corrosion. Journal of Molecular Liquids. 2021, 335, 116132. "
+      },
+      {
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua. Inhibitive effect of onion mesocarp extract-nickel nanoparticles composite on simultaneous hydrogen production and pipework corrosion in 1 M HCl. International Journal of Hydrogen Energy. 2020, 45, 10814-10825." 
+      },
+      {
+        title: "Ekemini Ituen, Ekere Ekemini, Lin Yuanhua, Ruiyun Li, Ambrish Singh. Mitigation of microbial biodeterioration and acid corrosion of pipework steel using Citrus reticulata peels extract mediated copper nanoparticles composite. International Biodeterioration and Biodegradation. 2020, 149:104935" 
+      },
+      {
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua, Ruiyun Li. Synthesis and evaluation of anticorrosion properties of onion mesocarp-nickel nanocomposites on X80 steel in acidic cleaning solution. Journal of Materials Research and Technology. 2020, 9(3), 2832–2845" 
+      },
+      {
+        title: "Ambrish Singh, Kashif Ansari, Ekemini Ituen, Lei Guo, Md Abdul Wahab, M. A. Quraishi, Xingwei Kong, Yuanhua Lin. A new series of synthesized compounds as corrosion mitigator for storage tanks: Detailed electrochemical and theoretical investigations. Construction and Building Materials. 2020, 259, 120421." 
+      },
+      {
+        title: "Ekemini Ituen, Victor Mkpenie, Ekere Ekemini. Corrosion inhibition of X80 steel in simulated acid wash solution using glutathione and its blends: Experimental and theoretical studies. Colloids and Surfaces A: Physicochemical and Engineering Aspects. 2019, 578, 123597 " 
+      },
+      {
+        title: "Ekemini Ituen, Victor Mkpenie, Eno Moses, Ime Obot. Electrochemical kinetics, molecular dynamics, adsorption and anticorrosion behavior of melatonin biomolecule on steel surface in acidic medium. Bioelectrochemistry. 2019, 129, 42-53"
+      },
+      {
+        title: "Ekemini Ituen, Moses Solomon, Saviour Umoren, Onyewuchi Akaranta. Corrosion inhibition by amitriptyline and amitriptyline-based formulations for steels in simulated pickling and acidizing media. Journal of Petroleum Science and Engineering. 2019, 174: 984-996"
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Saviour Umoren. N-acetyl cysteine based corrosion inhibitor formulations for steel protection in 15% HCl solution. Journal of Molecular Liquids. 2017, 246:112-118."
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James, Shuangqin Sun. Green and sustainable local biomaterials for oilfield chemicals: Griffonia simplicifolia extract as steel corrosion inhibitor in hydrochloric acid. Sustainable Materials and Technologies. 2017, 11, 12–18."
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James. Green anticorrosive oilfield chemicals from 5-hydroxytryptophan and synergistic additives for X80 steel surface protection in acidic well treatment fluids. Journal of Molecular Liquids. 2016, 224. 408–419"
+      }
     ],
   },
   {

@@ -12,6 +12,7 @@ import Link from "next/link";
 import { Breadcrumbs, Button } from "@/components";
 import NavLink from "@/components/NavBar/NavLink";
 import { HomeIcon } from "@heroicons/react/16/solid";
+import { FaRankingStar } from "react-icons/fa6";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const router = useRouter();
@@ -64,7 +65,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-6">
 
-        <div className="!flex items-center w-10/11 md:w-[40%] lg:w-[35%] p-6 text-primary">
+        <div className="!flex items-center w-10/11 md:w-[60%] lg:w-[35%] p-6 text-primary">
 
           <NavLink
             className="cursor-pointer hover:text-secondary transition-colors duration-300"
@@ -101,18 +102,19 @@ export default function Page({ params }: { params: { slug: string } }) {
               </h1>
               <div className="flex flex-col lg:flex-row items-start justify-between lg:w-11/12 gap-8">
                
-                <div className="flex items-center gap-1 w-full">
-                  <p className="font-bold">Rank:</p>
+                <div className="flex items-start gap-3 w-full">
+                  <p className="font-bold flex items-center"><FaRankingStar /> &nbsp;Rank:</p>
                   {fullName === "edu inam" ? (
-                  experience.slice(0, 2).map((experience) => (
+                 <div className="flex flex-col gap-2">{experience.slice(0, 2).map((experience) => (
+               
                     <p
-                      className="mb-2"
                       key={experience.year}
                     >
                       {experience.title}
                     </p>
+               
                   ))
-                ) : (
+                }</div> ) : (
                   <p
                       className=""
                       key={experience[0].year}
@@ -128,7 +130,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                   <a
                     href={website}
                     target="_blank"
-                    className="flex items-center justify-between bg-white border border-gray-400 hover:bg-gray-800 transition-all duration-150 px-4 py-2 text-center text-slate-800 hover:text-white rounded-md shadow gap-2 lg:mx-auto mb-2 md:mb-0 ease-linear"
+                    className="flex items-center justify-between bg-white border hover:bg-primary transition-all duration-150 px-4 py-2 text-center text-primary hover:text-white rounded-md shadow gap-2 lg:mx-auto mb-2 md:mb-0 ease-linear lg:ml-5"
                   >
                     Website <MdArrowOutward className="text-xl self-start" />
                   </a>
@@ -144,14 +146,14 @@ export default function Page({ params }: { params: { slug: string } }) {
                     <a
                       key={emailAddress}
                       target="_blank"
-                      className="underline text-blue-600 active:text-red-500"
+                      className="underline text-blue-600 active:text-red-500 hover:text-red-500"
                       href={`mailto:${emailAddress}`}
                     >
                       {emailAddress}
                     </a>
                   ))
                 ) : (
-                  <a target="_blank" href={`mailto:${email}`}>
+                  <a target="_blank" className="underline text-blue-600 active:text-red-500 hover:text-red-500" href={`mailto:${email}`}>
                     {email}
                   </a>
                 )}
@@ -238,7 +240,8 @@ export default function Page({ params }: { params: { slug: string } }) {
                 <h4 className="capitalize font-bold text-xl text-primary ">
                   Overview
                 </h4>
-                <p className="text-zinc-700 text-[17px]">{profile}</p>
+                <p className="text-zinc-700 text-[17px] leading-loose" style={{ whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: profile }} />
+
               </div>
             )}
 
@@ -256,7 +259,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                     return (
                       <tr className="text-[17px]" key={index}>
                         <td className="p-1 md:p-2">{experience.year}</td>
-                        <td className="lg:w-5/6 p-1 md:p-2">
+                        <td className="p-1 md:p-2">
                           {experience.title}
                         </td>
                       </tr>
@@ -294,7 +297,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                       <tr className="text-[17px]">
                         <td className="p-1 md:p-2">{awards[0].year}</td>
                         <td colSpan={2} className="p-2">
-                          {awards[0].type} - {awards[0].awarder}
+                          {awards[0].type} &nbsp; &nbsp; - &nbsp; &nbsp; {awards[0].awarder}
                         </td>
                       </tr>
                     )}
@@ -352,7 +355,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         </section>
       </div>
 
-      <div className="!flex items-center w-10/11 md:w-[40%] lg:w-[35%] p-6 text-primary">
+      <div className="!flex items-center w-10/11 md:w-[50%] lg:w-[35%] p-6 text-primary">
 
         <NavLink
           className="cursor-pointer hover:text-secondary transition-colors duration-300"
