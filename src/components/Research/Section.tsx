@@ -68,7 +68,7 @@ export default function Section({
           </p>
         )}
 
-        <aside className="grid gap-6 gap-y-8 lg:grid-cols-2 2xl:grid-cols-3">
+        <aside className="space-y-8 max-w-screen-lg">
           {displayFilteredCards}
         </aside>
       </aside>
