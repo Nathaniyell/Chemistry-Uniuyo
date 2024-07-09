@@ -100,7 +100,7 @@ const staffData: Lecturer[] = [
       },
       {
         title:
-          "Full Professor of Chemistry, Department of Chemistry, University of Uyo",
+          "Professor of Chemistry, Department of Chemistry, University of Uyo",
         year: "2021 - present",
       },
       {
@@ -262,44 +262,6 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [profEnoMoses],
-    title: "Professor",
-    fullName: "eno moses",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Analytical Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
- 
-  {
     image: [emptyImg],
     title: "Professor",
     fullName: "bassey antia",
@@ -315,7 +277,45 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
+        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
         title: "",
+      },
+    ],
+  },
+  {
+    image: [profEnoMoses],
+    title: "Professor",
+    fullName: "eno moses",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Analytical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -328,7 +328,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-    
+
     ],
     publications: [
       {
@@ -336,6 +336,8 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+
+
   {
     image: [basilIta],
     title: "Professor",
@@ -352,7 +354,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "",
+        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -365,7 +367,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-    
+
     ],
     publications: [
       {
@@ -660,7 +662,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Trace Metals"],
     researchCollaborators: [
- 
+
     ],
     publications: [
       {
@@ -848,6 +850,43 @@ const staffData: Lecturer[] = [
     ],
   },
   {
+    image: [inemesitakpan],
+    title: "Dr.",
+    fullName: "inemesit akpan",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
     image: emmanuelEssien,
     title: "Dr.",
     fullName: "emmanuel essien",
@@ -938,6 +977,154 @@ const staffData: Lecturer[] = [
       {
         title: "Essien, E. E., Antia, B. S., Etuk, E. I., David, E. M. (2021). Chemical composition of Livistonia chinensis and Areca catechu palm nuts. Chemistry of Natural Compounds, 57(6): 1184-1186."
       }
+    ],
+  },
+  {
+    image: helenEtuk,
+    title: "Dr.",
+    fullName: "helen etuk",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [atimJohnson],
+    title: "Dr.",
+    fullName: "Atim Johnson",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [abakedi],
+    title: "Dr.",
+    fullName: "okon abakedi",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [imaobong, imaobong2, imaobong3],
+    title: "Dr.",
+    fullName: "imaobong daniel",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
     ],
   },
   {
@@ -1044,7 +1231,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Sorption Studies of Heavy Metal Cations", "Environmental Sustainability", "Physicochemical Studies"],
     researchCollaborators: [
-  
+
     ],
     publications: [
       {
@@ -1074,9 +1261,169 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [atimJohnson],
+    image: [itoroUdoh, itoroUdoh2],
     title: "Dr.",
-    fullName: "Atim Johnson",
+    fullName: "itoro udo",
+    email: ["itoroudo@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=3aThfCgAAAAJ",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=59119960000",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Industrial Chemistry",
+    officeNo: "Room 30",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "2014 - Date",
+      },
+      {
+        title: "Head Industrial Chemistry Unit, Department of Chemistry",
+        year: "2020 - Date",
+      },
+      {
+        title: "Departmental Coordinator, Intellectual Property and Technology Transfer Office (IPTTO)",
+        year: "2017 - Date",
+      },
+      {
+        title: "Ph.D Chemistry (Industrial Chemistry with Thesis in Hydrolysis and saponification products of Dacryodes edulis \(African Pear)\ stem exudates as sizing and binding agents in paper industry) , University of Port Harcourt, Nigeria",
+        year: "2012 - 2017",
+      },
+      {
+        title:
+          "M.Sc. Chemistry (Analytical Chemistry with Research in physicolchemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates) , University of Calabar, Nigeria",
+        year: "2006 - 2009",
+      },
+      {
+        title: "Coordinator: Chemistry Practical for Pre-degree and Basic Studies Programmes (University of Uyo)",
+        year: "2016 - 2022",
+      },
+      {
+        title: "HND (Science laboratory Technology, Chemistry/Biochemistry, Upper Credit)",
+        year: "2007",
+      },
+
+      {
+        title: "B.Sc (Chemistry)",
+        year: "2002",
+      },
+      {
+        title: "Assistant Lecturer, Department of Applied Chemistry (Veritas University Abuja)",
+        year: "2013 -2014",
+      },
+      {
+        title: "Technologist II, Department of Applied Chemistry (Veritas University Abuja)",
+        year: "2013 - 2014",
+      },
+      {
+        title: "Vice Principal Academics and Chemistry Teacher (Rowth Christian Academy, Uyo)",
+        year: "2003 - 2009",
+      },
+      {
+        title: "Chemistry Teacher - National Youth Service Corps (Senior Science College, Faskari, Katsina State)",
+        year: "January 2002 - December 2002",
+      },
+      {
+        title:
+          "Quality Control Analyst - SIWES (Central Research laboratory, University of Uyo)",
+        year: "2000 - 2001",
+      },
+    ],
+    awards: [
+      {
+        type: "Certificate of National Service",
+        awarder: "National Youth Service Corp (NYSC)",
+        year: "2002",
+      },
+
+      {
+        type: "Best Student in Science and Mathematics",
+        awarder: "Community Secondary School Idoro",
+        year: "1994",
+      },
+    ],
+    researchAreas: ["Production of pulp from non-woody materials of agriculturalwaste", " Production of biodegradable hydrophobic paper environmentally friendly food packing material to replace the plastics coating on the surface of paper", "Determination of properties of Epoxy composites filled with coconut husk"],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "Udo, I. E., Akpbio, U. D., and Akpakpan, A. E. (2012). Physicochemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates, Archives of Applied Science Research, 4(4): 1741 – 1747. ",
+      },
+      {
+        title: "Umoren, G. P., Udo, A. O., and Udo, I. E. (2023). Suitability of Lagenaria breviflora Rind filled plaster of Paris ceilings for building design, Research Journal of Science and Technology (REJOST), 3(2): 1-14.",
+      },
+      {
+        title: "Okon, I. E., Anweting, I. B., Udo, I. E. (2023). Investigation into some Physicochemical Parameters and Heavy Metal Status in Bread from Bakeries in Zaria, Journal of Material and Environmental Science, 14(6): 711 – 719.",
+      },
+      {
+        title: "Akpakpan, A. E, Inam, E. J., and Udo, I. E. (2023). Preparation, Chracterization and Application of Soda Lignin and its Ester Derivatives as Adsorbent in the Adsorption of Pb2+ and Cd2+ from wastewater, Journal of Material and Environmental Science, 14(1): 82-96.",
+      },
+      {
+        title: "Akpabio,U. D. Umoh, E. D., and Udo, I. E.  (2013). Acute Toxicity and Anti – Diabetic Studies of the Aqueous and Alcoholic Extracts of Phyllanthus amarus in Albino Rats, Elixir organic chemistry, 65: 20116 – 20121.",
+      },
+
+      {
+        title: "Akpabio,U. D., Akpakpan, A. E., Udo, I. E. and G. C. Nwokocha (2012). Comparative Studies on the Physicochemical Properties of Two Varieties of cassava Peels Manihot utilissima Pohl, International Journal of Environment and Bioenergy, USA, 2(1): 19 – 32.",
+      },
+
+      {
+        title: "Udoidong, A. A., Etuk, B. A. and Udo, I. E. (2014). Phytochemical and Chromatographic extract of Macedonia latifelia.  Advances in Applied Science Research, 5(1): 53 – 58",
+      },
+      {
+        title: "Udo I. E., Obuzor, G. U. and Horsfall, M. Jnr. (2016). Proximate and Phytochemical Studies of Exudate of Dacryodes edulis, Research Journal of Chemical Sciences, 6(3): 1 –9.",
+      },
+      {
+        title: "Udo, I. E., Obuzor, G U. And Horsfall, M. Jnr. (2016). Physicochemical characteristic of Exudate of Dacryodes edulis, Journal of Applied Science and Environmental Management, 20(1): 209 – 213.",
+      },
+      {
+        title: "Ita, B. N. and Udo, I. E. (2018). Total Phenolics, Flavonoids and Antioxidant activity of Icacina trichnatha tuber extracts, World Journal of Applied Science and Technology, 10 (1): 27 – 32.",
+      },
+    ],
+  },
+  {
+    image: [enin],
+    title: "Dr.",
+    fullName: "godwin enin",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [anweting],
+    title: "Dr.",
+    fullName: "idongesit anweting",
     email: [],
     googleScholar: "",
     scopus: "",
@@ -1089,7 +1436,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
         year: "",
       },
     ],
@@ -1102,81 +1449,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-     
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [nSimon],
-    title: "Dr.",
-    fullName: "Nzikhayel Simon",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
 
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-    
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [inemesitakpan],
-    title: "Dr.",
-    fullName: "inemesit akpan",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Physical Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      
     ],
     publications: [
       {
@@ -1288,6 +1561,45 @@ const staffData: Lecturer[] = [
     ],
   },
   {
+    image: [nSimon],
+    title: "Dr.",
+    fullName: "Nzikhayel Simon",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer , Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+
+
+  {
     image: boEkom,
     title: "Dr.",
     fullName: "ekerete boekom",
@@ -1364,7 +1676,7 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: ["Thermochemistry", "Electrochemistry", "Chemical Kinetics", "Surface Chemistry", "Computational Chemistry"],
     researchCollaborators: [
-    
+
     ],
     publications: [
       {
@@ -1399,389 +1711,7 @@ const staffData: Lecturer[] = [
       },
     ],
   },
-  {
-    image: [itoroUdoh, itoroUdoh2],
-    title: "Dr.",
-    fullName: "itoro udo",
-    email: ["itoroudo@uniuyo.edu.ng"],
-    googleScholar: "https://scholar.google.com/citations?hl=en&user=3aThfCgAAAAJ",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=59119960000",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Industrial Chemistry",
-    officeNo: "Room 30",
 
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "2014 - Date",
-      },
-      {
-        title: "Head Industrial Chemistry Unit, Department of Chemistry",
-        year: "2020 - Date",
-      },
-      {
-        title: "Departmental Coordinator, Intellectual Property and Technology Transfer Office (IPTTO)",
-        year: "2017 - Date",
-      },
-      {
-        title: "Ph.D Chemistry (Industrial Chemistry with Thesis in Hydrolysis and saponification products of Dacryodes edulis \(African Pear)\ stem exudates as sizing and binding agents in paper industry) , University of Port Harcourt, Nigeria",
-        year: "2012 - 2017",
-      },
-      {
-        title:
-          "M.Sc. Chemistry (Analytical Chemistry with Research in physicolchemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates) , University of Calabar, Nigeria",
-        year: "2006 - 2009",
-      },
-      {
-        title: "Coordinator: Chemistry Practical for Pre-degree and Basic Studies Programmes (University of Uyo)",
-        year: "2016 - 2022",
-      },
-      {
-        title: "HND (Science laboratory Technology, Chemistry/Biochemistry, Upper Credit)",
-        year: "2007",
-      },
-
-      {
-        title: "B.Sc (Chemistry)",
-        year: "2002",
-      },
-      {
-        title: "Assistant Lecturer, Department of Applied Chemistry (Veritas University Abuja)",
-        year: "2013 -2014",
-      },
-      {
-        title: "Technologist II, Department of Applied Chemistry (Veritas University Abuja)",
-        year: "2013 - 2014",
-      },
-      {
-        title: "Vice Principal Academics and Chemistry Teacher (Rowth Christian Academy, Uyo)",
-        year: "2003 - 2009",
-      },
-      {
-        title: "Chemistry Teacher - National Youth Service Corps (Senior Science College, Faskari, Katsina State)",
-        year: "January 2002 - December 2002",
-      },
-      {
-        title:
-          "Quality Control Analyst - SIWES (Central Research laboratory, University of Uyo)",
-        year: "2000 - 2001",
-      },
-    ],
-    awards: [
-      {
-        type: "Certificate of National Service",
-        awarder: "National Youth Service Corp (NYSC)",
-        year: "2002",
-      },
-
-      {
-        type: "Best Student in Science and Mathematics",
-        awarder: "Community Secondary School Idoro",
-        year: "1994",
-      },
-    ],
-    researchAreas: ["Production of pulp from non-woody materials of agriculturalwaste", " Production of biodegradable hydrophobic paper environmentally friendly food packing material to replace the plastics coating on the surface of paper", "Determination of properties of Epoxy composites filled with coconut husk"],
-    researchCollaborators: [
-    
-    ],
-    publications: [
-      {
-        title: "Udo, I. E., Akpbio, U. D., and Akpakpan, A. E. (2012). Physicochemical studies on the hydrolysis and saponification products of Dacryodes edulis exudates, Archives of Applied Science Research, 4(4): 1741 – 1747. ",
-      },
-      {
-        title: "Umoren, G. P., Udo, A. O., and Udo, I. E. (2023). Suitability of Lagenaria breviflora Rind filled plaster of Paris ceilings for building design, Research Journal of Science and Technology (REJOST), 3(2): 1-14.",
-      },
-      {
-        title: "Okon, I. E., Anweting, I. B., Udo, I. E. (2023). Investigation into some Physicochemical Parameters and Heavy Metal Status in Bread from Bakeries in Zaria, Journal of Material and Environmental Science, 14(6): 711 – 719.",
-      },
-      {
-        title: "Akpakpan, A. E, Inam, E. J., and Udo, I. E. (2023). Preparation, Chracterization and Application of Soda Lignin and its Ester Derivatives as Adsorbent in the Adsorption of Pb2+ and Cd2+ from wastewater, Journal of Material and Environmental Science, 14(1): 82-96.",
-      },
-      {
-        title: "Akpabio,U. D. Umoh, E. D., and Udo, I. E.  (2013). Acute Toxicity and Anti – Diabetic Studies of the Aqueous and Alcoholic Extracts of Phyllanthus amarus in Albino Rats, Elixir organic chemistry, 65: 20116 – 20121.",
-      },
-
-      {
-        title: "Akpabio,U. D., Akpakpan, A. E., Udo, I. E. and G. C. Nwokocha (2012). Comparative Studies on the Physicochemical Properties of Two Varieties of cassava Peels Manihot utilissima Pohl, International Journal of Environment and Bioenergy, USA, 2(1): 19 – 32.",
-      },
-
-      {
-        title: "Udoidong, A. A., Etuk, B. A. and Udo, I. E. (2014). Phytochemical and Chromatographic extract of Macedonia latifelia.  Advances in Applied Science Research, 5(1): 53 – 58",
-      },
-      {
-        title: "Udo I. E., Obuzor, G. U. and Horsfall, M. Jnr. (2016). Proximate and Phytochemical Studies of Exudate of Dacryodes edulis, Research Journal of Chemical Sciences, 6(3): 1 –9.",
-      },
-      {
-        title: "Udo, I. E., Obuzor, G U. And Horsfall, M. Jnr. (2016). Physicochemical characteristic of Exudate of Dacryodes edulis, Journal of Applied Science and Environmental Management, 20(1): 209 – 213.",
-      },
-      {
-        title: "Ita, B. N. and Udo, I. E. (2018). Total Phenolics, Flavonoids and Antioxidant activity of Icacina trichnatha tuber extracts, World Journal of Applied Science and Technology, 10 (1): 27 – 32.",
-      },
-    ],
-  },
-  {
-    image: helenEtuk,
-    title: "Dr.",
-    fullName: "helen etuk",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-     
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [imaobong, imaobong2, imaobong3],
-    title: "Dr.",
-    fullName: "imaobong daniel",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Organic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-   
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
- 
-  {
-    image: [anweting],
-    title: "Dr.",
-    fullName: "idongesit anweting",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-   
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [enin],
-    title: "Dr.",
-    fullName: "godwin enin",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Organic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-   
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [mkpenie],
-    title: "Dr.",
-    fullName: "victor mkpenie",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-  
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [abakedi],
-    title: "Dr.",
-    fullName: "okon abakedi",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Physical Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-      
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
-    image: [emmadan],
-    title: "Dr.",
-    fullName: "emmanuel dan",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Environmental Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-   
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
   {
     image: [ekeminituen],
     title: "Dr.",
@@ -1826,7 +1756,7 @@ const staffData: Lecturer[] = [
           "Ph.D in Physical Chemistry, University of Port Harcourt, Nigeria",
         year: "2017",
       },
-   
+
       {
         title: "Assistant Lecturer, Department of Chemistry, University of Uyo, Nigeria",
         year: "2012 - 2015",
@@ -1899,19 +1829,19 @@ const staffData: Lecturer[] = [
         title: "Ekemini Ituen, Lin Yuanhua, Chandrabhan Verma, Akram Alfantazi, Onyewuchi Akaranta, Eno Ebenso. Synthesis and Characterization of Walnut Husk Extract-Silver Nanocomposites for Removal of Heavy Metals from Petroleum Wastewater and Its Consequences on Pipework Steel Corrosion. Journal of Molecular Liquids. 2021, 335, 116132. "
       },
       {
-        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua. Inhibitive effect of onion mesocarp extract-nickel nanoparticles composite on simultaneous hydrogen production and pipework corrosion in 1 M HCl. International Journal of Hydrogen Energy. 2020, 45, 10814-10825." 
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua. Inhibitive effect of onion mesocarp extract-nickel nanoparticles composite on simultaneous hydrogen production and pipework corrosion in 1 M HCl. International Journal of Hydrogen Energy. 2020, 45, 10814-10825."
       },
       {
-        title: "Ekemini Ituen, Ekere Ekemini, Lin Yuanhua, Ruiyun Li, Ambrish Singh. Mitigation of microbial biodeterioration and acid corrosion of pipework steel using Citrus reticulata peels extract mediated copper nanoparticles composite. International Biodeterioration and Biodegradation. 2020, 149:104935" 
+        title: "Ekemini Ituen, Ekere Ekemini, Lin Yuanhua, Ruiyun Li, Ambrish Singh. Mitigation of microbial biodeterioration and acid corrosion of pipework steel using Citrus reticulata peels extract mediated copper nanoparticles composite. International Biodeterioration and Biodegradation. 2020, 149:104935"
       },
       {
-        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua, Ruiyun Li. Synthesis and evaluation of anticorrosion properties of onion mesocarp-nickel nanocomposites on X80 steel in acidic cleaning solution. Journal of Materials Research and Technology. 2020, 9(3), 2832–2845" 
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua, Ruiyun Li. Synthesis and evaluation of anticorrosion properties of onion mesocarp-nickel nanocomposites on X80 steel in acidic cleaning solution. Journal of Materials Research and Technology. 2020, 9(3), 2832–2845"
       },
       {
-        title: "Ambrish Singh, Kashif Ansari, Ekemini Ituen, Lei Guo, Md Abdul Wahab, M. A. Quraishi, Xingwei Kong, Yuanhua Lin. A new series of synthesized compounds as corrosion mitigator for storage tanks: Detailed electrochemical and theoretical investigations. Construction and Building Materials. 2020, 259, 120421." 
+        title: "Ambrish Singh, Kashif Ansari, Ekemini Ituen, Lei Guo, Md Abdul Wahab, M. A. Quraishi, Xingwei Kong, Yuanhua Lin. A new series of synthesized compounds as corrosion mitigator for storage tanks: Detailed electrochemical and theoretical investigations. Construction and Building Materials. 2020, 259, 120421."
       },
       {
-        title: "Ekemini Ituen, Victor Mkpenie, Ekere Ekemini. Corrosion inhibition of X80 steel in simulated acid wash solution using glutathione and its blends: Experimental and theoretical studies. Colloids and Surfaces A: Physicochemical and Engineering Aspects. 2019, 578, 123597 " 
+        title: "Ekemini Ituen, Victor Mkpenie, Ekere Ekemini. Corrosion inhibition of X80 steel in simulated acid wash solution using glutathione and its blends: Experimental and theoretical studies. Colloids and Surfaces A: Physicochemical and Engineering Aspects. 2019, 578, 123597 "
       },
       {
         title: "Ekemini Ituen, Victor Mkpenie, Eno Moses, Ime Obot. Electrochemical kinetics, molecular dynamics, adsorption and anticorrosion behavior of melatonin biomolecule on steel surface in acidic medium. Bioelectrochemistry. 2019, 129, 42-53"
@@ -1931,16 +1861,54 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [emptyImg],
+    image: [mkpenie],
     title: "Dr.",
-    fullName: "enobong david",
+    fullName: "victor mkpenie",
     email: [],
     googleScholar: "",
     scopus: "",
     orcid: "",
     website: "",
     linkedIn: "",
-    unit: "Organic Chemistry",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Lecturer I, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+
+  {
+    image: [emmadan],
+    title: "Dr.",
+    fullName: "emmanuel dan",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Environmental Chemistry",
     officeNo: "",
 
     profile: "",
@@ -1959,7 +1927,45 @@ const staffData: Lecturer[] = [
     ],
     researchAreas: [],
     researchCollaborators: [
-    
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+
+  {
+    image: [emptyImg],
+    title: "Dr.",
+    fullName: "enobong david",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Organic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Lecturer II, Department of Chemistry, University of Uyo, Nigeria",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
     ],
     publications: [
       {
