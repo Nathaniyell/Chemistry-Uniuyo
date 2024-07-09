@@ -8,6 +8,8 @@ import LabStaff from "../../../../public/images/staffLab.jpg";
 import GroupStaff from "../../../../public/images/chemistry_lab/group-staff.jpg";
 import { Breadcrumbs, Header } from "@/components";
 import FramerAnimation from "@/utils/framer-animation";
+import Link from "next/link";
+import { MdEmail } from "react-icons/md";
 
 export default function TeachingStaffPage() {
   const router = useRouter();
@@ -33,7 +35,7 @@ export default function TeachingStaffPage() {
 
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
-            ({ fullName, title, image, unit, experience }, index) => {
+            ({ fullName, title, image, unit, experience,email }, index) => {
               let bgColor;
               switch (unit) {
                 case "Organic Chemistry":
@@ -85,9 +87,13 @@ export default function TeachingStaffPage() {
                     )}
                   </div>
                   <div className="p-2 mt-2 grid grid-cols-1 gap-2 ">
+                    <div className="flex items-center justify-between gap-4">
+
                     <h2 className="text-xl text-blue-800 font-bold mb-1 capitalize">
                       {title + " " + fullName}
                     </h2>
+                    {/* <Link href={`mailto:${email}`}> <MdEmail size={18} className="text-primary" /> </Link> */}
+                    </div>
                     <p className="text-zinc-700 text-[17px]">
                       {experience[0].title}
                     </p>

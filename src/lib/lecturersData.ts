@@ -1032,7 +1032,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1069,7 +1069,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1106,7 +1106,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1399,7 +1399,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1436,7 +1436,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1576,7 +1576,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer , Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer , Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1728,7 +1728,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "2021 - Date",
       },
       {
@@ -1876,7 +1876,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Lecturer I, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Lecturer I, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1952,7 +1952,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Lecturer II, Department of Chemistry, University of Uyo, Nigeria",
+        title: "Lecturer II, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
