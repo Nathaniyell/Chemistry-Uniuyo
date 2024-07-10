@@ -61,7 +61,7 @@ export default function Card({
       setCopied("not copied");
     }
 
-    setTimeout(() => setCopied("copy"), 5000);
+    setTimeout(() => setCopied("copy"), 4000);
   };
 
   const handleButtonClick = (a: string, d: string, p: string, t: string) => {
@@ -83,14 +83,14 @@ export default function Card({
   };
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden size-full">
       <m.div
         initial={d.initial}
         animate={!isResearchPage ? d.whileInView : undefined}
         whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
-        viewport={{ once: false }}
-        className={clsx("border border-gray-100 rounded hover:shadow from-2%")}
+        viewport={{ once: true }}
+        className="border border-gray-100 rounded hover:shadow from-2%"
       >
         <aside className="flex flex-col min-h-[400px] justify-around gap-3 p-2 xs:p-4 py-4 xs:py-6">
           <div className="flex gap-3 justify-between">
@@ -129,7 +129,14 @@ export default function Card({
             <PubInfo text={published_at} Icon={CalendarDaysIcon} />
           </div>
           <p className="font-semibold text-center">Abstract</p>
-          <p className="text-base line-clamp-5"> {desc}</p>
+          <p
+            className={clsx("text-base", {
+              "line-clamp-6": isResearchPage,
+              "line-clamp-5": !isResearchPage,
+            })}
+          >
+            {desc}
+          </p>
 
           <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
             {isResearchPage && (
@@ -146,7 +153,6 @@ export default function Card({
             <a
               href={href ?? ""}
               target="__blank"
-              download
               className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-6 text-sm active:scale-105 transition-all duration-300"
             >
               Download this
