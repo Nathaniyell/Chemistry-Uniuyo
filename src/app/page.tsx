@@ -98,42 +98,44 @@ export default function Home() {
         <h5 className="text-center text-primary md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
           Why Study Chemistry at the University of Uyo?
         </h5>
-        <div className="my-6 w-11/12 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-4">
+        <div className="my-6 w-11/12 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-12">
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">Experienced Staff</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Experienced Staff</summary>
             <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
-            
+            <Link href="/staff/teach-staff" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
+            Find out more
+          </Link>            
           </details>
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">Peaceful and Serene Environment</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Peaceful and Serene Environment</summary>
             <p>Our campus provides a tranquil and safe setting conducive to learning and research.</p>
           </details>
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">Dedicated and Friendly Staff Members</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Dedicated and Friendly Staff Members</summary>
             <p>Our staff is committed to supporting and guiding students through their academic journey.</p>
             <Link href="/staff/teach-staff" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
             Find out more
           </Link>
           </details>
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">Well-Equipped Research Facilities</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Well-Equipped Research Facilities</summary>
             <p>We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work visit:   <Link href="www.iceesr.org.ng" target="_blank" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
             ICEESR
           </Link> .</p>
           </details>
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">Modern E-Resources</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Modern E-Resources</summary>
             <p>We provide access to the latest e-resources in the university library to enhance study and research capabilities.</p>
             <Link href="/resources" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
             Find out more
           </Link>
           </details>
           <details>
-            <summary className="text-lg font-[500] text-secondary cursor-pointer">International Collaborations</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">International Collaborations</summary>
             <p>We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.</p>
           </details>
           <details>
-            <summary className="text-lg font-[500]">Active Student Associations</summary>
+            <summary className="text-xl font-bold text-secondary cursor-pointer">Active Student Associations</summary>
             <p>We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.</p>
           </details>
         </div>
