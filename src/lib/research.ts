@@ -4,7 +4,7 @@ export const publications = [
       "CHEMICAL COMPOSITION AND BIOLOGICAL ACTIVITIES OF Uvaria chamae SEED OIL",
     unit: "organic",
     author: "Oduduatta Essien EKANEM",
-    supervisor: "",
+    supervisor: "Prof. Bassey S. Antia",
     type: "msc",
     published_at: "JUNE 2023",
     desc: `Plants contain a reservoir of phytochemicals which are responsible for the treatment of several diseases including oxidative stress related diseases among others. Oxidative stress stems from an imbalance between the production and accumulation of oxidant species and a biological system's ability to readily detoxify the reactive intermediates (radicals) or easily restore the resulting damage. This poses severe injury to cellular systems and threatens an organism's health, leading to many chronic diseases such as diabetes, cancer, hypertension, ageing, Alzheimer's disease, and cardiovascular diseases. Other effect due to oxidative stress damage include atherosclerosis, rheumatoid arthritis, post-ischemic perfusion injury, myocardial infarction, chronic inflammation, stroke and septic shock, ageing and other degenerative diseases in humans. To counter this decay, researchers have now sought antioxidants of plant origin and have reported their potential against reactive oxygen species.`,
@@ -13,9 +13,9 @@ export const publications = [
   {
     title:
       "EVALUATION OF THE PROPERTIES OF Luffa cylindrica (SPONGE GOURD) FRUIT FIBRE AND Zea mays (MAIZE) HUSK AS POTENTIAL BIOPLASTICS RAW MATERIALS",
-    unit: "environmental",
+    unit: "polymer",
     author: "Roland Nzan OGAR",
-    supervisor: "",
+    supervisor: "Prof. Ukana D. Akpabio",
     type: "msc",
     published_at: "JULY 2023",
     desc: `There has been an increase in the requirements for plastics because of its cost effectiveness, lighter weight compared to other materials such as metals and ceramics, waterproof nature, and strength. In addition to these advantages, plastics exhibit disadvantages of difficulty in rapid decomposition and non-renewability, possibly leading to environmental pollution. A general solution to solve this issue involves the use of biodegradable polymers as the main ingredient in preparing plastics; Cellulose can be the main choice as raw materials for making bioplastics because the source of cellulose can be obtained from waste so that it can also be a solution to overcome environmental problems.`,
@@ -24,10 +24,10 @@ export const publications = [
   {
     title:
       "TRIPARTITE MAGNETIC MONTMORILLONITE NANOCOMPOSITE FOR REMOVAL OF BISPHENOL A, NICKEL, CADMIUM AND LEAD IONS FROM INDUSTRIAL EFFLUENTS",
-    unit: "environmental",
+    unit: "industrial",
     author: "Okon Edem OKON",
-    supervisor: "",
-    type: "msc",
+    supervisor: "Prof. Ukana D. Akpabio",
+    type: "phd",
     published_at: "JULY 2023",
     desc: `The removal of Bisphenol A. Ni, Cd and Pb ions onto unmodified montmorillonite (MM), doped titanium nanocomposite (DTC) and tripartite magnetic montmorillonite nanocomposite (TMC) was investigated. The nanocomposites were prepared by in-situ reduction with iron salts followed by chemical impregnation by Sol-Gel method and subsequently coupled by chemical precipitation to form the TMC. Relevant spectroscopic methods were also employed for characterization. The modified clays showed magnetic properties with FTIR result, revealing new reflections at 1990 cm for NCS (isocyanate). Similarly, the tripartite magnetic nanocomposite had new reflections at 1032 cm' for cyanide (-OCN), 1625 cm" for open chain azo (-N-N-), and 2050 cm" for transition metal carbonyl (-M-CO-). XRD analysis revealed interlayer spacing (1.67-1.71 nm). BET surface area were respectively 90.39, 210.72 and 288.08 m2/g and adsorption capacities of 81.48, 82.27 and 91.05% for MM, DTC and TMC. The tripartite magnetic composite also had higher adsorption and photodegradation capacity (96.21%) towards the organic pollutant compared to unmodified clay (22.99% ). Adsorption data were best fitted with Freundlich isotherm model revealing multilayer coverage as predominant mechanism of adsorption. Kinetic mechanism was predominantly pseudo-second-order, revealing chemisorption process. The thermodynamic studies confirmed that the process of adsorption was exothermic and spontaneous with negative standard enthalpy and Gibb's free energy (-58.21 kJ/mol) at 30°C. Similar trends were observed for metal ions adsorption. Modification imparted cationic and aromatic moiety onto the montmorillonite thus increasing pollutant-adsorbent interactions and enhanced adsorption of BPA and metal ions in a simulated industrial effluent. In a continuous plug flow column, the tripartite magnetic composite demonstrated longer breakthrough and exhaustion time (19, 45 hours respectively), compared to the conventional adsorbents (2, 21 and 5, 29 hours respectively) for BPA adsorption from simulated effluent. Similar trend was also observed for real effluent. Adams-Bohart isotherm showed highest adsorption capacity of 120.28 mg/g for simulated effluent and 29.60 mg/g for real effluent. In both real and simulated effluents, bed volume was highest with TMC and revealed that the prepared tripartite nanocomposite is an efficient alternative adsorbent and can compete with commercially available adsorbents.`,
     href: "https://drive.google.com/file/d/1uUDL5LtZ8Y6am7GwODNvBOGNPq-CrhHM/view",
@@ -48,7 +48,7 @@ export const publications = [
       "CHEMICAL CONSTITUENTS AND PHARMACOLOGICAL ACTIVITIES OF Lasianthera africana LEAVES",
     unit: "organic",
     author: "Desire ThankGod CHRISTOPHER",
-    supervisor: "",
+    supervisor: "Associate Prof. Emmanuel E. Essien",
     type: "msc",
     published_at: "JUNE 2023",
     desc: `Lasianthera africana is an edible vegetable frequently utilised in major cuisines of Southern Nigeria. The leaves of L. africana (dark glossy leaf variety) have traditional uses for the treatment of various diseases. The leaves of L. africana were evaluated for chemical composition, acute toxicity, anti-inflammatory, antinociceptive, and antioxidant activities using standard procedures. The crude extract was obtained with the use of methanol as extraction solvent; other extracts were successively extracted with solvents of different polarities (dichloromethane, ethyl acetate and methanol). The ethyl acetate extract of L. africana leaves was further purified with vacuum liquid chromatography (VLC) and open column chromatography (CC). Phytochemical screening of the crude methanol extract revealed the presence of saponins and tannins in high concentration; alkaloids, flavonoids, anthraquinones, and cardiac glycosides in moderate amount. The most abundant constituents in the gas chromatography-mass spectrometry of the dichloromethane extract (24 constituents), fixed oils obtained by VLC (46constituents) and CCsub-fractions of the ethyl acetate fraction (17 constituents), were 9-(z) octadecenamide (18.8 %), 1-nonadecene (13.2 %) and hexadecanoic acid, methyl ester (31.5 %), respectively. A median lethal dose (4740 mg/kg) was obtained for the crude methanol extract by oral route using albino mice. In the egg albumin-induced oedema assay, the crude methanol extract demonstrated 64 % oedema inhibition at low dose (474 mg/kg) and 66 % oedema inhibition at high dose (1422 mg/kg). In the acetic acid induced writhing model, the crude methanol extract exhibited 58 % pain inhibition at low dose (474 mg/kg) and 76 % pain inhibition at high dose (1422 mg/kg). The crude methanol extract (100 μg/mL) produced antioxidant activity (absorbance, 1.782) in ferric reducing power assay and also scavenged 90% of diphenyl-1-picrylhyrazyl free radicals. These results indicate that the leaves of L. africana (dark glossy leaf variety) are endowed with good anti-inflammatory, analgesic, and antioxidant constituents that deserve further purification to isolate the bioactive compounds.`,
@@ -70,7 +70,7 @@ export const publications = [
   {
     title:
       "Preparation, Characterization and Application of Lignin and Lignin Esters from Gmelina wood as Bioadsorbent for the Treatment of Gold Mining Effluents",
-    unit: "organic",
+    unit: "industrial",
     author: "Aniekan Effiong AKPAKPAN",
     supervisor: "Prof. Ukama D. Akpabio",
     type: "phd",

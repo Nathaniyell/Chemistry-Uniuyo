@@ -1,7 +1,7 @@
-import cecilia1 from "@/public/images/chemistry_lab/cecilia1.jpg"
+import cecilia1 from "@/public/images/chemistry_lab/cecilia1.jpg";
 import sendforth1 from "../../public/images/Sendforth/sendforth_profs.jpg";
 import classO18 from "../../public/images/Graduation/class018.jpg";
-import scsnTradefair from "@/public/images/scsn-tradefair/scsn00.jpg"
+import scsnTradefair from "@/public/images/scsn-tradefair/scsn00.jpg";
 
 import student1 from "../../public/images/CHMs1.webp";
 import student2 from "../../public/images/CHMs2.webp";
@@ -9,22 +9,23 @@ import student3 from "../../public/images/CHMs3.webp";
 import student4 from "../../public/images/CHMs4.webp";
 import student5 from "../../public/images/CHMs5.webp";
 import student6 from "../../public/images/staff-student.jpg";
-import sug1 from "@/public/images/SUG/SUG1.jpg"
-import acs1 from "@/public/images/acs/acs1.jpg"
+import sug1 from "@/public/images/SUG/SUG1.jpg";
+import acs1 from "@/public/images/acs/acs1.jpg";
 
 import staff2 from "../../public/images/sshaibu.jpg";
 import staff5 from "@/public/images/teachingstaff/iniu.jpg";
 import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
-import phd from "@/public/images/phd_student.jpg"
-import safety from "@/public/images/safety/saftey1.jpg"
+import phd from "@/public/images/phd_student.jpg";
+import safety from "@/public/images/safety/saftey1.jpg";
 
 export const chemistryUnits = [
   "organic",
   "inorganic",
   "physical",
   "analytical",
+  "industrial",
   "environmental",
   "polymer",
 ];
@@ -55,7 +56,8 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair",
+    title:
+      "Students` Chemical Society of Nigeria (Uniuyo Chapter) Organizes Tradefair",
     description: "",
 
     image: scsnTradefair,
@@ -69,7 +71,8 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Chemistry student elected as first Students' Union President from Faculty of Science",
+    title:
+      "Chemistry student elected as first Students' Union President from Faculty of Science",
     description: "",
 
     image: sug1,
@@ -83,14 +86,16 @@ const homeData: HomeDataItem[] = [
     btnLink: "/recent-news",
   },
   {
-    title: "Breaking News: Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
+    title:
+      "Breaking News: Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
     description: "",
 
     image: phd,
     btnLink: "/recent-news",
   },
   {
-    title: "The Department of Chemistry organizes Fire and Safety Training for Staff and Technologists",
+    title:
+      "The Department of Chemistry organizes Fire and Safety Training for Staff and Technologists",
     description: "",
 
     image: safety,
