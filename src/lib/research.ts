@@ -81,7 +81,7 @@ export const publications = [
   {
     title: "",
     unit: "",
-    author: "",
+    author: "organic",
     supervisor: "",
     type: "phd",
     published_at: "APRIL 2023",
