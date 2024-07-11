@@ -1,5 +1,5 @@
 export { allResources } from "./resources";
-export { RecentNews } from "./RecentNews";
+export { RecentNews } from "./recentNews";
 export {
   default as homeData,
   homeStaffData,
