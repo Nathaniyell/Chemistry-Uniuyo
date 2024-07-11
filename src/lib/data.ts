@@ -20,17 +20,15 @@ import { StaticImageData } from "next/image";
 import phd from "@/public/images/phd_student.jpg"
 import safety from "@/public/images/safety/saftey1.jpg"
 
-
-
-
-
 export const chemistryUnits = [
   "organic",
   "inorganic",
   "physical",
   "analytical",
   "environmental",
+  "polymer",
 ];
+
 interface HomeDataItem {
   image: StaticImageData;
   title: string;
