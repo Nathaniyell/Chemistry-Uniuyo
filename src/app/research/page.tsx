@@ -34,7 +34,6 @@ export default async function Research({
         }
       >
         <ReSection
-          type=""
           cardsArray={publications}
           filterButtonArray={chemistryUnits}
           filterby={filterby || ""}

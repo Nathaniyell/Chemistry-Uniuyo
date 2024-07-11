@@ -3,7 +3,6 @@ import { Card, FilterButton, Pagination, Search } from "@/components";
 import { SectionProps } from "@/types";
 
 export default function Section({
-  type,
   filterButtonArray,
   filterby,
   search,
@@ -23,7 +22,8 @@ export default function Section({
           c.title.toLowerCase().includes(search.toLowerCase()) ||
           c.desc.toLowerCase().includes(search.toLowerCase()) ||
           c.author.toLowerCase().includes(search.toLowerCase()) ||
-          c.published_at.toLowerCase().includes(search.toLowerCase())
+          c.published_at.toLowerCase().includes(search.toLowerCase()) ||
+          c.type.toLowerCase().includes(search.toLowerCase())
       )
     : filterby
     ? cardsArray.filter((c) => c.unit === filterby)
@@ -31,30 +31,33 @@ export default function Section({
 
   const displayFilteredCards = filterArray
     .slice(firstPostIndex, lastPostIndex)
-    .map(({ title, unit, author, published_at, desc, href }, i) => (
-      <Card
-        key={i}
-        type={type}
-        title={title}
-        unit={unit ? unit : ""}
-        author={author}
-        published_at={published_at}
-        desc={desc}
-        href={href}
-      />
-    ));
+    .map(
+      (
+        { title, unit, author, published_at, desc, href, supervisor, type },
+        i
+      ) => (
+        <Card
+          key={i}
+          type={type}
+          title={title}
+          unit={unit ? unit : ""}
+          author={author}
+          supervisor={supervisor}
+          published_at={published_at}
+          desc={desc}
+          href={href}
+        />
+      )
+    );
 
   return (
-    <section
-      id={type}
-      className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50 mb-14"
-    >
+    <section className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50 mb-14">
       {isMainPage && (
         <div className="w-full flex flex-col gap-3 lg:gap-5 border-b border-blue-50 p-2 my-4">
           <div className="w-full flex flex-col-reverse lg:flex-row justify-between gap-4 my-4">
             {filterButtonArray && <FilterButton array={filterButtonArray} />}
 
-            <Search placeholder="Search" />
+            <Search placeholder="Search research... try typing msc or phd" />
           </div>
         </div>
       )}

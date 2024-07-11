@@ -21,6 +21,7 @@ type CardProps = {
   title: string;
   unit: string;
   author: string;
+  supervisor: string;
   published_at: string;
   desc: string;
   href?: string;
@@ -32,6 +33,7 @@ export default function Card({
   title,
   unit,
   author,
+  supervisor,
   published_at,
   desc,
   href,
@@ -41,7 +43,7 @@ export default function Card({
 
   const [copied, setCopied] = React.useState("copy");
 
-  const currentPage = searchParams.get("currentPage") ?? 1;
+  const currentPage = searchParams.get("currentPage") || 1;
 
   const q_author = searchParams.get("author");
   const q_desc = searchParams.get("desc");
@@ -124,10 +126,21 @@ export default function Card({
             )}
           </div>
 
-          <div className="flex gap-4 my-2">
-            <PubInfo text={author} Icon={UserCircleIcon} />
-            <PubInfo text={published_at} Icon={CalendarDaysIcon} />
-          </div>
+          <section className="mb-2 space-y-1">
+            {/* <p>{type === "phd" ? "A Ph.D Thesis" : "An M.Sc dissertation"}</p> */}
+
+            <div className="flex gap-4">
+              <PubInfo text={`Author: ${author}`} Icon={UserCircleIcon} />
+              <PubInfo text={published_at} Icon={CalendarDaysIcon} />
+            </div>
+            <div className="flex gap-4">
+              <PubInfo
+                text={`Supervisor: ${supervisor}`}
+                Icon={UserCircleIcon}
+              />
+            </div>
+          </section>
+
           <p className="font-semibold text-center">Abstract</p>
           <p
             className={clsx("text-base", {
