@@ -103,6 +103,7 @@ export default function Card({
                 "text-green-600": unit === "organic",
                 "text-secondary": unit === "inorganic",
                 "text-gray-800": unit === "analytical",
+                "text-amber-800": unit === "analytical",
               })}
             >
               {title}
@@ -118,6 +119,7 @@ export default function Card({
                     "border-green-300 text-green-600": unit === "organic",
                     "border-orange-300 text-secondary": unit === "inorganic",
                     "border-gray-300 text-gray-800": unit === "analytical",
+                    "border-amber-300 text-amber-800": unit === "polymer",
                   }
                 )}
               >

@@ -53,7 +53,7 @@ export default function Section({
   return (
     <section className="flex flex-col items-center gap-5 p-4 container overflow-hidden border-spacing-36 border-b border-blue-50 mb-14">
       {isMainPage && (
-        <div className="w-full flex flex-col gap-3 lg:gap-5 border-b border-blue-50 p-2 my-4">
+        <div className="w-full flex flex-col gap-3 lg:gap-12 border-b border-blue-50 p-2 my-4">
           <div className="w-full flex flex-col-reverse lg:flex-row justify-between gap-4 my-4">
             {filterButtonArray && <FilterButton array={filterButtonArray} />}
 
