@@ -36,20 +36,35 @@ export default function HomeResearchSlider() {
       >
         {publications
           .slice(0, 4)
-          .map(({ title, unit, author, published_at, desc, href }, index) => (
-            <SwiperSlide key={index}>
-              <Card
-                isResearchPage={false}
-                title={title}
-                type="publication"
-                unit={unit ?? "unit"}
-                author={author}
-                published_at={published_at}
-                desc={desc}
-                href={href}
-              />
-            </SwiperSlide>
-          ))}
+          .map(
+            (
+              {
+                title,
+                unit,
+                author,
+                published_at,
+                desc,
+                href,
+                supervisor,
+                type,
+              },
+              index
+            ) => (
+              <SwiperSlide key={index}>
+                <Card
+                  isResearchPage={false}
+                  title={title}
+                  type={type}
+                  unit={unit ?? "unit"}
+                  author={author}
+                  supervisor={supervisor}
+                  published_at={published_at}
+                  desc={desc}
+                  href={href}
+                />
+              </SwiperSlide>
+            )
+          )}
 
         <aside className="flex gap-6 xs:gap-8 items-center justify-center my-8">
           <div className="space-x-3 shrink-0">
