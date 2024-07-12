@@ -18,6 +18,7 @@ import emmanuelEssien from "../../public/images/teachingstaff/EmmanEssien.jpg";
 import helenEtuk from "../../public/images/teachingstaff/HelenEtuk.jpg";
 import { StaticImageData } from "next/image";
 import phd from "@/public/images/phd_student.jpg";
+import phd2 from "@/public/images/phd22.jpg";
 import safety from "@/public/images/safety/saftey1.jpg";
 
 export const chemistryUnits = [
@@ -91,6 +92,14 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: phd,
+    btnLink: "/recent-news",
+  },
+  {
+    title:
+      "Breaking News: Physical Chemistry PhD Candidate Isaac Obodom Mboso Undergoes Oral Examination",
+    description: "",
+
+    image: phd2,
     btnLink: "/recent-news",
   },
   {
