@@ -75,6 +75,9 @@ import phd1 from "@/public/images/phd1.jpg"
 import phd2 from "@/public/images/phd2.jpg"
 import phd3 from "@/public/images/phd3.jpg"
 import phd4 from "@/public/images/phd4.jpg"
+import phd5 from "@/public/images/phd12.jpg"
+import phd6 from "@/public/images/phd22.jpg"
+import phd7 from "@/public/images/phd32.jpg"
 import safety from "@/public/images/safety/saftey1.jpg"
 import safety1 from "@/public/images/safety/safety2.jpg"
 import safety2 from "@/public/images/safety/safety3.jpg"
@@ -82,6 +85,7 @@ import safety3 from "@/public/images/safety/safety4.jpg"
 import safety4 from "@/public/images/safety/safety5.jpg"
 import safety5 from "@/public/images/safety/safety6.jpg"
 import safety6 from "@/public/images/safety/safety7.jpg"
+import jmser from "@/public/images/jmesr.jpg"
 
 
 import { StaticImageData } from "next/image";
@@ -94,6 +98,18 @@ export interface RecentNewsTypes {
 }
 
 export const RecentNews: RecentNewsTypes[] = [
+  {
+    date: "July, 2024",
+    title: "The Journal of Materials and Environmental Suatainability Research calls for Research Papers",
+    description: ["",],
+    pictures: [jmser]
+  },
+  {
+    date: "July, 2024",
+    title: "Physical Chemistry PhD Candidate Isaac Obodom Mboso Undergoes Oral Examination",
+    description: ["(JMESR) is an open access journal published by the International Centre for Energy and Environmental Sustainability Research (ICEESR), University of Uyo, Uyo, Nigeria." ," Topics covered include, but not limited to: Green and sustainable chemistry, Nanoscience applications Catalysis, Bioresources and renewable energy, Waste management and recycling, Waste valorization and resource recovery, Monitoring and remediation of contaminated sites, Life-cycle assessment, Water treatment technology for low economy countries/communities, Multifunctional materials for energy and environmental applications, Climate change mitigation technologies, among others.", "For submission, visit the journal homepage and submission portal: <a href='https://jmesr.iceesr.org.ng/'> https://jmesr.iceesr.org.ng</a>. <br/> Article Processing Charge (APC): Local ₦30,000; Foreign $50.<br/> Discount and waivers available on request", "<em>Contact the Editor-In-Chief</em> <br/> <p>Professor Edu J. Inam <br/> Director, International Centre for Energy and Environmental Sustainability Resreach (ICEESR),<br/> University of Uyo, Uyo, Nigeria.", "<em>Contact the Editorial Offiice</em> <br/> Email: iceesr@uniuyo.edu.ng <br/> WhatsApp: 08181750861 "],
+    pictures: [phd6, phd5, phd7]
+  },
   {
     date: "June, 2024",
     title: "Inorganic Chemistry PhD Candidate Patricia Aniekan Ekpo Undergoes Oral Examination",
