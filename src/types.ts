@@ -1,5 +1,4 @@
 export type SectionProps = {
-  type: string;
   filterButtonArray?: string[];
   isPaginated?: boolean;
   filterby: string;
@@ -16,6 +15,8 @@ export type CardsArrayType = {
   published_at: string;
   desc: string;
   href?: string;
+  supervisor: string;
+  type: "phd" | "msc" | "bsc";
 };
 
 export type SemesterType = {

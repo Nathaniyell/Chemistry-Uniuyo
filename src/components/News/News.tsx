@@ -1,4 +1,4 @@
-import { RecentNews } from "@/lib";
+import { recentNews } from "@/lib";
 import Lecturers from "../Lecturers";
 import { RouteLinkBtn } from "@/components";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 const News = () => {
   const router = useRouter();
-  const truncateWords = (str:string, numWords: number) => {
+  const truncateWords = (str: string, numWords: number) => {
     const words = str.split(" ");
     if (words.length > numWords) {
       return words.slice(0, numWords).join(" ") + "...";
@@ -17,7 +17,7 @@ const News = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-14">
-        {RecentNews.slice(0, 6).map((news, index) => (
+        {recentNews.slice(0, 6).map((news, index) => (
           <div className="" key={index}>
             <Lecturers
               name={truncateWords(news.title, 10)}

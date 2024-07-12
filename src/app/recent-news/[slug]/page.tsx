@@ -1,18 +1,16 @@
 "use client";
-import React from "react"
-import { RecentNews } from "@/lib";
+import React from "react";
+import { recentNews } from "@/lib";
 import { notFound } from "next/navigation";
 import "swiper/css";
 import { CiCalendar } from "react-icons/ci";
 import { Breadcrumbs } from "@/components";
 import SwiperWithNavigation from "@/components/SwiperWithNavigation";
 
-const newsTitles = RecentNews.map((news) => news.title);
+const newsTitles = recentNews.map((news) => news.title);
 const Page = ({ params }: { params: { slug: string } }) => {
-
- 
   const newsTitleFormatted = params.slug;
-  const filteredNews = RecentNews.filter(
+  const filteredNews = recentNews.filter(
     (news) =>
       news.title.toLocaleLowerCase() ===
       newsTitleFormatted.replaceAll("-", " ").toLocaleLowerCase()
@@ -23,13 +21,15 @@ const Page = ({ params }: { params: { slug: string } }) => {
   const { title, pictures, date, description } = filteredNews;
   return (
     <div className="bg-slate-100  px-4 pt-4 pb-10 md:p-10">
-       
-       <Breadcrumbs
-          root={{ title: "News", href: `/recent-news` }}
-          array={[
-                { title: `${newsTitleFormatted.split("-").slice(0,4).join(" ")}...`, href: `/recent-news/${newsTitleFormatted}` },
-          ]}
-        />
+      <Breadcrumbs
+        root={{ title: "News", href: `/recent-news` }}
+        array={[
+          {
+            title: `${newsTitleFormatted.split("-").slice(0, 4).join(" ")}...`,
+            href: `/recent-news/${newsTitleFormatted}`,
+          },
+        ]}
+      />
 
       <section className="w-full md:w-10/12 mx-auto space-y-6 mt-4">
         <h1 className="text-xl xs:text-2xl font-semibold text-center text-blue-950 mb-2">
@@ -44,24 +44,35 @@ const Page = ({ params }: { params: { slug: string } }) => {
         <SwiperWithNavigation pictures={pictures} />
       </section>
       <div className="mt-4 md:w-10/12 mx-auto">
-        <p className="text-base text-gray-700 leading-loose"> {description.map((item, index) => (
-        <React.Fragment key={index}>
-          {item.split(/(".*?")/).map((part, partIndex) => (
-            partIndex % 2 === 1 ? <span className="font-semibold" key={partIndex}>{part.slice(1, -1)}</span> : part
+        <p className="text-base text-gray-700 leading-loose">
+          {" "}
+          {description.map((item, index) => (
+            <React.Fragment key={index}>
+              {item.split(/(".*?")/).map((part, partIndex) =>
+                partIndex % 2 === 1 ? (
+                  <span className="font-semibold" key={partIndex}>
+                    {part.slice(1, -1)}
+                  </span>
+                ) : (
+                  part
+                )
+              )}
+              {/* <br /> */}
+              <span className="block h-[1rem]"></span>
+            </React.Fragment>
           ))}
-          {/* <br /> */}
-         <span className="block h-[1rem]"></span>
-        </React.Fragment>
-      ))}</p>
-     
+        </p>
       </div>
-        
+
       <Breadcrumbs
-          root={{ title: "News", href: `/recent-news` }}
-          array={[
-                { title: `${newsTitleFormatted.split("-").slice(0,4).join(" ")}...`, href: `/recent-news/${newsTitleFormatted}` },
-          ]}
-        />
+        root={{ title: "News", href: `/recent-news` }}
+        array={[
+          {
+            title: `${newsTitleFormatted.split("-").slice(0, 4).join(" ")}...`,
+            href: `/recent-news/${newsTitleFormatted}`,
+          },
+        ]}
+      />
     </div>
   );
 };

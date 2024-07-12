@@ -46,6 +46,8 @@ export default function FilterButton({ array }: FilterProps) {
                   filterValue === p && p === "inorganic",
                 "bg-gray-50 border-gray-300 text-gray-600 pointer-events-none":
                   filterValue === p && p === "analytical",
+                "bg-amber-50 border-amber-300 text-amber-600 pointer-events-none":
+                  filterValue === p && p === "polymer",
               }
             )}
             onClick={() => handleFilter(p)}
