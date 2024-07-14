@@ -23,10 +23,11 @@ export default function Home() {
   ];
 
   return (
-    <main className="w-full min-h-screen relative bg-slate-100 overflow-x-hidden">
+    <main className="bg-[#f8fbf8] w-full min-h-screen relative overflow-x-hidden">
       <Swiper
         centeredSlides
         loop
+        autoHeight={true}
         autoplay={{
           delay: 3000,
           pauseOnMouseEnter: true,
@@ -37,7 +38,7 @@ export default function Home() {
         //   clickable: true,
         // }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-full"
+        className="w-full h-fit md:h-full"
       >
         {homeData.map((item) => {
           const { title, description, image, greeting, btnLink } = item;
@@ -54,7 +55,7 @@ export default function Home() {
           );
         })}
       </Swiper>
-      <section className="w-11/12 mx-auto p-4 flex flex-col justify-between gap-14 md:gap-10 md:flex-row mt-2">
+      <section className="w-11/12 mx-auto mt-4 md:p-2 flex flex-col justify-between gap-14 md:gap-10 md:flex-row">
         <div className="md:w-1/2">
           <HomeSections
             greeting="Welcome note from"

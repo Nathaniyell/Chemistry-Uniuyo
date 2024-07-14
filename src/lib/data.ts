@@ -42,10 +42,10 @@ interface HomeDataItem {
 const homeData: HomeDataItem[] = [
   {
     image: cecilia1,
-    title: "Department of chemistry",
+    title: "welcome to the Department of chemistry",
     description:
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
-    greeting: "welcome to the",
+    greeting: "",
     btnLink: "/about",
   },
   {
