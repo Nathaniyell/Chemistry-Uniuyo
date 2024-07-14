@@ -23,7 +23,7 @@ const HomepageSlider = ({
 }: sliderProps) => {
   const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
   return (
-    <div className={`relative size-full w-full ${isMobile ? 'h-auto mt-5' : 'md:h-full'} mt-5`}>
+    <div className={`relative size-full w-full ${isMobile ? 'h-auto mt-5' : 'md:h-full'} mt-5 lg:mt-2`}>
             {isMobile ? (
         <>
           <Image priority={true} src={bgImage} alt={title} className="w-full h-auto object-cover filter brightness-50" />

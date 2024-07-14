@@ -63,7 +63,7 @@ export default function Home() {
             routeLink="/about"
             readMore={true}
             animateDirection="left"
-            description={`On behalf of all staff members, I warmly welcome you to the Department of Chemistry at the University of Uyo. \n  Chemistry as the “central science” subject is a fascinating field that we are immensely passionate about at our institution. This discipline offers a unique perspective of the universe, rooted in the fundamental properties and interactions of atoms and molecules. By learning to control chemical processes, we gain the ability to shape the world around us. \n  As a department that drives research and development, studying chemistry with us help to continually push the boundaries of conducting ground-breaking research, and make advancements that improve lives.`}
+            description={`On behalf of all staff members, I warmly welcome you to the Department of Chemistry at the University of Uyo. Chemistry as the “central science” subject is a fascinating field that we are immensely passionate about at our institution. This discipline offers a unique perspective of the universe, rooted in the fundamental properties and interactions of atoms and molecules. By learning to control chemical processes, we gain the ability to shape the world around us. As a department that drives research and development, studying chemistry with us help to continually push the boundaries of conducting ground-breaking research, and make advancements that improve lives.`}
           />
         </div>
         <aside className="w-full md:w-5/12 lg:w-[32%]">
