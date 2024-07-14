@@ -25,13 +25,13 @@ export default function Undergraduate() {
         type="undergraduate"
       />
 
-      <section className="max-w-screen-xs">
+      {/* <section className="max-w-screen-xs">
         <OurStudent
           Icon={UserGroupIcon}
           heading="meet our students"
           array={studentsData}
         />
-      </section>
+      </section> */}
     </section>
   );
 }

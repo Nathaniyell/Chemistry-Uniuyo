@@ -96,7 +96,7 @@ const homeData: HomeDataItem[] = [
   },
   {
     title:
-      "Breaking News: Physical Chemistry PhD Candidate Isaac Obodom Mboso Undergoes Oral Examination",
+      "Breaking News: Physical Chemistry PhD Candidate Mboso Isaac Obodom Undergoes Oral Examination",
     description: "",
 
     image: phd2,

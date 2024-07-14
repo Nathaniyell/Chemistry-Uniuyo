@@ -65,9 +65,9 @@ export default function Section({
       <aside className="flex flex-col gap-4 items-center">
         {(search || filterby) && (
           <p className="text-sm text-center mb-3">
-            showing {filterArray.length} search{" "}
+            Showing {filterArray.length} search{" "}
             {filterArray.length < 2 ? "result" : "results"} out of{" "}
-            {cardsArray.length} research work
+            {cardsArray.length} research works
           </p>
         )}
 

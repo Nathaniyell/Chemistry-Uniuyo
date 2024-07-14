@@ -1,5 +1,6 @@
 import { Breadcrumbs, Header, Lecturers } from "@/components";
 import { recentNews } from "@/lib";
+import { truncateWords } from "@/utils/truncateWords"; 
 
 const page = () => {
   return (
@@ -14,7 +15,7 @@ const page = () => {
                 {title}
               </h4> */}
               <Lecturers
-                name={title}
+                name={truncateWords(title, 10)}
                 image={pictures[0]}
                 href={`/recent-news/${title.replaceAll(" ", "-")}`}
                 date={date}
@@ -22,7 +23,7 @@ const page = () => {
                 cardBodyStyle="shadow p-4 bg-slate-100"
                 readMore
                 readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}
-                cardContainerStyle="h-full"
+                cardContainerStyle="h-full !items-stretch"
                 cardImgContainerStyle="h-[40%] filter-none"
                 cardTitleStyle="text-2xl"
               />

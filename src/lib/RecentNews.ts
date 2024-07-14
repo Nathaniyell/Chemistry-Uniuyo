@@ -75,6 +75,9 @@ import phd1 from "@/public/images/phd1.jpg";
 import phd2 from "@/public/images/phd2.jpg";
 import phd3 from "@/public/images/phd3.jpg";
 import phd4 from "@/public/images/phd4.jpg";
+import phd5 from "@/public/images/phd22.jpg";
+import phd6 from "@/public/images/phd32.jpg";
+import phd7 from "@/public/images/phd12.jpg";
 import safety from "@/public/images/safety/saftey1.jpg";
 import safety1 from "@/public/images/safety/safety2.jpg";
 import safety2 from "@/public/images/safety/safety3.jpg";
@@ -82,6 +85,7 @@ import safety3 from "@/public/images/safety/safety4.jpg";
 import safety4 from "@/public/images/safety/safety5.jpg";
 import safety5 from "@/public/images/safety/safety6.jpg";
 import safety6 from "@/public/images/safety/safety7.jpg";
+import jmser from "@/public/images/jmesr.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -90,9 +94,31 @@ export interface recentNewsTypes {
   description: string[];
   pictures: StaticImageData[];
   date: string;
+  tag?: string
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "July, 2024",
+    title:
+      "Journal of Material and Environmental Sustainability Research (JMSER) calls for research papers ",
+    description: [
+      "Please see details on the flyer attached",
+    ],
+    pictures: [jmser],
+    
+  },
+  {
+    date: "July, 2024",
+    title:
+      "Physical Chemistry PhD Candidate Mboso Isaac Obodom Undergoes Oral Examination",
+    description: [
+      "Mboso Isaac Obodom, a PhD candidate specializing in Physical Chemistry, has recently successfully completed his oral examination in the Department of Chemistry. The examination marks a crucial step in his journey towards earning his doctoral degree",
+      "Obodom, whose academic journey has been marked by rigorous research and dedication, presented his findings and defended his thesis before a panel of esteemed academics. His work, supervised by Dr. Inemesit Akpan and Dr. Okon Abakedi, is expected to make notable contributions to the field of Physical Chemistry.",
+    ],
+    pictures: [phd5, phd6, phd7],
+    tag: "student"
+  },
   {
     date: "June, 2024",
     title:
@@ -102,6 +128,7 @@ export const recentNews: recentNewsTypes[] = [
       "Ekpo, whose academic journey has been marked by rigorous research and dedication, presented her findings and defended her thesis before a panel of esteemed academics. Her work, supervised by Dr. Atim Johnson and Dr. Ekemini Ituen, is expected to make notable contributions to the field of Inorganic Chemistry.",
     ],
     pictures: [phd, phd1, phd2, phd3, phd4],
+    tag: "student"
   },
   {
     date: "June, 2024",
@@ -136,6 +163,7 @@ export const recentNews: recentNewsTypes[] = [
       scsnTradefair19,
       scsnTradefair20,
     ],
+    tag: "student"
   },
   {
     date: "May, 2024",
@@ -154,6 +182,7 @@ export const recentNews: recentNewsTypes[] = [
       '"I am honored and humbled to receive this award, this is a testament to the support and guidance I have received from my professors and the entire University community. I will continue to use my skills and knowledge to make a positive impact on society", said Miss Blessing.',
     ],
     pictures: [acs3, acs2, acs3, acs4, acs5, acs1],
+    tag: "student"
   },
   {
     date: "Februaury, 2024",
@@ -238,5 +267,6 @@ export const recentNews: recentNewsTypes[] = [
       "The election results have been widely praised by students, staff of the department of chemistry, who believe that Dayemi's leadership will bring a fresh perspective and a renewed focus on the needs of science students. The university community looks forward to the positive changes and initiatives that Dayemi will spearhead during their term as the Student's Union President.",
     ],
     pictures: [sug1, sug0, sug5, sug2, sug3, sug4],
+    tag: "student"
   },
 ];

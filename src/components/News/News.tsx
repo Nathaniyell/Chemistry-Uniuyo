@@ -2,17 +2,9 @@ import { recentNews } from "@/lib";
 import Lecturers from "../Lecturers";
 import { RouteLinkBtn } from "@/components";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-import { useRouter } from "next/navigation";
+import { truncateWords } from "@/utils/truncateWords";
 
 const News = () => {
-  const router = useRouter();
-  const truncateWords = (str: string, numWords: number) => {
-    const words = str.split(" ");
-    if (words.length > numWords) {
-      return words.slice(0, numWords).join(" ") + "...";
-    }
-    return str;
-  };
 
   return (
     <>

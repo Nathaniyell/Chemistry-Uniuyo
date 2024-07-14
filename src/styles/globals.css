@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.heroBg {
-  background-image: url("../../public/images/lab5.webp");
-}
 
 @layer components {
   * {
