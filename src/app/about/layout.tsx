@@ -6,9 +6,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
-import about1 from "../../../public/images/about_chm1.webp";
-import about2 from "../../../public/images/about_chm2.webp";
-import about3 from "../../../public/images/about_chm3.webp";
 import { usePathname } from "next/navigation";
 import { Breadcrumbs, Header, RouteLinkBtn } from "@/components";
 import NavLink from "@/components/NavBar/NavLink";
@@ -19,7 +16,6 @@ export default function AboutLayout({
   children: React.ReactNode;
 }) {
   const pathName = usePathname();
-  const aboutImages = [about1, about2, about3];
   type AboutNavLink = {
     title: string;
     link: string;
