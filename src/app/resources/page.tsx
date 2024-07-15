@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ResourcePage() {
   return (
     <main className="flex min-h-screen flex-col bg-slate-100 !overflow-hidden">
-      <section className="mt-6">
+      <section className="mt-10 lg:!mt-4">
         <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
         <Header
           heading="Departmental Resources"
