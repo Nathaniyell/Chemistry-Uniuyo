@@ -128,10 +128,10 @@ export default function Card({
             )}
           </div>
 
-          <section className="mb-2 space-y-1">
+          <section className="mb-2 space-y-2">
             {/* <p>{type === "phd" ? "A Ph.D Thesis" : "An M.Sc dissertation"}</p> */}
 
-            <div className="flex gap-4">
+            <div className="flex flex-wrap-reverse gap-2">
               <PubInfo text={`Author: ${author}`} Icon={UserCircleIcon} />
               <PubInfo text={published_at} Icon={CalendarDaysIcon} />
             </div>
