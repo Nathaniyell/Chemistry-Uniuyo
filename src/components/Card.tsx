@@ -228,7 +228,7 @@ export default function Card({
 
 const PubInfo = ({ text, Icon }: { text: string; Icon: React.ElementType }) => (
   <div className="text-sm flex items-center gap-1">
-    <Icon className="h-4 text-slate-400" />
+    <Icon className="h-5 text-slate-400" />
     <span className="capitalize text-black font-bold">{text}</span>
   </div>
 );
