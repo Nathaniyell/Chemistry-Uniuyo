@@ -86,6 +86,7 @@ import safety4 from "@/public/images/safety/safety5.jpg";
 import safety5 from "@/public/images/safety/safety6.jpg";
 import safety6 from "@/public/images/safety/safety7.jpg";
 import jmser from "@/public/images/jmesr.jpg"
+import birthdayProf from "@/public/images/Prof_birthday.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -98,6 +99,21 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "July, 2024",
+    title:
+    "Students Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
+    description: [
+      "Dear Professor Edu Inam, \n  On behalf of The Students' Chemical Society of Nigeria, University of Uyo Chapter, we extend our heartfelt birthday wishes to you. Today, we celebrate your remarkable impact as a leader, mentor, and educator in the field of chemistry",
+      "Your unwavering dedication, profound wisdom, and inspiring guidance have touched the lives of countless students, including ours. Your passion and commitment to excellence have created a nurturing environment where we can thrive and pursue our dreams.",
+      "Your kindness and compassion are as boundless as your knowledge. Your genuine care has left an indelible mark on our hearts. We are eternally grateful for your positive influence and unwavering belief in our potential.",
+      "Happy birthday, Professor Edu J. Inam. May your special day be filled with the same warmth and happiness that you have so generously shared with us.",
+      "With deepest appreciation and warmest regards,",
+      "The Students' Chemical Society of Nigeria \nUniuyo Chapter.",
+    ],
+    pictures: [birthdayProf],
+    
+  },
   {
     date: "July, 2024",
     title:

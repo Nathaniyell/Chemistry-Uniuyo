@@ -4,13 +4,13 @@ import { truncateWords } from "@/utils/truncateWords";
 
 const page = () => {
   return (
-    <div className="p-6 md:p-0">
+    <div className="">
       <Header heading="News and Events" />
       <Breadcrumbs array={[{ title: "News", href: `/recent-news` }]} />
-      <div className="md:w-4/5 lg:w-[90%] mx-auto pb-10 mt-10 grid lg:grid-cols-3 gap-4 md:gap-x-20 items-stretch">
+      <div className="md:w-[90%] mx-auto px-4 md:px-0 pb-10 mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-20 md:gap-x-14 md:gap-y-10 lg:gap-y-4 lg:gap-x-20 items-stretch">
         {recentNews.map(({ title, pictures, date, description }, index) => {
           return (
-            <div key={index} className="md:mb-10 h-full">
+            <div key={index} className="">
               {/* <h4 className="my-4 text-2xl font-semibold text-blue-950">
                 {title}
               </h4> */}
@@ -20,11 +20,12 @@ const page = () => {
                 href={`/recent-news/${title.replaceAll(" ", "-")}`}
                 date={date}
                 dateStyle="text-primary"
-                cardBodyStyle="shadow p-4 bg-slate-100"
+                // cardBodyStyle="shadow p-4 bg-slate-100"
                 readMore
                 readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}
-                cardContainerStyle="h-full !items-stretch"
-                cardImgContainerStyle="h-[40%] filter-none"
+                                cardContainerStyle="md:pb-6"
+                                cardBodyStyle="p-4 border shadow h-48"
+                cardImgContainerStyle="filter-none"
                 cardTitleStyle="text-2xl"
               />
             </div>

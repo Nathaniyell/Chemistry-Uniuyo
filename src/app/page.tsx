@@ -4,6 +4,7 @@ import { Autoplay, Pagination, EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useMediaQuery } from "react-responsive";
 
 import Image from "next/image";
 import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
@@ -17,6 +18,7 @@ import News from "@/components/News/News";
 import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
+  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
   const headOfDepartment = [
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
@@ -33,7 +35,7 @@ export default function Home() {
           pauseOnMouseEnter: true,
           disableOnInteraction: true,
         }}
-        navigation={true}
+        navigation={!isMobile}
         // pagination={{
         //   clickable: true,
         // }}

@@ -723,7 +723,7 @@ const level400coursesSecond: CourseItem[] = [
   {
     code: "chm423",
     title: "Cordination Chemistry",
-    credit_hrs: 0,
+    credit_hrs: 2,
     prerequisite: "chm311",
     semester: "second",
     desc: "string",

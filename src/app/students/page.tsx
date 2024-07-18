@@ -83,15 +83,15 @@ const Page = () => {
                         Undergraduate Research Project Topics
                     </h1>
                     <Accordion
-                        title="2021/2022"
+                        title="2019/2020"
                         content={<StudentsTable tableData={sixteenSeries} />}
                     />
                     <Accordion
-                        title="2022/2023"
+                        title="2020/2021"
                         content={<StudentsTable tableData={seventeenSeries} />}
                     />
                     <Accordion
-                        title="2023/2024"
+                        title="2021/2022"
                         content={<StudentsTable tableData={eighteenSeries} />}
                     />
                 </section>
