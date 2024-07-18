@@ -86,7 +86,15 @@ import safety4 from "@/public/images/safety/safety5.jpg";
 import safety5 from "@/public/images/safety/safety6.jpg";
 import safety6 from "@/public/images/safety/safety7.jpg";
 import jmser from "@/public/images/jmesr.jpg"
-import birthdayProf from "@/public/images/Prof_birthday.jpg"
+import birthdayProf from "@/public/images/prof_inams_birthday/Prof_birthday.jpg"
+import birthday from "@/public/images/prof_inams_birthday/birthday2.jpg"
+import birthday1 from "@/public/images/prof_inams_birthday/birthday1.jpg"
+import birthday2 from "@/public/images/prof_inams_birthday/birthday.jpg"
+import birthday4 from "@/public/images/prof_inams_birthday/birthday3.jpg"
+import birthday3 from "@/public/images/prof_inams_birthday/birthday4.jpg"
+import birthday5 from "@/public/images/prof_inams_birthday/birthday5.jpg"
+import birthday6 from "@/public/images/prof_inams_birthday/birthday7.jpg"
+import birthday7 from "@/public/images/prof_inams_birthday/birthday6.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -111,7 +119,8 @@ export const recentNews: recentNewsTypes[] = [
       "With deepest appreciation and warmest regards,",
       "The Students' Chemical Society of Nigeria \nUniuyo Chapter.",
     ],
-    pictures: [birthdayProf],
+    pictures: [birthdayProf, birthday, birthday1, birthday2, birthday3, birthday4, birthday5, birthday6, birthday7],
+    tag: "student"
     
   },
   {

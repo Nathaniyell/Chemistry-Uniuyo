@@ -20,6 +20,7 @@ import { StaticImageData } from "next/image";
 import phd from "@/public/images/phd_student.jpg";
 import phd2 from "@/public/images/phd22.jpg";
 import safety from "@/public/images/safety/saftey1.jpg";
+import birthday from "@/public/images/prof_inams_birthday/birthday2.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -108,6 +109,14 @@ const homeData: HomeDataItem[] = [
     description: "",
 
     image: safety,
+    btnLink: "/recent-news",
+  },
+  {
+    title:
+    "Students Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
+    description: "",
+
+    image: birthday,
     btnLink: "/recent-news",
   },
 ];

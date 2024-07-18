@@ -92,7 +92,7 @@ export default function Card({
         whileInView={isResearchPage ? d.whileInView : undefined}
         transition={d.transition}
         viewport={{ once: true }}
-        className="border border-gray-100 rounded hover:shadow from-2%"
+        className="border border-gray-300 rounded hover:shadow from-2%"
       >
         <aside className="flex flex-col min-h-[400px] justify-around gap-3 p-2 xs:p-4 py-4 xs:py-6">
           <div className="flex gap-3 justify-between">

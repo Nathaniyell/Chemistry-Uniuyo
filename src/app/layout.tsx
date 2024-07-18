@@ -33,7 +33,7 @@ export default function RootLayout({
         <Providers>
           <React.Suspense>
           <NavBar />
-          <div className="mt-[3rem] lg:mt-[5rem]">
+          <div className="mt-[4.3rem] lg:mt-[5rem]">
 
           {children}
           </div>
