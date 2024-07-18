@@ -33,7 +33,7 @@ export default function NavBar() {
 
   return (
     <nav
-      className={`fixed bg-white shadow top-0 left-0 text-blue-950 h-[70px] md:h-[75px] lg:h-[90px] w-full flex items-center justify-center z-50`}
+      className={`fixed bg-white shadow top-0 left-0 text-blue-950 h-[90px] w-full flex items-center justify-center z-50`}
     >
       <header className="container p-4 md:px-2 lg:p-4 flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4 md:gap-2 lg:gap-4">
         <div className="h-full w-full md:w-fit flex items-center justify-between md:justify-center">
@@ -62,7 +62,7 @@ export default function NavBar() {
 
         <aside
           className={clsx(
-            "w-full md:w-fit md:h-fit fixed md:relative left-0 top-[70px] md:top-0 max-md:flex flex-col bg-black/30 md:bg-transparent",
+            "w-full md:w-fit md:h-fit fixed md:relative left-0 top-[92px] md:top-0 max-md:flex flex-col bg-black/30 md:bg-transparent",
             {
               "opacity-100 transition-all duration-500 h-screen": isMenuClicked,
               "-z-10 opacity-10 md:opacity-100 md:z-50 h-0": !isMenuClicked,
