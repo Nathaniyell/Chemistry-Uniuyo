@@ -212,7 +212,7 @@ const staffData: Lecturer[] = [
       },
       {
         title:
-          "Promoting Renewable Energy for Research, Education and Development (PRERED)(2022)",
+          "Promoting Renewable Energy for Research, Education and Development (PRERED)- 2022",
         collaborator: "Mr Juan Pablo Maureira ENERGIQA Belgium",
       },
     ],
