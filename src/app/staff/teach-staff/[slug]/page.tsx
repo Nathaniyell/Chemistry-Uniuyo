@@ -39,8 +39,7 @@ export default function Page({ params }: { params: { slug: string } }) {
       </div>
     );
   }
-  console.log(filteredLecturerData)
-
+  // console.log(filteredLecturerData)
   const {
     title,
     fullName,
@@ -60,7 +59,8 @@ export default function Page({ params }: { params: { slug: string } }) {
     scopus,
     linkedIn,
   } = filteredLecturerData;
-
+  const validNames = ["edu inam", "bassey antia"];
+  const isValidName = validNames.includes(fullName);
   return (
     <div className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-6">
@@ -104,7 +104,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                
                 <div className="flex items-start gap-3 w-full">
                   <p className="font-bold flex items-center"><FaRankingStar /> &nbsp;Rank:</p>
-                  {fullName === "edu inam" ? (
+                  {isValidName ? (
                  <div className="flex flex-col gap-2">{experience.slice(0, 2).map((experience) => (
                
                     <p
