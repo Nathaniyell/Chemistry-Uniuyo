@@ -277,7 +277,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Professor of Organic Chemistry, Department of Chemistry, University of Uyo",
+        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
         year: "2014",
       },
       {
@@ -353,7 +353,7 @@ const staffData: Lecturer[] = [
         year: "1975 – 1980",
       },
     ],
-    researchAreas: ["Natural products chemistry research", "Medicinal plants research (for drug discovery and development, and nutraceuticals)",],
+    researchAreas: ["Natural products chemistry research", "Medicinal plants research (for drug discovery, development and nutraceuticals)",],
     researchCollaborators: [
 
     ],
