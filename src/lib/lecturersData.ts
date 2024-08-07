@@ -265,31 +265,95 @@ const staffData: Lecturer[] = [
     image: [emptyImg],
     title: "Professor",
     fullName: "bassey antia",
-    email: [],
-    googleScholar: "",
-    scopus: "",
+    email: ["basseyantia@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?user=ctODY1kAAAAJ&hl=en&oi=ao",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=10339941100",
     orcid: "",
     website: "",
     linkedIn: "",
     unit: "Organic Chemistry",
-    officeNo: "",
+    officeNo: "Room 005",
 
     profile: "",
     experience: [
       {
         title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
-        year: "",
+        year: "2014",
       },
+      {
+        title: "Dean, Postgraduate School, University of Uyo, Uyo",
+        year: "March 2021 - date",
+      },
+      {
+        title: "The Focal Officer/Director, SERVICOM Unit, University of Uyo, Uyo",
+        year: "June 2017 - March 2021",
+      },
+      {
+        title: "Permanent member of Senate, University of Uyo, Uyo",
+        year: "October 2014 - date",
+      },
+      {
+        title: "Associate Professor (Organic Chemistry), Department of Chemistry, University of Uyo",
+        year: "October 2011 – Sept. 2014",
+      },
+      {
+        title: "Acting Head, Department of Chemistry, University of Uyo, Uyo ",
+        year: "November 2012 to January 18, 2016",
+      },
+      {
+        title:
+        "PhD. Organic Chemistry (with Thesis on Isolation and Characterization of Bioactive Constituents from the Stem bark of Garcinia kola and Marine-derived Fungus Aspergillus aculeatus (2011)), University of Ibadan, Ibadan, Oyo State",
+      year: "2011 - 2012",
+    },
+      {
+        title: "Member, Business and Vetting Committee of Senate, University of Uyo, Uyo",
+        year: "2006 - date",
+      },
+      {
+        title: "Senior Lecturer (Organic Chemistry), Department of Chemistry, University of Uyo",
+        year: "Oct. 2005 – Sept. 2011",
+      },
+      {
+        title: "Trainee Scientist, Chulabhorn Research Institute,Vibhavadi-Rangsit Road, Bangkok 10210, Thailand",
+        year: "Nov. 2008 - Nov. 2009",
+      },
+      {
+        title: "Lecturer I (Organic Chemistry), Department of Chemistry, University of Uyo",
+        year: "Oct. 2001 – Sept. 2005",
+      },
+      {
+        title: "Lecturer II (Organic Chemistry), Department of Chemistry and Biochemistry, University of Uyo",
+        year: "Oct. 1996 – Sept. 2001",
+      },
+      {
+        title: "Assistant Lecturer (Organic Chemistry), Department of Chemistry and Biochemistry, University of Uyo",
+        year: "Jan. 1994 – Sept. 1996",
+      },
+      {
+        title:
+        "M.Sc. Organic Chemistry (with dissertation on Characterization of Insoluble Organic Matter of the Lokpanta Oil Shale, Anambra basin by Infrared spectroscopy (1991)), University of Calabar, Calabar, Cross River State",
+      year: "1990 - 1992",
+    },
+    {
+      title:
+        "B.Sc. (Hons) Chemistry (Second Class Upper), University of Calabar, Calabar, Nigeria",
+      year: "1982 -1986",
+    },
 
     ],
     awards: [
       {
-        type: "",
-        awarder: "",
-        year: "",
+        type: "Federal Award for Graduate Studies",
+        awarder: "Federal Government of Nigeria",
+        year: "1990 – 1991",
+      },
+      {
+        type: "Scholarship Award",
+        awarder: "Cross River State, Nigeria",
+        year: "1975 – 1980",
       },
     ],
-    researchAreas: [],
+    researchAreas: ["Natural products chemistry research", "Medicinal plants research (for drug discovery and development, and nutraceuticals)",],
     researchCollaborators: [
 
     ],
