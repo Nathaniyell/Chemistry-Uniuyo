@@ -277,7 +277,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Professor of Oorganic Chemistry, Department of Chemistry, University of Uyo",
+        title: "Professor of Organic Chemistry, Department of Chemistry, University of Uyo",
         year: "2014",
       },
       {
