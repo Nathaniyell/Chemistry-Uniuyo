@@ -96,7 +96,7 @@ const Page = () => {
                         content={<StudentsTable tableData={eighteenSeries} />}
                     />
                 </section>
-                <section className="mt-6 pb-6">
+                {/* <section className="mt-6 pb-6">
                     <h1 className="font-semibold text-2xl text-blue-950 mb-6 text-center">
                         Past student Records
                     </h1>
@@ -109,7 +109,7 @@ const Page = () => {
                         title="2021/2022"
                         content={<StudentsTable tableData={eighteenSeriesGradList} />}
                     />
-                </section>
+                </section> */}
             </section>
         </main>
     );

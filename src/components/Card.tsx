@@ -149,14 +149,14 @@ export default function Card({
           <p className="font-semibold text-center">Abstract</p>
           <p
             className={clsx("text-base", {
-              "line-clamp-6": isResearchPage,
+              "": isResearchPage,
               "line-clamp-5": !isResearchPage,
             })}
           >
             {desc}
           </p>
 
-          <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
+          {/* <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
             {isResearchPage && (
               <Button
                 onClick={() =>
@@ -171,12 +171,12 @@ export default function Card({
             <a
               href={href ?? ""}
               target="__blank"
-              download
+              
               className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-6 text-sm active:scale-105 transition-all duration-300"
             >
-              Download this
+              View
             </a>
-          </div>
+          </div> */}
         </aside>
       </m.div>
 
