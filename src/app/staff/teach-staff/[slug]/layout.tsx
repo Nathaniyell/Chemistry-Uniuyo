@@ -37,7 +37,7 @@ export async function generateMetadata(
     const { fullName, title: staffTitle, researchAreas, experience } = staffMember;
 
     return {
-        title: `${staffTitle} ${fullName} - ${experience[0].title}`,
+        title: `${staffTitle} ${fullName.toUpperCase()} - ${experience[0].title}`,
         description: `Discover the profile of ${staffTitle} ${fullName}, a valued member of our teaching staff in the Department of Chemistry at the University of Uyo. Explore their research areas: ${researchAreas.join(", ")}.`,
         keywords: [
             fullName,
