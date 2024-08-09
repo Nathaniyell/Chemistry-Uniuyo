@@ -1926,7 +1926,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: [mkpenie],
-    title: "Dr.",
+    title: "Mr.",
     fullName: "victor mkpenie",
     email: [],
     googleScholar: "",
@@ -1964,7 +1964,7 @@ const staffData: Lecturer[] = [
 
   {
     image: [emmadan],
-    title: "Dr.",
+    title: "Mr.",
     fullName: "emmanuel dan",
     email: [],
     googleScholar: "",
@@ -1999,10 +1999,47 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+  {
+    image: [emptyImg],
+    title: "Mr.",
+    fullName: "Victor Ekpo",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Petroleum Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
 
   {
     image: [emptyImg],
-    title: "Dr.",
+    title: "Mrs.",
     fullName: "enobong david",
     email: [],
     googleScholar: "",
