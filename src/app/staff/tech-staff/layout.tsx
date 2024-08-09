@@ -1,36 +1,36 @@
 import type { Metadata } from "next";
 
 
-export const metadata: Metadata = {   
-         title: 'Non-teaching staff',
-     
+export const metadata: Metadata = {
+    title: 'Non Teaching staff - Department of Chemistry, University of Uyo',
 
-  description: "Meet our dedicated non-teaching staff who support the daily operations and enhance the learning environment of our department. From laboratory, administration to maintenance, our team is committed to ensuring a smooth and productive experience for staff and student of the department of chemistry university of uyo",
-  keywords: [
-    "Non-teaching staff",
-    "University of Uyo",
-    "Department of Chemistry",
-    "Support staff",
-    "Administrative staff",
-    "Laboratory staff",
-  ]
+
+    description: "Meet our dedicated non-teaching staff who support the daily operations and enhance the learning environment of our department. From laboratory, administration to maintenance, our team is committed to ensuring a smooth and productive experience for staff and student of the department of chemistry university of uyo",
+    keywords: [
+        "Non-teaching staff",
+        "University of Uyo",
+        "Department of Chemistry",
+        "Support staff",
+        "Administrative staff",
+        "Laboratory staff",
+    ]
 };
 
-export default function RootLayout({
-  children,
+export default function Page({
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <>
-      <body>
-   
-          
+    return (
+        <>
+            <body>
 
-          {children}
- 
-          </body>
-      
-    </>
-  );
+
+
+                {children}
+
+            </body>
+
+        </>
+    );
 }
