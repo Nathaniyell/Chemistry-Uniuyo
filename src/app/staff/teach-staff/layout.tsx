@@ -28,11 +28,11 @@ export default function Page({
   children: React.ReactNode;
 }) {
   return (
-    <body>
+    <>
 
       {children}
 
-    </body>
+    </>
 
   );
 }

@@ -53,11 +53,11 @@ export async function generateMetadata(
 
 export default function Page({ children }: { children: React.ReactNode }) {
     return (
-        <body>
+        <>
 
             {children}
 
-        </body>
+        </>
 
     );
 }

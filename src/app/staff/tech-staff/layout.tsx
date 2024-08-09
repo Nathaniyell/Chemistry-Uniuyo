@@ -23,13 +23,7 @@ export default function Page({
 }) {
     return (
         <>
-            <body>
-
-
-
-                {children}
-
-            </body>
+            {children}
 
         </>
     );

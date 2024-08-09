@@ -62,7 +62,7 @@ export default function Page({ params }: { params: { slug: string } }) {
   const validNames = ["edu inam", "bassey antia"];
   const isValidName = validNames.includes(fullName);
   return (
-    <div className="bg-sky-50">
+    <main className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-6">
 
         <div className="!flex items-center w-10/12 md:w-[60%] lg:w-[35%] p-6 text-primary">
@@ -376,6 +376,6 @@ export default function Page({ params }: { params: { slug: string } }) {
         </div>
 
       </div>
-    </div>
+    </main>
   );
 }
