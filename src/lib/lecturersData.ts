@@ -274,7 +274,7 @@ const staffData: Lecturer[] = [
     unit: "Organic Chemistry",
     officeNo: "Room 005",
 
-    profile: "",
+    profile: "Professor Bassey Sunday Antia is a distinguished Professor of Organic Chemistry who has dedicated his career to the field of chemistry, specifically focusing on organic chemistry and natural products research. Currently, he holds the Dean of the Postgraduate School, University of Uyo, where he has been a faculty member since January 3, 1994. \n His research interests encompass organic chemistry, medicinal plants, and the development of nutraceuticals. His work includes the study of phytochemical properties, biological activities of plant extracts, and their potential applications in drug discovery and development. He has conducted extensive research on the chemical composition and antioxidant properties of various plants, contributing significantly to the understanding of their therapeutic potentials. \n Professor Antia has a robust academic background with degrees from notable institutions, including a Ph.D. in Organic Chemistry from the University of Calabar. His professional journey includes various roles, from Assistant Lecturer to Professor, reflecting a steady progression through the academic ranks. He has taught numerous undergraduate and postgraduate courses, mentoring students in both theoretical and practical aspects of chemistry. \n He has published over 60 journal articles, with a notable focus on the pharmacological effects of plant extracts. Additionally, Professor Antia has served on various committees, including the Senate of the University of Uyo and as Dean of the Postgraduate School. \n  His involvement in community service includes publicizing the activities of the Chemical Society of Nigeria and participating in various educational workshops aimed at improving science education. Professor Antia's commitment to research and education is reflected in his ongoing supervision of postgraduate research and his active participation in national and international conferences. \n Professor Bassey Sunday Antia stands out as a prominent figure in the field of chemistry, with a remarkable blend of research expertise, teaching dedication, and community involvement. His extensive contributions to organic chemistry and natural products research have not only enriched academic discourse but also paved the way for advancements in medicinal plant studies. Through his mentorship and leadership roles, he continues to inspire the next generation of scientists, fostering a culture of excellence and innovation at the University of Uyo and beyond ",
     experience: [
       {
         title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
@@ -359,9 +359,34 @@ const staffData: Lecturer[] = [
     ],
     publications: [
       {
-        title: "",
+          "title": "Okokon, J. E., Antia, B.S., Azare, B. A., and Okokon, P. J. (2017). Antiplasmodial activity and cytotoxicity of ethanol extract of Zea mays root. Avicenna Journal of Phytomedicine. 7 (3): 275-284. (Mashhad, Iran)."
       },
-    ],
+      {
+          "title": "Antia, B. S., Essien, E. E., Udonkanga, E. D. (2017). Nutritional composition and acute toxicity potentials of Archontophoenix tukeri and Adonnidia merrilli kernels. UK Journal of Pharmaceutical and Biosciences. 5(3): 1-8. http://www.ukjpb.com/index.php (India)."
+      },
+      {
+          "title": "Antia, B. S., Essien, E. E., Jacob, I. E., David, E. M. (2017). Phytochemical profile, antimicrobial and antioxidant activities of Ptychosperma macarthurii and Achontophoenix tukeri seed extracts. American Journal of Chemistry and Applications. (4)6: 50 – 54. http://www.aascit.org/journal/ajca. (New Castle DE 19803 USA)."
+      },
+      {
+          "title": "Antia, B.S., Ita, B. N., and Akpan, I. (2020). Nutritional evaluation and antioxidant activity of a lesser – known wild edible fruit Tristemma hirtum P. Beauv. Journal of Natural Sciences Research. 10 (6): 57-66. www.iiste.org., ISSN 2224-3186 (Paper) ISSN 2225-0921 (Online)."
+      },
+      {
+          "title": "Essien, E. E., Antia, B. S., Etuk, E. I., and David, E. M. (2021). Chemical composition of Livistona chinensis and Areca catechu palm nuts. Chemistry of Natural Compounds. 57 (6), 1184-1186. DOI 10.1007/s10600-021-03583-9."
+      },
+      {
+          "title": "Essien, E. E., Antia, B. S., David, E. M., Solomn, A.U. (2022). Amino acids, fatty acids, and minerals composition of Roystonea regia and Ptychomaperma macarthurii palm kernels. World Journal of Applied Science and Technology. 14 (1b): 94-96. DOI: 10.4314/wojast.v14i1b.94."
+      },
+      {
+          "title": "Enin, G. N., Antia, B.S., Shaibu, S. E., Willie, I. N., Asuquo, E. E., Umoh, U. I (2023). Comparison of the Chemical composition, nutritional values, total phenolics and flavonoids content of the ripe and unripe Solanum nigrum Linn. fruits from Nigeria. World Journal of Pharmacy and Pharmaceutical Sciences. DOI: 10.20959/wjpps20238-25410."
+      },
+      {
+          "title": "Enin, G. N., Okokon, J. E., Odokwo, B. O., Antia, B. S. (2023). Phytochemical Screening and in vivo Inhibitory Study of Telfaira occidentalis Hook f. Seeds Extract on Alpha Amylase and Alpha Glucosidase of Rats. Journal of Science and Technology Research. 5 (4); 26 – 35."
+      },
+      {
+          "title": "Ekanem, I.R., Antia, B.S., Essien, E.E., and Thomas, P.S. (2023). In Vitro Antioxidant Activity and Hypoglycemic Efficacy of the Leaf, Stem, and Rhizome Extracts of Costus Igneus Nak (Costaceae) in Alloxan Induced Diabetic Rats. World Journal of Applied Science and Technology. 15 (1) 98 – 103."
+      }
+  ]
+  ,
   },
   {
     image: [profEnoMoses],
