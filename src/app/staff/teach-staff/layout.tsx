@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: 'Teaching Staff - Department of Chemistry, University of Uyo',
+  title: 'Teaching Staff',
 
   description: "Explore the profiles of our esteemed teaching staff who are committed to delivering top-notch education in the Department of Chemistry at the University of Uyo. Learn more about their academic backgrounds, research interests, and contributions to the field of chemistry.",
 
