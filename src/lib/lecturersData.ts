@@ -25,7 +25,9 @@ import emmadan from "@/public/images/teachingstaff/emmadan.jpg"
 import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
 import uwah from "@/public/images/teachingstaff/uwah.jpg"
 import ekeminituen from "@/public/images/teachingstaff/ekeminituen.jpg"
+import profAntia from "@/public/images/teachingstaff/prof_antia.jpg"
 import emptyImg from "@/public/empty-user.jpg"
+
 
 
 
@@ -262,7 +264,7 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [emptyImg],
+    image: [profAntia],
     title: "Professor",
     fullName: "bassey antia",
     email: ["basseyantia@uniuyo.edu.ng"],
@@ -274,7 +276,8 @@ const staffData: Lecturer[] = [
     unit: "Organic Chemistry",
     officeNo: "Room 005",
 
-    profile: "Professor Bassey Sunday Antia is a distinguished Professor of Organic Chemistry who has dedicated his career to the field of chemistry, specifically focusing on organic chemistry and natural products research. Currently, he holds the Dean of the Postgraduate School, University of Uyo, where he has been a faculty member since January 3, 1994. \n His research interests encompass organic chemistry, medicinal plants, and the development of nutraceuticals. His work includes the study of phytochemical properties, biological activities of plant extracts, and their potential applications in drug discovery and development. He has conducted extensive research on the chemical composition and antioxidant properties of various plants, contributing significantly to the understanding of their therapeutic potentials. \n Professor Antia has a robust academic background with degrees from notable institutions, including a Ph.D. in Organic Chemistry from the University of Calabar. His professional journey includes various roles, from Assistant Lecturer to Professor, reflecting a steady progression through the academic ranks. He has taught numerous undergraduate and postgraduate courses, mentoring students in both theoretical and practical aspects of chemistry. \n He has published over 60 journal articles, with a notable focus on the pharmacological effects of plant extracts. Additionally, Professor Antia has served on various committees, including the Senate of the University of Uyo and as Dean of the Postgraduate School. \n  His involvement in community service includes publicizing the activities of the Chemical Society of Nigeria and participating in various educational workshops aimed at improving science education. Professor Antia's commitment to research and education is reflected in his ongoing supervision of postgraduate research and his active participation in national and international conferences. \n Professor Bassey Sunday Antia stands out as a prominent figure in the field of chemistry, with a remarkable blend of research expertise, teaching dedication, and community involvement. His extensive contributions to organic chemistry and natural products research have not only enriched academic discourse but also paved the way for advancements in medicinal plant studies. Through his mentorship and leadership roles, he continues to inspire the next generation of scientists, fostering a culture of excellence and innovation at the University of Uyo and beyond.",
+    profile: "Professor Bassey Sunday Antia is a distinguished Professor of Organic Chemistry with a focus on organic chemistry and natural products research. He currently serves as the Dean of the Postgraduate School at the University of Uyo, where he has been a faculty member since January 3, 1994.\n His research encompasses organic chemistry, medicinal plants, and nutraceutical development.He has made significant contributions to the study of phytochemical properties and biological activities of plant extracts, particularly their potential in drug discovery and development.His work on the chemical composition and antioxidant properties of plants has been pivotal in understanding their therapeutic potentials.\n Professor Antia holds a Ph.D. in Organic Chemistry from the University of Calabar. He has taught and mentored students in both undergraduate and postgraduate courses, focusing on the theoretical and practical aspects of chemistry. With over 60 journal articles published, Professor Antia's research has primarily focused on the pharmacological effects of plant extracts. His community service includes promoting the activities of the Chemical Society of Nigeria and participating in educational workshops to improve science education in Africa and the world over.\n Professor Antia continues to supervise postgraduate research and is actively involved in national and international conferences.Through his research, teaching, and community involvement, Professor Bassey Antia has made substantial contributions to organic chemistry and natural products research, inspiring the next generation of scientists and fostering excellence at the University of Uyo and beyond."
+,
     experience: [
       {
         title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
@@ -358,6 +361,9 @@ const staffData: Lecturer[] = [
 
     ],
     publications: [
+      {
+          "title": "Essien E. E., Antia, B. S., Solomon, A. U., Choudhary, M. I. (2017). In 			vitro cytotoxic, antioxidant and antimicrobial activities of Adronidia merrilli and Archontopheonix tuckeri fruit pericarps. UK Journal of Pharmaceutical and Biosciences. 5(1): 68-75.	http://www.ukjpb.com/index.php (India)"
+      },
       {
           "title": "Okokon, J. E., Antia, B.S., Azare, B. A., and Okokon, P. J. (2017). Antiplasmodial activity and cytotoxicity of ethanol extract of Zea mays root. Avicenna Journal of Phytomedicine. 7 (3): 275-284. (Mashhad, Iran)."
       },
