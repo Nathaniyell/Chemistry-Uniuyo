@@ -104,9 +104,27 @@ export interface recentNewsTypes {
   pictures: StaticImageData[];
   date: string;
   tag?: string
+  writtenBy?: string
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "August, 2024",
+    title:
+    "My Time in the Department of Chemistry",
+    writtenBy: "PATRICIA A. EKPO",
+    description: [
+      "Numerous universities crossed my thoughts when I wanted to begin my PhD journey, but I ultimately decided to enrol in the University of Uyo's Chemistry Department due to my fantastic master's program experience. \nAn excellent group of lecturers who consistently arrive on time for class and who serve as invaluable mentors and leaders.",
+      "Starting a PhD program at the department of chemistry was a time of demanding coursework, hard research, and personal development. When I think back on my time there, it was among my most fulfilling academic experiences. Although the course work was demanding and intellectually taxing, it was nonetheless worthwhile.",
+      "The exceptional postgraduate laboratory and the department's focus on research provided me with the chance to extensively investigate my research field because having access to high-quality equipment was essential to carrying out experiments and producing meaningful results.",
+      "I had the opportunity to study more and gain exposure to the most recent advancements and research in various fields of chemistry through the department's seminars. With their incomparable guidance throughout, the Department heads, as well as my PhD supervisors and lecturers, were incredibly helpful and always an inspiration.",
+      "My time in the Department of Chemistry was a life-changing experience that improved me as a scientist and a person. I shall continue to be guided and inspired by the skills and knowledge I have acquired over this time. The University of Uyo's Department of Chemistry is the place to study.",
+    
+    ],
+    pictures: [],
+    tag: "student"
+    
+  },
   {
     date: "July, 2024",
     title:

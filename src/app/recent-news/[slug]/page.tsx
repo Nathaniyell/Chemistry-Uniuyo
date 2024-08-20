@@ -18,7 +18,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
   if (!filteredNews) notFound();
 
-  const { title, pictures, date, description } = filteredNews;
+  const { title, pictures, date, description, writtenBy } = filteredNews;
   return (
     <div className="bg-slate-100  px-4 pt-4 pb-10 md:p-10">
       <Breadcrumbs
@@ -43,7 +43,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
         )}
         <SwiperWithNavigation pictures={pictures} />
       </section>
-      <div className="mt-4 md:w-10/12 mx-auto">
+      <div className="mt-3 md:w-10/12 mx-auto">
         <p className="text-base text-gray-700 leading-loose">
           {" "}
           {description.map((item, index) => (
@@ -58,10 +58,11 @@ const Page = ({ params }: { params: { slug: string } }) => {
                 )
               )}
               {/* <br /> */}
-              <span className="block h-[1rem]"></span>
+              <span className="block h-[0.4rem]"></span>
             </React.Fragment>
           ))}
         </p>
+        {writtenBy && <p className="font-semibold mb-2"><span className="text-gray-500 font-normal">written by: </span>{writtenBy}</p>}
       </div>
 
       <Breadcrumbs
