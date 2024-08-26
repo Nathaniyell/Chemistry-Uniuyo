@@ -79,7 +79,7 @@ const HomepageSlider = ({
       ) : (
         <>
           <Image priority={true} src={bgImage} alt={title} className={`size-full filter ${!isMobile && "brightness-50"}`} />
-          {title && (
+          { title && (
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white p-4 h-fit mx-auto w-[95%] md:w-3/4 flex flex-col justify-center gap-4">
               <motion.h1
                 animate={{ x: 0, opacity: 1 }}

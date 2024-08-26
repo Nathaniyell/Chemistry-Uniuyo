@@ -95,6 +95,28 @@ import birthday3 from "@/public/images/prof_inams_birthday/birthday4.jpg"
 import birthday5 from "@/public/images/prof_inams_birthday/birthday5.jpg"
 import birthday6 from "@/public/images/prof_inams_birthday/birthday7.jpg"
 import birthday7 from "@/public/images/prof_inams_birthday/birthday6.jpg"
+import defense from "@/public/images/019-defense/defense.jpg"
+import promise from "@/public/images/019-defense/promise.jpg"
+import defense1 from "@/public/images/019-defense/defense1.jpg"
+import defense2 from "@/public/images/019-defense/defense2.jpg"
+import defense3 from "@/public/images/019-defense/defense3.jpg"
+import defense4 from "@/public/images/019-defense/defense4.jpg"
+import defense5 from "@/public/images/019-defense/defense5.jpg"
+import defense6 from "@/public/images/019-defense/defense6.jpg"
+import defense7 from "@/public/images/019-defense/defense7.jpg"
+import defense8 from "@/public/images/019-defense/defense8.jpg"
+import defense9 from "@/public/images/019-defense/defense9.jpg"
+import defense10 from "@/public/images/019-defense/defense10.jpg"
+import defense11 from "@/public/images/019-defense/defense11.jpg"
+import defense12 from "@/public/images/019-defense/defense12.jpg"
+import defense13 from "@/public/images/019-defense/defense13.jpg"
+import defense14 from "@/public/images/019-defense/defense14.jpg"
+import defense15 from "@/public/images/019-defense/defense15.jpg"
+import defense16 from "@/public/images/019-defense/defense16.jpg"
+import defense17 from "@/public/images/019-defense/defense17.jpg"
+import defense18 from "@/public/images/019-defense/defense18.jpg"
+import sugAward from "@/public/images/019-defense/sug-award.jpg"
+import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -108,6 +130,51 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "August, 2024",
+    title:
+    "Chemistry Students Complete Undergraduate Project Defense",
+    description: [
+      "The Department of Chemistry, University of Uyo, Uyo proudly announces the successful completion of the undergraduate project defense by the final-year students. The event, held on 15th and 16th of August, 2024, was a key academic achievement for these students as they presented their research findings before a panel of esteemed lecturers.",
+      "\nThe project defense covered diverse topics across various branches of chemistry, ranging from organic synthesis to environmental pollution studies. Students demonstrated a high level of understanding, innovation, and commitment, addressing real-world problems through their research.",
+      "\nSpeaking at the event, the Head of the Chemistry Department, Professor Edu Inam, commended the students for their hard work and dedication. She highlighted that the research presented reflects the department's ongoing commitment to producing well-rounded graduates equipped with both theoretical knowledge and practical skills.",
+      '\nOne of the students, Fidelis Peter, who presented on the topic "Green Synthesis of Nanomaterials for Environmental Applications," expressed gratitude to the department’s staff for their guidance and support throughout the research period.',
+      "\nThe defense concluded with words of encouragement from the panel, who urged the students to continue their pursuit of knowledge and contribute meaningfully to the scientific community."    
+    ],
+    pictures: [defense, promise, defense1, defense2,defense3,defense4,defense5,defense6,defense7, defense8,defense9, defense10,defense11,defense12,defense13,defense14,defense15,defense16,defense17,defense18],
+    tag: "student"
+    
+  },
+  {
+    date: "August, 2024",
+    title:
+    "Department of Chemistry Honored as Best Department of the Year",
+    description: [
+      'The Department of Chemistry at the University of Uyo has been recognized with the prestigious "Best Department of the Year" award. This honor was bestowed in acknowledgment of the department’s exceptional academic achievements, groundbreaking research contributions, and commitment to excellence in teaching.',
+      "\nOver the past year, the department has demonstrated remarkable strides in various areas, including increased research output, successful student projects and notable community engagement initiatives.",
+      "\nReceiving the award, the Head of the Department, Professor Edu Inam expressed gratitude to the staff and students, whose dedication and collaborative efforts have been pivotal in achieving this recognition. She highlighted that the award serves as motivation to continue setting higher standards and contributing positively to the advancement of science and society.",
+      '\n The award celebrates the department’s leadership in driving innovation and promoting academic rigor, reinforcing the department’s reputation as a leading hub of chemical science research and education in Akwa Ibom State, setting a benchmark for academic and operational excellence across the University of Uyo.',
+          
+    ],
+    pictures: [sugAward2],
+    tag: "student"
+    
+  },
+  {
+    date: "August, 2024",
+    title:
+    "Students Community Recognizes Professor Edu Inam with Prestigious Awards for Her Outstanding Contributions",
+    description: [
+      "The students' community at the University of Uyo has honored Professor Edu Inam with an 'Award of Excellence' in recognition of her remarkable contributions to academia, mentorship and community development. The award ceremony, held on the 2nd of August, 2024, was a heartwarming event that showcased the deep respect and admiration the students have for Professor Inam.",
+      "\nProfessor Inam, a renowned scholar and advocate for educational excellence, has made a significant impact through her years of dedicated service. She has consistently championed initiatives that have positively influenced students' academic and personal growth. Her role as a mentor has empowered countless students to reach their potential and pursue successful careers.",
+      "\nThe awards presented highlight Professor Inam’s tireless efforts in promoting research, fostering inclusivity, and advocating for student welfare. Speaking at the event, the SUG President, Comr. Dayemi Archibong, expressed his gratitude for Prof. Inam's unwavering support, describing her as a beacon of inspiration and a pillar within the academic community.",
+      '\nIn her acceptance speech, Professor Inam expressed her heartfelt appreciation to the students, stating that the recognition serves as a motivation to continue her work in nurturing the next generation of scholars and leaders. She emphasized the importance of strong academic values and encouraged the students to stay committed to their education and personal development.',
+      "\nThe event was attended by members of the university community, colleagues and well-wishers, all of whom lauded Professor Inam’s exceptional legacy."    
+    ],
+    pictures: [sugAward],
+    tag: "student"
+    
+  },
   {
     date: "August, 2024",
     title:
