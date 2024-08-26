@@ -56,7 +56,7 @@ const homeData: HomeDataItem[] = [
   {
     image: defense,
     title: "Chemistry Students Complete Undergraduate Project Defense",
-    btnLink: "/about",
+    btnLink: "/recent-news",
   },
   {
     title:
