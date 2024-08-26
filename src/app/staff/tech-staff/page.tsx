@@ -14,7 +14,7 @@ import FramerAnimation from "@/utils/framer-animation";
 
 export default function Home() {
   return (
-    <main className="mb-20">
+    <main className="mb-20 overflow-hidden">
       <Header heading="Technologists and Non-teaching staff" />
       <Breadcrumbs
         array={[
@@ -23,7 +23,7 @@ export default function Home() {
       />
       <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
         {labStaffData.map((staff) => (
-          <FramerAnimation key={staff.name} className="md:flex flex-col">
+          <FramerAnimation key={staff.name} className="bg-white md:flex flex-col border shadow rounded-md ">
             <Swiper
               spaceBetween={30}
               effect={"fade"}
@@ -32,19 +32,19 @@ export default function Home() {
               }}
             
               modules={[EffectFade, Autoplay]}
-              className="flex-1"
+              className="flex-1 !overflow-hidden"
             >
               {staff.image.length !== 0 ? (
                 staff.image.map((item, index) => (
                   <SwiperSlide
                     key={index}
-                  className="size-full grid place-items-center"
+                  className="size-full grid place-items-center !overflow-hidden"
                   >
                     <Image
-                      className=""
+                      className="!overflow-hidden"
                       src={item}
                       alt={staff.name}
-                      width={350}
+                      width={380}
                       height={350}
                       
                     />
@@ -55,16 +55,18 @@ export default function Home() {
                 className=""
               >
                   <Image
-                  className=""
+                  className="mx-auto"
                     src={placeHolder}
                     alt="Placeholder"
+                    width={300}
+                    height={350}
                     
                   />
                         </SwiperSlide>
     
               )}
             </Swiper>
-            <div className="p-4 bg-white shadow-md rounded-lg flex flex-col gap-2">
+            <div className="p-4 flex flex-col gap-2">
               <h4 className="text-xl font-semibold">{staff.name}</h4>
               <p className="text-primary font-[500]">{staff.role}</p>
               <p className="text-gray-600">{staff.qualifications}</p>
