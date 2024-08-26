@@ -44,7 +44,7 @@ export default function Home() {
                       className="!overflow-hidden"
                       src={item}
                       alt={staff.name}
-                      width={380}
+                      width={360}
                       height={350}
                       
                     />
