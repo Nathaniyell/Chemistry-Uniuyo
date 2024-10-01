@@ -118,6 +118,23 @@ import defense18 from "@/public/images/019-defense/defense18.jpg"
 import sugAward from "@/public/images/019-defense/sug-award.jpg"
 import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
 import umobong from "@/public/images/umobong.jpeg"
+import profBSA from "@/public/images/profBSA/profBSA1.jpg"
+import profBSA2 from "@/public/images/profBSA/profBSA2.jpg"
+import profBSA3 from "@/public/images/profBSA/management1.jpg"
+import profBSA4 from "@/public/images/profBSA/profBSA3.jpg"
+import profBSA5 from "@/public/images/profBSA/profBSA4.jpg"
+import profBSA6 from "@/public/images/profBSA/HOD-n-PBSA.jpg"
+import profBSA7 from "@/public/images/profBSA/STP_3498.jpg"
+import profBSA8 from "@/public/images/profBSA/STP_3168.jpg"
+import profBSA9 from "@/public/images/profBSA/STP_3273.jpg"
+import profBSA10 from "@/public/images/profBSA/STP_3215.jpg"
+import profBSA11 from "@/public/images/profBSA/STP_3237.jpg"
+import profBSA13 from "@/public/images/profBSA/STP_3321.jpg"
+import profBSA14 from "@/public/images/profBSA/STP_3520.jpg"
+import profBSA15 from "@/public/images/profBSA/STP_3536.jpg"
+import profBSA16 from "@/public/images/profBSA/STP_3470.jpg"
+import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
+import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -131,6 +148,22 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "September 27, 2024",
+    title:
+    "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
+    description: [
+      "Professor Bassey Sunday Antia, a leading authority in organic chemistry, captivated the University of Uyo's academic community on 27th September 2024 as he delivered the institution’s 105th inaugural lecture. Titled 'Natural Products Chemistry: Where the Mysteries of the Natural World Manifest in Atoms, Molecules, and Ions', the lecture analyzed the obscure facets of the natural world and their substantial impact on scientific findings.",
+      "\nAs a highly respected figure in the field of organic chemistry, Professor Antia's inaugural lecture delved into the fascinating world of natural products chemistry, a branch of science dedicated to the study of chemical compounds produced by living organisms. In his address, he explored how atoms, molecules, and ions come together to form complex natural substances, and how these substances have contributed to significant scientific discoveries in medicine, agriculture, and other industries.",
+      "\nThroughout the lecture, Professor Antia highlighted how natural products, derived from plants, animals, and microorganisms, have served as critical resources for drug development, including treatments for diseases like cancer and malaria. Additionally, he clarified the molecular details that enable naturally occurring compounds to display distinct biological actions; these insights frequently serve as the basis for the development of novel pharmaceuticals and synthetic equivalents.",
+      "\nProfessor Antia emphasized the importance of research in natural products chemistry, highlighting its potential for further breakthroughs in addressing global health challenges. His lecture underscored how chemistry serves as a bridge between the mysteries of nature and scientific advancements that benefit society.",
+      "\nThe lecture was attended by a cross-section of the university community, including staff, students, and invited guests from various academic and research institutions. In recognition of his contributions to the field, Professor Antia received accolades from both the university and his colleagues, who praised his lifelong dedication to advancing organic chemistry and his efforts to mentor the next generation of scientists.",
+      "\nThe 105th inaugural lecture stands as a testament to Professor Antia's commitment to academic excellence and his invaluable contributions to the scientific community, both locally and globally.",
+    ],
+    pictures: [profBSA, profBSA2, profBSA3, profBSA4, profBSA5, profBSA6, profBSA7,profBSA8,profBSA9, profBSA10, profBSA11, profBSA12, profBSA13, profBSA14, profBSA15, profBSA16, profBSA17,],
+ 
+    
+  },
   {
     date: "September, 2024",
     title:

@@ -26,6 +26,7 @@ import defense from "@/public/images/019-defense/defense.jpg"
 import sugAward from "@/public/images/019-defense/sug-award.jpg"
 import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
 import umobong from "@/public/images/umobong.jpeg"
+import profBSA from "@/public/images/profBSA/profBSA1.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -53,6 +54,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: profBSA,
+    title: "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
+    btnLink: "/recent-news",
   },
   {
     image: umobong,
