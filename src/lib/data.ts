@@ -27,6 +27,7 @@ import sugAward from "@/public/images/019-defense/sug-award.jpg"
 import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
 import umobong from "@/public/images/umobong.jpeg"
 import profBSA from "@/public/images/profBSA/profBSA1.jpg"
+import promotedStaff from "@/public/images/promoted-staff.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -58,6 +59,11 @@ const homeData: HomeDataItem[] = [
   {
     image: profBSA,
     title: "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
+    btnLink: "/recent-news",
+  },
+  {
+    image: promotedStaff,
+    title: "Two Academic Staff Promoted to Professorial Cadre",
     btnLink: "/recent-news",
   },
   {

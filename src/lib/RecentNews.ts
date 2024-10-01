@@ -135,6 +135,7 @@ import profBSA15 from "@/public/images/profBSA/STP_3536.jpg"
 import profBSA16 from "@/public/images/profBSA/STP_3470.jpg"
 import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
 import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
+import promotedStaff from "@/public/images/promoted-staff.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -161,6 +162,18 @@ export const recentNews: recentNewsTypes[] = [
       "\nThe 105th inaugural lecture stands as a testament to Professor Antia's commitment to academic excellence and his invaluable contributions to the scientific community, both locally and globally.",
     ],
     pictures: [profBSA, profBSA2, profBSA3, profBSA4, profBSA5, profBSA6, profBSA7,profBSA8,profBSA9, profBSA10, profBSA11, profBSA12, profBSA13, profBSA14, profBSA15, profBSA16, profBSA17,],
+ 
+    
+  },
+  {
+    date: "September, 2024",
+    title:
+    "Two Academic Staff Promoted to Professorial Cadre",
+    description: [
+      "During 131st Senate meeting of the University of Uyo on Wednesday, 25th September 2024, the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, announced the promotion of two Chemistry Department staff, Dr. Imaobong Ekwere Daniel and Dr. Okon U. Abakedi, to the rank of Associate Professor.",
+      "\nThe Head of Department extended heartfelt congratulations to both Dr. Daniel and Dr. Abakedi for their well-deserved promotions. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of their hard work and dedication.",  
+    ],
+    pictures: [promotedStaff],
  
     
   },
