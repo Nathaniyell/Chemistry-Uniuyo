@@ -117,6 +117,7 @@ import defense17 from "@/public/images/019-defense/defense17.jpg"
 import defense18 from "@/public/images/019-defense/defense18.jpg"
 import sugAward from "@/public/images/019-defense/sug-award.jpg"
 import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
+import umobong from "@/public/images/umobong.jpeg"
 
 import { StaticImageData } from "next/image";
 
@@ -130,6 +131,20 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "September, 2024",
+    title:
+    "HOD Welcomes former staff of the Department of Chemistry",
+    description: [
+      "On Tuesday, September 10th, the Head of the Department (HOD) of Chemistry, Prof. Edu Inam, warmly welcomed a former academic staff member, Mrs. Margaret Umobong, during her visit to the department. Mrs. Umobong was one of the pioneering academic staff in the organic chemistry unit, who later transitioned to a successful career in nursing in the United States.",
+      "\nThe occasion was marked by the presence of other notable members of the department, including Prof. B. S. Antia, Dr. Ini Umoren, Dr. Helen Etuk, and several others. Prof. Inam expressed her appreciation to Mrs. Umobong for maintaining her connection with the department after many years. She seized the opportunity to highlight significant achievements that the department had made since her departure. These included the department's relocation to the permanent campus, the upgrade of laboratory facilities, and the establishment of a new research center.",
+      "\nIn her response, Mrs. Umobong praised the department for its continuous progress and the remarkable contributions of the staff. She encouraged them to keep up their excellent work and demonstrated her support by making a cash donation towards the ongoing construction of the research center.",
+      "\nProf. Inam, speaking on behalf of the department's staff and students, expressed heartfelt gratitude for Mrs. Umobong's generous contribution and wished her a safe return to the United States."    
+    ],
+    pictures: [umobong],
+ 
+    
+  },
   {
     date: "August, 2024",
     title:

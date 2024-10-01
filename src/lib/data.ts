@@ -25,6 +25,7 @@ import birthdayProf from "@/public/images/prof_inams_birthday/Prof_birthday.jpg"
 import defense from "@/public/images/019-defense/defense.jpg"
 import sugAward from "@/public/images/019-defense/sug-award.jpg"
 import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
+import umobong from "@/public/images/umobong.jpeg"
 
 export const chemistryUnits = [
   "organic",
@@ -52,6 +53,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: umobong,
+    title: "HOD Welcomes former staff of the Department of Chemistry",
+    btnLink: "/recent-news",
   },
   {
     image: defense,
