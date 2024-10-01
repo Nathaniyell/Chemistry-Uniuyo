@@ -166,7 +166,7 @@ export const recentNews: recentNewsTypes[] = [
     
   },
   {
-    date: "September, 2024",
+    date: "September 25, 2024",
     title:
     "Two Academic Staff Promoted to Professorial Cadre",
     description: [
