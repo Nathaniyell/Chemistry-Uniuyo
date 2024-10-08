@@ -137,6 +137,7 @@ import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
 import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
 import promotedStaff from "@/public/images/promoted-staff.jpg"
 import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg"
+import schoolLogo from "@/public/images/logo.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -157,7 +158,7 @@ export const recentNews: recentNewsTypes[] = [
     description: [
       "The University of Uyo has formally recognized Dr. N. Simon, the Exams Officer of the Department of Chemistry, for his exemplary dedication and efficiency in the timely computation and submission of departmental results. The commendation was delivered by the Vice Chancellor on behalf of the university's management, highlighting Dr. Simon's diligence, sense of responsibility, and commitment to his role, which has positively impacted both the Department of Chemistry and the university at large.",
 
-      '\nProfessor Edu Inam, Head of the Department of Chemistry, congratulated Dr. Simon on this well-deserved recognition, noting his meticulousness, honesty, and passion in executing his duties. "Dr. Simon’s commitment to excellence has been evident in his work as Exams Officer, and it’s no surprise that his efforts have been acknowledged by the university management," said Professor Inam.',
+      '\nProfessor Edu Inam, Head of the Department of Chemistry, congratulated Dr. Simon on this well-deserved recognition, noting his meticulousness, honesty, and passion in executing his duties. "Dr. Simon’s commitment to excellence has been evident in his work as Exams Officer and it’s no surprise that his efforts have been acknowledged by the university management," said Professor Inam.',
 
       "\nThis recognition not only reflects Dr. Simon's individual efforts but also reinforces the university's commitment to upholding high standards of academic administration.",
 
@@ -167,11 +168,27 @@ export const recentNews: recentNewsTypes[] = [
 
   },
   {
+    date: "September, 2024",
+    title:
+      "School Management Approves Academic Calendar for New Sessions",
+    description: [
+      "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 sessions. According to the released schedule, academic activities for the first semester will begin on Monday October 7, 2024.",
+
+      '\nLectures for all undergraduate and postgraduate students are set to run for 11 weeks, from October 7, 2024, to December 20, 2024. Following the lecture period, first semester examinations will take place from January 20, 2025, to February 7, 2025, lasting three weeks.',
+
+      "\nFor further details on the approved calendar, please download the approved calender below",
+
+    ],
+    pictures: [schoolLogo],
+
+
+  },
+  {
     date: "September 27, 2024",
     title:
       "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
     description: [
-      "Professor Bassey Sunday Antia, a leading authority in organic chemistry, captivated the University of Uyo's academic community on 27th September 2024 as he delivered the institution’s 105th inaugural lecture. Titled 'Natural Products Chemistry: Where the Mysteries of the Natural World Manifest in Atoms, Molecules, and Ions', the lecture analyzed the obscure facets of the natural world and their substantial impact on scientific findings.",
+      'Professor Bassey Sunday Antia, a leading authority in organic chemistry, captivated the University of Uyo`s academic community on 27th September 2024 as he delivered the institution’s 105th inaugural lecture. Titled "Natural Products Chemistry: Where the Mysteries of the Natural World Manifest in Atoms, Molecules, and Ions", the lecture analyzed the obscure facets of the natural world and their substantial impact on scientific findings.',
       "\nAs a highly respected figure in the field of organic chemistry, Professor Antia's inaugural lecture delved into the fascinating world of natural products chemistry, a branch of science dedicated to the study of chemical compounds produced by living organisms. In his address, he explored how atoms, molecules, and ions come together to form complex natural substances, and how these substances have contributed to significant scientific discoveries in medicine, agriculture, and other industries.",
       "\nThroughout the lecture, Professor Antia highlighted how natural products, derived from plants, animals, and microorganisms, have served as critical resources for drug development, including treatments for diseases like cancer and malaria. Additionally, he clarified the molecular details that enable naturally occurring compounds to display distinct biological actions; these insights frequently serve as the basis for the development of novel pharmaceuticals and synthetic equivalents.",
       "\nProfessor Antia emphasized the importance of research in natural products chemistry, highlighting its potential for further breakthroughs in addressing global health challenges. His lecture underscored how chemistry serves as a bridge between the mysteries of nature and scientific advancements that benefit society.",

@@ -29,6 +29,7 @@ import umobong from "@/public/images/umobong.jpeg"
 import profBSA from "@/public/images/profBSA/profBSA1.jpg"
 import promotedStaff from "@/public/images/promoted-staff.jpg"
 
+
 export const chemistryUnits = [
   "organic",
   "inorganic",

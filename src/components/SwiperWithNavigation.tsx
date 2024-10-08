@@ -36,7 +36,7 @@ export default function SwiperWithNavigation({pictures}: SwiperPropTypes) {
       >
        {pictures.map((data, index)=>(
          <SwiperSlide key={index}>
-            <Image src={data} alt='Recent-News' />
+            <Image src={data} className={`${pictures.length ===1 && "md:w-1/2 mx-auto"}`} alt='Recent-News' />
          </SwiperSlide>
        ))}
         

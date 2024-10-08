@@ -7,6 +7,7 @@ import { CiCalendar } from "react-icons/ci";
 import { Breadcrumbs } from "@/components";
 import SwiperWithNavigation from "@/components/SwiperWithNavigation";
 
+
 const newsTitles = recentNews.map((news) => news.title);
 const Page = ({ params }: { params: { slug: string } }) => {
   const newsTitleFormatted = params.slug;
@@ -63,9 +64,9 @@ const Page = ({ params }: { params: { slug: string } }) => {
           ))}
         </p>
         {writtenBy && <p className="font-semibold mb-2"><span className="text-gray-500 font-normal">written by: </span>{writtenBy}</p>}
+          {title === "School Management Approves Academic Calendar for New Sessions" && <a className="text-primary underline" target="_blank" href="https://turquoise-nerita-83.tiiny.site">Download Academic Calendar</a>}
       </div>
-
-      <Breadcrumbs
+      {/* <Breadcrumbs
         root={{ title: "News", href: `/recent-news` }}
         array={[
           {
@@ -73,7 +74,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
             href: `/recent-news/${newsTitleFormatted}`,
           },
         ]}
-      />
+      /> */}
     </div>
   );
 };
