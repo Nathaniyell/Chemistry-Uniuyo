@@ -136,6 +136,7 @@ import profBSA16 from "@/public/images/profBSA/STP_3470.jpg"
 import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
 import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
 import promotedStaff from "@/public/images/promoted-staff.jpg"
+import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -150,9 +151,25 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+    date: "September, 2024",
+    title:
+      "Vice Chancellor Commends Exams Officer for Exceptional Service",
+    description: [
+      "The University of Uyo has formally recognized Dr. N. Simon, the Exams Officer of the Department of Chemistry, for his exemplary dedication and efficiency in the timely computation and submission of departmental results. The commendation was delivered by the Vice Chancellor on behalf of the university's management, highlighting Dr. Simon's diligence, sense of responsibility, and commitment to his role, which has positively impacted both the Department of Chemistry and the university at large.",
+
+      '\nProfessor Edu Inam, Head of the Department of Chemistry, congratulated Dr. Simon on this well-deserved recognition, noting his meticulousness, honesty, and passion in executing his duties. "Dr. Simon’s commitment to excellence has been evident in his work as Exams Officer, and it’s no surprise that his efforts have been acknowledged by the university management," said Professor Inam.',
+
+      "\nThis recognition not only reflects Dr. Simon's individual efforts but also reinforces the university's commitment to upholding high standards of academic administration.",
+
+    ],
+    pictures: [nSimon],
+
+
+  },
+  {
     date: "September 27, 2024",
     title:
-    "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
+      "Professor Bassey Antia Delivers 105th Inaugural Lecture on the Mysteries of Natural Products Chemistry",
     description: [
       "Professor Bassey Sunday Antia, a leading authority in organic chemistry, captivated the University of Uyo's academic community on 27th September 2024 as he delivered the institution’s 105th inaugural lecture. Titled 'Natural Products Chemistry: Where the Mysteries of the Natural World Manifest in Atoms, Molecules, and Ions', the lecture analyzed the obscure facets of the natural world and their substantial impact on scientific findings.",
       "\nAs a highly respected figure in the field of organic chemistry, Professor Antia's inaugural lecture delved into the fascinating world of natural products chemistry, a branch of science dedicated to the study of chemical compounds produced by living organisms. In his address, he explored how atoms, molecules, and ions come together to form complex natural substances, and how these substances have contributed to significant scientific discoveries in medicine, agriculture, and other industries.",
@@ -161,85 +178,85 @@ export const recentNews: recentNewsTypes[] = [
       "\nThe lecture was attended by a cross-section of the university community, including staff, students, and invited guests from various academic and research institutions. In recognition of his contributions to the field, Professor Antia received accolades from both the university and his colleagues, who praised his lifelong dedication to advancing organic chemistry and his efforts to mentor the next generation of scientists.",
       "\nThe 105th inaugural lecture stands as a testament to Professor Antia's commitment to academic excellence and his invaluable contributions to the scientific community, both locally and globally.",
     ],
-    pictures: [profBSA, profBSA2, profBSA3, profBSA4, profBSA5, profBSA6, profBSA7,profBSA8,profBSA9, profBSA10, profBSA11, profBSA12, profBSA13, profBSA14, profBSA15, profBSA16, profBSA17,],
- 
-    
+    pictures: [profBSA, profBSA2, profBSA3, profBSA4, profBSA5, profBSA6, profBSA7, profBSA8, profBSA9, profBSA10, profBSA11, profBSA12, profBSA13, profBSA14, profBSA15, profBSA16, profBSA17,],
+
+
   },
   {
     date: "September 25, 2024",
     title:
-    "Two Academic Staff Promoted to Professorial Cadre",
+      "Two Academic Staff Promoted to Professorial Cadre",
     description: [
       "During 131st Senate meeting of the University of Uyo on Wednesday, 25th September 2024, the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, announced the promotion of two Chemistry Department staff, Dr. Imaobong Ekwere Daniel and Dr. Okon U. Abakedi, to the rank of Associate Professor.",
-      "\nThe Head of Department extended heartfelt congratulations to both Dr. Daniel and Dr. Abakedi for their well-deserved promotions. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of their hard work and dedication.",  
+      "\nThe Head of Department extended heartfelt congratulations to both Dr. Daniel and Dr. Abakedi for their well-deserved promotions. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of their hard work and dedication.",
     ],
     pictures: [promotedStaff],
- 
-    
+
+
   },
   {
     date: "September, 2024",
     title:
-    "HOD Welcomes former staff of the Department of Chemistry",
+      "HOD Welcomes former staff of the Department of Chemistry",
     description: [
       "On Tuesday, September 10th, the Head of the Department (HOD) of Chemistry, Prof. Edu Inam, warmly welcomed a former academic staff member, Mrs. Margaret Umobong, during her visit to the department. Mrs. Umobong was one of the pioneering academic staff in the organic chemistry unit, who later transitioned to a successful career in nursing in the United States.",
       "\nThe occasion was marked by the presence of other notable members of the department, including Prof. B. S. Antia, Dr. Ini Umoren, Dr. Helen Etuk, and several others. Prof. Inam expressed her appreciation to Mrs. Umobong for maintaining her connection with the department after many years. She seized the opportunity to highlight significant achievements that the department had made since her departure. These included the department's relocation to the permanent campus, the upgrade of laboratory facilities, and the establishment of a new research center.",
       "\nIn her response, Mrs. Umobong praised the department for its continuous progress and the remarkable contributions of the staff. She encouraged them to keep up their excellent work and demonstrated her support by making a cash donation towards the ongoing construction of the research center.",
-      "\nProf. Inam, speaking on behalf of the department's staff and students, expressed heartfelt gratitude for Mrs. Umobong's generous contribution and wished her a safe return to the United States."    
+      "\nProf. Inam, speaking on behalf of the department's staff and students, expressed heartfelt gratitude for Mrs. Umobong's generous contribution and wished her a safe return to the United States."
     ],
     pictures: [umobong],
- 
-    
+
+
   },
   {
     date: "August, 2024",
     title:
-    "Chemistry Students Complete Undergraduate Project Defense",
+      "Chemistry Students Complete Undergraduate Project Defense",
     description: [
       "The Department of Chemistry, University of Uyo, Uyo proudly announces the successful completion of the undergraduate project defense by the final-year students. The event, held on 15th and 16th of August, 2024, was a key academic achievement for these students as they presented their research findings before a panel of esteemed lecturers.",
       "\nThe project defense covered diverse topics across various branches of chemistry, ranging from organic synthesis to environmental pollution studies. Students demonstrated a high level of understanding, innovation, and commitment, addressing real-world problems through their research.",
       "\nSpeaking at the event, the Head of the Chemistry Department, Professor Edu Inam, commended the students for their hard work and dedication. She highlighted that the research presented reflects the department's ongoing commitment to producing well-rounded graduates equipped with both theoretical knowledge and practical skills.",
       '\nOne of the students, Fidelis Peter, who presented on the topic "Mild Steel Corrosion Inhibition in 1 M Hydrochloric Acid Using Blends of Some Indole Derivatives with Potassium Chloride", expressed gratitude to the department’s staff for their guidance and support throughout the research period.',
-      "\nThe defense concluded with words of encouragement from the panel, who urged the students to continue their pursuit of knowledge and contribute meaningfully to the scientific community."    
+      "\nThe defense concluded with words of encouragement from the panel, who urged the students to continue their pursuit of knowledge and contribute meaningfully to the scientific community."
     ],
-    pictures: [defense, promise, defense1, defense2,defense3,defense4,defense5,defense6,defense7, defense8,defense9, defense10,defense11,defense12,defense13,defense14,defense15,defense16,defense17,defense18],
+    pictures: [defense, promise, defense1, defense2, defense3, defense4, defense5, defense6, defense7, defense8, defense9, defense10, defense11, defense12, defense13, defense14, defense15, defense16, defense17, defense18],
     tag: "student"
-    
+
   },
   {
     date: "August, 2024",
     title:
-    "Department of Chemistry Honored as Best Department of the Year",
+      "Department of Chemistry Honored as Best Department of the Year",
     description: [
       'The Department of Chemistry at the University of Uyo has been recognized with the prestigious "Best Department of the Year" award. This honor was bestowed in acknowledgment of the department’s exceptional academic achievements, groundbreaking research contributions, and commitment to excellence in teaching.',
       "\nOver the past year, the department has demonstrated remarkable strides in various areas, including increased research output, successful student projects and notable community engagement initiatives.",
       "\nReceiving the award, the Head of the Department, Professor Edu Inam expressed gratitude to the staff and students, whose dedication and collaborative efforts have been pivotal in achieving this recognition. She highlighted that the award serves as motivation to continue setting higher standards and contributing positively to the advancement of science and society.",
       '\n The award celebrates the department’s leadership in driving innovation and promoting academic rigor, reinforcing the department’s reputation as a leading hub of chemical science research and education in Akwa Ibom State, setting a benchmark for academic and operational excellence across the University of Uyo.',
-          
+
     ],
     pictures: [sugAward2],
     tag: "student"
-    
+
   },
   {
     date: "August, 2024",
     title:
-    "Students Community Recognizes Professor Edu Inam with Prestigious Awards for Her Outstanding Contributions",
+      "Students Community Recognizes Professor Edu Inam with Prestigious Awards for Her Outstanding Contributions",
     description: [
       "The students' community at the University of Uyo has honored Professor Edu Inam with an 'Award of Excellence' in recognition of her remarkable contributions to academia, mentorship and community development. The award ceremony, held on the 2nd of August, 2024, was a heartwarming event that showcased the deep respect and admiration the students have for Professor Inam.",
       "\nProfessor Inam, a renowned scholar and advocate for educational excellence, has made a significant impact through her years of dedicated service. She has consistently championed initiatives that have positively influenced students' academic and personal growth. Her role as a mentor has empowered countless students to reach their potential and pursue successful careers.",
       "\nThe awards presented highlight Professor Inam’s tireless efforts in promoting research, fostering inclusivity, and advocating for student welfare. Speaking at the event, the SUG President, Comr. Dayemi Archibong, expressed his gratitude for Prof. Inam's unwavering support, describing her as a beacon of inspiration and a pillar within the academic community.",
       '\nIn her acceptance speech, Professor Inam expressed her heartfelt appreciation to the students, stating that the recognition serves as a motivation to continue her work in nurturing the next generation of scholars and leaders. She emphasized the importance of strong academic values and encouraged the students to stay committed to their education and personal development.',
-      "\nThe event was attended by members of the university community, colleagues and well-wishers, all of whom lauded Professor Inam’s exceptional legacy."    
+      "\nThe event was attended by members of the university community, colleagues and well-wishers, all of whom lauded Professor Inam’s exceptional legacy."
     ],
     pictures: [sugAward],
     tag: "student"
-    
+
   },
   {
     date: "August, 2024",
     title:
-    "My Time in the Department of Chemistry",
+      "My Time in the Department of Chemistry",
     writtenBy: "PATRICIA A. EKPO",
     description: [
       "Numerous universities crossed my thoughts when I wanted to begin my PhD journey, but I ultimately decided to enrol in the University of Uyo's Chemistry Department due to my fantastic master's program experience. \nAn excellent group of lecturers who consistently arrive on time for class and who serve as invaluable mentors and leaders.",
@@ -247,16 +264,16 @@ export const recentNews: recentNewsTypes[] = [
       "The exceptional postgraduate laboratory and the department's focus on research provided me with the chance to extensively investigate my research field because having access to high-quality equipment was essential to carrying out experiments and producing meaningful results.",
       "I had the opportunity to study more and gain exposure to the most recent advancements and research in various fields of chemistry through the department's seminars. With their incomparable guidance throughout, the Department heads, as well as my PhD supervisors and lecturers, were incredibly helpful and always an inspiration.",
       "My time in the Department of Chemistry was a life-changing experience that improved me as a scientist and a person. I shall continue to be guided and inspired by the skills and knowledge I have acquired over this time. The University of Uyo's Department of Chemistry is the place to study.",
-    
+
     ],
     pictures: [],
     tag: "student"
-    
+
   },
   {
     date: "July, 2024",
     title:
-    "Students Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
+      "Students Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
     description: [
       "Dear Professor Edu Inam, \n  On behalf of The Students' Chemical Society of Nigeria, University of Uyo Chapter, we extend our heartfelt birthday wishes to you. Today, we celebrate your remarkable impact as a leader, mentor, and educator in the field of chemistry",
       "Your unwavering dedication, profound wisdom, and inspiring guidance have touched the lives of countless students, including ours. Your passion and commitment to excellence have created a nurturing environment where we can thrive and pursue our dreams.",
@@ -267,7 +284,7 @@ export const recentNews: recentNewsTypes[] = [
     ],
     pictures: [birthdayProf, birthday, birthday1, birthday2, birthday3, birthday4, birthday5, birthday6, birthday7],
     tag: "student"
-    
+
   },
   {
     date: "July, 2024",
@@ -277,7 +294,7 @@ export const recentNews: recentNewsTypes[] = [
       "Please see details on the flyer attached",
     ],
     pictures: [jmser],
-    
+
   },
   {
     date: "July, 2024",
