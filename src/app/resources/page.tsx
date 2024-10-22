@@ -61,9 +61,9 @@ export default function ResourcePage() {
               Guidelines and Rules for students in the department of Chemistry
             </li>
           </ul>
-          <a href="" download className="underline text-lg text-red-600 italic">
+          <p className="underline text-lg text-red-600 italic">
             Please visit the departmental office to get a copy of the student handbook
-          </a>
+          </p>
         </div>
       </FramerAnimation>
     </main>
