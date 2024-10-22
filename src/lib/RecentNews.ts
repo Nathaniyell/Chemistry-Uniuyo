@@ -137,6 +137,8 @@ import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
 import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
 import promotedStaff from "@/public/images/promoted-staff.jpg"
 import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg"
+import profBlessing from "@/public/images/aderi.jpg"
+import profBlessing2 from "@/public/images/blessing_aderbigbe.jpg"
 import schoolLogo from "@/public/images/logo.jpg"
 
 import { StaticImageData } from "next/image";
@@ -151,6 +153,22 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "September, 2024",
+    title:
+      "A Shining Example of Excellence from the Department of Chemistry",
+    description: [
+      "Graduating with honors from the Department of Chemistry at the University of Uyo on March 8, 1999, Prof. Blessing A. Aderibigbe has since risen to international prominence in the field of organic / medicinal chemistry. Currently a professor at the University of Fort Hare, South Africa, Prof. Aderibigbe is also a National Research Foundation C2-rated researcher and has been listed in the prestigious Stanford/Elsevier Top 2% Scientists for both 2023 and 2024.",
+
+      '\nHer remarkable research focuses on designing and developing polymer-based wound dressings, drug delivery systems, and synthesizing hybrid organic molecules aimed at treating cancer and infectious diseases. With over 100 published papers and numerous guest editorial roles in high-impact scientific journals, Prof. Aderibigbe`s groundbreaking work has garnered global attention.',
+
+      "\nA proud product of the University of Uyo, Prof. Aderibigbe has also mentored 24 postgraduate students and received multiple research grants. She remains an inspiration to young scientists, embodying the legacy of excellence instilled by her alma mater.",
+
+    ],
+    pictures: [profBlessing],
+
+
+  },
   {
     date: "September, 2024",
     title:

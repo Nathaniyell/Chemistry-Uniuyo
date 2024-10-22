@@ -66,6 +66,7 @@ export const allResources = [
     description: "",
     images: [
     eqpRm1,
+    eqpRm1,
     ],
   },
    {
