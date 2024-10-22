@@ -90,7 +90,7 @@ const HomepageSlider = ({
                   delay: 0.3,
                   duration: 0.7,
                 }}
-                className="uppercase font-bold text-xl md:text-3xl lg:text-4xl"
+                className="uppercase font-bold text-xl text-center md:text-3xl lg:text-4xl"
               >
                 <span className="uppercase font-normal text-lg md:text-xl">
                   {greeting} <br />
@@ -121,7 +121,7 @@ const HomepageSlider = ({
                     duration: 0.8,
                   }}
                 >
-                  <RouteLinkBtn className="md:text-xl !w-[60%] lg:!w-[30%]" href={btnLink} arrow >
+                  <RouteLinkBtn className="md:text-xl !w-[60%] !mx-auto" href={btnLink} arrow >
                     Read more
                   </RouteLinkBtn>
                 </motion.div>
