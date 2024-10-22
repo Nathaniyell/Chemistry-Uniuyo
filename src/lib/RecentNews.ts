@@ -156,7 +156,7 @@ export const recentNews: recentNewsTypes[] = [
   {
     date: "September, 2024",
     title:
-      "Professor Blessing Aderibigbe Set to Return to the University of Uyo for Special Lecture Series",
+      "Professor Blessing Aderibigbe Set to Return to the Department of Chemistry for Special Lecture Series",
     description: [
       "The Department of Chemistry at the University of Uyo is excited to welcome back one of its most distinguished alumnae, Professor Blessing A. Aderibigbe, for a series of special lectures. Prof. Aderibigbe, who graduated from the department on March 8, 1999, has since established herself as a leading organic chemist, currently serving as a professor at the University of Fort Hare, South Africa. Her cutting-edge research in polymer-based drug delivery systems and wound dressings has earned her a spot in the Stanford/Elsevier Top 2% Scientists for 2023 and 2024.",
 
