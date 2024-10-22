@@ -1089,10 +1089,10 @@ export const eighteenSeries = [
     },
     {
         sn: 49,
-        name: "OKON, INIUBONG UNWAN",
+        name: "OKON, INIUBONG UMANA",
         regNumber: "18/SC/CH/728",
         topic: "THEORETICAL ASSESSMENT OF ADSORPTION OF SOME BENZOTHIAZOLE DERIAVATIVES ON FE(110) SURFACE",
-        supervisor: "DR. E. ITUEN"
+        supervisor: "DR. E. B. ITUEN"
     },
     {
         sn: 50,
