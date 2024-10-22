@@ -156,6 +156,20 @@ export const recentNews: recentNewsTypes[] = [
   {
     date: "September, 2024",
     title:
+      "Professor Blessing Aderibigbe Set to Return to the University of Uyo for Special Lecture Series",
+    description: [
+      "The Department of Chemistry at the University of Uyo is excited to welcome back one of its most distinguished alumnae, Professor Blessing A. Aderibigbe, for a series of special lectures. Prof. Aderibigbe, who graduated from the department on March 8, 1999, has since established herself as a leading organic chemist, currently serving as a professor at the University of Fort Hare, South Africa. Her cutting-edge research in polymer-based drug delivery systems and wound dressings has earned her a spot in the Stanford/Elsevier Top 2% Scientists for 2023 and 2024.",
+
+      '\nDuring her visit, Prof. Aderibigbe will share her wealth of knowledge in a series of lectures that will explore advanced topics in organic chemistry, drug design, and the future of biomedical applications. Students and staff alike are eager to learn from her groundbreaking research, which has received international recognition, and her experiences mentoring the next generation of scientists.',
+
+      "\nThis visit marks a special homecoming for Prof. Aderibigbe, and the University of Uyo community looks forward to an inspiring and insightful exchange of ideas.",
+
+    ],
+    pictures: [profBlessing2],
+  },
+  {
+    date: "September, 2024",
+    title:
       "A Shining Example of Excellence from the Department of Chemistry",
     description: [
       "Graduating with honors from the Department of Chemistry at the University of Uyo on March 8, 1999, Prof. Blessing A. Aderibigbe has since risen to international prominence in the field of organic / medicinal chemistry. Currently a professor at the University of Fort Hare, South Africa, Prof. Aderibigbe is also a National Research Foundation C2-rated researcher and has been listed in the prestigious Stanford/Elsevier Top 2% Scientists for both 2023 and 2024.",
