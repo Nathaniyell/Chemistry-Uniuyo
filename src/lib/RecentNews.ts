@@ -150,6 +150,11 @@ import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg
 import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg"
 import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg"
 import convocationBSC3 from "@/public/images/convocation/undergraduate-convo4.jpg"
+import convocationBSC5 from "@/public/images/convocation/undergraduate-convo5.jpg"
+import convocationBSC6 from "@/public/images/convocation/undergraduate-convo6.jpg"
+import convocationBSC7 from "@/public/images/convocation/undergraduate-convo7.jpg"
+import convocationBSC8 from "@/public/images/convocation/undergraduate-convo8.jpg"
+import convocationBSC10 from "@/public/images/convocation/undergraduate-convo10.jpg"
 import convocationBSC4 from "@/public/images/convocation/BGS1.jpg"
 import BGS2 from "@/public/images/convocation/BGS2.jpg"
 import phdConvo from "@/public/images/convocation/phd1.jpg"
@@ -269,7 +274,7 @@ export const recentNews: recentNewsTypes[] = [
       '\nAs these fresh graduates embark on new paths, whether in industry, academia, or advanced research, the University of Uyo community eagerly anticipates their future contributions to chemistry and the broader scientific world. This convocation marks a significant milestone in their careers and the beginning of their journey as ambassadors of scientific advancement. Congratulations to the B.Sc. Chemistry Class of 2021/2022!',
 
     ],
-    pictures: [convocationBSC, convocationBSC1, convocationBSC2, convocationBSC3, convocationBSC4],
+    pictures: [convocationBSC, convocationBSC1, convocationBSC2, convocationBSC3, convocationBSC4, convocationBSC5, convocationBSC6, convocationBSC7, convocationBSC8, convocationBSC10],
   },
   {
     date: "November, 2024",
