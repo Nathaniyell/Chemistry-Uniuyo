@@ -28,6 +28,10 @@ import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
 import umobong from "@/public/images/umobong.jpeg"
 import profBSA from "@/public/images/profBSA/profBSA1.jpg"
 import promotedStaff from "@/public/images/promoted-staff.jpg"
+import aktw1 from "@/public/images/aktw/aktw1.jpg"
+import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg"
+import BGS from "@/public/images/convocation/BGS1.jpg"
+import phdConvo1 from "@/public/images/convocation/phd2.jpg"
 
 
 export const chemistryUnits = [
@@ -56,6 +60,26 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: phdConvo1,
+    title: "University of Uyo Celebrates PhD Graduates in Chemistry at Convocation Ceremony",
+    btnLink: "/recent-news",
+  },
+  {
+    image: BGS,
+    title: "Department of Chemistry Celebrates Best Graduating Student",
+    btnLink: "/recent-news",
+  },
+  {
+    image: convocationBSC,
+    title: "University of Uyo Confers Bachelor of Science Degrees to Chemistry Graduates at Convocation",
+    btnLink: "/recent-news",
+  },
+  {
+    image: aktw1,
+    title: "Chemistry Students Shine at Akwa Ibom Tech Week",
+    btnLink: "/recent-news",
   },
   {
     image: profBSA,
