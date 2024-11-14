@@ -140,6 +140,18 @@ import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg"
 import profBlessing from "@/public/images/aderi.jpg"
 import profBlessing2 from "@/public/images/blessing_aderbigbe.jpg"
 import schoolLogo from "@/public/images/logo.jpg"
+import aktw1 from "@/public/images/aktw/aktw1.jpg"
+import aktw2 from "@/public/images/aktw/aktw2.jpg"
+import aktw3 from "@/public/images/aktw/aktw3.jpg"
+import aktw4 from "@/public/images/aktw/aktw4.jpg"
+import aktw5 from "@/public/images/aktw/aktw5.jpg"
+import aktw6 from "@/public/images/aktw/aktw.jpg"
+import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg"
+import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg"
+import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg"
+import convocationBSC3 from "@/public/images/convocation/undergraduate-convo4.jpg"
+import convocationBSC4 from "@/public/images/convocation/BGS1.jpg"
+
 
 import { StaticImageData } from "next/image";
 
@@ -153,6 +165,43 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "November, 2024",
+    tag: "student",
+    title:
+      "University of Uyo Confers Bachelor of Science Degrees to Chemistry Graduates at Convocation",
+    description: [
+      "The University of Uyo proudly celebrated its Chemistry undergraduates at this year’s convocation ceremony, officially conferring Bachelor of Science (B.Sc.) degrees on a remarkable cohort of graduates. These students, now officially recognized as scientists, completed rigorous academic coursework and lab research, embodying the excellence and dedication that define the Chemistry Department.",
+
+      "\nThe Head of the Chemistry Department, Professor Edu Inam, extended heartfelt congratulations, applauding the new graduates for their resilience and commitment to scientific inquiry. Many of these graduates not only excelled academically but also contributed to groundbreaking research projects, internships, and community science outreach programs. Their achievements reflect the high standards upheld by the department and serve as an inspiration for current and future students.",
+
+      "\nAmong the graduating class were several outstanding individuals whose achievements and contributions were recognized during the ceremony. The Class Representative, Nathaniel Essien, was commended for his exceptional leadership and unwavering support for his fellow students throughout his studies. His ability to foster unity within the class and advocate for his peers has left a lasting impact on both students and faculty.",
+     
+      '\nThe department also celebrated the Best Graduating Student for the 2021/2022 academic session, Iniubong Umana, whose academic accomplishments and dedication to scientific exploration have set a new standard of excellence. This top graduate excelled in coursework, research projects, and departmental initiatives, earning multiple academic awards and accolades. His hard work has made him a role model for current and future chemistry students.',
+
+      '\nAs these fresh graduates embark on new paths, whether in industry, academia, or advanced research, the University of Uyo community eagerly anticipates their future contributions to chemistry and the broader scientific world. This convocation marks a significant milestone in their careers and the beginning of their journey as ambassadors of scientific advancement. Congratulations to the B.Sc. Chemistry Class of 2021/2022!',
+
+    ],
+    pictures: [convocationBSC, convocationBSC1, convocationBSC2, convocationBSC3, convocationBSC4],
+  },
+  {
+    date: "November, 2024",
+    tag: "student",
+    title:
+      "Chemistry Students Shine at Akwa Ibom Tech Week",
+    description: [
+      "In a groundbreaking move that underscores the growing role of chemistry students in technological innovation, the Department of Chemistry at the University of Uyo participated in this year's Akwa Ibom Tech Week, an event that brings together the brightest minds in technology, innovation, and science from across the region.",
+
+      "\nThe department showcased its latest innovations in the field of chemistry, including a novel approach to wastewater treatment and a sustainable method for producing plastics from renewable resources.",
+
+      "\nThe students also had the opportunity to ask thought-provoking questions, particularly about computational chemistry and the use of artificial intelligence to model chemical reactions and predict molecular behavior with unprecedented accuracy.",
+     
+      '\n Professor Edu Inam, Head of the Department of Chemistry, expressed immense pride in the students’ contributions: "Our students are not just learning about chemistry; they are applying it to solve real-world problems. This collaboration with Akwa Ibom Tech Week gives them a platform to showcase their talents and further strengthens the link between science, technology, and entrepreneurship."',
+      '\nThe involvement of chemistry students at Akwa Ibom Tech Week reflects a growing recognition of the importance of chemical sciences in driving technological advancement. The department plans to continue its participation in future tech events, encouraging more students to engage in interdisciplinary collaboration and contribute to the region’s expanding tech ecosystem.',
+
+    ],
+    pictures: [aktw1, aktw2,aktw3,aktw4,aktw5,aktw6],
+  },
   {
     date: "September, 2024",
     title:
@@ -471,6 +520,7 @@ export const recentNews: recentNewsTypes[] = [
   },
   {
     date: "September, 2023",
+        tag: "student",
     title: "Department of Chemistry Graduates Record Number of Students",
     description: [
       "The Department of Chemistry at University of Uyo has achieved a remarkable milestone by graduating a record-breaking number of students. The department has proudly announced the graduation of 45 students who gained admission in 2018, setting a new high for the department. This achievement is particularly significant as it marks the first time in the history of the department that it has cleared such a large number of students.",
