@@ -151,6 +151,7 @@ import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jp
 import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg"
 import convocationBSC3 from "@/public/images/convocation/undergraduate-convo4.jpg"
 import convocationBSC4 from "@/public/images/convocation/BGS1.jpg"
+import BGS2 from "@/public/images/convocation/BGS2.jpg"
 import phdConvo from "@/public/images/convocation/phd1.jpg"
 import phdConvo1 from "@/public/images/convocation/phd2.jpg"
 import phdConvo2 from "@/public/images/convocation/phd4.jpg"
@@ -190,6 +191,27 @@ export const recentNews: recentNewsTypes[] = [
 
     ],
     pictures: [phdConvo, phdConvo1, phdConvo2, phdConvo3, phdConvo4, phdConvo5, phdConvo6],
+  },
+  {
+    date: "November, 2024",
+    tag: "student",
+    title:
+      "Department of Chemistry Celebrates Best Graduating Student",
+    description: [
+      "In a heartfelt ceremony celebrating academic excellence, the Department of Chemistry, Univeristy of Uyo, led by  Professor Edu Inam, recently congratulated the department’s best graduating student for the 2021/2022 academic session.",
+
+      "\nThe accolade was awarded to Mr. Iniubong Okon Umana, who graduated with a first-class degree, achieving an impressive CGPA of 4.52/5.00, setting a new benchmark for future students in the department. During the convocation ceremony organized by the university, which was attended by faculty, staff, and fellow students, Professor Inam commended Mr. Umana for his dedication, hard work, and outstanding academic performance throughout his studies.",
+
+     '\n“Iniubong Umana has exemplified the values of excellence, persistence, and integrity that we instill in our students,” said Professor Inam during his congratulatory speech. “His remarkable achievement not only reflects personal diligence but also the strength of our department and the quality of education we provide. We are incredibly proud of this accomplishment and excited for the bright future that lies ahead.”',
+
+      '\nIn addition to the congratulatory message, the department presented Mr. Umana with a certificate of excellence, a symbolic token of achievement, and a recommendation for future academic and professional opportunities.',
+
+      '\nSpeaking after the ceremony, Mr. Umana expressed his gratitude for the support he received from the department, mentors, and peers throughout his academic journey. "I am truly honored to receive this recognition," he said. "This achievement is a result of hard work, sacrifice, and the unwavering support of the Department of Chemistry at the University of Uyo. I look forward to contributing to the field of chemistry and making a positive impact on society."',
+
+      '\nThe Department of Chemistry remains committed to fostering academic excellence, and the recognition of students like Iniubong Umana serves as a reminder of the potential for greatness within the department',
+
+    ],
+    pictures: [convocationBSC4, BGS2],
   },
   {
     date: "November, 2024",
