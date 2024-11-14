@@ -32,6 +32,7 @@ import aktw1 from "@/public/images/aktw/aktw1.jpg"
 import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg"
 import BGS from "@/public/images/convocation/BGS1.jpg"
 import phdConvo1 from "@/public/images/convocation/phd2.jpg"
+import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg"
 
 
 export const chemistryUnits = [
@@ -60,6 +61,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: hybridLecture,
+    title: 'Professor Blessing Aderibigbe Delivers Lecture on "Hybrid-based Therapeutics" at University of Uyo',
+    btnLink: "/recent-news",
   },
   {
     image: phdConvo1,

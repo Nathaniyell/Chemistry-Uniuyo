@@ -159,7 +159,26 @@ import phdConvo3 from "@/public/images/convocation/akpakpan-phd.jpg"
 import phdConvo4 from "@/public/images/convocation/phd-candidates.jpg"
 import phdConvo5 from "@/public/images/convocation/okon-phd.jpg"
 import phdConvo6 from "@/public/images/convocation/phdd.jpg"
-
+import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg"
+import hybridLecture1 from "@/public/images/hybrid-based-therapeutics/lecture0.jpg"
+import hybridLecture2 from "@/public/images/hybrid-based-therapeutics/lecture.jpg"
+import hybridLecture3 from "@/public/images/hybrid-based-therapeutics/lecture00.jpg"
+import hybridLecture4 from "@/public/images/hybrid-based-therapeutics/lecture2.jpg"
+import hybridLecture6 from "@/public/images/hybrid-based-therapeutics/lecture4.jpg"
+import hybridLecture7 from "@/public/images/hybrid-based-therapeutics/lecture5.jpg"
+import hybridLecture8 from "@/public/images/hybrid-based-therapeutics/profs.jpg"
+import hybridLecture9 from "@/public/images/hybrid-based-therapeutics/lecture6.jpg"
+import hybridLecture10 from "@/public/images/hybrid-based-therapeutics/lecture7.jpg"
+import hybridLecture11 from "@/public/images/hybrid-based-therapeutics/lecture8.jpg"
+import hybridLecture12 from "@/public/images/hybrid-based-therapeutics/lecture9.jpg"
+import hybridLecture13 from "@/public/images/hybrid-based-therapeutics/lecture10.jpg"
+import hybridLecture14 from "@/public/images/hybrid-based-therapeutics/lecture11.jpg"
+import hybridLecture15 from "@/public/images/hybrid-based-therapeutics/lecture12.jpg"
+import hybridLecture16 from "@/public/images/hybrid-based-therapeutics/lecture13.jpg"
+import hybridLecture17 from "@/public/images/hybrid-based-therapeutics/lecture14.jpg"
+import hybridLecture18 from "@/public/images/hybrid-based-therapeutics/lecture20.jpg"
+import hybridLecture19 from "@/public/images/hybrid-based-therapeutics/lecture111.jpg"
+import hybridLecture20 from "@/public/images/hybrid-based-therapeutics/lecture30.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -173,6 +192,26 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "November, 2024",
+    tag: "student",
+    title:
+      "Professor Blessing Aderibigbe Delivers Lecture on Hybrid based Therapeutics",
+    description: [
+      'The Department of Chemistry at the University of Uyo recently hosted an insightful lecture on "Hybrid-based Therapeutics", delivered by one of its distinguished former students, Professor Blessing Aderibigbe. The lecture was part of the department’s ongoing efforts to foster innovation and scientific collaboration, as well as to create opportunities for students to engage with leading experts in the field.',
+
+      "\nProfessor Aderibigbe, who currently holds a position at Fort Hare University, returned to her alma mater to share her expertise in the emerging field of hybrid therapeutics. Hybrid-based therapeutics, which combines elements of traditional drugs with newer, cutting-edge technologies, have garnered significant attention in recent years for their potential to improve drug efficacy and minimize side effects. During the lecture, Professor Aderibigbe discussed the latest advancements in hybrid drug design, showcasing her own research and the promising results emerging from this interdisciplinary approach.",
+
+      "\nIn her presentation, Professor Aderibigbe emphasized the importance of collaboration between academic institutions and the need for students to explore innovative approaches to solving global health challenges. She also expressed her gratitude to the University of Uyo for laying the foundation for her successful academic career and highlighted the importance of giving back to the institution that helped shape her.",
+
+      '\nThe lecture was well-attended by both current students and faculty members, who were deeply appreciative of the opportunity to engage with an accomplished alumna. The event also served as a platform for discussions on potential partnerships between the University of Uyo’s Department of Chemistry and Fort Hare University, aimed at advancing research in hybrid-based therapeutics and other areas of scientific exploration.',
+
+      '\nThe Head of the Department of Chemistry at the University of Uyo,Professor Edu Inam, expressed his gratitude to Professor Aderibigbe for her generosity in returning to the university to share her knowledge and experiences. "We are proud of Professor Aderibigbe’s remarkable achievements and are thrilled to see her continue to succeed in her field. Her return today is a testament to the lasting impact the University of Uyo has on its graduates, and we look forward to exploring new avenues for collaboration that will benefit both institutions."',
+      '\nThe event concluded with a vibrant Q&A session, during which students had the opportunity to interact with Professor Aderibigbe and discuss her work in greater detail.',
+
+    ],
+    pictures: [hybridLecture, hybridLecture1, hybridLecture2, hybridLecture3, hybridLecture4, hybridLecture6, hybridLecture7, hybridLecture8, hybridLecture9, hybridLecture10, hybridLecture11, hybridLecture12, hybridLecture13, hybridLecture14, hybridLecture15, hybridLecture16, hybridLecture17, hybridLecture18, hybridLecture19, hybridLecture20],
+  },
   {
     date: "November, 2024",
     tag: "student",
