@@ -33,7 +33,7 @@ export const labStaffData = [
         image: [ufiah, ufiah2, ufiah3]
     },
     {
-        name: "Mrs. Uduak Udoma",
+        name: "Miss Uduak Udoma",
         role: "Technologist",
         qualifications: "Technologist I",
         image: [mrs]
@@ -70,7 +70,7 @@ export const labStaffData = [
         image: [oluwatoyin, oluwatoyin2]
     },
     {
-        name: "Miss. Uyai Inoyo",
+        name: "Miss Uyai Inoyo",
         role: "Laboratory Technician",
         qualifications: "HND (Microbiology), Heritage Polytechnic, Eket",
         image: [uyai, uyai3]
