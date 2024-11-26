@@ -12,6 +12,7 @@ import secretary from "@/public/images/lab-staff/secretary.jpg"
 import oluwatoyin from "@/public/images/lab-staff/oluwatoyin.jpg"
 import oluwatoyin2 from "@/public/images/lab-staff/oluwatoyin2.jpg"
 import mrs from "@/public/images/lab-staff/mrs.jpg"
+import itohowo from "@/public/images/teachingstaff/itohowo.jpg"
 
 export const labStaffData = [
     {
@@ -85,7 +86,7 @@ export const labStaffData = [
         name: "Dr. Itohowo Asuquo",
         role: "Post Doctoral Fellow",
         qualifications: "",
-        image: []
+        image: [itohowo]
     },
    
 
