@@ -184,6 +184,8 @@ import hybridLecture17 from "@/public/images/hybrid-based-therapeutics/lecture14
 import hybridLecture18 from "@/public/images/hybrid-based-therapeutics/lecture20.jpg"
 import hybridLecture19 from "@/public/images/hybrid-based-therapeutics/lecture111.jpg"
 import hybridLecture20 from "@/public/images/hybrid-based-therapeutics/lecture30.jpg"
+import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
+import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
 
 import { StaticImageData } from "next/image";
 
@@ -197,6 +199,38 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "November, 2024",
+    tag: "",
+    title:
+      "Professor Edu Inam Invited as Panelist at IDWS Conference 2024 in Saudi Arabia",
+    description: [
+      'The Saudi Water Authority (SWA) has extended an exclusive invitation to Prof. Edu Inam to participate as a distinguished panelist at the Innovation Driven Water Sustainability (IDWS) Conference 2024, scheduled to take place from 25 to 27 November 2024 at the Ritz-Carlton, Jeddah, Saudi Arabia.',
+
+      "\nThe IDWS Conference, organized by SWA, serves as a critical platform to discuss and address global challenges in water sustainability. This year’s event will emphasize the critical need for affordable, abundant, and accessible water, while exploring cutting-edge innovations and strategies in collaboration with global stakeholders.",
+
+      "\nProf. Edu Inam’s selection acknowledges her remarkable contributions to water innovation and sustainability. Her presence is expected to significantly enhance the global dialogue on creating sustainable water solutions. In addition to serving as a panelist, Prof. Inam will enjoy access to the Global Prize in Desalination (GPID) ceremony on 25 November, celebrating groundbreaking achievements in water innovation and technology.",
+
+      '\nThis prestigious event reinforces the importance of collaboration and innovation in shaping the future of global water sustainability, bringing together key experts and thought leaders to share insights and solutions.',
+     
+
+    ],
+    pictures: [profInam],
+  },
+  {
+    date: "November, 2024",
+    title:
+      "Congratulations to Professor Imaobong Udousoro ",
+    description: [
+      "The University of Uyo is delighted to announce the promotion of Dr. Imaobong Udousoro to the esteemed rank of Professor. This well-deserved achievement reflects her exceptional contributions to the field of Chemistry and her dedication to academic excellence.",
+      "Prof. Udousoro, a renowned scholar in Analytical/Environmental Chemistry, has made significant strides in research, teaching, and mentoring. She holds a PhD in Analytical Chemistry and has a robust portfolio of publications addressing critical environmental challenges, particularly water quality and pollution studies.",
+      "Her extensive service to the university includes mentoring young researchers, leading impactful projects, and fostering innovation within the Chemistry Department. Her promotion serves as an inspiration to her colleagues and students, embodying the values of perseverance and excellence.",
+      "\nThe Head of Department extended heartfelt congratulations to Prof. Udousoro, commending her as a pillar of academic strength in the university community. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of her hard work and dedication.",
+    ],
+    pictures: [imaUdousoro],
+
+
+  },
   {
     date: "November, 2024",
     tag: "student",

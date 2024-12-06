@@ -3,6 +3,7 @@
 import { VscMenu, VscClose } from "react-icons/vsc";
 import { IoLibrary } from "react-icons/io5";
 import { GiArchiveResearch } from "react-icons/gi";
+import { FaNewspaper } from "react-icons/fa";
 import { MdOutlineGroups3 } from "react-icons/md";
 import { PiGraduationCapFill, PiInfoFill } from "react-icons/pi";
 import Image from "next/image";
@@ -89,6 +90,10 @@ export default function NavBar() {
               Icon={PiGraduationCapFill}
               linksArray={programmesArray}
             />
+            <NavLink href="/recent-news">
+              <FaNewspaper className="size-6 xs:size-5" />
+              <span>News</span>
+            </NavLink>
 
             <HoverButton
               heading="staff"
