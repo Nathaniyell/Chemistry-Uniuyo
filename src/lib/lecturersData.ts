@@ -1117,43 +1117,6 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [atimJohnson],
-    title: "Dr.",
-    fullName: "Atim Johnson",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-  {
     image: [abakedi],
     title: "Dr.",
     fullName: "okon abakedi",
@@ -1168,6 +1131,10 @@ const staffData: Lecturer[] = [
 
     profile: "",
     experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2024 - present",
+      },
       {
         title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
@@ -1206,6 +1173,10 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2024 - present",
+      },
+      {
         title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
@@ -1227,6 +1198,44 @@ const staffData: Lecturer[] = [
       },
     ],
   },
+  {
+    image: [atimJohnson],
+    title: "Dr.",
+    fullName: "Atim Johnson",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+
   {
     image: [iniUmoren, iniUmoren2],
     title: "Dr.",
