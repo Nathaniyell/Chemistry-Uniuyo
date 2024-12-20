@@ -472,7 +472,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: imaUdousoro,
-    title: "Dr.",
+    title: "Proffessor",
     fullName: "imaobong udousoro",
     email: ["imaobongudousoro@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?hl=en&user=u_jYZ4sAAAAJ",
@@ -485,6 +485,11 @@ const staffData: Lecturer[] = [
 
     profile: "Imaobong Udousoro (PhD), an Associate Professor of analytical and environmental chemistry, specialises in investigating elemental composition within diverse ecological matrices, including air, soil, sediment, water, foods, plants, and herbal medicinal plants, addressing associated health and environmental risks. \n Her work also involves using biological indicators of pollution to monitor air and soil quality. Her most recent research on Space Technology combined with conventional analytical techniques in environmental pollution and degradation of the coastal area is ongoing.",
     experience: [
+      {
+        title:
+          "Professor of Chemistry, Department of Chemistry, University of Uyo",
+        year: "2024 - present",
+      },
       {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
         year: "2015 - Date",
