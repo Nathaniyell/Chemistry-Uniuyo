@@ -472,7 +472,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: imaUdousoro,
-    title: "Proffessor",
+    title: "Professor",
     fullName: "imaobong udousoro",
     email: ["imaobongudousoro@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?hl=en&user=u_jYZ4sAAAAJ",
