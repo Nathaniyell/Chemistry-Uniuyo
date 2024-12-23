@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Chemistry Department Uniuyo",
     "University of Uyo Chemistry",
     "Chemistry Degree Nigeria",
-    "Chemistry", "Reaction", "Research", "Science", "Laboratory", "Professor of Chemistry", "Innovation", "Organic Chemistry", "Inorganic Chemistry", "Analytical Chemistry", "Environmental Chemistry", "Physical Chemistry"
+    "Chemistry", "Reaction", "Research", "Science", "Laboratory", "Professor of Chemistry", "Innovation", "Organic Chemistry", "Inorganic Chemistry", "Analytical Chemistry", "Environmental Chemistry", "Physical Chemistry", "Uniuyo", "Uniuyo logo", "Chemistry Staff", "Chemistry teacher", "University of Uyo Logo", "Uniuyo Calender"
   ],
   authors: [
     { name: "Nathaniel Essien", url: "https://nathanielessien.vercel.app" },
