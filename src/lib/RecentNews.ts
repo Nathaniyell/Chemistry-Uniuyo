@@ -202,6 +202,19 @@ export const recentNews: recentNewsTypes[] = [
   {
     date: "November, 2024",
     tag: "",
+    title: "Professor Edu Inam Highlights Financial Imperatives for Advancing Circular Water Management at IDWS Panel",
+    description: [
+      'At the recent panel on "From Wastewater to Resource: Implementing Circular Economy Principles in Water Management", Professor Edu Inam underscored the critical role of financial investment in advancing wastewater reuse technologies. The discussion, which brought together global experts in water management, focused on transforming wastewater into valuable resources, reducing reliance on freshwater and desalination, and mitigating environmental impacts through circular economy principles.',
+       'Professor Inam, a leading voice on sustainable water practices, emphasized that "financial support is essential for maximizing the benefits of wastewater." Her statement resonated with the audience, drawing attention to the necessity of robust funding to bridge the gap between innovative technologies and large-scale implementation.',
+       'The panel explored real-world case studies showcasing successful wastewater reuse initiatives. These examples demonstrated how resource recovery not only supports water sustainability but also creates economic opportunities, particularly in water-scarce regions. Professor Inam highlighted that while technological advancements continue to evolve, achieving widespread adoption requires targeted investments in infrastructure, research, and capacity-building programs.',
+       'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
+       'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
+    ],
+    pictures: [profInam],
+  },
+  {
+    date: "November, 2024",
+    tag: "",
     title:
       "Professor Edu Inam Invited as Panelist at IDWS Conference 2024 in Saudi Arabia",
     description: [
