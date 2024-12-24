@@ -186,8 +186,15 @@ import hybridLecture19 from "@/public/images/hybrid-based-therapeutics/lecture11
 import hybridLecture20 from "@/public/images/hybrid-based-therapeutics/lecture30.jpg"
 import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
 import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
-
 import { StaticImageData } from "next/image";
+import idws from "@/public/images/IDWS/idws1.jpg"
+import idws1 from "@/public/images/IDWS/idws2.jpg"
+import idws2 from "@/public/images/IDWS/idws3.jpg"
+import idws3 from "@/public/images/IDWS/idws4.jpg"
+import idws4 from "@/public/images/IDWS/idws5.jpg"
+import idws5 from "@/public/images/IDWS/idws6.jpg"
+
+
 
 export interface recentNewsTypes {
   title: string;
@@ -210,7 +217,7 @@ export const recentNews: recentNewsTypes[] = [
        'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
        'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
     ],
-    pictures: [profInam],
+    pictures: [idws, idws1, idws2, idws3, idws4, idws5],
   },
   {
     date: "November, 2024",
