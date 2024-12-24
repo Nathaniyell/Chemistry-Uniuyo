@@ -33,7 +33,7 @@ import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg
 import BGS from "@/public/images/convocation/BGS1.jpg"
 import phdConvo1 from "@/public/images/convocation/phd2.jpg"
 import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg"
-
+import idws from "@/public/images/IDWS/idws5.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -61,6 +61,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: idws,
+    title: "Professor Edu Inam Highlights Financial Imperatives for Advancing Circular Water Management at IDWS Panel",
+    btnLink: "/recent-news",
   },
   {
     image: hybridLecture,
