@@ -217,7 +217,7 @@ export const recentNews: recentNewsTypes[] = [
        'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
        'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
     ],
-    pictures: [idws, idws1, idws2, idws3, idws4, idws5],
+    pictures: [idws4, idws1, idws2, idws3, idws, idws5],
   },
   {
     date: "November, 2024",
