@@ -193,6 +193,9 @@ import idws2 from "@/public/images/IDWS/idws3.jpg"
 import idws3 from "@/public/images/IDWS/idws4.jpg"
 import idws4 from "@/public/images/IDWS/idws5.jpg"
 import idws5 from "@/public/images/IDWS/idws6.jpg"
+import nuc1 from "@/public/images/nuc/nuc1.jpg"
+import nuc2 from "@/public/images/nuc/nuc2.jpg"
+
 
 
 
@@ -223,12 +226,11 @@ export const recentNews: recentNewsTypes[] = [
     tag: "",
     title: "NUC Accreditation Team Commends University of Uyo Chemistry Department",
     description: [
-      'At the recent panel on "From Wastewater to Resource: Implementing Circular Economy Principles in Water Management", Professor Edu Inam underscored the critical role of financial investment in advancing wastewater reuse technologies. The discussion, which brought together global experts in water management, focused on transforming wastewater into valuable resources, reducing reliance on freshwater and desalination, and mitigating environmental impacts through circular economy principles.',
+      'The Department of Chemistry, University of Uyo, received a visit from the National Universities Commission (NUC) accreditation team from December 8 to 10, 2024. The visit assessed the department\'s compliance with academic standards for the B.Sc. Chemistry program, and the results were overwhelmingly positive.',
       "During the review, the NUC team confirmed the following:\n\n<ul><li>1. The curriculum is both comprehensive and tailored to meet the requirements of a B.Sc. Chemistry program.</li><li>2. The admissions process adheres strictly to the 5-credit O-level requirement, ensuring that all admitted students have credits in English, Mathematics, Chemistry, and either Physics or Biology.</li><li>3. The course content is deemed adequate and relevant for a robust undergraduate chemistry program.</li><li>4. Lectures and practicals are delivered as required, ensuring students receive a balanced theoretical and hands-on education.</li><li>5. The department's facilities, including classrooms, laboratories, and the library, are accessible and adequately serve the needs of all students.</li><li>The department's commitment to academic excellence and adherence to NUC standards underscores its dedication to producing competent and well-trained graduates.</li></ul>",
-      
       "For further updates on departmental activities, stay connected to the Chemistry Department's website."
     ],
-    pictures: [idws4,],
+    pictures: [nuc1,nuc2],
   },
   {
     date: "November, 2024",
