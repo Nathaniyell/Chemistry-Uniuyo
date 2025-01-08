@@ -213,10 +213,21 @@ export const recentNews: recentNewsTypes[] = [
     description: [
       'The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.',
       '\nThe schedule has been structured to ensure maximum engagement and optimal learning. Students are encouraged to familiarize themselves with the timetable and plan accordingly.',
-      '\nFor further inquiries or clarifications, students are advised to contact the course coordinator, Dr. Shaibu, in his office located at the Faculty of Science, Room 30.',     
-      
+      '\nFor further inquiries or clarifications, students are advised to contact the course coordinator, Dr. Shaibu, in his office located at the Faculty of Science, Room 30.',
+
     ],
     pictures: [schoolLogo],
+  },
+  {
+    date: "December, 2024",
+    tag: "",
+    title: "NUC Accreditation Team Commends University of Uyo Chemistry Department",
+    description: [
+      'At the recent panel on "From Wastewater to Resource: Implementing Circular Economy Principles in Water Management", Professor Edu Inam underscored the critical role of financial investment in advancing wastewater reuse technologies. The discussion, which brought together global experts in water management, focused on transforming wastewater into valuable resources, reducing reliance on freshwater and desalination, and mitigating environmental impacts through circular economy principles.',
+      "During the review, the NUC team confirmed the following:\n\n<ul><li>The curriculum is both comprehensive and tailored to meet the requirements of a B.Sc. Chemistry program.</li><li>The admissions process adheres strictly to the 5-credit O-level requirement, ensuring that all admitted students have credits in English, Mathematics, Chemistry, and either Physics or Biology.</li><li>The course content is deemed adequate and relevant for a robust undergraduate chemistry program.</li><li>Lectures and practicals are delivered as required, ensuring students receive a balanced theoretical and hands-on education.</li><li>The department's facilities, including classrooms, laboratories, and the library, are accessible and adequately serve the needs of all students.</li><li>The department's commitment to academic excellence and adherence to NUC standards underscores its dedication to producing competent and well-trained graduates.</li></ul>",
+      "For further updates on departmental activities, stay connected to the Chemistry Department's website."
+    ],
+    pictures: [idws4,],
   },
   {
     date: "November, 2024",
@@ -224,10 +235,10 @@ export const recentNews: recentNewsTypes[] = [
     title: "Professor Edu Inam Highlights Financial Imperatives for Advancing Circular Water Management at IDWS Panel",
     description: [
       'At the recent panel on "From Wastewater to Resource: Implementing Circular Economy Principles in Water Management", Professor Edu Inam underscored the critical role of financial investment in advancing wastewater reuse technologies. The discussion, which brought together global experts in water management, focused on transforming wastewater into valuable resources, reducing reliance on freshwater and desalination, and mitigating environmental impacts through circular economy principles.',
-       'Professor Inam, a leading voice on sustainable water practices, emphasized that "financial support is essential for maximizing the benefits of wastewater." Her statement resonated with the audience, drawing attention to the necessity of robust funding to bridge the gap between innovative technologies and large-scale implementation.',
-       'The panel explored real-world case studies showcasing successful wastewater reuse initiatives. These examples demonstrated how resource recovery not only supports water sustainability but also creates economic opportunities, particularly in water-scarce regions. Professor Inam highlighted that while technological advancements continue to evolve, achieving widespread adoption requires targeted investments in infrastructure, research, and capacity-building programs.',
-       'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
-       'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
+      'Professor Inam, a leading voice on sustainable water practices, emphasized that "financial support is essential for maximizing the benefits of wastewater." Her statement resonated with the audience, drawing attention to the necessity of robust funding to bridge the gap between innovative technologies and large-scale implementation.',
+      'The panel explored real-world case studies showcasing successful wastewater reuse initiatives. These examples demonstrated how resource recovery not only supports water sustainability but also creates economic opportunities, particularly in water-scarce regions. Professor Inam highlighted that while technological advancements continue to evolve, achieving widespread adoption requires targeted investments in infrastructure, research, and capacity-building programs.',
+      'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
+      'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
     ],
     pictures: [idws4, idws1, idws2, idws3, idws, idws5],
   },
@@ -244,7 +255,7 @@ export const recentNews: recentNewsTypes[] = [
       "\nProf. Edu Inam’s selection acknowledges her remarkable contributions to water innovation and sustainability. Her presence is expected to significantly enhance the global dialogue on creating sustainable water solutions. In addition to serving as a panelist, Prof. Inam will enjoy access to the Global Prize in Desalination (GPID) ceremony on 25 November, celebrating groundbreaking achievements in water innovation and technology.",
 
       '\nThis prestigious event reinforces the importance of collaboration and innovation in shaping the future of global water sustainability, bringing together key experts and thought leaders to share insights and solutions.',
-     
+
 
     ],
     pictures: [profInam],
@@ -312,7 +323,7 @@ export const recentNews: recentNewsTypes[] = [
 
       "\nThe accolade was awarded to Mr. Iniubong Okon Umana, who graduated with a first-class degree, achieving an impressive CGPA of 4.52/5.00, setting a new benchmark for future students in the department. During the convocation ceremony organized by the university, which was attended by faculty, staff, and fellow students, Professor Inam commended Mr. Umana for his dedication, hard work, and outstanding academic performance throughout his studies.",
 
-     '\n“Iniubong Umana has exemplified the values of excellence, persistence, and integrity that we instill in our students,” said Professor Inam during his congratulatory speech. “His remarkable achievement not only reflects personal diligence but also the strength of our department and the quality of education we provide. We are incredibly proud of this accomplishment and excited for the bright future that lies ahead.”',
+      '\n“Iniubong Umana has exemplified the values of excellence, persistence, and integrity that we instill in our students,” said Professor Inam during his congratulatory speech. “His remarkable achievement not only reflects personal diligence but also the strength of our department and the quality of education we provide. We are incredibly proud of this accomplishment and excited for the bright future that lies ahead.”',
 
       '\nIn addition to the congratulatory message, the department presented Mr. Umana with a certificate of excellence, a symbolic token of achievement, and a recommendation for future academic and professional opportunities.',
 
