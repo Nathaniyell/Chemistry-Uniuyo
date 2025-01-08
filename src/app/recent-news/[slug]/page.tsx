@@ -69,16 +69,13 @@ const Page = ({ params }: { params: { slug: string } }) => {
             Download Academic Calendar
           </a>
         }
+        {title === "Department of Chemistry releases lecture schedule for General CHemistry I" && 
+          <a className="text-primary underline" href="/chm111-lecture-schedule.pdf" download>
+            Download Lecture Schedule
+          </a>
+        }
       </div>
-      {/* <Breadcrumbs
-        root={{ title: "News", href: `/recent-news` }}
-        array={[
-          {
-            title: `${newsTitleFormatted.split("-").slice(0, 4).join(" ")}...`,
-            href: `/recent-news/${newsTitleFormatted}`,
-          },
-        ]}
-      /> */}
+   
     </div>
   );
 };
