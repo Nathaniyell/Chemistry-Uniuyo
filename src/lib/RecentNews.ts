@@ -212,7 +212,7 @@ export const recentNews: recentNewsTypes[] = [
   {
     date: "January, 2025",
     tag: "",
-    title: "Department of Chemistry releases lecture schedule for General CHemistry I",
+    title: "Department of Chemistry releases lecture schedule for General Chemistry I",
     description: [
       'The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.',
       '\nThe schedule has been structured to ensure maximum engagement and optimal learning. Students are encouraged to familiarize themselves with the timetable and plan accordingly.',
