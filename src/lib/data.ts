@@ -34,6 +34,8 @@ import BGS from "@/public/images/convocation/BGS1.jpg"
 import phdConvo1 from "@/public/images/convocation/phd2.jpg"
 import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg"
 import idws from "@/public/images/IDWS/idws5.jpg"
+import nuc2 from "@/public/images/nuc/nuc2.jpg"
+import schoolLogo from "@/public/images/logo.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -61,6 +63,16 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: schoolLogo,
+    title: "Department of Chemistry releases lecture schedule for General CHemistry I",
+    btnLink: "/recent-news",
+  },
+  {
+    image: nuc2,
+    title: "NUC Accreditation Team Commends University of Uyo Chemistry Department",
+    btnLink: "/recent-news",
   },
   {
     image: idws,
