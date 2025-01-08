@@ -64,7 +64,11 @@ const Page = ({ params }: { params: { slug: string } }) => {
           ))}
         </p>
         {writtenBy && <p className="font-semibold mb-2"><span className="text-gray-500 font-normal">written by: </span>{writtenBy}</p>}
-          {title === "School Management Approves Academic Calendar for New Sessions" && <a className="text-primary underline" target="_blank" href="https://turquoise-nerita-83.tiiny.site">Download Academic Calendar</a>}
+        {title === "School Management Approves Academic Calendar for New Sessions" && 
+          <a className="text-primary underline" href="/academic-calendar.pdf" download>
+            Download Academic Calendar
+          </a>
+        }
       </div>
       {/* <Breadcrumbs
         root={{ title: "News", href: `/recent-news` }}
