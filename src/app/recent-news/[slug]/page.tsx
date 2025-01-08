@@ -49,33 +49,31 @@ const Page = ({ params }: { params: { slug: string } }) => {
           {" "}
           {description.map((item, index) => (
             <React.Fragment key={index}>
-              {item.split(/(".*?")/).map((part, partIndex) =>
-                partIndex % 2 === 1 ? (
-                  <span className="font-semibold" key={partIndex}>
-                    {part.slice(1, -1)}
-                  </span>
-                ) : (
-                  part
-                )
-              )}
-              {/* <br /> */}
+              {item.split(/(<ul>.*?<\/ul>|".*?")/).map((part, partIndex) => {
+                if (part?.startsWith("<ul>")) {
+                  return <div dangerouslySetInnerHTML={{ __html: part }} key={partIndex} />;
+                } else if (partIndex % 2 === 1) {
+                  return <span className="font-semibold" key={partIndex}>{part.slice(1, -1)}</span>;
+                }
+                return part;
+              })}
               <span className="block h-[0.4rem]"></span>
             </React.Fragment>
           ))}
         </p>
         {writtenBy && <p className="font-semibold mb-2"><span className="text-gray-500 font-normal">written by: </span>{writtenBy}</p>}
-        {title === "School Management Approves Academic Calendar for New Sessions" && 
+        {title === "School Management Approves Academic Calendar for New Sessions" &&
           <a className="text-primary underline" href="/academic-calendar.pdf" download>
             Download Academic Calendar
           </a>
         }
-        {title === "Department of Chemistry releases lecture schedule for General CHemistry I" && 
+        {title === "Department of Chemistry releases lecture schedule for General CHemistry I" &&
           <a className="text-primary underline" href="/chm111-lecture-schedule.pdf" download>
             Download Lecture Schedule
           </a>
         }
       </div>
-   
+
     </div>
   );
 };
