@@ -210,7 +210,7 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-    date: "January, 2024",
+    date: "January, 2025",
     tag: "student",
     title:
       "School Management Approves Academic Calendar for Year one and Year Two Students",
