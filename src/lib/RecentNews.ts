@@ -212,7 +212,7 @@ export const recentNews: recentNewsTypes[] = [
   {
     date: "September, 2024",
     title:
-      "School Management Approves Academic Calendar for New Students",
+      "School Management Approves Academic Calendar for Year one and Year Two Students",
     description: [
       "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 academic sessions for Year one and Year two students. According to the released schedule, lectures commences on Wednesday, 8th January, 2025.",
       "Orientation excercise for the new students (Year one and Year to) will ensue for 1 week between January 27th and January 31st 2025",
