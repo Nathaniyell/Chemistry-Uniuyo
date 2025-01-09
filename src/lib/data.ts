@@ -65,11 +65,6 @@ const homeData: HomeDataItem[] = [
     btnLink: "/about",
   },
   {
-    image: schoolLogo,
-    title: "Department of Chemistry releases lecture schedule for General CHemistry I",
-    btnLink: "/recent-news",
-  },
-  {
     image: nuc2,
     title: "NUC Accreditation Team Commends University of Uyo Chemistry Department",
     btnLink: "/recent-news",
