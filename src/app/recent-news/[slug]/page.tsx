@@ -74,7 +74,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
         }
         {title === "School Management Approves Academic Calendar for Year one and Year Two Students" &&
           <a className="text-primary underline" href="/approved-academic-calender-2025.pdf" download>
-            Download approved Academic calender
+            Download approved academic calender
           </a>
         }
       </div>
