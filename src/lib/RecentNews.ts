@@ -210,8 +210,25 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+    date: "September, 2024",
+    title:
+      "School Management Approves Academic Calendar for New Students",
+    description: [
+      "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 academic sessions for Year one and Year two students. According to the released schedule, lectures commences on Wednesday, 8th January, 2025.",
+      "Orientation excercise for the new students (Year one and Year to) will ensue for 1 week between January 27th and January 31st 2025",
+
+      '\nFollowing the orientation period, first semester examinations will take place from March 24, 2025, to April 11, 2025, lasting three weeks.',
+
+      "\nFor further details on the approved calendar, please download the approved calender below",
+
+    ],
+    pictures: [schoolLogo],
+
+
+  },
+  {
     date: "January, 2025",
-    tag: "",
+    tag: "student",
     title: "Department of Chemistry releases lecture schedule for General Chemistry I",
     description: [
       'The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.',
