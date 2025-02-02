@@ -18,6 +18,7 @@ import { useMediaQuery } from "react-responsive";
 import { UserGroupIcon } from "@heroicons/react/16/solid";
 import { FaSchool } from "react-icons/fa";
 import clsx from "clsx";
+import { FaPerson } from "react-icons/fa6";
 
 export default function NavBar() {
   const { isMenuClicked, setIsMenuClicked } = useGlobalContext();
@@ -100,6 +101,10 @@ export default function NavBar() {
               Icon={UserGroupIcon}
               linksArray={staffArray}
             />
+            <NavLink href="/students">
+              <FaPerson className="size-6 xs:size-5" />
+              <span>Student</span>
+            </NavLink>
 
             <NavLink href="/research">
               <GiArchiveResearch className="size-6 xs:size-5" />
