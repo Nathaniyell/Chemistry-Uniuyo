@@ -77,6 +77,11 @@ const Page = ({ params }: { params: { slug: string } }) => {
             Download approved academic calender
           </a>
         }
+        {title === "Chemistry Department organizes make-up practicals for new students" &&
+          <a className="text-primary underline" href="/CHM117-lecture-schedule.docx" download>
+            Download make-up practicals schedule
+          </a>
+        }
       </div>
 
     </div>

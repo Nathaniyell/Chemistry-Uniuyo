@@ -213,7 +213,7 @@ export const recentNews: recentNewsTypes[] = [
     date: "February, 2025",
     tag: "student",
     title:
-      "Chemistry Department organizes Make-up practicals for new students",
+      "Chemistry Department organizes make-up practicals for new students",
     description: [
       "The Department of Chemistry has organized make-up practical sessions for newly admitted students to ensure they meet all laboratory requirements. These sessions are designed to help students who missed earlier practical classes.",
 
