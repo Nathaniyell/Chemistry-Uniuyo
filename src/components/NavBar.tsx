@@ -3,9 +3,8 @@
 import { VscMenu, VscClose } from "react-icons/vsc";
 import { IoLibrary } from "react-icons/io5";
 import { GiArchiveResearch } from "react-icons/gi";
-import { FaNewspaper } from "react-icons/fa";
-import { MdOutlineGroups3 } from "react-icons/md";
-import { PiGraduationCapFill, PiInfoFill } from "react-icons/pi";
+import { FaNewspaper, FaUsers } from "react-icons/fa";
+import { PiGraduationCapFill } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/images/logo.jpg";
@@ -18,7 +17,7 @@ import { useMediaQuery } from "react-responsive";
 import { UserGroupIcon } from "@heroicons/react/16/solid";
 import { FaSchool } from "react-icons/fa";
 import clsx from "clsx";
-import { FaPerson } from "react-icons/fa6";
+// import { FaUsers } from "react-icons/fa6";
 
 export default function NavBar() {
   const { isMenuClicked, setIsMenuClicked } = useGlobalContext();
@@ -39,7 +38,7 @@ export default function NavBar() {
     >
       <header className="container p-4 md:px-2 lg:p-4 flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4 md:gap-2 lg:gap-4">
         <div className="h-full w-full md:w-fit flex items-center justify-between md:justify-center">
-          <div className="flex flex-shrink-0 gap-2 sm:gap-3 items-center md:gap-1 lg:gap-4">
+          <div className="flex flex-shrink-0 gap-2 sm:gap-3 items-center md:gap-1 lg:gap-2">
             <Link onClick={() => setIsMenuClicked(false)} href="/" title="home">
               <Image
                 src={Logo}
@@ -102,8 +101,8 @@ export default function NavBar() {
               linksArray={staffArray}
             />
             <NavLink href="/students">
-              <FaPerson className="size-6 xs:size-5" />
-              <span>Student</span>
+              <FaUsers className="size-6 xs:size-5" />
+              <span>Students</span>
             </NavLink>
 
             <NavLink href="/research">
