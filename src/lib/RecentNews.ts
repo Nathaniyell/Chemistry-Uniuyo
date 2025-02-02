@@ -215,13 +215,11 @@ export const recentNews: recentNewsTypes[] = [
     title:
       "Chemistry Department organizes Make-up practicals for new students",
     description: [
-      "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 academic sessions for Year one and Year two students. According to the released schedule, lectures commences on Wednesday, 8th January, 2025.",
-      "Orientation excercise for the new students (Year one and Year two) will ensue for 1 week between January 27th and January 31st 2025",
+      "The Department of Chemistry has organized make-up practical sessions for newly admitted students to ensure they meet all laboratory requirements. These sessions are designed to help students who missed earlier practical classes.",
 
-      '\nFollowing the orientation period, first semester examinations will take place from March 24, 2025, to April 11, 2025, lasting three weeks.',
+      "The make-up practicals will cover essential experiments from the curriculum, providing students with crucial laboratory skills and experimental knowledge. Sessions will be conducted under the supervision of experienced laboratory technologists and academic staff.",
 
-      "\nFor further details on the approved calendar, please download the approved calender below",
-
+      "Students are required to come prepared with their laboratory manuals and laboratory coats. The schedule for the make-up practicals has been posted on the department's notice board.",
     ],
     pictures: [schoolLogo],
 
