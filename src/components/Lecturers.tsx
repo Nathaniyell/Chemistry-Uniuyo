@@ -53,11 +53,17 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
     <Link href={href} className={clsx("flex flex-col size-full", cardContainerStyle)} passHref>
       {/* Conditionally render the image section only if the image prop is provided */}
       {image && (
-        <div className={clsx("h-[18rem] filter hover:brightness-75 transition-all ease-linear duration-200 overflow-clip", cardImgContainerStyle)}>
-          <Image className={clsx("size-full", cardImgStyle)} src={image} alt={name} />
+        <div className={clsx("relative h-[18rem] filter hover:brightness-75 transition-all ease-linear duration-200 overflow-hidden", cardImgContainerStyle)}>
+          <Image
+            className={clsx("object-cover", cardImgStyle)}
+            src={image}
+            alt={name}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
         </div>
       )}
-      
+
       <div className={clsx("p-3 bg-white grid place-items-stretch", cardBodyStyle)}>
         {/* Display date if provided */}
         {date && (
@@ -66,24 +72,24 @@ const Lecturers: React.FC<LecturerSectionProps> = ({
             {date}
           </p>
         )}
-        
+
         {/* Display name and title */}
         {name && (
           <h5 className={clsx("text-xl font-bold text-gray-900 transition-all ease-linear duration-200", cardTitleStyle)}>
             {title} {name}
           </h5>
         )}
-        
+
         {/* Display description with appropriate background color */}
         {desc && <p className={clsx("p-2 my-2 font-semibold w-fit h-full text-base", bgColor)}>{desc}</p>}
-        
+
         {/* Display additional information if provided */}
         {other && (
           <p className="text-base text-gray-700 dark:text-gray-700 mt-2">
             {other}
           </p>
         )}
-        
+
         {/* Display the 'Read More' link if enabled */}
         {readMore && (
           <Link href={readMoreLink} className="flex items-center text-lg mt-2 hover:text-secondary transition-all ease-linear duration-200">
