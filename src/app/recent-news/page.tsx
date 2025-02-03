@@ -11,16 +11,13 @@ const page = () => {
         {recentNews.map(({ title, pictures, date, description }, index) => {
           return (
             <div key={index} className="">
-              {/* <h4 className="my-4 text-2xl font-semibold text-blue-950">
-                {title}
-              </h4> */}
+            
               <Lecturers
                 name={truncateWords(title, 10)}
                 image={pictures[0]}
                 href={`/recent-news/${title.replaceAll(" ", "-")}`}
                 date={date}
                 dateStyle="text-primary"
-                // cardBodyStyle="shadow p-4 bg-slate-100"
                 readMore
                 readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}
                                 cardContainerStyle="md:pb-4"
