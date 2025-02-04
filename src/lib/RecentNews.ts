@@ -219,7 +219,7 @@ export const recentNews: recentNewsTypes[] = [
   
       "\nThe Department of Chemistry has distinguished itself as a leader in the rankings, dominating the top 20 positions. Dr. Emmanuel Essien, Professor Bassey Antia, Dr. Ekemini Ituen, Professor Basil Ita and Professor Anthony Udoh among others secured prominent spots, further reinforcing the department's reputation as a hub for groundbreaking research.",
 
-      "\nThis success is a testament to the dedication of the university’s researchers and the institution’s commitment to advancing knowledge and innovation. The University of Uyo continues to set the standard for academic excellence in Nigeria and beyond.",
+      "\nThis success is a testament to the dedication of the researchers in the Department of Chemistry and the institution’s commitment to advancing knowledge and innovation. The University of Uyo continues to set the standard for academic excellence in Nigeria and beyond.",
 
     ],
     pictures: [schoolLogo],
