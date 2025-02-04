@@ -211,12 +211,15 @@ export interface recentNewsTypes {
 export const recentNews: recentNewsTypes[] = [
   {
     date: "February, 2025",
-    tag: "student",
-    title: "Department of Chemistry releases lecture schedule for General Chemistry I",
+    title: "University of Uyo Researchers Shine in AD Scientific Index Rankings 2025",
     description: [
-      'The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.',
-      '\nThe schedule has been structured to ensure maximum engagement and optimal learning. Students are encouraged to familiarize themselves with the timetable and plan accordingly.',
-      '\nFor further inquiries or clarifications, students are advised to contact the course coordinator, Dr. Shaibu, in his office located at the Faculty of Science, Room 30.',
+      'The University of Uyo has once again demonstrated its academic prowess with 850 of its researchers featured in the prestigious AD Scientific Index Rankings for 2025. This remarkable achievement highlights the university’s excellence in research and scholarship across various disciplines.',
+
+      '\nAmong the standout performers is Professor Edu Inam, the Head of the Department of Chemistry, who is the highest-ranking female researcher in the university. Her achievement underscores the vital contributions of women to academia and research in the Department of Chemistry and University of Uyo.',
+  
+      "\nThe Department of Chemistry has distinguished itself as a leader in the rankings, dominating the top 20 positions. Dr. Emmanuel Essien, Professor Bassey Antia, Dr. Ekemini Ituen, Professor Basil Ita and Professor Anthony Udoh among others secured prominent spots, further reinforcing the department's reputation as a hub for groundbreaking research.",
+
+      "\nThis success is a testament to the dedication of the university’s researchers and the institution’s commitment to advancing knowledge and innovation. The University of Uyo continues to set the standard for academic excellence in Nigeria and beyond.",
 
     ],
     pictures: [schoolLogo],
