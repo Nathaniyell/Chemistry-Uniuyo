@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  * {
+    @apply motion-reduce:transition-none;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-[3px] h-1;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  /* Handle, on hover */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary hover:bg-blue-700 rounded-xl w-[3px];
+  }
+}
+
+img {
+  background: url("../../public/loading.gif") no-repeat center;
+}

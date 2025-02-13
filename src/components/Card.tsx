@@ -1,0 +1,237 @@
+"use client";
+
+import React from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+
+import { motion as m } from "framer-motion";
+import { d } from "@/lib";
+import { IoCloseCircle } from "react-icons/io5";
+import { Button } from ".";
+import {
+  BookOpenIcon,
+  CalendarDaysIcon,
+  ClipboardIcon,
+  UserCircleIcon,
+} from "@heroicons/react/24/outline";
+import clsx from "clsx";
+
+type CardProps = {
+  type?: string;
+  isResearchPage?: boolean;
+  title: string;
+  unit: string;
+  author: string;
+  supervisor: string;
+  published_at: string;
+  desc: string;
+  href?: string;
+};
+
+export default function Card({
+  type,
+  isResearchPage = true,
+  title,
+  unit,
+  author,
+  supervisor,
+  published_at,
+  desc,
+  href,
+}: CardProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const [copied, setCopied] = React.useState("copy");
+
+  const currentPage = searchParams.get("currentPage") || 1;
+
+  const q_author = searchParams.get("author");
+  const q_desc = searchParams.get("desc");
+  const q_published = searchParams.get("published");
+  const q_title = searchParams.get("title");
+  const filterValue = searchParams.get("filterby");
+  const isOpen = searchParams.get("isOpen");
+
+  const copyText = `${q_author}. (${q_published}). ${q_title}. ${q_desc}.`;
+
+  const handleCopy = () => {
+    try {
+      navigator.clipboard.writeText(copyText);
+      setCopied("copied!");
+    } catch (error) {
+      console.error(error);
+      setCopied("not copied");
+    }
+
+    setTimeout(() => setCopied("copy"), 4000);
+  };
+
+  const handleButtonClick = (a: string, d: string, p: string, t: string) => {
+    searchParams.has("filterby")
+      ? router.push(
+          `?filterby=${filterValue}&isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 50).trim()}&published=${
+            p.split("-")[2]
+          }&title=${t}&currentPage=${currentPage}`
+        )
+      : router.push(
+          `?isOpen=true&author=${a.split(" ")[1]} ${a
+            .split(" ")[2]
+            .slice(-a.length, 1)}&desc=${d.substring(0, 80).trim()}&published=${
+            p.split(" ")[1]
+          }&title=${t}&currentPage=${currentPage}`
+        );
+  };
+
+  return (
+    <div className="overflow-hidden size-full">
+      <m.div
+        initial={d.initial}
+        animate={!isResearchPage ? d.whileInView : undefined}
+        whileInView={isResearchPage ? d.whileInView : undefined}
+        transition={d.transition}
+        viewport={{ once: true }}
+        className="border border-gray-100 rounded hover:shadow from-2%"
+      >
+        <aside className="flex flex-col min-h-[400px] justify-around gap-3 p-2 xs:p-4 py-4 xs:py-6">
+          <div className="flex gap-3 justify-between">
+            <h1
+              className={clsx("text-lg capitalize", {
+                "text-green-600": unit === "environmental",
+                "text-stone-600": unit === "physical",
+                "text-red-600": unit === "organic",
+                "text-yellow-600": unit === "inorganic",
+                "text-violet-600": unit === "analytical",
+                "text-amber-800": unit === "polymer",
+                "text-cyan-600": unit === "industrial",
+        
+              })}
+            >
+              {title}
+            </h1>
+
+            {unit && (
+              <span
+                className={clsx(
+                  "text-[.625rem] border rounded-2xl px-[12px] p-[6px] capitalize h-fit",
+                  {
+                    "border-green-200 text-green-600": unit === "environmental",
+                    "border-stone-300 text-stone-600": unit === "physical",
+                    "border-red-200 text-red-600": unit === "organic",
+                    "border-yellow-300 text-yellow-600": unit === "inorganic",
+                    "border-violet-300 text-violet-600": unit === "analytical",
+                    "border-amber-300 text-amber-800": unit === "polymer",
+                    "border-cyan-300 text-cyan-600": unit === "industrial",
+                  }
+                )}
+              >
+                {unit}
+              </span>
+            )}
+          </div>
+
+          <section className="mb-2 space-y-2">
+            {/* <p>{type === "phd" ? "A Ph.D Thesis" : "An M.Sc dissertation"}</p> */}
+
+            <div className="flex flex-wrap-reverse gap-2">
+              <PubInfo text={`Author: ${author}`} Icon={UserCircleIcon} />
+              <PubInfo text={published_at} Icon={CalendarDaysIcon} />
+            </div>
+            <div className="flex gap-4">
+              <PubInfo
+                text={`Supervisor: ${supervisor}`}
+                Icon={UserCircleIcon}
+              />
+            </div>
+          </section>
+
+          <p className="font-semibold text-center">Abstract</p>
+          <p
+            className={clsx("text-base", {
+              "": isResearchPage,
+              "line-clamp-5": !isResearchPage,
+            })}
+          >
+            {desc}
+          </p>
+
+          {/* <div className="flex flex-wrap items-center gap-3 gap-x-4 mt-3">
+            {isResearchPage && (
+              <Button
+                onClick={() =>
+                  handleButtonClick(author, desc, published_at, title)
+                }
+                className="border-primary text-primary hover:bg-blue-50 p-2 px-4"
+              >
+                Citation
+              </Button>
+            )}
+
+            <a
+              href={href ?? ""}
+              target="__blank"
+              
+              className="bg-secondary hover:bg-orange-500 border-transparent  text-white p-2 px-6 text-sm active:scale-105 transition-all duration-300"
+            >
+              View
+            </a>
+          </div> */}
+        </aside>
+      </m.div>
+
+      {title === q_title && (
+        <div
+          className={`${
+            isOpen ? "opacity-100 scale-100 " : "opacity-0 scale-0"
+          } fixed top-0 left-0 w-screen h-screen z-[9999] bg-gray-100 bg-opacity-70 flex items-center justify-center`}
+        >
+          <div
+            className={`${
+              isOpen ? "scale-100" : "scale-0"
+            } relative w-[96%] max-w-[600px] min-h-[200px] p-3 py-8 bg-white border border-blue-300 rounded-md flex flex-col items-center justify-center gap-6 transition-all duration-300`}
+          >
+            <button
+              onClick={() => router.push(`?`, { scroll: false })}
+              title="close"
+              className="absolute top-3 right-3 text-2xl text-red-800"
+            >
+              <IoCloseCircle />
+            </button>
+
+            <h1 className="uppercase font-bold text-xl sm:text-2xl md:text-3xl text-center">
+              {type} apa citation
+            </h1>
+            <p>
+              <span>{q_author}</span>. ({q_published}).{" "}
+              <span className="capitalize">
+                {q_title?.toLocaleLowerCase()}.
+              </span>
+              &nbsp;
+              <span className="italic capitalize">{q_desc}.</span>&nbsp;
+              <span className="text-xs">
+                (check page No. when you open this {type})
+              </span>
+            </p>
+            <Button
+              onClick={() => handleCopy()}
+              className="self-end border-primary hover:bg-blue-100 bg-opacity-20 gap-2 pl-3 pr-3"
+            >
+              <span className="text-xs">{copied}</span>
+              <ClipboardIcon className="h-4 text-primary" />
+            </Button>
+          </div>
+
+          <BookOpenIcon className="h-16 animate-[bounceRotate_15s_alternate_infinite] opacity-60 absolute bottom-16 left-1/3" />
+        </div>
+      )}
+    </div>
+  );
+}
+
+const PubInfo = ({ text, Icon }: { text: string; Icon: React.ElementType }) => (
+  <div className="text-sm flex items-center gap-1">
+    <Icon className="h-5 text-slate-400" />
+    <span className="capitalize text-black font-bold">{text}</span>
+  </div>
+);
