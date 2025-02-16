@@ -7,15 +7,13 @@ import { FaNewspaper, FaUsers } from "react-icons/fa";
 import { PiGraduationCapFill } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/images/logo.jpg";
+import Logo from "@/public/images/logo.jpg";
 import { useGlobalContext } from "@/context";
 import HoverButton from "./NavBar/HoverButton";
 import { programmesArray, staffArray } from "@/lib";
 import NavLink from "./NavBar/NavLink";
-import { deptArray } from "@/lib/hoverButtonData";
 import { useMediaQuery } from "react-responsive";
 import { UserGroupIcon } from "@heroicons/react/16/solid";
-import { FaSchool } from "react-icons/fa";
 import clsx from "clsx";
 // import { FaUsers } from "react-icons/fa6";
 
@@ -79,11 +77,15 @@ export default function NavBar() {
               }
             )}
           >
-            <HoverButton
+           
+            <NavLink href="/about">
+                <span>About</span>
+            </NavLink>
+            {/* <HoverButton
               heading="department"
               Icon={FaSchool}
               linksArray={deptArray}
-            />
+            /> */}
 
             <HoverButton
               heading="programmes"
