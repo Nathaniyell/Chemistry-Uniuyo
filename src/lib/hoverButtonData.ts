@@ -8,7 +8,7 @@ export const staffArray = [
   { href: "/staff/tech-staff", title: "technical" },
 ];
 
-export const deptArray = [
-  { href: "/about", title: "about us" },
-  { href: "/students", title: "Students" },
-];
+// export const deptArray = [
+//   { href: "/about", title: "about us" },
+//   { href: "/students", title: "Students" },
+// ];
