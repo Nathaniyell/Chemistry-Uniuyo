@@ -3,7 +3,7 @@
 import { VscMenu, VscClose } from "react-icons/vsc";
 import { IoLibrary } from "react-icons/io5";
 import { GiArchiveResearch } from "react-icons/gi";
-import { FaNewspaper, FaUsers } from "react-icons/fa";
+import { FaNewspaper, FaSchool, FaUsers } from "react-icons/fa";
 import { PiGraduationCapFill } from "react-icons/pi";
 import Image from "next/image";
 import Link from "next/link";
@@ -79,14 +79,10 @@ export default function NavBar() {
           >
            
             <NavLink href="/about">
+              <FaSchool className="size-6 xs:size-5" />
                 <span>About</span>
             </NavLink>
-            {/* <HoverButton
-              heading="department"
-              Icon={FaSchool}
-              linksArray={deptArray}
-            /> */}
-
+        
             <HoverButton
               heading="programmes"
               Icon={PiGraduationCapFill}
