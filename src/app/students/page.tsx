@@ -75,14 +75,22 @@ const Page = () => {
 
                     <div className="lg:max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                         {/* ACS Card */}
-                        <div className="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
+                        <div className="bg-white rounded-2xl overflow-hidden shadow group hover:shadow-sm transition-all duration-300">
                             <div className="aspect-video bg-gradient-to-br from-blue-500 to-blue-700 p-8 relative">
                                 <div className="absolute inset-0 bg-black/20"></div>
                                 <div className="relative z-10 ">
 
                                     <div className="text-white text-3xl font-bold mb-2 flex items-center">
-                                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mr-2">
-                                            <Image src="/images/acs-logo.png" alt="ACS" width={100} height={100} />
+                                        <div className="bg-white flex items-center justify-center mr-2">
+                                            <Image
+                                                src="/images/acs-logo.png"
+                                                alt="ACS"
+                                                width={100}
+                                                height={100}
+                                                priority
+                                                loading="eager"
+                                                className="object-contain"
+                                            />
                                         </div>
                                         <h5>ACS</h5>
                                     </div>
@@ -136,7 +144,15 @@ const Page = () => {
 
                                     <div className="text-white text-3xl font-bold mb-2 flex items-center">
                                         <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mr-2">
-                                            <Image src="/images/logo-removebg.png" alt="SCSN" width={100} height={100} />
+                                            <Image
+                                                src="/images/logo-removebg.png"
+                                                alt="SCSN"
+                                                width={100}
+                                                height={100}
+                                                priority
+                                                loading="eager"
+                                                className="object-contain"
+                                            />
                                         </div>
                                         <h5>SCSN</h5>
                                     </div>
@@ -219,7 +235,9 @@ const Page = () => {
                                                 src={item.pictures[0]}
                                                 alt={item.title}
                                                 fill
+                                                loading="eager"
                                                 className="object-cover transform hover:scale-110 transition-transform duration-300"
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             />
                                         </div>
                                         <div className="p-6">
