@@ -129,9 +129,9 @@ const Page = () => {
                                             Networking Opportunities
                                         </li>
                                     </ul>
-                                    <button className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                                        Join ACS Chapter
-                                    </button>
+                                    <p className="text-slate-500">
+                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +192,7 @@ const Page = () => {
                                         </li>
                                     </ul>
                                     <p className="text-slate-500">
-                                        Please visit the Department of Chemistry General Office to register
+                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register 
                                     </p>
 
                                 </div>
