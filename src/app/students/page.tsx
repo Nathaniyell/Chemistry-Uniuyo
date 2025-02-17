@@ -130,7 +130,7 @@ const Page = () => {
                                         </li>
                                     </ul>
                                     <p className="text-slate-500">
-                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register 
+                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register
                                     </p>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ const Page = () => {
                                         </li>
                                     </ul>
                                     <p className="text-slate-500">
-                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register 
+                                        Please contact the Staff Advisor at the Department of Chemistry General office to Register
                                     </p>
 
                                 </div>
@@ -205,7 +205,7 @@ const Page = () => {
             {/* Recent Activities */}
             <section className="py-16 px-4">
                 <div className="max-w-6xl mx-auto">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-2">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Recent Activities</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Stay updated with the latest events, research projects, and achievements from our student organizations
@@ -229,7 +229,7 @@ const Page = () => {
                         >
                             {studentNews.map((item, index) => (
                                 <SwiperSlide key={index}>
-                                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+                                    <div className="bg-white rounded-xl overflow-hidden shadow hover:shadow-md transition-all duration-300">
                                         <div className="aspect-video relative overflow-hidden">
                                             <Image
                                                 src={item.pictures[0]}
@@ -284,7 +284,7 @@ const Page = () => {
             {/* Research Projects Section */}
             <section className="py-16 px-4 bg-gray-50">
                 <div className="max-w-5xl mx-auto">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-4">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Undergraduate Research</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Explore our students&apos; innovative research projects and contributions to chemical sciences
