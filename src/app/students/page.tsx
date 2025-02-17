@@ -22,6 +22,13 @@ const Page = () => {
     });
     const studentNews = recentNews.filter((news) => news.tag === "student");
 
+    const scrollToActivities = () => {
+        const activitiesSection = document.getElementById('recent-activities');
+        if (activitiesSection) {
+            activitiesSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <main className="bg-gradient-to-b from-[#eff5f5] to-white">
             {/* Hero Section */}
@@ -36,7 +43,9 @@ const Page = () => {
                         Join a vibrant community of future chemists, researchers, and innovators. Discover opportunities, connect with peers, and shape your academic journey.
                     </p>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        <button className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full font-semibold hover:bg-white/10 transition-colors">
+                        <button
+                            onClick={scrollToActivities}
+                            className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full font-semibold hover:bg-white/10 transition-colors">
                             Explore Activities
                         </button>
                     </div>
@@ -203,7 +212,7 @@ const Page = () => {
             </section>
 
             {/* Recent Activities */}
-            <section className="py-16 px-4">
+            <section id="recent-activities" className="py-16 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-2">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Recent Activities</h2>
