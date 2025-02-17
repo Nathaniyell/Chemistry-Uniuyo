@@ -78,8 +78,14 @@ const Page = () => {
                         <div className="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
                             <div className="aspect-video bg-gradient-to-br from-blue-500 to-blue-700 p-8 relative">
                                 <div className="absolute inset-0 bg-black/20"></div>
-                                <div className="relative z-10">
-                                    <div className="text-white text-3xl font-bold mb-2">ACS</div>
+                                <div className="relative z-10 ">
+
+                                    <div className="text-white text-3xl font-bold mb-2 flex items-center">
+                                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mr-2">
+                                            <Image src="/images/acs-logo.png" alt="ACS" width={100} height={100} />
+                                        </div>
+                                        <h5>ACS</h5>
+                                    </div>
                                     <div className="text-blue-100">American Chemical Society</div>
                                 </div>
                             </div>
@@ -123,11 +129,17 @@ const Page = () => {
                         </div>
 
                         {/* SCSN Card */}
-                        <div className="bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
-                            <div className="aspect-video bg-gradient-to-br from-green-500 to-green-700 p-8 relative">
+                        <div className="bg-white rounded-2xl overflow-hidden shadow group hover:shadow-sm transition-all duration-300">
+                            <div className="aspect-video bg-gradient-to-br from-orange-500 to-orange-700 p-8 relative">
                                 <div className="absolute inset-0 bg-black/20"></div>
                                 <div className="relative z-10">
-                                    <div className="text-white text-3xl font-bold mb-2">SCSN</div>
+
+                                    <div className="text-white text-3xl font-bold mb-2 flex items-center">
+                                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mr-2">
+                                            <Image src="/images/logo-removebg.png" alt="SCSN" width={100} height={100} />
+                                        </div>
+                                        <h5>SCSN</h5>
+                                    </div>
                                     <div className="text-green-100">Students Chemical Society of Nigeria</div>
                                 </div>
                             </div>
@@ -136,36 +148,37 @@ const Page = () => {
                                     Be part of Nigeria&apos;s premier chemical society. Engage in local research, industry connections, and professional development.
                                 </p>
                                 <div className="space-y-6">
-                                    <h3 className="font-semibold text-lg text-green-900">Membership Benefits</h3>
+                                    <h3 className="font-semibold text-lg text-orange-900">Membership Benefits</h3>
                                     <ul className="space-y-3">
                                         <li className="flex items-center text-gray-700">
-                                            <span className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-3">
-                                                <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mr-3">
+                                                <svg className="w-4 h-4 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
                                             </span>
                                             Local Industry Connections
                                         </li>
                                         <li className="flex items-center text-gray-700">
-                                            <span className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-3">
-                                                <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mr-3">
+                                                <svg className="w-4 h-4 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
                                             </span>
                                             Research Opportunities
                                         </li>
                                         <li className="flex items-center text-gray-700">
-                                            <span className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-3">
-                                                <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mr-3">
+                                                <svg className="w-4 h-4 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
                                             </span>
                                             Professional Workshops
                                         </li>
                                     </ul>
-                                    <button className="w-full py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                                        Join SCSN Chapter
-                                    </button>
+                                    <p className="text-slate-500">
+                                        Please visit the Department of Chemistry General Office to register
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
