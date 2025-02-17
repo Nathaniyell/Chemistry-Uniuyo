@@ -195,7 +195,28 @@ import idws4 from "@/public/images/IDWS/idws5.jpg"
 import idws5 from "@/public/images/IDWS/idws6.jpg"
 import nuc1 from "@/public/images/nuc/nuc1.jpg"
 import nuc2 from "@/public/images/nuc/nuc2.jpg"
-
+import orientation from "@/public/images/orientation/orientation1.jpg"
+import orientation1 from "@/public/images/orientation/orientation2.jpg"
+import orientation2 from "@/public/images/orientation/orientation3.jpg"
+import orientation3 from "@/public/images/orientation/orientation4.jpg"
+import orientation4 from "@/public/images/orientation/orientation5.jpg"
+import orientation5 from "@/public/images/orientation/orientation6.jpg"
+import orientation6 from "@/public/images/orientation/orientation7.jpg"
+import orientation7 from "@/public/images/orientation/orientation8.jpg"
+import orientation8 from "@/public/images/orientation/orientation9.jpg"
+import orientation9 from "@/public/images/orientation/orientation10.jpg"
+import orientation10 from "@/public/images/orientation/orientation11.jpg"
+import orientation11 from "@/public/images/orientation/orientation12.jpg"
+import orientation12 from "@/public/images/orientation/orientation13.jpg"
+import orientation13 from "@/public/images/orientation/orientation14.jpg"
+import orientation14 from "@/public/images/orientation/orientation15.jpg"
+import orientation15 from "@/public/images/orientation/orientation16.jpg"
+import orientation16 from "@/public/images/orientation/orientation17.jpg"
+import orientation17 from "@/public/images/orientation/orientation18.jpg"
+import orientation18 from "@/public/images/orientation/orientation19.jpg"
+import orientation20 from "@/public/images/orientation/orientation21.jpg"
+import orientation21 from "@/public/images/orientation/orientation111.jpg"
+import orientation22 from "@/public/images/orientation/orientation112.jpg"
 
 
 
@@ -209,6 +230,21 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "February, 2025",
+    title: "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
+    description: [
+      'The Department of Chemistry, University of Uyo, recently organized a welcome orientation program for its newly admitted students, including freshmen and women. The event, held at the department’s lecture hall, provided an avenue for students to familiarize themselves with academic expectations, departmental regulations, and extracurricular opportunities.',
+      '\nIn his opening remarks, the Head of Department (HOD) warmly welcomed the students, providing a brief history of the department and emphasizing its ethos of academic excellence, discipline, and innovation. He encouraged the students to take advantage of the department’s resources to excel in their studies.',
+      "\nDr. Ini Umoren delivered an insightful presentation on examination misconducts and regulations, stressing the importance of integrity in academic assessments. Dr. Simon followed with a session on results and computations, guiding students on how their grades are calculated and the importance of maintaining good academic standing.",
+      "\nOther faculty members present shared valuable advice with the students, urging them to stay committed to their studies and seek guidance whenever necessary.",
+      "\nA key highlight of the event was the introduction of students to professional organizations within the department, including the Students Chemical Society of Nigeria (SCSN), University of Uyo Chapter, and the American Chemical Society (ACS), University of Uyo International Students Chapter. The presidents of both organizations took turns addressing the students, emphasizing the benefits of joining, including networking, skill development, and access to academic and career opportunities.",
+      "\nThe event concluded with an interactive session where students had the opportunity to ask questions and seek clarification on various aspects of their academic journey.",
+      "\nThe orientation served as an essential first step in helping new students integrate into the department and set the tone for a successful academic experience.",
+
+    ],
+    pictures: [orientation, orientation1, orientation21, orientation22, orientation2, orientation3, orientation4, orientation5, orientation6, orientation7, orientation8, orientation9, orientation10, orientation11, orientation12, orientation13, orientation14, orientation15, orientation16, orientation17, orientation18, orientation20,],
+  },
   {
     date: "February, 2025",
     title: "University of Uyo Researchers Shine in AD Scientific Index Rankings 2025",
