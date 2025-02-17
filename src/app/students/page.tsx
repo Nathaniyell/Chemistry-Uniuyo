@@ -12,7 +12,6 @@ import Accordion from "@/components/students/Accordion";
 import StudentsTable from "@/components/students/StudentsTable";
 import { eighteenSeries, seventeenSeries, sixteenSeries } from "@/lib/undergraduateProject";
 import { useRef } from "react";
-import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import { truncateWords } from "@/utils/truncateWords";
 import { seventeenSeriesGradList, eighteenSeriesGradList } from "@/lib/graduationList";
 const Page = () => {
@@ -53,7 +52,7 @@ const Page = () => {
             </section>
 
             {/* Stats Section */}
-            <section className="py-16 px-4">
+            <section className="py-10 px-4">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
                         <div className="text-center">
@@ -73,7 +72,7 @@ const Page = () => {
             </section>
 
             {/* Student Organizations */}
-            <section className="py-16 px-4 bg-gray-50">
+            <section className="py-10 px-4 bg-gray-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Student Organizations</h2>
@@ -212,7 +211,7 @@ const Page = () => {
             </section>
 
             {/* Recent Activities */}
-            <section id="recent-activities" className="py-16 px-4">
+            <section id="recent-activities" className="py-10 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-2">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Recent Activities</h2>
@@ -291,7 +290,7 @@ const Page = () => {
             </section>
 
             {/* Research Projects Section */}
-            <section className="py-16 px-4 bg-gray-50">
+            <section className="py-10 px-4 bg-gray-50">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-4">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Undergraduate Research</h2>
