@@ -204,7 +204,7 @@ const Page = () => {
 
             {/* Recent Activities */}
             <section className="py-16 px-4">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Recent Activities</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -225,7 +225,7 @@ const Page = () => {
                             onSwiper={(swiper) => {
                                 swiperRef.current = swiper;
                             }}
-                            className="pb-12"
+                            className="!py-8"
                         >
                             {studentNews.map((item, index) => (
                                 <SwiperSlide key={index}>
@@ -283,7 +283,7 @@ const Page = () => {
 
             {/* Research Projects Section */}
             <section className="py-16 px-4 bg-gray-50">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold text-blue-900 mb-4">Undergraduate Research</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
