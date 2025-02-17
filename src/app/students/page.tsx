@@ -1,5 +1,5 @@
 "use client";
-import { Header, Lecturers } from "@/components";
+import { Header, Lecturers, RouteLinkBtn } from "@/components";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
@@ -314,6 +314,21 @@ const Page = () => {
                         />
                     </div>
                 </div>
+                <div className="bg-orange-100 !mt-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
+          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
+            Explore the Impressive Resources and Facilities of the Department of
+            Chemistry, University of Uyo
+          </h1>
+
+          <RouteLinkBtn
+            href="/resources"
+            variant="transparent"
+            className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
+            arrow
+          >
+            Take tour
+          </RouteLinkBtn>
+        </div>
             </section>
         </main>
     );
