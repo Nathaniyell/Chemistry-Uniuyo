@@ -65,42 +65,42 @@ export default function Home() {
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative">
-      <Swiper
-        centeredSlides
-        loop
-        autoHeight={true}
-        autoplay={{
-          delay: 3000,
-          pauseOnMouseEnter: true,
-          disableOnInteraction: true,
-        }}
-        navigation={!isMobile}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-fit md:h-full"
-      >
-        {homeData.map((item) => {
-          const { title, description, image, greeting, btnLink } = item;
-          return (
-            <SwiperSlide key={title}>
-              <HomepageSlider
-                bgImage={image}
-                title={title}
-                greeting={greeting}
-                btnLink={btnLink}
-                description={description}
-              />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+        <Swiper
+          centeredSlides
+          loop
+          autoHeight={true}
+          autoplay={{
+            delay: 3000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: true,
+          }}
+          navigation={!isMobile}
+          // pagination={{
+          //   clickable: true,
+          // }}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="w-full h-fit md:h-full"
+        >
+          {homeData.map((item) => {
+            const { title, description, image, greeting, btnLink } = item;
+            return (
+              <SwiperSlide key={title}>
+                <HomepageSlider
+                  bgImage={image}
+                  title={title}
+                  greeting={greeting}
+                  btnLink={btnLink}
+                  description={description}
+                />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </section>
 
       {/* Welcome Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
             <div className="w-full md:w-1/2 space-y-8">
               <HomeSections
@@ -113,31 +113,34 @@ export default function Home() {
               />
             </div>
 
-            <div className="w-full md:w-5/12 lg:w-[38%] bg-white rounded-lg shadow-lg overflow-hidden">
-              <Swiper
-                effect="fade"
-                autoplay={{
-                  delay: 3000,
-                  disableOnInteraction: false,
-                }}
-                modules={[EffectFade, Autoplay]}
-                className="aspect-[3/4]"
-              >
-                {headOfDepartment.map((item) => (
-                  <SwiperSlide key={item.title}>
-                    <div className="relative w-full h-full">
-                      <Image
-                        src={item.src}
-                        alt="Prof Edu Inam"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
+            <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="aspect-[4/3]">
+                <Swiper
+                  effect="fade"
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                  modules={[EffectFade, Autoplay]}
+                  className="h-full"
+                >
+                  {headOfDepartment.map((item) => (
+                    <SwiperSlide key={item.title}>
+                      <div className="relative w-full h-full">
+                        <Image
+                          src={item.src}
+                          alt="Prof Edu Inam"
+                          fill
+                          className="object-cover object-top"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
               <div className="p-6 bg-blue-900 text-white text-center">
-                <h3 className="text-xl font-bold">Prof. Edu Inam</h3>
+                <h3 className="text-xl font-bold">Professor Edu Inam</h3>
                 <p className="text-blue-100 mt-1">Head of Department</p>
               </div>
             </div>
@@ -218,7 +221,7 @@ export default function Home() {
                   desc={staff.desc}
                   href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
                   cardTitleStyle="hover:text-orange-500"
-                   cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
+                  cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
                   cardImgStyle="object-cover"
                 />
               </div>
