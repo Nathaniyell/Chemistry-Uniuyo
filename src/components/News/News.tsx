@@ -28,7 +28,7 @@ const News = () => {
       <RouteLinkBtn
         href="/recent-news"
         variant="primary"
-        className="mx-auto mt-8 text-white flex items-center w-1/3"
+        className="mx-auto mt-8 text-white flex items-center lg:w-1/3"
       >
         See all news
         <MdOutlineKeyboardDoubleArrowRight className="ml-1 animate-pulse text-lg text-secondary" />

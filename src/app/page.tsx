@@ -30,31 +30,37 @@ export default function Home() {
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative">
-        <Swiper
-          loop
-          effect="fade"
-          autoHeight={true}
-          autoplay={{
-            delay: 5000,
-            pauseOnMouseEnter: true,
-            disableOnInteraction: false,
-          }}
-          navigation={!isMobile}
-          modules={[Autoplay, Pagination, Navigation, EffectFade]}
-          className="w-full h-[70vh] md:h-[80vh]"
-        >
-          {homeData.map((item) => (
-            <SwiperSlide key={item.title}>
+      <Swiper
+        centeredSlides
+        loop
+        autoHeight={true}
+        autoplay={{
+          delay: 3000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: true,
+        }}
+        navigation={!isMobile}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="w-full h-fit md:h-full"
+      >
+        {homeData.map((item) => {
+          const { title, description, image, greeting, btnLink } = item;
+          return (
+            <SwiperSlide key={title}>
               <HomepageSlider
-                bgImage={item.image}
-                title={item.title}
-                greeting={item.greeting}
-                btnLink={item.btnLink}
-                description={item.description}
+                bgImage={image}
+                title={title}
+                greeting={greeting}
+                btnLink={btnLink}
+                description={description}
               />
             </SwiperSlide>
-          ))}
-        </Swiper>
+          );
+        })}
+      </Swiper>
       </section>
 
       {/* Welcome Section */}
@@ -143,7 +149,8 @@ export default function Home() {
               },
               {
                 title: "Active Student Associations",
-                content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students."
+                content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.",
+                link: "/students"
               }
             ].map((item, index) => (
               <details
@@ -161,7 +168,7 @@ export default function Home() {
                 <div className="px-6 pb-6 text-gray-600">
                   <p>{item.content}</p>
                   {item.link && (
-                    <Link href={item.link} className="inline-block mt-4 text-orange-600 hover:text-orange-700 font-medium">
+                    <Link href={item.link} className="inline-block mt-4 text-blue-600 hover:underline font-medium">
                       Find out more
                     </Link>
                   )}
@@ -183,7 +190,7 @@ export default function Home() {
           </p>
           <Link
             href="/programmes/undergraduate"
-            className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
+            className="inline-flex items-center text-blue-600 hover:underline font-medium"
           >
             Find out more
             <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -249,24 +256,24 @@ export default function Home() {
             <HomeResearchSlider />
           </div>
         </div>
-           {/* Resources Banner */}
-           <div className="bg-blue-900 md:w-[95%] mx-auto rounded-xl p-8 md:p-12 mt-20">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-white md:w-1/2">
-                Explore the Impressive Resources and Facilities of the Department of
-                Chemistry, University of Uyo
-              </h2>
+        {/* Resources Banner */}
+        <div className="bg-blue-900 md:w-[95%] mx-auto rounded-xl p-8 md:p-12 mt-20">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-white md:w-1/2">
+              Explore the Impressive Resources and Facilities of the Department of
+              Chemistry, University of Uyo
+            </h2>
 
-              <RouteLinkBtn
-                href="/resources"
-                variant="primary"
-                className="bg-white text-blue-700 shadow-md border-none px-8 py-3"
-                arrow
-              >
-                Take tour
-              </RouteLinkBtn>
-            </div>
+            <RouteLinkBtn
+              href="/resources"
+              variant="primary"
+              className="bg-white text-blue-700 shadow-md border-none px-8 py-3"
+              arrow
+            >
+              Take tour
+            </RouteLinkBtn>
           </div>
+        </div>
       </section>
     </div>
   );
