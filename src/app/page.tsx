@@ -232,7 +232,7 @@ export default function Home() {
 
       {/* News and Research Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           {/* Recent News */}
           <div className="mb-20">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
@@ -240,9 +240,17 @@ export default function Home() {
             </h2>
             <News />
           </div>
-
-          {/* Resources Banner */}
-          <div className="bg-blue-900 rounded-xl p-8 md:p-12 mb-20">
+          <hr />
+          {/* Recent Research */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center my-12">
+              Recent Research Expeditions
+            </h2>
+            <HomeResearchSlider />
+          </div>
+        </div>
+           {/* Resources Banner */}
+           <div className="bg-blue-900 md:w-[95%] mx-auto rounded-xl p-8 md:p-12 mt-20">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <h2 className="text-2xl md:text-3xl font-bold text-white md:w-1/2">
                 Explore the Impressive Resources and Facilities of the Department of
@@ -252,22 +260,13 @@ export default function Home() {
               <RouteLinkBtn
                 href="/resources"
                 variant="primary"
-                className="bg-orange-600 hover:bg-orange-700 text-white shadow-md border-none px-8 py-3"
+                className="bg-white text-blue-700 shadow-md border-none px-8 py-3"
                 arrow
               >
                 Take tour
               </RouteLinkBtn>
             </div>
           </div>
-
-          {/* Recent Research */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-              Recent Research Expeditions
-            </h2>
-            <HomeResearchSlider />
-          </div>
-        </div>
       </section>
     </div>
   );
