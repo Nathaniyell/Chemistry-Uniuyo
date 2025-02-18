@@ -56,7 +56,7 @@ export default function ResourcePage() {
               <div className="w-20 h-1 bg-primary/20 mx-auto"></div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md p-6 md:p-8 space-y-6">
+            <div className="bg-white rounded-xl shadow p-6 md:p-8 space-y-6">
               <h3 className="text-2xl font-semibold text-blue-950">
                 Student Handbook
               </h3>
