@@ -29,10 +29,10 @@ const Page = () => {
     };
 
     return (
-        <main className="bg-gradient-to-b from-[#eff5f5] to-white">
+        <main className="bg-gradient-to-b from-[#eff5f5] to-white overflow-x-hidden">
             {/* Hero Section */}
             <section className="relative h-[60vh] min-h-[500px] bg-gradient-to-r from-blue-900 to-blue-700 overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/images/chemistry-bg.jpg')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+                <div className="absolute inset-0 bg-[url('/images/orientation/orientation2.jpg')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30"></div>
                 <div className="relative z-10 h-full flex flex-col items-center justify-center text-white px-4">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight">

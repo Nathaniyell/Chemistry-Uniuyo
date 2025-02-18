@@ -206,7 +206,7 @@ export default function Home() {
           </p>
           <Link
             href="/programmes/undergraduate"
-            className="inline-flex items-center text-blue-600 hover:underline font-medium"
+            className="inline-flex items-center px-6 py-3 mt-3 text-sm font-medium text-white bg-red-900 rounded-lg hover:bg-red-800 transition-all duration-200 shadow-sm hover:shadow group"
           >
             Find out more
             <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
