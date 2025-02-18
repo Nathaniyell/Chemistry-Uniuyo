@@ -283,7 +283,7 @@ export default function Home() {
             <RouteLinkBtn
               href="/resources"
               variant="primary"
-              className="bg-white text-blue-700 shadow-md border-none px-8 py-3"
+              className="bg-white !text-center text-blue-700 shadow-md border-none px-8 py-3"
               arrow
             >
               Take tour
