@@ -4,6 +4,7 @@ import { Autoplay, Pagination, EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 import { useMediaQuery } from "react-responsive";
 
 import Image from "next/image";
@@ -19,211 +20,256 @@ import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
   const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
-  const isMedium= useMediaQuery({ query: '(min-width: 701px)' });
+  const isMedium = useMediaQuery({ query: '(min-width: 701px)' });
   const headOfDepartment = [
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
   ];
 
   return (
-    <main className="bg-[#f8fbf8] w-full min-h-screen relative overflow-x-hidden">
-      <Swiper
-        centeredSlides
-        loop
-        autoHeight={true}
-        autoplay={{
-          delay: 3000,
-          pauseOnMouseEnter: true,
-          disableOnInteraction: true,
-        }}
-        navigation={!isMobile}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-fit md:h-full"
-      >
-        {homeData.map((item) => {
-          const { title, description, image, greeting, btnLink } = item;
-          return (
-            <SwiperSlide key={title}>
+    <main className="bg-white min-h-screen relative">
+      {/* Hero Section */}
+      <section className="relative">
+        <Swiper
+          centeredSlides
+          loop
+          effect="fade"
+          autoHeight={true}
+          autoplay={{
+            delay: 5000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
+          navigation={!isMobile}
+          modules={[Autoplay, Pagination, Navigation, EffectFade]}
+          className="w-full h-[70vh] md:h-[80vh]"
+        >
+          {homeData.map((item) => (
+            <SwiperSlide key={item.title}>
               <HomepageSlider
-                bgImage={image}
-                title={title}
-                greeting={greeting}
-                btnLink={btnLink}
-                description={description}
+                bgImage={item.image}
+                title={item.title}
+                greeting={item.greeting}
+                btnLink={item.btnLink}
+                description={item.description}
               />
             </SwiperSlide>
-          );
-        })}
-      </Swiper>
-      <section className="w-11/12 mx-auto mt-4 md:p-2 flex flex-col justify-between gap-14 md:gap-10 md:flex-row">
-        <div className="md:w-1/2">
-          <HomeSections
-            greeting="Welcome note from"
-            title="head of the department"
-            routeLink="/about"
-            readMore={true}
-            animateDirection="left"
-            description={`On behalf of all staff members, I warmly welcome you to the Department of Chemistry at the University of Uyo. Chemistry as the “central science” subject is a fascinating field that we are immensely passionate about at our institution. This discipline offers a unique perspective of the universe, rooted in the fundamental properties and interactions of atoms and molecules. By learning to control chemical processes, we gain the ability to shape the world around us. As a department that drives research and development, studying chemistry with us help to continually push the boundaries of conducting ground-breaking research, and make advancements that improve lives.`}
-          />
-        </div>
-        <aside className="w-full md:w-5/12 lg:w-[32%]">
-          <Swiper
-            spaceBetween={30}
-            effect={"fade"}
-            autoplay={{
-              delay: 3000,
-            }}
-            modules={[EffectFade, Autoplay]}
-            className="mySwiper"
-          >
-            {headOfDepartment.map((item) => (
-              <SwiperSlide
-                key={item.title}
-                className="aspect-w-4 aspect-h-5 md:aspect-w-3 md:aspect-h-[3.45]"
-              >
-                <Image
-                  className="object-cover"
-                  src={item.src}
-                  alt="Prof Edu Inam"
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <div className="p-4 w-full bg-secondary text-xl  text-center font-bold text-white">
-            <h6> Prof. Edu Inam </h6>
-            <p> Head of Department</p>
-          </div>
-        </aside>
+          ))}
+        </Swiper>
       </section>
-      <section className="bg-white px-4 py-14">
-        <h5 className="text-center text-primary md:w-[60%] lg:w-[70%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
-          Why Study Chemistry at the University of Uyo?
-        </h5>
-        <div className="my-6 w-11/12 md:w-4/6 mx-auto !leading-loose grid grid-cols-1 gap-12">
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Experienced Staff</summary>
-            <p>Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.</p>
-            <Link href="/staff/teach-staff" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
-            Find out more
-          </Link>            
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Peaceful and Serene Environment</summary>
-            <p>Our campus provides a tranquil and safe setting conducive to learning and research.</p>
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Dedicated and Friendly Staff Members</summary>
-            <p>Our staff is committed to supporting and guiding students through their academic journey.</p>
-            <Link href="/staff/teach-staff" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
-            Find out more
-          </Link>
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Well-Equipped Research Facilities</summary>
-            <p>We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work visit:   <Link href="www.iceesr.org.ng" target="_blank" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
-            ICEESR
-          </Link> .</p>
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Modern E-Resources</summary>
-            <p>We provide access to the latest e-resources in the university library to enhance study and research capabilities.</p>
-            <Link href="/resources" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
-            Find out more
-          </Link>
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">International Collaborations</summary>
-            <p>We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.</p>
-          </details>
-          <details>
-            <summary className="text-xl font-bold text-secondary cursor-pointer">Active Student Associations</summary>
-            <p>We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.</p>
-          </details>
-        </div>
-      </section>
-      <section className="w-11/12 mx-auto p-4 md:p-6 grid gap-4 grid-cols-1 my-16 bg-white leading-loose">
-        <h5 className="text-center text-primary md:w-[60%] lg:w-[80%] mx-auto font-black text-[24px] md:text-[30px] uppercase">
-          Undergraduate and Postgraduate Programmes
-        </h5>
-        <div>
-          <p>The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.</p>
-          <Link href="/programmes/undergraduate" className="border-0 w-1/6 !text-left !px-0 text-primary underline">
-            Find out more
-          </Link>
-        </div>
 
+      {/* Welcome Section */}
+      <section className="bg-gradient-to-b from-slate-50 to-white py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
+            <div className="w-full md:w-1/2 space-y-8">
+              <HomeSections
+                greeting="Welcome note from"
+                title="head of the department"
+                routeLink="/about"
+                readMore={true}
+                animateDirection="left"
+                description={`On behalf of all staff members, I warmly welcome you to the Department of Chemistry at the University of Uyo. Chemistry as the "central science" subject is a fascinating field that we are immensely passionate about at our institution. This discipline offers a unique perspective of the universe, rooted in the fundamental properties and interactions of atoms and molecules. By learning to control chemical processes, we gain the ability to shape the world around us. As a department that drives research and development, studying chemistry with us help to continually push the boundaries of conducting ground-breaking research, and make advancements that improve lives.`}
+              />
+            </div>
+
+            <div className="w-full md:w-5/12 lg:w-[38%] bg-white rounded-lg shadow-lg overflow-hidden">
+              <Swiper
+                effect="fade"
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
+                modules={[EffectFade, Autoplay]}
+                className="aspect-[3/4]"
+              >
+                {headOfDepartment.map((item) => (
+                  <SwiperSlide key={item.title}>
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={item.src}
+                        alt="Prof Edu Inam"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+              <div className="p-6 bg-blue-950 text-white text-center">
+                <h3 className="text-xl font-bold">Prof. Edu Inam</h3>
+                <p className="text-blue-200 mt-1">Head of Department</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <hr />
-      <section className="w-11/12 mx-auto p-4 md:p-6 pb-14 ">
-        <h5 className="text-center text-primary md:w-1/2 lg:w-[30%] mb-5 mx-auto uppercase font-black text-[24px] md:text-[30px]">
-          Our Staff
-        </h5>
-        <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center gap-12 md:gap-6 mt-10">
-          {homeStaffData.map((staff) => {
-            return (
-              <div className="h-full !capitalize" key={staff.name}>
+
+      {/* Why Study Section */}
+      <section className="py-20 bg-blue-950 text-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Why Study Chemistry at the University of Uyo?
+          </h2>
+
+          <div className="grid gap-6 md:gap-8">
+            {[
+              {
+                title: "Experienced Staff",
+                content: "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
+                link: "/staff/teach-staff"
+              },
+              {
+                title: "Peaceful and Serene Environment",
+                content: "Our campus provides a tranquil and safe setting conducive to learning and research."
+              },
+              {
+                title: "Dedicated and Friendly Staff Members",
+                content: "Our staff is committed to supporting and guiding students through their academic journey.",
+                link: "/staff/teach-staff"
+              },
+              {
+                title: "Well-Equipped Research Facilities",
+                content: "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
+                link: "www.iceesr.org.ng"
+              },
+              {
+                title: "Modern E-Resources",
+                content: "We provide access to the latest e-resources in the university library to enhance study and research capabilities.",
+                link: "/resources"
+              },
+              {
+                title: "International Collaborations",
+                content: "We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities."
+              },
+              {
+                title: "Active Student Associations",
+                content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students."
+              }
+            ].map((item, index) => (
+              <details
+                key={index}
+                className="bg-white/5 rounded-lg hover:bg-white/10 transition-colors duration-300 group"
+              >
+                <summary className="p-6 cursor-pointer text-xl font-semibold flex items-center justify-between">
+                  {item.title}
+                  <span className="transform group-open:rotate-180 transition-transform duration-200">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6 text-blue-100">
+                  <p>{item.content}</p>
+                  {item.link && (
+                    <Link href={item.link} className="inline-block mt-4 text-primary-400 hover:text-primary-300 underline">
+                      Find out more
+                    </Link>
+                  )}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Programs Section */}
+      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-8">
+            Undergraduate and Postgraduate Programmes
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-8">
+            The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.
+          </p>
+          <Link
+            href="/programmes/undergraduate"
+            className="inline-flex items-center text-primary hover:text-primary-600 font-medium"
+          >
+            Find out more
+            <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
+      {/* Staff Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-16">
+            Meet Our Staff
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {homeStaffData.map((staff) => (
+              <div key={staff.name} className="h-full">
                 <Lecturers
                   name={staff.name}
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
                   href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
-                  cardTitleStyle="hover:text-secondary"
-                  cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
+                  cardTitleStyle="hover:text-primary"
+                  cardImgContainerStyle="aspect-[3/4]"
                   cardImgStyle="object-cover"
                 />
               </div>
-            );
-          })}
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <RouteLinkBtn
+              href="/staff/teach-staff"
+              arrow
+              variant="primary"
+              className="inline-flex items-center px-8 py-3 text-white"
+            >
+              More about our staff
+            </RouteLinkBtn>
+          </div>
         </div>
-        <RouteLinkBtn
-          href="/staff/teach-staff"
-          arrow
-          variant="primary"
-          className="text-white w-full md:w-1/2 lg:w-[25%] mx-auto"
-        >
-          More about our staff
-        </RouteLinkBtn>
       </section>
 
-      <div className="bg-white pt-10">
-        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto">
-          <div className="grid place-items-center grid-cols-1 gap-10">
-            <h1 className="text-center text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
+      {/* News and Research Section */}
+      <section className="bg-slate-50 py-20">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Recent News */}
+          <div className="mb-20">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-12">
               Recent News
-            </h1>
+            </h2>
             <News />
           </div>
-        </section>
-        <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
-          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
-            Explore the Impressive Resources and Facilities of the Department of
-            Chemistry, University of Uyo
-          </h1>
 
-          <RouteLinkBtn
-            href="/resources"
-            variant="transparent"
-            className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
-            arrow
-          >
-            Take tour
-          </RouteLinkBtn>
-        </div>
-        <section className="flex flex-col p-4 gap-14 w-11/12 items-center mx-auto pb-14">
-          <div className="space-y-10 w-full">
-            <h1 className="text-center w-full md:w-[55%] lg:w-[50%] text-primary px-4 mx-auto uppercase font-black text-[24px] md:text-[30px]">
+          {/* Resources Banner */}
+          <div className="bg-gradient-to-r from-amber-100 to-orange-100 rounded-2xl p-8 md:p-12 mb-20">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-amber-900 md:w-1/2">
+                Explore the Impressive Resources and Facilities of the Department of
+                Chemistry, University of Uyo
+              </h2>
+
+              <RouteLinkBtn
+                href="/resources"
+                variant="primary"
+                className="bg-amber-900 hover:bg-amber-800 text-white shadow-lg border-none px-8 py-3"
+                arrow
+              >
+                Take tour
+              </RouteLinkBtn>
+            </div>
+          </div>
+
+          {/* Recent Research */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-12">
               Recent Research Expeditions
-            </h1>
-
-            {/* ResearchSlider */}
+            </h2>
             <HomeResearchSlider />
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
   );
 }
