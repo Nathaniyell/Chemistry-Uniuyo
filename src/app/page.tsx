@@ -27,11 +27,10 @@ export default function Home() {
   ];
 
   return (
-    <main className="bg-white min-h-screen relative">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative">
         <Swiper
-          centeredSlides
           loop
           effect="fade"
           autoHeight={true}
@@ -59,7 +58,7 @@ export default function Home() {
       </section>
 
       {/* Welcome Section */}
-      <section className="bg-gradient-to-b from-slate-50 to-white py-16 md:py-24">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
             <div className="w-full md:w-1/2 space-y-8">
@@ -96,9 +95,9 @@ export default function Home() {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="p-6 bg-blue-950 text-white text-center">
+              <div className="p-6 bg-blue-900 text-white text-center">
                 <h3 className="text-xl font-bold">Prof. Edu Inam</h3>
-                <p className="text-blue-200 mt-1">Head of Department</p>
+                <p className="text-blue-100 mt-1">Head of Department</p>
               </div>
             </div>
           </div>
@@ -106,9 +105,9 @@ export default function Home() {
       </section>
 
       {/* Why Study Section */}
-      <section className="py-20 bg-blue-950 text-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-16">
             Why Study Chemistry at the University of Uyo?
           </h2>
 
@@ -149,9 +148,9 @@ export default function Home() {
             ].map((item, index) => (
               <details
                 key={index}
-                className="bg-white/5 rounded-lg hover:bg-white/10 transition-colors duration-300 group"
+                className="bg-white rounded-lg shadow-sm hover:shadow transition-all duration-300 group"
               >
-                <summary className="p-6 cursor-pointer text-xl font-semibold flex items-center justify-between">
+                <summary className="p-6 cursor-pointer text-xl font-semibold text-blue-900 flex items-center justify-between">
                   {item.title}
                   <span className="transform group-open:rotate-180 transition-transform duration-200">
                     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -159,10 +158,10 @@ export default function Home() {
                     </svg>
                   </span>
                 </summary>
-                <div className="px-6 pb-6 text-blue-100">
+                <div className="px-6 pb-6 text-gray-600">
                   <p>{item.content}</p>
                   {item.link && (
-                    <Link href={item.link} className="inline-block mt-4 text-primary-400 hover:text-primary-300 underline">
+                    <Link href={item.link} className="inline-block mt-4 text-orange-600 hover:text-orange-700 font-medium">
                       Find out more
                     </Link>
                   )}
@@ -174,17 +173,17 @@ export default function Home() {
       </section>
 
       {/* Programs Section */}
-      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8">
             Undergraduate and Postgraduate Programmes
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-8">
+          <p className="text-gray-600 leading-relaxed mb-8">
             The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.
           </p>
           <Link
             href="/programmes/undergraduate"
-            className="inline-flex items-center text-primary hover:text-primary-600 font-medium"
+            className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
           >
             Find out more
             <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -195,22 +194,22 @@ export default function Home() {
       </section>
 
       {/* Staff Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-16">
+      <section className="py-20 bg-blue-900">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
             Meet Our Staff
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {homeStaffData.map((staff) => (
-              <div key={staff.name} className="h-full">
+              <div key={staff.name} className="h-full transform hover:-translate-y-1 transition-transform duration-300">
                 <Lecturers
                   name={staff.name}
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
                   href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
-                  cardTitleStyle="hover:text-primary"
+                  cardTitleStyle="hover:text-orange-500"
                   cardImgContainerStyle="aspect-[3/4]"
                   cardImgStyle="object-cover"
                 />
@@ -223,7 +222,7 @@ export default function Home() {
               href="/staff/teach-staff"
               arrow
               variant="primary"
-              className="inline-flex items-center px-8 py-3 text-white"
+              className="inline-flex items-center px-8 py-3 bg-white text-blue-700 shadow-md"
             >
               More about our staff
             </RouteLinkBtn>
@@ -232,20 +231,20 @@ export default function Home() {
       </section>
 
       {/* News and Research Section */}
-      <section className="bg-slate-50 py-20">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           {/* Recent News */}
           <div className="mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
               Recent News
             </h2>
             <News />
           </div>
 
           {/* Resources Banner */}
-          <div className="bg-gradient-to-r from-amber-100 to-orange-100 rounded-2xl p-8 md:p-12 mb-20">
+          <div className="bg-blue-900 rounded-xl p-8 md:p-12 mb-20">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-amber-900 md:w-1/2">
+              <h2 className="text-2xl md:text-3xl font-bold text-white md:w-1/2">
                 Explore the Impressive Resources and Facilities of the Department of
                 Chemistry, University of Uyo
               </h2>
@@ -253,7 +252,7 @@ export default function Home() {
               <RouteLinkBtn
                 href="/resources"
                 variant="primary"
-                className="bg-amber-900 hover:bg-amber-800 text-white shadow-lg border-none px-8 py-3"
+                className="bg-orange-600 hover:bg-orange-700 text-white shadow-md border-none px-8 py-3"
                 arrow
               >
                 Take tour
@@ -263,13 +262,13 @@ export default function Home() {
 
           {/* Recent Research */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
               Recent Research Expeditions
             </h2>
             <HomeResearchSlider />
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
