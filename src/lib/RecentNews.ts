@@ -214,7 +214,6 @@ import orientation15 from "@/public/images/orientation/orientation16.jpg"
 import orientation16 from "@/public/images/orientation/orientation17.jpg"
 import orientation17 from "@/public/images/orientation/orientation18.jpg"
 import orientation18 from "@/public/images/orientation/orientation19.jpg"
-import orientation20 from "@/public/images/orientation/orientation21.jpg"
 import orientation21 from "@/public/images/orientation/orientation111.jpg"
 import orientation22 from "@/public/images/orientation/orientation112.jpg"
 
@@ -243,7 +242,7 @@ export const recentNews: recentNewsTypes[] = [
       "\nThe orientation served as an essential first step in helping new students integrate into the department and set the tone for a successful academic experience.",
 
     ],
-    pictures: [orientation, orientation1, orientation21, orientation22, orientation2, orientation3, orientation4, orientation5, orientation6, orientation7, orientation8, orientation9, orientation10, orientation11, orientation12, orientation13, orientation14, orientation15, orientation16, orientation17, orientation18, orientation20,],
+    pictures: [orientation, orientation1, orientation21, orientation22, orientation2, orientation3, orientation4, orientation5, orientation6, orientation7, orientation8, orientation9, orientation10, orientation11, orientation12, orientation13, orientation14, orientation15, orientation16, orientation17, orientation18,],
   },
   {
     date: "February, 2025",
