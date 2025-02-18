@@ -151,33 +151,45 @@ export default function Home() {
       {/* Why Study Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-16">
-            Why Study Chemistry at the University of Uyo?
-          </h2>
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
+              Why Study Chemistry at University of Uyo?
+            </h2>
+            <div className="w-20 h-1 bg-blue-900/20 mx-auto"></div>
+          </div>
 
-          <div className="grid gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
             {whyStudyChemistry.map((item, index) => (
-              <details
+              <div
                 key={index}
-                className="bg-white rounded-lg shadow-sm hover:shadow transition-all duration-300 group"
+                className="flex items-start space-x-3 p-4 rounded-lg bg-white hover:bg-blue-50/50 transition-colors duration-200 group"
               >
-                <summary className="p-6 cursor-pointer text-xl font-semibold text-blue-900 flex items-center justify-between">
-                  {item.title}
-                  <span className="transform group-open:rotate-180 transition-transform duration-200">
-                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </span>
-                </summary>
-                <div className="px-6 pb-6 text-gray-600">
-                  <p>{item.content}</p>
+                <span className="w-2 h-2 bg-red-900 rounded-full mt-2.5 shrink-0 animate-pulse duration-200"></span>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-blue-900 group-hover:text-blue-800">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {item.content}
+                  </p>
                   {item.link && (
-                    <Link href={item.link} className="inline-block mt-4 text-blue-600 hover:underline font-medium">
-                      Find out more
+                    <Link
+                      href={item.link}
+                      className="inline-flex items-center text-sm text-blue-700 hover:text-blue-800 font-medium group/link"
+                    >
+                      Learn more
+                      <svg
+                        className="w-4 h-4 ml-1 transform group-hover/link:translate-x-1 transition-transform duration-200"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
                     </Link>
                   )}
                 </div>
-              </details>
+              </div>
             ))}
           </div>
         </div>
@@ -189,7 +201,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8">
             Undergraduate and Postgraduate Programmes
           </h2>
-          <p className="text-gray-600 leading-relaxed mb-8">
+          <p className="text-gray-600 leading-relaxed mb-4">
             The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.
           </p>
           <Link
