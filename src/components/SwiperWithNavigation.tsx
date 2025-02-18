@@ -12,7 +12,7 @@ interface SwiperPropTypes {
 
 export default function SwiperWithNavigation({ pictures }: SwiperPropTypes) {
   return (
-    <div className="relative group">
+    <div className="relative group h-full">
       <Swiper
         navigation={{
           enabled: true,
@@ -31,24 +31,35 @@ export default function SwiperWithNavigation({ pictures }: SwiperPropTypes) {
           bulletClass: 'swiper-pagination-bullet bg-gray-300 opacity-70'
         }}
         loop={pictures.length > 1}
-        className="w-full rounded-lg overflow-hidden"
+        className="h-full"
       >
         {pictures.map((src, index) => (
-          <SwiperSlide key={index} className="aspect-video">
-            <Image
-              src={src}
-              alt="News image"
-              className={`w-full h-full object-cover ${pictures.length === 1 ? 'md:w-3/4 mx-auto' : ''}`}
-            />
+          <SwiperSlide key={index} className="h-full">
+            <div className="relative w-full h-full">
+              <Image
+                src={src}
+                alt="Resource image"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority={index === 0}
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
 
       <style jsx global>{`
+        .swiper,
+        .swiper-wrapper,
+        .swiper-slide {
+          height: 100% !important;
+        }
+
         .swiper-button-next,
         .swiper-button-prev {
-          width: 40px !important;
-          height: 40px !important;
+          width: 35px !important;
+          height: 35px !important;
           background: rgba(255, 255, 255, 0.9);
           border-radius: 50%;
           opacity: 0;
@@ -57,29 +68,31 @@ export default function SwiperWithNavigation({ pictures }: SwiperPropTypes) {
 
         .group:hover .swiper-button-next,
         .group:hover .swiper-button-prev {
-          opacity: 1;
+          opacity: 0.8;
         }
 
         .swiper-button-next:hover,
         .swiper-button-prev:hover {
+          opacity: 1 !important;
           background: white;
         }
 
         .swiper-button-next::after,
         .swiper-button-prev::after {
-          font-size: 1.2rem !important;
+          font-size: 1rem !important;
           font-weight: bold;
           color: #1e3a8a;
         }
 
         .swiper-pagination {
-          bottom: 16px !important;
+          bottom: 8px !important;
         }
 
         .swiper-pagination-bullet {
-          width: 8px !important;
-          height: 8px !important;
-          margin: 0 4px !important;
+          width: 6px !important;
+          height: 6px !important;
+          margin: 0 3px !important;
+          background: rgba(255, 255, 255, 0.7);
         }
 
         .swiper-pagination-bullet-active {

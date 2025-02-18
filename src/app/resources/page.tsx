@@ -11,61 +11,87 @@ export const metadata: Metadata = {
 
 export default function ResourcePage() {
   return (
-    <main className="flex min-h-screen flex-col bg-slate-100 !overflow-hidden">
-      <section className="mt-10 lg:!mt-4">
-        <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
-        <Header
-          heading="Departmental Resources"
-          tagline="The Department of Chemistry is committed to providing a wealth of
-            resources to support the academic and professional growth of our
-            students, staff, and the wider research community. From
-            state-of-the-art laboratory facilities and specialized equipment to
-            comprehensive online databases and cutting-edge computational tools,
-            our department offers a robust infrastructure to facilitate
-            cutting-edge research, innovative teaching, and collaborative
-            projects."
-        />
-      </section>
-
-      <section className="w-11/12 mx-auto !py-10">
-        <section className="grid place-items-center grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-14 md:p-2">
-          {allResources.map(({ heading, description, images }, index) => (
-            <ResourceImage
-              key={index}
-              heading={heading}
-              description={description}
-              images={images}
-            />
-          ))}
-        </section>
-      </section>
-      <FramerAnimation className="my-8 w-[90%] mx-auto pb-10">
-        <h1 className="text-center text-primary md:w-[55%] lg:w-[60%] mx-auto font-bold text-[24px] md:text-[30px]">
-          Other Resources
-        </h1>
-
-        <div className="flex flex-col gap-2">
-          <h4 className="font-semibold text-xl mt-5">Student Handbook</h4>
-          <p>
-            To help you navigate your journey in the department of chemistry, we
-            have created a comprehensive Student Departmental Handbook. This
-            essential resource contains all the information you need about:
-          </p>
-          <ul className="list-disc flex flex-col gap-2 ml-4">
-            <li>Department policies and procedures</li>
-            <li>Academic programs and course descriptions</li>
-            <li>Admission Requirements</li>
-            <li>Faculty and staff information</li>
-            <li>Grading system by the department</li>
-            <li>
-              Guidelines and Rules for students in the department of Chemistry
-            </li>
-          </ul>
-          <p className="underline text-lg text-red-600 italic">
-            Please visit the departmental office to get a copy of the student handbook
-          </p>
+    <main className="min-h-screen bg-slate-50">
+      {/* Header Section */}
+      <section className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto py-8 md:py-12">
+          <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
+          <Header
+            heading="Departmental Resources"
+            tagline="The Department of Chemistry is committed to providing a wealth of
+              resources to support the academic and professional growth of our
+              students, staff, and the wider research community. From
+              state-of-the-art laboratory facilities and specialized equipment to
+              comprehensive online databases and cutting-edge computational tools,
+              our department offers a robust infrastructure to facilitate
+              cutting-edge research, innovative teaching, and collaborative
+              projects."
+          />
         </div>
-      </FramerAnimation>
+      </section>
+
+      {/* Resources Grid Section */}
+      <section className="max-w-6xl mx-auto px-4 py-12 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {allResources.map(({ heading, description, images }, index) => (
+            <div key={index} className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+              <ResourceImage
+                heading={heading}
+                description={description}
+                images={images}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Student Handbook Section */}
+      <section className="bg-gradient-to-b from-white to-blue-50/30 mt-12">
+        <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
+          <FramerAnimation className="space-y-8">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-bold text-primary">
+                Other Resources
+              </h2>
+              <div className="w-20 h-1 bg-primary/20 mx-auto"></div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-md p-6 md:p-8 space-y-6">
+              <h3 className="text-2xl font-semibold text-blue-950">
+                Student Handbook
+              </h3>
+
+              <p className="text-gray-700 leading-relaxed">
+                To help you navigate your journey in the department of chemistry, we
+                have created a comprehensive Student Departmental Handbook. This
+                essential resource contains all the information you need about:
+              </p>
+
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                {[
+                  "Department policies and procedures",
+                  "Academic programs and course descriptions",
+                  "Admission Requirements",
+                  "Faculty and staff information",
+                  "Grading system by the department",
+                  "Guidelines and Rules for students"
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start space-x-3 p-3 rounded-lg bg-blue-50/50 hover:bg-blue-50 transition-colors duration-200">
+                    <span className="w-2 h-2 bg-primary rounded-full mt-2 shrink-0"></span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className="bg-red-50 border border-red-100 rounded-lg p-4 mt-8">
+                <p className="text-red-600 text-sm md:text-base font-medium text-center">
+                  Please visit the departmental office to get a copy of the student handbook
+                </p>
+              </div>
+            </div>
+          </FramerAnimation>
+        </div>
+      </section>
     </main>
   );
 }

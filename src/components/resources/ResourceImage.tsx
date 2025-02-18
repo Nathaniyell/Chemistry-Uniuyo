@@ -1,14 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
-import { type Swiper as SwiperType } from "swiper/types";
-import ThumbsSlider from "../ThumbsSlider";
-import SwiperWithNavigation from "../SwiperWithNavigation";
+import React from "react";
 import { StaticImageData } from "next/image";
+import SwiperWithNavigation from "../SwiperWithNavigation";
 import FramerAnimation from "@/utils/framer-animation";
 
-
-export default function ResourceDiv({
+export default function ResourceImage({
   heading,
   description,
   images,
@@ -18,16 +15,23 @@ export default function ResourceDiv({
   images: string[] | StaticImageData[];
 }) {
   return (
-    <FramerAnimation className="flex flex-col items-center justify-center w-11/12 mx-auto gap-6 shrink-0">
-      <div className="text-center space-y-1">
-        <h1 className="text-xl xs:text-2xl font-semibold">{heading}</h1>
-
-        {description && (
-          <p className="xs:text-sm text-gray-500">{description}</p>
-        )}
+    <FramerAnimation className="flex flex-col h-full group">
+      {/* Image Container */}
+      <div className="relative w-full aspect-[16/10] bg-gray-100">
+        <SwiperWithNavigation pictures={images} />
       </div>
 
-      <SwiperWithNavigation pictures={images}  />
+      {/* Content */}
+      <div className="p-6 flex-1 bg-white group-hover:bg-blue-50/50 transition-colors duration-300">
+        <h3 className="text-lg font-semibold text-blue-950 mb-2 group-hover:text-primary transition-colors duration-300">
+          {heading}
+        </h3>
+        {description && (
+          <p className="text-sm text-gray-600 line-clamp-2 group-hover:text-gray-700">
+            {description}
+          </p>
+        )}
+      </div>
     </FramerAnimation>
   );
 }
