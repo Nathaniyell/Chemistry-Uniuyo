@@ -25,6 +25,41 @@ export default function Home() {
     { title: "prof1", src: eduInam },
     { title: "prof2", src: profInam },
   ];
+  const whyStudyChemistry = [
+    {
+      title: "Experienced Staff",
+      content: "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
+      link: "/staff/teach-staff"
+    },
+    {
+      title: "Peaceful and Serene Environment",
+      content: "Our campus provides a tranquil and safe setting conducive to learning and research."
+    },
+    {
+      title: "Dedicated and Friendly Staff Members",
+      content: "Our staff is committed to supporting and guiding students through their academic journey.",
+      link: "/staff/teach-staff"
+    },
+    {
+      title: "Well-Equipped Research Facilities",
+      content: "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
+      link: "www.iceesr.org.ng"
+    },
+    {
+      title: "Modern E-Resources",
+      content: "We provide access to the latest e-resources in the university library to enhance study and research capabilities.",
+      link: "/resources"
+    },
+    {
+      title: "International Collaborations",
+      content: "We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities."
+    },
+    {
+      title: "Active Student Associations",
+      content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.",
+      link: "/students"
+    }
+  ]
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
@@ -118,41 +153,7 @@ export default function Home() {
           </h2>
 
           <div className="grid gap-6 md:gap-8">
-            {[
-              {
-                title: "Experienced Staff",
-                content: "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
-                link: "/staff/teach-staff"
-              },
-              {
-                title: "Peaceful and Serene Environment",
-                content: "Our campus provides a tranquil and safe setting conducive to learning and research."
-              },
-              {
-                title: "Dedicated and Friendly Staff Members",
-                content: "Our staff is committed to supporting and guiding students through their academic journey.",
-                link: "/staff/teach-staff"
-              },
-              {
-                title: "Well-Equipped Research Facilities",
-                content: "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
-                link: "www.iceesr.org.ng"
-              },
-              {
-                title: "Modern E-Resources",
-                content: "We provide access to the latest e-resources in the university library to enhance study and research capabilities.",
-                link: "/resources"
-              },
-              {
-                title: "International Collaborations",
-                content: "We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities."
-              },
-              {
-                title: "Active Student Associations",
-                content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.",
-                link: "/students"
-              }
-            ].map((item, index) => (
+            {whyStudyChemistry.map((item, index) => (
               <details
                 key={index}
                 className="bg-white rounded-lg shadow-sm hover:shadow transition-all duration-300 group"
@@ -201,7 +202,7 @@ export default function Home() {
       </section>
 
       {/* Staff Section */}
-      <section className="py-20 bg-blue-900">
+      <section className="py-20 bg-blue-900 rounded-tr-xl rounded-tl-xl">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
             Meet Our Staff
@@ -217,7 +218,7 @@ export default function Home() {
                   desc={staff.desc}
                   href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
                   cardTitleStyle="hover:text-orange-500"
-                  cardImgContainerStyle="aspect-[3/4]"
+                   cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
                   cardImgStyle="object-cover"
                 />
               </div>
