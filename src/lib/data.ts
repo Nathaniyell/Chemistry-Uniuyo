@@ -36,6 +36,7 @@ import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jp
 import idws from "@/public/images/IDWS/idws5.jpg"
 import nuc2 from "@/public/images/nuc/nuc2.jpg"
 import schoolLogo from "@/public/images/logo.jpg"
+import orientation from "@/public/images/orientation/orientation1.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -63,6 +64,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: orientation,
+    title: "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
+    btnLink: "/recent-news",
   },
   {
     image: nuc2,
