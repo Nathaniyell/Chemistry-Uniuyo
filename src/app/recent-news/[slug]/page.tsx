@@ -43,6 +43,11 @@ const Page = ({ params }: { params: { slug: string } }) => {
           text: "Download makeup practicals schedule",
           href: "/CHM117-lecture-schedule.docx"
         };
+      case "CBT Registration for CHM 111 and CHM 117":
+        return {
+          text: "Register Here",
+          href: "https://cbt.chemistry.uniuyo.edu.ng"
+        };
       default:
         return null;
     }
