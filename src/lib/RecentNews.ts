@@ -231,6 +231,21 @@ export interface recentNewsTypes {
 export const recentNews: recentNewsTypes[] = [
   {
     date: "February, 2025",
+    title: "CBT Registration for CHM 111 and CHM 117",
+    description: [
+      'The Department of Chemistry, University of Uyo, has launched its CBT Registration Platform for CHM 111 and CHM 117 examinations. All students taking these courses must complete their registration on the platform to be eligible to sit for the exams.',
+      "\nImportant Guidelines:",
+      "• No Registration, No Exam: Students who fail to register on the platform will not be allowed to sit for CHM 111 and CHM 117.",
+      "• University Portal Registration Required: In addition to CBT registration, students must also register for CHM 111 and CHM 117 on the University student portal. Failure to do so will result in missing results for these courses.",
+      "• Registration Print-Out for Entry: A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
+      "• Registration Deadline: The registration deadline is 28th February, 2025. Late registration will not be accepted.",
+      "All students are advised to complete their registration promptly to avoid any inconvenience."
+
+    ],
+    pictures: [schoolLogo],
+  },
+  {
+    date: "February, 2025",
     title: "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
     description: [
       'The Department of Chemistry, University of Uyo, recently organized a welcome orientation program for its newly admitted students. The event, held at the department’s lecture hall, provided an avenue for students to familiarize themselves with academic expectations, departmental regulations, and extracurricular opportunities.',
@@ -251,7 +266,7 @@ export const recentNews: recentNewsTypes[] = [
       'The University of Uyo has once again demonstrated its academic prowess with 850 of its researchers featured in the prestigious AD Scientific Index Rankings for 2025. This remarkable achievement highlights the university’s excellence in research and scholarship across various disciplines.',
 
       '\nAmong the standout performers is Professor Edu Inam, the Head of the Department of Chemistry, who is the highest-ranking female researcher in the university. Her achievement underscores the vital contributions of women to academia and research in the Department of Chemistry and University of Uyo.',
-  
+
       "\nThe Department of Chemistry has distinguished itself as a leader in the rankings, dominating the top 20 positions. Dr. Emmanuel Essien, Professor Bassey Antia, Dr. Ekemini Ituen, Professor Basil Ita and Professor Anthony Udoh among others secured prominent spots, further reinforcing the department's reputation as a hub for groundbreaking research.",
 
       "\nThis success is a testament to the dedication of the researchers in the Department of Chemistry and the institution’s commitment to advancing knowledge and innovation. The University of Uyo continues to set the standard for academic excellence in Nigeria and beyond.",
@@ -314,7 +329,7 @@ export const recentNews: recentNewsTypes[] = [
       "During the review, the NUC team confirmed the following:\n\n<ul><li>1. The curriculum is both comprehensive and tailored to meet the requirements of a B.Sc. Chemistry program.</li><li>2. The admissions process adheres strictly to the 5-credit O-level requirement, ensuring that all admitted students have credits in English, Mathematics, Chemistry, and either Physics or Biology.</li><li>3. The course content is deemed adequate and relevant for a robust undergraduate chemistry program.</li><li>4. Lectures and practicals are delivered as required, ensuring students receive a balanced theoretical and hands-on education.</li><li>5. The department's facilities, including classrooms, laboratories, and the library, are accessible and adequately serve the needs of all students.</li><li>The department's commitment to academic excellence and adherence to NUC standards underscores its dedication to producing competent and well-trained graduates.</li></ul>",
       "For further updates on departmental activities, stay connected to the Chemistry Department's website."
     ],
-    pictures: [nuc1,nuc2],
+    pictures: [nuc1, nuc2],
   },
   {
     date: "November, 2024",
