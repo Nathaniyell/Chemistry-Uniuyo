@@ -45,7 +45,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
         };
       case "CBT Registration for CHM 111 and CHM 117":
         return {
-          text: "Register Here",
+          text: "Click here to register",
           href: "https://cbt.chemistry.uniuyo.edu.ng"
         };
       default:
@@ -102,7 +102,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
           ))}
         </div>
 
-        <footer className="mt-12 max-w-3xl mx-auto">
+        <footer className="mt-4 max-w-3xl mx-auto">
           {writtenBy && (
             <p className="text-sm text-gray-600 mb-4">
               <span className="font-medium">Written by:</span>{" "}
@@ -113,6 +113,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
           {downloadLink && (
             <a
               href={downloadLink.href}
+              target="_blank"
               download
               className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-200"
             >
