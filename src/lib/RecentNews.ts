@@ -238,6 +238,7 @@ export const recentNews: recentNewsTypes[] = [
       "1. Students who fail to register on the platform will not be allowed to sit for CHM 111 and CHM 117.",
       "2. In addition to CBT registration, students must also register for CHM 111 and CHM 117 on the University student portal (https://uniuyo.edu.ng/eportals). Failure to do so will result in missing results for these courses.",
     "3. A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
+    "4. All repeaters should visit the department for further clarification regarding their registration",
       "All students are advised to complete their registration promptly to avoid any inconvenience."
 
     ],
