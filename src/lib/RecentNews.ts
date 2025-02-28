@@ -240,7 +240,7 @@ export const recentNews: recentNewsTypes[] = [
     "3. A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
     "4. All carryover students should visit the department for further clarification regarding their registration.",
       "All students are advised to complete their registration promptly to avoid any inconvenience.",
-      "All complaints should be forwarded to the Departmental office on Monday - Wednesday between 10am and 12pm or sent electronically to Nathaniel via -09034940576"
+      "For complaints, visit the Departmental Office on Monday - Wednesday between 10 AM and 2 PM or contact Nathaniel electronically at 09034940576."
 
     ],
     pictures: [schoolLogo],
