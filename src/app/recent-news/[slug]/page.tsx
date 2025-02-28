@@ -97,7 +97,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
                 }
                 return part;
               })}
-              <div className="h-6" />
+              <div className="h-2" />
             </React.Fragment>
           ))}
         </div>
