@@ -14,19 +14,21 @@ export default function ResourcePage() {
     <main className="min-h-screen bg-slate-50">
       {/* Header Section */}
       <section className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto py-8 md:py-12">
+        <div className="max-w-7xl mx-auto">
           <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
-          <Header
-            heading="Departmental Resources"
-            tagline="The Department of Chemistry is committed to providing a wealth of
-              resources to support the academic and professional growth of our
-              students, staff, and the wider research community. From
-              state-of-the-art laboratory facilities and specialized equipment to
-              comprehensive online databases and cutting-edge computational tools,
-              our department offers a robust infrastructure to facilitate
-              cutting-edge research, innovative teaching, and collaborative
-              projects."
-          />
+          <div className="py-8 md:py-12 px-4">
+            <Header
+              heading="Departmental Resources"
+              tagline="The Department of Chemistry is committed to providing a wealth of
+                resources to support the academic and professional growth of our
+                students, staff, and the wider research community. From
+                state-of-the-art laboratory facilities and specialized equipment to
+                comprehensive online databases and cutting-edge computational tools,
+                our department offers a robust infrastructure to facilitate
+                cutting-edge research, innovative teaching, and collaborative
+                projects."
+            />
+          </div>
         </div>
       </section>
 

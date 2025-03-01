@@ -18,22 +18,26 @@ export default function ProgrammesPage({
     programme === "postgraduate"
       ? true
       : programme === "undergraduate"
-      ? true
-      : false;
+        ? true
+        : false;
 
   if (!isProgramme) notFound();
 
   return (
     <Main>
-      <Breadcrumbs
-        array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
-      />
-
-      <Header heading={`${programme} Programme`} />
+      <section className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto">
+          <Breadcrumbs
+            array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
+          />
+          <div className="py-8 md:py-12 px-4">
+            <Header heading={`${programme} Programme`} />
+          </div>
+        </div>
+      </section>
 
       <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg mb-14">
         {programme === "undergraduate" && <Undergraduate />}
-
         {programme === "postgraduate" && <Postgraduate />}
       </section>
     </Main>

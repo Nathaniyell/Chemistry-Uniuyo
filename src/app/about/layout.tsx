@@ -38,12 +38,18 @@ export default function AboutLayout({
   ];
   return (
     <main className="min-h-screen pb-10 !overflow-hidden">
-      <Header heading="About the department of chemistry" />
-      <Breadcrumbs
-        array={[
-             { title: "About", href: `/about` },
-        ]}
-      />
+      <section className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto">
+          <Breadcrumbs
+            array={[
+              { title: "About", href: `/about` },
+            ]}
+          />
+          <div className="py-8 md:py-12 px-4">
+            <Header heading="About the department of chemistry" />
+          </div>
+        </div>
+      </section>
 
       <div className="">
         <nav className="flex items-center justify-center gap-2">
@@ -52,14 +58,13 @@ export default function AboutLayout({
 
             return (
               <NavLink
-              key={index}
-              href={link.link}
-              className={`text-primary !text-lg md:!text-xl cursor-pointer mt-3 p-2 block ${
-                isActive ? "border-b border-b-primary underline" : ""
-              }`}
-            >
-              {link.title}
-            </NavLink>
+                key={index}
+                href={link.link}
+                className={`text-primary !text-lg md:!text-xl cursor-pointer mt-3 p-2 block ${isActive ? "border-b border-b-primary underline" : ""
+                  }`}
+              >
+                {link.title}
+              </NavLink>
             );
           })}
         </nav>
@@ -67,20 +72,20 @@ export default function AboutLayout({
 
       {children}
       <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
-          <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
-            Explore the Impressive Resources and Facilities of the Department of
-            Chemistry, University of Uyo
-          </h1>
+        <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
+          Explore the Impressive Resources and Facilities of the Department of
+          Chemistry, University of Uyo
+        </h1>
 
-          <RouteLinkBtn
-            href="/resources"
-            variant="transparent"
-            className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
-            arrow
-          >
-            Take tour
-          </RouteLinkBtn>
-        </div>
+        <RouteLinkBtn
+          href="/resources"
+          variant="transparent"
+          className="text-white !bg-amber-900 shadow-md border-none !text-2xl !text-center"
+          arrow
+        >
+          Take tour
+        </RouteLinkBtn>
+      </div>
     </main>
   );
 }

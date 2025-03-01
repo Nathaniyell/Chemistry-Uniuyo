@@ -24,15 +24,23 @@ export default function TeachingStaffPage() {
 
   return (
     <main className="h-full">
-      <Header tagline="Select a profile below to view detailed information about our staff" heading="Teaching Staff" />
-      <Breadcrumbs
-        array={[
-          { title: "Teaching-staff", href: `/staff/teach-staff/` },
-        ]}
+      <div className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto">
+          <Breadcrumbs
+            array={[
+              { title: "Teaching Staff", href: `/staff/teach-staff/` },
+            ]}
+          />
+          <div className="py-8 md:py-12 px-4">
+            <Header
+              tagline="Select a profile below to view detailed information about our staff"
+              heading="Teaching Staff"
+            />
+          </div>
+        </div>
+      </div>
 
-      />
       <section className="pb-16">
-
         <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
           {staffData.map(
             ({ fullName, title, image, unit, experience, email }, index) => {

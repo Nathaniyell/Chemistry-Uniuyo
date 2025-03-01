@@ -20,7 +20,7 @@ export default async function Research({
 }) {
   return (
     <Main>
-           <Suspense
+      <Suspense
         key={filterby + search + currentPage}
         fallback={
           <div className="size-48 flex items-center justify-center">
@@ -28,10 +28,15 @@ export default async function Research({
           </div>
         }
       >
-          <section className="w-full">
-        <Header heading="Research" />
-        <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
-      </section>
+        <section className="bg-white shadow-sm">
+          <div className="max-w-7xl mx-auto">
+            <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
+            <div className="py-8 md:py-12 px-4">
+              <Header heading="Research" />
+            </div>
+          </div>
+        </section>
+
         <ReSection
           cardsArray={publications}
           filterButtonArray={chemistryUnits}
@@ -39,8 +44,6 @@ export default async function Research({
           search={search || ""}
           currentPage={Number(currentPage) || 1}
         />
-       
-
       </Suspense>
     </Main>
   );
