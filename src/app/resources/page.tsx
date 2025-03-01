@@ -1,4 +1,3 @@
-import { Breadcrumbs, Header } from "@/components";
 import ResourceImage from "@/components/resources/ResourceImage";
 import { allResources } from "@/lib";
 import { Metadata } from "next";
@@ -13,21 +12,15 @@ export default function ResourcePage() {
   return (
     <main className="min-h-screen bg-slate-50">
       {/* Header Section */}
-      <section className="bg-white shadow-sm">
+      <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto">
-          <Breadcrumbs array={[{ title: "Resources", href: "/resources" }]} />
-          <div className="py-8 md:py-12 px-4">
-            <Header
-              heading="Departmental Resources"
-              tagline="The Department of Chemistry is committed to providing a wealth of
-                resources to support the academic and professional growth of our
-                students, staff, and the wider research community. From
-                state-of-the-art laboratory facilities and specialized equipment to
-                comprehensive online databases and cutting-edge computational tools,
-                our department offers a robust infrastructure to facilitate
-                cutting-edge research, innovative teaching, and collaborative
-                projects."
-            />
+          <div className="py-12 md:py-16 px-4 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-8">
+              Departmental Resources
+            </h1>
+            <p className="max-w-3xl mx-auto text-gray-600 text-lg">
+              Explore our state-of-the-art facilities, equipment, and academic resources that support excellence in chemistry education and research at the University of Uyo.
+            </p>
           </div>
         </div>
       </section>

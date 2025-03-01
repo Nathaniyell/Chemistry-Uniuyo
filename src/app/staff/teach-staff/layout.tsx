@@ -22,17 +22,27 @@ export const metadata: Metadata = {
 };
 
 
-export default function Page({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <main className="min-h-screen pb-10">
+      <section className="bg-gradient-to-b from-blue-50 to-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="py-12 md:py-16 px-4 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-8">
+              Teaching Staff
+            </h1>
+            <p className="max-w-3xl mx-auto text-gray-600 text-lg">
+              Meet our distinguished faculty members who are dedicated to excellence in teaching, research, and mentorship in the field of chemistry.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {children}
-
-    </>
-
+    </main>
   );
 }
