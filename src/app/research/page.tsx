@@ -1,8 +1,6 @@
-import { Breadcrumbs, Header, Main, ReSection } from "@/components";
+import { Main, ReSection } from "@/components";
 import { publications } from "@/lib";
 import type { Metadata } from "next/types";
-
-import headerBg from "../../../public/images/researchbg.jpg";
 import { Suspense } from "react";
 import { chemistryUnits } from "@/lib/data";
 
@@ -28,11 +26,15 @@ export default async function Research({
           </div>
         }
       >
-        <section className="bg-white shadow-sm">
+        <section className="bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <Breadcrumbs array={[{ title: "Research", href: "/research" }]} />
-            <div className="py-8 md:py-12 px-4">
-              <Header heading="Research" />
+            <div className="py-12 md:py-16 px-4 text-center">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-8">
+                Research Publications
+              </h1>
+              <p className="max-w-3xl mx-auto text-gray-600 text-lg">
+                Explore groundbreaking research and publications from our students, showcasing our commitment to advancing chemical sciences and solving real-world challenges.
+              </p>
             </div>
           </div>
         </section>

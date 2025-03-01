@@ -65,16 +65,8 @@ export default function Page({ params }: { params: { slug: string } }) {
     <main className="bg-sky-50">
       <div className="w-11/12 mx-auto pb-6">
 
-        <div className="!flex items-center w-10/12 md:w-[60%] lg:w-[35%] p-6 text-primary">
+        <div className="!flex items-center w-10/12 md:w-[60%] lg:w-[35%] p-4 text-primary">
 
-          <NavLink
-            className="cursor-pointer hover:text-secondary transition-colors duration-300"
-            href="/"
-
-          >
-            <HomeIcon className="size-5" />
-          </NavLink>
-          <span className="mx-2 text-gray-400">{"/"}</span>
           <div className="!-ml-5">
 
             <Breadcrumbs
