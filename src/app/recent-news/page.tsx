@@ -18,7 +18,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 py-12">
+      <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-20 md:gap-x-14 md:gap-y-10 lg:gap-y-4 lg:gap-x-20">
           {recentNews.map(({ title, pictures, date, description }, index) => {
             return (
