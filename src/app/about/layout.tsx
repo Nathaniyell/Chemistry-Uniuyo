@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Breadcrumbs, Header, RouteLinkBtn } from "@/components";
+import { Header, RouteLinkBtn } from "@/components";
 import NavLink from "@/components/NavBar/NavLink";
 
 export default function AboutLayout({
@@ -38,40 +38,38 @@ export default function AboutLayout({
   ];
   return (
     <main className="min-h-screen pb-10 !overflow-hidden">
-      <section className="bg-white shadow-sm">
+      <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto">
-          <Breadcrumbs
-            array={[
-              { title: "About", href: `/about` },
-            ]}
-          />
-          <div className="py-8 md:py-12 px-4">
-            <Header heading="About the department of chemistry" />
+          <div className="py-12 md:py-16 px-4 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-8">
+              About The Department Of Chemistry
+            </h1>
+            <nav className="flex items-center justify-center gap-4 mt-6">
+              {aboutNavLinks.map((link, index) => {
+                const isActive = pathName === link.link;
+                return (
+                  <NavLink
+                    key={index}
+                    href={link.link}
+                    className={`text-primary text-base md:text-lg cursor-pointer px-4 py-2 rounded-md transition-all duration-200 ${isActive
+                      ? "bg-primary/10 text-primary font-medium shadow-sm"
+                      : "hover:bg-primary/5"
+                      }`}
+                  >
+                    {link.title}
+                  </NavLink>
+                );
+              })}
+            </nav>
           </div>
         </div>
       </section>
 
-      <div className="">
-        <nav className="flex items-center justify-center gap-2">
-          {aboutNavLinks.map((link, index) => {
-            const isActive = pathName === link.link;
+      <section className="max-w-7xl mx-auto px-4 py-8">
+        {children}
+      </section>
 
-            return (
-              <NavLink
-                key={index}
-                href={link.link}
-                className={`text-primary !text-lg md:!text-xl cursor-pointer mt-3 p-2 block ${isActive ? "border-b border-b-primary underline" : ""
-                  }`}
-              >
-                {link.title}
-              </NavLink>
-            );
-          })}
-        </nav>
-      </div>
-
-      {children}
-      <div className="bg-orange-100 my-10 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
+      <div className="bg-orange-100 mt-16 p-8 md:p-14 flex flex-col gap-10 md:flex-row justify-between items-center">
         <h1 className="font-black text-amber-800 w-full md:w-1/2 lg:w-2/5 mx-auto md:mx-0 text-2xl">
           Explore the Impressive Resources and Facilities of the Department of
           Chemistry, University of Uyo
