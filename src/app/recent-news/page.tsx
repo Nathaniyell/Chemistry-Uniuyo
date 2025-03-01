@@ -12,7 +12,7 @@ const page = () => {
               News and Events
             </h1>
             <p className="max-w-3xl mx-auto text-gray-600 text-lg">
-              Stay updated with the latest happenings, achievements, and events from the Department of Chemistry at the University of Uyo.
+              Stay updated with the latest happenings, achievements, and events from the Department of Chemistry, University of Uyo.
             </p>
           </div>
         </div>
