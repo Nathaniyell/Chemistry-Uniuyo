@@ -82,7 +82,9 @@ const Page = ({ params }: { params: { slug: string } }) => {
 
         {pictures.length > 0 && (
           <div className="mb-12 max-w-4xl mx-auto">
-            <SwiperWithNavigation pictures={pictures} />
+            <div className="relative aspect-[16/9]">
+              <SwiperWithNavigation pictures={pictures} />
+            </div>
           </div>
         )}
 

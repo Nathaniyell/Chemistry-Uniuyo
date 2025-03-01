@@ -31,18 +31,19 @@ export default function SwiperWithNavigation({ pictures }: SwiperPropTypes) {
           bulletClass: 'swiper-pagination-bullet bg-gray-300 opacity-70'
         }}
         loop={pictures.length > 1}
-        className="h-full"
+        className="h-full w-full"
       >
         {pictures.map((src, index) => (
-          <SwiperSlide key={index} className="h-full">
+          <SwiperSlide key={index} className="h-full w-full">
             <div className="relative w-full h-full">
               <Image
                 src={src}
                 alt="Resource image"
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority={index === 0}
+                quality={100}
               />
             </div>
           </SwiperSlide>
@@ -50,9 +51,15 @@ export default function SwiperWithNavigation({ pictures }: SwiperPropTypes) {
       </Swiper>
 
       <style jsx global>{`
-        .swiper,
+        .swiper {
+          width: 100%;
+          height: 100%;
+          position: absolute !important;
+        }
+
         .swiper-wrapper,
         .swiper-slide {
+          width: 100%;
           height: 100% !important;
         }
 
