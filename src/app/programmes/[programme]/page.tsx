@@ -1,6 +1,5 @@
-import { Breadcrumbs, Header, Main, Section } from "@/components";
+import { Main } from "@/components";
 import { notFound } from "next/navigation";
-
 import { Metadata } from "next";
 import Undergraduate from "@/components/Programmes/Undergraduate";
 import Postgraduate from "@/components/Programmes/Postgraduate";
@@ -23,20 +22,29 @@ export default function ProgrammesPage({
 
   if (!isProgramme) notFound();
 
+  const getSubtitle = () => {
+    if (programme === "undergraduate") {
+      return "Our four-year B.Sc. Chemistry programme provides a strong foundation in chemical principles, laboratory techniques, and practical applications, preparing students for successful careers in chemistry and related fields.";
+    }
+    return "Our advanced postgraduate programmes (M.Sc. and Ph.D.) offer specialized research opportunities and advanced training in various chemistry disciplines, fostering innovation and academic excellence.";
+  };
+
   return (
     <Main>
-      <section className="bg-white shadow-sm">
+      <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto">
-          <Breadcrumbs
-            array={[{ title: `${programme}`, href: `/programmes/${programme}` }]}
-          />
-          <div className="py-8 md:py-12 px-4">
-            <Header heading={`${programme} Programme`} />
+          <div className="py-12 md:py-16 px-4 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-950 mb-8 capitalize">
+              {programme} Programme
+            </h1>
+            <p className="max-w-3xl mx-auto text-gray-600 text-lg">
+              {getSubtitle()}
+            </p>
           </div>
         </div>
       </section>
 
-      <section className="container px-2 xs:px-4 space-y-8 lg:max-w-screen-lg mb-14">
+      <section className="max-w-6xl mx-auto px-4 py-4">
         {programme === "undergraduate" && <Undergraduate />}
         {programme === "postgraduate" && <Postgraduate />}
       </section>

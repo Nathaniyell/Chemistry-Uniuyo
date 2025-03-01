@@ -8,7 +8,7 @@ import { motion as m } from "framer-motion";
 import Link from "next/link";
 
 export const Main = ({ children }: { children?: React.ReactNode }) => (
-  <main className="flex min-h-[80vh] flex-col items-center gap-5 w-full mt-20 lg:mt-24">
+  <main className="flex min-h-[80vh] flex-col items-center gap-4 w-full mt-20 lg:mt-24">
     {children}
   </main>
 );
