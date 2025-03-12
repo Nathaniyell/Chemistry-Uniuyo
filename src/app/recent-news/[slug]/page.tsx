@@ -10,11 +10,10 @@ import SwiperWithNavigation from "@/components/SwiperWithNavigation";
 const newsTitles = recentNews.map((news) => news.title);
 
 const Page = ({ params }: { params: { slug: string } }) => {
-  const newsTitleFormatted = params.slug;
+  const newsTitleFormatted = decodeURIComponent(params.slug.replaceAll("-", " "));
   const filteredNews = recentNews.filter(
     (news) =>
-      news.title.toLocaleLowerCase() ===
-      newsTitleFormatted.replaceAll("-", " ").toLocaleLowerCase()
+      news.title.toLocaleLowerCase() === newsTitleFormatted.toLocaleLowerCase()
   )[0];
 
   if (!filteredNews) notFound();
@@ -62,8 +61,8 @@ const Page = ({ params }: { params: { slug: string } }) => {
           root={{ title: "News", href: `/recent-news` }}
           array={[
             {
-              title: `${newsTitleFormatted.split("-").slice(0, 4).join(" ")}...`,
-              href: `/recent-news/${newsTitleFormatted}`,
+              title: `${newsTitleFormatted.split(" ").slice(0, 4).join(" ")}...`,
+              href: `/recent-news/${encodeURIComponent(newsTitleFormatted).replaceAll("%20", "-")}`,
             },
           ]}
         />

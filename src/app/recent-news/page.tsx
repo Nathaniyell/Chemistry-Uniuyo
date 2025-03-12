@@ -26,11 +26,11 @@ const page = () => {
                 <Lecturers
                   name={truncateWords(title, 10)}
                   image={pictures[0]}
-                  href={`/recent-news/${title.replaceAll(" ", "-")}`}
+                  href={`/recent-news/${encodeURIComponent(title).replaceAll("%20", "-")}`}
                   date={date}
                   dateStyle="text-primary"
                   readMore
-                  readMoreLink={`/recent-news/${title.replaceAll(" ", "-")}`}
+                  readMoreLink={`/recent-news/${encodeURIComponent(title).replaceAll("%20", "-")}`}
                   cardContainerStyle="md:pb-4"
                   cardBodyStyle="p-4 border shadow h-full"
                   cardImgContainerStyle="filter-none"
