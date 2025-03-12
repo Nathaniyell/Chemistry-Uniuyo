@@ -230,6 +230,20 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+
+    date: "March 8, 2025",
+    title: "Chemistry Department Celebrates International Women’s Day 2025",
+    description: [
+    'The Chemistry Department of the University of Uyo celebrated International Women’s Day 2025 by honoring its outstanding female staff, whose contributions have significantly advanced research and academia.',
+  '\nLeading the honorees was Professor Edu Inam, Head of the Department and the university’s top female researcher. Her groundbreaking work in environmental chemistry has set a high standard for excellence in the department and beyond.',
+
+  "\nOther notable female staff celebrated include Professor Imaobong Udousoro, Professor Eno Moses, Dr. Imaobong Daniel, Dr. Atim Johnson, and Dr. Helen Etuk. Their achievements in fields such as analytical chemistry, organic chemistry and inorganic chemistry have not only elevated the department’s reputation but also inspired future generations of scientists.",
+
+  "\nThe event highlighted the department’s commitment to gender equality in STEM and celebrated the transformative impact of women in science. It served as a reminder of the importance of empowering women to break barriers and lead in academia and research.",
+],
+pictures: [schoolLogo],
+},
+  {
     date: "February, 2025",
     title: "CBT Registration for CHM 111 and CHM 117",
     description: [
