@@ -18,7 +18,7 @@ export default function TeachingStaffPage() {
 
   const handleStaffClick = (fullName: string) => {
     router.push(
-      `/staff/teach-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`
+      `/staff/teaching-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`
     );
   };
 
@@ -116,7 +116,7 @@ export default function TeachingStaffPage() {
       </section>
       <Breadcrumbs
         array={[
-          { title: "Teaching-staff", href: `/staff/teach-staff/` },
+          { title: "Teaching-staff", href: `/staff/teaching-staff/` },
         ]}
 
       />
