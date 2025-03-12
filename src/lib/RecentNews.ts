@@ -241,7 +241,7 @@ export const recentNews: recentNewsTypes[] = [
 
   "\nThe event highlighted the department’s commitment to gender equality in STEM and celebrated the transformative impact of women in science. It served as a reminder of the importance of empowering women to break barriers and lead in academia and research.",
 ],
-pictures: [schoolLogo],
+pictures: [sendforth4],
 },
   {
     date: "February, 2025",
