@@ -36,6 +36,6 @@ export const researchQuickLinks = [
 
 export const deptQuickLinks = [
   { href: "/resources", title: "laboratories" },
-  { href: "staff/teach-staff", title: "staff" },
+  { href: "staff/teaching-staff", title: "staff" },
   { href: "/students", title: "students" },
 ];

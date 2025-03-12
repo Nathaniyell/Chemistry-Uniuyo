@@ -4,8 +4,8 @@ export const programmesArray = [
 ];
 
 export const staffArray = [
-  { href: "/staff/teach-staff", title: "academic" },
-  { href: "/staff/tech-staff", title: "technical" },
+  { href: "/staff/teaching-staff", title: "academic" },
+  { href: "/staff/non-teaching-staff", title: "technical" },
 ];
 
 // export const deptArray = [
