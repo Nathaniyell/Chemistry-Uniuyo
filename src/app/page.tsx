@@ -29,7 +29,7 @@ export default function Home() {
     {
       title: "Experienced Staff",
       content: "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
-      link: "/staff/teach-staff"
+      link: "/staff/teaching-staff"
     },
     {
       title: "Peaceful and Serene Environment",
@@ -38,7 +38,7 @@ export default function Home() {
     {
       title: "Dedicated and Friendly Staff Members",
       content: "Our staff is committed to supporting and guiding students through their academic journey.",
-      link: "/staff/teach-staff"
+      link: "/staff/teaching-staff"
     },
     {
       title: "Well-Equipped Research Facilities",
@@ -231,7 +231,7 @@ export default function Home() {
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
-                  href={`/staff/teach-staff/${staff.name.replaceAll(" ", "-")}`}
+                  href={`/staff/teaching-staff/${staff.name.replaceAll(" ", "-")}`}
                   cardTitleStyle="hover:text-orange-500"
                   cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
                   cardImgStyle="object-cover"
@@ -242,7 +242,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <RouteLinkBtn
-              href="/staff/teach-staff"
+              href="/staff/teaching-staff"
               arrow
               variant="primary"
               className="inline-flex items-center px-8 py-3 bg-white text-blue-700 shadow-md"
