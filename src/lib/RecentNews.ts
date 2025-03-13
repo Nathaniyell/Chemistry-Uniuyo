@@ -380,11 +380,11 @@ pictures: [sendforth4],
   {
     date: "November, 2024",
     title:
-      "Professor Imaobong Udousoro",
+      "Professor Imaobong Udousoro promoted to Professorial Cadre",
     description: [
       "The University of Uyo is delighted to announce the promotion of Dr. Imaobong Udousoro to the esteemed rank of Professor. This well-deserved achievement reflects her exceptional contributions to the field of Chemistry and her dedication to academic excellence.",
       "Prof. Udousoro, a renowned scholar in Analytical/Environmental Chemistry, has made significant strides in research, teaching, and mentoring. She holds a PhD in Analytical Chemistry and has a robust portfolio of publications addressing critical environmental challenges, particularly water quality and pollution studies.",
-      "Her extensive service to the university includes mentoring young researchers, leading impactful projects, and fostering innovation within the Chemistry Department. Her promotion serves as an inspiration to her colleagues and students, embodying the values of perseverance and excellence.",
+      "Her extensive service to the university includes mentoring young researchers, leading impactful projects, and fostering innovation within the Department of Chemistry. Her promotion serves as an inspiration to her colleagues and students, embodying the values of perseverance and excellence.",
       "\nThe Head of Department extended heartfelt congratulations to Prof. Udousoro, commending her as a pillar of academic strength in the university community. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of Professor Udousoro's hard work and dedication.",
     ],
     pictures: [imaUdousoro],
