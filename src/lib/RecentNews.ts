@@ -308,7 +308,7 @@ pictures: [sendforth4],
     date: "January, 2025",
     tag: "student",
     title:
-      "School Management Approves Academic Calendar for Year one and Year Two Students",
+      "School Management Approves Academic Calendar for 2023/2024 and 2024/2025 Academic Sessions for Year one and Two Students",
     description: [
       "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 academic sessions for Year one and Year two students. According to the released schedule, lectures commences on Wednesday, 8th January, 2025.",
       "Orientation excercise for the new students (Year one and Year two) will ensue for 1 week between January 27th and January 31st 2025",
@@ -380,7 +380,7 @@ pictures: [sendforth4],
   {
     date: "November, 2024",
     title:
-      "Congratulations to Professor Imaobong Udousoro ",
+      "Professor Imaobong Udousoro",
     description: [
       "The University of Uyo is delighted to announce the promotion of Dr. Imaobong Udousoro to the esteemed rank of Professor. This well-deserved achievement reflects her exceptional contributions to the field of Chemistry and her dedication to academic excellence.",
       "Prof. Udousoro, a renowned scholar in Analytical/Environmental Chemistry, has made significant strides in research, teaching, and mentoring. She holds a PhD in Analytical Chemistry and has a robust portfolio of publications addressing critical environmental challenges, particularly water quality and pollution studies.",
@@ -455,7 +455,7 @@ pictures: [sendforth4],
     date: "November, 2024",
     tag: "student",
     title:
-      "University of Uyo Confers Bachelor of Science Degrees to Chemistry Graduates at Convocation",
+      "University of Uyo Confers Bachelor of Science Degrees to Class of 2023 Chemistry Graduates at Convocation",
     description: [
       "The University of Uyo proudly celebrated its Chemistry undergraduates at this year’s convocation ceremony, officially conferring Bachelor of Science (B.Sc.) degrees on a remarkable cohort of graduates. These students, now officially recognized as scientists, completed rigorous academic coursework and lab research, embodying the excellence and dedication that define the Chemistry Department.",
 
