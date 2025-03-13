@@ -537,7 +537,7 @@ pictures: [sendforth4],
   {
     date: "September, 2024",
     title:
-      "School Management Approves Academic Calendar for New Sessions",
+      "School Management Approves Academic Calendar for 2023/2024 and 2024/2025 Academic Sessions",
     description: [
       "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 sessions. According to the released schedule, academic activities for the first semester will begin on Monday October 7, 2024.",
 
