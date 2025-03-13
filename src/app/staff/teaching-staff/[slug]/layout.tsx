@@ -10,7 +10,7 @@ interface Props {
 
 // Function to fetch staff data based on the slug
 const fetchStaffData = (slug: string) => {
-    const staffFullName = slug.replaceAll("-", " ");
+    const staffFullName = decodeURIComponent(slug.replaceAll("-", " "));
     return staffData.find((staff) => staff.fullName.toLowerCase() === staffFullName.toLowerCase());
 };
 

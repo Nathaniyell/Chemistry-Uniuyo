@@ -231,7 +231,7 @@ export default function Home() {
                   image={staff.image}
                   title={staff.title}
                   desc={staff.desc}
-                  href={`/staff/teaching-staff/${staff.name.replaceAll(" ", "-")}`}
+                  href={`/staff/teaching-staff/${encodeURIComponent(staff.name).replaceAll("%20", "-")}`}
                   cardTitleStyle="hover:text-orange-500"
                   cardImgContainerStyle="!aspect-w-4 !aspect-h-5 md:!aspect-h-4"
                   cardImgStyle="object-cover"

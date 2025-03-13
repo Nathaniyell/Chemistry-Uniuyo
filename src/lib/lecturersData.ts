@@ -26,6 +26,8 @@ import inemesitakpan from "@/public/images/teachingstaff/inemesitakpan.jpg"
 import uwah from "@/public/images/teachingstaff/uwah.jpg"
 import ekeminituen from "@/public/images/teachingstaff/ekeminituen.jpg"
 import profAntia from "@/public/images/teachingstaff/prof_antia.jpg"
+import profBSA from "@/public/images/profBSA/HOD-n-PBSA.jpg"
+import profBSA2 from "@/public/images/profBSA/profBSA2.jpg"
 import emptyImg from "@/public/empty-user.jpg"
 
 
@@ -264,7 +266,7 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [profAntia],
+    image: [profBSA2,profAntia, profBSA],
     title: "Professor",
     fullName: "bassey antia",
     email: ["basseyantia@uniuyo.edu.ng"],

@@ -18,9 +18,11 @@ export default function TeachingStaffPage() {
 
   const handleStaffClick = (fullName: string) => {
     router.push(
-      `/staff/teaching-staff/${fullName.replaceAll(" ", "-").toLowerCase()}`
+      `/staff/teaching-staff/${encodeURIComponent(fullName).replaceAll("%20", "-").toLowerCase()}`
     );
   };
+
+  //${encodeURIComponent(title).replaceAll("%20", "-")}
 
   return (
     <main className="h-full">
