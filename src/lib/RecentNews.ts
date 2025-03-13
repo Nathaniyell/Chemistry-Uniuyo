@@ -625,7 +625,7 @@ pictures: [sendforth4],
   {
     date: "August, 2024",
     title:
-      "Students Community Recognizes Professor Edu Inam with Prestigious Awards for Her Outstanding Contributions",
+      "Students' Community Recognizes Professor Edu Inam with Prestigious Awards for Her Outstanding Contributions",
     description: [
       "The students' community at the University of Uyo has honored Professor Edu Inam with an 'Award of Excellence' in recognition of her remarkable contributions to academia, mentorship and community development. The award ceremony, held on the 2nd of August, 2024, was a heartwarming event that showcased the deep respect and admiration the students have for Professor Inam.",
       "\nProfessor Inam, a renowned scholar and advocate for educational excellence, has made a significant impact through her years of dedicated service. She has consistently championed initiatives that have positively influenced students' academic and personal growth. Her role as a mentor has empowered countless students to reach their potential and pursue successful careers.",
@@ -657,7 +657,7 @@ pictures: [sendforth4],
   {
     date: "July, 2024",
     title:
-      "Students Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
+      "Students' Chemical Society of Nigeria Felicitates with Professor Edu Inam on her birthday",
     description: [
       "Dear Professor Edu Inam, \n  On behalf of The Students' Chemical Society of Nigeria, University of Uyo Chapter, we extend our heartfelt birthday wishes to you. Today, we celebrate your remarkable impact as a leader, mentor, and educator in the field of chemistry",
       "Your unwavering dedication, profound wisdom, and inspiring guidance have touched the lives of countless students, including ours. Your passion and commitment to excellence have created a nurturing environment where we can thrive and pursue our dreams.",
@@ -705,7 +705,7 @@ pictures: [sendforth4],
   {
     date: "June, 2024",
     title:
-      "Students Chemical Society of Nigeria Organizes Tradefair to encourage budding talents and entrepreneurs within the Department",
+      "Students' Chemical Society of Nigeria Organizes Tradefair to encourage budding talents and entrepreneurs within the Department",
     description: [
       "The Students' Chemical Society of Nigeria (Uniuyo Chapter) recently organized a tradefair event to support and encourage budding talents and entrepreneurs within the Department of Chemistry at the University of Uyo. The event provided a platform for students to showcase their innovative products, services, and business ideas, fostering an entrepreneurial spirit among the chemistry community.",
 
@@ -739,7 +739,7 @@ pictures: [sendforth4],
   },
   {
     date: "May, 2024",
-    title: "Miss Blessing Wins ACS Nigeria Volunteer of the Year Award",
+    title: "Miss Blessing Umoh Wins ACS Nigeria Volunteer of the Year Award",
     description: [
       "Miss Blessing, a student in the Department of Chemistry at the University, has been awarded the prestigious ACS Nigeria Volunteer of the Year award.",
 
@@ -807,7 +807,7 @@ pictures: [sendforth4],
   {
     date: "September, 2023",
     tag: "student",
-    title: "Department of Chemistry Graduates Record Number of Students",
+    title: "The Department of Chemistry Graduates Record Number of Students",
     description: [
       "The Department of Chemistry at University of Uyo has achieved a remarkable milestone by graduating a record-breaking number of students. The department has proudly announced the graduation of 45 students who gained admission in 2018, setting a new high for the department. This achievement is particularly significant as it marks the first time in the history of the department that it has cleared such a large number of students.",
       "The successful completion of their degree programs by these 45 students is a testament to their hard work, dedication, and academic excellence, as well as the quality of education provided by the faculty and staff of the Department of Chemistry.This record-setting graduation is a proud moment for the department and the university as a whole. It reflects the department's commitment to providing a world-class education and preparing its students for the challenges of the future. The graduates are now poised to take on the next chapter of their academic or professional lives, armed with the knowledge and skills acquired during their time at the university.",
