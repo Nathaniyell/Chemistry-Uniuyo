@@ -1,14 +1,14 @@
 import { Metadata, ResolvingMetadata } from 'next';
 import staffData from "@/lib/lecturersData";
 
-// Define the types for the parameters
+
 interface Props {
     params: {
         slug: string;
     };
 }
 
-// Function to fetch staff data based on the slug
+
 const fetchStaffData = (slug: string) => {
     const staffFullName = decodeURIComponent(slug.replaceAll("-", " "));
     return staffData.find((staff) => staff.fullName.toLowerCase() === staffFullName.toLowerCase());
@@ -20,11 +20,11 @@ export async function generateMetadata(
 ): Promise<Metadata> {
     const { slug } = params;
 
-    // Fetch the specific staff member's data
+ 
     const staffMember = fetchStaffData(slug);
 
 
-    // Handle case where staff member is not found
+  
     if (!staffMember) {
         return {
             title: 'Staff Member Not Found - Department of Chemistry, University of Uyo',
