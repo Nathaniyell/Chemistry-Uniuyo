@@ -22,8 +22,6 @@ export default function TeachingStaffPage() {
     );
   };
 
-  //${encodeURIComponent(title).replaceAll("%20", "-")}
-
   return (
     <main className="h-full">
        <section className="bg-gradient-to-b from-blue-50 to-white">

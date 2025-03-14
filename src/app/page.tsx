@@ -75,9 +75,7 @@ export default function Home() {
             disableOnInteraction: true,
           }}
           navigation={!isMobile}
-          // pagination={{
-          //   clickable: true,
-          // }}
+        
           modules={[Autoplay, Pagination, Navigation]}
           className="w-full h-fit md:h-full"
         >

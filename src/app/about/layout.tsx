@@ -20,7 +20,7 @@ export default function AboutLayout({
     title: string;
     link: string;
   };
-  // const router = useRouter();
+ 
 
   const aboutNavLinks: AboutNavLink[] = [
     {

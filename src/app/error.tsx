@@ -1,4 +1,4 @@
-"use client"; // Error components must be Client Components
+"use client"; 
 
 import { Button, Main } from "@/components";
 import { useEffect } from "react";
