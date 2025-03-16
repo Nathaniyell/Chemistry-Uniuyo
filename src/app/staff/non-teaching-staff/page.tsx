@@ -18,7 +18,7 @@ export default function Home() {
       <Header heading="Technologists and Non-teaching staff" />
       <Breadcrumbs
         array={[
-          { title: "Teaching-staff", href: `/staff/teach-staff/` },
+          { title: "Non-teaching Staff", href: `/staff/non-teaching-staff` },
         ]}
       />
       <div className="p-4 md:w-[95%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-12">
