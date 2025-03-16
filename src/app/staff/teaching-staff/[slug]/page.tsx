@@ -70,9 +70,9 @@ export default function Page({ params }: { params: { slug: string } }) {
           <div className="!-ml-5">
 
             <Breadcrumbs
-              root={{ title: "Teaching staff", href: "/staff/teach-staff/" }}
+              root={{ title: "Teaching staff", href: "/staff/teaching-staff/" }}
               array={[
-                { title: fullName.toUpperCase(), href: `/staff/teach-staff/${lecturerFullName.replaceAll("-", " ")}` },
+                { title: fullName.toUpperCase(), href: `/staff/teaching-staff/${lecturerFullName.replaceAll("-", " ")}` },
               ]}
             />
           </div>
