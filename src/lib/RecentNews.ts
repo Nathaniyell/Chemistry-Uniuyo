@@ -253,7 +253,6 @@ pictures: [sendforth4],
       "2. In addition to CBT registration, students must also register for CHM 111 and CHM 117 on the University student portal (https://uniuyo.edu.ng/eportals). Failure to do so will result in missing results for these courses.",
     "3. A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
     "4. All carryover students should visit the department for further clarification regarding their registration.",
-      "All students are advised to complete their registration before the deadline; 21st March 2025 to avoid any inconveniences.",
       "For complaints, visit the Departmental Office on Monday - Wednesday between 10AM and 2PM or contact Nathaniel electronically at 09034940576."
 
     ],
