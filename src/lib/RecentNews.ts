@@ -254,7 +254,7 @@ export const recentNews: recentNewsTypes[] = [
         
         "\nThe chemistry community and stakeholders across the country have expressed confidence in her ability to lead and innovate, ensuring that ACS Nigeria remains a formidable force in the advancement of the chemical sciences."
     ],
-    pictures: [acsvisit1, acsvisit2, acsvisit3, acsvisit4, acsvisit5]
+    pictures: [acsvisit2, acsvisit1, acsvisit3, acsvisit4, acsvisit5]
 }
 
 
