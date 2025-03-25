@@ -217,6 +217,10 @@ import orientation18 from "@/public/images/orientation/orientation19.jpg"
 import orientation21 from "@/public/images/orientation/orientation111.jpg"
 import orientation22 from "@/public/images/orientation/orientation112.jpg"
 import acsvisit1 from "@/public/images/prof-inam-acs-nigeria/edu1.jpg"
+import acsvisit2 from "@/public/images/prof-inam-acs-nigeria/edu2.jpg"
+import acsvisit3 from "@/public/images/prof-inam-acs-nigeria/edu3.jpg"
+import acsvisit4 from "@/public/images/prof-inam-acs-nigeria/edu4.jpg"
+import acsvisit5 from "@/public/images/prof-inam-acs-nigeria/edu5.jpg"
 
 
 
@@ -250,7 +254,7 @@ export const recentNews: recentNewsTypes[] = [
         
         "\nThe chemistry community and stakeholders across the country have expressed confidence in her ability to lead and innovate, ensuring that ACS Nigeria remains a formidable force in the advancement of the chemical sciences."
     ],
-    "pictures": []
+    pictures: [acsvisit1, acsvisit2, acsvisit3, acsvisit4, acsvisit5]
 }
 
 
