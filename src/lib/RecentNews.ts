@@ -216,6 +216,7 @@ import orientation17 from "@/public/images/orientation/orientation18.jpg"
 import orientation18 from "@/public/images/orientation/orientation19.jpg"
 import orientation21 from "@/public/images/orientation/orientation111.jpg"
 import orientation22 from "@/public/images/orientation/orientation112.jpg"
+import acsvisit1 from "@/public/images/prof-inam-acs-nigeria/edu1.jpg"
 
 
 
