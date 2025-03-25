@@ -9,7 +9,7 @@ type BreadcrumbsProps = { root?: Crumbs; array: Crumbs[] };
 
 export default function Breadcrumbs({ root, array }: BreadcrumbsProps) {
   return (
-    <nav aria-label="Breadcrumb" className="w-full mt-2 md:mt-0">
+    <nav aria-label="Breadcrumb" className="w-full mt-6 md:mt-0">
       <ol className="flex items-center gap-1 text-sm text-muted-foreground py-4 px-6 md:px-8">
         <li>
           <Link
