@@ -230,6 +230,30 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+    "date": "March, 2025", 
+    "title": "Prof Edu Inam Assumes Office as the 2nd Substantive Chair, ACS Nigeria International Sciences Chapter",
+    "description": [
+        "Professor Edu J. Inam has officially assumed office as the 2nd substantive Chair of the American Chemical Society (ACS) Nigeria International Sciences Chapter, marking a significant milestone in the chapter’s leadership and scientific advancement.",
+        
+        "\nWith a distinguished career in environmental chemistry and sustainability research, Professor Inam has been a driving force in fostering innovation, mentorship, and inclusivity within the Nigerian scientific community. Her new role as Chair reinforces her commitment to strengthening research collaborations, promoting gender equity in STEM, and advancing chemistry’s impact on national and global development.",
+        
+        "\nSince assuming office, Professor Inam has led several strategic engagements aimed at expanding ACS Nigeria’s influence and partnerships. Alongside ACS Nigeria members, she paid courtesy and collaboration visits to key stakeholders, including the Honourable Minister of Innovation, Science and Technology, Chief Uche Geoffrey Nnaji, and the Director-General of the Energy Commission of Nigeria, Dr. Mustapha Abdullahi. These visits underscored the society’s commitment to fostering research-driven innovation in Nigeria.",
+        
+        "\nIn a bid to deepen scientific collaboration, Professor Inam also led a delegation to the Sheda Science and Technology Complex (SHESTCO) in Abuja, where they engaged with the DG, Prof. Paul Chidozie Onyenekwe. The visit provided insights into SHESTCO’s cutting-edge research and potential areas for synergy, with special appreciation extended to Dr. Mike Afolayan and Mr. Adenisi Akinyemi for facilitating a guided tour of the Chemistry Advanced Research Centre.",
+        
+        "\nFurthermore, ACS Nigeria, under Professor Inam’s leadership, secured a strong partnership with the National Open University of Nigeria (NOUN), Abuja. A courtesy visit to the Vice-Chancellor’s office allowed the team to express gratitude for NOUN’s approval to host the 10th Annual Symposium of ACS Nigeria and for the institution’s unwavering support in ensuring a successful event.",
+        
+        "\nIn another strategic move, the ACS Nigeria team engaged with the Office of the Senior Special Assistant (SSA) to the President on Sustainable Development Goals (SDGs) to explore potential partnerships for the upcoming symposium. These discussions highlight ACS Nigeria’s commitment to leveraging scientific expertise for national development.",
+        
+        "\nAs the first woman to hold this esteemed position, Professor Inam’s leadership is expected to inspire and empower young scientists, particularly women, to actively participate in research and professional development. Under her guidance, ACS Nigeria aims to expand its initiatives in scientific education, industry partnerships, and community-driven solutions to pressing environmental and energy challenges.",
+        
+        "\nThe chemistry community and stakeholders across the country have expressed confidence in her ability to lead and innovate, ensuring that ACS Nigeria remains a formidable force in the advancement of the chemical sciences."
+    ],
+    "pictures": []
+}
+
+
+  ,{
 
     date: "March 8, 2025",
     title: "Chemistry Department Celebrates International Women’s Day 2025",
