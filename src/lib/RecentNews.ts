@@ -257,8 +257,8 @@ export const recentNews: recentNewsTypes[] = [
     pictures: [acsvisit2, acsvisit1, acsvisit3, acsvisit4, acsvisit5]
 }
 
-
-  ,{
+,
+{
 
     date: "March 8, 2025",
     title: "Chemistry Department Celebrates International Women’s Day 2025",
