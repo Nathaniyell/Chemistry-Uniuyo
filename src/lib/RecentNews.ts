@@ -235,7 +235,7 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-    date: "April 10, 2025",
+    date: "April 02, 2025",
     title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
     description: [
       "The University of Uyo has officially released updated guidelines for online registration for CBT-mode examinations for the First Semester of the 2024/2025 academic session. This update, approved by the Vice Chancellor, Professor Nyaudoh Ndaeyo, becomes effective from Monday, March 31, 2025.",
