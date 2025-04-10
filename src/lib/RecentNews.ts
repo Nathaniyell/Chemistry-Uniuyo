@@ -244,7 +244,7 @@ export const recentNews: recentNewsTypes[] = [
   
       "\nAll Year 1 and Year 2 students are required to comply with this new directive. To register, students must visit the portal at cbt.uniuyo.edu.ng, input their registration number,  Enter active phone number and email (and check email to complete the verification process) , select their courses, pay a registration fee of ₦500, and download the confirmation printout after successful registration.",
   
-      "\nIn a related update, the CHM111 and CHM117 examinations have been **rescheduled to hold on May 14 and 15, 2025**, at the **ICT Unit, Annex Campus**. Students are advised to take note of this new schedule and prepare accordingly.",
+      "\nIn a related update, the CHM111 and CHM117 examinations have been rescheduled to hold on May 14 and 15, 2025, at the ICT Unit, Annex Campus. Students are advised to take note of this new schedule and prepare accordingly.",
   
       "\nThis circular supersedes all previous announcements, including the one dated."
     ],
