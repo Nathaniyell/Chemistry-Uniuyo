@@ -47,6 +47,11 @@ const Page = ({ params }: { params: { slug: string } }) => {
           text: "Click here to register",
           href: "https://cbt.chemistry.uniuyo.edu.ng"
         };
+      case "UNIUYO Releases New Guidelines for CBT Exam Registration":
+        return {
+          text: "Download updated timetable",
+          href: "/2024-2025 FIRST SEMESTER EXAM TIMETABLE-Updated.pdf"
+        };
       default:
         return null;
     }
