@@ -65,6 +65,12 @@ const homeData: HomeDataItem[] = [
     greeting: "",
     btnLink: "/about",
   },
+  
+  {
+    image: schoolLogo,
+    title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
+    btnLink: "/recent-news",
+  },
   {
     image: orientation,
     title: "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
