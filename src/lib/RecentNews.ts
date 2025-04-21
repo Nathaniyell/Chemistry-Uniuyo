@@ -239,6 +239,9 @@ export const recentNews: recentNewsTypes[] = [
     title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
     description: [
       "Great news from the Chemical Society of Nigeria (CSN)! At the recent council meeting held in Makurdi on April 11, 2025, it was reported that CSN National has nominated and recommended five outstanding individuals from Nigeria to attend the 3rd Commonwealth Chemistry Congress scheduled for May 2025 in South Africa.",
+      "Among the selected participants is Idongesit Nathaniel Uffot, a PhD student from the Department of Chemistry, University of Uyo, and a proud member of the Akwa Ibom Chapter.",
+      "The Head of the Department of Chemistry, University of Uyo, has congratulated Mr. Uffot on this prestigious nomination, commending his academic excellence and commitment to research.",
+      
       
     ],
     pictures: [schoolLogo],
