@@ -250,6 +250,22 @@ export const recentNews: recentNewsTypes[] = [
     ],
     pictures: [schoolLogo],
   },
+  {
+    date: "April 02, 2025",
+    title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
+    description: [
+      "The University of Uyo has officially released updated guidelines for online registration for CBT-mode examinations for the First Semester of the 2024/2025 academic session. This update, approved by the Vice Chancellor, Professor Nyaudoh Ndaeyo, becomes effective from Monday, March 31, 2025.",
+      
+      "\nThe affected courses include: PHY 111, PHY 112, PHY 117, CHM 111, CHM 117, CHM 210, CHM 211, CHM 217, CHM 218, UNIUYO CHM 216, UNIUYO CHM 215, SSC 211, SOC 111, SOC 112, EDU 111, EDU 211, ESS 113, ESS 215, ANA 211, ANA 212, ANA 213, ANM 211a, ANM 211b, ANM 212, and ANM 213.",
+  
+      "\nAll Year 1 and Year 2 students are required to comply with this new directive. To register, students must visit the portal at cbt.uniuyo.edu.ng, input their registration number,  Enter active phone number and email (and check email to complete the verification process) , select their courses, pay a registration fee of ₦500, and download the confirmation printout after successful registration.",
+  
+      "\nIn a related update, the CHM111 and CHM117 examinations have been rescheduled to hold on May 14 and 15, 2025, at the ICT Unit, Annex Campus. Students are advised to take note of this new schedule and prepare accordingly.",
+  
+      "\nThis circular supersedes all previous announcements, including the one dated."
+    ],
+    pictures: [schoolLogo],
+  },
   
   {
     "date": "March, 2025", 
