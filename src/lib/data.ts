@@ -68,6 +68,11 @@ const homeData: HomeDataItem[] = [
   
   {
     image: schoolLogo,
+    title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
+    btnLink: "/recent-news",
+  },
+  {
+    image: schoolLogo,
     title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
     btnLink: "/recent-news",
   },

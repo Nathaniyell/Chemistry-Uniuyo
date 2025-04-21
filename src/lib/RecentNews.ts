@@ -235,7 +235,7 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-    date: "April 02, 2025",
+    date: "April 14, 2025",
     title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
     description: [
       "Great news from the Chemical Society of Nigeria (CSN)! At the recent council meeting held in Makurdi on April 11, 2025, it was reported that CSN National has nominated and recommended five outstanding individuals from Nigeria to attend the 3rd Commonwealth Chemistry Congress scheduled for May 2025 in South Africa.",
