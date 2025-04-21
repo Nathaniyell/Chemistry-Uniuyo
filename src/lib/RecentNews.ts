@@ -238,7 +238,7 @@ export const recentNews: recentNewsTypes[] = [
     date: "April 02, 2025",
     title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
     description: [
-      "The University of Uyo has officially released updated guidelines for online registration for CBT-mode examinations for the First Semester of the 2024/2025 academic session. This update, approved by the Vice Chancellor, Professor Nyaudoh Ndaeyo, becomes effective from Monday, March 31, 2025.",
+      "Great news from the Chemical Society of Nigeria (CSN)! At the recent council meeting held in Makurdi on April 11, 2025, it was reported that CSN National has nominated and recommended five outstanding individuals from Nigeria to attend the 3rd Commonwealth Chemistry Congress scheduled for May 2025 in South Africa.",
       
     ],
     pictures: [schoolLogo],
