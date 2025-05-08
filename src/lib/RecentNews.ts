@@ -251,7 +251,7 @@ export const recentNews: recentNewsTypes[] = [
     date: "April 14, 2025",
     title: "Strengthening Technical Expertise in AAS: Mrs. Ubon Emmanuel Completes Specialized Training",
     description: [
-      "Great news from the Chemical Society of Nigeria (CSN)! At the recent council meeting held in Makurdi on April 11, 2025, it was reported that CSN National has nominated and recommended five outstanding individuals from Nigeria to attend the 3rd Commonwealth Chemistry Congress scheduled for May 2025 in South Africa.",
+      "We are pleased to announce that Mrs. Ubon Emmanuel, Head of the Technical Unit, Department of Chemistry, University of Uyo, successfully participated in the One Week Physical and Virtual Training Workshop on Atomic Absorption Spectrometry (AAS) Operation, Result Analysis, and Interpretation.",
       "Among the selected participants is Idongesit Nathaniel Uffot, a PhD student from the Department of Chemistry, University of Uyo, and a proud member of the Akwa Ibom Chapter.",
       "The Head of the Department of Chemistry, University of Uyo, Professor Edu Inam congratulated Mr. Uffot on this prestigious nomination, commending his academic excellence and commitment to research.",
       "She further encouraged him to represent the department and the university with distinction at the international gathering."
