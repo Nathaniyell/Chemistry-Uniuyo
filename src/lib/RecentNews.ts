@@ -252,7 +252,7 @@ export const recentNews: recentNewsTypes[] = [
     title: "Strengthening Technical Expertise in AAS: Mrs. Ubon Emmanuel Completes Specialized Training",
     description: [
       "We are pleased to announce that Mrs. Ubon Emmanuel, Head of the Technical Unit, Department of Chemistry, University of Uyo, successfully participated in the One Week Physical and Virtual Training Workshop on Atomic Absorption Spectrometry (AAS) Operation, Result Analysis, and Interpretation.",
-      "Among the selected participants is Idongesit Nathaniel Uffot, a PhD student from the Department of Chemistry, University of Uyo, and a proud member of the Akwa Ibom Chapter.",
+      "Organized by the University of Calabar Research & Central Lab in collaboration with the Directorate of Equipment Maintenance, the workshop was held from April 7th to 11th, 2025 at the Unical Central Lab.",
       "The Head of the Department of Chemistry, University of Uyo, Professor Edu Inam congratulated Mr. Uffot on this prestigious nomination, commending his academic excellence and commitment to research.",
       "She further encouraged him to represent the department and the university with distinction at the international gathering."
       
