@@ -221,6 +221,8 @@ import acsvisit2 from "@/public/images/prof-inam-acs-nigeria/edu2.jpg"
 import acsvisit3 from "@/public/images/prof-inam-acs-nigeria/edu3.jpg"
 import acsvisit4 from "@/public/images/prof-inam-acs-nigeria/edu4.jpg"
 import acsvisit5 from "@/public/images/prof-inam-acs-nigeria/edu5.jpg"
+import aasWorkshop from "@/public/images/aas-w2.jpg"
+import aasWorkshop1 from "@/public/images/aas-w.jpg"
 
 
 
@@ -262,7 +264,7 @@ export const recentNews: recentNewsTypes[] = [
       "This capacity-building engagement underscores the department’s commitment to continuous professional development and technical excellence.",
       "The Head of Department, Professor Edu Inam commended Mrs. Ubon Emmanuel for her dedication to advancing her skills and contributing to the growth of our academic and research capabilities."
     ],
-    pictures: [schoolLogo],
+    pictures: [aasWorkshop, aasWorkshop1],
   },
   
   {
