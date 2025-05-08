@@ -248,18 +248,23 @@ export const recentNews: recentNewsTypes[] = [
     pictures: [schoolLogo],
   },
   {
-    date: "April 14, 2025",
-    title: "Strengthening Technical Expertise in AAS: Mrs. Ubon Emmanuel Completes Specialized Training",
+    date: "April 11, 2025",
+    title: "Empowering Lab Leadership: Head of Technical Unit Attends AAS Instrumentation Workshop",
     description: [
       "We are pleased to announce that Mrs. Ubon Emmanuel, Head of the Technical Unit, Department of Chemistry, University of Uyo, successfully participated in the One Week Physical and Virtual Training Workshop on Atomic Absorption Spectrometry (AAS) Operation, Result Analysis, and Interpretation.",
       "Organized by the University of Calabar Research & Central Lab in collaboration with the Directorate of Equipment Maintenance, the workshop was held from April 7th to 11th, 2025 at the Unical Central Lab.",
-      "The Head of the Department of Chemistry, University of Uyo, Professor Edu Inam congratulated Mr. Uffot on this prestigious nomination, commending his academic excellence and commitment to research.",
-      "She further encouraged him to represent the department and the university with distinction at the international gathering."
-      
-      
+      "The training covered the following key areas:",
+      "- Sample preparation and industrial application",
+      "- Instrument hardware and routine maintenance",
+      "- Calibration and analysis",
+      "- Interpretation of results",
+      "- Hands-on demonstration and certificate issuance",
+      "This capacity-building engagement underscores the department’s commitment to continuous professional development and technical excellence.",
+      "The Head of Department, Professor Edu Inam commended Mrs. Ubon Emmanuel for her dedication to advancing her skills and contributing to the growth of our academic and research capabilities."
     ],
     pictures: [schoolLogo],
   },
+  
   {
     date: "April 02, 2025",
     title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
