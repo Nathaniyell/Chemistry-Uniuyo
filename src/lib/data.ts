@@ -37,6 +37,7 @@ import idws from "@/public/images/IDWS/idws5.jpg"
 import nuc2 from "@/public/images/nuc/nuc2.jpg"
 import schoolLogo from "@/public/images/logo.jpg"
 import orientation from "@/public/images/orientation/orientation1.jpg"
+import aasWorkshop from "@/public/images/aas-w2.jpg"
 
 export const chemistryUnits = [
   "organic",
@@ -69,6 +70,11 @@ const homeData: HomeDataItem[] = [
   {
     image: schoolLogo,
     title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
+    btnLink: "/recent-news",
+  },
+  {
+    image: aasWorkshop,
+    title: "Empowering Lab Leadership: Head of Technical Unit Attends AAS Instrumentation Workshop",
     btnLink: "/recent-news",
   },
   {
