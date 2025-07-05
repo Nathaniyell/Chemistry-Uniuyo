@@ -38,6 +38,7 @@ import nuc2 from "@/public/images/nuc/nuc2.jpg"
 import schoolLogo from "@/public/images/logo.jpg"
 import orientation from "@/public/images/orientation/orientation1.jpg"
 import aasWorkshop from "@/public/images/aas-w2.jpg"
+import vueFoundation from "@/public/images/vue-foundation.jpeg"
 
 export const chemistryUnits = [
   "organic",
@@ -65,6 +66,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: vueFoundation,
+     "title": "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
+    btnLink: "/recent-news",
   },
   
   {
