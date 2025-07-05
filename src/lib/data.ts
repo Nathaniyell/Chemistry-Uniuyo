@@ -39,6 +39,7 @@ import schoolLogo from "@/public/images/logo.jpg"
 import orientation from "@/public/images/orientation/orientation1.jpg"
 import aasWorkshop from "@/public/images/aas-w2.jpg"
 import vueFoundation from "@/public/images/vue-foundation.jpeg"
+import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
 
 export const chemistryUnits = [
   "organic",
@@ -68,8 +69,13 @@ const homeData: HomeDataItem[] = [
     btnLink: "/about",
   },
   {
+    image: uyoLGAVisit2,
+     title: "Chemistry Department Pays Courtesy Visit to Uyo LGA Chairman",
+    btnLink: "/recent-news",
+  },
+  {
     image: vueFoundation,
-     "title": "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
+     title: "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
     btnLink: "/recent-news",
   },
   
