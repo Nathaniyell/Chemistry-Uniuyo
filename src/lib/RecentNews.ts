@@ -85,211 +85,214 @@ import safety3 from "@/public/images/safety/safety4.jpg";
 import safety4 from "@/public/images/safety/safety5.jpg";
 import safety5 from "@/public/images/safety/safety6.jpg";
 import safety6 from "@/public/images/safety/safety7.jpg";
-import jmser from "@/public/images/jmesr.jpg"
-import birthdayProf from "@/public/images/prof_inams_birthday/Prof_birthday.jpg"
-import birthday from "@/public/images/prof_inams_birthday/birthday2.jpg"
-import birthday1 from "@/public/images/prof_inams_birthday/birthday1.jpg"
-import birthday2 from "@/public/images/prof_inams_birthday/birthday.jpg"
-import birthday4 from "@/public/images/prof_inams_birthday/birthday3.jpg"
-import birthday3 from "@/public/images/prof_inams_birthday/birthday4.jpg"
-import birthday5 from "@/public/images/prof_inams_birthday/birthday5.jpg"
-import birthday6 from "@/public/images/prof_inams_birthday/birthday7.jpg"
-import birthday7 from "@/public/images/prof_inams_birthday/birthday6.jpg"
-import defense from "@/public/images/019-defense/defense.jpg"
-import promise from "@/public/images/019-defense/promise.jpg"
-import defense1 from "@/public/images/019-defense/defense1.jpg"
-import defense2 from "@/public/images/019-defense/defense2.jpg"
-import defense3 from "@/public/images/019-defense/defense3.jpg"
-import defense4 from "@/public/images/019-defense/defense4.jpg"
-import defense5 from "@/public/images/019-defense/defense5.jpg"
-import defense6 from "@/public/images/019-defense/defense6.jpg"
-import defense7 from "@/public/images/019-defense/defense7.jpg"
-import defense8 from "@/public/images/019-defense/defense8.jpg"
-import defense9 from "@/public/images/019-defense/defense9.jpg"
-import defense10 from "@/public/images/019-defense/defense10.jpg"
-import defense11 from "@/public/images/019-defense/defense11.jpg"
-import defense12 from "@/public/images/019-defense/defense12.jpg"
-import defense13 from "@/public/images/019-defense/defense13.jpg"
-import defense14 from "@/public/images/019-defense/defense14.jpg"
-import defense15 from "@/public/images/019-defense/defense15.jpg"
-import defense16 from "@/public/images/019-defense/defense16.jpg"
-import defense17 from "@/public/images/019-defense/defense17.jpg"
-import defense18 from "@/public/images/019-defense/defense18.jpg"
-import sugAward from "@/public/images/019-defense/sug-award.jpg"
-import sugAward2 from "@/public/images/019-defense/sug-award2.jpg"
-import umobong from "@/public/images/umobong.jpeg"
-import profBSA from "@/public/images/profBSA/profBSA1.jpg"
-import profBSA2 from "@/public/images/profBSA/profBSA2.jpg"
-import profBSA3 from "@/public/images/profBSA/management1.jpg"
-import profBSA4 from "@/public/images/profBSA/profBSA3.jpg"
-import profBSA5 from "@/public/images/profBSA/profBSA4.jpg"
-import profBSA6 from "@/public/images/profBSA/HOD-n-PBSA.jpg"
-import profBSA7 from "@/public/images/profBSA/STP_3498.jpg"
-import profBSA8 from "@/public/images/profBSA/STP_3168.jpg"
-import profBSA9 from "@/public/images/profBSA/STP_3273.jpg"
-import profBSA10 from "@/public/images/profBSA/STP_3215.jpg"
-import profBSA11 from "@/public/images/profBSA/STP_3237.jpg"
-import profBSA13 from "@/public/images/profBSA/STP_3321.jpg"
-import profBSA14 from "@/public/images/profBSA/STP_3520.jpg"
-import profBSA15 from "@/public/images/profBSA/STP_3536.jpg"
-import profBSA16 from "@/public/images/profBSA/STP_3470.jpg"
-import profBSA17 from "@/public/images/profBSA/STP_3536.jpg"
-import profBSA12 from "@/public/images/profBSA/STP_3361.jpg"
-import promotedStaff from "@/public/images/promoted-staff.jpg"
-import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg"
-import profBlessing from "@/public/images/aderi.jpg"
-import profBlessing2 from "@/public/images/blessing_aderbigbe.jpg"
-import schoolLogo from "@/public/images/logo.jpg"
-import aktw1 from "@/public/images/aktw/aktw1.jpg"
-import aktw2 from "@/public/images/aktw/aktw2.jpg"
-import aktw3 from "@/public/images/aktw/aktw3.jpg"
-import aktw4 from "@/public/images/aktw/aktw4.jpg"
-import aktw5 from "@/public/images/aktw/aktw5.jpg"
-import aktw6 from "@/public/images/aktw/aktw.jpg"
-import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg"
-import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg"
-import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg"
-import convocationBSC3 from "@/public/images/convocation/undergraduate-convo4.jpg"
-import convocationBSC5 from "@/public/images/convocation/undergraduate-convo5.jpg"
-import convocationBSC6 from "@/public/images/convocation/undergraduate-convo6.jpg"
-import convocationBSC7 from "@/public/images/convocation/undergraduate-convo7.jpg"
-import convocationBSC8 from "@/public/images/convocation/undergraduate-convo8.jpg"
-import convocationBSC10 from "@/public/images/convocation/undergraduate-convo10.jpg"
-import convocationBSC4 from "@/public/images/convocation/BGS1.jpg"
-import BGS2 from "@/public/images/convocation/BGS2.jpg"
-import phdConvo from "@/public/images/convocation/phd1.jpg"
-import phdConvo1 from "@/public/images/convocation/phd2.jpg"
-import phdConvo2 from "@/public/images/convocation/phd4.jpg"
-import phdConvo3 from "@/public/images/convocation/akpakpan-phd.jpg"
-import phdConvo4 from "@/public/images/convocation/phd-candidates.jpg"
-import phdConvo5 from "@/public/images/convocation/okon-phd.jpg"
-import phdConvo6 from "@/public/images/convocation/phdd.jpg"
-import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg"
-import hybridLecture1 from "@/public/images/hybrid-based-therapeutics/lecture0.jpg"
-import hybridLecture2 from "@/public/images/hybrid-based-therapeutics/lecture.jpg"
-import hybridLecture3 from "@/public/images/hybrid-based-therapeutics/lecture00.jpg"
-import hybridLecture4 from "@/public/images/hybrid-based-therapeutics/lecture2.jpg"
-import hybridLecture6 from "@/public/images/hybrid-based-therapeutics/lecture4.jpg"
-import hybridLecture7 from "@/public/images/hybrid-based-therapeutics/lecture5.jpg"
-import hybridLecture8 from "@/public/images/hybrid-based-therapeutics/profs.jpg"
-import hybridLecture9 from "@/public/images/hybrid-based-therapeutics/lecture6.jpg"
-import hybridLecture10 from "@/public/images/hybrid-based-therapeutics/lecture7.jpg"
-import hybridLecture11 from "@/public/images/hybrid-based-therapeutics/lecture8.jpg"
-import hybridLecture12 from "@/public/images/hybrid-based-therapeutics/lecture9.jpg"
-import hybridLecture13 from "@/public/images/hybrid-based-therapeutics/lecture10.jpg"
-import hybridLecture14 from "@/public/images/hybrid-based-therapeutics/lecture11.jpg"
-import hybridLecture15 from "@/public/images/hybrid-based-therapeutics/lecture12.jpg"
-import hybridLecture16 from "@/public/images/hybrid-based-therapeutics/lecture13.jpg"
-import hybridLecture17 from "@/public/images/hybrid-based-therapeutics/lecture14.jpg"
-import hybridLecture18 from "@/public/images/hybrid-based-therapeutics/lecture20.jpg"
-import hybridLecture19 from "@/public/images/hybrid-based-therapeutics/lecture111.jpg"
-import hybridLecture20 from "@/public/images/hybrid-based-therapeutics/lecture30.jpg"
+import jmser from "@/public/images/jmesr.jpg";
+import birthdayProf from "@/public/images/prof_inams_birthday/Prof_birthday.jpg";
+import birthday from "@/public/images/prof_inams_birthday/birthday2.jpg";
+import birthday1 from "@/public/images/prof_inams_birthday/birthday1.jpg";
+import birthday2 from "@/public/images/prof_inams_birthday/birthday.jpg";
+import birthday4 from "@/public/images/prof_inams_birthday/birthday3.jpg";
+import birthday3 from "@/public/images/prof_inams_birthday/birthday4.jpg";
+import birthday5 from "@/public/images/prof_inams_birthday/birthday5.jpg";
+import birthday6 from "@/public/images/prof_inams_birthday/birthday7.jpg";
+import birthday7 from "@/public/images/prof_inams_birthday/birthday6.jpg";
+import defense from "@/public/images/019-defense/defense.jpg";
+import promise from "@/public/images/019-defense/promise.jpg";
+import defense1 from "@/public/images/019-defense/defense1.jpg";
+import defense2 from "@/public/images/019-defense/defense2.jpg";
+import defense3 from "@/public/images/019-defense/defense3.jpg";
+import defense4 from "@/public/images/019-defense/defense4.jpg";
+import defense5 from "@/public/images/019-defense/defense5.jpg";
+import defense6 from "@/public/images/019-defense/defense6.jpg";
+import defense7 from "@/public/images/019-defense/defense7.jpg";
+import defense8 from "@/public/images/019-defense/defense8.jpg";
+import defense9 from "@/public/images/019-defense/defense9.jpg";
+import defense10 from "@/public/images/019-defense/defense10.jpg";
+import defense11 from "@/public/images/019-defense/defense11.jpg";
+import defense12 from "@/public/images/019-defense/defense12.jpg";
+import defense13 from "@/public/images/019-defense/defense13.jpg";
+import defense14 from "@/public/images/019-defense/defense14.jpg";
+import defense15 from "@/public/images/019-defense/defense15.jpg";
+import defense16 from "@/public/images/019-defense/defense16.jpg";
+import defense17 from "@/public/images/019-defense/defense17.jpg";
+import defense18 from "@/public/images/019-defense/defense18.jpg";
+import sugAward from "@/public/images/019-defense/sug-award.jpg";
+import sugAward2 from "@/public/images/019-defense/sug-award2.jpg";
+import umobong from "@/public/images/umobong.jpeg";
+import profBSA from "@/public/images/profBSA/profBSA1.jpg";
+import profBSA2 from "@/public/images/profBSA/profBSA2.jpg";
+import profBSA3 from "@/public/images/profBSA/management1.jpg";
+import profBSA4 from "@/public/images/profBSA/profBSA3.jpg";
+import profBSA5 from "@/public/images/profBSA/profBSA4.jpg";
+import profBSA6 from "@/public/images/profBSA/HOD-n-PBSA.jpg";
+import profBSA7 from "@/public/images/profBSA/STP_3498.jpg";
+import profBSA8 from "@/public/images/profBSA/STP_3168.jpg";
+import profBSA9 from "@/public/images/profBSA/STP_3273.jpg";
+import profBSA10 from "@/public/images/profBSA/STP_3215.jpg";
+import profBSA11 from "@/public/images/profBSA/STP_3237.jpg";
+import profBSA13 from "@/public/images/profBSA/STP_3321.jpg";
+import profBSA14 from "@/public/images/profBSA/STP_3520.jpg";
+import profBSA15 from "@/public/images/profBSA/STP_3536.jpg";
+import profBSA16 from "@/public/images/profBSA/STP_3470.jpg";
+import profBSA17 from "@/public/images/profBSA/STP_3536.jpg";
+import profBSA12 from "@/public/images/profBSA/STP_3361.jpg";
+import promotedStaff from "@/public/images/promoted-staff.jpg";
+import nSimon from "@/public/images/teachingstaff/Dr. Simon.jpg";
+import profBlessing from "@/public/images/aderi.jpg";
+import profBlessing2 from "@/public/images/blessing_aderbigbe.jpg";
+import schoolLogo from "@/public/images/logo.jpg";
+import aktw1 from "@/public/images/aktw/aktw1.jpg";
+import aktw2 from "@/public/images/aktw/aktw2.jpg";
+import aktw3 from "@/public/images/aktw/aktw3.jpg";
+import aktw4 from "@/public/images/aktw/aktw4.jpg";
+import aktw5 from "@/public/images/aktw/aktw5.jpg";
+import aktw6 from "@/public/images/aktw/aktw.jpg";
+import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg";
+import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg";
+import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg";
+import convocationBSC3 from "@/public/images/convocation/undergraduate-convo4.jpg";
+import convocationBSC5 from "@/public/images/convocation/undergraduate-convo5.jpg";
+import convocationBSC6 from "@/public/images/convocation/undergraduate-convo6.jpg";
+import convocationBSC7 from "@/public/images/convocation/undergraduate-convo7.jpg";
+import convocationBSC8 from "@/public/images/convocation/undergraduate-convo8.jpg";
+import convocationBSC10 from "@/public/images/convocation/undergraduate-convo10.jpg";
+import convocationBSC4 from "@/public/images/convocation/BGS1.jpg";
+import BGS2 from "@/public/images/convocation/BGS2.jpg";
+import phdConvo from "@/public/images/convocation/phd1.jpg";
+import phdConvo1 from "@/public/images/convocation/phd2.jpg";
+import phdConvo2 from "@/public/images/convocation/phd4.jpg";
+import phdConvo3 from "@/public/images/convocation/akpakpan-phd.jpg";
+import phdConvo4 from "@/public/images/convocation/phd-candidates.jpg";
+import phdConvo5 from "@/public/images/convocation/okon-phd.jpg";
+import phdConvo6 from "@/public/images/convocation/phdd.jpg";
+import hybridLecture from "@/public/images/hybrid-based-therapeutics/lecture1.jpg";
+import hybridLecture1 from "@/public/images/hybrid-based-therapeutics/lecture0.jpg";
+import hybridLecture2 from "@/public/images/hybrid-based-therapeutics/lecture.jpg";
+import hybridLecture3 from "@/public/images/hybrid-based-therapeutics/lecture00.jpg";
+import hybridLecture4 from "@/public/images/hybrid-based-therapeutics/lecture2.jpg";
+import hybridLecture6 from "@/public/images/hybrid-based-therapeutics/lecture4.jpg";
+import hybridLecture7 from "@/public/images/hybrid-based-therapeutics/lecture5.jpg";
+import hybridLecture8 from "@/public/images/hybrid-based-therapeutics/profs.jpg";
+import hybridLecture9 from "@/public/images/hybrid-based-therapeutics/lecture6.jpg";
+import hybridLecture10 from "@/public/images/hybrid-based-therapeutics/lecture7.jpg";
+import hybridLecture11 from "@/public/images/hybrid-based-therapeutics/lecture8.jpg";
+import hybridLecture12 from "@/public/images/hybrid-based-therapeutics/lecture9.jpg";
+import hybridLecture13 from "@/public/images/hybrid-based-therapeutics/lecture10.jpg";
+import hybridLecture14 from "@/public/images/hybrid-based-therapeutics/lecture11.jpg";
+import hybridLecture15 from "@/public/images/hybrid-based-therapeutics/lecture12.jpg";
+import hybridLecture16 from "@/public/images/hybrid-based-therapeutics/lecture13.jpg";
+import hybridLecture17 from "@/public/images/hybrid-based-therapeutics/lecture14.jpg";
+import hybridLecture18 from "@/public/images/hybrid-based-therapeutics/lecture20.jpg";
+import hybridLecture19 from "@/public/images/hybrid-based-therapeutics/lecture111.jpg";
+import hybridLecture20 from "@/public/images/hybrid-based-therapeutics/lecture30.jpg";
 import profInam from "../../public/images/teachingstaff/prof-inam.jpg";
-import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
+import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg";
 import { StaticImageData } from "next/image";
-import idws from "@/public/images/IDWS/idws1.jpg"
-import idws1 from "@/public/images/IDWS/idws2.jpg"
-import idws2 from "@/public/images/IDWS/idws3.jpg"
-import idws3 from "@/public/images/IDWS/idws4.jpg"
-import idws4 from "@/public/images/IDWS/idws5.jpg"
-import idws5 from "@/public/images/IDWS/idws6.jpg"
-import nuc1 from "@/public/images/nuc/nuc1.jpg"
-import nuc2 from "@/public/images/nuc/nuc2.jpg"
-import orientation from "@/public/images/orientation/orientation1.jpg"
-import orientation1 from "@/public/images/orientation/orientation2.jpg"
-import orientation2 from "@/public/images/orientation/orientation3.jpg"
-import orientation3 from "@/public/images/orientation/orientation4.jpg"
-import orientation4 from "@/public/images/orientation/orientation5.jpg"
-import orientation5 from "@/public/images/orientation/orientation6.jpg"
-import orientation6 from "@/public/images/orientation/orientation7.jpg"
-import orientation7 from "@/public/images/orientation/orientation8.jpg"
-import orientation8 from "@/public/images/orientation/orientation9.jpg"
-import orientation9 from "@/public/images/orientation/orientation10.jpg"
-import orientation10 from "@/public/images/orientation/orientation11.jpg"
-import orientation11 from "@/public/images/orientation/orientation12.jpg"
-import orientation12 from "@/public/images/orientation/orientation13.jpg"
-import orientation13 from "@/public/images/orientation/orientation14.jpg"
-import orientation14 from "@/public/images/orientation/orientation15.jpg"
-import orientation15 from "@/public/images/orientation/orientation16.jpg"
-import orientation16 from "@/public/images/orientation/orientation17.jpg"
-import orientation17 from "@/public/images/orientation/orientation18.jpg"
-import orientation18 from "@/public/images/orientation/orientation19.jpg"
-import orientation21 from "@/public/images/orientation/orientation111.jpg"
-import orientation22 from "@/public/images/orientation/orientation112.jpg"
-import acsvisit1 from "@/public/images/prof-inam-acs-nigeria/edu1.jpg"
-import acsvisit2 from "@/public/images/prof-inam-acs-nigeria/edu2.jpg"
-import acsvisit3 from "@/public/images/prof-inam-acs-nigeria/edu3.jpg"
-import acsvisit4 from "@/public/images/prof-inam-acs-nigeria/edu4.jpg"
-import acsvisit5 from "@/public/images/prof-inam-acs-nigeria/edu5.jpg"
-import aasWorkshop from "@/public/images/aas-w2.jpg"
-import aasWorkshop1 from "@/public/images/aas-w.jpg"
-import vueFoundation from "@/public/images/vue-foundation.jpeg"
-import vueFoundation2 from "@/public/images/vue-foundation2.jpeg"
-
-
+import idws from "@/public/images/IDWS/idws1.jpg";
+import idws1 from "@/public/images/IDWS/idws2.jpg";
+import idws2 from "@/public/images/IDWS/idws3.jpg";
+import idws3 from "@/public/images/IDWS/idws4.jpg";
+import idws4 from "@/public/images/IDWS/idws5.jpg";
+import idws5 from "@/public/images/IDWS/idws6.jpg";
+import nuc1 from "@/public/images/nuc/nuc1.jpg";
+import nuc2 from "@/public/images/nuc/nuc2.jpg";
+import orientation from "@/public/images/orientation/orientation1.jpg";
+import orientation1 from "@/public/images/orientation/orientation2.jpg";
+import orientation2 from "@/public/images/orientation/orientation3.jpg";
+import orientation3 from "@/public/images/orientation/orientation4.jpg";
+import orientation4 from "@/public/images/orientation/orientation5.jpg";
+import orientation5 from "@/public/images/orientation/orientation6.jpg";
+import orientation6 from "@/public/images/orientation/orientation7.jpg";
+import orientation7 from "@/public/images/orientation/orientation8.jpg";
+import orientation8 from "@/public/images/orientation/orientation9.jpg";
+import orientation9 from "@/public/images/orientation/orientation10.jpg";
+import orientation10 from "@/public/images/orientation/orientation11.jpg";
+import orientation11 from "@/public/images/orientation/orientation12.jpg";
+import orientation12 from "@/public/images/orientation/orientation13.jpg";
+import orientation13 from "@/public/images/orientation/orientation14.jpg";
+import orientation14 from "@/public/images/orientation/orientation15.jpg";
+import orientation15 from "@/public/images/orientation/orientation16.jpg";
+import orientation16 from "@/public/images/orientation/orientation17.jpg";
+import orientation17 from "@/public/images/orientation/orientation18.jpg";
+import orientation18 from "@/public/images/orientation/orientation19.jpg";
+import orientation21 from "@/public/images/orientation/orientation111.jpg";
+import orientation22 from "@/public/images/orientation/orientation112.jpg";
+import acsvisit1 from "@/public/images/prof-inam-acs-nigeria/edu1.jpg";
+import acsvisit2 from "@/public/images/prof-inam-acs-nigeria/edu2.jpg";
+import acsvisit3 from "@/public/images/prof-inam-acs-nigeria/edu3.jpg";
+import acsvisit4 from "@/public/images/prof-inam-acs-nigeria/edu4.jpg";
+import acsvisit5 from "@/public/images/prof-inam-acs-nigeria/edu5.jpg";
+import aasWorkshop from "@/public/images/aas-w2.jpg";
+import aasWorkshop1 from "@/public/images/aas-w.jpg";
+import vueFoundation from "@/public/images/vue-foundation.jpeg";
+import vueFoundation2 from "@/public/images/vue-foundation2.jpeg";
+import uyoLGAVisit from "@/public/images/uyo-lga-visit4.jpeg";
+import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
+import uyoLGAVisit3 from "@/public/images/uyo-lga-visit2.jpeg";
+import uyoLGAVisit4 from "@/public/images/uyo-lga-visit3.jpeg";
 
 export interface recentNewsTypes {
   title: string;
   description: string[];
   pictures: StaticImageData[];
   date: string;
-  tag?: string
-  writtenBy?: string
+  tag?: string;
+  writtenBy?: string;
 }
 
 export const recentNews: recentNewsTypes[] = [
-{
-  date: "June 16, 2025",
-  title: "Chemistry Department Pays Courtesy Visit to Uyo LGA Chairman",
-  description: [
-    "The Head of Department of Chemistry, University of Uyo, Professor Edu Inam, led a delegation of staff members on a thank-you visit to the Chairman of Uyo Local Government Area, Dr. Uwemdimoh Udo, on Monday, June 16, 2025.",
-
-    "\nThe visit held special significance as Dr. Udo is a distinguished alumnus and former staff member of the Chemistry Department. The delegation presented an award plaque to the Chairman in recognition of his exemplary service and achievements.",
-
-    "\nDr. Udo expressed deep appreciation for the visit and the recognition, extending warm greetings to all department members. He reminisced about his time in the department and emphasized the foundational role it played in his career.",
-
-    "\nThe Chairman has graciously accepted an invitation to visit the Chemistry Department in the coming weeks. While the exact date will be communicated later, all staff and students are encouraged to prepare for this special homecoming event.",
-
-    "\nThe visit celebrated the department's tradition of producing outstanding leaders while fostering continued engagement with its alumni network."
-  ],
-  pictures: [schoolLogo]
-},
   {
-  "date": "June 13, 2025",
-  "title": "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
-  "description": [
-    "The 50th memorial anniversary of the late Dr. (Mrs.) Victoria Ulo Enyenihi (née Mkpokpo), a trailblazing chemist and the first woman from the old Cross River State to earn a Ph.D. in Chemistry, was marked today with a commemorative lecture and celebrations at the University of Uyo.",
+    date: "June 16, 2025",
+    title: "Chemistry Department Pays Courtesy Visit to Uyo LGA Chairman",
+    description: [
+      "The Head of Department of Chemistry, University of Uyo, Professor Edu Inam, led a delegation of staff members on a thank-you visit to the Chairman of Uyo Local Government Area, Dr. Uwemdimoh Udo, on Monday, June 16, 2025.",
 
-    "\nA Life of Brilliance and Breakthroughs\nBorn on July 6, 1944, in Ikot Idem Village, Dr. Enyenihi exhibited exceptional academic prowess from an early age. She excelled at Cornelie-Cornelia College, Uyo, and later at Queen's College, Enugu, before earning a Second-Class Honours degree in Chemistry from the University of Ibadan in 1963. Supported by scholarships, she pursued a Ph.D. under Professor Donald Ekone, focusing on the synthesis and ultraviolet spectra of 4-substituted coumarins derived from Fagara zanthoxyloides, a plant used in traditional African medicine.",
+      "\nThe visit held special significance as Dr. Udo is a distinguished alumnus and former staff member of the Chemistry Department. The delegation presented an award plaque to the Chairman in recognition of his exemplary service and achievements.",
 
-    "\nHer doctoral research led to the discovery of aqueous extracts with anti-sickling properties, offering hope for managing sickle cell disease—a condition that disproportionately affects African populations. Tragically, her promising career was cut short in 1975 when she passed away at the age of 31.",
+      "\nDr. Udo expressed deep appreciation for the visit and the recognition, extending warm greetings to all department members. He reminisced about his time in the department and emphasized the foundational role it played in his career.",
 
-    "\nA Legacy Celebrated\nAt the memorial lecture, Professor Bassey S. Antia of the University of Uyo delivered a keynote address titled 'Natural Products Chemistry and Its Contributions to Advancing Human Health.' He emphasized Dr. Enyenihi's pioneering work and its relevance today, noting that over 60% of modern pharmaceuticals are derived from natural products.",
+      "\nThe Chairman has graciously accepted an invitation to visit the Chemistry Department in the coming weeks. While the exact date will be communicated later, all staff and students are encouraged to prepare for this special homecoming event.",
 
-    "\nIn a significant announcement during the event, the Dr. VUE Foundation awarded a full scholarship to the best female student in the Department of Chemistry at the University of Uyo, who achieved a perfect CGPA of 4.0 in her first year. This award, named in Dr. Enyenihi's honor, aims to encourage young women to pursue excellence in science.",
+      "\nThe visit celebrated the department's tradition of producing outstanding leaders while fostering continued engagement with its alumni network.",
+    ],
+    pictures: [uyoLGAVisit, uyoLGAVisit2, uyoLGAVisit3, uyoLGAVisit4],
+  },
+  {
+    date: "June 13, 2025",
+    title:
+      "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
+    description: [
+      "The 50th memorial anniversary of the late Dr. (Mrs.) Victoria Ulo Enyenihi (née Mkpokpo), a trailblazing chemist and the first woman from the old Cross River State to earn a Ph.D. in Chemistry, was marked today with a commemorative lecture and celebrations at the University of Uyo.",
 
-    "\nThe event underscored the need for continued investment in natural product research and interdisciplinary collaboration. Professor Antia called for sustainable practices, biodiversity conservation, and the integration of traditional knowledge into modern science to address global health challenges like antimicrobial resistance and sickle cell disease.",
+      "\nA Life of Brilliance and Breakthroughs\nBorn on July 6, 1944, in Ikot Idem Village, Dr. Enyenihi exhibited exceptional academic prowess from an early age. She excelled at Cornelie-Cornelia College, Uyo, and later at Queen's College, Enugu, before earning a Second-Class Honours degree in Chemistry from the University of Ibadan in 1963. Supported by scholarships, she pursued a Ph.D. under Professor Donald Ekone, focusing on the synthesis and ultraviolet spectra of 4-substituted coumarins derived from Fagara zanthoxyloides, a plant used in traditional African medicine.",
 
-    "\nDr. Enyenihi's family, including her five children, attended the event. A spokesperson shared, 'We are because you were. Her legacy lives on not just in her scientific achievements but in the lives she touched.'"
-  ],
-  "pictures": [vueFoundation, vueFoundation2]
-},
+      "\nHer doctoral research led to the discovery of aqueous extracts with anti-sickling properties, offering hope for managing sickle cell disease—a condition that disproportionately affects African populations. Tragically, her promising career was cut short in 1975 when she passed away at the age of 31.",
+
+      "\nA Legacy Celebrated\nAt the memorial lecture, Professor Bassey S. Antia of the University of Uyo delivered a keynote address titled 'Natural Products Chemistry and Its Contributions to Advancing Human Health.' He emphasized Dr. Enyenihi's pioneering work and its relevance today, noting that over 60% of modern pharmaceuticals are derived from natural products.",
+
+      "\nIn a significant announcement during the event, the Dr. VUE Foundation awarded a full scholarship to the best female student in the Department of Chemistry at the University of Uyo, who achieved a perfect CGPA of 4.0 in her first year. This award, named in Dr. Enyenihi's honor, aims to encourage young women to pursue excellence in science.",
+
+      "\nThe event underscored the need for continued investment in natural product research and interdisciplinary collaboration. Professor Antia called for sustainable practices, biodiversity conservation, and the integration of traditional knowledge into modern science to address global health challenges like antimicrobial resistance and sickle cell disease.",
+
+      "\nDr. Enyenihi's family, including her five children, attended the event. A spokesperson shared, 'We are because you were. Her legacy lives on not just in her scientific achievements but in the lives she touched.'",
+    ],
+    pictures: [vueFoundation, vueFoundation2],
+  },
   {
     date: "April 14, 2025",
-    title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
+    title:
+      "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
     description: [
       "Great news from the Chemical Society of Nigeria (CSN)! At the recent council meeting held in Makurdi on April 11, 2025, it was reported that CSN National has nominated and recommended five outstanding individuals from Nigeria to attend the 3rd Commonwealth Chemistry Congress scheduled for May 2025 in South Africa.",
       "Among the selected participants is Idongesit Nathaniel Uffot, a PhD student from the Department of Chemistry, University of Uyo, and a proud member of the Akwa Ibom Chapter.",
       "The Head of the Department of Chemistry, University of Uyo, Professor Edu Inam congratulated Mr. Uffot on this prestigious nomination, commending his academic excellence and commitment to research.",
-      "She further encouraged him to represent the department and the university with distinction at the international gathering."
-      
-      
+      "She further encouraged him to represent the department and the university with distinction at the international gathering.",
     ],
     pictures: [schoolLogo],
   },
   {
     date: "April 11, 2025",
-    title: "Empowering Lab Leadership: Head of Technical Unit Attends AAS Instrumentation Workshop",
+    title:
+      "Empowering Lab Leadership: Head of Technical Unit Attends AAS Instrumentation Workshop",
     description: [
       "We are pleased to announce that Mrs. Ubon Emmanuel, Head of the Technical Unit, Department of Chemistry, University of Uyo, successfully participated in the One Week Physical and Virtual Training Workshop on Atomic Absorption Spectrometry (AAS) Operation, Result Analysis, and Interpretation.",
       "Organized by the University of Calabar Research & Central Lab in collaboration with the Directorate of Equipment Maintenance, the workshop was held from April 7th to 11th, 2025 at the Unical Central Lab.",
@@ -300,117 +303,136 @@ export const recentNews: recentNewsTypes[] = [
       "- Interpretation of results",
       "- Hands-on demonstration and certificate issuance",
       "This capacity-building engagement underscores the department’s commitment to continuous professional development and technical excellence.",
-      "The Head of Department, Professor Edu Inam commended Mrs. Ubon Emmanuel for her dedication to advancing her skills and contributing to the growth of our academic and research capabilities."
+      "The Head of Department, Professor Edu Inam commended Mrs. Ubon Emmanuel for her dedication to advancing her skills and contributing to the growth of our academic and research capabilities.",
     ],
     pictures: [aasWorkshop, aasWorkshop1],
   },
-  
+
   {
     date: "April 02, 2025",
     title: "UNIUYO Releases New Guidelines for CBT Exam Registration",
     description: [
       "The University of Uyo has officially released updated guidelines for online registration for CBT-mode examinations for the First Semester of the 2024/2025 academic session. This update, approved by the Vice Chancellor, Professor Nyaudoh Ndaeyo, becomes effective from Monday, March 31, 2025.",
-      
+
       "\nThe affected courses include: PHY 111, PHY 112, PHY 117, CHM 111, CHM 117, CHM 210, CHM 211, CHM 217, CHM 218, UNIUYO CHM 216, UNIUYO CHM 215, SSC 211, SOC 111, SOC 112, EDU 111, EDU 211, ESS 113, ESS 215, ANA 211, ANA 212, ANA 213, ANM 211a, ANM 211b, ANM 212, and ANM 213.",
-  
+
       "\nAll Year 1 and Year 2 students are required to comply with this new directive. To register, students must visit the portal at cbt.uniuyo.edu.ng, input their registration number,  Enter active phone number and email (and check email to complete the verification process) , select their courses, pay a registration fee of ₦500, and download the confirmation printout after successful registration.",
-  
+
       "\nIn a related update, the CHM111 and CHM117 examinations have been rescheduled to hold on May 14 and 15, 2025, at the ICT Unit, Annex Campus. Students are advised to take note of this new schedule and prepare accordingly.",
-  
-      "\nThis circular supersedes all previous announcements, including the one dated."
+
+      "\nThis circular supersedes all previous announcements, including the one dated.",
     ],
     pictures: [schoolLogo],
   },
-  
+
   {
-    "date": "March, 2025", 
-    "title": "Prof Edu Inam Assumes Office as the 2nd Substantive Chair, ACS Nigeria International Sciences Chapter",
-    "description": [
-        "Professor Edu J. Inam has officially assumed office as the 2nd substantive Chair of the American Chemical Society (ACS) Nigeria International Sciences Chapter, marking a significant milestone in the chapter’s leadership and scientific advancement.",
-        
-        "\nWith a distinguished career in environmental chemistry and sustainability research, Professor Inam has been a driving force in fostering innovation, mentorship, and inclusivity within the Nigerian scientific community. Her new role as Chair reinforces her commitment to strengthening research collaborations, promoting gender equity in STEM, and advancing chemistry’s impact on national and global development.",
-        
-        "\nSince assuming office, Professor Inam has led several strategic engagements aimed at expanding ACS Nigeria’s influence and partnerships. Alongside ACS Nigeria members, she paid courtesy and collaboration visits to key stakeholders, including the Honourable Minister of Innovation, Science and Technology, Chief Uche Geoffrey Nnaji, and the Director-General of the Energy Commission of Nigeria, Dr. Mustapha Abdullahi. These visits underscored the society’s commitment to fostering research-driven innovation in Nigeria.",
-        
-        "\nIn a bid to deepen scientific collaboration, Professor Inam also led a delegation to the Sheda Science and Technology Complex (SHESTCO) in Abuja, where they engaged with the DG, Prof. Paul Chidozie Onyenekwe. The visit provided insights into SHESTCO’s cutting-edge research and potential areas for synergy, with special appreciation extended to Dr. Mike Afolayan and Mr. Adenisi Akinyemi for facilitating a guided tour of the Chemistry Advanced Research Centre.",
-        
-        "\nFurthermore, ACS Nigeria, under Professor Inam’s leadership, secured a strong partnership with the National Open University of Nigeria (NOUN), Abuja. A courtesy visit to the Vice-Chancellor’s office allowed the team to express gratitude for NOUN’s approval to host the 10th Annual Symposium of ACS Nigeria and for the institution’s unwavering support in ensuring a successful event.",
-        
-        "\nIn another strategic move, the ACS Nigeria team engaged with the Office of the Senior Special Assistant (SSA) to the President on Sustainable Development Goals (SDGs) to explore potential partnerships for the upcoming symposium. These discussions highlight ACS Nigeria’s commitment to leveraging scientific expertise for national development.",
-        
-        "\nAs the first woman to hold this esteemed position, Professor Inam’s leadership is expected to inspire and empower young scientists, particularly women, to actively participate in research and professional development. Under her guidance, ACS Nigeria aims to expand its initiatives in scientific education, industry partnerships, and community-driven solutions to pressing environmental and energy challenges.",
-        
-        "\nThe chemistry community and stakeholders across the country have expressed confidence in her ability to lead and innovate, ensuring that ACS Nigeria remains a formidable force in the advancement of the chemical sciences."
+    date: "March, 2025",
+    title:
+      "Prof Edu Inam Assumes Office as the 2nd Substantive Chair, ACS Nigeria International Sciences Chapter",
+    description: [
+      "Professor Edu J. Inam has officially assumed office as the 2nd substantive Chair of the American Chemical Society (ACS) Nigeria International Sciences Chapter, marking a significant milestone in the chapter’s leadership and scientific advancement.",
+
+      "\nWith a distinguished career in environmental chemistry and sustainability research, Professor Inam has been a driving force in fostering innovation, mentorship, and inclusivity within the Nigerian scientific community. Her new role as Chair reinforces her commitment to strengthening research collaborations, promoting gender equity in STEM, and advancing chemistry’s impact on national and global development.",
+
+      "\nSince assuming office, Professor Inam has led several strategic engagements aimed at expanding ACS Nigeria’s influence and partnerships. Alongside ACS Nigeria members, she paid courtesy and collaboration visits to key stakeholders, including the Honourable Minister of Innovation, Science and Technology, Chief Uche Geoffrey Nnaji, and the Director-General of the Energy Commission of Nigeria, Dr. Mustapha Abdullahi. These visits underscored the society’s commitment to fostering research-driven innovation in Nigeria.",
+
+      "\nIn a bid to deepen scientific collaboration, Professor Inam also led a delegation to the Sheda Science and Technology Complex (SHESTCO) in Abuja, where they engaged with the DG, Prof. Paul Chidozie Onyenekwe. The visit provided insights into SHESTCO’s cutting-edge research and potential areas for synergy, with special appreciation extended to Dr. Mike Afolayan and Mr. Adenisi Akinyemi for facilitating a guided tour of the Chemistry Advanced Research Centre.",
+
+      "\nFurthermore, ACS Nigeria, under Professor Inam’s leadership, secured a strong partnership with the National Open University of Nigeria (NOUN), Abuja. A courtesy visit to the Vice-Chancellor’s office allowed the team to express gratitude for NOUN’s approval to host the 10th Annual Symposium of ACS Nigeria and for the institution’s unwavering support in ensuring a successful event.",
+
+      "\nIn another strategic move, the ACS Nigeria team engaged with the Office of the Senior Special Assistant (SSA) to the President on Sustainable Development Goals (SDGs) to explore potential partnerships for the upcoming symposium. These discussions highlight ACS Nigeria’s commitment to leveraging scientific expertise for national development.",
+
+      "\nAs the first woman to hold this esteemed position, Professor Inam’s leadership is expected to inspire and empower young scientists, particularly women, to actively participate in research and professional development. Under her guidance, ACS Nigeria aims to expand its initiatives in scientific education, industry partnerships, and community-driven solutions to pressing environmental and energy challenges.",
+
+      "\nThe chemistry community and stakeholders across the country have expressed confidence in her ability to lead and innovate, ensuring that ACS Nigeria remains a formidable force in the advancement of the chemical sciences.",
     ],
-    pictures: [acsvisit2, acsvisit1, acsvisit3, acsvisit4, acsvisit5]
-}
+    pictures: [acsvisit2, acsvisit1, acsvisit3, acsvisit4, acsvisit5],
+  },
 
-,
-{
-
+  {
     date: "March 8, 2025",
     title: "Chemistry Department Celebrates International Women’s Day 2025",
     description: [
-    'The Chemistry Department of the University of Uyo celebrated International Women’s Day 2025 by honoring its outstanding female staff, whose contributions have significantly advanced research and academia.',
-  '\nLeading the honorees was Professor Edu Inam, Head of the Department and the university’s top female researcher. Her groundbreaking work in environmental chemistry has set a high standard for excellence in the department and beyond.',
+      "The Chemistry Department of the University of Uyo celebrated International Women’s Day 2025 by honoring its outstanding female staff, whose contributions have significantly advanced research and academia.",
+      "\nLeading the honorees was Professor Edu Inam, Head of the Department and the university’s top female researcher. Her groundbreaking work in environmental chemistry has set a high standard for excellence in the department and beyond.",
 
-  "\nOther notable female staff celebrated include Professor Imaobong Udousoro, Professor Eno Moses, Dr. Imaobong Daniel, Dr. Atim Johnson, and Dr. Helen Etuk. Their achievements in fields such as analytical chemistry, organic chemistry and inorganic chemistry have not only elevated the department’s reputation but also inspired future generations of scientists.",
+      "\nOther notable female staff celebrated include Professor Imaobong Udousoro, Professor Eno Moses, Dr. Imaobong Daniel, Dr. Atim Johnson, and Dr. Helen Etuk. Their achievements in fields such as analytical chemistry, organic chemistry and inorganic chemistry have not only elevated the department’s reputation but also inspired future generations of scientists.",
 
-  "\nThe event highlighted the department’s commitment to gender equality in STEM and celebrated the transformative impact of women in science. It served as a reminder of the importance of empowering women to break barriers and lead in academia and research.",
-],
-pictures: [sendforth4],
-},
+      "\nThe event highlighted the department’s commitment to gender equality in STEM and celebrated the transformative impact of women in science. It served as a reminder of the importance of empowering women to break barriers and lead in academia and research.",
+    ],
+    pictures: [sendforth4],
+  },
   {
     date: "February, 2025",
     title: "CBT Registration for CHM 111 and CHM 117",
     description: [
-      'The Department of Chemistry, University of Uyo, has launched its CBT Registration Platform for CHM 111 and CHM 117 examinations. All students taking these courses must complete their registration on the platform to be eligible to sit for the exams.',
+      "The Department of Chemistry, University of Uyo, has launched its CBT Registration Platform for CHM 111 and CHM 117 examinations. All students taking these courses must complete their registration on the platform to be eligible to sit for the exams.",
       "Important Guidelines:",
       "1. Students who fail to register on the platform will not be allowed to sit for CHM 111 and CHM 117.",
       "2. In addition to CBT registration, students must also register for CHM 111 and CHM 117 on the University student portal (https://uniuyo.edu.ng/eportals). Failure to do so will result in missing results for these courses.",
-    "3. A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
-    "4. All carryover students should visit the department for further clarification regarding their registration.",
+      "3. A printed copy of the CBT registration confirmation is required for admittance into the examination hall.",
+      "4. All carryover students should visit the department for further clarification regarding their registration.",
       "All students are advised to complete their registration on time to avoid any inconveniences.",
-      "For complaints, visit the Departmental Office on Monday - Wednesday between 10AM and 2PM or contact Nathaniel electronically at 09034940576."
-
+      "For complaints, visit the Departmental Office on Monday - Wednesday between 10AM and 2PM or contact Nathaniel electronically at 09034940576.",
     ],
     pictures: [schoolLogo],
   },
   {
     date: "February, 2025",
-    title: "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
+    title:
+      "Department of Chemistry Holds Welcome Orientation for Freshmen and Women",
     description: [
-      'The Department of Chemistry, University of Uyo, recently organized a welcome orientation program for its newly admitted students. The event, held at the department’s lecture hall, provided an avenue for students to familiarize themselves with academic expectations, departmental regulations, and extracurricular opportunities.',
-      '\nIn her opening remarks, the Head of Department, Professor Edu Inam warmly welcomed the students, providing a brief history of the department and emphasizing its ethos of academic excellence, discipline, and innovation. She encouraged the students to take advantage of the department’s resources to excel in their studies.',
+      "The Department of Chemistry, University of Uyo, recently organized a welcome orientation program for its newly admitted students. The event, held at the department’s lecture hall, provided an avenue for students to familiarize themselves with academic expectations, departmental regulations, and extracurricular opportunities.",
+      "\nIn her opening remarks, the Head of Department, Professor Edu Inam warmly welcomed the students, providing a brief history of the department and emphasizing its ethos of academic excellence, discipline, and innovation. She encouraged the students to take advantage of the department’s resources to excel in their studies.",
       "\nDr. Ini Umoren delivered an insightful presentation on examination misconducts and regulations, stressing the importance of integrity in academic assessments. Dr. Simon followed with a session on results and computations, guiding students on how their grades are calculated and the importance of maintaining good academic standing.",
       "\nOther staff members present shared valuable advice with the students, urging them to stay committed to their studies and seek guidance whenever necessary.",
       "\nA key highlight of the event was the introduction of students to professional organizations within the department, including the Students Chemical Society of Nigeria (SCSN), University of Uyo Chapter, and the American Chemical Society (ACS), University of Uyo International Students Chapter. The presidents of both organizations took turns addressing the students, emphasizing the benefits of joining, including networking, skill development, and access to academic and career opportunities.",
       "\nThe event concluded with an interactive session where students had the opportunity to ask questions and seek clarification on various aspects of their academic journey.",
       "\nThe orientation served as an essential first step in helping new students integrate into the department and set the tone for a successful academic experience.",
-
     ],
-    pictures: [orientation, orientation1, orientation21, orientation22, orientation2, orientation3, orientation4, orientation5, orientation6, orientation7, orientation8, orientation9, orientation10, orientation11, orientation12, orientation13, orientation14, orientation15, orientation16, orientation17, orientation18,],
+    pictures: [
+      orientation,
+      orientation1,
+      orientation21,
+      orientation22,
+      orientation2,
+      orientation3,
+      orientation4,
+      orientation5,
+      orientation6,
+      orientation7,
+      orientation8,
+      orientation9,
+      orientation10,
+      orientation11,
+      orientation12,
+      orientation13,
+      orientation14,
+      orientation15,
+      orientation16,
+      orientation17,
+      orientation18,
+    ],
   },
   {
     date: "February, 2025",
-    title: "University of Uyo Researchers Shine in AD Scientific Index Rankings 2025",
+    title:
+      "University of Uyo Researchers Shine in AD Scientific Index Rankings 2025",
     description: [
-      'The University of Uyo has once again demonstrated its academic prowess with 850 of its researchers featured in the prestigious AD Scientific Index Rankings for 2025. This remarkable achievement highlights the university’s excellence in research and scholarship across various disciplines.',
+      "The University of Uyo has once again demonstrated its academic prowess with 850 of its researchers featured in the prestigious AD Scientific Index Rankings for 2025. This remarkable achievement highlights the university’s excellence in research and scholarship across various disciplines.",
 
-      '\nAmong the standout performers is Professor Edu Inam, the Head of the Department of Chemistry, who is the highest-ranking female researcher in the university. Her achievement underscores the vital contributions of women to academia and research in the Department of Chemistry and University of Uyo.',
+      "\nAmong the standout performers is Professor Edu Inam, the Head of the Department of Chemistry, who is the highest-ranking female researcher in the university. Her achievement underscores the vital contributions of women to academia and research in the Department of Chemistry and University of Uyo.",
 
       "\nThe Department of Chemistry has distinguished itself as a leader in the rankings, dominating the top 20 positions. Dr. Emmanuel Essien, Professor Bassey Antia, Dr. Ekemini Ituen, Professor Basil Ita and Professor Anthony Udoh among others secured prominent spots, further reinforcing the department's reputation as a hub for groundbreaking research.",
 
       "\nThis success is a testament to the dedication of the researchers in the Department of Chemistry and the institution’s commitment to advancing knowledge and innovation. The University of Uyo continues to set the standard for academic excellence in Nigeria and beyond.",
-
     ],
     pictures: [schoolLogo],
   },
   {
     date: "February, 2025",
     tag: "student",
-    title:
-      "Chemistry Department organizes makeup practicals for new students",
+    title: "Chemistry Department organizes makeup practicals for new students",
     description: [
       "The Department of Chemistry has organized make-up practical sessions for newly admitted students to ensure they meet all laboratory requirements. These sessions are designed to help students who missed earlier practical classes.",
 
@@ -419,7 +441,6 @@ pictures: [sendforth4],
       "Students are required to come prepared with their laboratory manuals and laboratory coats. The schedule for the make-up practicals has been posted on the department's notice board.",
     ],
     pictures: [schoolLogo],
-
   },
   {
     date: "January, 2025",
@@ -430,49 +451,48 @@ pictures: [sendforth4],
       "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 academic sessions for Year one and Year two students. According to the released schedule, lectures commences on Wednesday, 8th January, 2025.",
       "Orientation excercise for the new students (Year one and Year two) will ensue for 1 week between January 27th and January 31st 2025",
 
-      '\nFollowing the orientation period, first semester examinations will take place from March 24, 2025, to April 11, 2025, lasting three weeks.',
+      "\nFollowing the orientation period, first semester examinations will take place from March 24, 2025, to April 11, 2025, lasting three weeks.",
 
       "\nFor further details on the approved calendar, please download the approved calender below",
-
     ],
     pictures: [schoolLogo],
-
-
   },
 
   {
     date: "January, 2025",
     tag: "student",
-    title: "Department of Chemistry releases lecture schedule for General Chemistry I",
+    title:
+      "Department of Chemistry releases lecture schedule for General Chemistry I",
     description: [
-      'The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.',
-      '\nThe schedule has been structured to ensure maximum engagement and optimal learning. Students are encouraged to familiarize themselves with the timetable and plan accordingly.',
-      '\nFor further inquiries or clarifications, students are advised to contact the course coordinator, Dr. Shaibu, in his office located at the Faculty of Science, Room 30.',
-
+      "The Department of Chemistry has officially released the lecture schedule for CHM111: General Chemistry 1 for 100-level students. This foundational course serves as an essential introduction to the principles of chemistry, equipping students with the knowledge required for their academic journey in the sciences.",
+      "\nThe schedule has been structured to ensure maximum engagement and optimal learning. Students are encouraged to familiarize themselves with the timetable and plan accordingly.",
+      "\nFor further inquiries or clarifications, students are advised to contact the course coordinator, Dr. Shaibu, in his office located at the Faculty of Science, Room 30.",
     ],
     pictures: [schoolLogo],
   },
   {
     date: "December, 2024",
     tag: "",
-    title: "NUC Accreditation Team Commends University of Uyo Chemistry Department",
+    title:
+      "NUC Accreditation Team Commends University of Uyo Chemistry Department",
     description: [
-      'The Department of Chemistry, University of Uyo, received a visit from the National Universities Commission (NUC) accreditation team from December 8 to 10, 2024. The visit assessed the department\'s compliance with academic standards for the B.Sc. Chemistry program, and the results were overwhelmingly positive.',
+      "The Department of Chemistry, University of Uyo, received a visit from the National Universities Commission (NUC) accreditation team from December 8 to 10, 2024. The visit assessed the department's compliance with academic standards for the B.Sc. Chemistry program, and the results were overwhelmingly positive.",
       "During the review, the NUC team confirmed the following:\n\n<ul><li>1. The curriculum is both comprehensive and tailored to meet the requirements of a B.Sc. Chemistry program.</li><li>2. The admissions process adheres strictly to the 5-credit O-level requirement, ensuring that all admitted students have credits in English, Mathematics, Chemistry, and either Physics or Biology.</li><li>3. The course content is deemed adequate and relevant for a robust undergraduate chemistry program.</li><li>4. Lectures and practicals are delivered as required, ensuring students receive a balanced theoretical and hands-on education.</li><li>5. The department's facilities, including classrooms, laboratories, and the library, are accessible and adequately serve the needs of all students.</li><li>The department's commitment to academic excellence and adherence to NUC standards underscores its dedication to producing competent and well-trained graduates.</li></ul>",
-      "For further updates on departmental activities, stay connected to the Chemistry Department's website."
+      "For further updates on departmental activities, stay connected to the Chemistry Department's website.",
     ],
     pictures: [nuc1, nuc2],
   },
   {
     date: "November, 2024",
     tag: "",
-    title: "Professor Edu Inam Highlights Financial Imperatives for Advancing Circular Water Management at IDWS Panel",
+    title:
+      "Professor Edu Inam Highlights Financial Imperatives for Advancing Circular Water Management at IDWS Panel",
     description: [
       'At the recent panel on "From Wastewater to Resource: Implementing Circular Economy Principles in Water Management", Professor Edu Inam underscored the critical role of financial investment in advancing wastewater reuse technologies. The discussion, which brought together global experts in water management, focused on transforming wastewater into valuable resources, reducing reliance on freshwater and desalination, and mitigating environmental impacts through circular economy principles.',
       'Professor Inam, a leading voice on sustainable water practices, emphasized that "financial support is essential for maximizing the benefits of wastewater." Her statement resonated with the audience, drawing attention to the necessity of robust funding to bridge the gap between innovative technologies and large-scale implementation.',
-      'The panel explored real-world case studies showcasing successful wastewater reuse initiatives. These examples demonstrated how resource recovery not only supports water sustainability but also creates economic opportunities, particularly in water-scarce regions. Professor Inam highlighted that while technological advancements continue to evolve, achieving widespread adoption requires targeted investments in infrastructure, research, and capacity-building programs.',
-      'In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.',
-      'The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam\'s contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.'
+      "The panel explored real-world case studies showcasing successful wastewater reuse initiatives. These examples demonstrated how resource recovery not only supports water sustainability but also creates economic opportunities, particularly in water-scarce regions. Professor Inam highlighted that while technological advancements continue to evolve, achieving widespread adoption requires targeted investments in infrastructure, research, and capacity-building programs.",
+      "In addition to technological insights, the discussion addressed policy and regulatory frameworks that enable water reuse projects to thrive. Professor Inam noted the importance of collaborative approaches between governments, private sectors, and communities to ensure that these frameworks are inclusive and effective.",
+      "The session provided attendees with a forward-looking perspective on how circular economy principles can redefine water management globally, with Professor Inam's contributions adding a critical layer of insight into the financial pathways necessary to achieve these goals.",
     ],
     pictures: [idws4, idws1, idws2, idws3, idws, idws5],
   },
@@ -482,22 +502,19 @@ pictures: [sendforth4],
     title:
       "Professor Edu Inam Invited as Panelist at IDWS Conference 2024 in Saudi Arabia",
     description: [
-      'The Saudi Water Authority (SWA) has extended an exclusive invitation to Prof. Edu Inam to participate as a distinguished panelist at the Innovation Driven Water Sustainability (IDWS) Conference 2024, scheduled to take place from 25 to 27 November 2024 at the Ritz-Carlton, Jeddah, Saudi Arabia.',
+      "The Saudi Water Authority (SWA) has extended an exclusive invitation to Prof. Edu Inam to participate as a distinguished panelist at the Innovation Driven Water Sustainability (IDWS) Conference 2024, scheduled to take place from 25 to 27 November 2024 at the Ritz-Carlton, Jeddah, Saudi Arabia.",
 
       "\nThe IDWS Conference, organized by SWA, serves as a critical platform to discuss and address global challenges in water sustainability. This year’s event will emphasize the critical need for affordable, abundant, and accessible water, while exploring cutting-edge innovations and strategies in collaboration with global stakeholders.",
 
       "\nProf. Edu Inam’s selection acknowledges her remarkable contributions to water innovation and sustainability. Her presence is expected to significantly enhance the global dialogue on creating sustainable water solutions. In addition to serving as a panelist, Prof. Inam will enjoy access to the Global Prize in Desalination (GPID) ceremony on 25 November, celebrating groundbreaking achievements in water innovation and technology.",
 
-      '\nThis prestigious event reinforces the importance of collaboration and innovation in shaping the future of global water sustainability, bringing together key experts and thought leaders to share insights and solutions.',
-
-
+      "\nThis prestigious event reinforces the importance of collaboration and innovation in shaping the future of global water sustainability, bringing together key experts and thought leaders to share insights and solutions.",
     ],
     pictures: [profInam],
   },
   {
     date: "November, 2024",
-    title:
-      "Professor Imaobong Udousoro promoted to Professorial Cadre",
+    title: "Professor Imaobong Udousoro promoted to Professorial Cadre",
     description: [
       "The University of Uyo is delighted to announce the promotion of Dr. Imaobong Udousoro to the esteemed rank of Professor. This well-deserved achievement reflects her exceptional contributions to the field of Chemistry and her dedication to academic excellence.",
       "Prof. Udousoro, a renowned scholar in Analytical/Environmental Chemistry, has made significant strides in research, teaching, and mentoring. She holds a PhD in Analytical Chemistry and has a robust portfolio of publications addressing critical environmental challenges, particularly water quality and pollution studies.",
@@ -505,8 +522,6 @@ pictures: [sendforth4],
       "\nThe Head of Department extended heartfelt congratulations to Prof. Udousoro, commending her as a pillar of academic strength in the university community. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of Professor Udousoro's hard work and dedication.",
     ],
     pictures: [imaUdousoro],
-
-
   },
   {
     date: "November, 2024",
@@ -520,13 +535,33 @@ pictures: [sendforth4],
 
       "\nIn her presentation, Professor Aderibigbe emphasized the importance of collaboration between academic institutions and the need for students to explore innovative approaches to solving global health challenges. She also expressed her gratitude to the University of Uyo for laying the foundation for her successful academic career and highlighted the importance of giving back to the institution that helped shape her.",
 
-      '\nThe lecture was well-attended by both current students and faculty members, who were deeply appreciative of the opportunity to engage with an accomplished alumna. The event also served as a platform for discussions on potential partnerships between the University of Uyo’s Department of Chemistry and Fort Hare University, aimed at advancing research in hybrid-based therapeutics and other areas of scientific exploration.',
+      "\nThe lecture was well-attended by both current students and faculty members, who were deeply appreciative of the opportunity to engage with an accomplished alumna. The event also served as a platform for discussions on potential partnerships between the University of Uyo’s Department of Chemistry and Fort Hare University, aimed at advancing research in hybrid-based therapeutics and other areas of scientific exploration.",
 
       '\nThe Head of the Department of Chemistry at the University of Uyo,Professor Edu Inam, expressed her gratitude to Professor Aderibigbe for her generosity in returning to the university to share her knowledge and experiences. "We are proud of Professor Aderibigbe’s remarkable achievements and are thrilled to see her continue to succeed in her field. Her return today is a testament to the lasting impact the University of Uyo has on its graduates, and we look forward to exploring new avenues for collaboration that will benefit both institutions."',
-      '\nThe event concluded with a vibrant Q&A session, during which students had the opportunity to interact with Professor Aderibigbe and discuss her work in greater detail.',
-
+      "\nThe event concluded with a vibrant Q&A session, during which students had the opportunity to interact with Professor Aderibigbe and discuss her work in greater detail.",
     ],
-    pictures: [hybridLecture, hybridLecture1, hybridLecture2, hybridLecture3, hybridLecture4, hybridLecture6, hybridLecture7, hybridLecture8, hybridLecture9, hybridLecture10, hybridLecture11, hybridLecture12, hybridLecture13, hybridLecture14, hybridLecture15, hybridLecture16, hybridLecture17, hybridLecture18, hybridLecture19, hybridLecture20],
+    pictures: [
+      hybridLecture,
+      hybridLecture1,
+      hybridLecture2,
+      hybridLecture3,
+      hybridLecture4,
+      hybridLecture6,
+      hybridLecture7,
+      hybridLecture8,
+      hybridLecture9,
+      hybridLecture10,
+      hybridLecture11,
+      hybridLecture12,
+      hybridLecture13,
+      hybridLecture14,
+      hybridLecture15,
+      hybridLecture16,
+      hybridLecture17,
+      hybridLecture18,
+      hybridLecture19,
+      hybridLecture20,
+    ],
   },
   {
     date: "November, 2024",
@@ -540,31 +575,36 @@ pictures: [sendforth4],
 
       "\nDr. Aniekan Akpakpan also received his PhD in Industrial Chemistry with a thesis titled, “Preparation, Characterization, and Application of Lignin and Lignin Ester from Gmelina Wood as Bioadsorbent in the Treatment of Gold Mining Effluents.” Dr. Akpakpan’s research explores sustainable bioadsorbent materials derived from lignin, a natural polymer, to treat gold mining wastewater. His work demonstrates an eco-friendly approach to wastewater treatment, with potential applications in the mining industry and beyond.",
 
-      '\nBoth graduates were supervised by Distinguished Professor Ukana D. Akpabio and Professor Edu Inam, whose expertise and guidance were instrumental in supporting their innovative research. The Chemistry Department recognized Professors Akpabio and Inam for their dedication to nurturing groundbreaking studies and advancing the university’s reputation as a center for research excellence.',
+      "\nBoth graduates were supervised by Distinguished Professor Ukana D. Akpabio and Professor Edu Inam, whose expertise and guidance were instrumental in supporting their innovative research. The Chemistry Department recognized Professors Akpabio and Inam for their dedication to nurturing groundbreaking studies and advancing the university’s reputation as a center for research excellence.",
 
-      '\nThe Department of Chemistry congratulates all her PhD graduates and looks forward to the meaningful contributions they will make to environmental science, industry, and beyond. The impact of their work will extend beyond academia, bringing practical solutions to real-world challenges. Congratulations again to the PhD Chemistry Class of 2021/2022—your achievements inspire us all!',
-
+      "\nThe Department of Chemistry congratulates all her PhD graduates and looks forward to the meaningful contributions they will make to environmental science, industry, and beyond. The impact of their work will extend beyond academia, bringing practical solutions to real-world challenges. Congratulations again to the PhD Chemistry Class of 2021/2022—your achievements inspire us all!",
     ],
-    pictures: [phdConvo, phdConvo1, phdConvo2, phdConvo3, phdConvo4, phdConvo5, phdConvo6],
+    pictures: [
+      phdConvo,
+      phdConvo1,
+      phdConvo2,
+      phdConvo3,
+      phdConvo4,
+      phdConvo5,
+      phdConvo6,
+    ],
   },
   {
     date: "November, 2024",
     tag: "student",
-    title:
-      "Department of Chemistry Celebrates Best Graduating Student",
+    title: "Department of Chemistry Celebrates Best Graduating Student",
     description: [
       "In a heartfelt ceremony celebrating academic excellence, the Department of Chemistry, Univeristy of Uyo, led by  Professor Edu Inam, recently congratulated the department’s best graduating student for the 2021/2022 academic session.",
 
       "\nThe accolade was awarded to Mr. Iniubong Okon Umana, who graduated with a first-class degree, achieving an impressive CGPA of 4.52/5.00, setting a new benchmark for future students in the department. During the convocation ceremony organized by the university, which was attended by faculty, staff, and fellow students, Professor Inam commended Mr. Umana for his dedication, hard work, and outstanding academic performance throughout his studies.",
 
-      '\n“Iniubong Umana has exemplified the values of excellence, persistence, and integrity that we instill in our students,” said Professor Inam during his congratulatory speech. “His remarkable achievement not only reflects personal diligence but also the strength of our department and the quality of education we provide. We are incredibly proud of this accomplishment and excited for the bright future that lies ahead.”',
+      "\n“Iniubong Umana has exemplified the values of excellence, persistence, and integrity that we instill in our students,” said Professor Inam during his congratulatory speech. “His remarkable achievement not only reflects personal diligence but also the strength of our department and the quality of education we provide. We are incredibly proud of this accomplishment and excited for the bright future that lies ahead.”",
 
-      '\nIn addition to the congratulatory message, the department presented Mr. Umana with a certificate of excellence, a symbolic token of achievement, and a recommendation for future academic and professional opportunities.',
+      "\nIn addition to the congratulatory message, the department presented Mr. Umana with a certificate of excellence, a symbolic token of achievement, and a recommendation for future academic and professional opportunities.",
 
       '\nSpeaking after the ceremony, Mr. Umana expressed his gratitude for the support he received from the department, mentors, and peers throughout his academic journey. "I am truly honored to receive this recognition," he said. "This achievement is a result of hard work, sacrifice, and the unwavering support of the Department of Chemistry at the University of Uyo. I look forward to contributing to the field of chemistry and making a positive impact on society."',
 
-      '\nThe Department of Chemistry remains committed to fostering academic excellence, and the recognition of students like Iniubong Umana serves as a reminder of the potential for greatness within the department',
-
+      "\nThe Department of Chemistry remains committed to fostering academic excellence, and the recognition of students like Iniubong Umana serves as a reminder of the potential for greatness within the department",
     ],
     pictures: [convocationBSC4, BGS2],
   },
@@ -580,18 +620,27 @@ pictures: [sendforth4],
 
       "\nAmong the graduating class were several outstanding individuals whose achievements and contributions were recognized during the ceremony. The Class Representative, Nathaniel Essien, was commended for his exceptional leadership and unwavering support for his fellow students throughout his studies. His ability to foster unity within the class and advocate for his peers has left a lasting impact on both students and faculty.",
 
-      '\nThe department also celebrated the Best Graduating Student for the 2021/2022 academic session, Iniubong Umana, whose academic accomplishments and dedication to scientific exploration have set a new standard of excellence. This top graduate excelled in coursework, research projects, and departmental initiatives, earning multiple academic awards and accolades. His hard work has made him a role model for current and future chemistry students.',
+      "\nThe department also celebrated the Best Graduating Student for the 2021/2022 academic session, Iniubong Umana, whose academic accomplishments and dedication to scientific exploration have set a new standard of excellence. This top graduate excelled in coursework, research projects, and departmental initiatives, earning multiple academic awards and accolades. His hard work has made him a role model for current and future chemistry students.",
 
-      '\nAs these fresh graduates embark on new paths, whether in industry, academia, or advanced research, the University of Uyo community eagerly anticipates their future contributions to chemistry and the broader scientific world. This convocation marks a significant milestone in their careers and the beginning of their journey as ambassadors of scientific advancement. Congratulations to the B.Sc. Chemistry Class of 2021/2022!',
-
+      "\nAs these fresh graduates embark on new paths, whether in industry, academia, or advanced research, the University of Uyo community eagerly anticipates their future contributions to chemistry and the broader scientific world. This convocation marks a significant milestone in their careers and the beginning of their journey as ambassadors of scientific advancement. Congratulations to the B.Sc. Chemistry Class of 2021/2022!",
     ],
-    pictures: [convocationBSC, convocationBSC1, convocationBSC2, convocationBSC3, convocationBSC4, convocationBSC5, convocationBSC6, convocationBSC7, convocationBSC8, convocationBSC10],
+    pictures: [
+      convocationBSC,
+      convocationBSC1,
+      convocationBSC2,
+      convocationBSC3,
+      convocationBSC4,
+      convocationBSC5,
+      convocationBSC6,
+      convocationBSC7,
+      convocationBSC8,
+      convocationBSC10,
+    ],
   },
   {
     date: "November, 2024",
     tag: "student",
-    title:
-      "Chemistry Students Shine at Akwa Ibom Tech Week",
+    title: "Chemistry Students Shine at Akwa Ibom Tech Week",
     description: [
       "In a groundbreaking move that underscores the growing role of chemistry students in technological innovation, the Department of Chemistry at the University of Uyo participated in this year's Akwa Ibom Tech Week, an event that brings together the brightest minds in technology, innovation, and science from across the region.",
 
@@ -600,8 +649,7 @@ pictures: [sendforth4],
       "\nThe students also had the opportunity to ask thought-provoking questions, particularly about computational chemistry and the use of artificial intelligence to model chemical reactions and predict molecular behavior with unprecedented accuracy.",
 
       '\n Professor Edu Inam, Head of the Department of Chemistry, expressed immense pride in the students’ contributions: "Our students are not just learning about chemistry; they are applying it to solve real-world problems. This collaboration with Akwa Ibom Tech Week gives them a platform to showcase their talents and further strengthens the link between science, technology, and entrepreneurship."',
-      '\nThe involvement of chemistry students at Akwa Ibom Tech Week reflects a growing recognition of the importance of chemical sciences in driving technological advancement. The department plans to continue its participation in future tech events, encouraging more students to engage in interdisciplinary collaboration and contribute to the region’s expanding tech ecosystem.',
-
+      "\nThe involvement of chemistry students at Akwa Ibom Tech Week reflects a growing recognition of the importance of chemical sciences in driving technological advancement. The department plans to continue its participation in future tech events, encouraging more students to engage in interdisciplinary collaboration and contribute to the region’s expanding tech ecosystem.",
     ],
     pictures: [aktw1, aktw2, aktw3, aktw4, aktw5, aktw6],
   },
@@ -612,44 +660,35 @@ pictures: [sendforth4],
     description: [
       "The Department of Chemistry at the University of Uyo is excited to welcome back one of its most distinguished alumnae, Professor Blessing A. Aderibigbe, for a series of special lectures. Prof. Aderibigbe, who graduated from the department on March 8, 1999, has since established herself as a leading organic chemist, currently serving as a professor at the University of Fort Hare, South Africa. Her cutting-edge research in polymer-based drug delivery systems and wound dressings has earned her a spot in the Stanford/Elsevier Top 2% Scientists for 2023 and 2024.",
 
-      '\nDuring her visit, Prof. Aderibigbe will share her wealth of knowledge in a series of lectures that will explore advanced topics in organic chemistry, drug design, and the future of biomedical applications. Students and staff alike are eager to learn from her groundbreaking research, which has received international recognition, and her experiences mentoring the next generation of scientists.',
+      "\nDuring her visit, Prof. Aderibigbe will share her wealth of knowledge in a series of lectures that will explore advanced topics in organic chemistry, drug design, and the future of biomedical applications. Students and staff alike are eager to learn from her groundbreaking research, which has received international recognition, and her experiences mentoring the next generation of scientists.",
 
       "\nThis visit marks a special homecoming for Prof. Aderibigbe, and the University of Uyo community looks forward to an inspiring and insightful exchange of ideas.",
-
     ],
     pictures: [profBlessing2],
   },
   {
     date: "September, 2024",
-    title:
-      "A Shining Example of Excellence from the Department of Chemistry",
+    title: "A Shining Example of Excellence from the Department of Chemistry",
     description: [
       "Graduating with honors from the Department of Chemistry at the University of Uyo on March 8, 1999, Prof. Blessing A. Aderibigbe has since risen to international prominence in the field of organic / medicinal chemistry. Currently a professor at the University of Fort Hare, South Africa, Prof. Aderibigbe is also a National Research Foundation C2-rated researcher and has been listed in the prestigious Stanford/Elsevier Top 2% Scientists for both 2023 and 2024.",
 
-      '\nHer remarkable research focuses on designing and developing polymer-based wound dressings, drug delivery systems, and synthesizing hybrid organic molecules aimed at treating cancer and infectious diseases. With over 100 published papers and numerous guest editorial roles in high-impact scientific journals, Prof. Aderibigbe`s groundbreaking work has garnered global attention.',
+      "\nHer remarkable research focuses on designing and developing polymer-based wound dressings, drug delivery systems, and synthesizing hybrid organic molecules aimed at treating cancer and infectious diseases. With over 100 published papers and numerous guest editorial roles in high-impact scientific journals, Prof. Aderibigbe`s groundbreaking work has garnered global attention.",
 
       "\nA proud product of the University of Uyo, Prof. Aderibigbe has also mentored 24 postgraduate students and received multiple research grants. She remains an inspiration to young scientists, embodying the legacy of excellence instilled by her alma mater.",
-
     ],
     pictures: [profBlessing],
-
-
   },
   {
     date: "September, 2024",
-    title:
-      "Vice Chancellor Commends Exams Officer for Exceptional Service",
+    title: "Vice Chancellor Commends Exams Officer for Exceptional Service",
     description: [
       "The University of Uyo has formally recognized Dr. N. Simon, the Exams Officer of the Department of Chemistry, for his exemplary dedication and efficiency in the timely computation and submission of departmental results. The commendation was delivered by the Vice Chancellor on behalf of the university's management, highlighting Dr. Simon's diligence, sense of responsibility, and commitment to his role, which has positively impacted both the Department of Chemistry and the university at large.",
 
       '\nProfessor Edu Inam, Head of the Department of Chemistry, congratulated Dr. Simon on this well-deserved recognition, noting his meticulousness, honesty, and passion in executing his duties. "Dr. Simon’s commitment to excellence has been evident in his work as Exams Officer and it’s no surprise that his efforts have been acknowledged by the university management," said Professor Inam.',
 
       "\nThis recognition not only reflects Dr. Simon's individual efforts but also reinforces the university's commitment to upholding high standards of academic administration.",
-
     ],
     pictures: [nSimon],
-
-
   },
   {
     date: "September, 2024",
@@ -658,14 +697,11 @@ pictures: [sendforth4],
     description: [
       "The management of the university has officially approved the academic calendar for the 2023/2024 and 2024/2025 sessions. According to the released schedule, academic activities for the first semester will begin on Monday October 7, 2024.",
 
-      '\nLectures for all undergraduate and postgraduate students are set to run for 11 weeks, from October 7, 2024, to December 20, 2024. Following the lecture period, first semester examinations will take place from January 20, 2025, to February 7, 2025, lasting three weeks.',
+      "\nLectures for all undergraduate and postgraduate students are set to run for 11 weeks, from October 7, 2024, to December 20, 2024. Following the lecture period, first semester examinations will take place from January 20, 2025, to February 7, 2025, lasting three weeks.",
 
       "\nFor further details on the approved calendar, please download the approved calender below",
-
     ],
     pictures: [schoolLogo],
-
-
   },
   {
     date: "September 27, 2024",
@@ -679,65 +715,91 @@ pictures: [sendforth4],
       "\nThe lecture was attended by a cross-section of the university community, including staff, students, and invited guests from various academic and research institutions. In recognition of his contributions to the field, Professor Antia received accolades from both the university and his colleagues, who praised his lifelong dedication to advancing organic chemistry and his efforts to mentor the next generation of scientists.",
       "\nThe 105th inaugural lecture stands as a testament to Professor Antia's commitment to academic excellence and his invaluable contributions to the scientific community, both locally and globally.",
     ],
-    pictures: [profBSA, profBSA2, profBSA3, profBSA4, profBSA5, profBSA6, profBSA7, profBSA8, profBSA9, profBSA10, profBSA11, profBSA12, profBSA13, profBSA14, profBSA15, profBSA16, profBSA17,],
-
-
+    pictures: [
+      profBSA,
+      profBSA2,
+      profBSA3,
+      profBSA4,
+      profBSA5,
+      profBSA6,
+      profBSA7,
+      profBSA8,
+      profBSA9,
+      profBSA10,
+      profBSA11,
+      profBSA12,
+      profBSA13,
+      profBSA14,
+      profBSA15,
+      profBSA16,
+      profBSA17,
+    ],
   },
   {
     date: "September 25, 2024",
-    title:
-      "Two Academic Staff Promoted to Professorial Cadre",
+    title: "Two Academic Staff Promoted to Professorial Cadre",
     description: [
       "During 131st Senate meeting of the University of Uyo on Wednesday, 25th September 2024, the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, announced the promotion of two Chemistry Department staff, Dr. Imaobong Ekwere Daniel and Dr. Okon U. Abakedi, to the rank of Associate Professor.",
       "\nThe Head of Department extended heartfelt congratulations to both Dr. Daniel and Dr. Abakedi for their well-deserved promotions. Additionally, the HOD expressed appreciation to the Vice Chancellor for the timely recognition of their hard work and dedication.",
     ],
     pictures: [promotedStaff],
-
-
   },
   {
     date: "September, 2024",
-    title:
-      "HOD Welcomes former staff of the Department of Chemistry",
+    title: "HOD Welcomes former staff of the Department of Chemistry",
     description: [
       "On Tuesday, September 10th, the Head of the Department (HOD) of Chemistry, Prof. Edu Inam, warmly welcomed a former academic staff member, Mrs. Margaret Umobong, during her visit to the department. Mrs. Umobong was one of the pioneering academic staff in the organic chemistry unit, who later transitioned to a successful career in nursing in the United States.",
       "\nThe occasion was marked by the presence of other notable members of the department, including Prof. B. S. Antia, Dr. Ini Umoren, Dr. Helen Etuk, and several others. Prof. Inam expressed her appreciation to Mrs. Umobong for maintaining her connection with the department after many years. She seized the opportunity to highlight significant achievements that the department had made since her departure. These included the department's relocation to the permanent campus, the upgrade of laboratory facilities, and the establishment of a new research center.",
       "\nIn her response, Mrs. Umobong praised the department for its continuous progress and the remarkable contributions of the staff. She encouraged them to keep up their excellent work and demonstrated her support by making a cash donation towards the ongoing construction of the research center.",
-      "\nProf. Inam, speaking on behalf of the department's staff and students, expressed heartfelt gratitude for Mrs. Umobong's generous contribution and wished her a safe return to the United States."
+      "\nProf. Inam, speaking on behalf of the department's staff and students, expressed heartfelt gratitude for Mrs. Umobong's generous contribution and wished her a safe return to the United States.",
     ],
     pictures: [umobong],
-
-
   },
   {
     date: "August, 2024",
-    title:
-      "Chemistry Students Complete Undergraduate Project Defense",
+    title: "Chemistry Students Complete Undergraduate Project Defense",
     description: [
       "The Department of Chemistry, University of Uyo, Uyo proudly announces the successful completion of the undergraduate project defense by the final-year students. The event, held on 15th and 16th of August, 2024, was a key academic achievement for these students as they presented their research findings before a panel of esteemed lecturers.",
       "\nThe project defense covered diverse topics across various branches of chemistry, ranging from organic synthesis to environmental pollution studies. Students demonstrated a high level of understanding, innovation, and commitment, addressing real-world problems through their research.",
       "\nSpeaking at the event, the Head of the Chemistry Department, Professor Edu Inam, commended the students for their hard work and dedication. She highlighted that the research presented reflects the department's ongoing commitment to producing well-rounded graduates equipped with both theoretical knowledge and practical skills.",
       '\nOne of the students, Fidelis Peter, who presented on the topic "Mild Steel Corrosion Inhibition in 1 M Hydrochloric Acid Using Blends of Some Indole Derivatives with Potassium Chloride", expressed gratitude to the department’s staff for their guidance and support throughout the research period.',
-      "\nThe defense concluded with words of encouragement from the panel, who urged the students to continue their pursuit of knowledge and contribute meaningfully to the scientific community."
+      "\nThe defense concluded with words of encouragement from the panel, who urged the students to continue their pursuit of knowledge and contribute meaningfully to the scientific community.",
     ],
-    pictures: [defense, promise, defense1, defense2, defense3, defense4, defense5, defense6, defense7, defense8, defense9, defense10, defense11, defense12, defense13, defense14, defense15, defense16, defense17, defense18],
-    tag: "student"
-
+    pictures: [
+      defense,
+      promise,
+      defense1,
+      defense2,
+      defense3,
+      defense4,
+      defense5,
+      defense6,
+      defense7,
+      defense8,
+      defense9,
+      defense10,
+      defense11,
+      defense12,
+      defense13,
+      defense14,
+      defense15,
+      defense16,
+      defense17,
+      defense18,
+    ],
+    tag: "student",
   },
   {
     date: "August, 2024",
-    title:
-      "Department of Chemistry Honored as Best Department of the Year",
+    title: "Department of Chemistry Honored as Best Department of the Year",
     description: [
       'The Department of Chemistry at the University of Uyo has been recognized with the prestigious "Best Department of the Year" award. This honor was bestowed in acknowledgment of the department’s exceptional academic achievements, groundbreaking research contributions, and commitment to excellence in teaching.',
       "\nOver the past year, the department has demonstrated remarkable strides in various areas, including increased research output, successful student projects and notable community engagement initiatives.",
       "\nReceiving the award, the Head of the Department, Professor Edu Inam expressed gratitude to the staff and students, whose dedication and collaborative efforts have been pivotal in achieving this recognition. She highlighted that the award serves as motivation to continue setting higher standards and contributing positively to the advancement of science and society.",
-      '\n The award celebrates the department’s leadership in driving innovation and promoting academic rigor, reinforcing the department’s reputation as a leading hub of chemical science research and education in Akwa Ibom State, setting a benchmark for academic and operational excellence across the University of Uyo.',
-
+      "\n The award celebrates the department’s leadership in driving innovation and promoting academic rigor, reinforcing the department’s reputation as a leading hub of chemical science research and education in Akwa Ibom State, setting a benchmark for academic and operational excellence across the University of Uyo.",
     ],
     pictures: [sugAward2],
-    tag: "student"
-
+    tag: "student",
   },
   {
     date: "August, 2024",
@@ -747,17 +809,15 @@ pictures: [sendforth4],
       "The students' community at the University of Uyo has honored Professor Edu Inam with an 'Award of Excellence' in recognition of her remarkable contributions to academia, mentorship and community development. The award ceremony, held on the 2nd of August, 2024, was a heartwarming event that showcased the deep respect and admiration the students have for Professor Inam.",
       "\nProfessor Inam, a renowned scholar and advocate for educational excellence, has made a significant impact through her years of dedicated service. She has consistently championed initiatives that have positively influenced students' academic and personal growth. Her role as a mentor has empowered countless students to reach their potential and pursue successful careers.",
       "\nThe awards presented highlight Professor Inam’s tireless efforts in promoting research, fostering inclusivity, and advocating for student welfare. Speaking at the event, the SUG President, Comr. Dayemi Archibong, expressed his gratitude for Prof. Inam's unwavering support, describing her as a beacon of inspiration and a pillar within the academic community.",
-      '\nIn her acceptance speech, Professor Inam expressed her heartfelt appreciation to the students, stating that the recognition serves as a motivation to continue her work in nurturing the next generation of scholars and leaders. She emphasized the importance of strong academic values and encouraged the students to stay committed to their education and personal development.',
-      "\nThe event was attended by members of the university community, colleagues and well-wishers, all of whom lauded Professor Inam’s exceptional legacy."
+      "\nIn her acceptance speech, Professor Inam expressed her heartfelt appreciation to the students, stating that the recognition serves as a motivation to continue her work in nurturing the next generation of scholars and leaders. She emphasized the importance of strong academic values and encouraged the students to stay committed to their education and personal development.",
+      "\nThe event was attended by members of the university community, colleagues and well-wishers, all of whom lauded Professor Inam’s exceptional legacy.",
     ],
     pictures: [sugAward],
-    tag: "student"
-
+    tag: "student",
   },
   {
     date: "August, 2024",
-    title:
-      "My Time in the Department of Chemistry",
+    title: "My Time in the Department of Chemistry",
     writtenBy: "PATRICIA A. EKPO",
     description: [
       "Numerous universities crossed my thoughts when I wanted to begin my PhD journey, but I ultimately decided to enrol in the University of Uyo's Chemistry Department due to my fantastic master's program experience. \nAn excellent group of lecturers who consistently arrive on time for class and who serve as invaluable mentors and leaders.",
@@ -765,11 +825,9 @@ pictures: [sendforth4],
       "The exceptional postgraduate laboratory and the department's focus on research provided me with the chance to extensively investigate my research field because having access to high-quality equipment was essential to carrying out experiments and producing meaningful results.",
       "I had the opportunity to study more and gain exposure to the most recent advancements and research in various fields of chemistry through the department's seminars. With their incomparable guidance throughout, the Department heads, as well as my PhD supervisors and lecturers, were incredibly helpful and always an inspiration.",
       "My time in the Department of Chemistry was a life-changing experience that improved me as a scientist and a person. I shall continue to be guided and inspired by the skills and knowledge I have acquired over this time. The University of Uyo's Department of Chemistry is the place to study.",
-
     ],
     pictures: [],
-    tag: "student"
-
+    tag: "student",
   },
   {
     date: "July, 2024",
@@ -783,19 +841,25 @@ pictures: [sendforth4],
       "With deepest appreciation and warmest regards,",
       "The Students' Chemical Society of Nigeria \nUniuyo Chapter.",
     ],
-    pictures: [birthdayProf, birthday, birthday1, birthday2, birthday3, birthday4, birthday5, birthday6, birthday7],
-    tag: "student"
-
+    pictures: [
+      birthdayProf,
+      birthday,
+      birthday1,
+      birthday2,
+      birthday3,
+      birthday4,
+      birthday5,
+      birthday6,
+      birthday7,
+    ],
+    tag: "student",
   },
   {
     date: "July, 2024",
     title:
       "Journal of Material and Environmental Sustainability Research (JMSER) calls for research papers ",
-    description: [
-      "Please see details on the flyer attached",
-    ],
+    description: ["Please see details on the flyer attached"],
     pictures: [jmser],
-
   },
   {
     date: "July, 2024",
@@ -806,7 +870,7 @@ pictures: [sendforth4],
       "Obodom, whose academic journey has been marked by rigorous research and dedication, presented his findings and defended his thesis before a panel of esteemed academics. His work, supervised by Dr. Inemesit Akpan and Dr. Okon Abakedi, is expected to make notable contributions to the field of Physical Chemistry.",
     ],
     pictures: [phd5, phd6, phd7],
-    tag: "student"
+    tag: "student",
   },
   {
     date: "June, 2024",
@@ -817,7 +881,7 @@ pictures: [sendforth4],
       "Ekpo, whose academic journey has been marked by rigorous research and dedication, presented her findings and defended her thesis before a panel of esteemed academics. Her work, supervised by Dr. Atim Johnson and Dr. Ekemini Ituen, is expected to make notable contributions to the field of Inorganic Chemistry.",
     ],
     pictures: [phd, phd1, phd2, phd3, phd4],
-    tag: "student"
+    tag: "student",
   },
   {
     date: "June, 2024",
@@ -852,7 +916,7 @@ pictures: [sendforth4],
       scsnTradefair19,
       scsnTradefair20,
     ],
-    tag: "student"
+    tag: "student",
   },
   {
     date: "May, 2024",
@@ -871,7 +935,7 @@ pictures: [sendforth4],
       '"I am honored and humbled to receive this award, this is a testament to the support and guidance I have received from my professors and the entire University community. I will continue to use my skills and knowledge to make a positive impact on society", said Miss Blessing.',
     ],
     pictures: [acs3, acs2, acs3, acs4, acs5, acs1],
-    tag: "student"
+    tag: "student",
   },
   {
     date: "Februaury, 2024",
@@ -957,6 +1021,6 @@ pictures: [sendforth4],
       "The election results have been widely praised by students, staff of the department of chemistry, who believe that Dayemi's leadership will bring a fresh perspective and a renewed focus on the needs of science students. The university community looks forward to the positive changes and initiatives that Dayemi will spearhead during their term as the Student's Union President.",
     ],
     pictures: [sug1, sug0, sug5, sug2, sug3, sug4],
-    tag: "student"
+    tag: "student",
   },
 ];
