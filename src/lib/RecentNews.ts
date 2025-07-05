@@ -223,6 +223,8 @@ import acsvisit4 from "@/public/images/prof-inam-acs-nigeria/edu4.jpg"
 import acsvisit5 from "@/public/images/prof-inam-acs-nigeria/edu5.jpg"
 import aasWorkshop from "@/public/images/aas-w2.jpg"
 import aasWorkshop1 from "@/public/images/aas-w.jpg"
+import vueFoundation from "@/public/images/vue-foundation.jpeg"
+import vueFoundation2 from "@/public/images/vue-foundation2.jpeg"
 
 
 
@@ -236,6 +238,26 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+  "date": "June 13, 2025",
+  "title": "Pioneering Chemist Honored 50 Years After Her Passing: Dr. Victoria Ulo Enyenihi's Legacy Lives On",
+  "description": [
+    "The 50th memorial anniversary of the late Dr. (Mrs.) Victoria Ulo Enyenihi (née Mkpokpo), a trailblazing chemist and the first woman from the old Cross River State to earn a Ph.D. in Chemistry, was marked today with a commemorative lecture and celebrations at the University of Uyo.",
+
+    "\nA Life of Brilliance and Breakthroughs\nBorn on July 6, 1944, in Ikot Idem Village, Dr. Enyenihi exhibited exceptional academic prowess from an early age. She excelled at Cornelie-Cornelia College, Uyo, and later at Queen's College, Enugu, before earning a Second-Class Honours degree in Chemistry from the University of Ibadan in 1963. Supported by scholarships, she pursued a Ph.D. under Professor Donald Ekone, focusing on the synthesis and ultraviolet spectra of 4-substituted coumarins derived from Fagara zanthoxyloides, a plant used in traditional African medicine.",
+
+    "\nHer doctoral research led to the discovery of aqueous extracts with anti-sickling properties, offering hope for managing sickle cell disease—a condition that disproportionately affects African populations. Tragically, her promising career was cut short in 1975 when she passed away at the age of 31.",
+
+    "\nA Legacy Celebrated\nAt the memorial lecture, Professor Bassey S. Antia of the University of Uyo delivered a keynote address titled 'Natural Products Chemistry and Its Contributions to Advancing Human Health.' He emphasized Dr. Enyenihi's pioneering work and its relevance today, noting that over 60% of modern pharmaceuticals are derived from natural products.",
+
+    "\nIn a significant announcement during the event, the Dr. VUE Foundation awarded a full scholarship to the best female student in the Department of Chemistry at the University of Uyo, who achieved a perfect CGPA of 4.0 in her first year. This award, named in Dr. Enyenihi's honor, aims to encourage young women to pursue excellence in science.",
+
+    "\nThe event underscored the need for continued investment in natural product research and interdisciplinary collaboration. Professor Antia called for sustainable practices, biodiversity conservation, and the integration of traditional knowledge into modern science to address global health challenges like antimicrobial resistance and sickle cell disease.",
+
+    "\nDr. Enyenihi's family, including her five children, attended the event. A spokesperson shared, 'We are because you were. Her legacy lives on not just in her scientific achievements but in the lives she touched.'"
+  ],
+  "pictures": [vueFoundation, vueFoundation2]
+},
   {
     date: "April 14, 2025",
     title: "CSN Nominates PhD Student from Department of Chemistry, University of Uyo for 3rd Commonwealth Chemistry Congress",
