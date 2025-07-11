@@ -40,7 +40,8 @@ import orientation from "@/public/images/orientation/orientation1.jpg"
 import aasWorkshop from "@/public/images/aas-w2.jpg"
 import vueFoundation from "@/public/images/vue-foundation.jpeg"
 import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
-
+import drSimonTraining from "@/public/images/dr-simon-training1.jpeg";
+  
 export const chemistryUnits = [
   "organic",
   "inorganic",
@@ -67,6 +68,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: drSimonTraining,
+    title: "Dr. Nzikahyel Simon Embarks on Crystallography Training in South Africa",
+    btnLink: "/recent-news",
   },
   {
     image: uyoLGAVisit2,
