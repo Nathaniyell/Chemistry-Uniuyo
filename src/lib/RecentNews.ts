@@ -248,7 +248,7 @@ export interface recentNewsTypes {
 export const recentNews: recentNewsTypes[] = [
   {
     "date": "June 16, 2025",
-    "title": "Dr. Nzikahyel Simon Embarks on Prestigious Crystallography Training in South Africa",
+    "title": "Dr. Nzikahyel Simon Embarks on Crystallography Training in South Africa",
     "description": [
       "The Department of Chemistry at the University of Uyo is proud to announce that Dr. Nzikahyel Simon, a highly esteemed Lecturer in Inorganic Chemistry, has been selected to participate in the prestigious SUNCrystAL crystallography training program, scheduled to take place at Stellenbosch University, South Africa.",
   
