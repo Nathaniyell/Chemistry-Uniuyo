@@ -241,18 +241,20 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-    date: "June 16, 2025",
-    title: "Dr. Nzikahyel Simon Embarks on Prestigious Crystallography Training in South Africa",
-    description: [
-      "Dr. Nzikahyel Simon, a dedicated Lecturer in Inorganic Chemistry at the Department of Chemistry, University of Uyo, has been chosen to participate in the prestigious SUNCrystAL crystallography training program at Stellenbosch University, South Africa.",
-
-      "\nThe visit held special significance as Dr. Udo is a distinguished alumnus and former staff member of the Chemistry Department. The delegation presented an award plaque to the Chairman in recognition of his exemplary service and achievements.",
-
-      "\nDr. Udo expressed deep appreciation for the visit and the recognition, extending warm greetings to all department members. He reminisced about his time in the department and emphasized the foundational role it played in his career.",
-
-      "\nThe Chairman has graciously accepted an invitation to visit the Chemistry Department in the coming weeks. While the exact date will be communicated later, all staff and students are encouraged to prepare for this special homecoming event.",
-
-      "\nThe visit celebrated the department's tradition of producing outstanding leaders while fostering continued engagement with its alumni network.",
+    "date": "June 16, 2025",
+    "title": "Dr. Nzikahyel Simon Embarks on Prestigious Crystallography Training in South Africa",
+    "description": [
+      "The Department of Chemistry at the University of Uyo is proud to announce that Dr. Nzikahyel Simon, a highly esteemed Lecturer in Inorganic Chemistry, has been selected to participate in the prestigious SUNCrystAL crystallography training program, scheduled to take place at Stellenbosch University, South Africa.",
+  
+      "Dr. Simon’s selection for this elite training underscores his outstanding contributions to chemical sciences, both in academia and research. Over the years, he has demonstrated remarkable dedication to advancing the field of inorganic chemistry and has played a pivotal role in academic development within the university. His commitment to educational excellence was recently acknowledged by the Vice-Chancellor of the University of Uyo, who conferred special recognition upon him for his exemplary service as the Department’s Examinations Officer.",
+  
+      "The SUNCrystAL project, an initiative under the CNRS-Africa 2024 Residential Research School, is designed to foster international scientific collaboration and deepen expertise in advanced crystallographic techniques. The program brings together leading scientists and emerging researchers from across the continent and Europe to engage in intensive training, research exchange, and knowledge-sharing. Dr. Simon’s full participation is being sponsored through a competitive research grant awarded to the University of Lorraine, France, in partnership with Stellenbosch University.",
+  
+      "This international recognition not only validates Dr. Simon’s professional achievements but also spotlights the University of Uyo’s growing prominence on the global academic stage. His participation is expected to establish valuable cross-border research collaborations and position the university as a hub for scientific innovation in Africa. Furthermore, Dr. Simon’s engagement in the program will enrich local capacity, as he is poised to share newly acquired skills and insights with colleagues and students upon his return.",
+  
+      "Professor Edu Inam, the Head of the Department of Chemistry, expressed the department’s pride and support, stating: \"Dr. Simon's selection for this prestigious program is a testament to his unwavering dedication and the high calibre of scholarship we cultivate at the University of Uyo. This achievement not only elevates his academic profile but also brings significant honor to our department and institution at large. We eagerly anticipate the valuable contributions he will make as a result of this experience.\"",
+  
+      "The entire University of Uyo community joins in celebrating this milestone in Dr. Simon’s academic journey. His participation in SUNCrystAL marks a significant step forward in enhancing international visibility and scientific leadership for the university and for Nigeria as a whole."
     ],
     pictures: [uyoLGAVisit, uyoLGAVisit2, uyoLGAVisit3, uyoLGAVisit4],
   },
