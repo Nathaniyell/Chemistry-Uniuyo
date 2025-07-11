@@ -242,6 +242,22 @@ export interface recentNewsTypes {
 export const recentNews: recentNewsTypes[] = [
   {
     date: "June 16, 2025",
+    title: "Dr. Nzikahyel Simon Embarks on Prestigious Crystallography Training in South Africa",
+    description: [
+      "Dr. Nzikahyel Simon, a dedicated Lecturer in Inorganic Chemistry at the Department of Chemistry, University of Uyo, has been chosen to participate in the prestigious SUNCrystAL crystallography training program at Stellenbosch University, South Africa.",
+
+      "\nThe visit held special significance as Dr. Udo is a distinguished alumnus and former staff member of the Chemistry Department. The delegation presented an award plaque to the Chairman in recognition of his exemplary service and achievements.",
+
+      "\nDr. Udo expressed deep appreciation for the visit and the recognition, extending warm greetings to all department members. He reminisced about his time in the department and emphasized the foundational role it played in his career.",
+
+      "\nThe Chairman has graciously accepted an invitation to visit the Chemistry Department in the coming weeks. While the exact date will be communicated later, all staff and students are encouraged to prepare for this special homecoming event.",
+
+      "\nThe visit celebrated the department's tradition of producing outstanding leaders while fostering continued engagement with its alumni network.",
+    ],
+    pictures: [uyoLGAVisit, uyoLGAVisit2, uyoLGAVisit3, uyoLGAVisit4],
+  },
+  {
+    date: "June 16, 2025",
     title: "Chemistry Department Pays Courtesy Visit to Uyo LGA Chairman",
     description: [
       "The Head of Department of Chemistry, University of Uyo, Professor Edu Inam, led a delegation of staff members on a thank-you visit to the Chairman of Uyo Local Government Area, Dr. Uwemdimoh Udo, on Monday, June 16, 2025.",
