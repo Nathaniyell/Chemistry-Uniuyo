@@ -238,6 +238,7 @@ import drSimonTraining6 from "@/public/images/dr-simon-training6.webp";
 import profInamOswd from "@/public/images/teachingstaff/eduinam4.jpg"
 import profInamOswd2 from "@/public/images/teachingstaff/profInam2.jpg"
 import oswdFlyer from "@/public/images/oswd-conference.webp"
+import phdEmmaDan from "@/public/images/phd-emma-dan.webp"
 
 export interface recentNewsTypes {
   title: string;
@@ -249,6 +250,22 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    "date": "July 9, 2025",
+    "title": "Department of Chemistry Celebrates Dr. Emmanuel Udo Dan’s Successful PhD Completion at the University of Aberdeen",
+    "description": [
+      "The Department of Chemistry, University of Uyo, proudly congratulates Dr. Emmanuel Udo Dan on the successful completion of his Doctor of Philosophy (PhD) in Environmental and Material Chemistry at the University of Aberdeen, Scotland, United Kingdom.",
+  
+      "\nDr. Dan’s doctoral research focused on the 'Development of Sustainable Adsorbents from Plastic Wastes for CO₂ Capture by Adsorption' — a highly relevant and impactful study that addresses pressing global challenges in environmental sustainability and carbon emissions reduction.",
+  
+      "\nThrough this innovative research, Dr. Dan explored practical and scalable solutions for converting plastic waste into advanced adsorbent materials capable of capturing carbon dioxide efficiently. His work contributes to the global efforts in climate change mitigation and the development of sustainable technologies in line with circular economy principles.",
+  
+      "\nThe department commends Dr. Dan’s academic excellence, scientific rigor, and unwavering commitment to solving real-world environmental problems through research and innovation. His achievement reflects the department’s continuous drive to produce scholars who are globally competitive and socially impactful.",
+  
+      "\nThe Head of Department, Professor Edu Inam, along with the staff and students of the Department of Chemistry, extend their heartfelt congratulations to Dr. Dan. His success is not only a personal milestone but also a source of pride for the department and the University of Uyo community at large. The department looks forward to his continued contributions to the advancement of environmental science and materials chemistry."
+    ],
+    pictures: [phdEmmaDan],
+  },
   {
     "date": "July 5, 2025",
     "title": "Professor Edu Inam to Deliver Keynote at OWSD Nigeria 7th Biennial International Conference",
