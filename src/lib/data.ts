@@ -78,7 +78,7 @@ const homeData: HomeDataItem[] = [
   },
   {
     image: oswdFlyer,
-    title: "Professor Edu Inam to Deliver Keynote at OWSD Nigeria 7th Biennial International Conference",
+    title: "Professor Edu Inam to Feature as Plenary Speaker at OWSD Nigeria 7th Biennial International Conference",
     btnLink: "/recent-news",
   },
   {

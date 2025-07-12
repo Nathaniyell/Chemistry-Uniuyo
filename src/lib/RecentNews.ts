@@ -268,20 +268,20 @@ export const recentNews: recentNewsTypes[] = [
   },
   {
     "date": "July 5, 2025",
-    "title": "Professor Edu Inam to Deliver Keynote at OWSD Nigeria 7th Biennial International Conference",
+    "title": "Professor Edu Inam to Feature as Plenary Speaker at OWSD Nigeria 7th Biennial International Conference",
     "description": [
-      "The Department of Chemistry, University of Uyo, is delighted to announce that Professor Edu Inam, Head of Department and renowned environmental scientist, will be featured as a keynote speaker at the upcoming 7th Biennial International Conference organized by the Organization for Women in Science for the Developing World (OWSD), Nigeria National Chapter.",
+      "The Department of Chemistry, University of Uyo, is delighted to announce that Professor Edu Inam, Head of Department and renowned environmental scientist, will be featured as a plenary speaker at the upcoming 7th Biennial International Conference organized by the Organization for Women in Science for the Developing World (OWSD), Nigeria National Chapter.",
   
       "\nThe conference, themed “Fostering a Smarter Scientific and Technological Ecosystem,” is scheduled to take place from July 6th to 10th, 2025, at the Obafemi Awolowo Auditorium, Federal University of Technology Akure (FUTA), Ondo State, Nigeria. It will bring together scientists, innovators, and policymakers from across Nigeria and the international community to explore critical issues in science, technology, and innovation.",
   
-      "\nProfessor Edu Inam will be joining a distinguished lineup of keynote and plenary speakers, including Prof. Chinedum Peace Babalola, Julius Akinyemi (MIT Media Lab, USA), Dr. Syed Shams Yazdani (ICGEB, India), Engr. Mimi Aseye Nutsugah (France), and others. As a key thought leader in environmental and sustainable science, Professor Inam’s keynote address will focus on the strategic role of education and research in strengthening scientific ecosystems across Africa.",
+      "\nProfessor Edu Inam will be joining a distinguished lineup of keynote and plenary speakers, including Prof. Chinedum Peace Babalola, Julius Akinyemi (MIT Media Lab, USA), Dr. Syed Shams Yazdani (ICGEB, India), Engr. Mimi Aseye Nutsugah (France), and others. As a thought leader in environmental and sustainable science, Professor Inam’s plenary session will focus on the strategic role of education and research in strengthening scientific ecosystems across Africa.",
   
-      "\nHer invitation as a keynote speaker reflects not only her personal achievements and leadership in environmental science but also highlights the University of Uyo’s rising profile in the global academic and research community.",
-
-    "\nThe entire staff of the Department of Chemistry, along with the wider University of Uyo community, proudly congratulates Professor Inam on this outstanding achievement and extends their best wishes for a successful and impactful engagement at the conference."
+      "\nHer selection as a plenary speaker reflects not only her personal achievements and leadership in environmental science but also highlights the University of Uyo’s rising profile in the global academic and research community.",
+  
+      "\nThe entire staff of the Department of Chemistry, along with the wider University of Uyo community, proudly congratulates Professor Inam on this outstanding achievement and extends their best wishes for a successful and impactful engagement at the conference."
     ],
-    pictures: [oswdFlyer, profInamOswd, profInamOswd2],
-  } ,
+    "pictures": [oswdFlyer, profInamOswd, profInamOswd2]
+  },
   {
     "date": "June 24, 2025",
     "title": "Dr. Nzikahyel Simon Embarks on Crystallography Training in South Africa",
