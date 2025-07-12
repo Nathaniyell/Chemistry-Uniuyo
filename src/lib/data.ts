@@ -40,7 +40,7 @@ import orientation from "@/public/images/orientation/orientation1.jpg"
 import aasWorkshop from "@/public/images/aas-w2.jpg"
 import vueFoundation from "@/public/images/vue-foundation.jpeg"
 import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
-import drSimonTraining from "@/public/images/dr-simon-training1.jpeg";
+import drSimonTraining from "@/public/images/dr-simon-training1.webp";
   
 export const chemistryUnits = [
   "organic",

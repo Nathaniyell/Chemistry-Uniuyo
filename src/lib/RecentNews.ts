@@ -232,9 +232,9 @@ import uyoLGAVisit4 from "@/public/images/uyo-lga-visit3.jpeg";
 import drSimonTraining from "@/public/images/dr-simon-training1.webp";
 import drSimonTraining2 from "@/public/images/dr-simon-training2.webp";
 import drSimonTraining3 from "@/public/images/dr-simon-training3.webp";
-// import drSimonTraining4 from "@/public/images/dr-simon-training4.jpeg";
-// import drSimonTraining5 from "@/public/images/dr-simon-training5.jpeg";
-// import drSimonTraining6 from "@/public/images/dr-simon-training6.jpeg";
+import drSimonTraining4 from "@/public/images/dr-simon-training4.webp";
+import drSimonTraining5 from "@/public/images/dr-simon-training5.webp";
+import drSimonTraining6 from "@/public/images/dr-simon-training6.webp";
 
 export interface recentNewsTypes {
   title: string;
@@ -262,7 +262,7 @@ export const recentNews: recentNewsTypes[] = [
   
       "The entire University of Uyo community joins in celebrating this milestone in Dr. Simon’s academic journey. His participation in SUNCrystAL marks a significant step forward in enhancing international visibility and scientific leadership for the university and for Nigeria as a whole."
     ],
-    pictures: [drSimonTraining, drSimonTraining2, drSimonTraining3],
+      pictures: [drSimonTraining, drSimonTraining2, drSimonTraining3, drSimonTraining4, drSimonTraining5, drSimonTraining6],
   },
   {
     date: "June 16, 2025",
