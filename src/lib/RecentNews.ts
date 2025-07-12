@@ -235,6 +235,9 @@ import drSimonTraining3 from "@/public/images/dr-simon-training3.webp";
 import drSimonTraining4 from "@/public/images/dr-simon-training4.webp";
 import drSimonTraining5 from "@/public/images/dr-simon-training5.webp";
 import drSimonTraining6 from "@/public/images/dr-simon-training6.webp";
+import profInamOswd from "@/public/images/teachingstaff/eduinam4.jpg"
+import profInamOswd2 from "@/public/images/teachingstaff/profInam2.jpg"
+import oswdFlyer from "@/public/images/oswd-conference.webp"
 
 export interface recentNewsTypes {
   title: string;
@@ -260,7 +263,7 @@ export const recentNews: recentNewsTypes[] = [
 
     "\nThe entire staff of the Department of Chemistry, along with the wider University of Uyo community, proudly congratulates Professor Inam on this outstanding achievement and extends their best wishes for a successful and impactful engagement at the conference."
     ],
-    pictures: [schoolLogo],
+    pictures: [oswdFlyer, profInamOswd, profInamOswd2],
   } ,
   {
     "date": "June 24, 2025",
