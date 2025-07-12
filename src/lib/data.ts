@@ -41,6 +41,7 @@ import aasWorkshop from "@/public/images/aas-w2.jpg"
 import vueFoundation from "@/public/images/vue-foundation.jpeg"
 import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
 import drSimonTraining from "@/public/images/dr-simon-training1.webp";
+import oswdFlyer from "@/public/images/oswd-conference.webp"
   
 export const chemistryUnits = [
   "organic",
@@ -68,6 +69,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: oswdFlyer,
+    title: "Professor Edu Inam to Deliver Keynote at OWSD Nigeria 7th Biennial International Conference",
+    btnLink: "/recent-news",
   },
   {
     image: drSimonTraining,
