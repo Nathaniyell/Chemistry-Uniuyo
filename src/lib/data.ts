@@ -42,6 +42,7 @@ import vueFoundation from "@/public/images/vue-foundation.jpeg"
 import uyoLGAVisit2 from "@/public/images/uyo-lga-visit.jpeg";
 import drSimonTraining from "@/public/images/dr-simon-training1.webp";
 import oswdFlyer from "@/public/images/oswd-conference.webp"
+import phdEmmaDan from "@/public/images/phd-emma-dan.webp"
   
 export const chemistryUnits = [
   "organic",
@@ -69,6 +70,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: phdEmmaDan,
+    title: "Department of Chemistry Celebrates Dr. Emmanuel Udo Dan’s Successful PhD Completion at the University of Aberdeen",
+    btnLink: "/recent-news",
   },
   {
     image: oswdFlyer,
