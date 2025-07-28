@@ -239,6 +239,12 @@ import profInamOswd from "@/public/images/teachingstaff/eduinam4.jpg"
 import profInamOswd2 from "@/public/images/teachingstaff/profInam2.jpg"
 import oswdFlyer from "@/public/images/oswd-conference.webp"
 import phdEmmaDan from "@/public/images/phd-emma-dan.webp"
+import mscDefense from "@/public/images/msc-defense/msc-defense5.jpg";
+import mscDefense1 from "@/public/images/msc-defense/msc-defense2.jpg";
+import mscDefense2 from "@/public/images/msc-defense/msc-defense3.jpg";
+import mscDefense3 from "@/public/images/msc-defense/msc-defense0.jpg";
+import mscDefense4 from "@/public/images/msc-defense/msc-defense7.jpg";
+import mscDefense5 from "@/public/images/msc-defense/msc-defense.jpg";
 
 export interface recentNewsTypes {
   title: string;
