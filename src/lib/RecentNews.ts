@@ -276,7 +276,7 @@ export const recentNews: recentNewsTypes[] = [
 
     "\nThe Department celebrates these milestones and looks forward to the continued success of its postgraduate students as they contribute to scientific advancement, sustainable development, and national growth."
   ],
-  pictures: [schoolLogo]
+  pictures: [mscDefense, mscDefense1, mscDefense2, mscDefense3, mscDefense4, mscDefense5],
 },
 
   {
