@@ -251,9 +251,32 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-    "date": "July 9, 2025",
-    "title": "Department of Chemistry Celebrates Dr. Emmanuel Udo Dan’s Successful PhD Completion at the University of Aberdeen",
-    "description": [
+  date: "July 28, 2025",
+  title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
+ description: [
+    "The Department of Chemistry, University of Uyo, proudly recognizes the remarkable research contributions of three postgraduate students whose thesis work has demonstrated innovation, academic rigor, and relevance to both industry and society.",
+
+    "\nMr. ESIFA, Asuquo Ita (19/PG/FS/CH/006), of the Industrial Chemistry unit, completed a research project titled 'Beneficiation of Locally Sourced Bentonitic Clay for Drilling Fluid Application'. Supervised by Dr. Itoro E. Udo and Dr. Imaobong E. Daniel, his study focused on enhancing the quality of indigenous clay materials for use in oil and gas drilling operations — a contribution to sustainable resource development.",
+
+    "\nMs. AFA, Idongesit Noman (20/PG/FS/CH/005), also of the Industrial Chemistry unit, conducted research on 'Synthesis and Characterisation of Iron, Copper, Magnesium and Zinc Nanoparticles from Cola acuminata (Kola Nut) Husk Extract and Their Application as Oilfield Scale Inhibitors'. Under the supervision of Dr. Itoro E. Udo and Dr. Ekemini B. Ituen, she successfully combined green synthesis techniques and nanotechnology to develop eco-friendly solutions for scale prevention in oilfield operations.",
+
+    "\nMs. UDOFA, Mfonma Sylvanus (16/PG/FS/CH/006), from the Organic Chemistry unit, completed her thesis on 'Chemical Composition and Biological Activities of Uvaria chamae Fruit Extract'. Her research, supervised by Prof. B. S. Antia, explored the pharmacological potential of indigenous medicinal plants, contributing valuable insights to natural product chemistry and drug discovery.",
+
+    "\nAll three theses were examined by external examiner, Prof. Christopher A. Odilora, of the Department of Pure and Industrial Chemistry, Odumegwu Ojukwu University, Uli, Anambra State. His expertise and insights added great value to the assessment process.",
+
+    "\nThe Head of Department, Professor Edu Inam, congratulated the students for their dedication to impactful scientific research and academic excellence. She also commended their supervisors for providing outstanding mentorship and fostering a research-driven environment within the department.",
+
+    "\n“These achievements exemplify the Department of Chemistry’s commitment to training scholars who not only meet global standards but also address local and global challenges through science,” Prof. Inam remarked. “We are proud of our students and their mentors for their exceptional work.”",
+
+    "\nThe Department celebrates these milestones and looks forward to the continued success of its postgraduate students as they contribute to scientific advancement, sustainable development, and national growth."
+  ],
+  pictures: [schoolLogo]
+},
+
+  {
+    date: "July 9, 2025",
+    title: "Department of Chemistry Celebrates Dr. Emmanuel Udo Dan’s Successful PhD Completion at the University of Aberdeen",
+    description: [
       "The Department of Chemistry, University of Uyo, proudly congratulates Dr. Emmanuel Udo Dan on the successful completion of his Doctor of Philosophy (PhD) in Environmental and Material Chemistry at the University of Aberdeen, Scotland, United Kingdom.",
   
       "\nDr. Dan’s doctoral research focused on the 'Development of Sustainable Adsorbents from Plastic Wastes for CO₂ Capture by Adsorption' — a highly relevant and impactful study that addresses pressing global challenges in environmental sustainability and carbon emissions reduction.",
@@ -283,9 +306,9 @@ export const recentNews: recentNewsTypes[] = [
     "pictures": [oswdFlyer, profInamOswd, profInamOswd2]
   },
   {
-    "date": "June 24, 2025",
-    "title": "Dr. Nzikahyel Simon Embarks on Crystallography Training in South Africa",
-    "description": [
+    date: "June 24, 2025",
+    title: "Dr. Nzikahyel Simon Embarks on Crystallography Training in South Africa",
+    description: [
       "The Department of Chemistry at the University of Uyo is proud to announce that Dr. Nzikahyel Simon, a highly esteemed Lecturer in Inorganic Chemistry, has been selected to participate in the prestigious SUNCrystAL crystallography training program, scheduled to take place at Stellenbosch University, South Africa.",
   
       "Dr. Simon’s selection for this elite training underscores his outstanding contributions to chemical sciences, both in academia and research. Over the years, he has demonstrated remarkable dedication to advancing the field of inorganic chemistry and has played a pivotal role in academic development within the university. His commitment to educational excellence was recently acknowledged by the Vice-Chancellor of the University of Uyo, who conferred special recognition upon him for his exemplary service as the Department’s Examinations Officer.",
