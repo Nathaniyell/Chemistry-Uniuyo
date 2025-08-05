@@ -245,6 +245,7 @@ import mscDefense2 from "@/public/images/msc-defense/msc-defense3.jpg";
 import mscDefense3 from "@/public/images/msc-defense/msc-defense0.jpg";
 import mscDefense4 from "@/public/images/msc-defense/msc-defense7.jpg";
 import mscDefense5 from "@/public/images/msc-defense/msc-defense.jpg";
+import commissioning from "@/public/images/commissioning.jpeg";
 
 export interface recentNewsTypes {
   title: string;
@@ -256,6 +257,18 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+  date: "August 5, 2025",
+  title: "University of Uyo Commissions Chemistry Research Laboratory",
+ description: [
+    "The Department of Chemistry, Faculty of Physical Sciences, University of Uyo, is proud to announce the official commissioning of its Chemistry Research Laboratory.",
+    "This milestone event is scheduled to take place on Tuesday, August 5th, 2025, at 10:00 AM at the Department of Chemistry, Uniuyo Main Campus. The commissioning will be conducted by the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, in recognition of the department’s growing commitment to scientific excellence and cutting-edge research.",
+    "The newly commissioned is equipped with modern laboratory instruments and infrastructure to support advanced chemical research and experimentation, promising to elevate both undergraduate and postgraduate training, as well as interdisciplinary collaboration.",
+    "Speaking ahead of the event, Prof. Edu Inam, Head of the Department of Chemistry, highlighted the lab as a “critical step towards building local research capacity and fostering innovation in the chemical sciences.”",
+    "All are cordially invited to witness this important development in the university’s scientific journey."
+  ],
+  pictures: [commissioning],
+},
   {
   date: "July 28, 2025",
   title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
