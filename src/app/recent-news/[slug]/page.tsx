@@ -108,9 +108,9 @@ const Page = ({ params }: { params: { slug: string } }) => {
             ))}
           </div>
 
-          <footer className="mt-4 max-w-3xl mx-auto">
+          <footer className="mt-4 max-w-4xl mx-auto">
             {writtenBy && (
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-gray-600">
                 <span className="font-medium">Written by:</span>{" "}
                 <span className="text-blue-950">{writtenBy}</span>
               </p>
