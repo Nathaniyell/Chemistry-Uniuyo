@@ -45,6 +45,7 @@ import oswdFlyer from "@/public/images/oswd-conference.webp"
 import phdEmmaDan from "@/public/images/phd-emma-dan.webp"
 import mscDefense from "@/public/images/msc-defense/msc-defense5.jpg";
 import commissioning from "@/public/images/commissioning.jpeg";
+import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg";
   
 export const chemistryUnits = [
   "organic",
@@ -72,6 +73,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: commissioning2,
+    title: "University of Uyo Commissions Landmark Chemistry Research Laboratory",
+    btnLink: "/recent-news",
   },
   {
     image: commissioning,
