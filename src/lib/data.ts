@@ -46,6 +46,7 @@ import phdEmmaDan from "@/public/images/phd-emma-dan.webp"
 import mscDefense from "@/public/images/msc-defense/msc-defense5.jpg";
 import commissioning from "@/public/images/commissioning.jpeg";
 import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg";
+import profInam from "@/public/images/teachingstaff/prof-inam.jpg"
   
 export const chemistryUnits = [
   "organic",
@@ -82,6 +83,11 @@ const homeData: HomeDataItem[] = [
   {
     image: commissioning,
      title: "University of Uyo Set to Commission Chemistry Research Laboratory",
+    btnLink: "/recent-news",
+  },
+  {
+    image: profInam,
+    title: "The Postgraduate Students of The Department of Chemistry Applauds Pro. Edu Inam",
     btnLink: "/recent-news",
   },
   {
