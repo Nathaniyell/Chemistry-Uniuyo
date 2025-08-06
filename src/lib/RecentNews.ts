@@ -303,6 +303,22 @@ export const recentNews: recentNewsTypes[] = [
   ],
   pictures: [commissioning],
 },
+{
+  date: "August 1, 2025",
+  title: "The Postgraduate Students of The Department of Chemistry Applauds Pro. Edu Inam",
+  description: [
+    "In a society where leaders takes advantage of their position as an opportunity to accumulate wealth and enrich their own personal lives, Prof. Edu Inam thinks outside the box by leaving a long lasting legacy in the Chemistry community and the university at large."
+    ,
+    "I have a good listening ability, and I pay attention to details alot, but I haven't witnessed a leader who priotises the interest of the masses over self as Prof. Edu Inam, the HOD of Chemistry Department.",
+
+    "The academic mentor and lover of development doesn't just encourage students with her experienced words, but she believes in practically developing all sorts of strategic means from her wealth of knowledge and exposure towards enhancing smooth learning. Inam has contributed severally to the department of Chemistry in a relatively large number of ways which are unavoidably beneficial to both the staff and students of the department; ranging from infrastructural development to renovation of already existing facilities. it is very easy to say 'Prof. Edu Inam has placed the Department of Chemistry into map as we welcome the Vice Chancellor and the entire university community for the commissioning of PG Resource Center today today.'",
+
+    'To a mother, teacher and mentor, while others would say "you deserve a flower", we, the entire PG Students are convincingly saying that "you deserve the entire garden"',
+    "Remain in your honour Prof. Edu Inam, we are proud of you and we appreciate you for all you have done for us and the Department of Chemistry.",
+  ],
+  writtenBy: "Comr. Pius Eche",
+  pictures: [profInam],
+},
   {
   date: "July 28, 2025",
   title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
