@@ -258,8 +258,8 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
-  date: "August 5, 2025",
-  title: "University of Uyo Commissions Chemistry Research Laboratory",
+  date: "August 3, 2025",
+  title: "University of Uyo Set to Commission Chemistry Research Laboratory",
  description: [
     "The Department of Chemistry, Faculty of Physical Sciences, University of Uyo, is proud to announce the official commissioning of its Chemistry Research Laboratory.",
     "This milestone event is scheduled to take place on Tuesday, August 5th, 2025, at 10:00 AM at the Department of Chemistry, Uniuyo Main Campus. The commissioning will be conducted by the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, in recognition of the department’s growing commitment to scientific excellence and cutting-edge research.",

@@ -75,7 +75,7 @@ const homeData: HomeDataItem[] = [
   },
   {
     image: commissioning,
-     title: "University of Uyo Commissions Chemistry Research Laboratory",
+     title: "University of Uyo Set to Commission Chemistry Research Laboratory",
     btnLink: "/recent-news",
   },
   {
