@@ -246,6 +246,27 @@ import mscDefense3 from "@/public/images/msc-defense/msc-defense0.jpg";
 import mscDefense4 from "@/public/images/msc-defense/msc-defense7.jpg";
 import mscDefense5 from "@/public/images/msc-defense/msc-defense.jpg";
 import commissioning from "@/public/images/commissioning.jpeg";
+import commissioning1 from "@/public/images/lab-commissioning/commissioning.jpg";
+import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg";
+import commissioning3 from "@/public/images/lab-commissioning/commissioning1.jpg";
+import commissioning4 from "@/public/images/lab-commissioning/commissioning2.jpg";
+import commissioning5 from "@/public/images/lab-commissioning/commissioning4.jpg";
+import commissioning6 from "@/public/images/lab-commissioning/commissioning5.jpg";
+import commissioning7 from "@/public/images/lab-commissioning/commissioning6.jpg";
+import commissioning8 from "@/public/images/lab-commissioning/commissioning7.jpg";
+import commissioning11 from "@/public/images/lab-commissioning/commissioning10.jpg";
+import commissioning12 from "@/public/images/lab-commissioning/commissioning11.jpg";
+import commissioning13 from "@/public/images/lab-commissioning/commissioning12.jpg";
+import commissioning15 from "@/public/images/lab-commissioning/commissioning14.jpg";
+import commissioning16 from "@/public/images/lab-commissioning/commissioning15.jpg";
+import commissioning19 from "@/public/images/lab-commissioning/commissioning18.jpg";
+import commissioning21 from "@/public/images/lab-commissioning/commissioning20.jpg";
+import commissioning22 from "@/public/images/lab-commissioning/commissioning21.jpg";
+import commissioning23 from "@/public/images/lab-commissioning/commissioning22.jpg";
+import commissioning24 from "@/public/images/lab-commissioning/commissioning23.jpg";
+import commissioning25 from "@/public/images/lab-commissioning/commissioning24.jpg";
+import commissioning26 from "@/public/images/lab-commissioning/commissioning25.jpg";
+import commissioning27 from "@/public/images/lab-commissioning/commissioning26.jpg";
 
 export interface recentNewsTypes {
   title: string;
@@ -257,6 +278,19 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "August 5, 2025",
+    title: "University of Uyo Commissions Landmark Chemistry Research Laboratory",
+    description: [
+      "The Department of Chemistry, Faculty of Physical Sciences, University of Uyo, has achieved a historic milestone with the official commissioning of its first-ever fully equipped Chemistry Research Laboratory.",
+      "The commissioning ceremony, held on Tuesday, August 5th, 2025, at the Uniuyo Main Campus, was presided over by the Vice Chancellor, Prof. Nyaudoh U. Ndaeyo, who praised the department's visionary leadership for driving innovation and research excellence.",
+      "The facility, a first in the department’s history and arguably the entire university, marks a significant advancement in scientific infrastructure, positioning the department to lead in cutting-edge chemical research and interdisciplinary collaboration.",
+      "Prof. Edu Inam, Head of the Department, was recognized for her instrumental role in championing the laboratory’s development — a major stride in mentorship, academic leadership, and STEM capacity-building.",
+      "In a show of continued support, Dr. Uwemedimo Udo, Executive Chairman of Uyo Local Government Area and an alumnus of the department, donated a Semi-Silent Zero Gravity 65 kVA generator to ensure uninterrupted power supply for the lab. He also announced a ₦500,000 annual award for the department’s best graduating student over the next 10 years.",
+      "The University of Uyo community celebrates this milestone as a proud step toward academic transformation, research excellence, and a brighter future for science education in Nigeria."
+    ],
+    pictures: [commissioning2, commissioning1, commissioning3, commissioning4, commissioning5, commissioning6, commissioning7, commissioning8, commissioning11, commissioning12, commissioning13, commissioning15, commissioning16, commissioning19, commissioning21, commissioning22, commissioning23, commissioning24, commissioning25, commissioning26, commissioning27]
+  },
   {
   date: "August 3, 2025",
   title: "University of Uyo Set to Commission Chemistry Research Laboratory",
