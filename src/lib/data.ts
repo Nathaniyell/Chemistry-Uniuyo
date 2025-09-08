@@ -47,6 +47,7 @@ import mscDefense from "@/public/images/msc-defense/msc-defense5.jpg";
 import commissioning from "@/public/images/commissioning.jpeg";
 import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg";
 import profInam from "@/public/images/teachingstaff/prof-inam.jpg"
+import acsNigeria from "@/public/images/acs_fall2025/fall2.jpg";
   
 export const chemistryUnits = [
   "organic",
@@ -74,6 +75,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: acsNigeria,
+    title: "ACS Nigeria Wins Prestigious Best Global Engagement Award at ChemLuminary Awards",
+    btnLink: "/recent-news",
   },
   {
     image: commissioning2,
