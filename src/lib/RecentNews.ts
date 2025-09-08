@@ -267,6 +267,13 @@ import commissioning24 from "@/public/images/lab-commissioning/commissioning23.j
 import commissioning25 from "@/public/images/lab-commissioning/commissioning24.jpg";
 import commissioning26 from "@/public/images/lab-commissioning/commissioning25.jpg";
 import commissioning27 from "@/public/images/lab-commissioning/commissioning26.jpg";
+import acsNigeria from "@/public/images/acs_fall2025/fall2.jpg";
+import acsNigeria2 from "@/public/images/acs_fall2025/fall1.jpg";
+import acsNigeria3 from "@/public/images/acs_fall2025/fall3.jpg";
+import acsNigeria4 from "@/public/images/acs_fall2025/fall4.jpg";
+import acsNigeria5 from "@/public/images/acs_fall2025/fall5.jpg";
+import acsNigeria6 from "@/public/images/acs_fall2025/fall6.jpg";
+
 
 export interface recentNewsTypes {
   title: string;
@@ -278,6 +285,19 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "August 20, 2025",
+    title: "ACS Nigeria Wins Prestigious Best Global Engagement Award at ChemLuminary Awards",
+      description: [
+        "The American Chemical Society (ACS) Nigeria Chapter has been honored with the prestigious Best Global Engagement Chapter Award at the ChemLuminary Awards during the ACS Fall 2025 Meeting in Washington, D.C.",
+        "The award recognizes the chapter's exceptional efforts in fostering international collaboration, with over 30 active student chapters and a rapidly growing membership base across Nigeria.",
+        "This accolade reflects the passion, commitment, and teamwork of members who have worked tirelessly to connect chemists across borders and inspire the next generation of scientists.",
+        "Professor Edu Inam, Chair of ACS Nigeria, expressed profound gratitude, highlighting that the recognition belongs to the entire community, including the Executive Committee, Faculty Advisors, Sub-committee chairs, student leaders, and the International Activities Committee.",
+        "The achievement marks a significant milestone for the chemical sciences in Nigeria, positioning the chapter as a leader in global scientific engagement and innovation.",
+        "The ACS Nigeria Chapter reaffirms its mission to advance the frontiers of chemical sciences, underscoring a renewed drive for excellence and impact as the journey continues."
+      ],    
+    pictures: [acsNigeria, acsNigeria2, acsNigeria3, acsNigeria4, acsNigeria5, acsNigeria6]
+  },
   {
     date: "August 5, 2025",
     title: "University of Uyo Commissions Landmark Chemistry Research Laboratory",
