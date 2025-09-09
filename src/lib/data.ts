@@ -48,7 +48,7 @@ import commissioning from "@/public/images/commissioning.jpeg";
 import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg";
 import profInam from "@/public/images/teachingstaff/prof-inam.jpg"
 import acsNigeria from "@/public/images/acs_fall2025/fall2.jpg";
-  
+import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
 export const chemistryUnits = [
   "organic",
   "inorganic",
@@ -75,6 +75,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: newMscDefense,
+    title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
+    btnLink: "/recent-news",
   },
   {
     image: acsNigeria,
