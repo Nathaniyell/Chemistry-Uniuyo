@@ -273,7 +273,8 @@ import acsNigeria3 from "@/public/images/acs_fall2025/fall3.jpg";
 import acsNigeria4 from "@/public/images/acs_fall2025/fall4.jpg";
 import acsNigeria5 from "@/public/images/acs_fall2025/fall5.jpg";
 import acsNigeria6 from "@/public/images/acs_fall2025/fall6.jpg";
-
+import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
+import newMscDefense2 from "@/public/images/msc-defense/msc-defense9.jpg";
 
 export interface recentNewsTypes {
   title: string;
@@ -285,6 +286,22 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "September 4, 2025",
+    title: "Four Postgraduate Students Successfully Defend Their Viva Voce Examinations",
+    description: [
+      "It was a proud and exciting moment for the Department as four postgraduate students successfully defended their viva voce examinations on September 4, 2025.",
+      "Two PhD candidates, Michael Agi Ejeh (17/PG/FS/CH/PhD/010) and Utibe Billy Orok (20/PG/FS/CH/PhD/001), and two MSc students, Inalegwu Pius Eche (21/PG/FS/CH/001) and Mary Xavier Udoh (21/PG/FS/CH/003), engaged in an extensive session with the external examiner, Prof. Jude Nnaji, the internal examiners, and the postgraduate school representative.",
+      "Michael Agi Ejeh presented his research on 'Single and Mixed Chelant Enhanced Phytoextraction of Metals from Contaminated Soil,' under the supervision of Prof. Eno Moses and Prof. Godwin Ebong.",
+      "Utibe Billy Orok defended his work on 'Plant-Mediated Synthesis of Binary and Ternary Nanocomposites for Toxic Metal Removal from Aqueous Medium,' supervised by Prof. Eno Moses and Dr. Solomon Shaibu.",
+      "Mary Xavier Udoh focused on 'Utilization of Biosynthesized Nanocomposites for the Effective Removal of Methyl Orange and Malachite Green Dyes in Water,' supervised by Prof. Eno Moses and Dr. Solomon Shaibu.",
+      "Inalegwu Pius Eche presented his study on 'Removal of Some Toxic Metals from Aqueous Medium with Bionanoparticles Doped Agro Feedstock Biochar,' supervised by Prof. Emmanuel I. Uwah and Dr. Solomon Shaibu.",
+      "The session concluded successfully, with all four students performing excellently and earning commendation from the examiners.",
+      "Special appreciation goes to Dr. Helen Etuk, who represented the HOD, Prof. Edu Inam, for her support, as well as to the supervisors and colleagues who attended the examinations.",
+      "The Department extends heartfelt congratulations to the students and their supervisors for this remarkable achievement."
+    ],
+    pictures: [newMscDefense, newMscDefense2]
+  },
   {
     date: "August 20, 2025",
     title: "ACS Nigeria Wins Prestigious Best Global Engagement Award at ChemLuminary Awards",
