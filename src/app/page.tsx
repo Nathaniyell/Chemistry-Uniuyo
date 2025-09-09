@@ -223,7 +223,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {homeStaffData.map((staff) => (
-              <div key={staff.name} className="h-full transform hover:-translate-y-1 transition-transform duration-300">
+              <div key={staff.name} className="h-full transform hover:-translate-y-1 transition-transform duration-300 capitalize">
                 <Lecturers
                   name={staff.name}
                   image={staff.image}
