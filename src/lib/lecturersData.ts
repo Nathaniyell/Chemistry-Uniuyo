@@ -412,7 +412,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
+        title: "Professor of Analytical Chemistry, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -451,7 +451,7 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
-        title: "Professor of Chemistry, Department of Chemistry, University of Uyo",
+        title: "Professor of Organic Chemistry, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -489,7 +489,7 @@ const staffData: Lecturer[] = [
     experience: [
       {
         title:
-          "Professor of Chemistry, Department of Chemistry, University of Uyo",
+          "Professor of Analytical Chemistry, Department of Chemistry, University of Uyo",
         year: "2024 - present",
       },
       {
