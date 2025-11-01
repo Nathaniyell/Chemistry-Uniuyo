@@ -324,7 +324,7 @@ export const homeStaffData: HomeStaffDataItem[] = [
   },
   {
     image: helenEtuk,
-    title: "Dr.",
+    title: "Prof.",
     name: "helen etuk",
     desc: "Inorganic Chemistry",
   },
