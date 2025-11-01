@@ -633,7 +633,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: helenEtuk,
-    title: "Dr.",
+    title: "Professor",
     fullName: "helen etuk",
     email: [],
     googleScholar: "",
@@ -646,6 +646,11 @@ const staffData: Lecturer[] = [
 
     profile: "",
     experience: [
+       {
+        title:
+          "Professor of Inorganic Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
       {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
         year: "",
