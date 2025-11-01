@@ -632,6 +632,43 @@ const staffData: Lecturer[] = [
     ],
   },
   {
+    image: helenEtuk,
+    title: "Dr.",
+    fullName: "helen etuk",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
     image: godwinEbong,
     title: "Dr.",
     fullName: "godwin ebong",
@@ -1081,43 +1118,7 @@ const staffData: Lecturer[] = [
       }
     ],
   },
-  {
-    image: helenEtuk,
-    title: "Dr.",
-    fullName: "helen etuk",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
 
-    profile: "",
-    experience: [
-      {
-        title: "Associate Professor, Department of Chemistry, University of Uyo",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
   {
     image: [abakedi],
     title: "Dr.",
