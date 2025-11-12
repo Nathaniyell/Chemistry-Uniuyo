@@ -146,6 +146,10 @@ import aktw3 from "@/public/images/aktw/aktw3.jpg";
 import aktw4 from "@/public/images/aktw/aktw4.jpg";
 import aktw5 from "@/public/images/aktw/aktw5.jpg";
 import aktw6 from "@/public/images/aktw/aktw.jpg";
+import aktw25 from "@/public/images/aktw/aktw25.jpg";
+import aktw25a from "@/public/images/aktw/aktw25a.jpg";
+import aktw25c from "@/public/images/aktw/aktw25c.jpg";
+import aktw25b from "@/public/images/aktw/aktw25b .jpg";
 import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg";
 import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg";
 import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg";
@@ -300,7 +304,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department extends warm appreciation to the event organizers and all who made the students’ participation possible, reaffirming its dedication to nurturing globally relevant and innovation-driven scientists."
     ],
     
-    pictures: [newMscDefense, newMscDefense2]
+    pictures: [aktw25, aktw25a, aktw25b, aktw25c]
   },
   {
     date: "September 4, 2025",
