@@ -80,15 +80,16 @@ const homeData: HomeDataItem[] = [
     btnLink: "/about",
   },
   {
-    image: newMscDefense,
-    title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
-    btnLink: "/recent-news",
-  },
-  {
     image: aktw25,
     title: "University of Uyo Chemistry Students Participate in Akwa Ibom Tech Week 2025",
     btnLink: "/recent-news",
   },
+  {
+    image: newMscDefense,
+    title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
+    btnLink: "/recent-news",
+  },
+
   {
     image: acsNigeria,
     title: "ACS Nigeria Wins Prestigious Best Global Engagement Award at ChemLuminary Awards",
