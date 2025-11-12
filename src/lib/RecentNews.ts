@@ -149,7 +149,7 @@ import aktw6 from "@/public/images/aktw/aktw.jpg";
 import aktw25 from "@/public/images/aktw/aktw25.jpg";
 import aktw25a from "@/public/images/aktw/aktw25a.jpg";
 import aktw25c from "@/public/images/aktw/aktw25c.jpg";
-import aktw25b from "@/public/images/aktw/aktw25b .jpg";
+import aktw25b from "@/public/images/aktw/aktw25b.jpg";
 import convocationBSC from "@/public/images/convocation/undergraduate-convo1.jpg";
 import convocationBSC1 from "@/public/images/convocation/undergraduate-convo2.jpg";
 import convocationBSC2 from "@/public/images/convocation/undergraduate-convo3.jpg";
