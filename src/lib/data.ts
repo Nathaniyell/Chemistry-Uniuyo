@@ -49,6 +49,9 @@ import commissioning2 from "@/public/images/lab-commissioning/commissioning0.jpg
 import profInam from "@/public/images/teachingstaff/prof-inam.jpg"
 import acsNigeria from "@/public/images/acs_fall2025/fall2.jpg";
 import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
+import aktw25 from "@/public/images/aktw/aktw25.jpg";
+
+
 export const chemistryUnits = [
   "organic",
   "inorganic",
@@ -79,6 +82,11 @@ const homeData: HomeDataItem[] = [
   {
     image: newMscDefense,
     title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
+    btnLink: "/recent-news",
+  },
+  {
+    image: aktw25,
+    title: "University of Uyo Chemistry Students Participate in Akwa Ibom Tech Week 2025",
     btnLink: "/recent-news",
   },
   {
