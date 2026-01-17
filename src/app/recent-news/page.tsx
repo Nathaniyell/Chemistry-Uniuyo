@@ -2,6 +2,15 @@ import { Lecturers } from "@/components";
 import { recentNews } from "@/lib";
 import { truncateWords } from "@/utils/truncateWords";
 
+const createSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "") // Remove special characters except spaces and hyphens
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/-+/g, "-") // Replace multiple hyphens with single hyphen
+    .trim();
+};
+
 const page = () => {
   return (
     <main className="min-h-screen">
@@ -26,11 +35,11 @@ const page = () => {
                 <Lecturers
                   name={truncateWords(title, 10)}
                   image={pictures[0]}
-                  href={`/recent-news/${encodeURIComponent(title).replaceAll("%20", "-")}`}
+                  href={`/recent-news/${createSlug(title)}`}
                   date={date}
                   dateStyle="text-primary"
                   readMore
-                  readMoreLink={`/recent-news/${encodeURIComponent(title).replaceAll("%20", "-")}`}
+                  readMoreLink={`/recent-news/${createSlug(title)}`}
                   cardContainerStyle="md:pb-4"
                   cardBodyStyle="p-4 border shadow h-full"
                   cardImgContainerStyle="filter-none"

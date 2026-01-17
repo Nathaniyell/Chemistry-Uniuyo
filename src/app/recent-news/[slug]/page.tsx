@@ -7,16 +7,33 @@ import { CiCalendar } from "react-icons/ci";
 import { Breadcrumbs } from "@/components";
 import SwiperWithNavigation from "@/components/SwiperWithNavigation";
 
-const newsTitles = recentNews.map((news) => news.title);
+
+const createSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "") // Remove special characters except spaces and hyphens
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/-+/g, "-") // Replace multiple hyphens with single hyphen
+    .trim();
+};
 
 const Page = ({ params }: { params: { slug: string } }) => {
-  const newsTitleFormatted = decodeURIComponent(params.slug.replaceAll("-", " "));
-  const filteredNews = recentNews.filter(
-    (news) =>
-      news.title.toLocaleLowerCase() === newsTitleFormatted.toLocaleLowerCase()
-  )[0];
+  // Try to find news by slug matching
+  let filteredNews = recentNews.find(
+    (news) => createSlug(news.title) === params.slug.toLowerCase()
+  );
+
+  // Fallback: try to decode and match if slug doesn't match (for backward compatibility)
+  if (!filteredNews) {
+    const newsTitleFormatted = decodeURIComponent(params.slug.replaceAll("-", " "));
+    filteredNews = recentNews.find(
+      (news) => news.title.toLocaleLowerCase() === newsTitleFormatted.toLocaleLowerCase()
+    );
+  }
 
   if (!filteredNews) notFound();
+
+  const newsTitleFormatted = filteredNews.title;
 
   const { title, pictures, date, description, writtenBy } = filteredNews;
 
@@ -67,7 +84,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
           array={[
             {
               title: `${newsTitleFormatted.split(" ").slice(0, 4).join(" ")}...`,
-              href: `/recent-news/${encodeURIComponent(newsTitleFormatted).replaceAll("%20", "-")}`,
+              href: `/recent-news/${createSlug(newsTitleFormatted)}`,
             },
           ]}
         />
