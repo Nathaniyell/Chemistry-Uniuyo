@@ -279,6 +279,11 @@ import acsNigeria5 from "@/public/images/acs_fall2025/fall5.jpg";
 import acsNigeria6 from "@/public/images/acs_fall2025/fall6.jpg";
 import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
 import newMscDefense2 from "@/public/images/msc-defense/msc-defense9.jpg";
+import phd2026a from "@/public/images/phd2026a.jpg";
+import phd2026b from "@/public/images/phd2026b.jpg";
+import phd2026c from "@/public/images/phd2026c.jpg";
+import phd2026d from "@/public/images/phd2026d.jpg";
+import phd2026e from "@/public/images/phd2026e.jpg";
 
 export interface recentNewsTypes {
   title: string;
@@ -302,7 +307,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Head of Department, Professor Edu Inam, extended heartfelt congratulations to Mr. Ekpoudo on this remarkable achievement and commended Dr. Simon for his outstanding supervision and commitment to nurturing research excellence in the department.",
       "The Department of Chemistry takes pride in this accomplishment and looks forward to the contributions Dr. Ekpoudo will make to the field of chemistry as he embarks on the next phase of his career."
     ],
-    pictures: [schoolLogo],
+    pictures: [phd2026a, phd2026b, phd2026c, phd2026d, phd2026e],
   },
   {
     date: "January 2026",
@@ -316,7 +321,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Head of Department, Professor Edu Inam, congratulated Mr. Obong on his achievement and expressed appreciation to Prof. Atim Johnson for her dedicated supervision and contribution to the department's research excellence.",
       "The Department celebrates this milestone and wishes Mr. Obong continued success in his academic and professional endeavors as he applies his research findings to address real-world chemical challenges."
     ],
-    pictures: [schoolLogo],
+    pictures: [phd2026a, phd2026b, phd2026c, phd2026d, phd2026e],
   },
   {
     date: "October, 2025",
