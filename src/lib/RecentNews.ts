@@ -291,6 +291,34 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+    date: "January 2026",
+    title: "PhD Candidate Successfully Defends Doctoral Thesis on Metal Complexes of Gallic Acid Derivative",
+    description: [
+      "The Department of Chemistry, University of Uyo, celebrates the successful defense of Usoro Akpan Ekpoudo (17/PG/FS/CH/PhD/008), who successfully completed his viva voce examination for his Doctor of Philosophy degree.",
+      "Mr. Ekpoudo presented his doctoral research titled 'Synthesis, Characterisation and Catalytic Applicability of Metal Complexes of Gallic Acid Derivative,' which explores the synthesis and characterization of metal complexes derived from gallic acid and their potential applications in catalysis.",
+      "His research contributes to the field of coordination chemistry and catalysis, offering insights into the design and development of metal-based catalysts that could find applications in organic transformations and industrial processes.",
+      "The defense was conducted under the supervision of Dr. Nzikahyel Simon, whose expert guidance and mentorship were instrumental in the successful completion of this research. Dr. Simon's expertise in inorganic chemistry and crystallography provided valuable direction throughout the research journey.",
+      "The viva voce examination was presided over by Prof. Grace Iniama from the University of Calabar, who served as the external examiner. Prof. Iniama's extensive experience and scholarly insights added significant value to the assessment process.",
+      "The Head of Department, Professor Edu Inam, extended heartfelt congratulations to Mr. Ekpoudo on this remarkable achievement and commended Dr. Simon for his outstanding supervision and commitment to nurturing research excellence in the department.",
+      "The Department of Chemistry takes pride in this accomplishment and looks forward to the contributions Dr. Ekpoudo will make to the field of chemistry as he embarks on the next phase of his career."
+    ],
+    pictures: [schoolLogo],
+  },
+  {
+    date: "January 2026",
+    title: "MSc Student Successfully Defends Thesis on Imidazole-Carboxylate Metal Complexes",
+    description: [
+      "The Department of Chemistry, University of Uyo, proudly announces the successful defense of Idorenyin Edem Obong (17/PG/FS/CH/014), who successfully completed his viva voce examination for his Master of Science degree.",
+      "Mr. Obong presented his master's thesis titled 'Synthesis, Characterisation and Catalytic Applications of Some Imidazole-Carboxylate Metal Complexes,' which focuses on the synthesis, characterization, and catalytic properties of metal complexes containing imidazole-carboxylate ligands.",
+      "His research contributes significantly to coordination chemistry and catalytic science, exploring how these complexes can be utilized in various catalytic applications, potentially advancing processes in organic synthesis and industrial chemistry.",
+      "The research was supervised by Prof. Atim Johnson, whose expertise and mentorship were crucial to the successful completion of this work. Prof. Johnson's guidance in coordination chemistry and catalysis provided the foundation for this innovative research.",
+      "The viva voce examination was conducted with Prof. Grace Iniama from the University of Calabar serving as the external examiner. Prof. Iniama's thorough evaluation and valuable feedback enhanced the quality of the research presentation and assessment.",
+      "The Head of Department, Professor Edu Inam, congratulated Mr. Obong on his achievement and expressed appreciation to Prof. Atim Johnson for her dedicated supervision and contribution to the department's research excellence.",
+      "The Department celebrates this milestone and wishes Mr. Obong continued success in his academic and professional endeavors as he applies his research findings to address real-world chemical challenges."
+    ],
+    pictures: [schoolLogo],
+  },
+  {
     date: "October, 2025",
     title: "University of Uyo Chemistry Students Participate in Akwa Ibom Tech Week 2025",
     description: [
