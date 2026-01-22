@@ -284,6 +284,9 @@ import phd2026b from "@/public/images/phd2026b.jpg";
 import phd2026c from "@/public/images/phd2026c.jpg";
 import phd2026d from "@/public/images/phd2026d.jpg";
 import phd2026e from "@/public/images/phd2026e.jpg";
+import csnAward from "@/public/images/csn_award3.jpg";
+import csnAward1 from "@/public/images/csn_award1.jpg";
+import csnAward2 from "@/public/images/csn_award2.jpg";
 
 export interface recentNewsTypes {
   title: string;
@@ -307,7 +310,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department of Chemistry, University of Uyo, takes great pride in this recognition of Professor Inam's achievements. This award not only honors her individual contributions but also reflects the department's commitment to excellence in chemical education, research, and professional service.",
       "The entire university community joins in congratulating Professor Inam on this well-deserved recognition and looks forward to her continued leadership and contributions to the advancement of chemistry in Nigeria and beyond."
     ],
-    pictures: [schoolLogo],
+    pictures: [csnAward, csnAward2, csnAward1],
   },
   {
     date: "January 2026",
