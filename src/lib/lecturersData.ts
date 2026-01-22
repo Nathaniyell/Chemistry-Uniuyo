@@ -675,7 +675,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: godwinEbong,
-    title: "Dr.",
+    title: "Professor",
     fullName: "godwin ebong",
     email: ["godwinebong@uniuyo.edu.ng"],
     googleScholar: "",
@@ -689,8 +689,13 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
+        title:
+          "Professor of Inorganic Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
-        year: "October 2017 - present",
+        year: "October 2017 - 2025",
       },
       {
         title: "Staff Adviser for Students̓ Chemical Society of Nigeria, Department of Chemistry, University of Uyo",
@@ -843,7 +848,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: uwah,
-    title: "Dr.",
+    title: "Professor",
     fullName: "emmmanuel uwah",
     email: ["emmanueliuwah@uniuyo.edu.ng"],
     googleScholar: "https://scholar.google.com/citations?user=W2Iccb4AAAAJ&hl=en&oi=ao",
@@ -857,8 +862,13 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
+        title:
+          "Professor of Analytical Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
-        year: "October 2017 - present",
+        year: "October 2017 - 2025",
       },
       {
         title: "Senior Lecturer, Department of Chemistry, University of Uyo",
@@ -995,7 +1005,7 @@ const staffData: Lecturer[] = [
   },
   {
     image: [inemesitakpan],
-    title: "Dr.",
+    title: "Professor",
     fullName: "inemesit akpan",
     email: [],
     googleScholar: "",
@@ -1009,7 +1019,52 @@ const staffData: Lecturer[] = [
     profile: "",
     experience: [
       {
+        title: "Professor of Physical Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
         title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
+      },
+    ],
+  },
+  {
+    image: [atimJohnson],
+    title: "Professor",
+    fullName: "Atim Johnson",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Professor of Inorganic Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
         year: "",
       },
     ],
@@ -1207,44 +1262,6 @@ const staffData: Lecturer[] = [
     ],
   },
   {
-    image: [atimJohnson],
-    title: "Dr.",
-    fullName: "Atim Johnson",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-
-  {
     image: [iniUmoren, iniUmoren2],
     title: "Dr.",
     fullName: "ini umoren",
@@ -1259,9 +1276,13 @@ const staffData: Lecturer[] = [
 
     profile: "",
     experience: [
+         {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
       {
         title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "January 2021 - present",
+        year: "January 2021 - 2025",
       },
       {
         title:
@@ -1374,6 +1395,316 @@ const staffData: Lecturer[] = [
       },
       {
         title: "Umoren, S. A., Umoren, I. U. and Johnson, A. S. (2013). Metal soaps of Hura crepitans seed oil: Potential stabilizer for unplasticised polyvinyl chloride against thermal degradation. Journal of Chemica Acta, 2: 92-94"
+      },
+    ],
+  },
+  {
+    image: boEkom,
+    title: "Dr.",
+    fullName: "ekerete boekom",
+    email: ["ekereteboekom@uniuyo.edu.ng"],
+    googleScholar: "https://scholar.google.com/citations?hl=en&user=GJ6_8fwAAAAJ",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=8701608700",
+    orcid: "https://orcid.org/0000-0002-2401-6379",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "Room 151",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2019 - 2025",
+      },
+      {
+        title:
+          "Lecturer I, Department of Chemistry, University of Uyo",
+        year: "October 2016 - October 2019",
+      },
+      {
+        title:
+          "Lecturer II, Department of Chemistry, University of Uyo",
+        year: "October 2008 - October 2016",
+      },
+      {
+        title:
+          "Assistant Lecturer, Department of Chemistry, University of Uyo",
+        year: "October 2005 - October 2008",
+      },
+      {
+        title:
+          "Graduate Assistant, Department of Chemistry, University of Uyo",
+        year: "January 1994 - May 2005",
+      },
+      {
+        title:
+          "Ph.D Physical Chemistry, University of Calabar, Nigeria",
+        year: "2008 - 2019",
+      },
+      {
+        title:
+          "M.Sc. Physical Chemistry, University of Calabar, Nigeria",
+        year: "1995 - 2005",
+      },
+      {
+        title:
+          "B.Sc. Pure Chemistry, University of Uyo, Nigeria",
+        year: "1988 - 1992",
+      },
+      {
+        title: "Examination Officer, Department of Chemistry, University of Uyo",
+        year: "2002 - 2008, 2014 - 2020",
+      },
+      {
+        title: "Secretary of the Department of Chemistry, Department of Chemistry, University of Uyo",
+        year: "2002 - 2008, 2014 - 2020",
+      },
+    ],
+    awards: [
+      {
+        type: "University of Uyo Honour Roll",
+        awarder: "University of Uyo",
+        year: "1990, 1991, 1992",
+      },
+      {
+        type: "Research Grant",
+        awarder: "Education Trust Fund Research Grant",
+        year: "2008",
+      },
+    ],
+    researchAreas: ["Thermochemistry", "Electrochemistry", "Chemical Kinetics", "Surface Chemistry", "Computational Chemistry"],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "Chimezie, P. O., BoEKOM, E. J. and Akpan, I. A. (2023) Synthesis, Characterization and Electrochemical Studies on the Corrosion Inhibition Properties of Schiff Bases foe Mild Steel in 1 M HCl Solution, Chemical Science International Journal, 32 (2): 30 - 50 (America)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2020). Kinetics, Molecular Dynamics and Adsorption behaviour of Pyridine on mild steel in 0.1 M HCl solutions, Elixir Applied Chemistry, 142: 54382-54387. (India)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. (2019). Experimental and Theoretical Approach of L-Methionine Sulphone (LMS) as corrosion inhibitor for mild steel in HCl solutions, Elixir Computational Chemistry 129: 52983-52988. (India)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2019). Effects of thiophene on acid corrosion of mild steel. World Journal of Applied Science and Technology, 11(2): 176-182. (Nigeria)",
+      },
+      {
+        title: "BoEKOM, E. J. and Essien, K. E. (2018). Thermodynamics and Sorption studies of 5-phenylisoxazole on mild steel in 2 M HCl solutions. World Journal of Applied Science and Technology (special edition), 10(2): 113-117. (Nigeria)",
+      },
+      {
+        title: "BoEKOM, E. J., Essien, K. E., Akpan, I. A. and Abakedi, O. U. (2018). Electrochemical Investigation and Quantum Chemical Evaluation of 5-phenylisoxazole for mild steel in HCl. World Journal of Applied Science and Technology (special edition), 10(1): 33-37. (Nigeria)",
+      },
+      {
+        title: "Ebenso, E. E., Ekpe, U. U., Umoren, S. A Jackson, E. U., Oforka, N. C. and Abiola, O. K. (2006). Synergistic effect of halide ions on the corrosion of aluminium in acidic medium be some Polymers, Journal of Applied Polymer Science, 100 (4): 2889–2894. (USA)"
+      },
+      {
+        title: "Obot, A. S., BoEKOM, E. J., Ita, B. N. and Utam, E. C. (2022). Kinetics consideration of ethanol leave extract of Costus lucanusianus as green corrosion inhibitor for mild steel and aluminium in 1 M HCl solution, International Journal of Research - GRANTHAALAYAH, 10(1): 106 -118. (India)"
+      },
+      {
+        title: "Obot, A. S., BoEKOM, E. J., Ugi, B. U., Essien, K. E. and Jonah, N. B. (2021). Thermodynamic investigation and quantum chemical evaluation of n-hexane extracts of Costus lucanusianus as corrosion inhibitors for mild steel and aluminium in 1 M HCl solution, Journal of Applied Physical Science International, 13(3): 6-27. (USA)"
+      },
+      {
+        title: "Ituen, E., Dim C. and BoEKOM, E. J. (2021). Orange peel extract mediated silver nanofluid as corrosion inhibitor for X80 steel in simulated oilfield scale dissolver. Journal of Metallic Research, 4(1):41-45. (Singapore, China)"
+      },
+    ],
+  },
+
+  {
+    image: [ekeminituen],
+    title: "Dr.",
+    fullName: "ekemini ituen",
+    email: ["ekeminiituen@uniuyo.edu.ng "],
+    googleScholar: "https://scholar.google.com/citations?user=coxyq5kAAAAJ&hl=en&oi=ao",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=57126213700",
+    orcid: "https://orcid.org/0000-0002-6029-523X",
+    website: "",
+    linkedIn: "",
+    unit: "Physical Chemistry",
+    officeNo: "Room 227",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
+        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
+        year: "2021 - 2025",
+      },
+      {
+        title: "Leader, Emerging Materials and Energy Research Group, University of Uyo.",
+        year: "2022 - Date",
+      },
+      {
+        title: "Lecturer I, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2018 - 2021",
+      },
+      {
+        title: "Visiting Researcher, School of Materials Science and Engineering, Southwest Petroleum University, Chengdu, China",
+        year: "2018 - 2019",
+      },
+      {
+        title: "Lecturer II, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2015 - 2018",
+      },
+      {
+        title: "PhD Exchange Student, China University of Petroleum, Qingdao, China",
+        year: "2015 - 2016",
+      },
+      {
+        title:
+          "Ph.D in Physical Chemistry, University of Port Harcourt, Nigeria",
+        year: "2017",
+      },
+
+      {
+        title: "Assistant Lecturer, Department of Chemistry, University of Uyo, Nigeria",
+        year: "2012 - 2015",
+      },
+      {
+        title:
+          "M.Sc in Physical Chemistry, University of Ibadan, Nigeria",
+        year: "2011",
+      },
+      {
+        title:
+          "B.Sc in Applied Chemistry, University of Uyo, Nigeria",
+        year: "2006",
+      },
+    ],
+    awards: [
+      {
+        type: "Research Grant",
+        awarder: "TETFUND",
+        year: "2023",
+      },
+      {
+        type: "Robert S. McNamara PhD Fellowship taken at China University of Petroleum, Qingdao, Shandong Province, China",
+        awarder: "World Bank",
+        year: "2015",
+      },
+      {
+        type: "Best Graduating Student in Physical Chemistry, Class of 2010",
+        awarder: "University of Ibadan, Nigeria",
+        year: "2011",
+      },
+      {
+        type: "University Honours Roll as Best Graduating Student in Faculty of Science, Class of 2001",
+        awarder: "University of Uyo, Nigeria",
+        year: "2008",
+      },
+    ],
+    researchAreas: ["New materials for industrial, agricultural and energy applications", "Corrosion, electrochemistry and surface science", "Food and chemical toxicology", "Computational materials science"],
+    researchCollaborators: [
+      {
+        title: "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+        collaborator: "Southwest Petroleum University, Chengdu, China",
+      },
+      {
+        title: "African Centre of Excellence for Oilfield Chemicals Research",
+        collaborator: "University of Port Harcourt, Nigeria",
+      },
+      {
+        title: "School of Materials Chemistry and Physics",
+        collaborator: "China University of Petroleum, Qingdao, China.",
+      },
+      {
+        title: "State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences",
+        collaborator: "Chinese Academy of Sciences, Beijing, China",
+      },
+      {
+        title: "Center for Materials Science",
+        collaborator: "College of Science, Engineering and Technology, University of South Africa, South Africa.",
+      },
+      {
+        title: "Corrosion and Electrochemistry Group",
+        collaborator: "Department of Chemistry, Nagaland University, Lumami, India",
+      },
+    ],
+    publications: [
+      {
+        title: "Wu, Ziqi, Junjie Fan, Jianwen Hu, Wenqing Xie, Shuangqing Sun, Songqing Hu, Chunling Li, Zhikun Wang, Ekemini Ituen. Temperature-responsive salt-resistant poly (sulfobetaine methacrylate)-based emulsifiers for heavy oils. International Journal of Biological Macromolecules. 2024, 268, 131977.",
+      },
+      {
+        title: "Ekemini Ituen, Lin Yuanhua, Chandrabhan Verma, Akram Alfantazi, Onyewuchi Akaranta, Eno Ebenso. Synthesis and Characterization of Walnut Husk Extract-Silver Nanocomposites for Removal of Heavy Metals from Petroleum Wastewater and Its Consequences on Pipework Steel Corrosion. Journal of Molecular Liquids. 2021, 335, 116132. "
+      },
+      {
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua. Inhibitive effect of onion mesocarp extract-nickel nanoparticles composite on simultaneous hydrogen production and pipework corrosion in 1 M HCl. International Journal of Hydrogen Energy. 2020, 45, 10814-10825."
+      },
+      {
+        title: "Ekemini Ituen, Ekere Ekemini, Lin Yuanhua, Ruiyun Li, Ambrish Singh. Mitigation of microbial biodeterioration and acid corrosion of pipework steel using Citrus reticulata peels extract mediated copper nanoparticles composite. International Biodeterioration and Biodegradation. 2020, 149:104935"
+      },
+      {
+        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua, Ruiyun Li. Synthesis and evaluation of anticorrosion properties of onion mesocarp-nickel nanocomposites on X80 steel in acidic cleaning solution. Journal of Materials Research and Technology. 2020, 9(3), 2832–2845"
+      },
+      {
+        title: "Ambrish Singh, Kashif Ansari, Ekemini Ituen, Lei Guo, Md Abdul Wahab, M. A. Quraishi, Xingwei Kong, Yuanhua Lin. A new series of synthesized compounds as corrosion mitigator for storage tanks: Detailed electrochemical and theoretical investigations. Construction and Building Materials. 2020, 259, 120421."
+      },
+      {
+        title: "Ekemini Ituen, Victor Mkpenie, Ekere Ekemini. Corrosion inhibition of X80 steel in simulated acid wash solution using glutathione and its blends: Experimental and theoretical studies. Colloids and Surfaces A: Physicochemical and Engineering Aspects. 2019, 578, 123597 "
+      },
+      {
+        title: "Ekemini Ituen, Victor Mkpenie, Eno Moses, Ime Obot. Electrochemical kinetics, molecular dynamics, adsorption and anticorrosion behavior of melatonin biomolecule on steel surface in acidic medium. Bioelectrochemistry. 2019, 129, 42-53"
+      },
+      {
+        title: "Ekemini Ituen, Moses Solomon, Saviour Umoren, Onyewuchi Akaranta. Corrosion inhibition by amitriptyline and amitriptyline-based formulations for steels in simulated pickling and acidizing media. Journal of Petroleum Science and Engineering. 2019, 174: 984-996"
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Saviour Umoren. N-acetyl cysteine based corrosion inhibitor formulations for steel protection in 15% HCl solution. Journal of Molecular Liquids. 2017, 246:112-118."
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James, Shuangqin Sun. Green and sustainable local biomaterials for oilfield chemicals: Griffonia simplicifolia extract as steel corrosion inhibitor in hydrochloric acid. Sustainable Materials and Technologies. 2017, 11, 12–18."
+      },
+      {
+        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James. Green anticorrosive oilfield chemicals from 5-hydroxytryptophan and synergistic additives for X80 steel surface protection in acidic well treatment fluids. Journal of Molecular Liquids. 2016, 224. 408–419"
+      }
+    ],
+  },
+  {
+    image: [nSimon],
+    title: "Dr.",
+    fullName: "Nzikhayel Simon",
+    email: [],
+    googleScholar: "",
+    scopus: "",
+    orcid: "",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "",
+
+    profile: "",
+    experience: [
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
+        title: "Senior Lecturer , Department of Chemistry, University of Uyo",
+        year: "",
+      },
+    ],
+    awards: [
+      {
+        type: "",
+        awarder: "",
+        year: "",
+      },
+    ],
+    researchAreas: [],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "",
       },
     ],
   },
@@ -1675,306 +2006,6 @@ const staffData: Lecturer[] = [
         title:
           "Shaibu, S. E., Inam, E. J., Moses, E. A., Fatunla, O. K., Enin, G. A., Ofon, U. A., Effiong, N. E. and Ibuotenang, N. D. (2021). Synthesis and Structural Elucidation of Nanoscale Manganese-Bamboo Composites. World Journal of Applied Science and Technology, 13 (1): 49-55.",
       },
-    ],
-  },
-  {
-    image: [nSimon],
-    title: "Dr.",
-    fullName: "Nzikhayel Simon",
-    email: [],
-    googleScholar: "",
-    scopus: "",
-    orcid: "",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer , Department of Chemistry, University of Uyo",
-        year: "",
-      },
-    ],
-    awards: [
-      {
-        type: "",
-        awarder: "",
-        year: "",
-      },
-    ],
-    researchAreas: [],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "",
-      },
-    ],
-  },
-
-
-  {
-    image: boEkom,
-    title: "Dr.",
-    fullName: "ekerete boekom",
-    email: ["ekereteboekom@uniuyo.edu.ng"],
-    googleScholar: "https://scholar.google.com/citations?hl=en&user=GJ6_8fwAAAAJ",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=8701608700",
-    orcid: "https://orcid.org/0000-0002-2401-6379",
-    website: "",
-    linkedIn: "",
-    unit: "Physical Chemistry",
-    officeNo: "Room 151",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "October 2019 - present",
-      },
-      {
-        title:
-          "Lecturer I, Department of Chemistry, University of Uyo",
-        year: "October 2016 - October 2019",
-      },
-      {
-        title:
-          "Lecturer II, Department of Chemistry, University of Uyo",
-        year: "October 2008 - October 2016",
-      },
-      {
-        title:
-          "Assistant Lecturer, Department of Chemistry, University of Uyo",
-        year: "October 2005 - October 2008",
-      },
-      {
-        title:
-          "Graduate Assistant, Department of Chemistry, University of Uyo",
-        year: "January 1994 - May 2005",
-      },
-      {
-        title:
-          "Ph.D Physical Chemistry, University of Calabar, Nigeria",
-        year: "2008 - 2019",
-      },
-      {
-        title:
-          "M.Sc. Physical Chemistry, University of Calabar, Nigeria",
-        year: "1995 - 2005",
-      },
-      {
-        title:
-          "B.Sc. Pure Chemistry, University of Uyo, Nigeria",
-        year: "1988 - 1992",
-      },
-      {
-        title: "Examination Officer, Department of Chemistry, University of Uyo",
-        year: "2002 - 2008, 2014 - 2020",
-      },
-      {
-        title: "Secretary of the Department of Chemistry, Department of Chemistry, University of Uyo",
-        year: "2002 - 2008, 2014 - 2020",
-      },
-    ],
-    awards: [
-      {
-        type: "University of Uyo Honour Roll",
-        awarder: "University of Uyo",
-        year: "1990, 1991, 1992",
-      },
-      {
-        type: "Research Grant",
-        awarder: "Education Trust Fund Research Grant",
-        year: "2008",
-      },
-    ],
-    researchAreas: ["Thermochemistry", "Electrochemistry", "Chemical Kinetics", "Surface Chemistry", "Computational Chemistry"],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "Chimezie, P. O., BoEKOM, E. J. and Akpan, I. A. (2023) Synthesis, Characterization and Electrochemical Studies on the Corrosion Inhibition Properties of Schiff Bases foe Mild Steel in 1 M HCl Solution, Chemical Science International Journal, 32 (2): 30 - 50 (America)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2020). Kinetics, Molecular Dynamics and Adsorption behaviour of Pyridine on mild steel in 0.1 M HCl solutions, Elixir Applied Chemistry, 142: 54382-54387. (India)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. (2019). Experimental and Theoretical Approach of L-Methionine Sulphone (LMS) as corrosion inhibitor for mild steel in HCl solutions, Elixir Computational Chemistry 129: 52983-52988. (India)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. and Obot, A. (2019). Effects of thiophene on acid corrosion of mild steel. World Journal of Applied Science and Technology, 11(2): 176-182. (Nigeria)",
-      },
-      {
-        title: "BoEKOM, E. J. and Essien, K. E. (2018). Thermodynamics and Sorption studies of 5-phenylisoxazole on mild steel in 2 M HCl solutions. World Journal of Applied Science and Technology (special edition), 10(2): 113-117. (Nigeria)",
-      },
-      {
-        title: "BoEKOM, E. J., Essien, K. E., Akpan, I. A. and Abakedi, O. U. (2018). Electrochemical Investigation and Quantum Chemical Evaluation of 5-phenylisoxazole for mild steel in HCl. World Journal of Applied Science and Technology (special edition), 10(1): 33-37. (Nigeria)",
-      },
-      {
-        title: "Ebenso, E. E., Ekpe, U. U., Umoren, S. A Jackson, E. U., Oforka, N. C. and Abiola, O. K. (2006). Synergistic effect of halide ions on the corrosion of aluminium in acidic medium be some Polymers, Journal of Applied Polymer Science, 100 (4): 2889–2894. (USA)"
-      },
-      {
-        title: "Obot, A. S., BoEKOM, E. J., Ita, B. N. and Utam, E. C. (2022). Kinetics consideration of ethanol leave extract of Costus lucanusianus as green corrosion inhibitor for mild steel and aluminium in 1 M HCl solution, International Journal of Research - GRANTHAALAYAH, 10(1): 106 -118. (India)"
-      },
-      {
-        title: "Obot, A. S., BoEKOM, E. J., Ugi, B. U., Essien, K. E. and Jonah, N. B. (2021). Thermodynamic investigation and quantum chemical evaluation of n-hexane extracts of Costus lucanusianus as corrosion inhibitors for mild steel and aluminium in 1 M HCl solution, Journal of Applied Physical Science International, 13(3): 6-27. (USA)"
-      },
-      {
-        title: "Ituen, E., Dim C. and BoEKOM, E. J. (2021). Orange peel extract mediated silver nanofluid as corrosion inhibitor for X80 steel in simulated oilfield scale dissolver. Journal of Metallic Research, 4(1):41-45. (Singapore, China)"
-      },
-    ],
-  },
-
-  {
-    image: [ekeminituen],
-    title: "Dr.",
-    fullName: "ekemini ituen",
-    email: ["ekeminiituen@uniuyo.edu.ng "],
-    googleScholar: "https://scholar.google.com/citations?user=coxyq5kAAAAJ&hl=en&oi=ao",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=57126213700",
-    orcid: "https://orcid.org/0000-0002-6029-523X",
-    website: "",
-    linkedIn: "",
-    unit: "Physical Chemistry",
-    officeNo: "Room 227",
-
-    profile: "",
-    experience: [
-      {
-        title: "Senior Lecturer, Department of Chemistry, University of Uyo",
-        year: "2021 - Date",
-      },
-      {
-        title: "Leader, Emerging Materials and Energy Research Group, University of Uyo.",
-        year: "2022 - Date",
-      },
-      {
-        title: "Lecturer I, Department of Chemistry, University of Uyo, Nigeria",
-        year: "2018 - 2021",
-      },
-      {
-        title: "Visiting Researcher, School of Materials Science and Engineering, Southwest Petroleum University, Chengdu, China",
-        year: "2018 - 2019",
-      },
-      {
-        title: "Lecturer II, Department of Chemistry, University of Uyo, Nigeria",
-        year: "2015 - 2018",
-      },
-      {
-        title: "PhD Exchange Student, China University of Petroleum, Qingdao, China",
-        year: "2015 - 2016",
-      },
-      {
-        title:
-          "Ph.D in Physical Chemistry, University of Port Harcourt, Nigeria",
-        year: "2017",
-      },
-
-      {
-        title: "Assistant Lecturer, Department of Chemistry, University of Uyo, Nigeria",
-        year: "2012 - 2015",
-      },
-      {
-        title:
-          "M.Sc in Physical Chemistry, University of Ibadan, Nigeria",
-        year: "2011",
-      },
-      {
-        title:
-          "B.Sc in Applied Chemistry, University of Uyo, Nigeria",
-        year: "2006",
-      },
-    ],
-    awards: [
-      {
-        type: "Research Grant",
-        awarder: "TETFUND",
-        year: "2023",
-      },
-      {
-        type: "Robert S. McNamara PhD Fellowship taken at China University of Petroleum, Qingdao, Shandong Province, China",
-        awarder: "World Bank",
-        year: "2015",
-      },
-      {
-        type: "Best Graduating Student in Physical Chemistry, Class of 2010",
-        awarder: "University of Ibadan, Nigeria",
-        year: "2011",
-      },
-      {
-        type: "University Honours Roll as Best Graduating Student in Faculty of Science, Class of 2001",
-        awarder: "University of Uyo, Nigeria",
-        year: "2008",
-      },
-    ],
-    researchAreas: ["New materials for industrial, agricultural and energy applications", "Corrosion, electrochemistry and surface science", "Food and chemical toxicology", "Computational materials science"],
-    researchCollaborators: [
-      {
-        title: "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
-        collaborator: "Southwest Petroleum University, Chengdu, China",
-      },
-      {
-        title: "African Centre of Excellence for Oilfield Chemicals Research",
-        collaborator: "University of Port Harcourt, Nigeria",
-      },
-      {
-        title: "School of Materials Chemistry and Physics",
-        collaborator: "China University of Petroleum, Qingdao, China.",
-      },
-      {
-        title: "State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences",
-        collaborator: "Chinese Academy of Sciences, Beijing, China",
-      },
-      {
-        title: "Center for Materials Science",
-        collaborator: "College of Science, Engineering and Technology, University of South Africa, South Africa.",
-      },
-      {
-        title: "Corrosion and Electrochemistry Group",
-        collaborator: "Department of Chemistry, Nagaland University, Lumami, India",
-      },
-    ],
-    publications: [
-      {
-        title: "Wu, Ziqi, Junjie Fan, Jianwen Hu, Wenqing Xie, Shuangqing Sun, Songqing Hu, Chunling Li, Zhikun Wang, Ekemini Ituen. Temperature-responsive salt-resistant poly (sulfobetaine methacrylate)-based emulsifiers for heavy oils. International Journal of Biological Macromolecules. 2024, 268, 131977.",
-      },
-      {
-        title: "Ekemini Ituen, Lin Yuanhua, Chandrabhan Verma, Akram Alfantazi, Onyewuchi Akaranta, Eno Ebenso. Synthesis and Characterization of Walnut Husk Extract-Silver Nanocomposites for Removal of Heavy Metals from Petroleum Wastewater and Its Consequences on Pipework Steel Corrosion. Journal of Molecular Liquids. 2021, 335, 116132. "
-      },
-      {
-        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua. Inhibitive effect of onion mesocarp extract-nickel nanoparticles composite on simultaneous hydrogen production and pipework corrosion in 1 M HCl. International Journal of Hydrogen Energy. 2020, 45, 10814-10825."
-      },
-      {
-        title: "Ekemini Ituen, Ekere Ekemini, Lin Yuanhua, Ruiyun Li, Ambrish Singh. Mitigation of microbial biodeterioration and acid corrosion of pipework steel using Citrus reticulata peels extract mediated copper nanoparticles composite. International Biodeterioration and Biodegradation. 2020, 149:104935"
-      },
-      {
-        title: "Ekemini Ituen, Ambrish Singh, Lin Yuanhua, Ruiyun Li. Synthesis and evaluation of anticorrosion properties of onion mesocarp-nickel nanocomposites on X80 steel in acidic cleaning solution. Journal of Materials Research and Technology. 2020, 9(3), 2832–2845"
-      },
-      {
-        title: "Ambrish Singh, Kashif Ansari, Ekemini Ituen, Lei Guo, Md Abdul Wahab, M. A. Quraishi, Xingwei Kong, Yuanhua Lin. A new series of synthesized compounds as corrosion mitigator for storage tanks: Detailed electrochemical and theoretical investigations. Construction and Building Materials. 2020, 259, 120421."
-      },
-      {
-        title: "Ekemini Ituen, Victor Mkpenie, Ekere Ekemini. Corrosion inhibition of X80 steel in simulated acid wash solution using glutathione and its blends: Experimental and theoretical studies. Colloids and Surfaces A: Physicochemical and Engineering Aspects. 2019, 578, 123597 "
-      },
-      {
-        title: "Ekemini Ituen, Victor Mkpenie, Eno Moses, Ime Obot. Electrochemical kinetics, molecular dynamics, adsorption and anticorrosion behavior of melatonin biomolecule on steel surface in acidic medium. Bioelectrochemistry. 2019, 129, 42-53"
-      },
-      {
-        title: "Ekemini Ituen, Moses Solomon, Saviour Umoren, Onyewuchi Akaranta. Corrosion inhibition by amitriptyline and amitriptyline-based formulations for steels in simulated pickling and acidizing media. Journal of Petroleum Science and Engineering. 2019, 174: 984-996"
-      },
-      {
-        title: "Ekemini Ituen, Onyewuchi Akaranta, Saviour Umoren. N-acetyl cysteine based corrosion inhibitor formulations for steel protection in 15% HCl solution. Journal of Molecular Liquids. 2017, 246:112-118."
-      },
-      {
-        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James, Shuangqin Sun. Green and sustainable local biomaterials for oilfield chemicals: Griffonia simplicifolia extract as steel corrosion inhibitor in hydrochloric acid. Sustainable Materials and Technologies. 2017, 11, 12–18."
-      },
-      {
-        title: "Ekemini Ituen, Onyewuchi Akaranta, Abosede James. Green anticorrosive oilfield chemicals from 5-hydroxytryptophan and synergistic additives for X80 steel surface protection in acidic well treatment fluids. Journal of Molecular Liquids. 2016, 224. 408–419"
-      }
     ],
   },
   {
