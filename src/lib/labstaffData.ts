@@ -59,16 +59,16 @@ export const labStaffData = [
         image: []
     },
     {
+        name: "Mrs. Oluwatoyin Akpabio",
+        role: "Technologist II",
+        qualifications: "",
+        image: [oluwatoyin, oluwatoyin2]
+    },
+    {
         name: "Mr. Kokoette Okokon",
         role: "Lab Supervisor",
         qualifications: "OND, B.Sc (Chemistry)",
         image: []
-    },
-    {
-        name: "Mrs. Oluwatoyin Akpabio",
-        role: "Lab Supervisor",
-        qualifications: "",
-        image: [oluwatoyin, oluwatoyin2]
     },
     {
         name: "Miss Uyai Inoyo",
