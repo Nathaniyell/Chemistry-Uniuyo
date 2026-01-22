@@ -51,6 +51,7 @@ import acsNigeria from "@/public/images/acs_fall2025/fall2.jpg";
 import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
 import aktw25 from "@/public/images/aktw/aktw25.jpg";
 import phd2026d from "@/public/images/phd2026a.jpg";
+import csnAward from "@/public/images/csn_award3.jpg";
 
 
 export const chemistryUnits = [
@@ -79,6 +80,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: csnAward,
+    title: "Chemical Society of Nigeria Presents Award of Excellence to Professor Edu Inam",
+    btnLink: "/recent-news",
   },
   {
     image: phd2026d,
