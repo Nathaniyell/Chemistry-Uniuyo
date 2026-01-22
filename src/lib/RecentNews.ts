@@ -297,6 +297,20 @@ export interface recentNewsTypes {
 export const recentNews: recentNewsTypes[] = [
   {
     date: "January 2026",
+    title: "Chemical Society of Nigeria Presents Award of Excellence to Professor Edu Inam",
+    description: [
+      "The Chemical Society of Nigeria (CSN) Akwa Ibom State Chapter has presented an Award of Excellence to Professor Edu Inam, Head of the Department of Chemistry, University of Uyo, in recognition and sincere appreciation of her outstanding support, dedicated service, and invaluable contributions towards the growth and success of the Chemical Society of Nigeria Akwa Ibom State Chapter.",
+      "The award ceremony was a momentous occasion that highlighted Professor Inam's unwavering commitment to advancing the chemical sciences in Nigeria and her exceptional leadership in fostering collaboration and excellence within the professional chemistry community.",
+      "The award was presented by Professor Emmanuel Uwah on behalf of the Chairman of the CSN Akwa Ibom State Chapter. The delegation that presented the award included Professor Atim Johnson and Dr. Itoro Udo, both distinguished members of the Chemical Society of Nigeria.",
+      "Professor Inam's contributions to the Chemical Society of Nigeria have been multifaceted, spanning leadership, mentorship, research promotion, and advocacy for the advancement of chemistry education and practice in Nigeria. Her dedication has significantly impacted the growth and visibility of the Akwa Ibom State Chapter, inspiring both students and professionals in the field.",
+      "In her acceptance remarks, Professor Inam expressed her gratitude to the Chemical Society of Nigeria for the recognition and reaffirmed her commitment to continuing her support for the organization's mission. She emphasized the importance of professional societies in advancing scientific knowledge, fostering collaboration, and nurturing the next generation of chemists.",
+      "The Department of Chemistry, University of Uyo, takes great pride in this recognition of Professor Inam's achievements. This award not only honors her individual contributions but also reflects the department's commitment to excellence in chemical education, research, and professional service.",
+      "The entire university community joins in congratulating Professor Inam on this well-deserved recognition and looks forward to her continued leadership and contributions to the advancement of chemistry in Nigeria and beyond."
+    ],
+    pictures: [schoolLogo],
+  },
+  {
+    date: "January 2026",
     title: "PhD Candidate Successfully Defends Doctoral Thesis on Metal Complexes of Gallic Acid Derivative",
     description: [
       "The Department of Chemistry, University of Uyo, celebrates the successful defense of Usoro Akpan Ekpoudo (17/PG/FS/CH/PhD/008), who successfully completed his viva voce examination for his Doctor of Philosophy degree.",
