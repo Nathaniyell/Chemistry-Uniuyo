@@ -287,6 +287,10 @@ import phd2026e from "@/public/images/phd2026e.jpg";
 import csnAward from "@/public/images/csn_award3.jpg";
 import csnAward1 from "@/public/images/csn_award1.jpg";
 import csnAward2 from "@/public/images/csn_award2.jpg";
+import philomenaUfia from "@/public/images/mrs_ufia1.jpg";
+import philomenaUfia2 from "@/public/images/mrs_ufia2.jpg";
+import philomenaUfia3 from "@/public/images/mrs_ufia3.jpg";
+import philomenaUfia4 from "@/public/images/mrs_ufia4.jpg";
 
 export interface recentNewsTypes {
   title: string;
@@ -298,6 +302,18 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "January 26, 2026",
+    title: "Department of Chemistry Honors Mrs. Philomena Ufia on Her Retirement",
+    description: [
+      "The Department of Chemistry, University of Uyo, has celebrated the retirement of Mrs. Philomena Ufia after many years of dedicated and meritorious service to the department.",
+      "At a special general meeting of the department held on Monday, 26 January 2026, staff and students gathered to honor Mrs. Ufia, recognizing her unwavering commitment, integrity, and exemplary work ethic.",
+      "In her remarks, the Head of Department eulogized Mrs. Ufia’s dedication, honesty, and excellent service delivery, noting that her professionalism and sense of responsibility have left a lasting legacy in the department’s laboratory operations and student support.",
+      "Mrs. Ufia, who retired as Technologist I, expressed gratitude to God for a successful career and thanked the department for the honour and gifts bestowed on her, describing the gesture as deeply touching and unforgettable.",
+      "The Department of Chemistry wishes Mrs. Philomena Ufia a joyful and fulfilling retirement and appreciates her invaluable contributions to the growth and stability of the department over the years."
+    ],
+    pictures: [philomenaUfia, philomenaUfia2, philomenaUfia3, philomenaUfia4],
+  },
   {
     date: "January 2026",
     title: "Chemical Society of Nigeria Presents Award of Excellence to Professor Edu Inam",

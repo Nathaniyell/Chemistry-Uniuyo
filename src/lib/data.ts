@@ -52,6 +52,7 @@ import newMscDefense from "@/public/images/msc-defense/msc-defense8.jpg";
 import aktw25 from "@/public/images/aktw/aktw25.jpg";
 import phd2026d from "@/public/images/phd2026a.jpg";
 import csnAward from "@/public/images/csn_award3.jpg";
+import philomenaUfia from "@/public/images/mrs_ufia1.jpg";  
 
 
 export const chemistryUnits = [
@@ -80,6 +81,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: philomenaUfia,
+    title:"Department of Chemistry Honors Mrs. Philomena Ufia on Her Retirement",
+    btnLink: "/recent-news",
   },
   {
     image: csnAward,
