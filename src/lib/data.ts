@@ -53,6 +53,7 @@ import aktw25 from "@/public/images/aktw/aktw25.jpg";
 import phd2026d from "@/public/images/phd2026a.jpg";
 import csnAward from "@/public/images/csn_award3.jpg";
 import philomenaUfia from "@/public/images/mrs_ufia1.jpg";  
+import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
 
 
 export const chemistryUnits = [
@@ -81,6 +82,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: nucAppointment,
+    title:"Congratulations to Professor Edu Inam on NUC Appointment to National STEM Transformation Strategy Committee",
+    btnLink: "/recent-news",
   },
   {
     image: philomenaUfia,
