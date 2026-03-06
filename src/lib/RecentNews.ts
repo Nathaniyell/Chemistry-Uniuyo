@@ -291,6 +291,8 @@ import philomenaUfia from "@/public/images/mrs_ufia1.jpg";
 import philomenaUfia2 from "@/public/images/mrs_ufia2.jpg";
 import philomenaUfia3 from "@/public/images/mrs_ufia3.jpg";
 import philomenaUfia4 from "@/public/images/mrs_ufia4.jpg";
+import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
+import nucAppointment2 from "@/public/images/prof-inam-nuc2.jpeg";
 
 export interface recentNewsTypes {
   title: string;
@@ -302,6 +304,19 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "February 2026",
+    title:
+      "Congratulations to Professor Edu Inam on NUC Appointment to National STEM Transformation Strategy Committee",
+    description: [
+      "The Department of Chemistry, University of Uyo, proudly congratulates Professor Edu James Inam on her appointment as a member of the Blueprint ICT-Dev STEM Transformation Strategy Committee of the National Universities Commission (NUC).",
+      "In an official letter dated January 30, 2026, the NUC confirmed her appointment as part of a select team of experts contributing to a national intervention supported by Agence Francaise de Developpement (AFD), aimed at strengthening ICT infrastructure and human resources in the Nigerian University System.",
+      "As outlined in the committee's mandate, members are expected to support the design of a National STEM Transformation Strategy, develop medium- to long-term implementation plans, and provide guidance on labour market observatory systems to align skills development with industry needs.",
+      "In a follow-up communication dated February 3, 2026, Professor Inam was formally invited to the inauguration of the committee at the NUC Secretariat, Abuja, with the first strategic meeting scheduled immediately after the inauguration.",
+      "This national recognition reflects Professor Inam's distinguished leadership, academic excellence, and enduring contributions to science education and institutional development. The Department celebrates this milestone and wishes her a successful and impactful service on this important national assignment."
+    ],
+    pictures: [nucAppointment, nucAppointment2],
+  },
   {
     date: "January 26, 2026",
     title: "Department of Chemistry Honors Mrs. Philomena Ufia on Her Retirement",
