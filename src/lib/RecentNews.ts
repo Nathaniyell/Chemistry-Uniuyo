@@ -285,6 +285,11 @@ import philomenaUfia4 from "@/public/images/mrs_ufia4.jpg";
 import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
 import nucAppointment2 from "@/public/images/prof-inam-nuc2.jpeg";
 import hodElection from "@/public/images/hod-elections/hod-election1.jpeg";
+import hodElection2 from "@/public/images/hod-elections/hod-election2.jpeg";
+import hodElection3 from "@/public/images/hod-elections/hod-election3.jpeg";
+import hodElection4 from "@/public/images/hod-elections/hod-election4.jpeg";
+import hodElection5 from "@/public/images/hod-elections/hod-election5.jpeg";
+
 
 export interface recentNewsTypes {
   title: string;
@@ -308,7 +313,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department warmly congratulates the HOD-Elect, Professor Godwin Ebong, on this well-deserved mandate and wishes him a successful tenure marked by progress, unity, and continued academic excellence.",
       "The Department of Chemistry extends its heartfelt gratitude to Professor Edu Inam for her years of dedicated service and wishes her the best in her future endeavors."
     ],
-    pictures: [hodElection],
+    pictures: [hodElection, hodElection2, hodElection3, hodElection4, hodElection5],
   },
   {
     date: "February 2026",
