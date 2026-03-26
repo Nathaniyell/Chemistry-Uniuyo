@@ -54,6 +54,7 @@ import phd2026d from "@/public/images/phd2026a.jpg";
 import csnAward from "@/public/images/csn_award3.jpg";
 import philomenaUfia from "@/public/images/mrs_ufia1.jpg";  
 import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
+import hodElection from "@/public/images/hod-elections/hod-election1.jpeg";
 
 
 export const chemistryUnits = [
@@ -82,6 +83,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: hodElection,
+    title: "Department of Chemistry Makes University History with First ASUU-Guided HOD Election, Elects Professor Godwin Ebong",
+    btnLink: "/recent-news",
   },
   {
     image: nucAppointment,
