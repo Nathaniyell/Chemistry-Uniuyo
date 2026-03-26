@@ -4,9 +4,7 @@ import sendforth2 from "../../public/images/Sendforth/sendforth2.jpg";
 import sendforth3 from "../../public/images/Sendforth/sendforth3.jpg";
 import sendforth4 from "../../public/images/Sendforth/sendforth4.jpg";
 import profJames from "../../public/images/Sendforth/profJames.jpg";
-import profJames2 from "../../public/images/Sendforth/profJames2.jpg";
 import profAP from "../../public/images/Sendforth/profAp.jpg";
-import profAP2 from "../../public/images/Sendforth/profap2.jpg";
 import profUdosen from "../../public/images/Sendforth/profUdosen.jpg";
 import sendforth11 from "../../public/images/Sendforth/prof-ap-sug.jpg";
 import sendForth from "../../public/images/Sendforth/sendforth5.jpg";
@@ -20,25 +18,18 @@ import sendForth9 from "../../public/images/Sendforth/sendforth13.jpg";
 import sendForth10 from "../../public/images/Sendforth/sendforth12.jpg";
 import sendForth11 from "../../public/images/Sendforth/sendforth14.jpg";
 import sendForth12 from "../../public/images/Sendforth/sendforth15.jpg";
-import sendForth13 from "../../public/images/Sendforth/sendforth16.jpg";
-import sendForth14 from "../../public/images/Sendforth/sendforth17.jpg";
+import sendForth13 from "../../public/images/Sendforth/sendforth16.jpg"; 
 import classO18 from "../../public/images/Graduation/class018.jpg";
-import graduation0 from "../../public/images/Graduation/graduation0.jpg";
 import graduation1 from "../../public/images/Graduation/graduation1.jpg";
 import graduation2 from "../../public/images/Graduation/graduation2.jpg";
-import graduation3 from "../../public/images/Graduation/graduation3.jpg";
-import graduation4 from "../../public/images/Graduation/bzene.jpg";
 import graduation5 from "../../public/images/Graduation/graduation5.jpg";
 import graduation6 from "../../public/images/Graduation/gradpics1.jpg";
-import graduation7 from "../../public/images/Graduation/graduation7.jpg";
 import graduation8 from "../../public/images/Graduation/graduation8.jpg";
 import graduation9 from "../../public/images/Graduation/graduation9.jpg";
-import graduation10 from "../../public/images/Graduation/graduation10.jpg";
 import graduation11 from "../../public/images/Graduation/graduation11.jpg";
 import graduation12 from "../../public/images/Graduation/graduation12.jpg";
 import graduation13 from "../../public/images/Graduation/graduation13.jpg";
 import graduation14 from "../../public/images/Graduation/graduation14.jpg";
-import graduation15 from "../../public/images/Graduation/graduation15.jpg";
 import sug0 from "@/public/images/SUG/sug5.jpg";
 import sug1 from "@/public/images/SUG/SUG1.jpg";
 import sug2 from "@/public/images/SUG/SUG2.jpg";
@@ -293,6 +284,7 @@ import philomenaUfia3 from "@/public/images/mrs_ufia3.jpg";
 import philomenaUfia4 from "@/public/images/mrs_ufia4.jpg";
 import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
 import nucAppointment2 from "@/public/images/prof-inam-nuc2.jpeg";
+import hodElection from "@/public/images/hod-elections/hod-election1.jpeg";
 
 export interface recentNewsTypes {
   title: string;
@@ -304,6 +296,20 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "March 13, 2026",
+    title:
+      "Department of Chemistry Makes University History with First ASUU-Guided HOD Election, Elects Professor Godwin Ebong",
+    description: [
+      "The Department of Chemistry, University of Uyo, has made history as the first department in the university to conduct and successfully conclude a Head of Department election under the new ASUU-approved guidelines.",
+      "The election process followed the internal memorandum issued by the Faculty of Physical Sciences (Ref: UU/FPS/VOL.1/13), dated March 9, 2026, which announced the end of tenure of the current Head of Department (Professor Edu Inam) and called for nominations in line with the approved regulations.",
+      "According to the memo, the process covered nomination form collection and submission, publication of nominated candidates, and the final election exercise. The election was scheduled for Friday, March 13, 2026, at 2:30 PM prompt, at Chemistry Lab 1.",
+      "The election was successfully conducted under the supervision of the Dean, Faculty of Physical Sciences, ensuring transparency, order, and full compliance with the new framework.",
+      "The Department warmly congratulates the HOD-Elect, Professor Godwin Ebong, on this well-deserved mandate and wishes him a successful tenure marked by progress, unity, and continued academic excellence.",
+      "The Department of Chemistry extends its heartfelt gratitude to Professor Edu Inam for her years of dedicated service and wishes her the best in her future endeavors."
+    ],
+    pictures: [hodElection],
+  },
   {
     date: "February 2026",
     title:
