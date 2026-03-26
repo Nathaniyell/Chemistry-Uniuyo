@@ -6,10 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { useMediaQuery } from "react-responsive";
-
 import Image from "next/image";
-import eduInam from "../../public/images/teachingstaff/eduinam4.jpg";
-import profInam from "../../public/images/teachingstaff/profInam2.jpg";
+import godwinEbong from "@/public/images/teachingstaff/Dr. Ebong2.jpg";
 import homeData, { homeStaffData } from "@/lib/data";
 import { HomepageSlider, RouteLinkBtn } from "@/components";
 import HomeSections from "@/components/HomeSections";
@@ -19,47 +17,54 @@ import News from "@/components/News/News";
 import HomeResearchSlider from "@/components/HomeResearchSlider";
 
 export default function Home() {
-  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
-  const isMedium = useMediaQuery({ query: '(min-width: 701px)' });
-  const headOfDepartment = [
-    { title: "prof1", src: eduInam },
-    { title: "prof2", src: profInam },
-  ];
+  const isMobile = useMediaQuery({ query: "(max-width: 700px)" });
+  const isMedium = useMediaQuery({ query: "(min-width: 701px)" });
+  // const headOfDepartment = [
+  //   { title: "prof1", src: godwinEbong },
+  //   { title: "prof2", src: godwinEbong },
+  // ];
   const whyStudyChemistry = [
     {
       title: "Experienced Staff",
-      content: "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
-      link: "/staff/teaching-staff"
+      content:
+        "Our faculty members are distinguished professionals who have received numerous awards for their contributions to the field of chemistry.",
+      link: "/staff/teaching-staff",
     },
     {
       title: "Peaceful and Serene Environment",
-      content: "Our campus provides a tranquil and safe setting conducive to learning and research."
+      content:
+        "Our campus provides a tranquil and safe setting conducive to learning and research.",
     },
     {
       title: "Dedicated and Friendly Staff Members",
-      content: "Our staff is committed to supporting and guiding students through their academic journey.",
-      link: "/staff/teaching-staff"
+      content:
+        "Our staff is committed to supporting and guiding students through their academic journey.",
+      link: "/staff/teaching-staff",
     },
     {
       title: "Well-Equipped Research Facilities",
-      content: "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
-      link: "www.iceesr.org.ng"
+      content:
+        "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
+      link: "www.iceesr.org.ng",
     },
     {
       title: "Modern E-Resources",
-      content: "We provide access to the latest e-resources in the university library to enhance study and research capabilities.",
-      link: "/resources"
+      content:
+        "We provide access to the latest e-resources in the university library to enhance study and research capabilities.",
+      link: "/resources",
     },
     {
       title: "International Collaborations",
-      content: "We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities."
+      content:
+        "We have established MOUs with institutions and research centers abroad, facilitating exchange programs and collaborative research opportunities.",
     },
     {
       title: "Active Student Associations",
-      content: "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.",
-      link: "/students"
-    }
-  ]
+      content:
+        "We boast a vibrant community with professional associations such as the Student Chemical Society of Nigeria (SCSN) for undergraduates, the Graduate Student Association (GRASA) for graduate students, and an International Student Chapter of the American Chemical Society (ACS) open to all students.",
+      link: "/students",
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
@@ -75,7 +80,6 @@ export default function Home() {
             disableOnInteraction: true,
           }}
           navigation={!isMobile}
-        
           modules={[Autoplay, Pagination, Navigation]}
           className="w-full h-fit md:h-full"
         >
@@ -113,7 +117,7 @@ export default function Home() {
 
             <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="aspect-[4/3]">
-                <Swiper
+                {/* <Swiper
                   effect="fade"
                   autoplay={{
                     delay: 3000,
@@ -135,10 +139,19 @@ export default function Home() {
                       </div>
                     </SwiperSlide>
                   ))}
-                </Swiper>
+                </Swiper> */}
+                <div className="relative w-full h-full">
+                  <Image
+                    src={godwinEbong}
+                    alt="Prof Godwin Ebong"
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
               </div>
               <div className="p-6 bg-blue-900 text-white text-center">
-                <h3 className="text-xl font-bold">Professor Edu Inam</h3>
+                <h3 className="text-xl font-bold">Professor Godwin Ebong</h3>
                 <p className="text-blue-100 mt-1">Head of Department</p>
               </div>
             </div>
@@ -182,7 +195,12 @@ export default function Home() {
                         viewBox="0 0 24 24"
                         stroke="currentColor"
                       >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
                       </svg>
                     </Link>
                   )}
@@ -200,15 +218,29 @@ export default function Home() {
             Undergraduate and Postgraduate Programmes
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            The Department of Chemistry offers a Bachelor of Science (B.Sc) degree in Chemistry at the undergraduate level and Master of Science (M.Sc) and PhD degrees in various specializations including Industrial, Environmental, Physical, Organic, Inorganic, and Analytical Chemistry.
+            The Department of Chemistry offers a Bachelor of Science (B.Sc)
+            degree in Chemistry at the undergraduate level and Master of Science
+            (M.Sc) and PhD degrees in various specializations including
+            Industrial, Environmental, Physical, Organic, Inorganic, and
+            Analytical Chemistry.
           </p>
           <Link
             href="/programmes/undergraduate"
             className="inline-flex items-center px-6 py-3 mt-3 text-sm font-medium text-white bg-red-900 rounded-lg hover:bg-red-800 transition-all duration-200 shadow-sm hover:shadow group"
           >
             Find out more
-            <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            <svg
+              className="w-5 h-5 ml-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
             </svg>
           </Link>
         </div>
@@ -223,7 +255,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {homeStaffData.map((staff) => (
-              <div key={staff.name} className="h-full transform hover:-translate-y-1 transition-transform duration-300 capitalize">
+              <div
+                key={staff.name}
+                className="h-full transform hover:-translate-y-1 transition-transform duration-300 capitalize"
+              >
                 <Lecturers
                   name={staff.name}
                   image={staff.image}
@@ -274,8 +309,8 @@ export default function Home() {
         <div className="bg-blue-900 md:w-[95%] mx-auto rounded-xl p-8 md:p-12 mt-20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <h2 className="text-2xl md:text-3xl font-bold text-white md:w-1/2">
-              Explore the Impressive Resources and Facilities of the Department of
-              Chemistry, University of Uyo
+              Explore the Impressive Resources and Facilities of the Department
+              of Chemistry, University of Uyo
             </h2>
 
             <RouteLinkBtn

@@ -13,7 +13,7 @@ import itoroUdoh from "../../public/images/teachingstaff/Dr.itoro.jpg"
 import itoroUdoh2 from "../../public/images/teachingstaff/itoro1.jpg"
 import nSimon from "../../public/images/teachingstaff/Dr. Simon.jpg"
 import atimJohnson from "../../public/images/teachingstaff/Dr. Johnson.jpg"
-import godwinEbong from "../../public/images/teachingstaff/Dr. Ebong.jpg"
+import godwinEbong from "../../public/images/teachingstaff/Dr. Ebong2.jpg"
 import profEnoMoses from "../../public/images/teachingstaff/prof_eno-moses.jpg"
 import imaUdousoro from "../../public/images/teachingstaff/imaUdousoro.jpg"
 import mkpenie from "@/public/images/teachingstaff/mkpenie2.jpg"
@@ -78,6 +78,214 @@ export interface Lecturer {
 
 const staffData: Lecturer[] = [
   {
+    image: godwinEbong,
+    title: "Professor",
+    fullName: "godwin ebong",
+    email: ["godwinebong@uniuyo.edu.ng"],
+    googleScholar: "",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=16743659700",
+    orcid: "https://orcid.org/0000-0003-4555-3090",
+    website: "",
+    linkedIn: "",
+    unit: "Inorganic Chemistry",
+    officeNo: "Room 149",
+
+    profile:
+      "Godwin A. Ebong is a Professor of Inorganic and Environmental Chemistry at the University of Uyo, with extensive teaching, research, and academic leadership experience in the Nigerian university system. His scholarship focuses on environmental quality assessment, pollution monitoring, and evidence-based risk evaluation of contaminants in air, water, soil, sediments, and food matrices. \n Professor Ebong has made sustained contributions to research on trace metals, polycyclic aromatic hydrocarbons (PAHs), and other priority pollutants, with emphasis on ecological integrity and public health implications in urban and oil-producing environments. His recent studies also explore phytoremediation pathways for impacted soils and practical strategies for pollution mitigation and environmental sustainability. \n In addition to his research output, he currently serves as Head of Department and has held several other strategic academic and administrative roles, including SIWES Coordinator, Research Project Coordinator, Examination Officer, and Staff Adviser to the Students' Chemical Society of Nigeria. He is committed to mentoring young scientists, strengthening laboratory and field-based environmental investigations, and advancing policy-relevant chemical research for national development.",
+    experience: [
+      {
+        title: "Head, Department of Chemistry, University of Uyo",
+        year: "2026 - present",
+      },
+      {
+        title:
+          "Professor of Inorganic Chemistry, Department of Chemistry, University of Uyo",
+        year: "2025 - present",
+      },
+      {
+        title: "Associate Professor, Department of Chemistry, University of Uyo",
+        year: "October 2017 - 2025",
+      },
+      {
+        title: "Staff Adviser for Students̓ Chemical Society of Nigeria, Department of Chemistry, University of Uyo",
+        year: "2015 - present",
+      },
+      {
+        title: "Departmental SIWES Coordinator, Department of Chemistry, University of Uyo",
+        year: "2014 - present",
+      },
+      {
+        title: "Coordinator, Remedial Chemistry, Department of Chemistry, University of Uyo",
+        year: "2012 - 2013",
+      },
+      {
+        title: "Departmental Welfare Officer, University of Uyo",
+        year: "2005 - 2010",
+      },
+      {
+        title: "Examination Officer",
+        year: "2000 - 2008",
+      },
+      {
+        title: "Coordinator, Research Project, Department of Chemistry, University of Uyo",
+        year: "2001 - 2010",
+      },
+      // {
+      //   title:
+      //     "Lecturer I, Department of Chemistry, University of Uyo",
+      //   year: "October 2016 - October 2019",
+      // },
+      // {
+      //   title:
+      //     "Lecturer II, Department of Chemistry, University of Uyo",
+      //   year: "October 2008 - October 2016",
+      // },
+      // {
+      //   title:
+      //     "Assistant Lecturer, Department of Chemistry, University of Uyo",
+      //   year: "October 2005 - October 2008",
+      // },
+      // {
+      //   title:
+      //     "Graduate Assistant, Department of Chemistry, University of Uyo",
+      //   year: "June 2000",
+      // },
+      {
+        title:
+          "PhD. Chemistry (Inorganic Chemistry with thesis on Trace metal levels: Levels, Speciation and Physicochemical Determinants of their bioavailability at Dumpsite soils within Akwa Ibom State, Niger Delta region of Nigeria (2014)), University of Calabar, Nigeria",
+        year: "2009 - 2014",
+      },
+      {
+        title:
+          "M.Sc. Applied Chemistry (Environmental with research on Chemical speciation and trace metal levels in water samples from Qua Iboe river estuary and its associated creeks, Ibeno, Nigeria (1999)), University of Uyo, Nigeria",
+        year: "1997 - 2001",
+      },
+      {
+        title:
+          "B.Sc. (Hons) Applied Chemistry, University of Uyo, Nigeria",
+        year: "1990 -1994",
+      },
+      {
+        title:
+          "Chemistry Master Government Grammar Secondary School, Bichi, Kano State: (NYSC)",
+        year: "1994 -1995",
+      },
+      {
+        title:
+          "Head of Research Unit, Eti-Udoessien and Associates, an Environmental Consultancy Firm",
+        year: "1995 -1999",
+      },
+    ],
+    awards: [
+      {
+        type: "Research Grant",
+        awarder: "TETFUND",
+        year: "2016",
+      },
+      {
+        type: "Golden Award",
+        awarder: "National Association of Akwa Ibom State Students",
+        year: "2016",
+      },
+      {
+        type: "Award of Excellence Service",
+        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
+        year: "2015",
+      },
+      {
+        type: "Distinguish Service Award",
+        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
+        year: "2014",
+      },
+      {
+        type: "Merit Award",
+        awarder: "Chemistry Graduating Students",
+        year: "2005",
+      },
+      {
+        type: "Professional Excellence Award",
+        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
+        year: "2003",
+      },
+      {
+        type: "Distinguish Service Award",
+        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
+        year: "2000",
+      },
+      {
+        type: "Award of Excellence Service",
+        awarder: "Enugu Students’ Association, University of Uyo Branch",
+        year: "2000",
+      },
+    ],
+    researchAreas: [
+      "Environmental chemistry and pollution monitoring",
+      "Trace metal contamination, speciation, and risk assessment",
+      "Air quality assessment and health impact studies",
+      "Soil, sediment, and water quality assessment",
+      "Phytoremediation of contaminated and waste-impacted soils",
+      "PAHs and toxic contaminants in environmental and food matrices",
+      "Human and ecological health risk assessment",
+      "Environmental sustainability and remediation strategies",
+    ],
+    researchCollaborators: [
+
+    ],
+    publications: [
+      {
+        title: "Job, J. E., Ebong, G. A. and Uwah, E. I. (2026). Human-related activities in Akpanandem Market, Uyo during the dry and wet seasons and their related impact on the air quality and human health. Journal of Materials and Environmental Science, 17(1): 202-216.",
+      },
+      {
+        title: "Ejeh, A. M., Ebong, G. A., and Moses, E. A. (2025). Influence of Soil Properties and Metal Interactions on the Phytoremediation of Impacted Soils by Jatropha gossypiifolia. Green Energy and Environmental Technology, 4. https://doi.org/10.5772/geet.20250005",
+      },
+      {
+        title: "Ikpe, E., Udo, A., Ebong, G., Osagie, A., Akpan, A., Udo, I., and Ubong, U. (2025). The Levels of Polycyclic Aromatic Hydrocarbons (PAHs) and Some Heavy Metals in Ibagwa River, Akwa Ibom State, Nigeria. Researchers Journal of Science and Technology, 5(5): 65-81. https://rejost.com.ng/index.php/home/article/view/208",
+      },
+      {
+        title: "Ebong, G. A., Ejeh, A. M., and Moses, E. A. (2025). Phytoremediation a Panacea for Sustaining Soil and Human Health in Crude Oil Producing Area of Nigeria. Nepal Journal of Biotechnology, 13(1): 61-74. https://doi.org/10.54796/njb.v13i1.404",
+      },
+      {
+        title: "Ebong, G. A. and Bassey, I. N. (2025). Consumers' health risks associated with toxic metals in Moringa oleifera leaves herbal products in the South-South Zone of Nigeria. Journal of Materials and Environmental Science, 16(7): 1296-1310.",
+      },
+      {
+        title: "Ebong, G. A., Etuk, H. S., and Ambrose, I. S. (2025). Tricycles and Their Impacts on Air Pollution within Uyo urban South-eastern Nigeria. Journal of Nepal Chemical Society, 45(1): 13-24. https://doi.org/10.3126/jncs.v45i1.74241",
+      },
+      {
+        title: "Ejeh, A. M., Ebong, G. A. and Moses, E. A. (2025). Phytoremediation Potential of Jatropha gossypiifolia for Toxic metals in Waste-Impacted Soils Amended with Citric and Ethylenediaaminetetraacetic Acids. Journal of Materials and Environmental Science, 16(1): 68-91.",
+      },
+      {
+        title: "Ebong, G. A.,  Anweting, I. B.,  Etuk, H. S. and Ikpe, E. E. (2024). Cancer and non-cancer risks potentials of metals in transformer impacted soils in Nigeria. Journal of Materials and Environmental Science, 15(4): 512-729. http://www.jmaterenvironsci.com. (Morocco)",
+      },
+      {
+        title: "Akpabio, J. U.,  Okon, A. O., Ebong, G. A., Udoinyang, E. P.,  Essien, E. A., Josiah, I. U. and Akpan, A. W. (2024). Pertubation of Road Construction and Inorganic Sedimentation on the Macroinvetebrate Fauna in the Midstream Segment of Qua Iboe River, Nigeria. Asian Journal of Advanced Research and Reports, 18(4): 24-33. (UK)",
+      },
+      {
+        title: "Anweting, I. B., Ebong, G. A., Okon, I. E., Etuk, H. S. and Etim, I. S. (2024). Physicochemical Characteristics and Heavy Metals Assessment of Surface Water and Sediment from Idim Idaang Stream in Ibiono Ibom, Akwa Ibom State, Nigeria. Journal of Materials and Environmental Science, 15(1): 72-83.(Morocco)",
+      },
+      {
+        title: "Ebong, G. A., Anweting, I. B., Etuk, H. S., Ambrose, I. S. and Okon, A. O. (2023). Impacts of varied industrial activities within southern Nigeria on air environment and human health. GSC Advanced Research and Reviews, 17(03): 134–144. (India)",
+      },
+      {
+        title: "Etuk, H. S., Ebong, G. A., Okon, A. O., Anweting, I. B., and Ekot, A. E. (2023). Spatial and seasonal variations, ecological and human risks of trace metals in major rivers within the oil producing zone of Nigeria. World Journal of Advanced Pharmaceutical and Medical Research, 05(02): 001–017. (Philippines)",
+      },
+      {
+        title: "Ebong, G. A., Etuk, H. S., Okon, A. O., Anweting, I. B., Ekot, A. E. and. Essien, J. P. (2023). Air Quality Index of some Commercial Centres in Uyo Metropolitan Area, Akwa Ibom State, Nigeria. British Journal of Earth Sciences Research, 11(3): 28-46. (UK)",
+      },
+      {
+        title: "Ebong, G. A., Etuk, H. S., Anweting, I. B., Ekot, A. E. and. Ite, A. E. (2023). Relationship between traffic density, metal accumulation, pollution status, and human health problems in roadside soils and vegetables within the South-South Region of Nigeria. International Journal of Environment, Agriculture and Biotechnology, 8(3): 65 -79. (Italy)",
+      },
+      {
+        title: "Dan, E. U., Ebong, G. A., Etuk, H. S. and Daniel, I. E. (2023). Carcinogenic Potentials of Toxic Metals and Polycyclic Aromatic Hydrocarbons in Telfairia occidentalis and Talinum triangulare Impacted by Wastewater, Southern Nigeria. Environmental Protection Research, 3(1): 110 -129. (Singapore)",
+      },
+      {
+        title: "Ebong, G. A., Etuk , H. S., Umoren , I. U. and Umanah , K. I. (2022). Effects of NPK fertilizers on  trace metals loads in soil and vegetables, bioavailability in vegetables and the related health risk using simulation techniques. World Journal of Applied Science and Technology, 14(2): 42 – 52. (Nigeria)",
+      },
+      {
+        title: "Ebong, G. A., Etuk, H. S., Anweting, I. B. and Bassey, I. N. (2022). Soil Characteristics Interrelationship with Treated Soil Micronutrients in Nigerian Southern. Chemical Science International Journal, 31(6): 51 - 63. (London)",
+      },
+    ],
+  },
+  {
     image: [profInam, eduInam],
     title: "Professor",
     fullName: "edu inam",
@@ -94,13 +302,13 @@ const staffData: Lecturer[] = [
       "Edu Inam is an experienced and ambitious academic of the rank of a professor in analytical and environmental chemistry, with over 20 years in the university system across Africa, Europe and Asia. \n Edu Inam is very passionate about STEM education and the advancement of research and innovation in her country. She has championed and participated in several key research and innovation projects focused on environmental sustainability issues including water resources management, waste valorisation, and renewable energy. \n Edu Inam has extensive experience in environmental monitoring and analysis, pollution, ecological and human health risk, environmental projects design, data interpretation and compliance-related issues. She has clarity in communications, strong leadership qualities honed by experiences gathered from the various leadership roles undertaken during her academic career. \n Edu Inam is also passionate about developing young talents – She has over the years consistently inspired her students to reach their potentials",
     experience: [
       {
-        title: "Head, Department of Chemistry, University of Uyo",
-        year: "2022 - present",
-      },
-      {
         title:
           "Director, International Centre for Energy and Environmental Sustainability Research",
         year: "2018 - present",
+      },
+      {
+        title: "Head, Department of Chemistry, University of Uyo",
+        year: "2022 - 2026",
       },
       {
         title:
@@ -673,179 +881,7 @@ const staffData: Lecturer[] = [
       },
     ],
   },
-  {
-    image: godwinEbong,
-    title: "Professor",
-    fullName: "godwin ebong",
-    email: ["godwinebong@uniuyo.edu.ng"],
-    googleScholar: "",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=16743659700",
-    orcid: "https://orcid.org/0000-0003-4555-3090",
-    website: "",
-    linkedIn: "",
-    unit: "Inorganic Chemistry",
-    officeNo: "Room 149",
 
-    profile: "",
-    experience: [
-      {
-        title:
-          "Professor of Inorganic Chemistry, Department of Chemistry, University of Uyo",
-        year: "2025 - present",
-      },
-      {
-        title: "Associate Professor, Department of Chemistry, University of Uyo",
-        year: "October 2017 - 2025",
-      },
-      {
-        title: "Staff Adviser for Students̓ Chemical Society of Nigeria, Department of Chemistry, University of Uyo",
-        year: "2015 - present",
-      },
-      {
-        title: "Departmental SIWES Coordinator, Department of Chemistry, University of Uyo",
-        year: "2014 - present",
-      },
-      {
-        title: "Coordinator, Remedial Chemistry, Department of Chemistry, University of Uyo",
-        year: "2012 - 2013",
-      },
-      {
-        title: "Departmental Welfare Officer, University of Uyo",
-        year: "2005 - 2010",
-      },
-      {
-        title: "Examination Officer",
-        year: "2000 - 2008",
-      },
-      {
-        title: "Coordinator, Research Project, Department of Chemistry, University of Uyo",
-        year: "2001 - 2010",
-      },
-      // {
-      //   title:
-      //     "Lecturer I, Department of Chemistry, University of Uyo",
-      //   year: "October 2016 - October 2019",
-      // },
-      // {
-      //   title:
-      //     "Lecturer II, Department of Chemistry, University of Uyo",
-      //   year: "October 2008 - October 2016",
-      // },
-      // {
-      //   title:
-      //     "Assistant Lecturer, Department of Chemistry, University of Uyo",
-      //   year: "October 2005 - October 2008",
-      // },
-      // {
-      //   title:
-      //     "Graduate Assistant, Department of Chemistry, University of Uyo",
-      //   year: "June 2000",
-      // },
-      {
-        title:
-          "PhD. Chemistry (Inorganic Chemistry with thesis on Trace metal levels: Levels, Speciation and Physicochemical Determinants of their bioavailability at Dumpsite soils within Akwa Ibom State, Niger Delta region of Nigeria (2014)), University of Calabar, Nigeria",
-        year: "2009 - 2014",
-      },
-      {
-        title:
-          "M.Sc. Applied Chemistry (Environmental with research on Chemical speciation and trace metal levels in water samples from Qua Iboe river estuary and its associated creeks, Ibeno, Nigeria (1999)), University of Uyo, Nigeria",
-        year: "1997 - 2001",
-      },
-      {
-        title:
-          "B.Sc. (Hons) Applied Chemistry, University of Uyo, Nigeria",
-        year: "1990 -1994",
-      },
-      {
-        title:
-          "Chemistry Master Government Grammar Secondary School, Bichi, Kano State: (NYSC)",
-        year: "1994 -1995",
-      },
-      {
-        title:
-          "Head of Research Unit, Eti-Udoessien and Associates, an Environmental Consultancy Firm",
-        year: "1995 -1999",
-      },
-    ],
-    awards: [
-      {
-        type: "Research Grant",
-        awarder: "TETFUND",
-        year: "2016",
-      },
-      {
-        type: "Golden Award",
-        awarder: "National Association of Akwa Ibom State Students",
-        year: "2016",
-      },
-      {
-        type: "Award of Excellence Service",
-        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
-        year: "2015",
-      },
-      {
-        type: "Distinguish Service Award",
-        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
-        year: "2014",
-      },
-      {
-        type: "Merit Award",
-        awarder: "Chemistry Graduating Students",
-        year: "2005",
-      },
-      {
-        type: "Professional Excellence Award",
-        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
-        year: "2003",
-      },
-      {
-        type: "Distinguish Service Award",
-        awarder: "Students’ Chemical Society of Nigeria, University of Uyo Branch",
-        year: "2000",
-      },
-      {
-        type: "Award of Excellence Service",
-        awarder: "Enugu Students’ Association, University of Uyo Branch",
-        year: "2000",
-      },
-    ],
-    researchAreas: ["Trace Metals"],
-    researchCollaborators: [
-
-    ],
-    publications: [
-      {
-        title: "Ebong, G. A.,  Anweting, I. B.,  Etuk, H. S. and Ikpe, E. E. (2024). Cancer and non-cancer risks potentials of metals in transformer impacted soils in Nigeria. Journal of Materials and Environmental Science, 15(4): 512-729. http://www.jmaterenvironsci.com. (Morocco)",
-      },
-      {
-        title: "Akpabio, J. U.,  Okon, A. O., Ebong, G. A., Udoinyang, E. P.,  Essien, E. A., Josiah, I. U. and Akpan, A. W. (2024). Pertubation of Road Construction and Inorganic Sedimentation on the Macroinvetebrate Fauna in the Midstream Segment of Qua Iboe River, Nigeria. Asian Journal of Advanced Research and Reports, 18(4): 24-33. (UK)",
-      },
-      {
-        title: "Anweting, I. B., Ebong, G. A., Okon, I. E., Etuk, H. S. and Etim, I. S. (2024). Physicochemical Characteristics and Heavy Metals Assessment of Surface Water and Sediment from Idim Idaang Stream in Ibiono Ibom, Akwa Ibom State, Nigeria. Journal of Materials and Environmental Science, 15(1): 72-83.(Morocco)",
-      },
-      {
-        title: "Ebong, G. A., Anweting, I. B., Etuk, H. S., Ambrose, I. S. and Okon, A. O. (2023). Impacts of varied industrial activities within southern Nigeria on air environment and human health. GSC Advanced Research and Reviews, 17(03): 134–144. (India)",
-      },
-      {
-        title: "Etuk, H. S., Ebong, G. A., Okon, A. O., Anweting, I. B., and Ekot, A. E. (2023). Spatial and seasonal variations, ecological and human risks of trace metals in major rivers within the oil producing zone of Nigeria. World Journal of Advanced Pharmaceutical and Medical Research, 05(02): 001–017. (Philippines)",
-      },
-      {
-        title: "Ebong, G. A., Etuk, H. S., Okon, A. O., Anweting, I. B., Ekot, A. E. and. Essien, J. P. (2023). Air Quality Index of some Commercial Centres in Uyo Metropolitan Area, Akwa Ibom State, Nigeria. British Journal of Earth Sciences Research, 11(3): 28-46. (UK)",
-      },
-      {
-        title: "Ebong, G. A., Etuk, H. S., Anweting, I. B., Ekot, A. E. and. Ite, A. E. (2023). Relationship between traffic density, metal accumulation, pollution status, and human health problems in roadside soils and vegetables within the South-South Region of Nigeria. International Journal of Environment, Agriculture and Biotechnology, 8(3): 65 -79. (Italy)",
-      },
-      {
-        title: "Dan, E. U., Ebong, G. A., Etuk, H. S. and Daniel, I. E. (2023). Carcinogenic Potentials of Toxic Metals and Polycyclic Aromatic Hydrocarbons in Telfairia occidentalis and Talinum triangulare Impacted by Wastewater, Southern Nigeria. Environmental Protection Research, 3(1): 110 -129. (Singapore)",
-      },
-      {
-        title: "Ebong, G. A., Etuk , H. S., Umoren , I. U. and Umanah , K. I. (2022). Effects of NPK fertilizers on  trace metals loads in soil and vegetables, bioavailability in vegetables and the related health risk using simulation techniques. World Journal of Applied Science and Technology, 14(2): 42 – 52. (Nigeria)",
-      },
-      {
-        title: "Ebong, G. A., Etuk, H. S., Anweting, I. B. and Bassey, I. N. (2022). Soil Characteristics Interrelationship with Treated Soil Micronutrients in Nigerian Southern. Chemical Science International Journal, 31(6): 51 - 63. (London)",
-      },
-    ],
-  },
   {
     image: uwah,
     title: "Professor",
