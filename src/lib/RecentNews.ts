@@ -289,6 +289,12 @@ import hodElection2 from "@/public/images/hod-elections/hod-election2.jpeg";
 import hodElection3 from "@/public/images/hod-elections/hod-election3.jpeg";
 import hodElection4 from "@/public/images/hod-elections/hod-election4.jpeg";
 import hodElection5 from "@/public/images/hod-elections/hod-election5.jpeg";
+import iwotDefense from "@/public/images/phd-iwot1.jpeg";
+import iwotDefense2 from "@/public/images/phd-iwot2.jpeg";
+import iwotDefense3 from "@/public/images/phd-iwot3.jpeg";
+import iwotDefense4 from "@/public/images/phd-iwot4.jpeg";
+import iwotDefense5 from "@/public/images/phd-iwot5.jpeg";
+import iwotDefense6 from "@/public/images/phd-iwot6.jpeg";
 
 
 export interface recentNewsTypes {
@@ -302,6 +308,23 @@ export interface recentNewsTypes {
 
 export const recentNews: recentNewsTypes[] = [
   {
+    date: "April 2, 2026",
+    title:
+      "Physical Chemistry PhD Candidate Odudu Akpan Iwot Successfully Defends Doctoral Thesis",
+    description: [
+      "The Department of Chemistry, University of Uyo, proudly celebrates the successful doctoral defense of Odudu Akpan Iwot (17/PG/FS/CH/PhD/001), a PhD candidate in Physical Chemistry, who has now fulfilled the requirements for the award of the Doctor of Philosophy degree.",
+      "At the postgraduate oral examination held on Thursday, April 2, 2026 at the HOD's Office, Department of Chemistry, Mr. Iwot presented and defended his thesis titled 'Studies on Kinetics and Thermodynamic Effects of Primary Colours on Some Photochemical Reactions.'",
+      "His study, situated at the interface of kinetics, thermodynamics, and photochemistry, contributes to a deeper scientific understanding of how primary colour systems influence reaction behavior, energy profiles, and mechanistic pathways in selected photochemical processes.",
+      "The research was supervised by Prof. James Asuquo and Dr. Ekerette BoEkom, whose mentorship, technical guidance, and academic support were instrumental to the successful completion of this doctoral work.",
+      "Dr. BoEkom, in his remarks, commended the candidate's performance and highlighted the significance of mentoring a Fellow of the Chemical Society of Nigeria (FCSN), noting the value of sustained scholarship and professional commitment in advancing the discipline.",
+      "In his congratulatory message, the Head of Department, Professor Godwin Ebong, praised Dr. Odudu Akpan Iwot for his outstanding scholarly effort and composure during the defense, and commended the supervisors for their dedication to high-quality postgraduate mentorship and research in the Physical Chemistry Unit.",
+      "The Department also acknowledges the participation of Prof. Benedict Iserom Ita of the Department of Pure and Applied Chemistry, University of Calabar, who served as External Examiner and contributed valuable scholarly insight to the assessment process.",
+      "The Department of Chemistry extends heartfelt congratulations to Dr. Odudu Akpan Iwot and warmly appreciates the dedication of his supervisors, Prof. James Asuquo and Dr. Ekerette BoEkom, on this important academic milestone."
+    ],
+    pictures: [iwotDefense, iwotDefense2, iwotDefense3, iwotDefense4, iwotDefense5, iwotDefense6],
+    tag: "student",
+  },
+  {
     date: "March 13, 2026",
     title:
       "Department of Chemistry Makes University History with First ASUU-Guided HOD Election, Elects Professor Godwin Ebong",
@@ -314,6 +337,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department of Chemistry extends its heartfelt gratitude to Professor Edu Inam for her years of dedicated service and wishes her the best in her future endeavors."
     ],
     pictures: [hodElection, hodElection2, hodElection3, hodElection4, hodElection5],
+    tag: "student",
   },
   {
     date: "February 2026",
@@ -367,6 +391,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department of Chemistry takes pride in this accomplishment and looks forward to the contributions Dr. Ekpoudo will make to the field of chemistry as he embarks on the next phase of his career."
     ],
     pictures: [phd2026a, phd2026b, phd2026c, phd2026d, phd2026e],
+    tag: "student",
   },
   {
     date: "January 2026",
@@ -381,6 +406,7 @@ export const recentNews: recentNewsTypes[] = [
       "The Department celebrates this milestone and wishes Mr. Obong continued success in his academic and professional endeavors as he applies his research findings to address real-world chemical challenges."
     ],
     pictures: [phd2026a, phd2026b, phd2026c, phd2026d, phd2026e],
+    tag: "student",
   },
   {
     date: "October, 2025",
@@ -396,7 +422,8 @@ export const recentNews: recentNewsTypes[] = [
       "The Department extends warm appreciation to the event organizers and all who made the students’ participation possible, reaffirming its dedication to nurturing globally relevant and innovation-driven scientists."
     ],
     
-    pictures: [aktw25, aktw25a, aktw25b, aktw25c]
+    pictures: [aktw25, aktw25a, aktw25b, aktw25c],
+    tag: "student",
   },
   {
     date: "September 4, 2025",
@@ -412,7 +439,8 @@ export const recentNews: recentNewsTypes[] = [
       "Special appreciation goes to Dr. Helen Etuk, who represented the HOD, Prof. Edu Inam, for her support, as well as to the supervisors and colleagues who attended the examinations.",
       "The Department extends heartfelt congratulations to the students and their supervisors for this remarkable achievement."
     ],
-    pictures: [newMscDefense, newMscDefense2]
+    pictures: [newMscDefense, newMscDefense2],
+    tag: "student",
   },
   {
     date: "August 20, 2025",
@@ -438,7 +466,8 @@ export const recentNews: recentNewsTypes[] = [
       "In a show of continued support, Dr. Uwemedimo Udo, Executive Chairman of Uyo Local Government Area and an alumnus of the department, donated a Semi-Silent Zero Gravity 10 kVA generator to ensure uninterrupted power supply for the lab. He also announced a ₦500,000 annual award for the department’s best graduating student over the next 10 years.",
       "The University of Uyo community celebrates this milestone as a proud step toward academic transformation, research excellence, and a brighter future for science education in Nigeria."
     ],
-    pictures: [commissioning2, commissioning1, commissioning3, commissioning4, commissioning5, commissioning6, commissioning7, commissioning8, commissioning11, commissioning12, commissioning13, commissioning15, commissioning16, commissioning19, commissioning21, commissioning22, commissioning23, commissioning24, commissioning25, commissioning26, commissioning27]
+    pictures: [commissioning2, commissioning1, commissioning3, commissioning4, commissioning5, commissioning6, commissioning7, commissioning8, commissioning11, commissioning12, commissioning13, commissioning15, commissioning16, commissioning19, commissioning21, commissioning22, commissioning23, commissioning24, commissioning25, commissioning26, commissioning27],
+    tag: "student",
   },
   {
   date: "August 3, 2025",
@@ -451,6 +480,7 @@ export const recentNews: recentNewsTypes[] = [
     "All are cordially invited to witness this important development in the university’s scientific journey."
   ],
   pictures: [commissioning],
+  tag: "student",
 },
 {
   date: "August 1, 2025",
@@ -467,6 +497,7 @@ export const recentNews: recentNewsTypes[] = [
   ],
   writtenBy: "Comr. Pius Eche",
   pictures: [profInam],
+  tag: "student",
 },
   {
   date: "July 28, 2025",
@@ -489,6 +520,7 @@ export const recentNews: recentNewsTypes[] = [
     "\nThe Department celebrates these milestones and looks forward to the continued success of its postgraduate students as they contribute to scientific advancement, sustainable development, and national growth."
   ],
   pictures: [mscDefense, mscDefense1, mscDefense2, mscDefense3, mscDefense4, mscDefense5],
+  tag: "student",
 },
 
   {
@@ -506,6 +538,7 @@ export const recentNews: recentNewsTypes[] = [
       "\nThe Head of Department, Professor Edu Inam, along with the staff and students of the Department of Chemistry, extend their heartfelt congratulations to Dr. Dan. His success is not only a personal milestone but also a source of pride for the department and the University of Uyo community at large. The department looks forward to his continued contributions to the advancement of environmental science and materials chemistry."
     ],
     pictures: [phdEmmaDan],
+    tag: "student",
   },
   {
     "date": "July 5, 2025",
@@ -589,6 +622,7 @@ export const recentNews: recentNewsTypes[] = [
       "She further encouraged him to represent the department and the university with distinction at the international gathering.",
     ],
     pictures: [schoolLogo],
+    tag: "student",
   },
   {
     date: "April 11, 2025",
@@ -624,6 +658,7 @@ export const recentNews: recentNewsTypes[] = [
       "\nThis circular supersedes all previous announcements, including the one dated.",
     ],
     pictures: [schoolLogo],
+    tag: "student",
   },
 
   {
@@ -677,6 +712,7 @@ export const recentNews: recentNewsTypes[] = [
       "For complaints, visit the Departmental Office on Monday - Wednesday between 10AM and 2PM or contact Nathaniel electronically at 09034940576.",
     ],
     pictures: [schoolLogo],
+    tag: "student",
   },
   {
     date: "February, 2025",
@@ -714,6 +750,7 @@ export const recentNews: recentNewsTypes[] = [
       orientation17,
       orientation18,
     ],
+    tag: "student",
   },
   {
     date: "February, 2025",
@@ -773,7 +810,6 @@ export const recentNews: recentNewsTypes[] = [
   },
   {
     date: "December, 2024",
-    tag: "",
     title:
       "NUC Accreditation Team Commends University of Uyo Chemistry Department",
     description: [
@@ -782,6 +818,7 @@ export const recentNews: recentNewsTypes[] = [
       "For further updates on departmental activities, stay connected to the Chemistry Department's website.",
     ],
     pictures: [nuc1, nuc2],
+    tag: "student",
   },
   {
     date: "November, 2024",
@@ -1003,6 +1040,7 @@ export const recentNews: recentNewsTypes[] = [
       "\nFor further details on the approved calendar, please download the approved calender below",
     ],
     pictures: [schoolLogo],
+    tag: "student",
   },
   {
     date: "September 27, 2024",
