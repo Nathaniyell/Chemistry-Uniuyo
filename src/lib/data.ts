@@ -56,6 +56,7 @@ import philomenaUfia from "@/public/images/mrs_ufia1.jpg";
 import nucAppointment from "@/public/images/prof-inam-nuc.jpeg";
 import hodElection from "@/public/images/hod-elections/hod-election1.jpeg";
 import iwotDefense from "@/public/images/phd-iwot1.jpeg";
+import hodElection2 from "@/public/images/hod-elections/hod-election2.jpeg";
 
 
 export const chemistryUnits = [
@@ -88,6 +89,11 @@ const homeData: HomeDataItem[] = [
   {
     image: iwotDefense,
     title: "Physical Chemistry PhD Candidate Odudu Akpan Iwot Successfully Defends Doctoral Thesis",
+    btnLink: "/recent-news",
+  },
+  {
+    image: hodElection2,
+    title:  "A Transformative Four-Year Legacy: Professor Edu Inam Concludes Tenure as Head of Department",
     btnLink: "/recent-news",
   },
   {
