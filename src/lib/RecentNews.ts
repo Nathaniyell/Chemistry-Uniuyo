@@ -336,7 +336,7 @@ export const recentNews: recentNewsTypes[] = [
       "Administrative systems were also strengthened through active sub-committees covering finance and grants, quality assurance, accreditation, examination and ethics, postgraduate matters, and project and seminar coordination. The opening of a departmental account with UNIUYO Microfinance Bank improved handling of students' dues and departmental entitlements, while support from stakeholders, including the donation of a generator and the institution of a best graduating student prize in Chemistry by Dr. Uwemedimoh Udo, further advanced departmental goals. Alongside these gains, students continued to represent the department on innovation platforms such as Akwa Ibom Tech Week, reinforcing the department's growing visibility and relevance.",
       "The Department of Chemistry sincerely appreciates Professor Edu Inam for her dedication, integrity, and transformational leadership. Her years of service have built a strong foundation for continued progress in academic excellence, research productivity, infrastructure development, and institutional service, and the department joins her in wishing the incoming administration success in taking the department to even greater heights."
     ],
-    pictures: [profInam],
+    pictures: [hodElection2],
   },
   {
     date: "March 13, 2026",
