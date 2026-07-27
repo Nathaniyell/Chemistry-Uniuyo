@@ -295,6 +295,7 @@ import iwotDefense3 from "@/public/images/phd-iwot3.jpeg";
 import iwotDefense4 from "@/public/images/phd-iwot4.jpeg";
 import iwotDefense5 from "@/public/images/phd-iwot5.jpeg";
 import iwotDefense6 from "@/public/images/phd-iwot6.jpeg";
+import impactPrize from "@/public/images/Impact-Prize-Header-Image-scaled.jpg";
 
 
 export interface recentNewsTypes {
@@ -307,6 +308,20 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "July 16, 2026",
+    title:
+      "Congratulations to Professor Edu Inam on Receiving the 2026 Schlumberger Foundation Faculty for the Future Impact Prize",
+    description: [
+      "The Department of Chemistry, University of Uyo, proudly congratulates Professor Edu James Inam on being named one of nine recipients of the 2026 Faculty for the Future Impact Prize by the Schlumberger Foundation.",
+      "The merit-based award recognizes Faculty for the Future Fellows who are translating their scientific and engineering expertise into initiatives with demonstrated potential for wider impact. Selected from 156 applications across 61 countries, the 2026 Impact Prize honors outstanding work in Educational Outreach, Technology Innovation, and Social Impact.",
+      "Professor Inam was recognized for her initiative, Scaling a Research Equipment Database for Equitable Access in Nigeria. The project addresses a major barrier to research excellence in many low- and middle-income countries: the underutilization and unequal access to scientific equipment for research and innovation. By developing and scaling a comprehensive national research equipment database, the initiative aims to improve equipment visibility, promote resource sharing, strengthen collaboration among institutions, and maximize the return on investments in research infrastructure.",
+      "For more than two decades, the Schlumberger Foundation's Faculty for the Future program has supported women scientists and engineers from emerging and developing economies in pursuing advanced Science, Technology, Engineering and Mathematics (STEM) research and developing their leadership. The Impact Prize builds on that legacy by providing funding, visibility, and connection to the wider fellowship, helping recipients extend their reach and deepen their impact.",
+      "Professor Inam expressed gratitude to the SLB Faculty for the Future programme for its continued commitment to empowering women scientists, and acknowledged the support of her team members, collaborators, mentors, the Faculty for the Future Nigeria community, and partner institutions. She looks forward to working with partners across academia, government, industry, and development organizations to transform the initiative into a scalable platform that accelerates scientific discovery and innovation in Nigeria.",
+      "The Department of Chemistry celebrates this distinguished international recognition and wishes Professor Inam continued success as she advances equitable access to research infrastructure and scientific excellence in Nigeria and beyond."
+    ],
+    pictures: [impactPrize],
+  },
   {
     date: "April 2, 2026",
     title:
