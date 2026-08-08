@@ -58,6 +58,7 @@ import hodElection from "@/public/images/hod-elections/hod-election1.jpeg";
 import iwotDefense from "@/public/images/phd-iwot1.jpeg";
 import hodElection2 from "@/public/images/hod-elections/hod-election2.jpeg";
 import impactPrize from "@/public/images/Impact-Prize-Header-Image-scaled.jpg";
+import phdDefense2026a from "@/public/images/2026-phd-defense1.jpg";
 
 
 export const chemistryUnits = [
@@ -86,6 +87,11 @@ const homeData: HomeDataItem[] = [
       "The Department of Chemistry is a vibrant hub of scientific inquiry and discovery at our university. Our world-class Lecturers and Professors, state-of-the-art facilities, and dynamic curriculum create an environment that fosters intellectual growth, hands-on learning, and interdisciplinary collaboration.",
     greeting: "",
     btnLink: "/about",
+  },
+  {
+    image: phdDefense2026a,
+    title: "Department of Chemistry Celebrates Outstanding Postgraduate Research Achievements",
+    btnLink: "/recent-news",
   },
   {
     image: impactPrize,
