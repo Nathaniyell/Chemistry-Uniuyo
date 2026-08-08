@@ -296,6 +296,8 @@ import iwotDefense4 from "@/public/images/phd-iwot4.jpeg";
 import iwotDefense5 from "@/public/images/phd-iwot5.jpeg";
 import iwotDefense6 from "@/public/images/phd-iwot6.jpeg";
 import impactPrize from "@/public/images/Impact-Prize-Header-Image-scaled.jpg";
+import phdDefense2026a from "@/public/images/2026-phd-defense1.jpg";
+import phdDefense2026b from "@/public/images/2026-phd-defense2.jpg";
 
 
 export interface recentNewsTypes {
@@ -308,6 +310,22 @@ export interface recentNewsTypes {
 }
 
 export const recentNews: recentNewsTypes[] = [
+  {
+    date: "August 7, 2026",
+    title: "Five Postgraduate Students Successfully Defend Their Theses and Dissertations",
+    description: [
+      "The Department of Chemistry, University of Uyo, proudly celebrates the successful theses and dissertations defence by five of its postgraduate students on August 7, 2026. The defence was intellectually engaging, with a thorough assessment by the external examiner, while the internal examiners and postgraduate school representative were equally rigorous. Kudos to the supervisors and the students, who demonstrated a strong understanding of their work.",
+      "Two PhD candidates and three Master of Science (MSc) students presented their research before the examining panel, covering organic and industrial chemistry.",
+      "Blessing Imoh Udoh (17/PG/FS/CH/PhD/003), a PhD candidate in Organic Chemistry, defended her thesis titled 'Characterisation, Anti-Inflammatory, and Analgesic Activities of Extracts and Compounds Isolated from Lasianthera africana Leaves.'",
+      "Aniekan Udo Solomon (17/PG/FS/CH/PhD/009), also a PhD candidate in Organic Chemistry, defended his thesis titled 'Characterisation of Compounds and Evaluation of the Anti-Inflammatory and Analgesic Activities of the Leaf Extracts of Heinsia crinita (Bush Apple).'",
+      "Idorenyin Emmanuel Moses (21/PG/FS/CH/008), an MSc candidate in Organic Chemistry, presented his dissertation on 'Characterisation and Biological Activities of Leaf-Extracts of Heinsia crinita,' supervised by Prof. Bassey S. Antia and Dr. Emmanuel E. Essien.",
+      "David Udo Ekanem (20/PG/FS/CH/002), an MSc candidate in Industrial Chemistry, defended his dissertation titled 'Nutritional and Quality Evaluation of Herbal Tea from Processed Leaves of Justicia secunda (Blood leaf),' supervised by Dr. Itoro Udo and Dr. Emmanuel Essien.",
+      "Glory Clement Sunday (19/PG/FS/CH/011), an MSc candidate in Industrial Chemistry, presented her dissertation on 'Nutritional, Microbial Load, and Sensory Quality Evaluation of Organic Formulated Powdered Beverage and Meal of Telfairia occidentalis Seeds,' supervised by Dr. Itoro Udo and Dr. Emmanuel Essien.",
+      "The Department of Chemistry extends heartfelt congratulations to the students and their supervisors on this remarkable academic milestone."
+    ],
+    pictures: [phdDefense2026a, phdDefense2026b],
+    tag: "student",
+  },
   {
     date: "July 16, 2026",
     title:
