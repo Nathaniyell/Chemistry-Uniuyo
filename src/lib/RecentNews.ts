@@ -298,6 +298,7 @@ import iwotDefense6 from "@/public/images/phd-iwot6.jpeg";
 import impactPrize from "@/public/images/Impact-Prize-Header-Image-scaled.jpg";
 import phdDefense2026a from "@/public/images/2026-phd-defense1.jpg";
 import phdDefense2026b from "@/public/images/2026-phd-defense2.jpg";
+import gccCertificate from "@/public/images/GCC Certificate - University of Uyo_page-0001.jpg";
 
 
 export interface recentNewsTypes {
@@ -339,6 +340,20 @@ export const recentNews: recentNewsTypes[] = [
       "The Department of Chemistry celebrates this distinguished international recognition and wishes Professor Inam continued success as she advances equitable access to research infrastructure and scientific excellence in Nigeria and beyond."
     ],
     pictures: [impactPrize],
+  },
+  {
+    date: "June 22, 2026",
+    title:
+      "University of Uyo Chemistry Department Joins Beyond Benign's Green Chemistry Commitment",
+    description: [
+      "The Department of Chemistry, University of Uyo, has been recognized by Beyond Benign as a signer of the Green Chemistry Commitment, joining over 300 academic institutions worldwide that are advancing the practice of green chemistry in higher education.",
+      "In a congratulatory letter addressed to the Vice Chancellor, Prof. Christopher Ekong, Beyond Benign Executive Director Amy S. Cannon, Ph.D., commended the department for taking a leadership role in preparing students to address sustainability challenges through chemistry. The Certificate of Leadership, Green Chemistry Commitment, was awarded to the University of Uyo on June 22, 2026.",
+      "Green chemistry equips chemists to develop safer, less hazardous chemical products and materials. With growing global demand for greener chemicals, students need 21st-century skills that can be applied in the laboratory and across the chemical enterprise. By embedding sustainability in chemistry education, scientists can reduce or eliminate hazards at the design stage and significantly lower environmental impacts.",
+      "As the global chemicals market is projected to double between 2017 and 2030, according to the United Nations' Global Chemicals Outlook II, scientists trained in green chemistry will be essential to sound chemicals management. Through this commitment, the University of Uyo joins leading institutions working to advance the United Nations Sustainable Development Goals (SDGs) through chemistry education.",
+      "Beyond Benign specifically commended Prof. Edu Inam, Prof. Atim Johnson, and Prof. Godwin Ebong for their leadership in meeting the growing demand for students trained with green chemistry skills, and expressed interest in continued collaboration as the department implements green chemistry across its courses and programmes.",
+      "The Department of Chemistry celebrates this international recognition and remains committed to preparing scientists and citizens who can contribute meaningfully to a more sustainable chemical future."
+    ],
+    pictures: [gccCertificate],
   },
   {
     date: "April 2, 2026",

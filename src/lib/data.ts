@@ -59,6 +59,7 @@ import iwotDefense from "@/public/images/phd-iwot1.jpeg";
 import hodElection2 from "@/public/images/hod-elections/hod-election2.jpeg";
 import impactPrize from "@/public/images/Impact-Prize-Header-Image-scaled.jpg";
 import phdDefense2026a from "@/public/images/2026-phd-defense1.jpg";
+import gccCertificate from "@/public/images/GCC Certificate - University of Uyo_page-0001.jpg";
 
 
 export const chemistryUnits = [
@@ -96,6 +97,11 @@ const homeData: HomeDataItem[] = [
   {
     image: impactPrize,
     title: "Congratulations to Professor Edu Inam on Receiving the 2026 Schlumberger Foundation Faculty for the Future Impact Prize",
+    btnLink: "/recent-news",
+  },
+  {
+    image: gccCertificate,
+    title: "University of Uyo Chemistry Department Joins Beyond Benign's Green Chemistry Commitment",
     btnLink: "/recent-news",
   },
   {
