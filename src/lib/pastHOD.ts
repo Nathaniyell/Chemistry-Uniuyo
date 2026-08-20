@@ -69,6 +69,10 @@ export const pastHODs = [
     },
     {
         name: "Professor Edu J. Inam",
-        year: "2022 - present"
+        year: "2022 - 2026"
+    },
+    {
+        name: "Professor Godwin A. Ebong",
+        year: "2026 - present"
     },
 ]

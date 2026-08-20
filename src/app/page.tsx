@@ -45,7 +45,7 @@ export default function Home() {
       title: "Well-Equipped Research Facilities",
       content:
         "We offer research facilities to support studies and innovative research projects. Our research centre aims to offer state-of-the-art research and innovation infrastructure for advanced work.",
-      link: "www.iceesr.org.ng",
+      link: "/resources",
     },
     {
       title: "Modern E-Resources",
